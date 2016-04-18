@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <d802>
+            <Filename>Turbo-d802-3.4-UNOFFICIAL-20160418-220024</Filename>
+            <RomUrl
+                id="rom"
+                title="ROM"
+                description="Download Turbo ROM builds">https://www.androidfilehost.com/?w=files&amp;flid=53392</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View changelog">https://github.com/TurboROM/Documentation/blob/mm/CHANGELOG.mkdn</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="GApps"
+                description="Download the latest Open GApps">http://opengapps.org/</GappsUrl>
+        </d802>
+    </Stable>
+</TurboOTA>

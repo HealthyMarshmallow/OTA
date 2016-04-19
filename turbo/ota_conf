@@ -1,5 +1,5 @@
 # Common OTA url for LG G2 device
-ota_url=https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/turbo.xml
+ota_url=https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/turbo/ota.xml
 release_type=Stable
 device_name=ro.turbo.device
 

@@ -3,7 +3,7 @@ ota_url=https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/turbo.xml
 release_type=Stable
 device_name=ro.turbo.device
 
-# Example ro.turbo.version=Turbo-d802-3.4-UNOFFICIAL-20160418-111349
+# Example ro.modversion=Turbo-d802-3.4-UNOFFICIAL-20160418-111349
 # version_position is zero based and it's compared to Filename in OTA XML
 version_source=ro.modversion
 version_delimiter=-

@@ -1,0 +1,139 @@
+CHANGES AFTER 2016-04-25 @ 08:35:05 (1461573305)
+
+                        ______ ______ 
+           .-----.-----|  __  |    __|
+           |-- __|  _  |  __  |__    |
+           |_____|___  |______|______|
+                 |_____|              
+
+
+* Project OTA/
+724aaf0 # 2016-04-25 # Zdrowy Gosciu @ OTA: Turbo-d802-3.4-UNOFFICIAL-20160425-082332
+
+* Project art/
+cde1028 # 2016-04-25 # Jurica Vukadin @ art: disable FDO
+fec88e2 # 2016-04-25 # Evgenii Stepanov @ Disable sanitization of dex2oat on device.
+ba12822 # 2016-04-25 # Igor Murashkin @ base: Fix an infinite loop in HashSet::Insert
+248d5d0 # 2016-04-25 # Vladimir Marko @ ART: Fix potential integer overflow in JNI.
+8a459ab # 2016-04-25 # Mathieu Chartier @ Fix hash set memory leaks
+4e90d4b # 2016-04-25 # Dan Albert @ Fix C++14 bitrot.
+498b111 # 2016-04-25 # Roland Levillain @ Delegate long-to-float type conversions to the runtime on ARM.
+ca4124d # 2016-04-25 # Mathieu Chartier @ Fix race condition for method root marking in VisitNativeRoots
+64f0494 # 2016-04-25 # Vladimir Marko @ ART: Improve Indenter performance.
+f9a5c16 # 2016-04-25 # Chet Kener @ Make sure debug flags mirror non-debug flags
+c8b24d9 # 2016-04-25 # Chet Kener @ art: Use Optimized compiler by default
+dede968 # 2016-04-25 # Chet Kener @ art: Disable Some Debugging
+4e5536a # 2016-04-25 # Raleigh Matlock @ Merge tag 'LA.BF64.1.2.2-04340-8x94.0' into cm-13.0
+
+* Project device/lge/g2-common/
+e7d60f4 # 2016-04-27 # Zdrowy Gosciu @ g2-common: prebuilt: Fix folder path
+0536f99 # 2016-04-27 # Zdrowy Gosciu @ g2-common: FSTab: Disable atime update on persist
+5f74db6 # 2016-04-27 # Zdrowy Gosciu @ g2-common: system_prop.mk: Remove Benzo ROM tweaks
+d3941af # 2016-04-27 # Zdrowy Gosciu @ g2-common: system_prop.mk: Remove ADB secure
+e83a495 # 2016-04-27 # Zdrowy Gosciu @ g2-common: init: Use bricked thermal
+85ab4fa # 2016-04-27 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+90e9435 # 2016-04-27 # Zdrowy Gosciu @ g2-common: init: power: Update MP-Decision
+297e0d4 # 2016-04-26 # Tyler Dunn @ g2: Remove cruft
+1d07e3d # 2016-04-27 # Raleigh Matlock @ g2-common: overlay: FB: Remove battery fully charged notification config
+26f7703 # 2016-04-26 # Zdrowy Gosciu @ g2-common: init: power: Rebase
+0bfeaec # 2016-04-25 # Jose Adolfo Galdamez @ g2-common: prebuilt: init: Add BSOD Killer
+cf9f986 # 2016-04-25 # Jose Adolfo Galdamez @ g2-common: prebuilt: init: Move dalvik-cache to cache partition
+c90014c # 2016-04-25 # Zdrowy Gosciu @ g2-common: init: power: Setup ondemand as default CPU GOV
+ae60381 # 2016-04-25 # Zdrowy Gosciu @ Revert "g2-common: overlay: FB: Rebase auto brightness levels"
+4f801d4 # 2016-04-25 # Zdrowy Gosciu @ g2-common: init: power: Disable ARM gentle fair sleepers
+e4816c1 # 2016-04-25 # Zdrowy Gosciu @ g2-common: overlay: FB: Rebase auto brightness levels
+70b13bd # 2016-04-25 # Zdrowy Gosciu @ g2-common: overlay: FB: Remove redundant auto brightness values
+7e41553 # 2016-04-25 # Zdrowy Gosciu @ g2-common: overlay: FB: Remove redundant auto brightness values
+
+* Project frameworks/base/
+711f710 # 2016-04-27 # Shuhao Wu @ Allow toggling animations off switch [1/2]
+09f0b15 # 2016-04-27 # pastime1071 @ Add option to disable scrolling cache (1/2)
+5b713e4 # 2016-04-27 # Meticulus @ Live volume steps [1/2]
+30c8790 # 2016-04-26 # varund7726 @ Configurable Slim lock screen shortcut colors [1/2]
+a047624 # 2016-04-26 # Raleigh Matlock @ Make the battery fully charged notification a toggle (1/2)
+39212cb # 2016-04-26 # Michael Bestas @ Add Turbo PlatLogo (1/2)
+
+* Project frameworks/opt/net/ims/
+4956c6a # 2016-04-27 # Raleigh Matlock @ Merge tag 'LA.BF64.1.2.2-04340-8x94.0' into HEAD
+
+* Project frameworks/opt/net/wifi/
+1f788d2 # 2016-04-26 # Amr BEN ABDESSALEM @ Forget an auto-associated AP if an Authentication failure happens
+d8cb74f # 2016-04-26 # Aymen Ben Alaya @ Fix NullPointerException in AutoJoinController
+5b3e2e6 # 2016-04-26 # Daichi Ueura @ Fix NullPointerException from getChannelsForBand
+449c50d # 2016-04-26 # Daichi Ueura @ Fix NullPointerException in reportScanResults
+111ea82 # 2016-04-26 # Matthieu MAUGER @ Fix WiFi AIDL removeNetwork() method
+1307dc9 # 2016-04-26 # Mohan Thadikamalla @ Fix invalid P2p config message on Frequency conflict State
+febc38d # 2016-04-26 # Mohan Thadikamalla @ Fix wakes due to IPV6 multicast packets without any multicast lock
+054594e # 2016-04-26 # Mohan Thadikamalla @ Enable power save mode on Screen off
+cb2ddac # 2016-04-26 # Keith Mok @ Kill wpa_supplicant before load driver
+5114485 # 2016-04-26 # Pawit Pornkitprasan @ WifiController: fix high perf lock sometimes not respected
+
+* Project kernel/lge/msm8974/
+28b2a56 # 2016-04-27 # Zdrowy Gosciu @ Version HM 2.7
+00284c0 # 2016-04-27 # Greg Wallace @ d802_defconfig: Use bricked thermal
+8efd9f9 # 2016-04-27 # Greg Wallace @ Add bricked thermal driver
+4ae6b32 # 2016-04-27 # Zdrowy Gosciu @ Version HM 2.6
+2964cd3 # 2016-04-27 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+6c87136 # 2016-04-27 # Zdrowy Gosciu @ d802_defconfig: Optimize for size
+495459e # 2016-04-27 # Junjie Wu @ cpufreq: Protect against hotplug in cpufreq_register_driver()
+4b1ec4e # 2016-04-27 # Junjie Wu @ cpufreq: Return directly in __cpufreq_get if policy is NULL
+9d02849 # 2016-04-27 # Thomas Gleixner @ tick: Upstream fixes
+cbdc854 # 2016-04-26 # Oleg Nesterov @ UPSTREAM: proc: actually make proc_fd_permission() thread-friendly
+21aec30 # 2016-04-26 # Oleg Nesterov @ UPSTREAM: proc: make proc_fd_permission() thread-friendly
+8905493 # 2016-04-26 # Martijn Coenen @ UPSTREAM: memcg: Only free spare array when readers are done
+c8ca315 # 2016-04-26 # Ajay Dudani @ msm: kgsl: Fix direct references to HZ
+84d145b # 2016-04-26 # Steve Kondik @ g2: Set CONFIG_HZ to 300
+cc6db96 # 2016-04-26 # Joonsoo Kim @ slub: fix a possible memory leak
+010d9ad # 2016-04-26 # Francisco Franco @ fs: sync: add missing return if fsync is disabled from userspace.
+53824fa # 2016-04-26 # franciscofranco @ fs: sync: enable fsync by default.
+71f04e1 # 2016-04-26 # franciscofranco @ Added fsync on/off support.
+3c940b5 # 2016-04-26 # Swetha Chikkaboraiah @ msm: perf: Protect buffer overflow due to malicious user
+888f6fa # 2016-04-26 # Zdrowy Gosciu @ Version HM 2.5
+a2823a9 # 2016-04-26 # Zdrowy Gosciu @ cpufreq: Rebease interactive & ondemand CPU GOVs
+8115c00 # 2016-04-26 # franciscofranco @ display: Simple API to query the display state
+0de0cb1 # 2016-04-25 # Zdrowy Gosciu @ Version HM 2.444
+dcdf67e # 2016-04-25 # Stephen Boyd @ sched_clock: Backport high-resolution support
+6b3ea13 # 2016-04-25 # Stephen Boyd @ clocksource: Extract max nsec calculation into separate function
+3e4ed8e # 2016-04-25 # Zdrowy Gosciu @ Version HM 2.4
+d5951c6 # 2016-04-25 # Paul E. McKenney @ jiffies: Avoid undefined behavior from signed overflow
+aaf2322 # 2016-04-25 # Zdrowy Gosciu @ Fix CONFIG_HZ dependency in wifi driver.
+cf67b16 # 2016-04-25 # Zdrowy Gosciu @ d802_defconfig: Enable exFAT
+0b5b80c # 2016-04-25 # Pranav Vashi @ kernel: Allow exfat module load without hassle
+6eb6c1f # 2016-04-25 # flar2 @ exFAT support
+b05038e # 2016-04-25 # Zdrowy Gosciu @ ARM: dts: msm: reduce control and panel power on delays
+a344e99 # 2016-04-25 # Greg Wallace @ d802_defconfig: Enable NTFS support
+
+* Project manifest/
+46aa2d0 # 2016-04-27 # Raleigh Matlock @ Prepare for DUI
+
+* Project packages/apps/DUI/
+d3e697a # 2016-04-27 # Raleigh Matlock @ Change the paths for future use
+
+* Project packages/apps/Eleven/
+2e0534f # 2016-04-27 # Danny Baumann @ Improve visualizer color selection.
+
+* Project packages/apps/Settings/
+9cfc8a0 # 2016-04-27 # Shuhao Wu @ Allow toggling animation off switch [2/2]
+25d1a39 # 2016-04-27 # pastime1971 @ Add option to disable scrolling cache (2/2)
+2b79326 # 2016-04-27 # Meticulus @ Live Volume Steps [2/2]
+edf1d7e # 2016-04-26 # varund7726 @ Configurable Slim lock screen shortcut colors [2/2]
+0934228 # 2016-04-26 # Raleigh Matlock @  Make the battery fully charged notification a toggle (2/2)
+a36d26f # 2016-04-26 # Danesh Mondegarian @ Turbo PlatLogo: Turbo ROM version preference (2/2)
+361b0c4 # 2016-04-26 # Raleigh Matlock @ Move Heads Up settings beneath Do not disturb
+bebf238 # 2016-04-26 # Lars Greiss @ Settings: Heads Up timeout option (2/2)
+
+* Project packages/apps/Snap/
+3790102 # 2016-04-25 # Danny Baumann @ Improve RTL layout behaviour.
+
+* Project packages/inputmethods/LatinIME/
+4edb537 # 2016-04-26 # mydongistiny @ LatinIME: Update Benzo Rom smiley button image
+
+* Project system/bt/
+e0facdd # 2016-04-27 # Raleigh Matlock @ Merge tag 'LA.BF64.1.2.2-04340-8x94.0' into HEAD
+
+* Project vendor/lge/
+382ab6e # 2016-04-27 # Zdrowy Gosciu @ g2-common: proprietary: Update MP-Decision
+71b5342 # 2016-04-27 # Zdrowy Gosciu @ Initial commit
+
+* Project vendor/turbo/
+1d923e8 # 2016-04-25 # Raleigh Matlock @ sepolicy: allow platform apps to use su

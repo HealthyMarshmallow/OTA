@@ -2,19 +2,23 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>Turbo-d802-3.4-UNOFFICIAL-20160425-082332.zip</Filename>
+            <Filename>Turbo-d802-3.4-UNOFFICIAL-20160427-202343.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download Turbo ROM builds">https://www.androidfilehost.com/?w=files&amp;flid=53392</RomUrl>
+                description="ROM">https://www.androidfilehost.com/?fid=24521665358595645</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View changelog">https://github.com/TurboROM/Documentation/blob/mm/CHANGELOG.mkdn</ChangelogUrl>
+                description="Changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/turbo/changelog.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="GApps"
-                description="Download the latest Open GApps">http://opengapps.org/</GappsUrl>
+                description="Open GApps">http://opengapps.org/</GappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Twitter">http://twitter.com/ZdrowyGosciu</XDAUrl>
         </d802>
     </Stable>
 </TurboOTA>

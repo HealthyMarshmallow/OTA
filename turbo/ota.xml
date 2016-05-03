@@ -2,11 +2,11 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>Turbo-d802-3.4-UNOFFICIAL-20160427-202343.zip</Filename>
+            <Filename>Turbo-d802-3.9-UNOFFICIAL-20160503-204259.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="ROM">https://www.androidfilehost.com/?fid=24521665358595645</RomUrl>
+                description="ROM">https://www.androidfilehost.com/?fid=24533103863136411</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"

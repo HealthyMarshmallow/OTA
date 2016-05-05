@@ -2,15 +2,15 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>Turbo-d802-3.9-UNOFFICIAL-20160503-204259.zip</Filename>
+            <Filename>Turbo-d802-3.9-UNOFFICIAL-20160505-161159.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download Turbo ROM">https://www.androidfilehost.com/?fid=24533103863136411</RomUrl>
+                description="Download Turbo ROM">https://www.androidfilehost.com/?fid=24533103863137133</RomUrl>
             <KernelUrl
                 id="kernel"
                 title="Kernel"
-                description="Get HealthyMarshmallow">https://www.androidfilehost.com/?w=files&amp;flid=53604</KernelUrl>
+                description="Enjoy HealthyMarshmallow">https://www.androidfilehost.com/?w=files&amp;flid=53604</KernelUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
@@ -18,11 +18,15 @@
             <GappsUrl
                 id="gapps"
                 title="GApps"
-                description="Download A-GAPPS">http://forum.xda-developers.com/android/general/gapps-gapps-6-0-1-minimal-t3276606</GappsUrl>
+                description="Download A-GAPPS 5.0">http://forum.xda-developers.com/android/general/gapps-gapps-6-0-1-minimal-t3276606</GappsUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"
                 description="Twitter">http://twitter.com/ZdrowyGosciu</XDAUrl>
+            <XposedUrl
+                id="xposed"
+                title="Xposed"
+                description="Get Xposed v84">http://dl-xda.xposed.info/framework/sdk23/arm/xposed-v84-sdk23-arm.zip</XposedUrl>
         </d802>
     </Stable>
 </TurboOTA>

@@ -6,15 +6,19 @@
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="ROM">https://www.androidfilehost.com/?fid=24533103863136411</RomUrl>
+                description="Download Turbo ROM">https://www.androidfilehost.com/?fid=24533103863136411</RomUrl>
+            <KernelUrl
+                id="kernel"
+                title="Kernel"
+                description="Get HealthyMarshmallow">https://www.androidfilehost.com/?w=files&amp;flid=53604</KernelUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="Changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/turbo/changelog.txt</ChangelogUrl>
+                description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/turbo/changelog.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="GApps"
-                description="Open GApps">http://opengapps.org/</GappsUrl>
+                description="Download A-GAPPS">http://forum.xda-developers.com/android/general/gapps-gapps-6-0-1-minimal-t3276606</GappsUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"

@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-03 @ 20:48:15 (1462308495)
+CHANGES AFTER 2016-05-05 @ 16:17:21 (1462465041)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -8,103 +8,45 @@ CHANGES AFTER 2016-05-03 @ 20:48:15 (1462308495)
 
 
 * Project /
-0000000 # 2016-05-05 # Zdrowy Gosciu @ Launcher: Revert to Launcher3 (it was Launcher2 by mistake)
-0000000 # 2016-05-05 # Zdrowy Gosciu @ apps: Remove CAFmera
-0000000 # 2016-05-05 # Zdrowy Gosciu @ apps: Add SpiritF (FM radio app)
-0000000 # 2016-05-05 # Zdrowy Gosciu @ apps: Replace Amaze with CMFileManager
-0000000 # 2016-05-05 # Zdrowy Gosciu @ build.prop: Setup ro.build.version.codename + remove useless persist.sys.lcd_density
-0000000 # 2016-05-05 # Zdrowy Gosciu @ KernelAdiutor: Update to V9
+0000000 # 2016-05-06 # Zdrowy Gosciu @ apps: Bring back Amaze file manager
+0000000 # 2016-05-06 # Zdrowy Gosciu @ apps: Replace Catlog with LogcatExtreme
+0000000 # 2016-05-06 # Zdrowy Gosciu @ Dev settings: Remove (not working) USB connection setting
 
 * Project OTA/
-9d80728 # 2016-05-05 # Zdrowy Gosciu @ OTA: Turbo ROM: Cleanup links
-55b5851 # 2016-05-04 # Zdrowy Gosciu @ OTA: Turbo-d802-3.9-UNOFFICIAL-20160503-204259
+00e105b # 2016-05-06 # Zdrowy Gosciu @ OTA: Turbo ROM: Add new link
+3b4ea95 # 2016-05-05 # Zdrowy Gosciu @ OTA: Turbo-d802-3.9-UNOFFICIAL-20160505-161159 + new links
 
 * Project device/lge/d802/
-3a2ff16 # 2016-05-04 # Zdrowy Gosciu @ d802: Turbo ROM: Enable proximity check on wake setting
+c3e552b # 2016-05-06 # Zdrowy Gosciu @ d802: Turbo ROM: Build Browser
+3307448 # 2016-05-06 # Zdrowy Gosciu @ d802: Turbo ROM: Handle NTFS + exFAT by kernel
+6ad621d # 2016-05-06 # Zdrowy Gosciu @ d802: Turbo ROM: Add time to version
 
 * Project device/lge/g2-common/
-ba2dbcf # 2016-05-05 # Rashed Abdel-Tawab @ g2-common: Gello time
-4549c3c # 2016-05-05 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV for better battery
-4cee855 # 2016-05-05 # Zdrowy Gosciu @ g2-common: init: power: Enable Adreno Idler
-0f2d3c4 # 2016-05-05 # Tyler Dunn @ g2-common: init: power: Increase minimum free RAM allowed to reduce system lag
-04fbc5a # 2016-05-04 # Zdrowy Gosciu @ g2-common: init: power: Clear MP-Decison default values after boot complete
-e71d66e # 2016-05-04 # Zdrowy Gosciu @ g2-common: init: power: Switch I/O sched to ROW 256 kB
-
-* Project device/qcom/sepolicy/
-eeb3a38 # 2016-05-04 # Raleigh Matlock @ Change vendor path for sepolicy files
-
-* Project frameworks/av/
-4abc42c # 2016-05-04 # Suman Mukherjee @ Camera: Added null check for memory reference
-f587bb7 # 2016-05-04 # Marco Nelissen @ Fix AMR decoder
-8b6ca6f # 2016-05-04 # Wei Jia @ SoftAMR: check input buffer size to avoid overflow.
-f6700f7 # 2016-05-04 # Wei Jia @ SoftAMR: check output buffer size to avoid overflow.
-ff962aa # 2016-05-04 # Wonsik Kim @ codecs: check OMX buffer size before use in VP8 encoder.
-6dccc01 # 2016-05-04 # Robert Shih @ NuPlayerStreamListener: NULL and bounds check before memcpy
-9dd6af8 # 2016-05-04 # Chien-Yu Chen @ Camera3Device: Validate template ID
-8f536a5 # 2016-05-04 # Marco Nelissen @ Add VPX output buffer size check
-7abb5bd # 2016-05-04 # maxwen @ AudioMixer: disable chatty logcat spill
-6596509 # 2016-05-04 # Mykola Kondratenko @ Fix WaveGenerator memory leak
-ef7d495 # 2016-05-04 # Pawit Pornkitprasan @ screenrecord: allow force landscape mode
-ff0abb6 # 2016-05-04 # Florent Guichard @ Increase max screen recording time to 1 hour
-96f3c6c # 2016-05-04 # Dan Liang @ Fix a video recording issue when sw encoder is used.
-31027cc # 2016-05-04 # Sultanxda @ camera: Fix high battery drain after using flashlight
-42c09ba # 2016-05-04 # wangwei_b @ Enable Wifi Display to support 1920*1080 60fps
+de67868 # 2016-05-06 # beanstown106 @ g2-common: Update default wallpaper
+900e7a7 # 2016-05-06 # Zdrowy Gosciu @ g2-common: init: power: More life to interactive GOV
 
 * Project frameworks/base/
-c666459 # 2016-05-05 # Sven W @ 'Do not disturb' add 15 min Steps and up to 14 Hours
-a5106d1 # 2016-05-05 # rogersb11 @ Add screen record to Global menu (1/2)
-896393d # 2016-05-05 # Ethan Chen @ NetworkPolicyManager: Null check list of packages belonging to UID
-d98ce5f # 2016-05-05 # Raleigh Matlock @ De-stress status bar and fix battery saver mode color
-97b21de # 2016-05-04 # Roman Birg @ SystemUI: avoid lock screen shortcut picker crash
-c52a012 # 2016-05-04 # Roman Birg @ Lock screen shortcuts: don't allow specific activities
+4ee0cb9 # 2016-05-05 # beanstown106 @ Battery saver and low battery notification toggles [1/2]
+14b487c # 2016-05-05 # beanstown106 @ Add Google's updated backup transfer service
+64dca42 # 2016-05-05 # Raleigh Matlock @ Fix the handling of the Screen record icon
+71b8f62 # 2016-05-05 # Sven W @ 'Do not disturb' add 15 min Steps and up to 14 Hours
+f7712d8 # 2016-05-05 # rogersb11 @ Add screen record to Global menu (1/2)
 
 * Project kernel/lge/msm8974/
-deb5347 # 2016-05-05 # Zdrowy Gosciu @ Version HM 2.999
-86a3a5c # 2016-05-05 # myfluxi @ net: wireless: bcmdhd: Serialize wl_notify_escan_complete
-c9693e6 # 2016-05-05 # Insun Song @ net: wireless: bcmdhd: Fix suspend failure due to wakelock/wakeunlock mismatch
-dc5ca5f # 2016-05-05 # Ashwin @ net: wireless: bcmdhd: Ensure watchdog thread isnt called on bus reset
-86fa0bb # 2016-05-05 # Insun Song @ net: wireless: bcmdhd: fix for watch dog issue in wifi connect test
-b65bf10 # 2016-05-05 # Dmitry Shmidt @ net: wireless: bcmdhd: Disable mDNS filter by default
-b307d73 # 2016-05-05 # Dmitry Shmidt @ net: wireless: bcmdhd: Remove WLAN_CIPHER_SUITE_AES_CMAC advertisement
-ff6eb38 # 2016-05-05 # Zdrowy Gosciu @ net: wireless: bcmdhd: Use normal thread priority for bcm4339
-d026e58 # 2016-05-04 # Patrick Tjin @ net: wireless: bcmdhd: Do not print out device name on invalid length
-0ccfb24 # 2016-05-04 # dataanddreams @ net: wireless: bcmdhd: Add checks for stack buffer overflows
-eacdfdf # 2016-05-04 # dataanddreams @ bcmdhd: Add checks for stack buffer overflows
-0d17ab0 # 2016-05-04 # franciscofranco @ wireless: bcmdhd: halve rx and ctrl wakelock timeout by half
-365271e # 2016-05-04 # Rashed Abdel-Tawab @ bcmdhd: Restore default wakelocks and timing
-2382833 # 2016-05-04 # Zdrowy Gosciu @ Version HM 2.9
-673cf12 # 2016-05-04 # Zdrowy Gosciu @ Revert "Revert "arm: dts: msm8974: Underclock CPU""
-b21cedf # 2016-05-04 # michelborges @ sched: Multi-core powersaving for better battery
-4e15118 # 2016-05-04 # Christopher R. Palmer @ d802_defconfig: Enable new rq_stats computation
-19bf6ec # 2016-05-04 # Christopher R. Palmer @ msm_rq_stats: Tone down mpdecision
-2fb42c2 # 2016-05-04 # Christopher R. Palmer @ sched: Compute avg_nr_running
+b09bcbf # 2016-05-06 # Zdrowy Gosciu @ Version HM 2.999999
+8dcb68b # 2016-05-06 # franciscofranco @ sched/fair: rq might've been uninitialized, so fix it
+8fb1246 # 2016-05-06 # franciscofranco @ sched/balancing: Reduce the rate of needless idle load balancing
+aaa7b35 # 2016-05-06 # franciscofranco @ sched/fair: Stop searching for tasks in newidle balance if there are runnable tasks
+d354734 # 2016-05-06 # franciscofranco @ sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire. From http://ripke.com/loadavg/moire
+8c28994 # 2016-05-06 # franciscofranco @ mdss: set fb0 thread to interruptible to lower load_average
+fbf863b # 2016-05-06 # franciscofranco @ video: mdss: use interruptible completion to decrease load_average
+cd932f3 # 2016-05-06 # franciscofranco @ msm: slimbus: use interruptible wait to reduce system's load average
+e86420b # 2016-05-06 # franciscofranco @ mdss: use an interruptible thread on edp to reduce load_average
+02efcfb # 2016-05-05 # michelborges @ smp: Prevent reschedule on offline CPU
 
-* Project manifest/
-e2a5cb0 # 2016-05-04 # Raleigh Matlock @ Add gello
-7bdb53a # 2016-05-04 # Raleigh Matlock @ Clarification
-370c88a # 2016-05-04 # Raleigh Matlock @ Merge pull request #18 from vbajs/patch-7
-29b93ba # 2016-05-04 # Yahya Wessam @ Update default.xml
-620bd80 # 2016-05-04 # Raleigh Matlock @ Track our own device_qcom_sepolicy
-
-* Project packages/apps/CMFileManager/
-fa5b864 # 2016-05-04 # cretin45 @ CMFM: Fix styles
-001a4a3 # 2016-05-03 # cretin45 @ CMFM: Fix permission styles
-1ebecf9 # 2016-05-03 # cretin45 @ CMFileManager: Don't add bad search results to the list
+* Project packages/apps/Eleven/
+3b61f11 # 2016-05-05 # Dave Kover @ Merge "Themes: Expose and separate values for themes" into cm-13.0
 
 * Project packages/apps/Settings/
-eb4fac4 # 2016-05-05 # Raleigh Matlock @ Move navigation bar settings directly into Turbo tweaks
-96d1e2a # 2016-05-04 # rogersb11 @ Add screen record to Global menu (2/2)
-6ec6311 # 2016-05-03 # Om Prakash Singh @ fix synchronization of Wi-Fi hotspot switch
-8fd9013 # 2016-05-03 # Om Prakash Singh @ do not include saved network in scan list
-e35113f # 2016-05-03 # Om Prakash Singh @ enable submit button when editing is enabled
-f569b1d # 2016-05-03 # yifan.bai @ Fix ApnSettings crash issue.
-efe7539 # 2016-05-03 # yifan.bai @ Fix APN cannot save after ApnEditor is paused.
-
-* Project system/core/
-533e506 # 2016-05-04 # Steve Kondik @ rootdir: Remove cpufreq mode settings
-5df7bd2 # 2016-05-04 # Steve Kondik @ fastboot: Add Nextbit's USB vendor id
-99db580 # 2016-05-04 # sndnvaps @ fastboot: add ZTE to the list of known vendors
-
-* Project vendor/turbo/
-628d8db # 2016-05-05 # Raleigh Matlock @ Update AdAway to v3.1.1
-701789f # 2016-05-04 # Raleigh Matlock @ Correct vendor location for sepolicy
+9accff8 # 2016-05-05 # beanstown106 @ Battery saver and low battery notification toggles [2/2]
+a12b25c # 2016-05-05 # Raleigh Matlock @ Fix DSLV breaking searching for missing arrays

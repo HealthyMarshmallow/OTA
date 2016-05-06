@@ -2,11 +2,11 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>Turbo-d802-3.9-UNOFFICIAL-20160505-161159.zip</Filename>
+            <Filename>Turbo-d802-3.9-UNOFFICIAL-20160506-131211.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download Turbo ROM">https://www.androidfilehost.com/?fid=24533103863137133</RomUrl>
+                description="Download Turbo ROM">https://www.androidfilehost.com/?fid=24533103863137418</RomUrl>
             <KernelUrl
                 id="kernel"
                 title="Kernel"

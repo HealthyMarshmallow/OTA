@@ -2,7 +2,7 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>XOSP-5.4-UNOFFICIAL-20160424-211748-d802.zip</Filename>
+            <Filename>XOSP-5.4-UNOFFICIAL-20160508-192329-d802.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
@@ -15,6 +15,10 @@
                 id="changelog"
                 title="Changelog"
                 description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/xosp/changelog.txt</ChangelogUrl>
+            <XOSPAppsUrl
+                id="xospapps"
+                title="XOSPApps"
+                description="Download XOSPApps 08-05-2016">https://www.androidfilehost.com/?fid=24533103863138132</XOSPAppsUrl>
             <GappsUrl
                 id="gapps"
                 title="GApps"

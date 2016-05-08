@@ -1,0 +1,851 @@
+CHANGES AFTER 2016-04-10 @ 12:11:30 (1460290290)
+
+                        ______ ______ 
+           .-----.-----|  __  |    __|
+           |-- __|  _  |  __  |__    |
+           |_____|___  |______|______|
+                 |_____|              
+
+
+* Project android/
+8a089a6 # 2016-04-23 # Adnan Begovic @ manifest: Add Weather Underground weather provider service sample.
+6225c6d # 2016-04-23 # Jessica Wagantall @ default.xml: cm: Update to 6.0.1_r30
+6ad8da1 # 2016-04-23 # Scott Mertz @ Add json-c for 8996 builds
+2d111ea # 2016-04-20 # Ethan Chen @ default: Move HAL repos to their own manifest snippet
+
+* Project bionic/
+b24ae58 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+98ea086 # 2016-04-13 # Tom Marshall @ bionic: Teach fnmatch(3) to handle UTF-8 characters in patterns
+
+* Project bootable/recovery/
+862a8e1 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project build/
+7178979 # 2016-04-23 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+1446e90 # 2016-04-20 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+a855246 # 2016-04-20 # Calin @ XOSPApps refactoring (4/4)
+7e2ab69 # 2016-04-19 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+175aa0c # 2016-04-18 # Ethan Chen @ qcom: Use correct path for BT vendor
+b0fa40c # 2016-04-18 # Brint E. Kriebel @ img_from_target_files: Skip oem.img in fastboot image creation
+e1caad2 # 2016-04-18 # Brint E. Kriebel @ releasetools: Fix print in boot image signing
+5f59260 # 2016-04-18 # Brint E. Kriebel @ releasetools: Add bootable image signing
+06a7227 # 2016-04-15 # Edward Wang @ build: skip 'ro.product.device' using  new macro "TARGET_SKIP_PRODUCT_DEVICE"
+c9c78db # 2016-04-15 # Diogo Ferreira @ build: Create a oem image when BOARD_OEMIMAGE_FILE_SYSTEM_TYPE is defined
+4bbce4f # 2016-04-13 # Ethan Chen @ build: Add BOOTIMAGE_EXTRA_DEPS for BOOT_SIGNER products too
+f31558c # 2016-04-13 # Ethan Chen @ build: Use compatibility DTB directory path for custom DTB tool builds
+
+* Project cts/
+8885fe0 # 2016-04-18 # The Android Automerger @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+350f727 # 2016-04-18 # Daniel Xie @ Merge "DO NOT MERGE: Fix build break" into marshmallow-cts-release
+f010e48 # 2016-04-18 # Daniel Xie @ DO NOT MERGE: Fix build break
+28f8693 # 2016-04-18 # Daniel Xie @ Merge "Revert "Obtain min frame rate from codec capabilities"" into marshmallow-cts-release
+8b47757 # 2016-04-18 # Daniel Xie @ Revert "Obtain min frame rate from codec capabilities"
+e216dd8 # 2016-04-18 # Daniel Xie @ Merge "DO NOT MERGE: Set priority for notification in a11y cts test." into marshmallow-cts-release
+9789389 # 2016-04-18 # Phil Weaver @ DO NOT MERGE: Set priority for notification in a11y cts test.
+3cb6630 # 2016-04-18 # Daniel Xie @ Merge "DO NOT MERGE: Disabling sensor tests and policy permission" into marshmallow-cts-release
+eae5dc9 # 2016-04-18 # Daniel Xie @ DO NOT MERGE: Disabling sensor tests and policy permission
+7ff3492 # 2016-04-17 # Android Merger @ Merge "Merge "DO NOT MERGE: fixed breakage" into lollipop-mr1-cts-dev am: 90cb6ab  -s ours" into marshmallow-cts-dev
+7539c53 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE: fixed breakage" into lollipop-mr1-cts-dev am: 90cb6ab  -s ours
+90cb6ab # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE: fixed breakage" into lollipop-mr1-cts-dev
+93d35b3 # 2016-04-16 # Daniel Xie @ DO NOT MERGE: fixed breakage
+bf05959 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE: Fix the profile-wifi-cleanup test by increasing  the timeout." into marshmallow-cts-release
+c21273b # 2016-04-17 # Lenka Trochtova @ DO NOT MERGE: Fix the profile-wifi-cleanup test by increasing the timeout.
+0fdea94 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE: Fix the profile-wifi-cleanup test by increasing  the timeout." into marshmallow-cts-dev
+23630f2 # 2016-04-17 # Lenka Trochtova @ DO NOT MERGE: Fix the profile-wifi-cleanup test by increasing the timeout.
+a15c5e5 # 2016-04-17 # Android Merger @ Merge "Merge "Merge "DO NOT MERGE: Disable CVE 2015_3826 test" into lollipop-cts-dev am: f0f6423  -s ours" into lollipop-mr1-cts-dev am: b2ea49c  -s ours" into marshmallow-cts-dev
+e38e459 # 2016-04-17 # Daniel Xie @ Merge "Merge "DO NOT MERGE: Disable CVE 2015_3826 test" into lollipop-cts-dev am: f0f6423  -s ours" into lollipop-mr1-cts-dev am: b2ea49c  -s ours
+b2ea49c # 2016-04-17 # Android Merger @ Merge "Merge "DO NOT MERGE: Disable CVE 2015_3826 test" into lollipop-cts-dev am: f0f6423  -s ours" into lollipop-mr1-cts-dev
+83985c5 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE: Disable CVE 2015_3826 test" into lollipop-cts-dev am: f0f6423  -s ours
+f0f6423 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE: Disable CVE 2015_3826 test" into lollipop-cts-dev
+858f8a7 # 2016-04-16 # Daniel Xie @ DO NOT MERGE: Disable CVE 2015_3826 test
+9de3bf0 # 2016-04-17 # Android Merger @ Merge "Merge "DO NOT MERGE: Remove testDumpProtected" into lollipop-mr1-cts-dev am: 2d09388  -s ours" into marshmallow-cts-dev
+07c57f7 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE: Remove testDumpProtected" into lollipop-mr1-cts-dev am: 2d09388  -s ours
+2d09388 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE: Remove testDumpProtected" into lollipop-mr1-cts-dev
+b059e04 # 2016-04-16 # Daniel Xie @ DO NOT MERGE: Remove testDumpProtected
+71f7503 # 2016-04-17 # Android Merger @ Merge "Merge "Merge "DO NOT MERGE ANYWHERE: Bump CTS 5.0 to R6" into lollipop-cts-dev am: 4120120  -s ours" into lollipop-mr1-cts-dev am: e72f770  -s ours" into marshmallow-cts-dev
+d6febfd # 2016-04-17 # Daniel Xie @ Merge "Merge "DO NOT MERGE ANYWHERE: Bump CTS 5.0 to R6" into lollipop-cts-dev am: 4120120  -s ours" into lollipop-mr1-cts-dev am: e72f770  -s ours
+ee5f83a # 2016-04-17 # Android Merger @ Merge "Merge "DO NOT MERGE ANYWHERE: Bump CTS 5.1 to R7" into lollipop-mr1-cts-dev am: 0d37ebf  -s ours" into marshmallow-cts-dev
+e72f770 # 2016-04-17 # Android Merger @ Merge "Merge "DO NOT MERGE ANYWHERE: Bump CTS 5.0 to R6" into lollipop-cts-dev am: 4120120  -s ours" into lollipop-mr1-cts-dev
+0b76577 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE ANYWHERE: Bump CTS 5.1 to R7" into lollipop-mr1-cts-dev am: 0d37ebf  -s ours
+ea481a2 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE ANYWHERE: Bump CTS 5.0 to R6" into lollipop-cts-dev am: 4120120  -s ours
+5d36699 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE ANYWHERE: Bump CTS 6.0 to R6" into marshmallow-cts-release
+c7b2f8d # 2016-04-17 # Daniel Xie @ DO NOT MERGE ANYWHERE: Bump CTS 6.0 to R6
+9a0b673 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE ANYWHERE: Bump CTS 6.0 to R6" into marshmallow-cts-dev
+c0c6f0b # 2016-04-16 # Daniel Xie @ DO NOT MERGE ANYWHERE: Bump CTS 6.0 to R6
+4120120 # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE ANYWHERE: Bump CTS 5.0 to R6" into lollipop-cts-dev
+c062132 # 2016-04-16 # Daniel Xie @ DO NOT MERGE ANYWHERE: Bump CTS 5.0 to R6
+0d37ebf # 2016-04-17 # Daniel Xie @ Merge "DO NOT MERGE ANYWHERE: Bump CTS 5.1 to R7" into lollipop-mr1-cts-dev
+b27454c # 2016-04-16 # Daniel Xie @ DO NOT MERGE ANYWHERE: Bump CTS 5.1 to R7
+f9aec46 # 2016-04-16 # The Android Automerger @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+918f69e # 2016-04-12 # Daniel Xie @ Merge "Fix telecom cts fail when  some project need to consider "7" as MMI call" into marshmallow-cts-dev
+1a93948 # 2016-04-11 # Daniel Xie @ Merge "Downgrade device precondition errors to warnings" into marshmallow-cts-dev
+85f2b32 # 2016-04-11 # Daniel Xie @ Merge "Obtain min frame rate from codec capabilities" into marshmallow-cts-dev
+d4ffb0c # 2016-04-11 # Daniel Xie @ Merge "Add video capture without extra output test case" into marshmallow-cts-dev
+8327934 # 2016-04-11 # Daniel Xie @ Merge "Add feature check to testPackageInstallUserRestrictions" into marshmallow-cts-dev
+69f1ac8 # 2016-04-11 # Android Merger @ Merge "Merge "DO NOT MERGE: Fix WebChromeClientTest#testOnJsBeforeUnload" into lollipop-mr1-cts-dev am: c0b20c4  -s ours" into marshmallow-cts-dev
+99471ba # 2016-04-11 # Hui Shu @ Merge "DO NOT MERGE: Fix WebChromeClientTest#testOnJsBeforeUnload" into lollipop-mr1-cts-dev am: c0b20c4  -s ours
+6da9b2b # 2016-04-11 # Daniel Xie @ Merge "DO NOT MERGE Change placeAndVerifyCall to wait until connection is fully added to CS." into marshmallow-cts-dev
+bb71b88 # 2016-04-11 # Daniel Xie @ Merge "Add test to catch wrong sensor event timestamp clock source" into marshmallow-cts-dev
+2c3af22 # 2016-04-11 # Daniel Xie @ Merge "DO NOT MERGE Fix transient video call CTS test failure." into marshmallow-cts-dev
+c0b20c4 # 2016-04-11 # Daniel Xie @ Merge "DO NOT MERGE: Fix WebChromeClientTest#testOnJsBeforeUnload" into lollipop-mr1-cts-dev
+1f4f79d # 2016-04-11 # Daniel Xie @ Merge "DO NOT MERGE: Fix WebChromeClientTest#testOnJsBeforeUnload" into marshmallow-cts-dev
+f07b091 # 2016-04-11 # Daniel Xie @ Merge "Fix DecoderTest#testTunneledVideoPlayback" into marshmallow-cts-dev
+f95a8d3 # 2016-04-11 # Daniel Xie @ Merge "Bug #530599 android.net.cts.legacy.api22.ConnectivityManagerLegacyTest - testStartUsingNetworkFeature_enableHipri - change the WIFI state" into marshmallow-cts-dev
+2e4bce4 # 2016-04-11 # Daniel Xie @ Merge "patch for the BYOD test testManagedContacts" into marshmallow-cts-dev
+388969b # 2016-04-11 # Keisuke Hasegawa @ patch for the BYOD test testManagedContacts
+
+* Project device/lge/d802/
+8383f8b # 2016-04-24 # Zdrowy Gosciu @ d802: Update xosp.mk
+c3d553f # 2016-04-21 # Zdrowy Gosciu @ d802: Introduce XPerience ROM
+754a956 # 2016-04-18 # Zdrowy Gosciu @ d802: Introduce CyanPOP
+702a12e # 2016-04-15 # Raleigh Matlock @ d802: turbo.mk: V4A is no longer a prebuilt
+961d96d # 2016-04-13 # Zdrowy Gosciu @ d802: turbo.mk: Use persist.sys.lcd_density for custom DPI
+5a69f41 # 2016-04-12 # Zdrowy Gosciu @ d802: Introduce Nameless ROM
+361bed5 # 2016-04-12 # Zdrowy Gosciu @ d802: turbo.mk: Update vendor V4A location + introduce ro.sf.lcd_density.override
+
+* Project device/lge/g2-common/
+eefe453 # 2016-04-19 # Zdrowy Gosciu @ Revert "g2-common: init: Restore permissions for vibrator"
+6771d44 # 2016-04-19 # Zdrowy Gosciu @ g2-common: init: power: Sync I/O Sched with CM 13.0 branch
+7133d82 # 2016-04-19 # Zdrowy Gosciu @ Revert "g2-common: Setup and tune TCP buffers via FB overlay"
+6992ea4 # 2016-04-19 # Zdrowy Gosciu @ g2-common: Sync FSTab with CM 13.0 branch
+1b54135 # 2016-04-19 # Zdrowy Gosciu @ Revert "g2-common: init: power: GPU: simple_ondemand as default"
+a4a9d8d # 2016-04-17 # Zdrowy Gosciu @ g2-common: overlay: FB: Keyguard: Hide charging speed
+1312f1f # 2016-04-16 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_device_lge_g2-common into mm
+38800ef # 2016-04-16 # Zdrowy Gosciu @ Revert "g2-common: init: power: GPU: 320 MHz as default max freq"
+6e38789 # 2016-04-15 # Tyler Dunn @ g2-common: fstab: Don't check ro partition
+b952654 # 2016-04-15 # Kendrick Vargas @ Enable wifi background scanning.
+e52a0b4 # 2016-04-15 # Zdrowy Gosciu @ g2-common: init: power: GPU: 320 MHz as default max freq
+f466319 # 2016-04-15 # Zdrowy Gosciu @ Revert "g2-common: overlay: FB: Enable WiFi background scan"
+b40fc8a # 2016-04-14 # Zdrowy Gosciu @ g2-common: init: power: GPU: simple_ondemand as default
+297f990 # 2016-04-13 # Zdrowy Gosciu @ g2-common: Setup and tune TCP buffers via FB overlay
+617258c # 2016-04-13 # Zdrowy Gosciu @ g2-common: overlay: FB: Disable ultrasound support
+9b77475 # 2016-04-13 # Zdrowy Gosciu @ g2-common: overlay: FB: Enable WiFi background scan
+9162e4b # 2016-04-13 # Zdrowy Gosciu @ g2-common: Enable Minikin text layout engine
+88e0288 # 2016-04-13 # Zdrowy Gosciu @ g2-common: overlay: FB: Show battery fully charged notification
+dc1086b # 2016-04-13 # Zdrowy Gosciu @ g2-common: overlay: FB: Lower touchslop
+442e62a # 2016-04-12 # Zdrowy Gosciu @ g2-common: system_prop.mk: Move persist.sys.lcd_density to device repo
+d7ed885 # 2016-04-11 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O Sched + disable adaptive LMK
+dd1c321 # 2016-04-10 # Zdrowy Gosciu @ g2-common: releasetools: Just HM
+
+* Project external/bouncycastle/
+ac1940f # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project external/dhcpcd/
+49aad12 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project external/icu/
+ea50f14 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project external/libavc/
+5f7a7a9 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project external/libpng/
+1d72d43 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project external/pdfium/
+8f8b2f2 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project external/sepolicy/
+f00429d # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project external/skia/
+b0dba5e # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project external/sonivox/
+bba9df6 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project external/stagefright-plugins/
+d379af4 # 2016-04-22 # Keith Mok @ stagefright-plugins: Fix port reset problem
+38e74de # 2016-04-22 # Keith Mok @ stagefright-plugins: Fix eos flush problem.
+
+* Project external/toybox/
+3b06b02 # 2016-04-14 # Steve Kondik @ Merge branch 'master' of https://android.googlesource.com/platform/external/toybox into cm-13.0
+d5de717 # 2016-04-13 # Tom Marshall @ toybox: find: Fix segfault when using -iname/-ipath with -exec
+
+* Project external/uicommon/
+70656f2 # 2016-04-13 # Richard MacGregor @ Make UICommon Snackbar attribute not conflict with appcompat
+
+* Project external/wpa_supplicant_8/
+b5ff4de # 2016-04-18 # Diogo Ferreira @ wpa_supplicant: Force the p2p channels to reuse frequencies used by STA
+9fda75c # 2016-04-15 # Ricardo Cerqueira @ wpa_supplicant_conf: Let devices provide their own template
+
+* Project frameworks/av/
+c27a16c # 2016-04-22 # Steve Kondik @ audiopolicy: Fix notification not sent for session release
+5fac306 # 2016-04-20 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+32ef055 # 2016-04-19 # Steve Kondik @ audiopolicy: Clean up the mess
+489c9fb # 2016-04-16 # Steve Kondik @ audiopolicy: Update legacy policy for session callbacks
+c38d4f2 # 2016-04-15 # Keith Mok @ frameworks/av: Fix video recording breaks
+5153cdc # 2016-04-13 # Zhou Song @ libmedia: Initialize mState/mActive value to avoid possible crash
+20f0782 # 2016-04-13 # Leena Winterrowd @ stagefright: Fix CLANG compilation for AMR decoder
+4882796 # 2016-04-13 # Manikanta Kanamarlapudi @ nuplayer: Seek to valid position in setVideoSurface
+51b3174 # 2016-04-13 # Surajit Podder @ video: Use boot clock for recording start time
+7262eae # 2016-04-13 # Dhananjay Kumar @ nuplayer: ignore openAudioSink while waiting for teardown completion
+3fe0fe6 # 2016-04-13 # Sharad Sangle @ nuplayer: update anchor time for offload usecase
+d27aa05 # 2016-04-13 # Leena Winterrowd @ frameworks/av: Fix LOG_NDEBUG compilation issues
+8a69897 # 2016-04-13 # Leena Winterrowd @ libavextensions: Add LOG_NDEBUG define
+f888ced # 2016-04-13 # xiaoqiny @ libstagefright: handle error when B-frame is sent to MPEG4Writer
+0ecd6fb # 2016-04-13 # Abhishek Kondaveeti @ cameraservice: Run HAL3 in Non ZSL mode
+0d34354 # 2016-04-13 # Zhou Song @ audio: QTI resampler supports for 32 bit input format
+02d9acd # 2016-04-13 # Manikanta Sivapala @ nuplayer: Reverting GenericSource changes done for STA integration
+9fd0a69 # 2016-04-13 # Li Sun @ rtsp: keep video damaged access unit to enhance fault tolerance
+322d0a4 # 2016-04-13 # Deva Ramasubramanian @ libstagefright: Allow for MPEG4Writer extension
+d38f175 # 2016-04-13 # Ramjee Singh @ audioflinger: Compile 192k resampler for 32 bit environment
+804eeff # 2016-04-13 # William Clark @ Update Instrumentation code
+135352e # 2016-04-13 # Sidipotu Ashok @ NuPlayer: extend onResume funtion
+6635a58 # 2016-04-11 # Diogo Ferreira @ omx: softcodecs: Support HAL_PIXEL_FORMAT_RGBX_8888
+baf93ea # 2016-04-11 # Ricardo Cerqueira @ CameraClient: MTK Support
+
+* Project frameworks/base/
+fac8c33 # 2016-04-23 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+9de79da # 2016-04-23 # Tobias Thierer @ frameworks/base: Avoid Long object allocations in Long.valueOf()
+e8ee2d1 # 2016-04-23 # Tobias Thierer @ Integer.valueOf() -> Integer.parseInt() to avoid allocation.
+c12c337 # 2016-04-23 # Yifan Bai @ Fix issues of different phone objects sharing same mConnectionApns list.
+25b615c # 2016-04-23 # Andreas Gampe @ Frameworks/base: Fix old code in MediaPlayer
+9b635c7 # 2016-04-23 # zhangshuxiao @ When the applicantion is removed, reset network permission of this uid.
+a3bc711 # 2016-04-23 # Snild Dolkow @ [4/4] sqlite query perf: try to avoid getCount()
+62b83ed # 2016-04-23 # Snild Dolkow @ [3/4] sqlite query perf: clean up in-flight statements on cursor close
+9fab3ec # 2016-04-23 # Snild Dolkow @ [2/4] sqlite query perf: try to reuse in-flight statements
+757ef6c # 2016-04-23 # Snild Dolkow @ [1/4] sqlite query perf: better window selection in common case
+168886a # 2016-04-23 # Yongjiang Wu @ Fix: the label "customize" is not updated after changing language
+529c2dc # 2016-04-23 # riddle_hsu @ Fix race condition when writing UidState of appops.
+64e9b2e # 2016-04-23 # Varun Date @ Keyguard Charging Current Switch [1/2]
+965cb56 # 2016-04-23 # Jean-Pierre Rasquin @ Keyguard: show charging current in mAh on lockscreen
+3e3f77d # 2016-04-22 # Deepak Kundra @ Support for new properties to identify country based ecc #s added by RIL
+76e688b # 2016-04-22 # d34d @ LLS: Show notification panel if LLS crashes
+81ad527 # 2016-04-22 # d34d @ LLS: Fix screen off event firing when not interactive
+463c328 # 2016-04-22 # Ketut Putu Kumajaya @ libhwui: Remove opaque check for everything
+ab5c226 # 2016-04-22 # Roman Birg @ Keyguard: switch to cm-specific device provisioned flag
+0115407 # 2016-04-22 # yank555-lu @ [2/2] frameworks_base: Add option to show seconds in time
+00e58e9 # 2016-04-22 # Calin @ Update No recents apps image
+414a7b3 # 2016-04-22 # Calin @ Fix for FAB Button not hiding in empty view
+640dd52 # 2016-04-22 # Calin @ Revert "Make Recents FAB button disappear when clicked"
+2ac0d76 # 2016-04-22 # Calin @ Another fix for Task Manager in expanded ND
+bb4c27d # 2016-04-22 # Calin @ We don't tint clock text
+a1756e0 # 2016-04-21 # Rohit Yengisetty @ SettingsProvider : load region-specific settings
+c789c42 # 2016-04-21 # Calin @ Possible fix for Task Manager button overlaying clock
+59526b3 # 2016-04-21 # d34d @ Themes: Update icon mapping on boot
+835ed1a # 2016-04-21 # Janson Kang @ SystemUI: Fix Statusbar Clock font size/color on location changes
+c57b44f # 2016-04-21 # Varun Date @ Make Recents FAB button disappear when clicked
+eb6a4b0 # 2016-04-21 # snak3ater @ Framework: Add Fade in and Fade out effect to Recents FAB
+50e7f58 # 2016-04-21 # Calin @ Another fix
+7838ba7 # 2016-04-21 # Calin @ Fix SystemUI Fc
+6cd671b # 2016-04-21 # Calin @ Fix compilation error
+22a5126 # 2016-04-21 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+23ce024 # 2016-04-21 # Calin @ Update FAB accent color
+1340dea # 2016-04-21 # Janson Kang @ SystemUI: update clear all position & add top center
+4b668b7 # 2016-04-21 # westcripp @ SystemUI: floating button center option
+5dc91ea # 2016-04-21 # Altaf-Mahdi @ SystemUI: replace recents clear all button with a fab button
+b6e2567 # 2016-04-21 # winga45 @ [BASE]:Recents Panel Clear all button base on cristanomatos from crdroid rom *show or hide clear all button *postion of the button
+d2a46be # 2016-04-21 # Danny Baumann @ Fix up 'clear recents' UX.
+ddb856d # 2016-04-21 # Raj Yengisetty @ Fix - place Clear Recents button above the nav bar
+c363816 # 2016-04-21 # Clark Scheff @ Add clear all recents action to recents panel
+16f28a1 # 2016-04-21 # Clark Scheff @ Squash clear all recent action Change-Id: I2243ebc83abc483e78b112900a653d7e61edc5ba
+303cef4 # 2016-04-20 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+8b6cccd # 2016-04-20 # Calin @ CompFix compilation errors
+9878124 # 2016-04-20 # Danesh M @ Lockscreen : Fix dead-zone in bottom area
+b90fd3d # 2016-04-20 # Danesh M @ Revert "Lockscreen : Ensure window bounds change after view animations"
+a6c516a # 2016-04-20 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+2820323 # 2016-04-20 # Calin @ Tint NavBar
+6b3ea67 # 2016-04-20 # Calin @ Center a bit more the text of Xperia Battery icon
+a8fb4cd # 2016-04-20 # Calin @ Add Android N notifications style
+8970aa1 # 2016-04-20 # Calin @ Revert "Lttle mod to dimens.xml"
+ed6f7d2 # 2016-04-20 # Calin @ Revert "Another grafic patch to dimens.xml"
+7ee310d # 2016-04-20 # Danesh M @ Lockscreen : Ensure window bounds change after view animations
+e564623 # 2016-04-20 # Danesh M @ Lockscreen : Update shortcuts in onAttachWindow
+c6bcd08 # 2016-04-20 # Danesh M @ Lockscreen : Ensure we hide bottom area in bouncer
+d22af34 # 2016-04-20 # d34d @ SysUI: reset mCanDismissKeyguard in setBarState
+0bae8f6 # 2016-04-20 # Danesh M @ Lockscreen target fixes
+539be3d # 2016-04-20 # Danesh M @ Lockscreen : Fix bottom area visibility
+8bb9f43 # 2016-04-18 # Roman Birg @ Global actions: fix airplane mode switch for MSIM
+cc00849 # 2016-04-18 # Danesh M @ Lockscreen : Ensure window bounds change after view animations
+6b5b45b # 2016-04-18 # Roman Birg @ SystemUI: don't crash with bad tiles
+d75b707 # 2016-04-18 # Michael W @ SystemUI: Move ADB_ENABLED to "Global"
+a88d902 # 2016-04-18 # Roman Birg @ SystemUI: fix some qs tile race conditions
+0053be3 # 2016-04-18 # Raj Yengisetty @ SystemUI: Fix nav bar transparency when enabling software keys
+1e1fdf1 # 2016-04-16 # Michael Bestas @ Automatic translation import
+d3ed55c # 2016-04-15 # d34d @ SysUI: Fix reporting of swipe progess in notification panel
+2c35c46 # 2016-04-15 # Michael Bestas @ SettingsLib: Add back accidentally removed translations
+8ef7cbe # 2016-04-15 # Călin Neamţu @ Merge pull request #3 from androidexpert35/patch-2
+6122b52 # 2016-04-15 # Călin Neamţu @ Merge pull request #2 from androidexpert35/patch-1
+d10c047 # 2016-04-14 # Steve Kondik @ systemui: Remove LiveDisplay tile
+2ae2ee6 # 2016-04-14 # Scott Mertz @ LockPatternUtils: Use the actual user id to set pattern size
+c694ab1 # 2016-04-14 # Roman Birg @ LockSettingsStorage: migrate user pattern size to correct userid
+7a56861 # 2016-04-14 # Roman Birg @ LockSettingsStorage: fallback to cm legacy gesture file
+999439b # 2016-04-14 # Roman Birg @ SettingsProvider: move SYSTEM_PROFILES_ENABLED to CMSettings
+8352797 # 2016-04-14 # Danesh M @ Lockscreen : Update shortcuts in onAttachWindow
+82fb2e0 # 2016-04-14 # Danesh M @ Lockscreen : Ensure we hide bottom area in bouncer
+7a8a51b # 2016-04-14 # chao.bi @ Race in WapPushManager under multi-thread environment
+15e7a21 # 2016-04-14 # Jimmy Dalqvist @ Correct MediaAudioTrackTest testPlaybackHeadPositionAfterStop
+ad3fa41 # 2016-04-13 # Steve Kondik @ packagemanager: Fix bootloop if packages.xml is deleted
+bf2ddee # 2016-04-13 # d34d @ Themes: Restore original value if getValue fails
+d6f2d2c # 2016-04-13 # d34d @ Check for deprecated third party keyguard perm
+4a54c55 # 2016-04-13 # Steve Kondik @ livedisplay: Moving LiveDisplay to CMSDK
+3476163 # 2016-04-12 # d34d @ GlobalActions: Always use setZenMode
+65bda83 # 2016-04-12 # d34d @ SysUI: Deprecate collapseNotificationPanel [2/2]
+327acc7 # 2016-04-12 # Roman Birg @ SystemUI: fix double tap power launching custom lockscreen icon
+4f6ff8b # 2016-04-12 # Calin @ Show Dexopt dialog in all cases
+e47b2f5 # 2016-04-11 # Roman Birg @ SystemUI: remove extraneous debug log
+2a99942 # 2016-04-11 # You Kim @ Incorrect evictor key in TokenCache
+a59bf9d # 2016-04-11 # Roman Birg @ SystemUI: add closed all tasks event log
+c07b146 # 2016-04-11 # Roman Birg @ SystemUI: add RecentsView EventLogs
+ccf7271 # 2016-04-11 # androidexpert35 @ Another grafic patch to dimens.xml
+cb1a9ff # 2016-04-11 # androidexpert35 @ Lttle mod to dimens.xml
+17297b7 # 2016-04-10 # d34d @ SysUI: reset mCanDismissKeyguard in setBarState
+
+* Project frameworks/minikin/
+dfeadad # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project frameworks/native/
+ec0faee # 2016-04-20 # Khalid Zubair @ sensorservice: fix an invalid format string
+573fb3e # 2016-04-20 # Khalid Zubair @ sensorservice: add power usage to dumpsys
+74e887c # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+2b4df0b # 2016-04-12 # Steve Kondik @ surfaceflinger: Add support for secondary color matrix
+
+* Project frameworks/opt/hardware/
+39638c0 # 2016-04-18 # Steve Kondik @ cmhw: Fix DisplayColorCalibration GPU-mode issues
+d3ceb18 # 2016-04-16 # Steve Kondik @ cmhw: Fix return value
+35568c6 # 2016-04-15 # Steve Kondik @ cmhw: Move DisplayColorCalibration from hardware/cyanogen to here
+
+* Project frameworks/opt/net/wifi/
+eb9c90d # 2016-04-22 # Ethan Chen @ Null check before accessing AP objects
+4f30b20 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+19c42df # 2016-04-18 # Jessica Wagantall @ Revert "WiFi not connecting to WiFi when screen OFF"
+
+* Project hardware/cyanogen/
+240b860 # 2016-04-15 # Steve Kondik @ cmhw: Remove DisplayColorCalibration from hardware/cyanogen
+df9286e # 2016-04-12 # Steve Kondik @ cmhw: Add support for GPU-based color calibration
+
+* Project hardware/libhardware/
+146a870 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project hardware/qcom/audio-caf/msm8974/
+f15ad14 # 2016-04-18 # Dhananjay Kumar @ post_proc: fix inconsistency in virtualizer state from set_strength call
+
+* Project hardware/qcom/audio/default/
+526cf00 # 2016-04-19 # Steve Kondik @ post_proc: Misc cleanups
+6131d95 # 2016-04-19 # Dhananjay Kumar @ post_proc: improve logging
+410cbfb # 2016-04-19 # wjiang @ post_proc: Fix bassboost/virtualizer not disabled on speaker
+db738c0 # 2016-04-19 # Alexy Joseph @ volume_listener: Silence volume listener log
+948d7df # 2016-04-19 # Dhananjay Kumar @ post_proc: fix inconsistency in virtualizer state from set_strength call
+
+* Project hardware/qcom/fm/
+d8a97a8 # 2016-04-21 # Ankit Gupta @ fmapp2: Allow value for the default fm recording duration to be overlayed.
+ee0b89e # 2016-04-19 # Rupesh Tatiya @ Route audio to connected A2DP headset on turn on.
+2f5edee # 2016-04-19 # Kamal Negi @ FM: Fix Static Analysis Issues
+836e8dc # 2016-04-19 # Kamal Negi @ Handle orientation change in FM app
+220242c # 2016-04-19 # Mingbo Zhang @ Fix null pointer exception in FMRadioService
+c5fd4ca # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project hardware/ti/omap4/
+c0ab422 # 2016-04-22 # Luden @ camera: fix large tiler memory leakages
+
+* Project kernel/lge/msm8974/
+5f44eed # 2016-04-19 # Zdrowy Gosciu @ Version HM 2.2
+aedf48b # 2016-04-19 # Eric Dumazet @ net: do not use rcu in rtnl_dump_ifinfo()
+f370021 # 2016-04-19 # Dorimanx @ d802_defconfig: Switch to HZ = 300
+c305b76 # 2016-04-19 # Dorimanx @ msm: Convert direct references to HZ
+f1a2718 # 2016-04-19 # Greg Kroah-Hartman @ time: don't inline EXPORT_SYMBOL functions
+ab5c196 # 2016-04-19 # Zdrowy Gosciu @ arm: Set CONFIG_HZ to 300
+387803a # 2016-04-19 # Ajay Dudani @ msm: kgsl: Fix direct references to HZ
+2b4441b # 2016-04-19 # Zdrowy Gosciu @ Version HM 2.1
+c1c7900 # 2016-04-19 # Tim Murray @ ANDROID: mmc: move to a SCHED_FIFO thread
+45a2829 # 2016-04-19 # Zdrowy Gosciu @ arm: mach-msm: Disable debug logs in MPM/MSM-PM
+3b80cd7 # 2016-04-19 # Lynus Vaz @ msm: kgsl: Mark the end of the scatterlist
+5527ea5 # 2016-04-19 # Iliyan Malchev @ kgsl: allocate shared memory one page at a time
+13434b8 # 2016-04-19 # Jordan Crouse @ msm: kgsl: Don't call kmemleak on vmalloc memory
+684ecde # 2016-04-19 # Harshdeep Dhatt @ msm: kgsl: Optimize the vmap step size in kgsl page allocator
+892fa16 # 2016-04-19 # Dorimanx @ misc: Few GPU + SOC bugs fixed
+78fe486 # 2016-04-19 # Zdrowy Gosciu @ gpu: msm: kgsp: Small fix
+5a74026 # 2016-04-18 # Zdrowy Gosciu @ Version HM 2.0
+401a730 # 2016-04-18 # Zdrowy Gosciu @ gpu: msm: adreno.c: Fix uninitialized new_setting
+808ad95 # 2016-04-18 # Dorimanx @ misc: Fixes to kernel code inits after checking build with O3
+2256526 # 2016-04-18 # Zdrowy Gosciu @ arm: dts: msm8974: Underclock CPU
+efb166f # 2016-04-18 # Bhalchandra Gajare @ ASoC: wcd9320: Fix 24 bit format for codec dai's
+f38d6d5 # 2016-04-18 # Anshul Garg @ Input: optimize events_per_packet count calculation
+56c6b9d # 2016-04-18 # Zdrowy Gosciu @ Makefile: Tell gcc optimizer to never introduce new data races
+6a75390 # 2016-04-18 # davidmueller13 @ softirq: Reduce latencies
+b11be08 # 2016-04-18 # Zdrowy Gosciu @ Makefile: Use O3
+7730337 # 2016-04-18 # YoshiShaPow @ gcc5: arm: enable cortex_a15 optimization
+ba02411 # 2016-04-18 # Yizheng Zhou @ msm: kgsl: Vote against deep low power modes when GPU wakes up from slumber
+89fa34a # 2016-04-18 # michelborges @ arm/dt: msm8974: Relax GPU voltage constraints
+5b04461 # 2016-04-18 # michelborges @ power: Decrease time to enter sleep
+ebf0a1b # 2016-04-18 # michelborges @ msm: kgsl: Use min power level as default
+363c922 # 2016-04-18 # Zdrowy Gosciu @ msm: kgsl: Simplify thermal power level
+27873b9 # 2016-04-17 # Zdrowy Gosciu @ Version HM 1.999999
+78ac185 # 2016-04-16 # Junjie Wu @ cpufreq: Check current frequency in device driver
+660d88d # 2016-04-16 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
+93d8c81 # 2016-04-16 # Devin Kim @ fs/dcache.c: Fix the too small buffer for dname
+d54bf2e # 2016-04-16 # Zdrowy Gosciu @ Version HM 1.999
+d031d60 # 2016-04-16 # Viresh Kumar @ cpufreq: Notify governors when cpus are hot-[un]plugged
+f723d7f # 2016-04-16 # Viresh Kumar @ cpufreq: Manage only online cpus
+dd6e12a # 2016-04-16 # Leon Ma @ hrtimer: Prevent remote enqueue of leftmost timers
+1a7c7f1 # 2016-04-16 # Krishna Chaitanya Parimi @ msm: fb: Null check mfd data
+a483070 # 2016-04-16 # Daniel Borkmann @ net: inet_diag: zero out uninitialized idiag_{src,dst} fields
+298678d # 2016-04-15 # Zdrowy Gosciu @ Version HM 1.9
+5918d42 # 2016-04-15 # Zdrowy Gosciu @ arm: mach-msm: Truly disable Motorola memory utils
+728a042 # 2016-04-15 # Zdrowy Gosciu @ GPU PWR LEVELS: Fixed super old bug in gpu thermal pwr level
+788b9d7 # 2016-04-15 # Pafcholini @ drivers: mmc: Toggleable software CRC
+dca890f # 2016-04-15 # Slim80 @ Added tripndroid I/O scheduler
+8b4aa15 # 2016-04-15 # Slim80 @ slimbus: Overclocking of slimbus imporove audio
+5a20d48 # 2016-04-15 # Slim80 @ cpufreq: Avoid crash in resume on SMP without OPP
+02a315c # 2016-04-15 # Slim80 @ writeback: Fix occasional slow sync
+be29a9f # 2016-04-15 # Slim80 @ sched: Fix inaccurate accounting for real-time task
+5a0a84b # 2016-04-15 # Slim80 @ netfilter: IDLETIMER: fix invalid deference of timer
+ccd621c # 2016-04-15 # Slim80 @ regulator: core: Release regulator-regulator supplies on error
+2d19d29 # 2016-04-15 # Slim80 @ soc: qcom: rq_stats: Pass correct cpu id to update_average_load function
+509b6c3 # 2016-04-15 # Zdrowy Gosciu @ kernel: ksysfs: Remove useless cpu variable
+08a4f3d # 2016-04-15 # Slim80 @ Added arch_power and gentle_fair_sleepers settable in STweaks
+a2fc5bb # 2016-04-15 # Slim80 @ slub.c: little tweak for performance improvements
+ae0eecf # 2016-04-15 # Slim80 @ asm-generic: io: don't perform swab during {in,out} string functions
+22a74c4 # 2016-04-15 # Slim80 @ vfs: fix bad hashing of dentries
+c2f7f17 # 2016-04-15 # Slim80 @ sched/deadline: Fix a precision problem in the microseconds range
+46987a7 # 2016-04-15 # Slim80 @ Misc. tweaks
+3f12d93 # 2016-04-15 # Slim80 @ [PATCH] ARM: mm: uninitialized warning corrections
+94d16b9 # 2016-04-14 # Zdrowy Gosciu @ Version HM 1.8
+729029d # 2016-04-14 # liping.zhang @ net: tcp: fix rtable leak in tcp_is_local[6]
+9ee7cc0 # 2016-04-14 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
+6a7e007 # 2016-04-14 # javilonas @ bcmdhd: reduce wakelocks
+381fc77 # 2016-04-14 # Chester Kener @ bcmdhd: Decrease to 250 ms
+0464a97 # 2016-04-14 # Russ W. Knize @ mmc: sdhci: Don't spew on CRC errors
+d5d54ad # 2016-04-14 # Konstantin Dorfman @ mmc: sdhci: Use pr_err_ratelimited for AUTO CMD command errors
+de0e318 # 2016-04-14 # Dmitry Shmidt @ net: wireless: bcmdhd: Increase allowed DTIM in power-save mode
+4fe0f2f # 2016-04-14 # Patrick Tjin @ net: wireless: bcmdhd: Check packet length for event messages
+c04b901 # 2016-04-14 # myfluxi @ arm/dts: g2: Remove erroneous qcom,msm-bus,active-only property
+5a80c15 # 2016-04-14 # Keith Mok @ input: touchscreen: g2: Send KEY_WAKEUP for double-tap event
+9977c6b # 2016-04-12 # Ben Hutchings @ pipe: Fix buffer offset after partially failed read (CVE-2016-0774)
+cfdb477 # 2016-04-12 # Zdrowy Gosciu @ Version HM 1.7
+0965ded # 2016-04-12 # Dmitry Shmidt @ net: wireless: bcmdhd: Increase allowed DTIM in power-save mode
+1cec135 # 2016-04-12 # Patrick Tjin @ net: wireless: bcmdhd: check packet length for event messages
+cb07164 # 2016-04-12 # Zdrowy Gosciu @ LMK: Tune VM pressure + don't run at startup
+6a4585f # 2016-04-12 # Senthil360 @ Update deadline-iosched.c
+cc1a2e0 # 2016-04-12 # Zdrowy Gosciu @ Revert "mmc: sdhci: Reset cmd err only for sbc commands"
+bb54a4c # 2016-04-12 # Zdrowy Gosciu @ Revert "mmc: sdhci: fix voltage transition recovery"
+69626ca # 2016-04-12 # Zdrowy Gosciu @ Revert "mmc: sdhci: clear interrupt status during controller reset"
+00539e4 # 2016-04-10 # Zdrowy Gosciu @ Version HM 1.6
+0d8e212 # 2016-04-10 # Ethan @ drivers: cpufreq: lionheart: Reset defaults
+5f53655 # 2016-04-10 # Zdrowy Gosciu @ drivers: sdhci: Fix build
+8ddc2ad # 2016-04-10 # Konstantin Dorfman @ mmc: sdhci: use pr_err_ratelimited for AUTO CMD command errors
+723a96d # 2016-04-10 # Sujit Reddy Thumma @ mmc: sdhci: clear interrupt status during controller reset
+a608810 # 2016-04-10 # Russ W. Knize @ mmc: sdhci: fix voltage transition recovery
+d9e17ff # 2016-04-10 # Russ W. Knize @ mmc: sdhci: don't spew on CRC errors
+9ff7e2a # 2016-04-10 # Venkat Gopalakrishnan @ mmc: sdhci: Reset cmd err only for sbc commands
+
+* Project libcore/
+45b2d5a # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+
+* Project packages/apps/BasicSmsReceiver/
+4176108 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/Bluetooth/
+197747b # 2016-04-20 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into rebase_r30
+87c2095 # 2016-04-19 # Jessica Wagantall @ Merge commit 'a71eb120c7390a82474bf8bdb94d08e723582f9f' into HEAD
+1e3c122 # 2016-04-16 # Michael Bestas @ Automatic translation import
+f64343e # 2016-04-13 # Arnav Gupta @ hdp: do not return a null value when hdp interface unavailable
+
+* Project packages/apps/BluetoothExt/
+a388570 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/Browser/
+791ba83 # 2016-04-23 # Shreesha Murthy @ Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_Browser into HEAD
+0c11751 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/Camera2/
+14475d3 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/CarrierConfig/
+49b017a # 2016-04-20 # Ricardo Cerqueira @ Import national-roaming settings from f/b
+426a0d0 # 2016-04-13 # jaffersulaiman @ Telefonica MMS Max sending limit files Added
+98e6fca # 2016-04-12 # Ricardo Cerqueira @ Enable enabledNotifyWapMMSC for Telefonica Europe carriers
+
+* Project packages/apps/CellBroadcastReceiver/
+d0ca767 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/CertInstaller/
+d523272 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+18e746b # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/Contacts/
+a9f8a95 # 2016-04-20 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+68cf084 # 2016-04-16 # Michael Bestas @ Automatic translation import
+affff68 # 2016-04-14 # Richard MacGregor @ [2/2] Add new method for determining whether to show block option
+dd2acf1 # 2016-04-14 # Rohit Yengisetty @ Make Block action contingent on system-wide Blacklist setting
+e4b31b7 # 2016-04-14 # Michael Bestas @ Fix camel case
+2005c4e # 2016-04-10 # nilac8991 @ Update Contacts colors
+
+* Project packages/apps/ContactsCommon/
+398374a # 2016-04-16 # Michael Bestas @ Automatic translation import
+0e6d8d4 # 2016-04-14 # Richard MacGregor @ [1/2] Add new method for determining whether to show block option
+5fdfde4 # 2016-04-14 # Michael Bestas @ Improve strings
+d4b8508 # 2016-04-12 # Stephen Bird @ Remove duplicate ambientsdk reference
+7ff2d1e # 2016-04-11 # Deepak Kundra @ Add 'ims-common' & 'info_lookup' build dependency
+9590c56 # 2016-04-11 # Rohit Yengisetty @ Remove scaling option for the Front drawable in CheckableFlipDrawable
+
+* Project packages/apps/DeskClock/
+2fe4738 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/Dialer/
+7f399f8 # 2016-04-23 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+6167f42 # 2016-04-22 # Stephen Bird @ NPE: check that cn is null and return
+416100f # 2016-04-21 # Rohit Yengisetty @ Fix crash in Settings when clicking on Phone Number Lookup
+9f9dfa5 # 2016-04-21 # Stephen Bird @ Settings: Add back Accessibility
+2366ded # 2016-04-21 # Stephen Bird @ Improvements to Nudges
+9e8223e # 2016-04-21 # Stephen Bird @ Search: Show FAB in the right place
+fcd9f77 # 2016-04-21 # Stephen Bird @ Quick search results: fix to match selected item in spinner
+e8dc4e8 # 2016-04-20 # Stephen Bird @ Add metrics event for selecting call method
+93b791a # 2016-04-20 # Danny Baumann @ Convert call log and call stats details to new contact blocking code.
+5d89d62 # 2016-04-20 # Raj Yengisetty @ Call Statistics: fix NPE on rotation
+34a14c3 # 2016-04-20 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+581e03b # 2016-04-18 # Richard MacGregor @ Dialer NPE - Search Results
+3fb7eeb # 2016-04-16 # Michael Bestas @ Automatic translation import
+6685f01 # 2016-04-15 # Ankit Gupta @ Dialer: Handle OEM Specific codes.
+114b9b5 # 2016-04-15 # Richard MacGregor @ Expand clickable area of settings button
+7c88b51 # 2016-04-15 # Stephen Bird @ Search: Only clear focus if we are showing a coachmark
+749d5f8 # 2016-04-14 # Richard MacGregor @ [1/2] Use UICommon simple SnackBar
+b025fbb # 2016-04-15 # Michael Bestas @ Workaround for AOSP strings missing translations
+dcc7560 # 2016-04-14 # Danny Baumann @ Remove superfluous method parameter.
+f222cf9 # 2016-04-13 # Stephen Bird @ InCallMetrics: null check our content resolver query
+9e8a087 # 2016-04-12 # kaiyiz @ Dialer: Customize features for regional package
+6954fc4 # 2016-04-10 # nilac8991 @ Update Dialer colors
+
+* Project packages/apps/Email/
+38662a1 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/ExactCalculator/
+1e78c7d # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/Exchange/
+444e35e # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+b006750 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/FMRadio/
+d9054a9 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/InCallUI/
+b436d85 # 2016-04-21 # Richard MacGregor @ Revert and modify "Change in InCallAPI handover button UI"
+1ca5290 # 2016-04-19 # Rohit Yengisetty @ Make Block action contingent on system-wide Blacklist setting
+ed656a4 # 2016-04-16 # Michael Bestas @ Automatic translation import
+8164e82 # 2016-04-13 # Richard MacGregor @ [2/2] Use UICommon simple SnackBar
+b63eca0 # 2016-04-13 # Michael Gernoth @ InCallUI: add LookupProvider and VoLTE to landscape layout
+20f930a # 2016-04-12 # Richard MacGregor @ Missed rebase: add coordinator layout
+f8f8032 # 2016-04-12 # Richard MacGregor @ Change in InCallAPI handover button UI
+
+* Project packages/apps/KeyChain/
+7958df8 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/LockClock/
+8af8dab # 2016-04-17 # Martin Herndl @ Display humidity and wind data in forecast dialog
+ed98ad9 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/ManagedProvisioning/
+5cbbaaa # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/Messaging/
+bb4d4e7 # 2016-04-23 # Shreesha Murthy @ Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_Messaging into HEAD
+22d92d6 # 2016-04-22 # tnmy-cyngn @ Text/Multimedia message limit feature
+1633966 # 2016-04-20 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+98df70d # 2016-04-18 # Adnan Begovic @ Messaging: Read Report != Delivery Report.
+1fd9824 # 2016-04-18 # Adnan Begovic @ Messaging: Fix mms expiry preferences.
+97897a5 # 2016-04-18 # Adnan Begovic @ Messaging: Reference the nontranslatable key instead of hardcoding value.
+aa7672b # 2016-04-16 # Michael Bestas @ Automatic translation import
+d9a5a83 # 2016-04-15 # Adnan Begovic @ Messaging: Fix broken and untested features.
+369448c # 2016-04-14 # Michael Bestas @ Improve priority string
+d29cf54 # 2016-04-12 # Ricardo Cerqueira @ Revert "added enabledNotifyWapMMSC flag to mms_config.xml"
+06c4913 # 2016-04-11 # allu.haribabu @ Added new feature MMS Validity Period, MMS Delivery,Read Report and MMS Sending Report
+
+* Project packages/apps/Nfc/
+d63f166 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/PackageInstaller/
+0980d67 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/PhoneCommon/
+b2f6222 # 2016-04-16 # Michael Bestas @ Automatic translation import
+a495381 # 2016-04-14 # Michael Bestas @ Set untranslatables
+63c90d0 # 2016-04-11 # Danny Baumann @ Only fire visibility change callback if visibility actually changed.
+5c9ce9b # 2016-04-11 # Stephen Bird @ Remove unneeded source line
+
+* Project packages/apps/Profiles/
+09ee22c # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/Screencast/
+828959e # 2016-04-16 # jrizzoli @ Screencast: material makeover
+f5a3cb0 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/Settings/
+c615a20 # 2016-04-23 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+a2bc62c # 2016-04-23 # Calin @ Fix some preferences
+7226157 # 2016-04-23 # Calin @ Update Settings mipmap icon
+99972b6 # 2016-04-23 # Calin @ Keyguard Charging Current Switch [2/2]
+7ee9e78 # 2016-04-23 # yifan.bai @ Fix APN cannot save after ApnEditor is paused.
+955b71f # 2016-04-22 # Calin @ [1/2] Settings: Add option to show seconds in time
+ec3cafc # 2016-04-21 # Calin @ Fix compilation errors
+1a0b774 # 2016-04-21 # Calin @ SQUASHED Add Recents screen options
+4c9f9e4 # 2016-04-20 # Calin @ Fix missing string
+47b884e # 2016-04-20 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+7e17914 # 2016-04-20 # Calin @ XOSPApps refactoring (3/4)
+7f36006 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+3563120 # 2016-04-18 # Michael W @ Settings: Move ADB_ENABLED to "Global"
+76997a7 # 2016-04-17 # Gabriele M @ Settings: Save vibration intensity on close
+a3a64ce # 2016-04-17 # Gabriele M @ Settings: Rework vibration intensity slider
+cb154eb # 2016-04-16 # Michael Bestas @ Automatic translation import
+f1e42d8 # 2016-04-15 # Luis Vidal @ Prevent crash if weather settings activity can't be found
+791434f # 2016-04-15 # Roman Birg @ Settings: check current ringtone for non-default sub ids
+52a2fb4 # 2016-04-15 # Danny Baumann @ Restore double tap to wake string from CM 12.1.
+cf8e3df # 2016-04-15 # Michael Bestas @ Fix unavailable wifi icon in wifi priorities
+fd77274 # 2016-04-14 # Scott Mertz @ Settings: use the actual user id to set pattern size
+ef3407c # 2016-04-14 # tao.pei @ Setting: Disable WPS Push Button/Pin Entry when WiFi is disabled
+5eff3e8 # 2016-04-14 # LuK1337 @ SpamList: Set correct color & remove text from notifications menu item
+4370045 # 2016-04-12 # Steve Kondik @ livedisplay: Update Settings for new LiveDisplay API
+70e9aea # 2016-04-11 # Martin Brabham @ Fix the improper string and increment database version to kick off a new indexing job.
+6575827 # 2016-04-11 # Roman Birg @ Settings: fix default sim radio selections
+72806b3 # 2016-04-11 # Michael W @ Allow adding a shortcut icon for carrier selection
+
+* Project packages/apps/Snap/
+865c09d # 2016-04-23 # Shreesha Murthy @ Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_Snap into HEAD
+1f7404e # 2016-04-20 # Steve Kondik @ Snap: Add support for focus distance
+f9739a3 # 2016-04-20 # Ethan Chen @ Revert "Snap: Improve focusing"
+bb0da15 # 2016-04-20 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+c1945c8 # 2016-04-18 # Sultanxda @ Snap: Add missing return for SET_ONESHOT_PREVIEW_CALLBACK case
+437d36c # 2016-04-16 # Michael Bestas @ Automatic translation import
+57799db # 2016-04-14 # Steve Kondik @ Snap: Improve focusing
+a78d012 # 2016-04-11 # Jay Wang @ SnapdragonCamera: Fix crash issue when changing TNR setting
+
+* Project packages/apps/SnapdragonCamera/
+eaad6af # 2016-04-21 # Sultanxda @ Snap: Add missing return for SET_ONESHOT_PREVIEW_CALLBACK case
+d28bb12 # 2016-04-21 # Jay Wang @ SnapdragonCamera: Fix crash issue when changing TNR setting
+85c4148 # 2016-04-21 # Danny Baumann @ Fix view index tracking.
+102bab6 # 2016-04-21 # Danny Baumann @ Properly respect navigation bar size when laying out menus.
+89d6040 # 2016-04-21 # jrizzoli @ snap: rearrange top view icons
+6d60c59 # 2016-04-21 # Danny Baumann @ Fix histogram not being hidden after disabling it.
+dd52c42 # 2016-04-21 # Danny Baumann @ Beautify and optimize histogram view.
+4a47a56 # 2016-04-21 # Danny Baumann @ Protect against multiple shutter callbacks per frame in longshot mode.
+e3fa3cf # 2016-04-21 # Danny Baumann @ Re-enable processing of drawable state.
+ab0a67b # 2016-04-21 # Ethan Chen @ Snap: Fall back to REVIEW intent before VIEW intent
+
+* Project packages/apps/Stk/
+bb75646 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/Tag/
+48a4e08 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/ThemeChooser/
+c533955 # 2016-04-20 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+1f5c627 # 2016-04-18 # jrizzoli @ ThemeChooser: update UI
+df0a366 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/TvSettings/
+9bf8494 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/UnifiedEmail/
+c31f580 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+30a1786 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/apps/XOSPSetupWizard/
+cf69e2c # 2016-04-23 # Shreesha Murthy @ Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_SetupWizard into HEAD
+fccccda # 2016-04-22 # Roman Birg @ SetupWizard: add a CM-specific setup-complete settings key
+1c0a8bf # 2016-04-20 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+e5c2b92 # 2016-04-18 # Ricardo Cerqueira @ Prefer SIM carrier name over network carrier
+4082d3a # 2016-04-16 # Michael Bestas @ Automatic translation import
+fe7ac15 # 2016-04-14 # Adnan Begovic @ SetupWizard: Don't reprompt setup if account already exists.
+c8c765c # 2016-04-13 # Dave Kover @ Update the theme apply label string
+
+* Project packages/inputmethods/LatinIME/
+9b7f198 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/providers/BookmarkProvider/
+cb9b55f # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/providers/CalendarProvider/
+9fd7d2a # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/providers/CallLogProvider/
+4eba5f5 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/providers/ContactsProvider/
+aa49b77 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+b496a82 # 2016-04-16 # Michael Bestas @ Automatic translation import
+a629c55 # 2016-04-14 # YuanQY @ ContactsProvider: Fix polyphones in Chinese.
+
+* Project packages/providers/DownloadProvider/
+bee7b77 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+a60bcb8 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/providers/MediaProvider/
+c8dacd0 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/providers/TelephonyProvider/
+59816d3 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/providers/ThemesProvider/
+66df087 # 2016-04-16 # Michael Bestas @ Automatic translation import
+9063435 # 2016-04-14 # Dave Kover @ New icon
+b5f8923 # 2016-04-14 # Dave Kover @ Update controls preview to properly render themed assets.
+
+* Project packages/providers/UserDictionaryProvider/
+7057644 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/providers/WeatherProvider/
+ece43f8 # 2016-04-21 # Luis Vidal @ Check for default WeatherInfo values
+0a7e4bb # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/services/LiveLockScreenService/
+7bc0493 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/services/Mms/
+ff77069 # 2016-04-18 # Ricardo Cerqueira @ MmsRequest: Turn on data for the MMS transaction if required
+b7a3f51 # 2016-04-17 # Ricardo Cerqueira @ MmsRequest: Switch data subscription on MSIM if needed
+c642b5a # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/services/Telecomm/
+fb92b65 # 2016-04-22 # Roman Birg @ Telecom: refresh missed call notification on locale change
+c427d59 # 2016-04-20 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+9c02764 # 2016-04-19 # You Kim @ Incorrect cache key in ConnectionServiceRepository
+302e70c # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project packages/services/Telephony/
+9070be1 # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+a777be0 # 2016-04-16 # Michael Bestas @ Automatic translation import
+4bb3b53 # 2016-04-11 # Adnan Begovic @ telephony: Handle no valid subscription scenario for MNS.
+1272934 # 2016-04-11 # luca020400 @ Telephony: Fix NPEs
+5515808 # 2016-04-10 # Danny Baumann @ Don't impose limitations on network mode selection for non-multi RAT phones.
+
+* Project packages/wallpapers/LivePicker/
+c418d68 # 2016-04-16 # Michael Bestas @ Automatic translation import
+
+* Project prebuilts/cmsdk/
+55dfb9c # 2016-04-20 # Adnan Begovic @ prebuilts/cmsdk: Update released artifact (overwritten).
+dd1bd68 # 2016-04-14 # Adnan Begovic @ prebuilts/cmsdk: Prep for api 5.0 release artifact.
+51938bd # 2016-04-14 # Adnan Begovic @ cmsdk: Bump for initial SNAPSHOT for release artifact.
+f8f3aaf # 2016-04-13 # Luis Vidal @ Remove public default constructor from CMWeatherManager.RequestStatus [2/2]
+18455db # 2016-04-13 # Luis Vidal @ Weather API: Delegate the responsability of rejecting back to back requests [2/2]
+49fdb03 # 2016-04-13 # Luis Vidal @ Add WEATHER_TEMPERATURE_UNIT to CMSettings [2/2]
+96cc4b7 # 2016-04-13 # d34d @ Update for changes to 3rd party keyguard perm name
+663ce62 # 2016-04-13 # Luis Vidal @ Merge "Weather API: Return ID rather than RequestInfo [2/2]"
+520252c # 2016-04-12 # Luis Vidal @ Weather API: Return ID rather than RequestInfo [2/2]
+923f923 # 2016-04-12 # Adnan Begovic @ prebuilts/cmsdk: Bump for aar artifact.
+5c12918 # 2016-04-12 # d34d @ Update 5.txt with deprecated collapseNotificationPanel
+
+* Project system/bt/
+87c9691 # 2016-04-24 # Jean-Bernard Damiano @ add medianav to unsupported device for hfp 1.7
+5320f7c # 2016-04-19 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+bdcf617 # 2016-04-15 # Ricardo Cerqueira @ bt-vendor: Fix sporadic crashes on shutdown
+
+* Project system/core/
+cba3c2b # 2016-04-18 # Jessica Wagantall @ Merge tag 'android-6.0.1_r30' into HEAD
+f5eb730 # 2016-04-15 # Christopher R. Palmer @ healthd: Fix NO_CHARGER_LED
+74f658f # 2016-04-14 # Ethan Chen @ healthd: Allow devices to opt-out of enabling charger LED
+05a3648 # 2016-04-14 # Ethan Chen @ healthd: Rename default QCOM libhealthd library
+0373c8d # 2016-04-11 # Gabriele M @ Revert "Revert "init: Temporarily increase coldboot timeout to 5s""
+
+* Project system/extras/
+7a66a32 # 2016-04-12 # luca020400 @ f2fs_utils: Update for f2fs-tools 1.6.1
+0aef861 # 2016-04-12 # luca020400 @ f2fs_utils: Alloc f2fs_journal
+0c8a8e1 # 2016-04-11 # Ethan Chen @ Revert "f2fs_utils: Update for f2fs-tools 1.6.1"
+
+* Project system/extras/su/
+d2c8eb2 # 2016-04-13 # Steve Kondik @ su: Fix crash due to invalid file descriptor
+
+* Project system/vold/
+e6339d3 # 2016-04-14 # Ricardo Cerqueira @ cryptfs: Fix OTA from cm<=12 for encrypted patterns > 9
+
+* Project vendor/cmsdk/
+be0fa63 # 2016-04-23 # Shreesha Murthy @ Merge branch 'cm-13.0' of https://github.com/CyanogenMod/cm_platform_sdk into HEAD
+bf5261c # 2016-04-22 # Roman Birg @ CMSettings: add CM_SETUP_WIZARD_COMPLETED key
+7a4fed9 # 2016-04-21 # Steve Kondik @ livedisplay: Always check for transition
+b00c945 # 2016-04-21 # Steve Kondik @ livedisplay: Bugfixes and cleanups
+9adbc6f # 2016-04-20 # Adnan Begovic @ cmsdk: Ignore "samples" subdir.
+ab3916f # 2016-04-20 # Luis Vidal @ Add Weather API test coverage
+1fe71af # 2016-04-20 # Calin @ Merge remote-tracking branch 'CM/cm-13.0' into xosp-mm
+02a71cc # 2016-04-18 # Luis Vidal @ Weather API: Honor the values set for today's low/high temp
+18aa2f5 # 2016-04-18 # Adnan Begovic @ cmsdk: Fix definition of live display tile, as its now dynamic.
+380d31c # 2016-04-16 # Michael Bestas @ Automatic translation import
+3944915 # 2016-04-15 # Steve Kondik @ livedisplay: Fix validator for the nudge counter
+b62448a # 2016-04-15 # Danesh M @ Revert "CmSdk : Add deprecated THIRD_PARTY_KEYGUARD permission"
+0918427 # 2016-04-15 # Danesh M @ CmSdk : Add deprecated THIRD_PARTY_KEYGUARD permission
+e554528 # 2016-04-15 # Luca Stefani @ livedisplay: Update system-api
+842344a # 2016-04-15 # Danny Baumann @ livedisplay: Fix endless loop for devices that don't support outdoor mode.
+7cd7f79 # 2016-04-15 # Steve Kondik @ livedisplay: Fix bad state after bootup
+0ec60c6 # 2016-04-15 # Steve Kondik @ livedisplay: Don't explode if no modes are available
+712426f # 2016-04-14 # Steve Kondik @ livedisplay: Publish our own damn tile!
+763e39a # 2016-04-14 # Steve Kondik @ livedisplay: Fix error checks when fetching config
+14190e4 # 2016-04-14 # Michael Bestas @ Fix LiveDisplay string
+62604cf # 2016-04-14 # Adnan Begovic @ cmsdk: Exclude compiled 'cyanogenmod/library' java package.
+ad5e5d0 # 2016-04-13 # Luis Vidal @ Remove public default constructor from CMWeatherManager.RequestStatus [1/2]
+b49885a # 2016-04-13 # d34d @ ExtViews: Pass input events to underlying Window
+fe1812f # 2016-04-13 # Luis Vidal @ Weather API: Delegate the responsability of rejecting back to back requests [1/2]
+377fffc # 2016-04-13 # Luis Vidal @ Use temperature unit from CMSettings on weather update requests
+ed4d063 # 2016-04-13 # Luis Vidal @ Add WEATHER_TEMPERATURE_UNIT to CMSettings [1/2]
+10da08a # 2016-04-13 # d34d @ cmsdk: correct naming of THIRD_PARTY_KEYGUARD perm
+ad0d8c5 # 2016-04-13 # Luis Vidal @ Weather API: Return ID rather than RequestInfo [1/2]
+1dab5a0 # 2016-04-13 # Steve Kondik @ cmsdk: Refactoring LiveDisplay
+620b1eb # 2016-04-12 # Roman Birg @ cmsdk: compile as aar
+8a35e12 # 2016-04-12 # d34d @ Themes: Clear out bootanimation if pkgName empty
+16d3dc6 # 2016-04-12 # d34d @ LLS: Deprecate collapseNotificationPanel [1/2]
+
+* Project vendor/cmsdk/samples/weatherproviderservice/
+6757ab6 # 2016-04-22 # Adnan Begovic @ WundergroundCM: Update iconography.
+6a231df # 2016-04-20 # Adnan Begovic @ WundergroundCM: Make sure to set the current days forecast.
+d7700c7 # 2016-04-20 # Adnan Begovic @ WundergroundCM: Update gradlewrapper version and only pull from mc.
+5b049da # 2016-04-20 # Adnan Begovic @ WundergroundCM: Point at maven central for artifact.
+f24ccf6 # 2016-04-20 # Adnan Begovic @ WundergroundCM: Provide weathercondition to weathercode map.
+a6f49ab # 2016-04-20 # Adnan Begovic @ WundergroundCM: Add api key verification mechanism.
+2a77ad4 # 2016-04-18 # Adnan Begovic @ WundergroundCM: Provide attribution and do clean up.
+2c397d7 # 2016-04-18 # Adnan Begovic @ WundergroundCM: Add settings activity.
+80cf30c # 2016-04-14 # Adnan Begovic @ WundergroundCM: Build against release artifact.
+4ebc755 # 2016-04-13 # Adnan Begovic @ WundergroundCM: Handle null city disambiguation list.
+6a921ab # 2016-04-13 # Adnan Begovic @ WundergroundCM: Update for weather api changes.
+cb7c7f6 # 2016-04-12 # Roman Birg @ Wunderground: fix city disambiguation req
+e76e0c9 # 2016-04-12 # Roman Birg @ Wunderground: fix lookup city call
+
+* Project vendor/lge/
+aee1040 # 2016-04-20 # Abhisek Devkota @ Fix qcrilhook jar dex derp
+db3a1bf # 2016-04-13 # Dan Pasanen @ Merge pull request #177 from bryan2894/acdb
+
+* Project vendor/xosp/
+dc0e856 # 2016-04-24 # Calin @ Bump to RL5 Revision 4
+9a5bc20 # 2016-04-23 # Calin @ Update ViPER4Android to version: 2.4.0.1
+1e98644 # 2016-04-23 # Raj Yengisetty @ Update Ambient SDK to 1.5.5
+b184ed9 # 2016-04-23 # Pat Erley @ sepolicy: Allow recovery to mount on tmpfs
+70eb105 # 2016-04-23 # Matt Garnes @ Update Ambient SDK to 1.5.3
+508d359 # 2016-04-20 # Jason Riordan @ MetroPCS APN update
+ec12f70 # 2016-04-20 # Jason Riordan @ Irancell & MTS APN updates
+40659d3 # 2016-04-20 # Adnan Begovic @ cm: Amend api text message.
+16730e0 # 2016-04-20 # Deepak Kundra @ Update APN name for Movistar INTERNET
+0d74d28 # 2016-04-20 # Jason Riordan @ APN: fixup single-digit mnc APNs
+de4aec5 # 2016-04-20 # Calin @ Add Weather Content Provider [3/5]
+81c63bc # 2016-04-20 # Jason Riordan @ SMART [PH] APN updates
+a208371 # 2016-04-20 # Adnan Begovic @ cm: Support maven artifact as aar for publish.
+6026149 # 2016-04-20 # Calin @ Allow backuptool to execute sh scripts
+2ae9551 # 2016-04-20 # Calin @ XOSPApps refactoring (2/4)
+
+* Project xosp_apps/
+f925892 # 2016-04-24 # Calin @ Add modded textinput-tng for arm64 based devices
+6bb45a1 # 2016-04-24 # Calin @ Add IS_ARM64 flag
+beb288a # 2016-04-23 # Calin @ Bump to RL5 Revision 4
+0a513a6 # 2016-04-22 # Calin @ Add SomcDLNA and relative components
+f8f7025 # 2016-04-22 # Calin @ Update SemCalendar to version: 20.1.A.1.15
+6b1600a # 2016-04-22 # Calin @ Update Sketch to version: 7.1.A.0.5
+5e62fa3 # 2016-04-22 # Calin @ Update Music to version: 9.1.8.A.1.1
+c15f7d6 # 2016-04-22 # Calin @ Update TrackID to version: 4.4.B.0.3
+239918a # 2016-04-22 # Calin @ Update Weather to version: 1.1.A.0.22
+9afff88 # 2016-04-22 # Calin @ Update Album to version: 7.7.A.0.4
+c664245 # 2016-04-22 # Calin @ Merge branch 'tetsuo55-xosp-mm' into xosp-mm
+cdc30a5 # 2016-04-22 # Calin @ Merge branch 'xosp-mm' of https://github.com/tetsuo55/xosp_apps into tetsuo55-xosp-mm
+a9740b2 # 2016-04-20 # Calin @ Fix path
+6cabfdc # 2016-04-20 # Calin @ XOSPApps refactoring (1/4)
+e774eeb # 2016-04-11 # tetsuo55 @ Revert "Framework: Update updatacenter jar to Z3 Concept MMB29V.Z1.3561"
+4204bc4 # 2016-04-11 # tetsuo55 @ Framework: Update provider tasks jar to MMB29V.Z1.3561
+7ff867c # 2016-04-11 # tetsuo55 @ Framework: Update updatacenter jar to Z3 Concept MMB29V.Z1.3561
+f19c52d # 2016-04-11 # tetsuo55 @ Smart Connect: Update to 5.7.28.715
+8bb4d9c # 2016-04-11 # tetsuo55 @ Xperia Home: Update to 10.0.A.0.30
+449ef5f # 2016-04-11 # tetsuo55 @ Clock Widgets: Correct naming and update to 5.2.A.0.2
+
+* Project xosp_ota/
+4da9c79 # 2016-04-23 # Călin Neamţu @ Bump Z00A/8 to RL5 Revision4
+190f5ea # 2016-04-14 # Nitin chobhe @ Added G3 OTAs
+8b2b8b4 # 2016-04-14 # Shreesha Murthy @ 5.3 for sprout variants
+44a8c0d # 2016-04-13 # Nitin chobhe @ Added 5.3 for armani
+bff22d3 # 2016-04-13 # Nitin chobhe @ Added 5.3 for mako
+b15fb78 # 2016-04-13 # Călin Neamţu @ Merge pull request #4 from tusharjain95/patch-1
+a6ced7c # 2016-04-13 # Tushar Jain @ Update bacon to 5.3!
+73eb1b3 # 2016-04-12 # Călin Neamţu @ Bump Z00A/8 to RL5 Revision3

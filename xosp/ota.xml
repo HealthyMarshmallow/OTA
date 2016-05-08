@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <d802>
+            <Filename>XOSP-5.4-UNOFFICIAL-20160424-211748-d802.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="ROM"
+                description="Download XOSP 5.4">https://www.androidfilehost.com/?fid=24499762636007892</RomUrl>
+            <KernelUrl
+                id="kernel"
+                title="Kernel"
+                description="Enjoy HealthyMarshmallow 3.1">https://www.androidfilehost.com/?fid=24533103863138125</KernelUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/xosp/changelog.txt</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="GApps"
+                description="Download A-GAPPS 5.0">http://forum.xda-developers.com/android/general/gapps-gapps-6-0-1-minimal-t3276606</GappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Twitter">http://twitter.com/ZdrowyGosciu</XDAUrl>
+            <XposedUrl
+                id="xposed"
+                title="Xposed"
+                description="Get Xposed v84">http://dl-xda.xposed.info/framework/sdk23/arm/xposed-v84-sdk23-arm.zip</XposedUrl>
+            <DonateUrl
+                id="donate"
+                title="PayPal"
+                description="Donate ^_^">https://www.paypal.com/cgi-bin/webscr?button=donate&amp;size=small&amp;item_name=Donation&amp;cmd=_donations&amp;business=ZdrowyGosciu%40GoogleMail.com&amp;bn=JavaScriptButton_donate&amp;env=www</DonateUrl>
+        </d802>
+    </Stable>
+</TurboOTA>

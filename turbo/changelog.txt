@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-05 @ 16:17:21 (1462465041)
+CHANGES AFTER 2016-05-06 @ 13:20:13 (1462540813)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,47 +6,92 @@ CHANGES AFTER 2016-05-05 @ 16:17:21 (1462465041)
            |_____|___  |______|______|
                  |_____|              
 
-
 * Project /
-0000000 # 2016-05-06 # Zdrowy Gosciu @ apps: Bring back Amaze file manager
-0000000 # 2016-05-06 # Zdrowy Gosciu @ apps: Replace Catlog with LogcatExtreme
-0000000 # 2016-05-06 # Zdrowy Gosciu @ Dev settings: Remove (not working) USB connection setting
+0000000 # 2016-05-07 # Zdrowy Gosciu @ apps: Bring back Catlog
+
+* Project Documentation/
+1e844f1 # 2016-05-07 # Raleigh Matlock @ Update CHANGELOG.mkdn
+ce885e7 # 2016-05-07 # Raleigh Matlock @ 4.0 is here!
 
 * Project OTA/
-00e105b # 2016-05-06 # Zdrowy Gosciu @ OTA: Turbo ROM: Add new link
-3b4ea95 # 2016-05-05 # Zdrowy Gosciu @ OTA: Turbo-d802-3.9-UNOFFICIAL-20160505-161159 + new links
-
-* Project device/lge/d802/
-c3e552b # 2016-05-06 # Zdrowy Gosciu @ d802: Turbo ROM: Build Browser
-3307448 # 2016-05-06 # Zdrowy Gosciu @ d802: Turbo ROM: Handle NTFS + exFAT by kernel
-6ad621d # 2016-05-06 # Zdrowy Gosciu @ d802: Turbo ROM: Add time to version
+2218400 # 2016-05-06 # Zdrowy Gosciu @ OTA: Turbo-d802-3.9-UNOFFICIAL-20160506-131211
 
 * Project device/lge/g2-common/
-de67868 # 2016-05-06 # beanstown106 @ g2-common: Update default wallpaper
-900e7a7 # 2016-05-06 # Zdrowy Gosciu @ g2-common: init: power: More life to interactive GOV
+9288baf # 2016-05-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
+
+* Project external/sepolicy/
+0ff1ec7 # 2016-05-07 # Alex Naidis @ Other minor fixes
+b994762 # 2016-05-07 # Alex Naidis @ shell: rw permissions for dalvik cache
+7328d07 # 2016-05-07 # Alex Naidis @ Force shipping build to true, and resolve issues
+e5ed2ff # 2016-05-07 # Alex Naidis @ debuggerd: fix denial for gpu read
+e5e8c84 # 2016-05-07 # Alex Naidis @ system_server: fix a logd denial
+50014a6 # 2016-05-07 # Alex Naidis @ isolated_app: Fix Chrome denial
+8df5ed1 # 2016-05-07 # Alex Naidis @ te_macros: make sure  we have a very friendly sepolicy
+0329c44 # 2016-05-07 # Alex Naidis @ Force shipping_builds to false
 
 * Project frameworks/base/
-4ee0cb9 # 2016-05-05 # beanstown106 @ Battery saver and low battery notification toggles [1/2]
-14b487c # 2016-05-05 # beanstown106 @ Add Google's updated backup transfer service
-64dca42 # 2016-05-05 # Raleigh Matlock @ Fix the handling of the Screen record icon
-71b8f62 # 2016-05-05 # Sven W @ 'Do not disturb' add 15 min Steps and up to 14 Hours
-f7712d8 # 2016-05-05 # rogersb11 @ Add screen record to Global menu (1/2)
+34c8247 # 2016-05-07 # Raleigh Matlock @ Don't update the expanded status bar icon colors quite so frequently
+f0d3c6b # 2016-05-07 # Randall Rushing @ Fix Heads Up, Task manager, and edit QS buttons in StatusBarHeaderView
+b2e0270 # 2016-05-06 # Raleigh Matlock @ Fix the starting margin of the Heads Up button in expanded status bar
+d6baaf3 # 2016-05-06 # Randall Rushing @ Use CircularReveal animation to show/hide task manager panel
+ff548d1 # 2016-05-06 # Altaf-Mahdi @ Add Heads-up button in the extended statusbar [1/2]
+d3a9407 # 2016-05-06 # Alex Cruz @ Let's not recreate the statusbar for task manager
+47a395e # 2016-05-06 # dexmc @ Add longpress action for TaskManager button
+867390b # 2016-05-06 # westcripp @ Materialize the task kill button
+053ce8e # 2016-05-06 # Alex Cruz @ Add a few missing parts for CAF Task Manager
+6ccc258 # 2016-05-06 # Altaf-Mahdi @ Reset the QS panel if task manager was visible last
+bcb06ee # 2016-05-06 # Randall Rushing @ Use one observer for changes, misc cleanup
+f113068 # 2016-05-06 # Alex Cruz @ Add more icons for the task manager switch
+422d500 # 2016-05-06 # westcripp @ Remove the empty notification after switch on/off logic
+0fd3fdb2 # 2016-05-06 # westcripp @ On switch, recreate the statusbar to fix task view
+91c699b # 2016-05-06 # Lokesh Chamane @ Update some Task Manager functions
+cf29af8 # 2016-05-06 # dexmc @ Fix Task Manager strings
+5e96bde # 2016-05-06 # Altaf-Mahdi @ Task manager improvements
+0385a91 # 2016-05-06 # westcripp @ Improve Task manager UI
+04e5e69 # 2016-05-06 # Alex Cruz @ Expose the task manager values for themers
+0fa3434 # 2016-05-06 # Alex Cruz @ Fixed the Task Manager bug described in the post below
+e2d3ad3 # 2016-05-06 # Alex Cruz @ CAF Task Manager switch [1/2]
+5a7daf4 # 2016-05-06 # haiyangl @ Add task manager back in!
+
+* Project hardware/qcom/fm/
+49630ff # 2016-05-07 # Michael Bestas @ Convert regional band arrays to string references
+
+* Project hardware/qcom/media-caf/msm8974/
+efda1e0 # 2016-05-06 # Praveen Chavan @ mm-video-v4l2: vdec: deprecate unused config OMX_IndexVendorVideoExtraData
+026da62 # 2016-05-06 # Praveen Chavan @ mm-video-v4l2: venc: add safety checks for freeing buffers
+366ded5 # 2016-05-06 # Praveen Chavan @ mm-video-v4l2: vidc: validate omx param/config data
+88256fe # 2016-05-06 # Praveen Chavan @ mm-video-v4l2: vdec: add safety checks for freeing buffers
 
 * Project kernel/lge/msm8974/
-b09bcbf # 2016-05-06 # Zdrowy Gosciu @ Version HM 2.999999
-8dcb68b # 2016-05-06 # franciscofranco @ sched/fair: rq might've been uninitialized, so fix it
-8fb1246 # 2016-05-06 # franciscofranco @ sched/balancing: Reduce the rate of needless idle load balancing
-aaa7b35 # 2016-05-06 # franciscofranco @ sched/fair: Stop searching for tasks in newidle balance if there are runnable tasks
-d354734 # 2016-05-06 # franciscofranco @ sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire. From http://ripke.com/loadavg/moire
-8c28994 # 2016-05-06 # franciscofranco @ mdss: set fb0 thread to interruptible to lower load_average
-fbf863b # 2016-05-06 # franciscofranco @ video: mdss: use interruptible completion to decrease load_average
-cd932f3 # 2016-05-06 # franciscofranco @ msm: slimbus: use interruptible wait to reduce system's load average
-e86420b # 2016-05-06 # franciscofranco @ mdss: use an interruptible thread on edp to reduce load_average
-02efcfb # 2016-05-05 # michelborges @ smp: Prevent reschedule on offline CPU
+d76770a # 2016-05-07 # Zdrowy Gosciu @ Version HM 3.0
+4be93a1 # 2016-05-07 # Vikram Mulukutla @ arm: mach-msm: pil-msa: Set the strongly-ordered attribute on DMA allocations
+b1fd5bb # 2016-05-07 # Tyler Dunn @ d802_defconfig: Enable KSM
+bf18ac9 # 2016-05-07 # Tyler Dunn @ ksm: Relax sleep timer to 500 ms
+374819a # 2016-05-07 # Pavan Anamula @ mmc: fix host release issue after discard/flush operation
+290070f # 2016-05-07 # Pavan Anamula @ Revert "Revert "mmc: queue: use cached attributes of special requests""
+b005e76 # 2016-05-07 # Pavan Anamula @ Revert "Revert "mmc: queue: exclude asynchronous transfer for special request""
+8566794 # 2016-05-07 # Tim Murray @ ANDROID: mmc: move to a SCHED_FIFO thread
+0700204 # 2016-05-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+3865c94 # 2016-05-06 # Naveen Ramaraj @ msm: smd_pkt: Avoid prematurely stashing driver info
+2caddd8 # 2016-05-06 # fluxi @ msm: kgsl: Fix idle timer sysfs after removing references to HZ
+8c54e4f # 2016-05-06 # David S. Miller @ ipv4: Don't do expensive useless work during inetdev destroy.
+2d9b73a # 2016-05-06 # Florian Westphal @ netfilter: x_tables: fix unconditional helper
+699b534 # 2016-05-06 # Oliver Neukum @ USB: cdc-acm: more sanity checking
+bd40f26 # 2016-05-06 # Oliver Neukum @ usbnet: cleanup after bind() in probe()
+2a3e0d9 # 2016-05-06 # Takashi Iwai @ ALSA: hrtimer: Fix stall by hrtimer_cancel()
 
-* Project packages/apps/Eleven/
-3b61f11 # 2016-05-05 # Dave Kover @ Merge "Themes: Expose and separate values for themes" into cm-13.0
+* Project manifest/
+e7d40d9 # 2016-05-07 # Raleigh Matlock @ Track our own skia again
+cf11072 # 2016-05-07 # Raleigh Matlock @ Remove LiveDisplay items... for now ;)
 
 * Project packages/apps/Settings/
-9accff8 # 2016-05-05 # beanstown106 @ Battery saver and low battery notification toggles [2/2]
-a12b25c # 2016-05-05 # Raleigh Matlock @ Fix DSLV breaking searching for missing arrays
+bd07fc3 # 2016-05-07 # Raleigh Matlock @ Enable color temperature stuff
+6c621c6 # 2016-05-07 # Raleigh Matlock @ TEMP: Disable IME in navigation bar setting
+1d12da3 # 2016-05-07 # pcarenza @ Changelog: prettify
+157a063 # 2016-05-07 # Raleigh Matlock @ Remove dt2s on nav. bar as it's deprecated
+dfd9c55 # 2016-05-06 # Raleigh Matlock @ Settings: Add Heads Up in expanded status bar switch
+d527090 # 2016-05-06 # Alex Cruz @ Settings: Add CAF task manager switch
+
+* Project vendor/turbo/
+0444c68 # 2016-05-07 # Raleigh Matlock @ Remove LiveDisplay from SE policy
+1a7a548 # 2016-05-07 # Raleigh Matlock @ 4.0 is here!

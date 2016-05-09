@@ -2,15 +2,15 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>XOSP-5.4-UNOFFICIAL-20160508-192329-d802.zip</Filename>
+            <Filename>XOSP-5.4-UNOFFICIAL-20160509-075716-d802.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download XOSP 5.4">https://www.androidfilehost.com/?fid=24499762636007892</RomUrl>
+                description="Download XOSP 5.4">https://www.androidfilehost.com/?fid=24533103863138257</RomUrl>
             <KernelUrl
                 id="kernel"
                 title="Kernel"
-                description="Enjoy HealthyMarshmallow 3.1">https://www.androidfilehost.com/?fid=24533103863138125</KernelUrl>
+                description="Enjoy HealthyMarshmallow 3.3">https://www.androidfilehost.com/?fid=24533103863138256</KernelUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"

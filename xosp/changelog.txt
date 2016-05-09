@@ -11,7 +11,17 @@ CHANGES AFTER 2016-04-24 @ 21:28:45 (1461533325)
 0000000 # 2016-05-08 # Zdrowy Gosciu @ apps: Build XOSPOTA
 
 * Project OTA/
+170543c # 2016-05-08 # Zdrowy Gosciu @ OTA: XOSP-5.4-UNOFFICIAL-20160508-192329-d802
 f1f44f2 # 2016-05-08 # Zdrowy Gosciu @ OTA: Introduce XOSP
+afab09a # 2016-05-08 # Zdrowy Gosciu @ OTA: HM 3.1
+dc8252f # 2016-05-08 # Zdrowy Gosciu @ OTA: Turbo-d802-4.0-UNOFFICIAL-20160507-215538
+2218400 # 2016-05-06 # Zdrowy Gosciu @ OTA: Turbo-d802-3.9-UNOFFICIAL-20160506-131211
+00e105b # 2016-05-06 # Zdrowy Gosciu @ OTA: Turbo ROM: Add new link
+3b4ea95 # 2016-05-05 # Zdrowy Gosciu @ OTA: Turbo-d802-3.9-UNOFFICIAL-20160505-161159 + new links
+9d80728 # 2016-05-05 # Zdrowy Gosciu @ OTA: Turbo ROM: Cleanup links
+55b5851 # 2016-05-04 # Zdrowy Gosciu @ OTA: Turbo-d802-3.9-UNOFFICIAL-20160503-204259
+24b0bc7 # 2016-05-03 # Zdrowy Gosciu @ OTA: Turbo-d802-3.4-UNOFFICIAL-20160427-202343
+724aaf0 # 2016-04-25 # Zdrowy Gosciu @ OTA: Turbo-d802-3.4-UNOFFICIAL-20160425-082332
 
 * Project android/
 7ecfbe2 # 2016-05-06 # Jessica Wagantall @ default.xml: cm: Update to 6.0.1_r43
@@ -52,6 +62,12 @@ c3e552b # 2016-05-06 # Zdrowy Gosciu @ d802: Turbo ROM: Build Browser
 ba72fce # 2016-04-29 # Alexander Martinz @ d802: turbo.mk: Introduce persist.sf.lcd_density
 
 * Project device/lge/g2-common/
+9572d0d # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Tweak random
+85b8cd6 # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Return to MP-Decision
+3b2799a # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: BFQ 512 kB as default I/O scheduler
+4b4ecb4 # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Don't start Adreno Idler
+a61379a # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: power: Revert max CPU freq to stock"
+bfdc023 # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: power: Disable sched mc power savings"
 d0f8b08 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Disable sched mc power savings
 bad9f33 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Increase read ahead
 47d3cbf # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Revert max CPU freq to stock
@@ -254,6 +270,26 @@ a797942 # 2016-05-06 # Praveen Chavan @ mm-video-v4l2: vidc: validate omx param/
 10f354f # 2016-05-01 # Luden @ domx: connection robustness improvements
 
 * Project kernel/lge/msm8974/
+b75e200 # 2016-05-09 # Zdrowy Gosciu @ Version HM 3.3
+c61ab55 # 2016-05-09 # Jan Kara @ block: Reserve only one queue tag for sync IO if only 3 tags are available
+0536be0 # 2016-05-09 # Namjae Jeon @ writeback: fix writeback cache thrashing
+0ffa047 # 2016-05-09 # Junxiao Bi @ writeback: fix race that cause writeback hung
+d52a74c # 2016-05-09 # Vladimir Davydov @ block: account iowait time when waiting for completion of IO request
+2f99b57 # 2016-05-09 # Vladimir Davydov @ sched: add wait_for_completion_io[_timeout]
+aacd00a # 2016-05-09 # Dave Chinner @ sync: don't block the flusher thread waiting on IO
+db4ed63 # 2016-05-09 # LaboDJ @ msm: Skip building perf debug
+a4a6edd # 2016-05-09 # Mel Gorman @ mm: slub: Default slub_max_order to 0
+0245aa1 # 2016-05-09 # Sachin Kamat @ PM / QoS: Use NULL pointer instead of plain integer in qos.c
+d932c3e # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.2
+1063c06 # 2016-05-08 # Zdrowy Gosciu @ Revert "ARM: 8036/1: Enable IRQs before attempting to read user space in __und_usr"
+fc89b19 # 2016-05-08 # Zdrowy Gosciu @ Revert "hrtimer: Prevent remote enqueue of leftmost timers"
+b7b95cf # 2016-05-08 # Zdrowy Gosciu @ Revert "msm: kgsl: Vote against deep low power modes when GPU wakes up from slumber"
+a2120c9 # 2016-05-08 # Zdrowy Gosciu @ Revert "Revert "GPU PWR LEVELS: Fixed super old bug in gpu thermal pwr level""
+bd276ed # 2016-05-08 # Zdrowy Gosciu @ Revert "slimbus: Overclocking of slimbus imporove audio"
+4b7da59 # 2016-05-08 # Zdrowy Gosciu @ Revert "slub.c: little tweak for performance improvements"
+231fd03 # 2016-05-08 # Zdrowy Gosciu @ Revert "Misc. tweaks"
+0da5711 # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.111
+036f9f0 # 2016-05-08 # Dorimanx @ misc: Mute non needed debug SPAM in dmesg
 aaeb3a8 # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.1
 173afc4 # 2016-05-08 # Zdrowy Gosciu @ mm: ksm: Tweak values
 f14a307 # 2016-05-08 # Zdrowy Gosciu @ drivers: CPUQuiet: Enable by default

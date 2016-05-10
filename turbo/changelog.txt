@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-06 @ 13:20:13 (1462540813)
+CHANGES AFTER 2016-05-07 @ 22:01:22 (1462658482)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,91 +7,123 @@ CHANGES AFTER 2016-05-06 @ 13:20:13 (1462540813)
                  |_____|              
 
 * Project /
-0000000 # 2016-05-07 # Zdrowy Gosciu @ apps: Bring back Catlog
+0000000 # 2016-05-10 # Zdrowy Gosciu @ QCOM Power HAL: Remove useless logs
+0000000 # 2016-05-10 # Zdrowy Gosciu @ Switch to prebuilt V4A
+0000000 # 2016-05-10 # Zdrowy Gosciu @ Build FUSE (to fix NTFS/exFAT support - kernel FS wasn't working)
 
 * Project Documentation/
-1e844f1 # 2016-05-07 # Raleigh Matlock @ Update CHANGELOG.mkdn
-ce885e7 # 2016-05-07 # Raleigh Matlock @ 4.0 is here!
+5d3eed0 # 2016-05-08 # Raleigh Matlock @ Update xda-template
+36fcb00 # 2016-05-08 # MZO @ Merge pull request #26 from GtrCraft/patch-1
+f3f7f7b # 2016-05-08 # Nick @ Add Moto X Play Maintainer and r43
+854b473 # 2016-05-08 # MZO @ Merge pull request #25 from nitin1438/patch-2
+4921b38 # 2016-05-08 # MZO @ Merge pull request #24 from Bitti09/patch-1
+d365e82 # 2016-05-08 # Nitin chobhe @ Updated to r43
+4a33b4a # 2016-05-08 # Bitti09 @ Add Xiaomi Mi3 Maintainer
 
 * Project OTA/
-2218400 # 2016-05-06 # Zdrowy Gosciu @ OTA: Turbo-d802-3.9-UNOFFICIAL-20160506-131211
+4b715e7 # 2016-05-09 # Zdrowy Gosciu @ OTA: XOSP-5.4-UNOFFICIAL-20160509-075716-d802
+64bbe6a # 2016-05-09 # Zdrowy Gosciu @ OTA: Turbo ROM: HM 3.3
+b7bdb8a # 2016-05-08 # Zdrowy Gosciu @ OTA: Turbo ROM: HM 3.2
+170543c # 2016-05-08 # Zdrowy Gosciu @ OTA: XOSP-5.4-UNOFFICIAL-20160508-192329-d802
+f1f44f2 # 2016-05-08 # Zdrowy Gosciu @ OTA: Introduce XOSP
+afab09a # 2016-05-08 # Zdrowy Gosciu @ OTA: HM 3.1
+dc8252f # 2016-05-08 # Zdrowy Gosciu @ OTA: Turbo-d802-4.0-UNOFFICIAL-20160507-215538
+
+* Project device/lge/d802/
+41ab031 # 2016-05-10 # Zdrowy Gosciu @ d802: Turbo ROM: Move V4A to my global dir
+4964fb8 # 2016-05-09 # Zdrowy Gosciu @ d802: Turbo ROM: Use prebuilt V4A v2.4.0.1
+303c00d # 2016-05-09 # Zdrowy Gosciu @ d802: Turbo ROM: Fix NTFS/exFAT support
 
 * Project device/lge/g2-common/
-9288baf # 2016-05-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
+440ac13 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Impulse don't need MP-Decision so disable it
+4764841 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: No windows align with impulse
+5ee4558 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Zen as default I/O scheduler
+b947861 # 2016-05-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+dd28118 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Impulse as default GOV
+85fe9ad # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Another interactive GOV tweak
+da6edfa # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
+46e4d15 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Cleanup MSM Thermal
+5ae15ab # 2016-05-09 # Ethan Chen @ g2: Don't use QC default init library
+bc87aaa # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Cleanup CPUQuiet
+f4578f3 # 2016-05-09 # Raleigh Matlock @ g2-common: Introduce SONY TherManager
+31c0c99 # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: Use bricked thermal"
+9572d0d # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Tweak random
+85b8cd6 # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Return to MP-Decision
+3b2799a # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: BFQ 512 kB as default I/O scheduler
+4b4ecb4 # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Don't start Adreno Idler
+a61379a # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: power: Revert max CPU freq to stock"
+bfdc023 # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: power: Disable sched mc power savings"
+d0f8b08 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Disable sched mc power savings
+bad9f33 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Increase read ahead
+47d3cbf # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Revert max CPU freq to stock
+d5d4a58 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Lower interactive GOV go_hispeed_load
+0018d50 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: load_stats as default CPUQuiet GOV
+6384c64 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Restore CPUQuiet on early-init
+7c591c9 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Don't start MP-Decision (use CPUQuiet)
+b54fba8 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Remove block tweaks
+a015c39 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: SIOplus 512 kB as default I/O sched
+bbcaf1f # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Setup adaptive min free to 266 MB
+9a6ffe9 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Higher hispeed_freq
 
-* Project external/sepolicy/
-0ff1ec7 # 2016-05-07 # Alex Naidis @ Other minor fixes
-b994762 # 2016-05-07 # Alex Naidis @ shell: rw permissions for dalvik cache
-7328d07 # 2016-05-07 # Alex Naidis @ Force shipping build to true, and resolve issues
-e5ed2ff # 2016-05-07 # Alex Naidis @ debuggerd: fix denial for gpu read
-e5e8c84 # 2016-05-07 # Alex Naidis @ system_server: fix a logd denial
-50014a6 # 2016-05-07 # Alex Naidis @ isolated_app: Fix Chrome denial
-8df5ed1 # 2016-05-07 # Alex Naidis @ te_macros: make sure  we have a very friendly sepolicy
-0329c44 # 2016-05-07 # Alex Naidis @ Force shipping_builds to false
-
-* Project frameworks/base/
-34c8247 # 2016-05-07 # Raleigh Matlock @ Don't update the expanded status bar icon colors quite so frequently
-f0d3c6b # 2016-05-07 # Randall Rushing @ Fix Heads Up, Task manager, and edit QS buttons in StatusBarHeaderView
-b2e0270 # 2016-05-06 # Raleigh Matlock @ Fix the starting margin of the Heads Up button in expanded status bar
-d6baaf3 # 2016-05-06 # Randall Rushing @ Use CircularReveal animation to show/hide task manager panel
-ff548d1 # 2016-05-06 # Altaf-Mahdi @ Add Heads-up button in the extended statusbar [1/2]
-d3a9407 # 2016-05-06 # Alex Cruz @ Let's not recreate the statusbar for task manager
-47a395e # 2016-05-06 # dexmc @ Add longpress action for TaskManager button
-867390b # 2016-05-06 # westcripp @ Materialize the task kill button
-053ce8e # 2016-05-06 # Alex Cruz @ Add a few missing parts for CAF Task Manager
-6ccc258 # 2016-05-06 # Altaf-Mahdi @ Reset the QS panel if task manager was visible last
-bcb06ee # 2016-05-06 # Randall Rushing @ Use one observer for changes, misc cleanup
-f113068 # 2016-05-06 # Alex Cruz @ Add more icons for the task manager switch
-422d500 # 2016-05-06 # westcripp @ Remove the empty notification after switch on/off logic
-0fd3fdb2 # 2016-05-06 # westcripp @ On switch, recreate the statusbar to fix task view
-91c699b # 2016-05-06 # Lokesh Chamane @ Update some Task Manager functions
-cf29af8 # 2016-05-06 # dexmc @ Fix Task Manager strings
-5e96bde # 2016-05-06 # Altaf-Mahdi @ Task manager improvements
-0385a91 # 2016-05-06 # westcripp @ Improve Task manager UI
-04e5e69 # 2016-05-06 # Alex Cruz @ Expose the task manager values for themers
-0fa3434 # 2016-05-06 # Alex Cruz @ Fixed the Task Manager bug described in the post below
-e2d3ad3 # 2016-05-06 # Alex Cruz @ CAF Task Manager switch [1/2]
-5a7daf4 # 2016-05-06 # haiyangl @ Add task manager back in!
-
-* Project hardware/qcom/fm/
-49630ff # 2016-05-07 # Michael Bestas @ Convert regional band arrays to string references
-
-* Project hardware/qcom/media-caf/msm8974/
-efda1e0 # 2016-05-06 # Praveen Chavan @ mm-video-v4l2: vdec: deprecate unused config OMX_IndexVendorVideoExtraData
-026da62 # 2016-05-06 # Praveen Chavan @ mm-video-v4l2: venc: add safety checks for freeing buffers
-366ded5 # 2016-05-06 # Praveen Chavan @ mm-video-v4l2: vidc: validate omx param/config data
-88256fe # 2016-05-06 # Praveen Chavan @ mm-video-v4l2: vdec: add safety checks for freeing buffers
+* Project frameworks/av/
+b40f3d4 # 2016-05-09 # Raleigh Matlock @ Merge pull request #1 from Bitti09/m6.0.1
+3553d43 # 2016-05-09 # Praveen Chavan @ MediaProfiles: Enhance profiles for extended usecases
 
 * Project kernel/lge/msm8974/
-d76770a # 2016-05-07 # Zdrowy Gosciu @ Version HM 3.0
-4be93a1 # 2016-05-07 # Vikram Mulukutla @ arm: mach-msm: pil-msa: Set the strongly-ordered attribute on DMA allocations
-b1fd5bb # 2016-05-07 # Tyler Dunn @ d802_defconfig: Enable KSM
-bf18ac9 # 2016-05-07 # Tyler Dunn @ ksm: Relax sleep timer to 500 ms
-374819a # 2016-05-07 # Pavan Anamula @ mmc: fix host release issue after discard/flush operation
-290070f # 2016-05-07 # Pavan Anamula @ Revert "Revert "mmc: queue: use cached attributes of special requests""
-b005e76 # 2016-05-07 # Pavan Anamula @ Revert "Revert "mmc: queue: exclude asynchronous transfer for special request""
-8566794 # 2016-05-07 # Tim Murray @ ANDROID: mmc: move to a SCHED_FIFO thread
-0700204 # 2016-05-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-3865c94 # 2016-05-06 # Naveen Ramaraj @ msm: smd_pkt: Avoid prematurely stashing driver info
-2caddd8 # 2016-05-06 # fluxi @ msm: kgsl: Fix idle timer sysfs after removing references to HZ
-8c54e4f # 2016-05-06 # David S. Miller @ ipv4: Don't do expensive useless work during inetdev destroy.
-2d9b73a # 2016-05-06 # Florian Westphal @ netfilter: x_tables: fix unconditional helper
-699b534 # 2016-05-06 # Oliver Neukum @ USB: cdc-acm: more sanity checking
-bd40f26 # 2016-05-06 # Oliver Neukum @ usbnet: cleanup after bind() in probe()
-2a3e0d9 # 2016-05-06 # Takashi Iwai @ ALSA: hrtimer: Fix stall by hrtimer_cancel()
+4926184 # 2016-05-10 # Zdrowy Gosciu @ Version HM 3.4
+c436080 # 2016-05-10 # Zdrowy Gosciu @ cpufreq: Fix impulse build (remove check_cpuboost)
+5520fe9 # 2016-05-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+5f7fcd9 # 2016-05-10 # Zdrowy Gosciu @ cpufreq: Add missing impulse headers
+25b6a39 # 2016-05-10 # Zdrowy Gosciu @ d802_defconfig: Build impulse GOV
+28e3f8a # 2016-05-10 # Pranav Vashi @ cpufreq: Introduce Impulse GOV
+2745901 # 2016-05-10 # Stratos Karafotis @ cpufreq: Introduce new relation for freq selection
+1fced11 # 2016-05-10 # hellsgod @ readahead: Fix an error (thx ramgear)
+63b4db8 # 2016-05-10 # hellsgod @ Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)
+6c6ebf3 # 2016-05-09 # Jaegeuk Kim @ f2fs: squash to f2fs-stable/linux-3.4.y
+e663db8 # 2016-05-09 # Zdrowy Gosciu @ Revert "d802_defconfig: Enable NTFS support"
+27648f0 # 2016-05-09 # Zdrowy Gosciu @ Revert "d802_defconfig: Enable exFAT"
+68d3e41 # 2016-05-09 # Zdrowy Gosciu @ Revert "Add bricked thermal driver"
+d8fa7a7 # 2016-05-09 # Zdrowy Gosciu @ Revert "d802_defconfig: Use bricked thermal"
+b75e200 # 2016-05-09 # Zdrowy Gosciu @ Version HM 3.3
+c61ab55 # 2016-05-09 # Jan Kara @ block: Reserve only one queue tag for sync IO if only 3 tags are available
+0536be0 # 2016-05-09 # Namjae Jeon @ writeback: fix writeback cache thrashing
+0ffa047 # 2016-05-09 # Junxiao Bi @ writeback: fix race that cause writeback hung
+d52a74c # 2016-05-09 # Vladimir Davydov @ block: account iowait time when waiting for completion of IO request
+2f99b57 # 2016-05-09 # Vladimir Davydov @ sched: add wait_for_completion_io[_timeout]
+aacd00a # 2016-05-09 # Dave Chinner @ sync: don't block the flusher thread waiting on IO
+db4ed63 # 2016-05-09 # LaboDJ @ msm: Skip building perf debug
+a4a6edd # 2016-05-09 # Mel Gorman @ mm: slub: Default slub_max_order to 0
+0245aa1 # 2016-05-09 # Sachin Kamat @ PM / QoS: Use NULL pointer instead of plain integer in qos.c
+d932c3e # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.2
+1063c06 # 2016-05-08 # Zdrowy Gosciu @ Revert "ARM: 8036/1: Enable IRQs before attempting to read user space in __und_usr"
+fc89b19 # 2016-05-08 # Zdrowy Gosciu @ Revert "hrtimer: Prevent remote enqueue of leftmost timers"
+b7b95cf # 2016-05-08 # Zdrowy Gosciu @ Revert "msm: kgsl: Vote against deep low power modes when GPU wakes up from slumber"
+a2120c9 # 2016-05-08 # Zdrowy Gosciu @ Revert "Revert "GPU PWR LEVELS: Fixed super old bug in gpu thermal pwr level""
+bd276ed # 2016-05-08 # Zdrowy Gosciu @ Revert "slimbus: Overclocking of slimbus imporove audio"
+4b7da59 # 2016-05-08 # Zdrowy Gosciu @ Revert "slub.c: little tweak for performance improvements"
+231fd03 # 2016-05-08 # Zdrowy Gosciu @ Revert "Misc. tweaks"
+0da5711 # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.111
+036f9f0 # 2016-05-08 # Dorimanx @ misc: Mute non needed debug SPAM in dmesg
+aaeb3a8 # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.1
+173afc4 # 2016-05-08 # Zdrowy Gosciu @ mm: ksm: Tweak values
+f14a307 # 2016-05-08 # Zdrowy Gosciu @ drivers: CPUQuiet: Enable by default
+0266d45 # 2016-05-08 # Zdrowy Gosciu @ d802_defconfig: Enable CPUQuiet
+8f64f17 # 2016-05-08 # DerRomtester @ drivers: Introduce CPUQuiet
+8601685 # 2016-05-08 # Zdrowy Gosciu @ Revert "sched: Compute avg_nr_running"
+df53566 # 2016-05-08 # Zdrowy Gosciu @ Revert "msm_rq_stats: Tone down mpdecision"
+fd43b14 # 2016-05-08 # Zdrowy Gosciu @ Revert "d802_defconfig: Enable new rq_stats computation"
+661e535 # 2016-05-08 # Francisco Franco @ writeback: Increase bdi_min_ratio to 5
+2fae53b # 2016-05-08 # franciscofranco @ block: bfq: set IOPS mode by default with slice_idle set to 0
+45a6aa3 # 2016-05-07 # Praveen Chavan @ msm_vidc: Update frame-height along with buffer-size after reconfig
 
-* Project manifest/
-e7d40d9 # 2016-05-07 # Raleigh Matlock @ Track our own skia again
-cf11072 # 2016-05-07 # Raleigh Matlock @ Remove LiveDisplay items... for now ;)
+* Project packages/apps/Snap/
+1fdf46f # 2016-05-09 # codeworkx @ Snap: force enable zsl for lge hdr
 
-* Project packages/apps/Settings/
-bd07fc3 # 2016-05-07 # Raleigh Matlock @ Enable color temperature stuff
-6c621c6 # 2016-05-07 # Raleigh Matlock @ TEMP: Disable IME in navigation bar setting
-1d12da3 # 2016-05-07 # pcarenza @ Changelog: prettify
-157a063 # 2016-05-07 # Raleigh Matlock @ Remove dt2s on nav. bar as it's deprecated
-dfd9c55 # 2016-05-06 # Raleigh Matlock @ Settings: Add Heads Up in expanded status bar switch
-d527090 # 2016-05-06 # Alex Cruz @ Settings: Add CAF task manager switch
+* Project vendor/lge/
+3e0557c # 2016-05-09 # Zdrowy Gosciu @ g2-common: Remove Thermal-Engine
 
 * Project vendor/turbo/
-0444c68 # 2016-05-07 # Raleigh Matlock @ Remove LiveDisplay from SE policy
-1a7a548 # 2016-05-07 # Raleigh Matlock @ 4.0 is here!
+f42be05 # 2016-05-09 # Raleigh Matlock @ Merge pull request #13 from rohitporoli/m6.0.1
+2afd7ac # 2016-05-09 # Rohit Poroli @ add onyx to the show
+e2bb83f # 2016-05-08 # Raleigh Matlock @ Merge pull request #12 from Bitti09/patch-2
+b96ced5 # 2016-05-08 # Bitti09 @ Add cancro

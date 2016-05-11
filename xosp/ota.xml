@@ -7,14 +7,18 @@
                 id="rom"
                 title="ROM"
                 description="Download XOSP 5.4">https://www.androidfilehost.com/?fid=24533103863138257</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="ROM changelog"
+                description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/xosp/changelog.txt</ChangelogUrl>
             <KernelUrl
                 id="kernel"
                 title="Kernel"
-                description="Enjoy HealthyMarshmallow 3.3">https://www.androidfilehost.com/?fid=24533103863138256</KernelUrl>
-            <ChangelogUrl
-                id="changelog"
-                title="Changelog"
-                description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/xosp/changelog.txt</ChangelogUrl>
+                description="Enjoy HealthyMarshmallow 3.6">https://www.androidfilehost.com/?w=files&amp;flid=56549</KernelUrl>
+            <KernelChangelogUrl
+                id="kernelchangelog"
+                title="Kernel changelog"
+                description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/turbo/kernel_changelog.txt</KernelChangelogUrl>
             <XOSPAppsUrl
                 id="xospapps"
                 title="XOSPApps"
@@ -23,10 +27,6 @@
                 id="gapps"
                 title="GApps"
                 description="Download A-GAPPS 5.0">http://forum.xda-developers.com/android/general/gapps-gapps-6-0-1-minimal-t3276606</GappsUrl>
-            <XDAUrl
-                id="xda"
-                title="XDA"
-                description="Twitter">http://twitter.com/ZdrowyGosciu</XDAUrl>
             <XposedUrl
                 id="xposed"
                 title="Xposed"
@@ -35,6 +35,10 @@
                 id="donate"
                 title="PayPal"
                 description="Donate ^_^">https://www.paypal.com/cgi-bin/webscr?button=donate&amp;size=small&amp;item_name=Donation&amp;cmd=_donations&amp;business=ZdrowyGosciu%40GoogleMail.com&amp;bn=JavaScriptButton_donate&amp;env=www</DonateUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Twitter">http://twitter.com/ZdrowyGosciu</XDAUrl>
         </d802>
     </Stable>
 </TurboOTA>

@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-07 @ 22:01:22 (1462658482)
+CHANGES AFTER 2016-05-10 @ 07:54:53 (1462866893)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,7 +7,10 @@ CHANGES AFTER 2016-05-07 @ 22:01:22 (1462658482)
                  |_____|              
 
 * Project device/lge/g2-common/
-9a01315 # 2016-05-11 # Zdrowy Gosciu @ g2-common: init: power: CPUQuiet cleanup
+f4122a2 # 2016-05-13 # Zdrowy Gosciu @ g2-common: init: power: Remove CPUQuiet
+242f748 # 2016-05-13 # placiano @ g2-common: init: Start time_daemon on early boot
+99290a3 # 2016-05-13 # Dorimanx @ g2-common: init: power: Increase min free RAM for adaptive LMK
+9a01315 # 2016-05-12 # Zdrowy Gosciu @ g2-common: init: power: CPUQuiet cleanup
 b37f29b # 2016-05-11 # Zdrowy Gosciu @ g2-common: init: power: Enable new MSM Thermal at boot
 990ebc8 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Be (CPU)Quiet during boot
 8714b7e # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Little cleanup
@@ -15,37 +18,20 @@ b37f29b # 2016-05-11 # Zdrowy Gosciu @ g2-common: init: power: Enable new MSM Th
 a356a65 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Start Adreno Idler by default
 b25ecbf # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Back to interactive
 bc77e2b # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Impulse tweak
-440ac13 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Impulse don't need MP-Decision so disable it
-4764841 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: No windows align with impulse
-5ee4558 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Zen as default I/O scheduler
-b947861 # 2016-05-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-dd28118 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Impulse as default GOV
-85fe9ad # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Another interactive GOV tweak
-da6edfa # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
-46e4d15 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Cleanup MSM Thermal
-5ae15ab # 2016-05-09 # Ethan Chen @ g2: Don't use QC default init library
-bc87aaa # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Cleanup CPUQuiet
-f4578f3 # 2016-05-09 # Raleigh Matlock @ g2-common: Introduce SONY TherManager
-31c0c99 # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: Use bricked thermal"
-9572d0d # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Tweak random
-85b8cd6 # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Return to MP-Decision
-3b2799a # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: BFQ 512 kB as default I/O scheduler
-4b4ecb4 # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Don't start Adreno Idler
-a61379a # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: power: Revert max CPU freq to stock"
-bfdc023 # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: power: Disable sched mc power savings"
-d0f8b08 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Disable sched mc power savings
-bad9f33 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Increase read ahead
-47d3cbf # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Revert max CPU freq to stock
-d5d4a58 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Lower interactive GOV go_hispeed_load
-0018d50 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: load_stats as default CPUQuiet GOV
-6384c64 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Restore CPUQuiet on early-init
-7c591c9 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Don't start MP-Decision (use CPUQuiet)
-b54fba8 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Remove block tweaks
-a015c39 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: SIOplus 512 kB as default I/O sched
-bbcaf1f # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Setup adaptive min free to 266 MB
-9a6ffe9 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Higher hispeed_freq
 
 * Project kernel/lge/msm8974/
+f48c481 # 2016-05-13 # Zdrowy Gosciu @ Version HM 3.7
+4226f9c # 2016-05-13 # Zdrowy Gosciu @ Revert "drivers: Introduce CPUQuiet"
+6363bc7 # 2016-05-13 # Zdrowy Gosciu @ Revert "block: Disable IO Stats"
+2f768ce # 2016-05-13 # Zdrowy Gosciu @ Revert "debugfs: leave freeing a symlink body until inode eviction"
+2325cdf # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm fix and cleanup function to print vmalloc info"
+e9777aa # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm: consider only lowmem regions while remap"
+662d461 # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm: fix bootup bug with odd-section boundry in memory hole."
+5dfa0bd # 2016-05-13 # Zdrowy Gosciu @ Revert "msm: thermal: Check temperature only if probed"
+b73fe36 # 2016-05-13 # Zdrowy Gosciu @ Revert "fs: aio: Optimization for SSD-only machines"
+e4199f1 # 2016-05-13 # Zdrowy Gosciu @ Revert "lib/int_sqrt.c: optimize square root algorithm"
+065bed2 # 2016-05-13 # Zdrowy Gosciu @ Revert "drivers: video: msm: mdss: mdss_mdp_util: Fix compiler error (array subscript is below array bounds)"
+6e6ecfa # 2016-05-13 # Zdrowy Gosciu @ Revert "msm: vidc: disable CPU L2 cache PC during video sessions"
 f6b73cb # 2016-05-11 # Zdrowy Gosciu @ Version HM 3.6
 ec7a49b # 2016-05-11 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 c87ea3a # 2016-05-11 # Zdrowy Gosciu @ msm: thermal: Fix build
@@ -78,48 +64,3 @@ bc2091d # 2016-05-10 # Zdrowy Gosciu @ Revert "arm: lib: Fix makefile bug"
 6cb7fb0 # 2016-05-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 218d158 # 2016-05-10 # Stephen Boyd @ clocksource: Extract max nsec calculation into separate function
 ff71398 # 2016-05-10 # Stephen Boyd @ sched_clock: Backport high-resolution support
-4926184 # 2016-05-10 # Zdrowy Gosciu @ Version HM 3.4
-c436080 # 2016-05-10 # Zdrowy Gosciu @ cpufreq: Fix impulse build (remove check_cpuboost)
-5520fe9 # 2016-05-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-5f7fcd9 # 2016-05-10 # Zdrowy Gosciu @ cpufreq: Add missing impulse headers
-25b6a39 # 2016-05-10 # Zdrowy Gosciu @ d802_defconfig: Build impulse GOV
-28e3f8a # 2016-05-10 # Pranav Vashi @ cpufreq: Introduce Impulse GOV
-2745901 # 2016-05-10 # Stratos Karafotis @ cpufreq: Introduce new relation for freq selection
-1fced11 # 2016-05-10 # hellsgod @ readahead: Fix an error (thx ramgear)
-63b4db8 # 2016-05-10 # hellsgod @ Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)
-6c6ebf3 # 2016-05-09 # Jaegeuk Kim @ f2fs: squash to f2fs-stable/linux-3.4.y
-e663db8 # 2016-05-09 # Zdrowy Gosciu @ Revert "d802_defconfig: Enable NTFS support"
-27648f0 # 2016-05-09 # Zdrowy Gosciu @ Revert "d802_defconfig: Enable exFAT"
-68d3e41 # 2016-05-09 # Zdrowy Gosciu @ Revert "Add bricked thermal driver"
-d8fa7a7 # 2016-05-09 # Zdrowy Gosciu @ Revert "d802_defconfig: Use bricked thermal"
-b75e200 # 2016-05-09 # Zdrowy Gosciu @ Version HM 3.3
-c61ab55 # 2016-05-09 # Jan Kara @ block: Reserve only one queue tag for sync IO if only 3 tags are available
-0536be0 # 2016-05-09 # Namjae Jeon @ writeback: fix writeback cache thrashing
-0ffa047 # 2016-05-09 # Junxiao Bi @ writeback: fix race that cause writeback hung
-d52a74c # 2016-05-09 # Vladimir Davydov @ block: account iowait time when waiting for completion of IO request
-2f99b57 # 2016-05-09 # Vladimir Davydov @ sched: add wait_for_completion_io[_timeout]
-aacd00a # 2016-05-09 # Dave Chinner @ sync: don't block the flusher thread waiting on IO
-db4ed63 # 2016-05-09 # LaboDJ @ msm: Skip building perf debug
-a4a6edd # 2016-05-09 # Mel Gorman @ mm: slub: Default slub_max_order to 0
-0245aa1 # 2016-05-09 # Sachin Kamat @ PM / QoS: Use NULL pointer instead of plain integer in qos.c
-d932c3e # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.2
-1063c06 # 2016-05-08 # Zdrowy Gosciu @ Revert "ARM: 8036/1: Enable IRQs before attempting to read user space in __und_usr"
-fc89b19 # 2016-05-08 # Zdrowy Gosciu @ Revert "hrtimer: Prevent remote enqueue of leftmost timers"
-b7b95cf # 2016-05-08 # Zdrowy Gosciu @ Revert "msm: kgsl: Vote against deep low power modes when GPU wakes up from slumber"
-a2120c9 # 2016-05-08 # Zdrowy Gosciu @ Revert "Revert "GPU PWR LEVELS: Fixed super old bug in gpu thermal pwr level""
-bd276ed # 2016-05-08 # Zdrowy Gosciu @ Revert "slimbus: Overclocking of slimbus imporove audio"
-4b7da59 # 2016-05-08 # Zdrowy Gosciu @ Revert "slub.c: little tweak for performance improvements"
-231fd03 # 2016-05-08 # Zdrowy Gosciu @ Revert "Misc. tweaks"
-0da5711 # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.111
-036f9f0 # 2016-05-08 # Dorimanx @ misc: Mute non needed debug SPAM in dmesg
-aaeb3a8 # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.1
-173afc4 # 2016-05-08 # Zdrowy Gosciu @ mm: ksm: Tweak values
-f14a307 # 2016-05-08 # Zdrowy Gosciu @ drivers: CPUQuiet: Enable by default
-0266d45 # 2016-05-08 # Zdrowy Gosciu @ d802_defconfig: Enable CPUQuiet
-8f64f17 # 2016-05-08 # DerRomtester @ drivers: Introduce CPUQuiet
-8601685 # 2016-05-08 # Zdrowy Gosciu @ Revert "sched: Compute avg_nr_running"
-df53566 # 2016-05-08 # Zdrowy Gosciu @ Revert "msm_rq_stats: Tone down mpdecision"
-fd43b14 # 2016-05-08 # Zdrowy Gosciu @ Revert "d802_defconfig: Enable new rq_stats computation"
-661e535 # 2016-05-08 # Francisco Franco @ writeback: Increase bdi_min_ratio to 5
-2fae53b # 2016-05-08 # franciscofranco @ block: bfq: set IOPS mode by default with slice_idle set to 0
-45a6aa3 # 2016-05-07 # Praveen Chavan @ msm_vidc: Update frame-height along with buffer-size after reconfig

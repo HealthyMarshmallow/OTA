@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-07 @ 22:01:22 (1462658482)
+CHANGES AFTER 2016-05-10 @ 07:54:53 (1462866893)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,123 +7,120 @@ CHANGES AFTER 2016-05-07 @ 22:01:22 (1462658482)
                  |_____|              
 
 * Project /
-0000000 # 2016-05-10 # Zdrowy Gosciu @ QCOM Power HAL: Remove useless logs
-0000000 # 2016-05-10 # Zdrowy Gosciu @ Switch to prebuilt V4A
-0000000 # 2016-05-10 # Zdrowy Gosciu @ Build FUSE (to fix NTFS/exFAT support - kernel FS wasn't working)
+0000000 # 2016-05-14 # Zdrowy Gosciu @ Dev. settings: Force MTP mode via USB
 
 * Project Documentation/
-5d3eed0 # 2016-05-08 # Raleigh Matlock @ Update xda-template
-36fcb00 # 2016-05-08 # MZO @ Merge pull request #26 from GtrCraft/patch-1
-f3f7f7b # 2016-05-08 # Nick @ Add Moto X Play Maintainer and r43
-854b473 # 2016-05-08 # MZO @ Merge pull request #25 from nitin1438/patch-2
-4921b38 # 2016-05-08 # MZO @ Merge pull request #24 from Bitti09/patch-1
-d365e82 # 2016-05-08 # Nitin chobhe @ Updated to r43
-4a33b4a # 2016-05-08 # Bitti09 @ Add Xiaomi Mi3 Maintainer
+fe9c93d # 2016-05-11 # Raleigh Matlock @ Merge pull request #28 from Vidhanth/patch-1
+8e92820 # 2016-05-11 # Vidhanth Bafna @ Moto G 2014
+1060653 # 2016-05-10 # Raleigh Matlock @ Merge pull request #27 from bgos10/mm
+5d58127 # 2016-05-10 # bgos10 @ Moto X Style
 
 * Project OTA/
-4b715e7 # 2016-05-09 # Zdrowy Gosciu @ OTA: XOSP-5.4-UNOFFICIAL-20160509-075716-d802
-64bbe6a # 2016-05-09 # Zdrowy Gosciu @ OTA: Turbo ROM: HM 3.3
-b7bdb8a # 2016-05-08 # Zdrowy Gosciu @ OTA: Turbo ROM: HM 3.2
-170543c # 2016-05-08 # Zdrowy Gosciu @ OTA: XOSP-5.4-UNOFFICIAL-20160508-192329-d802
-f1f44f2 # 2016-05-08 # Zdrowy Gosciu @ OTA: Introduce XOSP
-afab09a # 2016-05-08 # Zdrowy Gosciu @ OTA: HM 3.1
-dc8252f # 2016-05-08 # Zdrowy Gosciu @ OTA: Turbo-d802-4.0-UNOFFICIAL-20160507-215538
+aedb13a # 2016-05-13 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 3.7
+a080bfb # 2016-05-12 # Zdrowy Gosciu @ OTA: XOSP: Kernel HM 3.6 + cleanup
+cac36e3 # 2016-05-12 # Zdrowy Gosciu @ OTA: Kernel HM 3.6
+5c04336 # 2016-05-10 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 3.5
+23e37a2 # 2016-05-10 # Zdrowy Gosciu @ OTA: Turbo-d802-4.0-UNOFFICIAL-20160510-074929
 
 * Project device/lge/d802/
-41ab031 # 2016-05-10 # Zdrowy Gosciu @ d802: Turbo ROM: Move V4A to my global dir
-4964fb8 # 2016-05-09 # Zdrowy Gosciu @ d802: Turbo ROM: Use prebuilt V4A v2.4.0.1
-303c00d # 2016-05-09 # Zdrowy Gosciu @ d802: Turbo ROM: Fix NTFS/exFAT support
+0a3e0ea # 2016-05-14 # Zdrowy Gosciu @ d802: Turbo ROM: Gello time!
+4f3acd0 # 2016-05-13 # Zdrowy Gosciu @ d802: Introduce XenonHD
+ece5c81 # 2016-05-13 # Zdrowy Gosciu @ d802: Introduce Vanilla Unicorn
+fd51f1f # 2016-05-13 # Zdrowy Gosciu @ d802: Introduce Cypher OS
+316a910 # 2016-05-13 # Zdrowy Gosciu @ d802: Emotion ROM: Switch to Nameless ROM custom density engine
+f00dc15 # 2016-05-12 # Zdrowy Gosciu @ d802: overlay: FB: Change default wallpaper
+ef238b5 # 2016-05-12 # Zdrowy Gosciu @ d802: Introduce Purity ROM
 
 * Project device/lge/g2-common/
-440ac13 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Impulse don't need MP-Decision so disable it
-4764841 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: No windows align with impulse
-5ee4558 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Zen as default I/O scheduler
-b947861 # 2016-05-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-dd28118 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Impulse as default GOV
-85fe9ad # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Another interactive GOV tweak
-da6edfa # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
-46e4d15 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Cleanup MSM Thermal
-5ae15ab # 2016-05-09 # Ethan Chen @ g2: Don't use QC default init library
-bc87aaa # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Cleanup CPUQuiet
-f4578f3 # 2016-05-09 # Raleigh Matlock @ g2-common: Introduce SONY TherManager
-31c0c99 # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: Use bricked thermal"
-9572d0d # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Tweak random
-85b8cd6 # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Return to MP-Decision
-3b2799a # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: BFQ 512 kB as default I/O scheduler
-4b4ecb4 # 2016-05-09 # Zdrowy Gosciu @ g2-common: init: power: Don't start Adreno Idler
-a61379a # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: power: Revert max CPU freq to stock"
-bfdc023 # 2016-05-09 # Zdrowy Gosciu @ Revert "g2-common: init: power: Disable sched mc power savings"
-d0f8b08 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Disable sched mc power savings
-bad9f33 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Increase read ahead
-47d3cbf # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Revert max CPU freq to stock
-d5d4a58 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Lower interactive GOV go_hispeed_load
-0018d50 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: load_stats as default CPUQuiet GOV
-6384c64 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Restore CPUQuiet on early-init
-7c591c9 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Don't start MP-Decision (use CPUQuiet)
-b54fba8 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Remove block tweaks
-a015c39 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: SIOplus 512 kB as default I/O sched
-bbcaf1f # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Setup adaptive min free to 266 MB
-9a6ffe9 # 2016-05-08 # Zdrowy Gosciu @ g2-common: init: power: Higher hispeed_freq
+fbd6f38 # 2016-05-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+0cbfd8c # 2016-05-14 # Zachariah @ g2-common: init: power: Setup ondemand & impulse default values
+f4122a2 # 2016-05-13 # Zdrowy Gosciu @ g2-common: init: power: Remove CPUQuiet
+e21ed48 # 2016-05-13 # Zdrowy Gosciu @ g2-common: overlay: FB: Enable ultrasound support
+c179a26 # 2016-05-13 # Zdrowy Gosciu @ g2-common: overlay: Correct CM SDK path
+242f748 # 2016-05-13 # placiano @ g2-common: init: Start time_daemon on early boot
+b081e6b # 2016-05-13 # Jonathan Beaudoin @ g2-common: init: Define SSR levels
+c5f5ad3 # 2016-05-13 # Naresh Tanniru @ g2: add audio related property overrides
+81b2855 # 2016-05-13 # Naresh Tanniru @ g2-common: Add audio related property overrides
+73d5f5a # 2016-05-13 # Zdrowy Gosciu @ g2-common: overlay: FB: Remove duplicated Doze settings
+99290a3 # 2016-05-13 # Dorimanx @ g2-common: init: power: Increase min free RAM for adaptive LMK
+ddf63e5 # 2016-05-12 # Zdrowy Gosciu @ g2-common: Correct dalvik heap config
+21d776b # 2016-05-12 # Zdrowy Gosciu @ g2-common: overlay: Fix CMSDK path
+f1bc3d8 # 2016-05-12 # Zdrowy Gosciu @ g2-common: Tweak dalvik heap (use valid FN config)
+e411b3e # 2016-05-12 # Zdrowy Gosciu @ g2-common: overlay: FB: Remove default wallpaper
+9a01315 # 2016-05-12 # Zdrowy Gosciu @ g2-common: init: power: CPUQuiet cleanup
+b37f29b # 2016-05-11 # Zdrowy Gosciu @ g2-common: init: power: Enable new MSM Thermal at boot
+990ebc8 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Be (CPU)Quiet during boot
+8714b7e # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Little cleanup
+368b840 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Disable few debugs
+a356a65 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Start Adreno Idler by default
+b25ecbf # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Back to interactive
+bc77e2b # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Impulse tweak
 
-* Project frameworks/av/
-b40f3d4 # 2016-05-09 # Raleigh Matlock @ Merge pull request #1 from Bitti09/m6.0.1
-3553d43 # 2016-05-09 # Praveen Chavan @ MediaProfiles: Enhance profiles for extended usecases
+* Project hardware/invensense/
+85c5a9a # 2016-05-12 # sundarajan srinivasan @ invensense: Use sensor HAL only if device specific HAL is not present
+
+* Project hardware/qcom/audio-caf/msm8974/
+da55887 # 2016-05-13 # Ethan Chen @ Merge remote-tracking branch 'caf/LA.BF.1.1.3_rb1.13' into cm-13.0-caf-8974
+17067a9 # 2016-05-10 # Keith Mok @ hal: Garbage output in logcat
+
+* Project hardware/qcom/display-caf/msm8974/
+59e66c6 # 2016-05-13 # Ethan Chen @ Merge remote-tracking branch 'caf/LA.BF.1.1.3_rb1.13' into cm-13.0-caf-8974
+91790fc # 2016-05-13 # Ethan Chen @ Revert "gralloc: fall back to old pixel alignment on old blobs"
+c26ee91 # 2016-05-13 # OzzysCmAcc @ Revert "gralloc: allow forcing old pixel alignment"
 
 * Project kernel/lge/msm8974/
-4926184 # 2016-05-10 # Zdrowy Gosciu @ Version HM 3.4
-c436080 # 2016-05-10 # Zdrowy Gosciu @ cpufreq: Fix impulse build (remove check_cpuboost)
-5520fe9 # 2016-05-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-5f7fcd9 # 2016-05-10 # Zdrowy Gosciu @ cpufreq: Add missing impulse headers
-25b6a39 # 2016-05-10 # Zdrowy Gosciu @ d802_defconfig: Build impulse GOV
-28e3f8a # 2016-05-10 # Pranav Vashi @ cpufreq: Introduce Impulse GOV
-2745901 # 2016-05-10 # Stratos Karafotis @ cpufreq: Introduce new relation for freq selection
-1fced11 # 2016-05-10 # hellsgod @ readahead: Fix an error (thx ramgear)
-63b4db8 # 2016-05-10 # hellsgod @ Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)
-6c6ebf3 # 2016-05-09 # Jaegeuk Kim @ f2fs: squash to f2fs-stable/linux-3.4.y
-e663db8 # 2016-05-09 # Zdrowy Gosciu @ Revert "d802_defconfig: Enable NTFS support"
-27648f0 # 2016-05-09 # Zdrowy Gosciu @ Revert "d802_defconfig: Enable exFAT"
-68d3e41 # 2016-05-09 # Zdrowy Gosciu @ Revert "Add bricked thermal driver"
-d8fa7a7 # 2016-05-09 # Zdrowy Gosciu @ Revert "d802_defconfig: Use bricked thermal"
-b75e200 # 2016-05-09 # Zdrowy Gosciu @ Version HM 3.3
-c61ab55 # 2016-05-09 # Jan Kara @ block: Reserve only one queue tag for sync IO if only 3 tags are available
-0536be0 # 2016-05-09 # Namjae Jeon @ writeback: fix writeback cache thrashing
-0ffa047 # 2016-05-09 # Junxiao Bi @ writeback: fix race that cause writeback hung
-d52a74c # 2016-05-09 # Vladimir Davydov @ block: account iowait time when waiting for completion of IO request
-2f99b57 # 2016-05-09 # Vladimir Davydov @ sched: add wait_for_completion_io[_timeout]
-aacd00a # 2016-05-09 # Dave Chinner @ sync: don't block the flusher thread waiting on IO
-db4ed63 # 2016-05-09 # LaboDJ @ msm: Skip building perf debug
-a4a6edd # 2016-05-09 # Mel Gorman @ mm: slub: Default slub_max_order to 0
-0245aa1 # 2016-05-09 # Sachin Kamat @ PM / QoS: Use NULL pointer instead of plain integer in qos.c
-d932c3e # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.2
-1063c06 # 2016-05-08 # Zdrowy Gosciu @ Revert "ARM: 8036/1: Enable IRQs before attempting to read user space in __und_usr"
-fc89b19 # 2016-05-08 # Zdrowy Gosciu @ Revert "hrtimer: Prevent remote enqueue of leftmost timers"
-b7b95cf # 2016-05-08 # Zdrowy Gosciu @ Revert "msm: kgsl: Vote against deep low power modes when GPU wakes up from slumber"
-a2120c9 # 2016-05-08 # Zdrowy Gosciu @ Revert "Revert "GPU PWR LEVELS: Fixed super old bug in gpu thermal pwr level""
-bd276ed # 2016-05-08 # Zdrowy Gosciu @ Revert "slimbus: Overclocking of slimbus imporove audio"
-4b7da59 # 2016-05-08 # Zdrowy Gosciu @ Revert "slub.c: little tweak for performance improvements"
-231fd03 # 2016-05-08 # Zdrowy Gosciu @ Revert "Misc. tweaks"
-0da5711 # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.111
-036f9f0 # 2016-05-08 # Dorimanx @ misc: Mute non needed debug SPAM in dmesg
-aaeb3a8 # 2016-05-08 # Zdrowy Gosciu @ Version HM 3.1
-173afc4 # 2016-05-08 # Zdrowy Gosciu @ mm: ksm: Tweak values
-f14a307 # 2016-05-08 # Zdrowy Gosciu @ drivers: CPUQuiet: Enable by default
-0266d45 # 2016-05-08 # Zdrowy Gosciu @ d802_defconfig: Enable CPUQuiet
-8f64f17 # 2016-05-08 # DerRomtester @ drivers: Introduce CPUQuiet
-8601685 # 2016-05-08 # Zdrowy Gosciu @ Revert "sched: Compute avg_nr_running"
-df53566 # 2016-05-08 # Zdrowy Gosciu @ Revert "msm_rq_stats: Tone down mpdecision"
-fd43b14 # 2016-05-08 # Zdrowy Gosciu @ Revert "d802_defconfig: Enable new rq_stats computation"
-661e535 # 2016-05-08 # Francisco Franco @ writeback: Increase bdi_min_ratio to 5
-2fae53b # 2016-05-08 # franciscofranco @ block: bfq: set IOPS mode by default with slice_idle set to 0
-45a6aa3 # 2016-05-07 # Praveen Chavan @ msm_vidc: Update frame-height along with buffer-size after reconfig
+f48c481 # 2016-05-13 # Zdrowy Gosciu @ Version HM 3.7
+4226f9c # 2016-05-13 # Zdrowy Gosciu @ Revert "drivers: Introduce CPUQuiet"
+6363bc7 # 2016-05-13 # Zdrowy Gosciu @ Revert "block: Disable IO Stats"
+2f768ce # 2016-05-13 # Zdrowy Gosciu @ Revert "debugfs: leave freeing a symlink body until inode eviction"
+2325cdf # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm fix and cleanup function to print vmalloc info"
+e9777aa # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm: consider only lowmem regions while remap"
+662d461 # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm: fix bootup bug with odd-section boundry in memory hole."
+5dfa0bd # 2016-05-13 # Zdrowy Gosciu @ Revert "msm: thermal: Check temperature only if probed"
+b73fe36 # 2016-05-13 # Zdrowy Gosciu @ Revert "fs: aio: Optimization for SSD-only machines"
+e4199f1 # 2016-05-13 # Zdrowy Gosciu @ Revert "lib/int_sqrt.c: optimize square root algorithm"
+065bed2 # 2016-05-13 # Zdrowy Gosciu @ Revert "drivers: video: msm: mdss: mdss_mdp_util: Fix compiler error (array subscript is below array bounds)"
+6e6ecfa # 2016-05-13 # Zdrowy Gosciu @ Revert "msm: vidc: disable CPU L2 cache PC during video sessions"
+f6b73cb # 2016-05-11 # Zdrowy Gosciu @ Version HM 3.6
+ec7a49b # 2016-05-11 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+c87ea3a # 2016-05-11 # Zdrowy Gosciu @ msm: thermal: Fix build
+f904aab # 2016-05-11 # Dorimanx @ msm: thermal: Reduce boot max temp to 70C and update ROM thermal defines
+a67db68 # 2016-05-11 # Dorimanx @ msm: thermal: Use zone 0 thermal sensor for max freq limits
+42f58d2 # 2016-05-11 # Zdrowy Gosciu @ msm: thermal: Correct max freq
+39a71e4 # 2016-05-11 # 777jon @ msm: thermal: disable vdd restriction
+159c35e # 2016-05-11 # anarkia1976 @ msm: thermal: fix build error after apply limit to thermal logs
+5b9cb22 # 2016-05-11 # Ram Chandrasekar @ msm: thermal: Limit the emergency mitigation messages
+d836290 # 2016-05-11 # anarkia1976 @ msm: thermal: Prevent mitigation if not required
+2c8ed4a # 2016-05-11 # anarkia1976 @ msm: thermal: merged intelli thermal v2.0
+62e2707 # 2016-05-11 # Zdrowy Gosciu @ mmc: sdhci: No register dumps
+b40cb0e3 # 2016-05-11 # Venkat Gopalakrishnan @ mmc: sdhci: Reset cmd err only for sbc commands
+5f23b44 # 2016-05-11 # Dorimanx @ MMC: merge code style fixes from MY KK Kernel.
+b8fad87 # 2016-05-11 # Zdrowy Gosciu @ d802_defconfig: Enable CIFS
+807dc1f # 2016-05-11 # Bruno Martins @ netfilter: x_tables: Fix compilation error
+91e0b9a # 2016-05-11 # Florian Westphal @ netfilter: x_tables: check for size overflow
+27c4ba8 # 2016-05-10 # Zdrowy Gosciu @ Version HM 3.5
+e05ba99 # 2016-05-10 # Zdrowy Gosciu @ cpufreq: Block moar MP-Decision
+975be53 # 2016-05-10 # Kangjie Lu @ ALSA: timer: Fix leak in events via snd_timer_user_tinterrupt
+01b8aa9 # 2016-05-10 # Kangjie Lu @ ALSA: timer: Fix leak in events via snd_timer_user_ccallback
+20e7a84 # 2016-05-10 # Kangjie Lu @ ALSA: timer: Fix leak in SNDRV_TIMER_IOCTL_PARAMS
+a4ad8e5 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: kgsl: Optimize the vmap step size in kgsl page allocator"
+bb77bcb # 2016-05-10 # Zdrowy Gosciu @ Revert "kgsl: allocate shared memory one page at a time"
+c0b437f # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: kgsl: Mark the end of the scatterlist"
+2ed5179 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove, copy_page optimization"
+bc2091d # 2016-05-10 # Zdrowy Gosciu @ Revert "arm: lib: Fix makefile bug"
+77b4f77 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove optimization"
+60fc720 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: memutils: 8084: memcpy, memmove optimization"
+6cb7fb0 # 2016-05-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+218d158 # 2016-05-10 # Stephen Boyd @ clocksource: Extract max nsec calculation into separate function
+ff71398 # 2016-05-10 # Stephen Boyd @ sched_clock: Backport high-resolution support
 
 * Project packages/apps/Snap/
-1fdf46f # 2016-05-09 # codeworkx @ Snap: force enable zsl for lge hdr
-
-* Project vendor/lge/
-3e0557c # 2016-05-09 # Zdrowy Gosciu @ g2-common: Remove Thermal-Engine
+90d46ce # 2016-05-10 # Abhisek Devkota @ Automatic translation import
+006ef8d # 2016-05-10 # Michael Bestas @ Automatic translation import
 
 * Project vendor/turbo/
-f42be05 # 2016-05-09 # Raleigh Matlock @ Merge pull request #13 from rohitporoli/m6.0.1
-2afd7ac # 2016-05-09 # Rohit Poroli @ add onyx to the show
-e2bb83f # 2016-05-08 # Raleigh Matlock @ Merge pull request #12 from Bitti09/patch-2
-b96ced5 # 2016-05-08 # Bitti09 @ Add cancro
+bbc09f2 # 2016-05-11 # Raleigh Matlock @ Merge pull request #15 from vbajs/patch-2
+a52bfbe # 2016-05-11 # Yahya Wessam @ Add bullhead
+416c79c # 2016-05-11 # Yahya Wessam @ Add missing devices
+aba7a37 # 2016-05-11 # Yahya Wessam @ Forgot to add sirius :p
+10e868c # 2016-05-11 # Yahya Wessam @ Update turbo.devices

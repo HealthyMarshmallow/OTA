@@ -22,7 +22,7 @@
             <GappsUrl
                 id="gapps"
                 title="GApps"
-                description="Download A-GAPPS 5.0">http://forum.xda-developers.com/android/general/gapps-gapps-6-0-1-minimal-t3276606</GappsUrl>
+                description="Download A-GAPPS 5.2">http://forum.xda-developers.com/android/general/gapps-gapps-6-0-1-minimal-t3276606</GappsUrl>
             <XposedUrl
                 id="xposed"
                 title="Xposed"

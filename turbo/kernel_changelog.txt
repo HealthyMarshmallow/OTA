@@ -7,9 +7,23 @@ CHANGES AFTER 2016-05-10 @ 07:54:53 (1462866893)
                  |_____|              
 
 * Project device/lge/g2-common/
+58f2886 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Underclock to 1.9 GHz
 b0c3bb5 # 2016-05-15 # Zdrowy Gosciu @ g2-common: init: Rebase for HM 5.0
 
 * Project kernel/lge/msm8974/
+88d44df # 2016-05-16 # Zdrowy Gosciu @ Version HM 5.1
+5b96763 # 2016-05-16 # Zdrowy Gosciu @ cpufreq: Block MP-Decision from changing freq's
+a1f9a7e # 2016-05-16 # myfluxi @ msm: clock-krait-8974: User voltage control for msm-cpufreq device
+7a90c95 # 2016-05-16 # myfluxi @ arm/dt: msm8974: Lower GPU voltage constraints
+6112c69 # 2016-05-16 # Jeremy @ Fast charge expirimentation
+e4d3c7d # 2016-05-16 # Jeremy @ Forced Fast Charge for LG G2 ported by PTMR3
+35bce4e # 2016-05-15 # Zdrowy Gosciu @ mm: ksm: Tweak values
+eba8bcd # 2016-05-15 # Tyler Dunn @ arm: configs: d802: Enable KSM
+c10c376 # 2016-05-15 # Tyler Dunn @ ksm: Relax sleep timer to 500 ms
+c80a98b # 2016-05-15 # Pafcholini @ drivers: mmc: Toggleable software CRC
+6da8e64 # 2016-05-15 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
+b8196bf # 2016-05-15 # duki994 @ bcmdhd: Optimize WiFi driver via compiler flags and ioctl timeout
+af47070 # 2016-05-15 # Pranav Vashi @ sched: Add controls for sched features
 d7f499f # 2016-05-15 # Zdrowy Gosciu @ Version HM 5.0
 5df9a35 # 2016-05-15 # Venkat Gopalakrishnan @ mmc: sdhci: Reset cmd err only for sbc commands
 fa19f5d # 2016-05-15 # Dorimanx @ MMC: merge code style fixes from MY KK Kernel.

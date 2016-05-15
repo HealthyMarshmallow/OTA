@@ -7,60 +7,63 @@ CHANGES AFTER 2016-05-10 @ 07:54:53 (1462866893)
                  |_____|              
 
 * Project device/lge/g2-common/
-f4122a2 # 2016-05-13 # Zdrowy Gosciu @ g2-common: init: power: Remove CPUQuiet
-242f748 # 2016-05-13 # placiano @ g2-common: init: Start time_daemon on early boot
-99290a3 # 2016-05-13 # Dorimanx @ g2-common: init: power: Increase min free RAM for adaptive LMK
-9a01315 # 2016-05-12 # Zdrowy Gosciu @ g2-common: init: power: CPUQuiet cleanup
-b37f29b # 2016-05-11 # Zdrowy Gosciu @ g2-common: init: power: Enable new MSM Thermal at boot
-990ebc8 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Be (CPU)Quiet during boot
-8714b7e # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Little cleanup
-368b840 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Disable few debugs
-a356a65 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Start Adreno Idler by default
-b25ecbf # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Back to interactive
-bc77e2b # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Impulse tweak
+b0c3bb5 # 2016-05-15 # Zdrowy Gosciu @ g2-common: init: Rebase for HM 5.0
 
 * Project kernel/lge/msm8974/
-f48c481 # 2016-05-13 # Zdrowy Gosciu @ Version HM 3.7
-4226f9c # 2016-05-13 # Zdrowy Gosciu @ Revert "drivers: Introduce CPUQuiet"
-6363bc7 # 2016-05-13 # Zdrowy Gosciu @ Revert "block: Disable IO Stats"
-2f768ce # 2016-05-13 # Zdrowy Gosciu @ Revert "debugfs: leave freeing a symlink body until inode eviction"
-2325cdf # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm fix and cleanup function to print vmalloc info"
-e9777aa # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm: consider only lowmem regions while remap"
-662d461 # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm: fix bootup bug with odd-section boundry in memory hole."
-5dfa0bd # 2016-05-13 # Zdrowy Gosciu @ Revert "msm: thermal: Check temperature only if probed"
-b73fe36 # 2016-05-13 # Zdrowy Gosciu @ Revert "fs: aio: Optimization for SSD-only machines"
-e4199f1 # 2016-05-13 # Zdrowy Gosciu @ Revert "lib/int_sqrt.c: optimize square root algorithm"
-065bed2 # 2016-05-13 # Zdrowy Gosciu @ Revert "drivers: video: msm: mdss: mdss_mdp_util: Fix compiler error (array subscript is below array bounds)"
-6e6ecfa # 2016-05-13 # Zdrowy Gosciu @ Revert "msm: vidc: disable CPU L2 cache PC during video sessions"
-f6b73cb # 2016-05-11 # Zdrowy Gosciu @ Version HM 3.6
-ec7a49b # 2016-05-11 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-c87ea3a # 2016-05-11 # Zdrowy Gosciu @ msm: thermal: Fix build
-f904aab # 2016-05-11 # Dorimanx @ msm: thermal: Reduce boot max temp to 70C and update ROM thermal defines
-a67db68 # 2016-05-11 # Dorimanx @ msm: thermal: Use zone 0 thermal sensor for max freq limits
-42f58d2 # 2016-05-11 # Zdrowy Gosciu @ msm: thermal: Correct max freq
-39a71e4 # 2016-05-11 # 777jon @ msm: thermal: disable vdd restriction
-159c35e # 2016-05-11 # anarkia1976 @ msm: thermal: fix build error after apply limit to thermal logs
-5b9cb22 # 2016-05-11 # Ram Chandrasekar @ msm: thermal: Limit the emergency mitigation messages
-d836290 # 2016-05-11 # anarkia1976 @ msm: thermal: Prevent mitigation if not required
-2c8ed4a # 2016-05-11 # anarkia1976 @ msm: thermal: merged intelli thermal v2.0
-62e2707 # 2016-05-11 # Zdrowy Gosciu @ mmc: sdhci: No register dumps
-b40cb0e3 # 2016-05-11 # Venkat Gopalakrishnan @ mmc: sdhci: Reset cmd err only for sbc commands
-5f23b44 # 2016-05-11 # Dorimanx @ MMC: merge code style fixes from MY KK Kernel.
-b8fad87 # 2016-05-11 # Zdrowy Gosciu @ d802_defconfig: Enable CIFS
+d7f499f # 2016-05-15 # Zdrowy Gosciu @ Version HM 5.0
+5df9a35 # 2016-05-15 # Venkat Gopalakrishnan @ mmc: sdhci: Reset cmd err only for sbc commands
+fa19f5d # 2016-05-15 # Dorimanx @ MMC: merge code style fixes from MY KK Kernel.
+2ab9b5b # 2016-05-15 # Zdrowy Gosciu @ mmc: sdhci: No register dumps
+9a2ebb3 # 2016-05-15 # jrizzoli @ block: FIOPS
+df4163e # 2016-05-15 # audahadi @ arm/dts: Enable bam_dmux fast shutdown
+d9d24f5 # 2016-05-15 # myfluxi @ PM / devfreq: Fix simple_ondemand crashing
+2130d08 # 2016-05-15 # Steve Kondik @ msm_rmnet: Kill logspam
+a769f63 # 2016-05-15 # Lance Poore @ SCHEDULER: Autogroup patch group by current user android UID instead of task ID
+f8662d5 # 2016-05-15 # Chester Kener @ block: Disable IO Stats
+bcc109e # 2016-05-15 # Pranav Vashi @ tcp: network speed tweak
+911fc03 # 2016-05-15 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
+d63fe27 # 2016-05-15 # Zdrowy Gosciu @ d802_defconfig: TCP: Enable Veno + Westwood
+5a1340d # 2016-05-15 # Zdrowy Gosciu @ lge_touch_core: Disable debug and info logs
+1c71631 # 2016-05-15 # Zdrowy Gosciu @ drivers: tspdrv: Mute useless messages
+add7bd1 # 2016-05-15 # Zdrowy Gosciu @ drivers: tspdrv: Change useless messages type to INFO
+a78ca3d # 2016-05-15 # Zdrowy Gosciu @ fs namespace: Initialize kernel variables
+42e1681 # 2016-05-15 # Zdrowy Gosciu @ backlight lm3630: Disable useless dmesg's
+bc075cf # 2016-05-15 # Zdrowy Gosciu @ drivers: leds: Mute useless messages
+605aa2a # 2016-05-15 # Rashed Abdel-Tawab @ d802_defconfig: Disable CONFIG_MSM_L2_ERP_PORT_PANIC
+726caff # 2016-05-15 # Ethan @ vidc kill some debugging
+90f9892 # 2016-05-15 # myfluxi @ mmc: core: Silence log spam
+fd2ca99 # 2016-05-15 # Vijayavardhan Vennapusa @ USB: dwc3: ep0: Use WARN_ON_ONCE to fix message flooding issue
+2e295f3 # 2016-05-15 # Zdrowy Gosciu @ drivers: power: smb349_charger.c: Silence SPAM
+86dc3da # 2016-05-15 # Zdrowy Gosciu @ drivers: misc: tspdrv: ImmVibeSPI.c: Silence SPAM
+851bc24 # 2016-05-15 # Pranav Vashi @ arm: kernel: irq: Silence ratelimit SPAM
+f9d38c7 # 2016-05-15 # Zdrowy Gosciu @ drivers: i2c: busses: i2c-qup.c: Silence SPAM
+354f6c0 # 2016-05-15 # myfluxi @ msm: bam_dmux: Reduce debug logs to avoid watchdog bite
+1f1d6e2 # 2016-05-15 # Pranav Vashi @ kernel: Reduce dmesg spam
+9e351ce # 2016-05-15 # Zachariah Kennedy @ net: wireless: bcmdhd: Silence some unnessecary noise
+8692ae7 # 2016-05-15 # Sultanxda @ Remove DMESG Spam from Watchdog V2 + HWMon
+47821b7 # 2016-05-15 # cocafe @ misc: Stop spamming kmsg
+065a991 # 2016-05-15 # franciscofranco @ security: SELinux: Disable useless message
+6f6ed38 # 2016-05-15 # myfluxi @ netfilter: x_tables: Silence some debug info
+2683ec3 # 2016-05-15 # Ricardo Cerqueira @ drivers: power: Mute charger/battery crazy verbose debug
+5e19216 # 2016-05-15 # Dorimanx @ MMC: Stop CMD52 CRC ERROR SPAM IN LOG
+2dd3384 # 2016-05-15 # Dorimanx @ misc: Mute non needed debug SPAM in dmesg
+ec7e9e6 # 2016-05-15 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
+d168bc3 # 2016-05-15 # Zdrowy Gosciu @ arm: configs: d802: Enable new I/O sched's
+568038e # 2016-05-15 # Zdrowy Gosciu @ arm: configs: Cleanup
+e374a21 # 2016-05-15 # Jeremy @ block: update vr-iosched
+9bc1352 # 2016-05-15 # ptmr3 @ VM_MAX_READAHEAD 1024
+e7e3bef # 2016-05-15 # Jeremy @ block: Add VR i/o scheduler
+2c8e2e9 # 2016-05-15 # faux123 @ block/deadline: tweaked for better performance on android
+3b81746 # 2016-05-15 # faux123 @ kernel:sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire
+94b5af7 # 2016-05-15 # Jeremy @ block: Add Simple i/o scheduler
+f9014a0 # 2016-05-15 # Brandon Berhent @ block: Add Zen i/o scheduler
+c380295 # 2016-05-15 # Jeremy @ Make thermal engine play nice --Imoseyon--
+59ee4ce # 2016-05-15 # imoseyon @ cpufreq: force cpuN policy to match cpu0 when changing freq or gov
+b467844 # 2016-05-15 # imoseyon @ cpufreq: set policy max properly
 807dc1f # 2016-05-11 # Bruno Martins @ netfilter: x_tables: Fix compilation error
 91e0b9a # 2016-05-11 # Florian Westphal @ netfilter: x_tables: check for size overflow
-27c4ba8 # 2016-05-10 # Zdrowy Gosciu @ Version HM 3.5
-e05ba99 # 2016-05-10 # Zdrowy Gosciu @ cpufreq: Block moar MP-Decision
 975be53 # 2016-05-10 # Kangjie Lu @ ALSA: timer: Fix leak in events via snd_timer_user_tinterrupt
 01b8aa9 # 2016-05-10 # Kangjie Lu @ ALSA: timer: Fix leak in events via snd_timer_user_ccallback
 20e7a84 # 2016-05-10 # Kangjie Lu @ ALSA: timer: Fix leak in SNDRV_TIMER_IOCTL_PARAMS
-a4ad8e5 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: kgsl: Optimize the vmap step size in kgsl page allocator"
-bb77bcb # 2016-05-10 # Zdrowy Gosciu @ Revert "kgsl: allocate shared memory one page at a time"
-c0b437f # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: kgsl: Mark the end of the scatterlist"
-2ed5179 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove, copy_page optimization"
-bc2091d # 2016-05-10 # Zdrowy Gosciu @ Revert "arm: lib: Fix makefile bug"
-77b4f77 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove optimization"
-60fc720 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: memutils: 8084: memcpy, memmove optimization"
-6cb7fb0 # 2016-05-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 218d158 # 2016-05-10 # Stephen Boyd @ clocksource: Extract max nsec calculation into separate function
 ff71398 # 2016-05-10 # Stephen Boyd @ sched_clock: Backport high-resolution support

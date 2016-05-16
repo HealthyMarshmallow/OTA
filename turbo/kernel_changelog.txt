@@ -7,6 +7,8 @@ CHANGES AFTER 2016-05-10 @ 07:54:53 (1462866893)
                  |_____|              
 
 * Project device/lge/g2-common/
+c94349d # 2016-05-16 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable Kernel Adiutor support for Sound Control"
+3f283ce # 2016-05-16 # Dan Pasanen @ Revert "g2: turn on TARGET_USE_COMPAT_GRALLOC_ALIGN"
 dc553af # 2016-05-16 # Zdrowy Gosciu @ Revert "g2-common: Introduce SONY TherManager"
 a73462f # 2016-05-16 # Zdrowy Gosciu @ g2-common: Update Thermal Engine config from D855 30B
 253f7a9 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: New setup + another cleanup
@@ -15,6 +17,12 @@ ad190f6 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Little cleanup
 b0c3bb5 # 2016-05-15 # Zdrowy Gosciu @ g2-common: init: Rebase for HM 5.0
 
 * Project kernel/lge/msm8974/
+3cfcd8e # 2016-05-16 # Zdrowy Gosciu @ Version HM 5.6
+ff6888b # 2016-05-16 # Zdrowy Gosciu @ Sound Control: Fix config
+7a3c163 # 2016-05-16 # Zdrowy Gosciu @ Revert "Sound Control: Rebase with dorimanx master branch"
+d819cb6 # 2016-05-16 # ejjohnson1999 @ cortex a15 tune and compile arch/arm with thumb2
+18dad2b # 2016-05-16 # ejjohnson1999 @ cpufreq: Squash a bunch of CAF/myfluxi changes
+fdee632 # 2016-05-16 # Guillaume Nault @ ppp: take reference on channels netns
 8ac5073 # 2016-05-16 # Zdrowy Gosciu @ Version HM 5.5
 e605396 # 2016-05-16 # myfluxi @ msm: clock-krait-8974: User voltage control for msm-cpufreq device
 0f59635 # 2016-05-16 # myfluxi @ arm/dt: msm8974: Lower GPU voltage constraints

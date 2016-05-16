@@ -17,6 +17,12 @@ ad190f6 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Little cleanup
 b0c3bb5 # 2016-05-15 # Zdrowy Gosciu @ g2-common: init: Rebase for HM 5.0
 
 * Project kernel/lge/msm8974/
+25f7cb0 # 2016-05-16 # Zdrowy Gosciu @ Version HM 5.666
+852a7f2 # 2016-05-16 # Zdrowy Gosciu @ Revert "Sound Control: Show default speaker gain value when audio is disabled"
+e8ef3c9 # 2016-05-16 # Zdrowy Gosciu @ Sound Control: Set default Speaker gain to +6 on boot
+928807c # 2016-05-16 # savoca @ Sound Control: Show default speaker gain value when audio is disabled
+a4c18a1 # 2016-05-16 # Dorimanx @ Sound Control: Merge patches from LG G2
+0d00af3 # 2016-05-16 # Zdrowy Gosciu @ Revert "Sound Control: Fix config"
 3cfcd8e # 2016-05-16 # Zdrowy Gosciu @ Version HM 5.6
 ff6888b # 2016-05-16 # Zdrowy Gosciu @ Sound Control: Fix config
 7a3c163 # 2016-05-16 # Zdrowy Gosciu @ Revert "Sound Control: Rebase with dorimanx master branch"

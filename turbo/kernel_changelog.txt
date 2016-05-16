@@ -7,73 +7,64 @@ CHANGES AFTER 2016-05-10 @ 07:54:53 (1462866893)
                  |_____|              
 
 * Project device/lge/g2-common/
+dc553af # 2016-05-16 # Zdrowy Gosciu @ Revert "g2-common: Introduce SONY TherManager"
+a73462f # 2016-05-16 # Zdrowy Gosciu @ g2-common: Update Thermal Engine config from D855 30B
+253f7a9 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: New setup + another cleanup
+ad190f6 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Little cleanup
 58f2886 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Underclock to 1.9 GHz
 b0c3bb5 # 2016-05-15 # Zdrowy Gosciu @ g2-common: init: Rebase for HM 5.0
 
 * Project kernel/lge/msm8974/
-88d44df # 2016-05-16 # Zdrowy Gosciu @ Version HM 5.1
-5b96763 # 2016-05-16 # Zdrowy Gosciu @ cpufreq: Block MP-Decision from changing freq's
-a1f9a7e # 2016-05-16 # myfluxi @ msm: clock-krait-8974: User voltage control for msm-cpufreq device
-7a90c95 # 2016-05-16 # myfluxi @ arm/dt: msm8974: Lower GPU voltage constraints
-6112c69 # 2016-05-16 # Jeremy @ Fast charge expirimentation
-e4d3c7d # 2016-05-16 # Jeremy @ Forced Fast Charge for LG G2 ported by PTMR3
-35bce4e # 2016-05-15 # Zdrowy Gosciu @ mm: ksm: Tweak values
-eba8bcd # 2016-05-15 # Tyler Dunn @ arm: configs: d802: Enable KSM
-c10c376 # 2016-05-15 # Tyler Dunn @ ksm: Relax sleep timer to 500 ms
-c80a98b # 2016-05-15 # Pafcholini @ drivers: mmc: Toggleable software CRC
-6da8e64 # 2016-05-15 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
-b8196bf # 2016-05-15 # duki994 @ bcmdhd: Optimize WiFi driver via compiler flags and ioctl timeout
-af47070 # 2016-05-15 # Pranav Vashi @ sched: Add controls for sched features
-d7f499f # 2016-05-15 # Zdrowy Gosciu @ Version HM 5.0
-5df9a35 # 2016-05-15 # Venkat Gopalakrishnan @ mmc: sdhci: Reset cmd err only for sbc commands
-fa19f5d # 2016-05-15 # Dorimanx @ MMC: merge code style fixes from MY KK Kernel.
-2ab9b5b # 2016-05-15 # Zdrowy Gosciu @ mmc: sdhci: No register dumps
-9a2ebb3 # 2016-05-15 # jrizzoli @ block: FIOPS
-df4163e # 2016-05-15 # audahadi @ arm/dts: Enable bam_dmux fast shutdown
-d9d24f5 # 2016-05-15 # myfluxi @ PM / devfreq: Fix simple_ondemand crashing
-2130d08 # 2016-05-15 # Steve Kondik @ msm_rmnet: Kill logspam
-a769f63 # 2016-05-15 # Lance Poore @ SCHEDULER: Autogroup patch group by current user android UID instead of task ID
-f8662d5 # 2016-05-15 # Chester Kener @ block: Disable IO Stats
-bcc109e # 2016-05-15 # Pranav Vashi @ tcp: network speed tweak
-911fc03 # 2016-05-15 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
-d63fe27 # 2016-05-15 # Zdrowy Gosciu @ d802_defconfig: TCP: Enable Veno + Westwood
-5a1340d # 2016-05-15 # Zdrowy Gosciu @ lge_touch_core: Disable debug and info logs
-1c71631 # 2016-05-15 # Zdrowy Gosciu @ drivers: tspdrv: Mute useless messages
-add7bd1 # 2016-05-15 # Zdrowy Gosciu @ drivers: tspdrv: Change useless messages type to INFO
-a78ca3d # 2016-05-15 # Zdrowy Gosciu @ fs namespace: Initialize kernel variables
-42e1681 # 2016-05-15 # Zdrowy Gosciu @ backlight lm3630: Disable useless dmesg's
-bc075cf # 2016-05-15 # Zdrowy Gosciu @ drivers: leds: Mute useless messages
-605aa2a # 2016-05-15 # Rashed Abdel-Tawab @ d802_defconfig: Disable CONFIG_MSM_L2_ERP_PORT_PANIC
-726caff # 2016-05-15 # Ethan @ vidc kill some debugging
-90f9892 # 2016-05-15 # myfluxi @ mmc: core: Silence log spam
-fd2ca99 # 2016-05-15 # Vijayavardhan Vennapusa @ USB: dwc3: ep0: Use WARN_ON_ONCE to fix message flooding issue
-2e295f3 # 2016-05-15 # Zdrowy Gosciu @ drivers: power: smb349_charger.c: Silence SPAM
-86dc3da # 2016-05-15 # Zdrowy Gosciu @ drivers: misc: tspdrv: ImmVibeSPI.c: Silence SPAM
-851bc24 # 2016-05-15 # Pranav Vashi @ arm: kernel: irq: Silence ratelimit SPAM
-f9d38c7 # 2016-05-15 # Zdrowy Gosciu @ drivers: i2c: busses: i2c-qup.c: Silence SPAM
-354f6c0 # 2016-05-15 # myfluxi @ msm: bam_dmux: Reduce debug logs to avoid watchdog bite
-1f1d6e2 # 2016-05-15 # Pranav Vashi @ kernel: Reduce dmesg spam
-9e351ce # 2016-05-15 # Zachariah Kennedy @ net: wireless: bcmdhd: Silence some unnessecary noise
-8692ae7 # 2016-05-15 # Sultanxda @ Remove DMESG Spam from Watchdog V2 + HWMon
-47821b7 # 2016-05-15 # cocafe @ misc: Stop spamming kmsg
-065a991 # 2016-05-15 # franciscofranco @ security: SELinux: Disable useless message
-6f6ed38 # 2016-05-15 # myfluxi @ netfilter: x_tables: Silence some debug info
-2683ec3 # 2016-05-15 # Ricardo Cerqueira @ drivers: power: Mute charger/battery crazy verbose debug
-5e19216 # 2016-05-15 # Dorimanx @ MMC: Stop CMD52 CRC ERROR SPAM IN LOG
-2dd3384 # 2016-05-15 # Dorimanx @ misc: Mute non needed debug SPAM in dmesg
-ec7e9e6 # 2016-05-15 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
-d168bc3 # 2016-05-15 # Zdrowy Gosciu @ arm: configs: d802: Enable new I/O sched's
-568038e # 2016-05-15 # Zdrowy Gosciu @ arm: configs: Cleanup
-e374a21 # 2016-05-15 # Jeremy @ block: update vr-iosched
-9bc1352 # 2016-05-15 # ptmr3 @ VM_MAX_READAHEAD 1024
-e7e3bef # 2016-05-15 # Jeremy @ block: Add VR i/o scheduler
-2c8e2e9 # 2016-05-15 # faux123 @ block/deadline: tweaked for better performance on android
-3b81746 # 2016-05-15 # faux123 @ kernel:sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire
-94b5af7 # 2016-05-15 # Jeremy @ block: Add Simple i/o scheduler
-f9014a0 # 2016-05-15 # Brandon Berhent @ block: Add Zen i/o scheduler
-c380295 # 2016-05-15 # Jeremy @ Make thermal engine play nice --Imoseyon--
-59ee4ce # 2016-05-15 # imoseyon @ cpufreq: force cpuN policy to match cpu0 when changing freq or gov
-b467844 # 2016-05-15 # imoseyon @ cpufreq: set policy max properly
+8ac5073 # 2016-05-16 # Zdrowy Gosciu @ Version HM 5.5
+e605396 # 2016-05-16 # myfluxi @ msm: clock-krait-8974: User voltage control for msm-cpufreq device
+0f59635 # 2016-05-16 # myfluxi @ arm/dt: msm8974: Lower GPU voltage constraints
+7d39ad7 # 2016-05-16 # Zdrowy Gosciu @ arm: configs: d802: ondemand CPU GOV at boot
+72e852a # 2016-05-16 # Zdrowy Gosciu @ cpufreq: Block MP-Decision from changing freq's
+635ad64 # 2016-05-16 # Zdrowy Gosciu @ Sound Control: Rebase with dorimanx master branch
+2bef34c # 2016-05-16 # savoca @ Sound Control: Show default speaker gain value when audio is disabled
+942c790 # 2016-05-16 # Paul Reioux @ Sound Control: add line gain to cached and register lock
+c5cf181 # 2016-05-16 # Paul Reioux @ Sound Control: LG G2 Speaker Amp control
+a313059 # 2016-05-16 # Paul Reioux @ Sound Control: separate locking mechanism for recording and playback
+fcb07b7 # 2016-05-16 # Paul Reioux @ Sound Control: let register lock be dependent on different HW revisions
+8bd45f1 # 2016-05-16 # Paul Reioux @ Sound Control: Misc clean up for newer WCD9xxx SOCs
+b530d90 # 2016-05-16 # Paul Reioux @ Sound Control: expose direct register manipulations to userspace
+7234796 # 2016-05-16 # Paul Reioux @ sound control: Samsung Microphone compatibility fixup
+5322025 # 2016-05-16 # Paul Reioux @ sound control: add register cache
+51b8b3d # 2016-05-16 # Paul Reioux @ Sound Control: (OPTIONAL) add power amp registers access control as well
+18e9626 # 2016-05-16 # Paul Reioux @ Sound Control: (Optional) work around for Nexus 4/5 audio issues
+afaf24c # 2016-05-16 # Paul Reioux @ sound control: WCD9320: update speaker gain control for Z1
+2f63d87 # 2016-05-16 # Paul Reioux @ sound control 3.x: Initial GPL release for WCD9320 Audio Codec
+4f609d2 # 2016-05-16 # Paul Reioux @ Sound Control: WCD9320: expose additional controls
+469d5eb # 2016-05-16 # Jeremy @ Fast charge expirimentation
+326abc2 # 2016-05-16 # Jeremy @ Forced Fast Charge for LG G2 ported by PTMR3
+60a5428 # 2016-05-16 # Zdrowy Gosciu @ mm: ksm: Tweak values
+9349286 # 2016-05-16 # Tyler Dunn @ arm: configs: d802: Enable KSM
+1f64efc # 2016-05-16 # Tyler Dunn @ ksm: Relax sleep timer to 500 ms
+3e1af8d # 2016-05-16 # Pafcholini @ drivers: mmc: Toggleable software CRC
+6b8b19d # 2016-05-16 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
+031a472 # 2016-05-16 # Pranav Vashi @ sched: Add controls for sched features
+7e002ba # 2016-05-16 # Venkat Gopalakrishnan @ mmc: sdhci: Reset cmd err only for sbc commands
+d9bda5c # 2016-05-16 # Dorimanx @ MMC: merge code style fixes from MY KK Kernel.
+ad5e7a4 # 2016-05-16 # Zdrowy Gosciu @ mmc: sdhci: No register dumps
+16f3882 # 2016-05-16 # jrizzoli @ block: FIOPS
+d22a133 # 2016-05-16 # audahadi @ arm/dts: Enable bam_dmux fast shutdown
+b733675 # 2016-05-16 # myfluxi @ PM / devfreq: Fix simple_ondemand crashing
+edc3574 # 2016-05-16 # Lance Poore @ SCHEDULER: Autogroup patch group by current user android UID instead of task ID
+f69de83 # 2016-05-16 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
+1350f42 # 2016-05-16 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
+a40c3db # 2016-05-16 # Rashed Abdel-Tawab @ arm: configs: d802: Disable CONFIG_MSM_L2_ERP_PORT_PANIC
+4589923 # 2016-05-16 # Zdrowy Gosciu @ arm: configs: d802: TCP: Enable Veno + Westwood
+67ebd39 # 2016-05-16 # Zdrowy Gosciu @ arm: configs: d802: Enable new I/O sched's
+38c2d0f # 2016-05-16 # Zdrowy Gosciu @ arm: configs: Cleanup
+1d479dc # 2016-05-16 # Jeremy @ block: update vr-iosched
+af18acc # 2016-05-16 # Jeremy @ block: Add VR i/o scheduler
+70f06de # 2016-05-16 # Jeremy @ block: Add Simple i/o scheduler
+ebc927a # 2016-05-16 # Brandon Berhent @ block: Add Zen i/o scheduler
+6100deb # 2016-05-16 # Jeremy @ Make thermal engine play nice --Imoseyon--
+80bb2db # 2016-05-16 # imoseyon @ cpufreq: force cpuN policy to match cpu0 when changing freq or gov
+430c3db # 2016-05-16 # imoseyon @ cpufreq: set policy max properly
+32ee0f9 # 2016-05-16 # Zdrowy Gosciu @ fs namespace: Initialize kernel variables
+59889db # 2016-05-16 # Zdrowy Gosciu @ Kill logspam (SQUASHED)
 807dc1f # 2016-05-11 # Bruno Martins @ netfilter: x_tables: Fix compilation error
 91e0b9a # 2016-05-11 # Florian Westphal @ netfilter: x_tables: check for size overflow
 975be53 # 2016-05-10 # Kangjie Lu @ ALSA: timer: Fix leak in events via snd_timer_user_tinterrupt

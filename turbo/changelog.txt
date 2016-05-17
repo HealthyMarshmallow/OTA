@@ -7,7 +7,7 @@ CHANGES AFTER 2016-05-10 @ 07:54:53 (1462866893)
                  |_____|              
 
 * Project /
-0000000 # 2016-05-14 # Zdrowy Gosciu @ Dev. settings: Force MTP mode via USB
+0000000 # 2016-05-14 # Zdrowy Gosciu @ Dev. settings: Add toast msg to Force MTP mode via USB
 
 * Project Documentation/
 fe9c93d # 2016-05-11 # Raleigh Matlock @ Merge pull request #28 from Vidhanth/patch-1
@@ -16,13 +16,27 @@ fe9c93d # 2016-05-11 # Raleigh Matlock @ Merge pull request #28 from Vidhanth/pa
 5d58127 # 2016-05-10 # bgos10 @ Moto X Style
 
 * Project OTA/
+95b5d1d # 2016-05-17 # Zdrowy Gosciu @ OTA: Turbo ROM: Switch to Open GApps
+da68a82 # 2016-05-16 # Zdrowy Gosciu @ OTA: XOSP: Kernel HM 5.666
+b451986 # 2016-05-16 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 5.666
+4dbce54 # 2016-05-16 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 5.6
+76ae315 # 2016-05-16 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 5.5
+6869a17 # 2016-05-16 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 5.1
+5ee2ea7 # 2016-05-15 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 5.0 (rebased)
+255404d # 2016-05-14 # Zdrowy Gosciu @ OTA: Turbo-d802-4.0-UNOFFICIAL-20160513-235845
+a85b796 # 2016-05-14 # Zdrowy Gosciu @ OTA: A-GApps 5.2
 aedb13a # 2016-05-13 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 3.7
 a080bfb # 2016-05-12 # Zdrowy Gosciu @ OTA: XOSP: Kernel HM 3.6 + cleanup
 cac36e3 # 2016-05-12 # Zdrowy Gosciu @ OTA: Kernel HM 3.6
 5c04336 # 2016-05-10 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 3.5
 23e37a2 # 2016-05-10 # Zdrowy Gosciu @ OTA: Turbo-d802-4.0-UNOFFICIAL-20160510-074929
 
+* Project art/
+d4e9479 # 2016-05-17 # Chih-Hung Hsieh @ ART: Remove unique-numbered labels from arm64 assembly
+
 * Project device/lge/d802/
+b197ab6 # 2016-05-16 # Zdrowy Gosciu @ d802: VU: Build Gello
+338becc # 2016-05-16 # Zdrowy Gosciu @ d802: overlay: FB: Update default wallpaper
 0a3e0ea # 2016-05-14 # Zdrowy Gosciu @ d802: Turbo ROM: Gello time!
 4f3acd0 # 2016-05-13 # Zdrowy Gosciu @ d802: Introduce XenonHD
 ece5c81 # 2016-05-13 # Zdrowy Gosciu @ d802: Introduce Vanilla Unicorn
@@ -32,6 +46,16 @@ f00dc15 # 2016-05-12 # Zdrowy Gosciu @ d802: overlay: FB: Change default wallpap
 ef238b5 # 2016-05-12 # Zdrowy Gosciu @ d802: Introduce Purity ROM
 
 * Project device/lge/g2-common/
+c94349d # 2016-05-16 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable Kernel Adiutor support for Sound Control"
+3f283ce # 2016-05-16 # Dan Pasanen @ Revert "g2: turn on TARGET_USE_COMPAT_GRALLOC_ALIGN"
+5722eca # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Enable Kernel Adiutor support for Sound Control
+dc553af # 2016-05-16 # Zdrowy Gosciu @ Revert "g2-common: Introduce SONY TherManager"
+a73462f # 2016-05-16 # Zdrowy Gosciu @ g2-common: Update Thermal Engine config from D855 30B
+253f7a9 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: New setup + another cleanup
+ad190f6 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Little cleanup
+58f2886 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Underclock to 1.9 GHz
+b0c3bb5 # 2016-05-15 # Zdrowy Gosciu @ g2-common: init: Rebase for HM 5.0
+244f8d3 # 2016-05-14 # Zdrowy Gosciu @ g2-common: Fix and tweak audio (mixer_paths.xml + fluence)
 fbd6f38 # 2016-05-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 0cbfd8c # 2016-05-14 # Zachariah @ g2-common: init: power: Setup ondemand & impulse default values
 f4122a2 # 2016-05-13 # Zdrowy Gosciu @ g2-common: init: power: Remove CPUQuiet
@@ -56,6 +80,33 @@ a356a65 # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Start Adreno Idle
 b25ecbf # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Back to interactive
 bc77e2b # 2016-05-10 # Zdrowy Gosciu @ g2-common: init: power: Impulse tweak
 
+* Project frameworks/av/
+926157e # 2016-05-17 # Keith Mok @ Revert "nuplayer: Fix audio EOS notifiy on AudioSink not ready"
+707cf08 # 2016-05-17 # Ricardo Cerqueira @ FFMPEGSoftCodec: Initialize the OMX param struct before using it
+5f40752 # 2016-05-17 # Roman Birg @ soundtrigger: fill in default extras from dsp
+
+* Project frameworks/base/
+f4dd466 # 2016-05-17 # Pat Erley @ ActivityManagerService: Don't export 'system' process in running app list
+f0a267e # 2016-05-17 # Snild Dolkow @ Avoid ANR loop because of queued-up ANR runnables
+a286df0 # 2016-05-17 # Kazuki Nakayama @ Avoid overwriting SYSTEM_ADJ with PERSISTENT_PROC_ADJ
+3c9477c # 2016-05-17 # Wilhelm Fitzpatrick @ Fix "Select correct 12 or 24 time format" breaking Chrome
+e90d855 # 2016-05-17 # Wilhelm Fitzpatrick @ Select correct 12 or 24 time format according to Locale
+4b52cf0 # 2016-05-17 # Mark Lu @ Fix resumeHomeStackTask can't resume home if activity is finishing.
+1adb9c9 # 2016-05-17 # riddle_hsu @ Ensure state transition of paused activity.
+7d4dd23 # 2016-05-17 # louis_chang @ [ActivityManager] Fix IndexOutOfBoundsException
+77f31cb # 2016-05-17 # joanne_chung @ [ActivityManager] Fix NullPointerException in startNextMatchingActivity.
+75e7d74 # 2016-05-17 # riddle_hsu @ Improve handling of accessing dying provider.
+ccbcd74 # 2016-05-17 # louis_chang @ [ActivityManager] Use the original activity to launch from Recents
+0c92d69 # 2016-05-17 # riddle_hsu @ Fix wrong focused stack if there are finishing tasks.
+7aec027 # 2016-05-17 # Tobias Lindskog @ Skip ANR for processes that have been killed
+e0468f4 # 2016-05-17 # louis_chang @ [ActivityManager] Bring up Service if not schedule to restart
+4d62cbe # 2016-05-17 # guotao.deng @ We should notify the foreground activity changes immediately.
+df01318 # 2016-05-17 # tiger_huang @ Ensure the occlude state of keyguard is correct
+8de5459 # 2016-05-17 # Lars Greiss @ Do not block HOME if background incoming call (marshmallow)
+
+* Project frameworks/opt/telephony/
+d19dc37 # 2016-05-17 # Adnan Begovic @ telephony: Add oldril feature setPrefNwTypeOnUnsolConnected.
+
 * Project hardware/invensense/
 85c5a9a # 2016-05-12 # sundarajan srinivasan @ invensense: Use sensor HAL only if device specific HAL is not present
 
@@ -69,54 +120,105 @@ da55887 # 2016-05-13 # Ethan Chen @ Merge remote-tracking branch 'caf/LA.BF.1.1.
 c26ee91 # 2016-05-13 # OzzysCmAcc @ Revert "gralloc: allow forcing old pixel alignment"
 
 * Project kernel/lge/msm8974/
-f48c481 # 2016-05-13 # Zdrowy Gosciu @ Version HM 3.7
-4226f9c # 2016-05-13 # Zdrowy Gosciu @ Revert "drivers: Introduce CPUQuiet"
-6363bc7 # 2016-05-13 # Zdrowy Gosciu @ Revert "block: Disable IO Stats"
-2f768ce # 2016-05-13 # Zdrowy Gosciu @ Revert "debugfs: leave freeing a symlink body until inode eviction"
-2325cdf # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm fix and cleanup function to print vmalloc info"
-e9777aa # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm: consider only lowmem regions while remap"
-662d461 # 2016-05-13 # Zdrowy Gosciu @ Revert "arm: mm: fix bootup bug with odd-section boundry in memory hole."
-5dfa0bd # 2016-05-13 # Zdrowy Gosciu @ Revert "msm: thermal: Check temperature only if probed"
-b73fe36 # 2016-05-13 # Zdrowy Gosciu @ Revert "fs: aio: Optimization for SSD-only machines"
-e4199f1 # 2016-05-13 # Zdrowy Gosciu @ Revert "lib/int_sqrt.c: optimize square root algorithm"
-065bed2 # 2016-05-13 # Zdrowy Gosciu @ Revert "drivers: video: msm: mdss: mdss_mdp_util: Fix compiler error (array subscript is below array bounds)"
-6e6ecfa # 2016-05-13 # Zdrowy Gosciu @ Revert "msm: vidc: disable CPU L2 cache PC during video sessions"
-f6b73cb # 2016-05-11 # Zdrowy Gosciu @ Version HM 3.6
-ec7a49b # 2016-05-11 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-c87ea3a # 2016-05-11 # Zdrowy Gosciu @ msm: thermal: Fix build
-f904aab # 2016-05-11 # Dorimanx @ msm: thermal: Reduce boot max temp to 70C and update ROM thermal defines
-a67db68 # 2016-05-11 # Dorimanx @ msm: thermal: Use zone 0 thermal sensor for max freq limits
-42f58d2 # 2016-05-11 # Zdrowy Gosciu @ msm: thermal: Correct max freq
-39a71e4 # 2016-05-11 # 777jon @ msm: thermal: disable vdd restriction
-159c35e # 2016-05-11 # anarkia1976 @ msm: thermal: fix build error after apply limit to thermal logs
-5b9cb22 # 2016-05-11 # Ram Chandrasekar @ msm: thermal: Limit the emergency mitigation messages
-d836290 # 2016-05-11 # anarkia1976 @ msm: thermal: Prevent mitigation if not required
-2c8ed4a # 2016-05-11 # anarkia1976 @ msm: thermal: merged intelli thermal v2.0
-62e2707 # 2016-05-11 # Zdrowy Gosciu @ mmc: sdhci: No register dumps
-b40cb0e3 # 2016-05-11 # Venkat Gopalakrishnan @ mmc: sdhci: Reset cmd err only for sbc commands
-5f23b44 # 2016-05-11 # Dorimanx @ MMC: merge code style fixes from MY KK Kernel.
-b8fad87 # 2016-05-11 # Zdrowy Gosciu @ d802_defconfig: Enable CIFS
+49967d2 # 2016-05-17 # Zdrowy Gosciu @ Version HM 5.7
+1c4fffa # 2016-05-17 # Zdrowy Gosciu @ cpufreq: Fix KConfig build error
+824719a # 2016-05-17 # Zdrowy Gosciu @ cpufreq: Block MP-Decision from changing freq's + correct some freq's
+aeb7999 # 2016-05-17 # Hendrik Hagendorn @ g2: Use interruptible waits to fix high load average
+cd15229 # 2016-05-17 # alucard24 @ cpufreq: Introduce nightmare GOV
+7180b99 # 2016-05-17 # alucard24 @ cpufreq: Introduce darkness GOV
+e98ff48 # 2016-05-17 # alucard24 @ cpufreq: Introduce alucard GOV
+3890195 # 2016-05-17 # anarkia1976 @ cpufreq: slim: tuning and burning @robbieL811 settings
+ccf5d89 # 2016-05-17 # Robbie @ cpufreq: Introduce slim GOV
+e2d26b9 # 2016-05-17 # Ram Chandrasekar @ msm: thermal: Limit the emergency mitigation messages
+25f7cb0 # 2016-05-16 # Zdrowy Gosciu @ Version HM 5.666
+852a7f2 # 2016-05-16 # Zdrowy Gosciu @ Revert "Sound Control: Show default speaker gain value when audio is disabled"
+e8ef3c9 # 2016-05-16 # Zdrowy Gosciu @ Sound Control: Set default Speaker gain to +6 on boot
+928807c # 2016-05-16 # savoca @ Sound Control: Show default speaker gain value when audio is disabled
+a4c18a1 # 2016-05-16 # Dorimanx @ Sound Control: Merge patches from LG G2
+0d00af3 # 2016-05-16 # Zdrowy Gosciu @ Revert "Sound Control: Fix config"
+3cfcd8e # 2016-05-16 # Zdrowy Gosciu @ Version HM 5.6
+ff6888b # 2016-05-16 # Zdrowy Gosciu @ Sound Control: Fix config
+7a3c163 # 2016-05-16 # Zdrowy Gosciu @ Revert "Sound Control: Rebase with dorimanx master branch"
+d819cb6 # 2016-05-16 # ejjohnson1999 @ cortex a15 tune and compile arch/arm with thumb2
+18dad2b # 2016-05-16 # ejjohnson1999 @ cpufreq: Squash a bunch of CAF/myfluxi changes
+fdee632 # 2016-05-16 # Guillaume Nault @ ppp: take reference on channels netns
+8ac5073 # 2016-05-16 # Zdrowy Gosciu @ Version HM 5.5
+e605396 # 2016-05-16 # myfluxi @ msm: clock-krait-8974: User voltage control for msm-cpufreq device
+0f59635 # 2016-05-16 # myfluxi @ arm/dt: msm8974: Lower GPU voltage constraints
+7d39ad7 # 2016-05-16 # Zdrowy Gosciu @ arm: configs: d802: ondemand CPU GOV at boot
+72e852a # 2016-05-16 # Zdrowy Gosciu @ cpufreq: Block MP-Decision from changing freq's
+635ad64 # 2016-05-16 # Zdrowy Gosciu @ Sound Control: Rebase with dorimanx master branch
+2bef34c # 2016-05-16 # savoca @ Sound Control: Show default speaker gain value when audio is disabled
+942c790 # 2016-05-16 # Paul Reioux @ Sound Control: add line gain to cached and register lock
+c5cf181 # 2016-05-16 # Paul Reioux @ Sound Control: LG G2 Speaker Amp control
+a313059 # 2016-05-16 # Paul Reioux @ Sound Control: separate locking mechanism for recording and playback
+fcb07b7 # 2016-05-16 # Paul Reioux @ Sound Control: let register lock be dependent on different HW revisions
+8bd45f1 # 2016-05-16 # Paul Reioux @ Sound Control: Misc clean up for newer WCD9xxx SOCs
+b530d90 # 2016-05-16 # Paul Reioux @ Sound Control: expose direct register manipulations to userspace
+7234796 # 2016-05-16 # Paul Reioux @ sound control: Samsung Microphone compatibility fixup
+5322025 # 2016-05-16 # Paul Reioux @ sound control: add register cache
+51b8b3d # 2016-05-16 # Paul Reioux @ Sound Control: (OPTIONAL) add power amp registers access control as well
+18e9626 # 2016-05-16 # Paul Reioux @ Sound Control: (Optional) work around for Nexus 4/5 audio issues
+afaf24c # 2016-05-16 # Paul Reioux @ sound control: WCD9320: update speaker gain control for Z1
+2f63d87 # 2016-05-16 # Paul Reioux @ sound control 3.x: Initial GPL release for WCD9320 Audio Codec
+4f609d2 # 2016-05-16 # Paul Reioux @ Sound Control: WCD9320: expose additional controls
+469d5eb # 2016-05-16 # Jeremy @ Fast charge expirimentation
+326abc2 # 2016-05-16 # Jeremy @ Forced Fast Charge for LG G2 ported by PTMR3
+60a5428 # 2016-05-16 # Zdrowy Gosciu @ mm: ksm: Tweak values
+9349286 # 2016-05-16 # Tyler Dunn @ arm: configs: d802: Enable KSM
+1f64efc # 2016-05-16 # Tyler Dunn @ ksm: Relax sleep timer to 500 ms
+3e1af8d # 2016-05-16 # Pafcholini @ drivers: mmc: Toggleable software CRC
+6b8b19d # 2016-05-16 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
+031a472 # 2016-05-16 # Pranav Vashi @ sched: Add controls for sched features
+7e002ba # 2016-05-16 # Venkat Gopalakrishnan @ mmc: sdhci: Reset cmd err only for sbc commands
+d9bda5c # 2016-05-16 # Dorimanx @ MMC: merge code style fixes from MY KK Kernel.
+ad5e7a4 # 2016-05-16 # Zdrowy Gosciu @ mmc: sdhci: No register dumps
+16f3882 # 2016-05-16 # jrizzoli @ block: FIOPS
+d22a133 # 2016-05-16 # audahadi @ arm/dts: Enable bam_dmux fast shutdown
+b733675 # 2016-05-16 # myfluxi @ PM / devfreq: Fix simple_ondemand crashing
+edc3574 # 2016-05-16 # Lance Poore @ SCHEDULER: Autogroup patch group by current user android UID instead of task ID
+f69de83 # 2016-05-16 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
+1350f42 # 2016-05-16 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
+a40c3db # 2016-05-16 # Rashed Abdel-Tawab @ arm: configs: d802: Disable CONFIG_MSM_L2_ERP_PORT_PANIC
+4589923 # 2016-05-16 # Zdrowy Gosciu @ arm: configs: d802: TCP: Enable Veno + Westwood
+67ebd39 # 2016-05-16 # Zdrowy Gosciu @ arm: configs: d802: Enable new I/O sched's
+38c2d0f # 2016-05-16 # Zdrowy Gosciu @ arm: configs: Cleanup
+1d479dc # 2016-05-16 # Jeremy @ block: update vr-iosched
+af18acc # 2016-05-16 # Jeremy @ block: Add VR i/o scheduler
+70f06de # 2016-05-16 # Jeremy @ block: Add Simple i/o scheduler
+ebc927a # 2016-05-16 # Brandon Berhent @ block: Add Zen i/o scheduler
+6100deb # 2016-05-16 # Jeremy @ Make thermal engine play nice --Imoseyon--
+80bb2db # 2016-05-16 # imoseyon @ cpufreq: force cpuN policy to match cpu0 when changing freq or gov
+430c3db # 2016-05-16 # imoseyon @ cpufreq: set policy max properly
+32ee0f9 # 2016-05-16 # Zdrowy Gosciu @ fs namespace: Initialize kernel variables
+59889db # 2016-05-16 # Zdrowy Gosciu @ Kill logspam (SQUASHED)
 807dc1f # 2016-05-11 # Bruno Martins @ netfilter: x_tables: Fix compilation error
 91e0b9a # 2016-05-11 # Florian Westphal @ netfilter: x_tables: check for size overflow
-27c4ba8 # 2016-05-10 # Zdrowy Gosciu @ Version HM 3.5
-e05ba99 # 2016-05-10 # Zdrowy Gosciu @ cpufreq: Block moar MP-Decision
 975be53 # 2016-05-10 # Kangjie Lu @ ALSA: timer: Fix leak in events via snd_timer_user_tinterrupt
 01b8aa9 # 2016-05-10 # Kangjie Lu @ ALSA: timer: Fix leak in events via snd_timer_user_ccallback
 20e7a84 # 2016-05-10 # Kangjie Lu @ ALSA: timer: Fix leak in SNDRV_TIMER_IOCTL_PARAMS
-a4ad8e5 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: kgsl: Optimize the vmap step size in kgsl page allocator"
-bb77bcb # 2016-05-10 # Zdrowy Gosciu @ Revert "kgsl: allocate shared memory one page at a time"
-c0b437f # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: kgsl: Mark the end of the scatterlist"
-2ed5179 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove, copy_page optimization"
-bc2091d # 2016-05-10 # Zdrowy Gosciu @ Revert "arm: lib: Fix makefile bug"
-77b4f77 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove optimization"
-60fc720 # 2016-05-10 # Zdrowy Gosciu @ Revert "msm: memutils: 8084: memcpy, memmove optimization"
-6cb7fb0 # 2016-05-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 218d158 # 2016-05-10 # Stephen Boyd @ clocksource: Extract max nsec calculation into separate function
 ff71398 # 2016-05-10 # Stephen Boyd @ sched_clock: Backport high-resolution support
 
+* Project packages/apps/Bluetooth/
+468233f # 2016-05-17 # Arnav Gupta @ hdp: do not return a null value when hdp interface unavailable
+
+* Project packages/apps/Gallery2/
+9cfb25e # 2016-05-15 # Abhisek Devkota @ Automatic translation import
+
+* Project packages/apps/Settings/
+491bfa3 # 2016-05-17 # Roman Royer @ Settings: Allow sorting Applications by size
+b5830d0 # 2016-05-17 # Luis Vidal @ Disable cellular networks settings menu if airplane mode is enabled
+281c652 # 2016-05-17 # Arvin Quilao @ Use correct icon for sim card
+
 * Project packages/apps/Snap/
+a549c38 # 2016-05-14 # Abhisek Devkota @ Automatic translation import
+1705a87 # 2016-05-14 # codeworkx @ Snap: Extend user menu, disable dev menu
 90d46ce # 2016-05-10 # Abhisek Devkota @ Automatic translation import
 006ef8d # 2016-05-10 # Michael Bestas @ Automatic translation import
+
+* Project vendor/lge/
+38de6ba # 2016-05-16 # Zdrowy Gosciu @ g2-common: Sync MP-Decison + Thermal Engine with D855 30B
 
 * Project vendor/turbo/
 bbc09f2 # 2016-05-11 # Raleigh Matlock @ Merge pull request #15 from vbajs/patch-2

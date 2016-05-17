@@ -7,7 +7,9 @@ CHANGES AFTER 2016-05-10 @ 07:54:53 (1462866893)
                  |_____|              
 
 * Project /
-0000000 # 2016-05-14 # Zdrowy Gosciu @ Dev. settings: Add toast msg to Force MTP mode via USB
+0000000 # 2016-05-17 # Zdrowy Gosciu @ vendor: Turbo 4.1 UNOFFICIAL !!
+0000000 # 2016-05-17 # Zdrowy Gosciu @ manifest: Switch to Broken ROM OkHttp
+0000000 # 2016-05-17 # Zdrowy Gosciu @ settings: Add toast msg to Force MTP mode via USB (FIXED)
 
 * Project Documentation/
 fe9c93d # 2016-05-11 # Raleigh Matlock @ Merge pull request #28 from Vidhanth/patch-1
@@ -16,6 +18,7 @@ fe9c93d # 2016-05-11 # Raleigh Matlock @ Merge pull request #28 from Vidhanth/pa
 5d58127 # 2016-05-10 # bgos10 @ Moto X Style
 
 * Project OTA/
+0df9f86 # 2016-05-17 # Zdrowy Gosciu @ OTA: Turbo-d802-4.0-UNOFFICIAL-20160517-094128 + Kernel HM 5.7
 95b5d1d # 2016-05-17 # Zdrowy Gosciu @ OTA: Turbo ROM: Switch to Open GApps
 da68a82 # 2016-05-16 # Zdrowy Gosciu @ OTA: XOSP: Kernel HM 5.666
 b451986 # 2016-05-16 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 5.666
@@ -35,6 +38,7 @@ cac36e3 # 2016-05-12 # Zdrowy Gosciu @ OTA: Kernel HM 3.6
 d4e9479 # 2016-05-17 # Chih-Hung Hsieh @ ART: Remove unique-numbered labels from arm64 assembly
 
 * Project device/lge/d802/
+e3112a1 # 2016-05-17 # Zdrowy Gosciu @ d802: Setup PRODUCT CHARACTERISTICS to NOSDCARD
 b197ab6 # 2016-05-16 # Zdrowy Gosciu @ d802: VU: Build Gello
 338becc # 2016-05-16 # Zdrowy Gosciu @ d802: overlay: FB: Update default wallpaper
 0a3e0ea # 2016-05-14 # Zdrowy Gosciu @ d802: Turbo ROM: Gello time!
@@ -46,6 +50,18 @@ f00dc15 # 2016-05-12 # Zdrowy Gosciu @ d802: overlay: FB: Change default wallpap
 ef238b5 # 2016-05-12 # Zdrowy Gosciu @ d802: Introduce Purity ROM
 
 * Project device/lge/g2-common/
+467e533 # 2016-05-17 # Zdrowy Gosciu @ g2-common: Remove unused ring.delay prop
+548efb5 # 2016-05-17 # Zdrowy Gosciu @ g2-common: init: power: Setup MP-Decision min freq
+6903e32 # 2016-05-17 # Zdrowy Gosciu @ g2-common: Adjust STK popup operation
+800699f # 2016-05-17 # Zdrowy Gosciu @ g2-common: Disable radio reports if the screen is off
+f49e1b1 # 2016-05-17 # Zdrowy Gosciu @ g2-common: Enable speaker protection
+359f615 # 2016-05-17 # Zdrowy Gosciu @ g2-common: Rebase HWUI props
+cc6817c # 2016-05-17 # Andreas Gampe @ g2-common: Limit dex2oat threads to improve thermals
+587b4e4 # 2016-05-17 # Sungmin Choi @ g2-common: Set persist.qcril.disable_retry to true
+5ac220d # 2016-05-17 # keunhui.park @ g2-common: Set voice call volume step to 7
+6a1b08c # 2016-05-17 # ejjohnson1999 @ g2-common: init: power: Clean up for interactive updates
+86f02c5 # 2016-05-17 # Zdrowy Gosciu @ g2-common: Rebase fluence props
+d2a8832 # 2016-05-17 # Zdrowy Gosciu @ Revert "g2-common: Fix and tweak audio (mixer_paths.xml + fluence)"
 c94349d # 2016-05-16 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable Kernel Adiutor support for Sound Control"
 3f283ce # 2016-05-16 # Dan Pasanen @ Revert "g2: turn on TARGET_USE_COMPAT_GRALLOC_ALIGN"
 5722eca # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Enable Kernel Adiutor support for Sound Control
@@ -120,6 +136,14 @@ da55887 # 2016-05-13 # Ethan Chen @ Merge remote-tracking branch 'caf/LA.BF.1.1.
 c26ee91 # 2016-05-13 # OzzysCmAcc @ Revert "gralloc: allow forcing old pixel alignment"
 
 * Project kernel/lge/msm8974/
+6723b99 # 2016-05-17 # Zdrowy Gosciu @ Version HM 5.8
+2cef7e1 # 2016-05-17 # Zdrowy Gosciu @ Sweep2Sleep: Correct dimensions
+4e38a7d # 2016-05-17 # 777jon @ Sweep2Sleep: change sysfs interface to s2s only
+7ac45c4 # 2016-05-17 # 777jon @ Sweep2Sleep: update to v1.6
+0cb6c3d # 2016-05-17 # 777jon @ Add Sweep2Sleep configured from Sweep2Wake
+499d5c6 # 2016-05-17 # Dorimanx @ block: sio & zen: Set fifo batch to 16 to reduce overload on eMMC and CPU
+caba15a # 2016-05-17 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
+8d9437f # 2016-05-17 # Kees Cook @ audit: catch possible NULL audit buffers
 49967d2 # 2016-05-17 # Zdrowy Gosciu @ Version HM 5.7
 1c4fffa # 2016-05-17 # Zdrowy Gosciu @ cpufreq: Fix KConfig build error
 824719a # 2016-05-17 # Zdrowy Gosciu @ cpufreq: Block MP-Decision from changing freq's + correct some freq's

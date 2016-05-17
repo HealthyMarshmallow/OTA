@@ -7,6 +7,8 @@ CHANGES AFTER 2016-05-10 @ 07:54:53 (1462866893)
                  |_____|              
 
 * Project device/lge/g2-common/
+548efb5 # 2016-05-17 # Zdrowy Gosciu @ g2-common: init: power: Setup MP-Decision min freq
+6a1b08c # 2016-05-17 # ejjohnson1999 @ g2-common: init: power: Clean up for interactive updates
 c94349d # 2016-05-16 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable Kernel Adiutor support for Sound Control"
 3f283ce # 2016-05-16 # Dan Pasanen @ Revert "g2: turn on TARGET_USE_COMPAT_GRALLOC_ALIGN"
 5722eca # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Enable Kernel Adiutor support for Sound Control
@@ -18,6 +20,14 @@ ad190f6 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Little cleanup
 b0c3bb5 # 2016-05-15 # Zdrowy Gosciu @ g2-common: init: Rebase for HM 5.0
 
 * Project kernel/lge/msm8974/
+6723b99 # 2016-05-17 # Zdrowy Gosciu @ Version HM 5.8
+2cef7e1 # 2016-05-17 # Zdrowy Gosciu @ Sweep2Sleep: Correct dimensions
+4e38a7d # 2016-05-17 # 777jon @ Sweep2Sleep: change sysfs interface to s2s only
+7ac45c4 # 2016-05-17 # 777jon @ Sweep2Sleep: update to v1.6
+0cb6c3d # 2016-05-17 # 777jon @ Add Sweep2Sleep configured from Sweep2Wake
+499d5c6 # 2016-05-17 # Dorimanx @ block: sio & zen: Set fifo batch to 16 to reduce overload on eMMC and CPU
+caba15a # 2016-05-17 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
+8d9437f # 2016-05-17 # Kees Cook @ audit: catch possible NULL audit buffers
 49967d2 # 2016-05-17 # Zdrowy Gosciu @ Version HM 5.7
 1c4fffa # 2016-05-17 # Zdrowy Gosciu @ cpufreq: Fix KConfig build error
 824719a # 2016-05-17 # Zdrowy Gosciu @ cpufreq: Block MP-Decision from changing freq's + correct some freq's

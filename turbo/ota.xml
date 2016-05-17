@@ -2,11 +2,11 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>Turbo-d802-4.0-UNOFFICIAL-20160517-094128.zip</Filename>
+            <Filename>Turbo-d802-4.1-UNOFFICIAL-20160517-200730.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download Turbo ROM 4.0">https://www.androidfilehost.com/?w=files&amp;flid=59461</RomUrl>
+                description="Download Turbo ROM 4.1">https://www.androidfilehost.com/?w=files&amp;flid=59557</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="ROM changelog"
@@ -14,7 +14,7 @@
             <KernelUrl
                 id="kernel"
                 title="Kernel"
-                description="Enjoy HealthyMarshmallow 5.7">https://www.androidfilehost.com/?w=files&amp;flid=56546</KernelUrl>
+                description="Enjoy HealthyMarshmallow 5.8">https://www.androidfilehost.com/?w=files&amp;flid=56546</KernelUrl>
             <KernelChangelogUrl
                 id="kernelchangelog"
                 title="Kernel changelog"

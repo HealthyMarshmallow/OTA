@@ -20,6 +20,24 @@ ad190f6 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Little cleanup
 b0c3bb5 # 2016-05-15 # Zdrowy Gosciu @ g2-common: init: Rebase for HM 5.0
 
 * Project kernel/lge/msm8974/
+4633c36 # 2016-05-18 # Zdrowy Gosciu @ Version HM 5.9
+0a1797d # 2016-05-18 # Tyler Dunn @ Revert "f2fs: squash to f2fs-stable/linux-3.4.y"
+936a610 # 2016-05-18 # Kishor PK @ msm: perf: validate input argument of ev_constraints functions
+0df3d0f # 2016-05-18 # Junjie Wu @ cpufreq: Protect against hotplug in cpufreq_register_driver()
+723fb2b # 2016-05-18 # Junjie Wu @ cpufreq: Return directly in __cpufreq_get if policy is NULL
+9424d41 # 2016-05-18 # Srivatsa Vaddagiri @ cpufreq: cpu-boost: Resolve deadlock when waking up sync thread
+9a43032 # 2016-05-18 # Abhimanyu Kapur @ serial: tty: msm_hs_uart: Fix the compat table
+1d48d37 # 2016-05-18 # Rama Krishna Phani A @ soc: qcom: bam_dmux: Use SPS hold mem flag
+46f7c72 # 2016-05-18 # Srinivasarao P @ msm: sps: Handle low memory condition in SPS driver
+df73837 # 2016-05-18 # Jessica Wagantall @ msm: ADSPRPC: Initialize hlist node pointers
+c9ee387 # 2016-05-18 # Dorimanx @ arch/arm: boot: dts: Fix vidc ddr table and set max freq as MSM8974AC
+e0f8219 # 2016-05-18 # Vikram Mulukutla @ arm: mach-msm: pil-msa: Set the strongly-ordered attribute on DMA allocations
+d85f907 # 2016-05-18 # Nirmal Abraham @ cpufreq: Correct the data reported in all_time_in_state
+7c17138 # 2016-05-18 # Stratos Karafotis @ cpufreq: Break out early when frequency equals target_freq
+d9d92a1 # 2016-05-18 # Pavan Anamula @ mmc: fix host release issue after discard/flush operation
+70787cb # 2016-05-18 # Pavan Anamula @ Revert "Revert "mmc: queue: use cached attributes of special requests""
+df56ee6 # 2016-05-18 # Pavan Anamula @ Revert "Revert "mmc: queue: exclude asynchronous transfer for special request""
+38931c1 # 2016-05-18 # Tim Murray @ ANDROID: mmc: move to a SCHED_FIFO thread
 6723b99 # 2016-05-17 # Zdrowy Gosciu @ Version HM 5.8
 2cef7e1 # 2016-05-17 # Zdrowy Gosciu @ Sweep2Sleep: Correct dimensions
 4e38a7d # 2016-05-17 # 777jon @ Sweep2Sleep: change sysfs interface to s2s only

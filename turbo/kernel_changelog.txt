@@ -7,6 +7,7 @@ CHANGES AFTER 2016-05-10 @ 07:54:53 (1462866893)
                  |_____|              
 
 * Project device/lge/g2-common/
+a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
 548efb5 # 2016-05-17 # Zdrowy Gosciu @ g2-common: init: power: Setup MP-Decision min freq
 6a1b08c # 2016-05-17 # ejjohnson1999 @ g2-common: init: power: Clean up for interactive updates
 c94349d # 2016-05-16 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable Kernel Adiutor support for Sound Control"
@@ -20,6 +21,17 @@ ad190f6 # 2016-05-16 # Zdrowy Gosciu @ g2-common: init: power: Little cleanup
 b0c3bb5 # 2016-05-15 # Zdrowy Gosciu @ g2-common: init: Rebase for HM 5.0
 
 * Project kernel/lge/msm8974/
+f42c4bf # 2016-05-19 # Zdrowy Gosciu @ Version HM 6.0
+18c8b21 # 2016-05-19 # Zdrowy Gosciu @ Sweep2Sleep: All directions or OFF
+0f5bfe4 # 2016-05-19 # Dorimanx @ Sweep2Sleep: Fix LCD notifier functions
+59e174d # 2016-05-19 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
+e67ab5a # 2016-05-19 # Zdrowy Gosciu @ Revert "g2: Use interruptible waits to fix high load average"
+d7bfa1d # 2016-05-19 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
+f751d68 # 2016-05-19 # Lucille Sylvester @ msm: kgsl: Bump the GPU frequency for long blocks of processing
+0ef6c8f # 2016-05-19 # myfluxi @ PM: devfreq: Fix show available freqs
+3588b3a # 2016-05-19 # Suman Tatiraju @ PM / devfreq: Check for GPU busy time before sending the sample
+470ea94 # 2016-05-19 # Saravana Kannan @ PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
+6d8de02 # 2016-05-19 # myfluxi @ PM: devfreq: Use high priority workqueue
 4633c36 # 2016-05-18 # Zdrowy Gosciu @ Version HM 5.9
 0a1797d # 2016-05-18 # Tyler Dunn @ Revert "f2fs: squash to f2fs-stable/linux-3.4.y"
 936a610 # 2016-05-18 # Kishor PK @ msm: perf: validate input argument of ev_constraints functions

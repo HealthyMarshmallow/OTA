@@ -1,0 +1,56 @@
+CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
+
+                        ______ ______ 
+           .-----.-----|  __  |    __|
+           |-- __|  _  |  __  |__    |
+           |_____|___  |______|______|
+                 |_____|              
+
+* Project device/lge/g2-common/
+8440aa4 # 2016-05-23 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable: MSM Thermal temperature limit"
+a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
+
+* Project kernel/lge/msm8974/
+bc49a74 # 2016-05-23 # Zdrowy Gosciu @ Version HM 6.1
+14c098a # 2016-05-23 # michelborges @ gpu: kgsl: Use min pwr level as default
+ea7aa93 # 2016-05-23 # micheborges @ kernel: power: Decrease more time for deepsleep
+ee35a72 # 2016-05-23 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
+f455057 # 2016-05-23 # Ashwin Chaugule @ Optimized ARM RWSEM algorithm
+5f71020 # 2016-05-23 # Manikanta Sivapala @ msm: vidc: disable CPU L2 cache PC during video sessions
+a1bf6cb # 2016-05-23 # Patrick Auchter @ arm: dts: msm8974-mdss: decrease splash memblock-reserve
+a4e51b8 # 2016-05-23 # Fred Fettinger @ arm: dts: mdss: remove framebuffer memory reservation
+9c53cbc # 2016-05-23 # Patrick Auchter @ arm: dts: msm8974-mdss: decrease splash memblock-reserve
+30a92ae # 2016-05-23 # Kenny Kessler @ arm/dts: msm8974-mdss: Increase Buffer
+1d641a0 # 2016-05-23 # michelborges @ msm_adreno_tz: Make GPU use lowest idle frequency when no load (andip71)
+eceb718 # 2016-05-23 # JTrefzger @ PM: enable all sleep states.
+e8614c0 # 2016-05-23 # Paul Reioux @ msm: kgsl: show current power level for 8974 SOCs.
+3ac4e6a # 2016-05-23 # Zdrowy Gosciu @ Sound Control: Tweak default values
+f42c4bf # 2016-05-19 # Zdrowy Gosciu @ Version HM 6.0
+18c8b21 # 2016-05-19 # Zdrowy Gosciu @ Sweep2Sleep: All directions or OFF
+0f5bfe4 # 2016-05-19 # Dorimanx @ Sweep2Sleep: Fix LCD notifier functions
+59e174d # 2016-05-19 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
+e67ab5a # 2016-05-19 # Zdrowy Gosciu @ Revert "g2: Use interruptible waits to fix high load average"
+d7bfa1d # 2016-05-19 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
+f751d68 # 2016-05-19 # Lucille Sylvester @ msm: kgsl: Bump the GPU frequency for long blocks of processing
+0ef6c8f # 2016-05-19 # myfluxi @ PM: devfreq: Fix show available freqs
+3588b3a # 2016-05-19 # Suman Tatiraju @ PM / devfreq: Check for GPU busy time before sending the sample
+470ea94 # 2016-05-19 # Saravana Kannan @ PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
+6d8de02 # 2016-05-19 # myfluxi @ PM: devfreq: Use high priority workqueue
+4633c36 # 2016-05-18 # Zdrowy Gosciu @ Version HM 5.9
+0a1797d # 2016-05-18 # Tyler Dunn @ Revert "f2fs: squash to f2fs-stable/linux-3.4.y"
+936a610 # 2016-05-18 # Kishor PK @ msm: perf: validate input argument of ev_constraints functions
+0df3d0f # 2016-05-18 # Junjie Wu @ cpufreq: Protect against hotplug in cpufreq_register_driver()
+723fb2b # 2016-05-18 # Junjie Wu @ cpufreq: Return directly in __cpufreq_get if policy is NULL
+9424d41 # 2016-05-18 # Srivatsa Vaddagiri @ cpufreq: cpu-boost: Resolve deadlock when waking up sync thread
+9a43032 # 2016-05-18 # Abhimanyu Kapur @ serial: tty: msm_hs_uart: Fix the compat table
+1d48d37 # 2016-05-18 # Rama Krishna Phani A @ soc: qcom: bam_dmux: Use SPS hold mem flag
+46f7c72 # 2016-05-18 # Srinivasarao P @ msm: sps: Handle low memory condition in SPS driver
+df73837 # 2016-05-18 # Jessica Wagantall @ msm: ADSPRPC: Initialize hlist node pointers
+c9ee387 # 2016-05-18 # Dorimanx @ arch/arm: boot: dts: Fix vidc ddr table and set max freq as MSM8974AC
+e0f8219 # 2016-05-18 # Vikram Mulukutla @ arm: mach-msm: pil-msa: Set the strongly-ordered attribute on DMA allocations
+d85f907 # 2016-05-18 # Nirmal Abraham @ cpufreq: Correct the data reported in all_time_in_state
+7c17138 # 2016-05-18 # Stratos Karafotis @ cpufreq: Break out early when frequency equals target_freq
+d9d92a1 # 2016-05-18 # Pavan Anamula @ mmc: fix host release issue after discard/flush operation
+70787cb # 2016-05-18 # Pavan Anamula @ Revert "Revert "mmc: queue: use cached attributes of special requests""
+df56ee6 # 2016-05-18 # Pavan Anamula @ Revert "Revert "mmc: queue: exclude asynchronous transfer for special request""
+38931c1 # 2016-05-18 # Tim Murray @ ANDROID: mmc: move to a SCHED_FIFO thread

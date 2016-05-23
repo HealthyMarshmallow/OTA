@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <d802>
+            <Filename>cm-13.0-20160523-113729-UNOFFICIAL-temasek-d802-V8.6.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="ROM"
+                description="Download temasek ROM">https://www.androidfilehost.com/?fid=24533103863138257</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="ROM changelog"
+                description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/temasek/changelog.txt</ChangelogUrl>
+            <KernelUrl
+                id="kernel"
+                title="Kernel"
+                description="Enjoy HealthyMarshmallow 6.1">https://www.androidfilehost.com/?w=files&amp;flid=56546</KernelUrl>
+            <KernelChangelogUrl
+                id="kernelchangelog"
+                title="Kernel changelog"
+                description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/temasek/kernel_changelog.txt</KernelChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="GApps"
+                description="Download Open GApps">http://opengapps.org/?arch=arm&amp;api=6.0&amp;variant=pico</GappsUrl>
+            <XposedUrl
+                id="xposed"
+                title="Xposed"
+                description="Get Xposed v84">http://dl-xda.xposed.info/framework/sdk23/arm/xposed-v84-sdk23-arm.zip</XposedUrl>
+            <DonateUrl
+                id="donate"
+                title="PayPal"
+                description="Donate ^_^">https://www.paypal.com/cgi-bin/webscr?button=donate&amp;size=small&amp;item_name=Donation&amp;cmd=_donations&amp;business=ZdrowyGosciu%40GoogleMail.com&amp;bn=JavaScriptButton_donate&amp;env=www</DonateUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Twitter">http://twitter.com/ZdrowyGosciu</XDAUrl>
+        </d802>
+    </Stable>
+</TurboOTA>

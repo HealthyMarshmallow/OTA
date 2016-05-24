@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
+CHANGES AFTER 2016-05-23 @ 12:20:22 (1464006022)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,414 +6,67 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
            |_____|___  |______|______|
                  |_____|              
 
+* Project /
+0000000 # 2016-05-24 # Zdrowy Gosciu @ Pie: Disable status & clock in Bare mode
+0000000 # 2016-05-24 # Zdrowy Gosciu @ Settings: Force USB MTP mode (Developer options)
+0000000 # 2016-05-24 # Zdrowy Gosciu @ CallInBackground: Don't block HOME button
+0000000 # 2016-05-24 # Zdrowy Gosciu @ Settings: Allow sorting applications by size
+0000000 # 2016-05-24 # Zdrowy Gosciu @ OTA: Fix version checking
+0000000 # 2016-05-24 # Zdrowy Gosciu @ manifest: Revert to CM Snap
+
 * Project OTA/
-feb6eb9 # 2016-05-23 # Zdrowy Gosciu @ OTA: Introduce temasek ROM
-7c9a421 # 2016-05-23 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 6.1
-b383219 # 2016-05-19 # Zdrowy Gosciu @ OTA: Turbo-d802-4.2-UNOFFICIAL-20160519-095112 + Kernel HM 6.0
-1f18565 # 2016-05-18 # Zdrowy Gosciu @ OTA: Turbo ROM: Kernel HM 5.9
-d91603b # 2016-05-17 # Zdrowy Gosciu @ OTA: Turbo-d802-4.1-UNOFFICIAL-20160517-200730 + Kernel HM 5.8
+84f3b1a # 2016-05-24 # Zdrowy Gosciu @ OTA: Fix temasek ROM ro.modversion
+246a15a # 2016-05-23 # Zdrowy Gosciu @ OTA: cm-13.0-20160523-121415-UNOFFICIAL-temasek-d802-V8.6
 
 * Project android/
-fbdcda5 # 2016-05-20 # Janson Kang @ Track own LatinIME
-52a656a # 2016-05-19 # Michael Bestas @ Remove SpeechRecorder
-78e1e64 # 2016-05-19 # Michael Bestas @ Sort projects again
+266e97e # 2016-05-24 # Janson Kang @ Track own snap
+cd5c205 # 2016-05-24 # Ricardo Cerqueira @ qc hals: Add 8937/8953 variants
 
 * Project build/
-ce439ac # 2016-05-21 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
-68301b2 # 2016-05-19 # luca020400 @ build: Fix caf and aospremote
-1d55d63 # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
-
-* Project device/lge/d802/
-32b7a54 # 2016-05-23 # Zdrowy Gosciu @ d802: Temasek: Introduce Turbo OTA
-be64324 # 2016-05-23 # Zdrowy Gosciu @ d802: overlay: FB: Resize default wallpaper
-8b08ab0 # 2016-05-23 # Zdrowy Gosciu @ d802: Introduce CM
-55df92b # 2016-05-21 # Zdrowy Gosciu @ d802: Introduce DU
-97620d7 # 2016-05-17 # Zdrowy Gosciu @ Revert "d802: Setup PRODUCT CHARACTERISTICS to NOSDCARD"
-
-* Project device/lge/g2-common/
-af1bb30 # 2016-05-23 # ejjohnson1999 @ g2-common: Setup vsync events
-aecff1b # 2016-05-23 # Zdrowy Gosciu @ g2-common: configs: Thermal Engine: Correct GPU freq's
-8440aa4 # 2016-05-23 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable: MSM Thermal temperature limit"
-93387e4 # 2016-05-23 # Zdrowy Gosciu @ g2-common: Remove useless audio prop's
-f7e1bf1 # 2016-05-23 # Zdrowy Gosciu @ g2-common: overlay: SnapCam: Disable openLegacy() for back camera
-65194b8 # 2016-05-23 # Zdrowy Gosciu @ g2-common: overlay: SettingsProvider: Tweak some defaults
-a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
-c37444d # 2016-05-19 # Zdrowy Gosciu @ g2-common: Rise voice call volume steps to 10
-8adfd41 # 2016-05-18 # Zdrowy Gosciu @ g2-common: Force dex2oat not to use swap file
-c0a66f7 # 2016-05-18 # Nathan Harold @ g2-common: Limit Intra-System Indications when screen is OFF
-
-* Project device/qcom/sepolicy/
-be150b2 # 2016-05-22 # Amit Blay @ sepolicy: Add support for new mdtpd
-b2acdb1 # 2016-05-19 # Steve Kondik @ Merge branch 'LA.BF64.1.2.2_rb4.37' of git://codeaurora.org/device/qcom/sepolicy into cm-13.0
-
-* Project external/android-clat/
-8ac9b35 # 2016-05-23 # Subash Abhinov Kasiviswanathan @ clatd: Fix packet corruption seen with GRO packets
-
-* Project external/ffmpeg/
-c459d7c # 2016-05-19 # Chih-Wei Huang @ android: x86: use AOSP's YASM
-
-* Project external/skia/
-1866827 # 2016-05-18 # Edward Wang @ skia: qc-perf: link against libqc-opt for msm8909
-
-* Project external/sqlite/
-eaf089c # 2016-05-19 # Janson Kang @ Upgrade to SQLite 3.13.0
-
-* Project external/uicommon/
-d5b6fc5 # 2016-05-18 # Matt Garnes @ Add support to Snackbar for WindowInsets
-
-* Project external/webp/
-381529d # 2016-05-18 # Elliott Hughes @ Merge "Revert "Use the NDK cpufeatures directly.""
-cfab283 # 2016-05-18 # Elliott Hughes @ Revert "Use the NDK cpufeatures directly."
-79788ed # 2016-05-18 # Elliott Hughes @ Merge "Use the NDK cpufeatures directly."
-8c2ed69 # 2016-05-18 # Elliott Hughes @ Use the NDK cpufeatures directly.
-
-* Project external/wpa_supplicant_8/
-2056ccc # 2016-05-19 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_external_wpa_supplicant_8 into cm-13.0
-1e41319 # 2016-05-18 # Steve Kondik @ eap_peer: Fix bogus return type
-f27dfe2 # 2016-05-18 # Steve Kondik @ Merge branch 'LA.BF.1.1.3_rb1.13' of git://codeaurora.org/platform/external/wpa_supplicant_8 into cm-13.0
+93a8416 # 2016-05-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+96170ad # 2016-05-23 # Ricardo Cerqueira @ qcom: Support 8937/8953
 
 * Project frameworks/av/
-c981d2b # 2016-05-20 # Ari Hausman-Cohen @ Fix facing check in CameraUtils
-14b9c62 # 2016-05-19 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
-0eb2f24 # 2016-05-18 # Keith Mok @ stagefright: Fix cts issue with divx test
+c5c1c02 # 2016-05-24 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
+8f270dc # 2016-05-23 # Diogo Ferreira @ audiopolicy: engineconfigurable: Don't include the example
+af1fa68 # 2016-05-23 # Caio Schnepper @ stagefright: Correct Exynos4 stride alignment
 
 * Project frameworks/base/
-35b75f4 # 2016-05-23 # Michael Bestas @ Fix NL translation after r22 revert
-c00c7fd # 2016-05-22 # Alex Cruz @ Adjust the CAF task manager layout
-95da230 # 2016-05-22 # Suresh Koleti @ IMS: Add support of notifyPreciseCallState for multi sim
-3a11305 # 2016-05-22 # Ruthwar Kumar Ambeer @ Handle mnc 00 while retrieving the Resources based on subid
-55f4adf # 2016-05-22 # Ravindra @ Create emergency account with primary stack phone.
-6b260fd # 2016-05-22 # Wileen Chiu @ Add P2 option in openLogicalChannel.
-306b95f # 2016-05-22 # Suresh Koleti @ IMS-VT: Disable multi tasking by default
-80946a2 # 2016-05-22 # Yujing Gu @ Add 3 APIs for card application
-ee60c77 # 2016-05-22 # Bryse Flowers @ server: Whitelist non-INTERNET/non-CELLULAR Network for metering
-f592e4f # 2016-05-22 # Brahmaji K @ keyguard: Fix password doesnot sanitize after verification
-dceca15 # 2016-05-22 # Roman Birg @ Revert "SystemUI: recalculate clock position on removing empty shade views"
-6e4dd4f # 2016-05-21 # Pat Erley @ ShutdownThread: Only call uncrypt when we're encrypted
-59fd2b6 # 2016-05-21 # Roman Birg @ SystemUI: update qs tile hint and header view on locale change
-53f3486 # 2016-05-21 # Roman Birg @ Revert "SystemUI: fix clock jumping when expanding QS from lockscreen"
-de0c83e # 2016-05-20 # d34d @ Add StopMotionVectorDrawable
-3068868 # 2016-05-20 # Clark Scheff @ Revert "SysUI: Fix coloring of battery drawables"
-367229b # 2016-05-20 # Susheel Yadagiri @ Release alarm wakelock for blocked uid.
-42d775a # 2016-05-20 # yingying @ SyncManager: Adjust sync remaining time calculation.
-aa89247 # 2016-05-20 # d34d @ Themes: Fix theming of cmsdk assets
-eae1401 # 2016-05-20 # Scott Mertz @ Fix isComponentProtected calls in package manager tests
-7fe7af8 # 2016-05-20 # Umashankar Godachi @ MSIM: Fix to resolve SIM PIN unlock in APM.
-04a76a7 # 2016-05-20 # Ethan Chen @ SystemUI: Check current data subscription when updating signal cluster
-861e8f3 # 2016-05-20 # d34d @ SysUI: Fix coloring of battery drawables
-ad83cc2 # 2016-05-20 # d34d @ SysUI: Adjust battery dimensions for better look
-4f710db # 2016-05-20 # Adnan Begovic @ am: Handle unchecked activity starts for protected components.
-22264ba # 2016-05-20 # Janson Kang @ Revert "Revert "SystemUI: Set circle battery path as untranslatable""
-0fd6058 # 2016-05-20 # Janson Kang @ Revert "Revert "SysUI: Use VectorDrawable's for rendering battery""
-17d75d8 # 2016-05-19 # d34d @ SysUI: Check swiping progress before collapsing KBA
-ab5f7f0 # 2016-05-19 # Danesh M @ SystemUI : Fix left swipe when dismissing bouncer
-ec6666c # 2016-05-19 # Khalid Zubair @ usb: ensure accessory detached sent on re-attach
-6404d20 # 2016-05-18 # Alex Cruz @ Fix Quick settings tiles font themes derp
-bd6bf00 # 2016-05-18 # Danesh M @ SystemUI : Ensure bouncer is not shown for SHADE
-5a7c38d # 2016-05-18 # Luis Vidal @ Port "Settings: add a way to not localize zone selections" to cm-13
-46b113b # 2016-05-18 # Luis Vidal @ Settings: add Kiev time zones to picker
-5a7b81f # 2016-05-18 # Abhisek Devkota @ Automatic translation import
-bebe79b # 2016-05-18 # Adnan Begovic @ pm: Avoid installing prebundle to other users that were uninstalled by owner.
-1b0b90e # 2016-05-18 # Danesh M @ SystemUI : Ensure previous camera preview is removed
-7324613 # 2016-05-18 # Janson Kang @ Revert "Marshmallow logo instead of 'No recent apps'"
-
-* Project frameworks/native/
-5577ce5 # 2016-05-21 # Ketut Putu Kumajaya @ surfaceflinger: Read property for GPU compositing
-
-* Project frameworks/opt/net/ims/
-adbcc1d # 2016-05-19 # Benergy Meenan Ravuri @ IMS: Set the correct reason code for merged call
-4f42880 # 2016-05-19 # Benergy Meenan Ravuri @ IMS: Enhanced 4G LTE mode is turning off IMS.
-a973408 # 2016-05-19 # Muhammed Siju @ Add UT interface to query call forward setting for service class.
-65d1461 # 2016-05-19 # Ravi Paluri @ IMS-VT: Update host call callProfile on conference success
-
-* Project frameworks/opt/net/wifi/
-56a27b2 # 2016-05-23 # Sravanthi Palakonda @ wifi:Disable IpReachabilityMonitor feature through a config param
-4e09c35 # 2016-05-23 # Nalla Kartheek @ Wifi: Add NULL check before processing gscan results
-96a4697 # 2016-05-23 # Nalla Kartheek @ Wifi: Update WifiController state if Wifi turn On fails
-dc6dd0b # 2016-05-23 # Hu Wang @ wifi: Use isGbkString() to check if SSID is GBK encoded
-cfff3ca # 2016-05-20 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_net_wifi into cm-13.0
-3b8ecf9 # 2016-05-18 # Bala Krishna Bhamidipati @ Wifi: Update the identities only if they are added or modified
-65ccde9 # 2016-05-18 # Ravi Joshi @ wifi: Fix for re-association failure (auto join)
-e848c98 # 2016-05-18 # c_rrajiv @ wifi: Handle the NULL check for the STATUS command
+1c45637 # 2016-05-24 # Pat Erley @ Only call uncrypt when we're encrypted
+4f43381 # 2016-05-24 # Janson Kang @ Revert "ShutdownThread: Only call uncrypt when we're encrypted"
+587dac0 # 2016-05-24 # d34d @ SysUI: Use linear interpolator for battery level
+952867a # 2016-05-24 # d34d @ SysUI: Fix coloring of frame and bolt
+1b2e5a7 # 2016-05-24 # d34d @ SysUI: Allow styling of battery text/charge blend mode
+bfd4c62 # 2016-05-24 # Roman Birg @ SystemUI: fix multi touch gestures and extra jank
+48cebe9 # 2016-05-24 # LuK1337 @ SystemUI: Filter out unsupported values off perf profile tile
+f3c8ea4 # 2016-05-24 # Ricardo Cerqueira @ bootanim: Cleanup
+b1421f5 # 2016-05-24 # Puneet Mishra @ frameworks/base: Support for third party NFC features
 
 * Project frameworks/opt/telephony/
-64876d2 # 2016-05-22 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
-13efc53 # 2016-05-21 # Fang Yunong @ WEA: Add an field define for cellbroadcasd table
-cc9c7b6 # 2016-05-21 # Mona Hossain @ Update Instrumentation code
-6f9f782 # 2016-05-21 # zhu youhua @ Define EF MSPL/MLPL/PRL values and paths
-f2c78b1 # 2016-05-21 # Steve Kondik @ telephony: Fix RAT type extra key
-7ba6663 # 2016-05-21 # Susheel Nyamala @ Add iccid support for mvno data
-5222189 # 2016-05-21 # Amit Mahajan @ Fix useImsForUt check
-91b4ae8 # 2016-05-20 # Prasath Balakrishnan @ Call Forwarding Icon displayed for Deactivated SUB
-d4c0b2e # 2016-05-20 # Susheel Nyamala @ Fix Ims pdn deactivate due to single pdn arbitration
-83b3108 # 2016-05-20 # Ravindra @ Fix to prevent crash on conference failure.
-bc93aeb # 2016-05-20 # Sandeep Kunta @ Initialize call state phone app starts
-a996d2e # 2016-05-20 # Andalam Parthasarathi @ Add call reject cause code.
-bd4e168 # 2016-05-20 # Sukanya Rajkhowa @ Reset internet requests when SIM is removed
-c7fa659 # 2016-05-20 # Ruthwar Kumar Ambeer @ Update preferred network type based on active Sub ID
-3db37b5 # 2016-05-20 # Shriram Ganesh @ Fix disabled merge button on conference failure.
-99e4576 # 2016-05-20 # Ravi Paluri @ IMS-VT: Update videoProvider in main thread
-10b5e03 # 2016-05-20 # Manjunatha Prabhu @ FDN: Telephony plugin for SIMRecords
-f8a3a6c # 2016-05-20 # Rakesh Pallerla @ Make changes to create QtiPhoneProxy class.
-b71bf21 # 2016-05-20 # Andalam Parthasarathi @ Add pdp data reject with cause code 29 and 33
-af238e5 # 2016-05-20 # Shaoxu Liu @ Add a flag to control SPN display
-ce26ddd # 2016-05-20 # Andalam Parthasarathi @ Telephony plugin for GsmServiceStateTracker
-8306c37 # 2016-05-20 # Yujing Gu @ Exclude the last two bytes for the non-type1 Email file.
-e3b4570 # 2016-05-20 # Yujing Gu @ Specify the path when loading from EF_ADN
-c0be62f # 2016-05-20 # Sumod Mukkumkal Chandran @ Phone App crash: process com.android.phone has stopped.
-a16437d # 2016-05-20 # Wileen Chiu @ Add p2 option in OpenLogicalChannel
-7ad0f8e # 2016-05-20 # Wileen Chiu @ Define telephony resources as a coreApp
-d483262 # 2016-05-20 # Qingsheng Li @ Telephony: Pass the subId when set data enabled
-5e3969d # 2016-05-20 # Suchand Ghosh @ IMS-VT: Update video state of the connection first.
-26961a7 # 2016-05-20 # Richard Liu @ Move main thread in IPBIM to other thread to fix deadlock.
-ff4a806 # 2016-05-20 # Suresh Kumar Sugguna @ IMS: Call forward options with service class support
-4b927d1 # 2016-05-20 # Suresh Kumar Sugguna @ IMS: handle exception for an invalid service class
-8d38569 # 2016-05-20 # Suresh Kumar Sugguna @ IMS: During SRVCC, mark dropped incoming call as missed call
-940a7ac # 2016-05-21 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
-15372b2 # 2016-05-20 # Keith Mok @ Add ContentObserver when sms sent limit changed
-5783cc5 # 2016-05-20 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
-4f27bf9 # 2016-05-19 # Roman Birg @ SubscriptionInfoUpdater: improved sim swap
-f4967ba # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
-
-* Project frameworks/opt/timezonepicker/
-83c6b6e # 2016-05-20 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_timezonepicker into cm-13.0
-64340db # 2016-05-20 # Janson Kang @ Revert "timezonepicker: fix type cast error"
-
-* Project hardware/qcom/audio-caf/msm8994/
-6dafe5c # 2016-05-21 # Steve Kondik @ hal: Compilation fixes
-
-* Project hardware/qcom/wlan-caf/
-122c69d # 2016-05-18 # Steve Kondik @ Merge branch 'LA.BF.1.1.3_rb1.13' of git://codeaurora.org/platform/hardware/qcom/wlan into cm-13.0
-
-* Project kernel/lge/msm8974/
-bc49a74 # 2016-05-23 # Zdrowy Gosciu @ Version HM 6.1
-14c098a # 2016-05-23 # michelborges @ gpu: kgsl: Use min pwr level as default
-ea7aa93 # 2016-05-23 # micheborges @ kernel: power: Decrease more time for deepsleep
-ee35a72 # 2016-05-23 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
-f455057 # 2016-05-23 # Ashwin Chaugule @ Optimized ARM RWSEM algorithm
-5f71020 # 2016-05-23 # Manikanta Sivapala @ msm: vidc: disable CPU L2 cache PC during video sessions
-a1bf6cb # 2016-05-23 # Patrick Auchter @ arm: dts: msm8974-mdss: decrease splash memblock-reserve
-a4e51b8 # 2016-05-23 # Fred Fettinger @ arm: dts: mdss: remove framebuffer memory reservation
-9c53cbc # 2016-05-23 # Patrick Auchter @ arm: dts: msm8974-mdss: decrease splash memblock-reserve
-30a92ae # 2016-05-23 # Kenny Kessler @ arm/dts: msm8974-mdss: Increase Buffer
-1d641a0 # 2016-05-23 # michelborges @ msm_adreno_tz: Make GPU use lowest idle frequency when no load (andip71)
-eceb718 # 2016-05-23 # JTrefzger @ PM: enable all sleep states.
-e8614c0 # 2016-05-23 # Paul Reioux @ msm: kgsl: show current power level for 8974 SOCs.
-3ac4e6a # 2016-05-23 # Zdrowy Gosciu @ Sound Control: Tweak default values
-f42c4bf # 2016-05-19 # Zdrowy Gosciu @ Version HM 6.0
-18c8b21 # 2016-05-19 # Zdrowy Gosciu @ Sweep2Sleep: All directions or OFF
-0f5bfe4 # 2016-05-19 # Dorimanx @ Sweep2Sleep: Fix LCD notifier functions
-59e174d # 2016-05-19 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
-e67ab5a # 2016-05-19 # Zdrowy Gosciu @ Revert "g2: Use interruptible waits to fix high load average"
-d7bfa1d # 2016-05-19 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
-f751d68 # 2016-05-19 # Lucille Sylvester @ msm: kgsl: Bump the GPU frequency for long blocks of processing
-0ef6c8f # 2016-05-19 # myfluxi @ PM: devfreq: Fix show available freqs
-3588b3a # 2016-05-19 # Suman Tatiraju @ PM / devfreq: Check for GPU busy time before sending the sample
-470ea94 # 2016-05-19 # Saravana Kannan @ PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
-6d8de02 # 2016-05-19 # myfluxi @ PM: devfreq: Use high priority workqueue
-4633c36 # 2016-05-18 # Zdrowy Gosciu @ Version HM 5.9
-0a1797d # 2016-05-18 # Tyler Dunn @ Revert "f2fs: squash to f2fs-stable/linux-3.4.y"
-936a610 # 2016-05-18 # Kishor PK @ msm: perf: validate input argument of ev_constraints functions
-0df3d0f # 2016-05-18 # Junjie Wu @ cpufreq: Protect against hotplug in cpufreq_register_driver()
-723fb2b # 2016-05-18 # Junjie Wu @ cpufreq: Return directly in __cpufreq_get if policy is NULL
-9424d41 # 2016-05-18 # Srivatsa Vaddagiri @ cpufreq: cpu-boost: Resolve deadlock when waking up sync thread
-9a43032 # 2016-05-18 # Abhimanyu Kapur @ serial: tty: msm_hs_uart: Fix the compat table
-1d48d37 # 2016-05-18 # Rama Krishna Phani A @ soc: qcom: bam_dmux: Use SPS hold mem flag
-46f7c72 # 2016-05-18 # Srinivasarao P @ msm: sps: Handle low memory condition in SPS driver
-df73837 # 2016-05-18 # Jessica Wagantall @ msm: ADSPRPC: Initialize hlist node pointers
-c9ee387 # 2016-05-18 # Dorimanx @ arch/arm: boot: dts: Fix vidc ddr table and set max freq as MSM8974AC
-e0f8219 # 2016-05-18 # Vikram Mulukutla @ arm: mach-msm: pil-msa: Set the strongly-ordered attribute on DMA allocations
-d85f907 # 2016-05-18 # Nirmal Abraham @ cpufreq: Correct the data reported in all_time_in_state
-7c17138 # 2016-05-18 # Stratos Karafotis @ cpufreq: Break out early when frequency equals target_freq
-d9d92a1 # 2016-05-18 # Pavan Anamula @ mmc: fix host release issue after discard/flush operation
-70787cb # 2016-05-18 # Pavan Anamula @ Revert "Revert "mmc: queue: use cached attributes of special requests""
-df56ee6 # 2016-05-18 # Pavan Anamula @ Revert "Revert "mmc: queue: exclude asynchronous transfer for special request""
-38931c1 # 2016-05-18 # Tim Murray @ ANDROID: mmc: move to a SCHED_FIFO thread
-
-* Project packages/apps/Bluetooth/
-d7d8bc7 # 2016-05-23 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-2a24352 # 2016-05-22 # Michael Bestas @ Fix NL translation after r22 revert
-e2d6437 # 2016-05-20 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-4e3379c # 2016-05-19 # Roman Birg @ Bluetooth: handle opening incoming APK files
-b8f310d # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-
-* Project packages/apps/CarrierConfig/
-793e4b4 # 2016-05-19 # Benergy Meenan Ravuri @ IMS: Enhanced 4G LTE mode is turning off IMS.
-763c36a # 2016-05-19 # Suresh Koleti @ IMS-VT: Enable multi tasking based on MCC/MNC
-
-* Project packages/apps/CellBroadcastReceiver/
-a7d3a7e # 2016-05-17 # Abhisek Devkota @ Automatic translation import
+40954b8 # 2016-05-24 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+514c79b # 2016-05-23 # Roman Birg @ Telephony: don't show unsupported transfer on IMS
 
 * Project packages/apps/Contacts/
-b897fa4 # 2016-05-20 # Jessica Wagantall @ Automatic translation import
-66374db # 2016-05-18 # Rohit Yengisetty @ Use the explicit spam flag on Contact for identifying spammy contacts
-
-* Project packages/apps/ContactsCommon/
-1d98744 # 2016-05-19 # Rohit Yengisetty @ Update LookupRequest to use the new ORIGIN codes within AmbientSDK
-ee5aafb # 2016-05-18 # Rohit Yengisetty @ Extract spam information from encoded lookup-uri
-dc2032c # 2016-05-17 # Rohit Yengisetty @ Utilize city and country within Lookup Response
-
-* Project packages/apps/DeskClock/
-c250a47 # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
+91aeaed # 2016-05-23 # Erica Chang @ Contacts : added a flag to track soft vs hard signed out state
 
 * Project packages/apps/Dialer/
-062c69c # 2016-05-21 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-397e4de # 2016-05-20 # Jessica Wagantall @ Automatic translation import
-ac6a155 # 2016-05-20 # Stephen Bird @ Wire up import/export overflow options.
-e41bb9b # 2016-05-20 # Artem Shvadskiy @ Refactor CallerInfo strings to simplify translations
-de14363 # 2016-05-20 # Artem Shvadskiy @ Add negative option to caller info disable dialog
-746e8d4 # 2016-05-20 # Richard MacGregor @ Autosize hint text
-531190f # 2016-05-20 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-dd9bd6b # 2016-05-19 # Scott Mertz @ Only schedule metrics job if not already scheduled
-199b7fe # 2016-05-19 # Stephen Bird @ Nudges: use unique id instead of packagename
-a07772c # 2016-05-19 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-342125e # 2016-05-18 # Rohit Yengisetty @ Add spam information to encoded lookup uri
-0b65194 # 2016-05-18 # Artem Shvadskiy @ Revert "Show SIP call method in spinner and force update on resume"
-faec370 # 2016-05-18 # Richard MacGregor @ Protecting against null locales
-cada26d # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-c9ec0e3 # 2016-05-17 # Rohit Yengisetty @ Add location information from contact-info provider
-6a15637 # 2016-05-17 # Rohit Yengisetty @ Add additional info from contact-info provider, if any, to Call Details
-6b09908 # 2016-05-17 # Artem Shvadskiy @ Show SIP call method in spinner and force update on resume
-907ac58 # 2016-05-17 # LuK1337 @ Allow MANAGE_USERS and INTERACT_ACROSS_USERS permissions
-46795a7 # 2016-05-17 # Abhisek Devkota @ Automatic translation import
-
-* Project packages/apps/ExactCalculator/
-83dcbdf # 2016-05-17 # Abhisek Devkota @ Automatic translation import
-
-* Project packages/apps/Gello/
-1634fa8 # 2016-05-20 # Jessica Wagantall @ Automatic translation import
+99d122a # 2016-05-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+9bee3a3 # 2016-05-23 # Rohit Yengisetty @ Mark contact info obtained from a lookup provider with remote source-type
+00ddbb6 # 2016-05-23 # NathanielWaggoner @ View Note: removes the ability to make multiple notes for the same call.
 
 * Project packages/apps/InCallUI/
-28da98d # 2016-05-22 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-aa7ceb4 # 2016-05-20 # Muhammed Siju @ Fix issue of held call disappearing during swap operation.
-65c7670 # 2016-05-20 # Ravi Paluri @ IMS-VT: Animate dialpad on show when InCallActivity re-creates
-2b1737d # 2016-05-20 # Suresh Koleti @ IMS-VT: Set preview surface only if camera is opened
-d7057ab # 2016-05-20 # Garik Badalyan @ IMS-VT: Fix camera preview size.
-8d3421d # 2016-05-20 # Benergy Meenan Ravuri @ IMS: Remove the methods with dummy implementation
-a85e38b # 2016-05-20 # Ravi Paluri @ IMS-VT: Donot create new surface when setting surface dimensions
-5ef4641 # 2016-05-20 # Garik Badalyan @ IMS-VT: Trigger internal onStateChanged notification
-983372e # 2016-05-20 # Nivedita Sarkar @ IMS: Unbundle capability constant for add participant from frameworks
-cd99306 # 2016-05-20 # Nivedita Sarkar @ IMS-VT: Unbundle capability consts for downgrade to voice from frameworks
-15d366c # 2016-05-20 # Muhammed Siju @ IMS-VT: Use correct view size when device is rotated.
-8c4ffdc # 2016-05-20 # Suresh Koleti @ IMS-VT: Move preview video view after photo view in landscape layout
-dd3ad8c # 2016-05-20 # Nivedita Sarkar @ IMS-VT: Catch the exception when dismissing the zoom alert dialog
-99532f2 # 2016-05-20 # Nivedita Sarkar @ IMS-VT: Update end button position onPreDraw of secondary call info
-0f02198 # 2016-05-20 # Nivedita Sarkar @ IMS-VT: Route to speaker if current route is not BT, headset or speaker
-5b32f47 # 2016-05-20 # Garik Badalyan @ IMS-VT: Optimize handling of orientation mode.
-b0c3f8d # 2016-05-21 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-061a704 # 2016-05-20 # Jessica Wagantall @ Automatic translation import
-90606af # 2016-05-20 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-91213c7 # 2016-05-19 # Rohit Yengisetty @ Fix the extra-info container's overlap with dialpad
-0d20caa # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-64cdcef # 2016-05-17 # Rohit Yengisetty @ Minor bug fixes
-c3a5ee4 # 2016-05-17 # Rohit Yengisetty @ Ensure the block icon within incoming call notification is themable
-
-* Project packages/apps/ManagedProvisioning/
-dac21a2 # 2016-05-22 # Michael Bestas @ Fix NL translation after r22 revert
-5a67ade # 2016-05-17 # Abhisek Devkota @ Automatic translation import
-
-* Project packages/apps/Messaging/
-7a3ca45 # 2016-05-20 # Jessica Wagantall @ Automatic translation import
-5cf15db # 2016-05-19 # Roman Birg @ Messaging: handle single sim MSIM device
-9165168 # 2016-05-19 # Rohit Yengisetty @ Use new origin code in LookupRequest
+88bdccb # 2016-05-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+f4a606b # 2016-05-23 # NathanielWaggoner @ View Note: Use the DeepLinkIntegrationManager method for view note
 
 * Project packages/apps/Nfc/
-0db06f2 # 2016-05-17 # Abhisek Devkota @ Automatic translation import
-
-* Project packages/apps/PackageInstaller/
-e69d4b4 # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_packages_apps_PackageInstaller into cm-13.0
-9627774 # 2016-05-17 # Abhisek Devkota @ Automatic translation import
-
-* Project packages/apps/PhoneCommon/
-5f1bd90 # 2016-05-17 # Artem Shvadskiy @ Show SIP call method in spinner and force update on resume
+6e8f825 # 2016-05-23 # Puneet Mishra @ NFC: Adding new vendor specific interface to NFC Service
 
 * Project packages/apps/Settings/
-f899ef3 # 2016-05-21 # Janson Kang @ Build V8.6
-27a40dd # 2016-05-21 # Jessica Wagantall @ Automatic translation import
-fe0ff33 # 2016-05-21 # Danesh M @ Settings : Rebuild app list after reset
-dfc6390 # 2016-05-21 # Adnan Begovic @ Settings: Wrap invocation on search view.
-01ed5c4 # 2016-05-20 # raroyer @ Settings: Fix Storage Applications Manager dropdown
-4a6c44f # 2016-05-20 # Roman Birg @ Settings: persist "always ask" sms sim selection
-3feb379 # 2016-05-20 # Danesh M @ Settings : Add title to xml preference screens
-dbfc74f # 2016-05-19 # Janson Kang @ Build V8.5
-a37def1 # 2016-05-18 # nadlabak @ Revert "wifi: forward port avoid poor connection setting"
-3fad8cc # 2016-05-18 # Luis Vidal @ Settings: update time zone strings on date change
-4b541f7 # 2016-05-18 # Abhisek Devkota @ Automatic translation import
-6b67e32 # 2016-05-18 # Adnan Begovic @ Settings: Ignore process kill receiver events if activity is destroyed.
+df9a051 # 2016-05-24 # Janson Kang @ Build V8.7
+814a38e # 2016-05-24 # Adnan Begovic @ Settings: Remove redundant definition of SoundSettingsActivity.
+
+* Project packages/apps/SetupWizard/
+4981bc9 # 2016-05-23 # cretin45 @ SetupWizard: Ensure language picker is enabled onResume
 
 * Project packages/apps/Snap/
-49caa04 # 2016-05-21 # Ketut Putu Kumajaya @ Snap: Restore previous default denoise value
-6f0c3b6 # 2016-05-20 # Jessica Wagantall @ Automatic translation import
-
-* Project packages/apps/SnapdragonCamera/
-3e678bd # 2016-05-23 # Humberto Borba @ snapcam: PhotoMenu: Fix possible NPE
-35d6b11 # 2016-05-23 # Hernán Castañón Álvarez @ Snapdragon Camera: update icon for Omni
-2948bf4 # 2016-05-23 # maxwen @ Revert "Snap: Update launcher icon"
-
-* Project packages/apps/SoundRecorder/
-c5faea1 # 2016-05-20 # Jessica Wagantall @ Automatic translation import
-
-* Project packages/apps/Trebuchet/
-336be8b # 2016-05-20 # Jessica Wagantall @ Automatic translation import
-dccaadb # 2016-05-20 # cretin45 @ Move icons to fit within Dynamic grid upon resize.
-21115ac # 2016-05-18 # Michael W @ Trebuchet: Fix possible OOB
-
-* Project packages/providers/CalendarProvider/
-1a3cb8a # 2016-05-17 # Abhisek Devkota @ Automatic translation import
-
-* Project packages/providers/ContactsProvider/
-f71a320 # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_ContactsProvider into cm-13.0
-23ea70b # 2016-05-17 # Abhisek Devkota @ Automatic translation import
-
-* Project packages/services/Telecomm/
-7f1b044 # 2016-05-22 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telecomm into cm-13.0
-2af3085 # 2016-05-19 # Ravi Paluri @ IMS-VT: Enable emergency video calls based on mcc/mnc
-200efcb # 2016-05-19 # Dheeraj Shetty @ IMS: Fix vice notifications
-4bc71aa # 2016-05-19 # Muhammed Siju @ IMS: Fix ImsService crash due to default phones not created.
-26dfae8 # 2016-05-19 # Anju Mathapati @ IMS: Changes for VICE
-4e997b5 # 2016-05-19 # Suchand Ghosh @ IMS: Abandon audio focus if no other call exist.
-
-* Project packages/services/Telephony/
-b617df0 # 2016-05-22 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-79b9401 # 2016-05-21 # Benergy Meenan Ravuri @ IMS: Fix call forwarding issue in dual sim case
-a4ad53b # 2016-05-21 # Benergy Meenan Ravuri @ IMS: Remove the methods with dummy implementation
-ecb6766 # 2016-05-21 # Prabhakara Rao Pediredla @ PhoneApp Crash: Multiple times due to permission issue
-9827225 # 2016-05-20 # Steve Kondik @ telephony: Fix crash when extended telephony isn't available
-049f74c # 2016-05-20 # Andalam Parthasarathi @ Add last call fail cause string.
-aee85fc # 2016-05-20 # Ravindra @ Create emergency account with primary stack phone.
-eac1d5b # 2016-05-20 # Prashant Singh @ Wrong subid extra name passed to GsmUmtsCallForwardOptions activity
-d07d5b4 # 2016-05-20 # Wileen Chiu @ Add p2 option in OpenLogicalChannel
-3819282 # 2016-05-20 # Shriram Ganesh @ Fix merge after a conference call goes through SRVCC.
-c2f200c # 2016-05-20 # Suresh Kumar Sugguna @ MSIM: Show Enhanced 4G LTE mode option for IMS subscription
-a0a5e96 # 2016-05-20 # Benergy Meenan Ravuri @ IMS: Media tag support
-57727bb # 2016-05-21 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-880d5e7 # 2016-05-20 # Jessica Wagantall @ Automatic translation import
-6fd44d2 # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-
-* Project system/core/
-04c9643 # 2016-05-19 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
-aef909c # 2016-05-18 # Greg Hackmann @ SystemClock: elapsedRealtimeNano() should use clock_gettime() on Linux
-6aa141f # 2016-05-18 # Alexander Martinz @ init.rc: restart keystore when servicemanager restarts
-04db896 # 2016-05-18 # riddle_hsu @ Avoid setting adj to wrong process.
-163d3e0 # 2016-05-18 # Christopher Ferris @ Fix use of uninitialized memory.
-18ec0f2 # 2016-05-18 # Anestis Bechtsoudis @ (FROM MASTER) init: fix writepid wrong pid written in file(s)
-6318cde # 2016-05-18 # Christopher Ferris @ Newer kernels added SEGV_BNDERR.
-8321ed5 # 2016-05-18 # Greg Hackmann @ init.rc: add missing /dev/fd symlink
-c9fd15d # 2016-05-18 # Nick Kralevich @ init.rc: mix device-specific data into the Linux RNG
-
-* Project vendor/cm/
-5c40912 # 2016-05-22 # Janson Kang @ Revert "Viper : fix up viper removal"
-e4e71a5 # 2016-05-22 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-d349ec6 # 2016-05-21 # Steve Kondik @ apns: Fix up AT&T APNs
-17ab362 # 2016-05-21 # Janson Kang @ Merge pull request #28 from Joshndroid/cm-13.0
-1e14d03 # 2016-05-21 # Joshndroid @ Viper : fix up viper removal
-066dca6 # 2016-05-21 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-08ac10e # 2016-05-20 # Tom Powell @ Include Gello.
-cc5b425 # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-
-* Project vendor/cmsdk/
-c5967c0 # 2016-05-21 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-5e56748 # 2016-05-20 # Jessica Wagantall @ Automatic translation import
-ef4a783 # 2016-05-20 # Adnan Begovic @ cmsdk: Skip powersave during testing.
-4fb15c9 # 2016-05-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-8f50ecd # 2016-05-17 # Abhisek Devkota @ Automatic translation import
+94574eb # 2016-05-23 # Adnan Begovic @ Snap: Use new window manager flag for prevent system keys.

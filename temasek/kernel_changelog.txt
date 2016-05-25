@@ -7,12 +7,40 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
                  |_____|              
 
 * Project device/lge/g2-common/
+c391226 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable sched power saving at startup
+ba33b03 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Don't run Adreno Idler at startup
+b7668ae # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Bacon interactive setup
+607f87d # 2016-05-25 # Zdrowy Gosciu @ g2-common: init: power: Block MP-Decision from changing min freq's
 6998904 # 2016-05-25 # Zdrowy Gosciu @ Revert "g2-common: init: Start time_daemon on early boot"
 9e1cdbc # 2016-05-25 # Zdrowy Gosciu @ g2-common: init: power: Fix cpu input boost permissions
 8440aa4 # 2016-05-23 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable: MSM Thermal temperature limit"
 a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
 
 * Project kernel/lge/msm8974/
+1a24d3c # 2016-05-25 # Zdrowy Gosciu @ Version HM 6.3
+c072706 # 2016-05-25 # Zdrowy Gosciu @ devfreq: Don't start Adreno Idler
+07b5f1b # 2016-05-25 # Alex Naidis @ cpufreq: Fix cores not restoring saved frequencies after replugging
+efdd949 # 2016-05-25 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+c55767c # 2016-05-25 # Viresh Kumar @ cpufreq: Optimize cpufreq_frequency_table_verify()
+0895d37 # 2016-05-25 # michelborges @ fix previous commit
+a246af1 # 2016-05-25 # michelborges @ kernel: Use the new *_relaxed macros for lower power usage
+bc5abbf # 2016-05-25 # michelborges @ fair: Replace with relaxed flags
+2cec98c # 2016-05-25 # michelborges @ hrtimer: Replace usage of hrtimer_callback_running with the new relaxed
+c7eefcc # 2016-05-25 # Klozz @ arm: Enhance power efficiency
+b7520e4 # 2016-05-25 # nikhil18 @ arm: use -mtune=cortex-a15 for Krait targets
+a9a3d60 # 2016-05-25 # Rama Krishna Phani A @ soc: qcom: bam_dmux: Use SPS hold mem flag
+fa56d73 # 2016-05-25 # Srinivasarao P @ msm: sps: Handle low memory condition in SPS driver
+d73e417 # 2016-05-25 # Abhimanyu Kapur @ serial: tty: msm_hs_uart: Fix the compat table
+e67d924 # 2016-05-25 # Jessica Wagantall @ msm: ADSPRPC: Initialize hlist node pointers
+c85d7e3 # 2016-05-25 # Vikram Mulukutla @ arm: mach-msm: pil-msa: Set the strongly-ordered attribute on DMA allocations
+e15f664 # 2016-05-25 # Pavan Anamula @ Revert "Revert "mmc: queue: exclude asynchronous transfer for special request""
+c1eee0c # 2016-05-25 # Pavan Anamula @ Revert "Revert "mmc: queue: use cached attributes of special requests""
+a96970c # 2016-05-25 # Pavan Anamula @ mmc: fix host release issue after discard/flush operation
+5006149 # 2016-05-25 # Dorimanx @ arch/arm: boot: dts: Fix vidc ddr table and set max freq as MSM8974AC
+ba55005 # 2016-05-25 # Nirmal Abraham @ cpufreq: Correct the data reported in all_time_in_state
+0d0e4c4 # 2016-05-25 # Stratos Karafotis @ cpufreq: Break out early when frequency equals target_freq
+c55c819 # 2016-05-25 # Kishor PK @ msm: perf: validate input argument of ev_constraints functions
+45f092f # 2016-05-25 # Tim Murray @ ANDROID: mmc: move to a SCHED_FIFO thread
 b625fad # 2016-05-25 # Zdrowy Gosciu @ Version HM 6.2
 50eaf24 # 2016-05-25 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 6bf3afc # 2016-05-25 # Zdrowy Gosciu @ Revert "Fast charge expirimentation"

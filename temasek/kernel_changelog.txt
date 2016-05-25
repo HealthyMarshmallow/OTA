@@ -7,10 +7,19 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
                  |_____|              
 
 * Project device/lge/g2-common/
+6998904 # 2016-05-25 # Zdrowy Gosciu @ Revert "g2-common: init: Start time_daemon on early boot"
+9e1cdbc # 2016-05-25 # Zdrowy Gosciu @ g2-common: init: power: Fix cpu input boost permissions
 8440aa4 # 2016-05-23 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable: MSM Thermal temperature limit"
 a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
 
 * Project kernel/lge/msm8974/
+b625fad # 2016-05-25 # Zdrowy Gosciu @ Version HM 6.2
+50eaf24 # 2016-05-25 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+6bf3afc # 2016-05-25 # Zdrowy Gosciu @ Revert "Fast charge expirimentation"
+24a0f0e # 2016-05-25 # Kangjie Lu @ USB: usbfs: fix potential infoleak in devio
+85acdbe # 2016-05-25 # Zdrowy Gosciu @ Revert "Revert "f2fs: squash to f2fs-stable/linux-3.4.y""
+6950a4c # 2016-05-24 # Chao Yu @ f2fs: fix to update dirty page count correctly
+ef89dd1 # 2016-05-24 # Tyler Dunn @ f2fs: Bring up to latest revision
 bc49a74 # 2016-05-23 # Zdrowy Gosciu @ Version HM 6.1
 14c098a # 2016-05-23 # michelborges @ gpu: kgsl: Use min pwr level as default
 ea7aa93 # 2016-05-23 # micheborges @ kernel: power: Decrease more time for deepsleep

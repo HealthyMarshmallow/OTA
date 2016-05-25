@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-23 @ 12:20:22 (1464006022)
+CHANGES AFTER 2016-05-24 @ 07:51:45 (1464076305)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,66 +7,110 @@ CHANGES AFTER 2016-05-23 @ 12:20:22 (1464006022)
                  |_____|              
 
 * Project /
-0000000 # 2016-05-24 # Zdrowy Gosciu @ Pie: Disable status & clock in Bare mode
-0000000 # 2016-05-24 # Zdrowy Gosciu @ Settings: Force USB MTP mode (Developer options)
-0000000 # 2016-05-24 # Zdrowy Gosciu @ CallInBackground: Don't block HOME button
-0000000 # 2016-05-24 # Zdrowy Gosciu @ Settings: Allow sorting applications by size
-0000000 # 2016-05-24 # Zdrowy Gosciu @ OTA: Fix version checking
-0000000 # 2016-05-24 # Zdrowy Gosciu @ manifest: Revert to CM Snap
+0000000 # 2016-05-25 # Zdrowy Gosciu @ OTA: Version checker finally fixed
+0000000 # 2016-05-25 # Zdrowy Gosciu @ Keyguard: Hide useless charging speed
+0000000 # 2016-05-25 # Zdrowy Gosciu @ prebuilt: Update Kernel Adiutor to V10
 
 * Project OTA/
-84f3b1a # 2016-05-24 # Zdrowy Gosciu @ OTA: Fix temasek ROM ro.modversion
-246a15a # 2016-05-23 # Zdrowy Gosciu @ OTA: cm-13.0-20160523-121415-UNOFFICIAL-temasek-d802-V8.6
+48323e2 # 2016-05-24 # Zdrowy Gosciu @ OTA: cm-13.0-20160524-074555-UNOFFICIAL-temasek-d802-V8.7
 
-* Project android/
-266e97e # 2016-05-24 # Janson Kang @ Track own snap
-cd5c205 # 2016-05-24 # Ricardo Cerqueira @ qc hals: Add 8937/8953 variants
+* Project cts/
+978b415 # 2016-05-25 # Daniel Xie @ Merge "DO NOT MERGE ANYWHERE: Update CTS to 6.0R7" into marshmallow-cts-release
+63ce966 # 2016-05-25 # Daniel Xie @ DO NOT MERGE ANYWHERE: Update CTS to 6.0R7
 
-* Project build/
-93a8416 # 2016-05-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
-96170ad # 2016-05-23 # Ricardo Cerqueira @ qcom: Support 8937/8953
+* Project device/lge/g2-common/
+93b4617 # 2016-05-25 # Zdrowy Gosciu @ g2-common: Update MP-Decision & Thermal Engine from Bacon (2/2)
+6998904 # 2016-05-25 # Zdrowy Gosciu @ Revert "g2-common: init: Start time_daemon on early boot"
+e017547 # 2016-05-25 # Zdrowy Gosciu @ Revert "g2-common: Update MP-Decision & Thermal Engine (2/2)"
+1e20074 # 2016-05-25 # Zdrowy Gosciu @ Revert "g2-common: Introduce G2 Power HAL"
+9e1cdbc # 2016-05-25 # Zdrowy Gosciu @ g2-common: init: power: Fix cpu input boost permissions
+503dc56 # 2016-05-25 # Zdrowy Gosciu @ g2-common: power: Silent useless log
+f4c246e # 2016-05-25 # Zdrowy Gosciu @ g2-common: Introduce G2 Power HAL
+45e251f # 2016-05-25 # Zdrowy Gosciu @ g2-common: Update MP-Decision & Thermal Engine (2/2)
+69b49d1 # 2016-05-24 # Zdrowy Gosciu @ g2-common: Rebase automatic brightness values
+1f76114 # 2016-05-24 # Zdrowy Gosciu @ g2-common: Move Gello to device repo
+85a239e # 2016-05-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 
-* Project frameworks/av/
-c5c1c02 # 2016-05-24 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
-8f270dc # 2016-05-23 # Diogo Ferreira @ audiopolicy: engineconfigurable: Don't include the example
-af1fa68 # 2016-05-23 # Caio Schnepper @ stagefright: Correct Exynos4 stride alignment
+* Project device/qcom/sepolicy/
+d42ae50 # 2016-05-24 # Abinaya P @ sepolicy: Add hand biometrics manager permission
+314957c # 2016-05-24 # Himanshu Aggarwal @ sepolicy: Add improveTouch gesture manager permission
+
+* Project external/koush/ion/
+3bee672 # 2016-05-24 # Keith Mok @ Ion: Ignore get exif rotation exception
 
 * Project frameworks/base/
-1c45637 # 2016-05-24 # Pat Erley @ Only call uncrypt when we're encrypted
-4f43381 # 2016-05-24 # Janson Kang @ Revert "ShutdownThread: Only call uncrypt when we're encrypted"
-587dac0 # 2016-05-24 # d34d @ SysUI: Use linear interpolator for battery level
-952867a # 2016-05-24 # d34d @ SysUI: Fix coloring of frame and bolt
-1b2e5a7 # 2016-05-24 # d34d @ SysUI: Allow styling of battery text/charge blend mode
-bfd4c62 # 2016-05-24 # Roman Birg @ SystemUI: fix multi touch gestures and extra jank
-48cebe9 # 2016-05-24 # LuK1337 @ SystemUI: Filter out unsupported values off perf profile tile
-f3c8ea4 # 2016-05-24 # Ricardo Cerqueira @ bootanim: Cleanup
-b1421f5 # 2016-05-24 # Puneet Mishra @ frameworks/base: Support for third party NFC features
+d92902b # 2016-05-25 # Janson Kang @ Merge pull request #124 from HealthyMarshmallow/cm-13.0
+df73efe # 2016-05-25 # Zdrowy Gosciu @ Pie: Disable background in Bare mode
+853d3ce # 2016-05-25 # Lars Greiss @ CallInBackground: Do not block HOME
+2b46911 # 2016-05-25 # Zdrowy Gosciu @ NetPluginDelegate: Disable SPAM in log
+3ee11dc # 2016-05-25 # Jean-Pierre Rasquin @ [2/2] Frameworks: Add option for position date left-right of clock
+7b1e265 # 2016-05-25 # Michael W @ StatusBar: Do not just define vars...
+4c81314 # 2016-05-25 # Roman Birg @ SystemUI: improve layout of qs detail panel
 
-* Project frameworks/opt/telephony/
-40954b8 # 2016-05-24 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
-514c79b # 2016-05-23 # Roman Birg @ Telephony: don't show unsupported transfer on IMS
+* Project frameworks/native/
+12b8180 # 2016-05-25 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
+0921754 # 2016-05-24 # Louis Popi @ Add dalvik heap/hwui overrides for xxhdpi phone with 3072MB RAM
 
-* Project packages/apps/Contacts/
-91aeaed # 2016-05-23 # Erica Chang @ Contacts : added a flag to track soft vs hard signed out state
+* Project kernel/lge/msm8974/
+b625fad # 2016-05-25 # Zdrowy Gosciu @ Version HM 6.2
+50eaf24 # 2016-05-25 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+6bf3afc # 2016-05-25 # Zdrowy Gosciu @ Revert "Fast charge expirimentation"
+24a0f0e # 2016-05-25 # Kangjie Lu @ USB: usbfs: fix potential infoleak in devio
+85acdbe # 2016-05-25 # Zdrowy Gosciu @ Revert "Revert "f2fs: squash to f2fs-stable/linux-3.4.y""
+6950a4c # 2016-05-24 # Chao Yu @ f2fs: fix to update dirty page count correctly
+ef89dd1 # 2016-05-24 # Tyler Dunn @ f2fs: Bring up to latest revision
+
+* Project packages/apps/CellBroadcastReceiver/
+89bcf56 # 2016-05-24 # Deepak Kundra @ Enable broadcast channels for Colombia
+25e7ce5 # 2016-05-24 # Deepak Kundra @ Support playing the alert and vibrate until dismissed
 
 * Project packages/apps/Dialer/
-99d122a # 2016-05-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-9bee3a3 # 2016-05-23 # Rohit Yengisetty @ Mark contact info obtained from a lookup provider with remote source-type
-00ddbb6 # 2016-05-23 # NathanielWaggoner @ View Note: removes the ability to make multiple notes for the same call.
+8a00c8e # 2016-05-25 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+560f3a8 # 2016-05-24 # NathanielWaggoner @ Crash Fix When DeepLinkEnabled callback returns to a null Context.
 
-* Project packages/apps/InCallUI/
-88bdccb # 2016-05-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-f4a606b # 2016-05-23 # NathanielWaggoner @ View Note: Use the DeepLinkIntegrationManager method for view note
+* Project packages/apps/LockClock/
+fc984c6 # 2016-05-25 # Janson Kang @ Merge pull request #1 from HealthyMarshmallow/cm-13.0
+3765308 # 2016-05-25 # Zdrowy Gosciu @ ForecastBuilder: Show only next 5 days in small panel
 
-* Project packages/apps/Nfc/
-6e8f825 # 2016-05-23 # Puneet Mishra @ NFC: Adding new vendor specific interface to NFC Service
+* Project packages/apps/Messaging/
+110cdf8 # 2016-05-25 # allu.haribabu @ Add handling of MMS Read report.
+9da3129 # 2016-05-24 # Deepak Kundra @ Revert "[SMS] Replace message content can't be replaced"
+88b174e # 2016-05-24 # allu.haribabu @ [SMS] Replace message content can't be replaced
+54374cf # 2016-05-24 # Gary Kipnis @ Added support for video and audio mms attachments
 
 * Project packages/apps/Settings/
-df9a051 # 2016-05-24 # Janson Kang @ Build V8.7
-814a38e # 2016-05-24 # Adnan Begovic @ Settings: Remove redundant definition of SoundSettingsActivity.
+ecb6929 # 2016-05-25 # Janson Kang @ Build V8.8
+c2084eb # 2016-05-25 # Janson Kang @ Merge pull request #447 from HealthyMarshmallow/cm-13.0
+29d1778 # 2016-05-25 # Alexander Martinz @ Wireless: Add toggle for captive portal check
+ad21477 # 2016-05-25 # Roman Royer @ Settings: Allow sorting Applications by size
+19c7299 # 2016-05-25 # Jean-Pierre Rasquin @ [1/2] Settings: Add option for position date left-right of clock
+143a20b # 2016-05-25 # Keith Mok @ Settings: Disable cancelable with multi-windows confirm dialog
+2248a76 # 2016-05-25 # Keith Mok @ Settings: Update oem unlocking status with back button
+e15050e # 2016-05-25 # Keith Mok @ Settings: Update oem unlocking status when dismiss
 
-* Project packages/apps/SetupWizard/
-4981bc9 # 2016-05-23 # cretin45 @ SetupWizard: Ensure language picker is enabled onResume
+* Project packages/apps/TurboOTA/
+33bff03 # 2016-05-24 # Zdrowy Gosciu @ Turbo OTA: Force copy ota_conf
 
-* Project packages/apps/Snap/
-94574eb # 2016-05-23 # Adnan Begovic @ Snap: Use new window manager flag for prevent system keys.
+* Project packages/providers/ContactsProvider/
+7bbfb62 # 2016-05-25 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_ContactsProvider into cm-13.0
+e78a3c7 # 2016-05-24 # Rohit Yengisetty @ Obtain region config from system-property for Contacts pre-loading
+
+* Project packages/providers/TelephonyProvider/
+c183e13 # 2016-05-25 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
+f320e09 # 2016-05-24 # Deepak Kundra @ Support playing the alert and vibrate until dismissed
+
+* Project system/core/
+0393c1d # 2016-05-25 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
+
+* Project vendor/cm/
+4269c0f # 2016-05-25 # Janson Kang @ Merge pull request #29 from HealthyMarshmallow/cm-13.0
+e2fc686 # 2016-05-25 # Zdrowy Gosciu @ common: Correct ro.modversion
+9772286 # 2016-05-25 # Janson Kang @ Revert "Fix GMS guard"
+04df906 # 2016-05-25 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+b9f0c17 # 2016-05-24 # Abhisek Devkota @ Fix GMS guard
+184bb3d # 2016-05-24 # Raj Yengisetty @ Update ambientsdk version 1.5.11
+
+* Project vendor/lge/
+8c25a6d # 2016-05-25 # Zdrowy Gosciu @ g2-common: Update MP-Decision & Thermal Engine from Bacon (1/2)
+9bf1ed4 # 2016-05-25 # Zdrowy Gosciu @ Revert "g2-common: Update MP-Decision & Thermal Engine (1/2)"
+7ffb8b0 # 2016-05-25 # Zdrowy Gosciu @ g2-common: Update MP-Decision & Thermal Engine (1/2)

@@ -7,6 +7,8 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
                  |_____|              
 
 * Project device/lge/g2-common/
+278c38e # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable MP-Decision
+43a6db3 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Nightmare as default CPU GOV
 c391226 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable sched power saving at startup
 ba33b03 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Don't run Adreno Idler at startup
 b7668ae # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Bacon interactive setup
@@ -17,6 +19,40 @@ b7668ae # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Bacon interactive
 a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
 
 * Project kernel/lge/msm8974/
+74faee1 # 2016-05-26 # Zdrowy Gosciu @ Version HM 6.4
+5557a34 # 2016-05-26 # Zdrowy Gosciu @ arm: Cleanup after merge
+6bbdb48 # 2016-05-26 # Sultanxda @ cpu_input_boost: Use fixed-width integer types for local variables
+e848a33 # 2016-05-26 # Victor Lourenço @ blu_plug: fix warnings
+a5a6e73 # 2016-05-26 # franciscofranco @ cpufreq: create a helper function to get CPU utilization.
+3310d1a # 2016-05-26 # Victor Lourenço @ blu_plug: add enabled/disabled toggle
+43ef2d4 # 2016-05-26 # engstk @ blu_plug: Fix direct references to HZ
+3fcf321 # 2016-05-26 # engstk @ blu_plug: update plug threshold to match hi_speed freq load threshold
+66b68e6 # 2016-05-26 # engstk @ blu_plug: updates and fixes
+2854613 # 2016-05-26 # engstk @ blu_plug: Dynamic hotplug driver for hammerhead
+7d16e26 # 2016-05-26 # Ethan Chen @ msm: mdss: Fix compilation
+dd97806 # 2016-05-26 # anarkia1976 @ Support GCC 5.0
+279f03f # 2016-05-26 # Victor Lourenço @ Fix merge
+a18622d # 2016-05-26 # ZaneZam @ cpufreq: zzmoove: Version 1.0 develop
+9eb1456 # 2016-05-26 # Dorimanx @ Introduce msm_hotplug [SQUASHED]
+f3cbb36 # 2016-05-26 # Dorimanx @ state_notifier: schedule work on any available CPU
+50ce354 # 2016-05-26 # Dorimanx @ state_notifier: use singlethread workqueue!
+fa4d489 # 2016-05-26 # Dorimanx @ STATE NOTIFIER: start driver as subsystem!
+a5b48ec # 2016-05-26 # Dorimanx @ STATE NOTIFIER: Use more relaxed workqueu but still high prio.
+16423df # 2016-05-26 # Dorimanx @ drivers: state_notifier: cleanups and add delay to state_suspended.
+a60d050 # 2016-05-26 # Pranav Vashi @ drivers: state_notifier: Use high priority workqueue
+fabf566 # 2016-05-26 # Dorimanx @  drivers: state_notifier: Prevent racy suspend call
+685cadc # 2016-05-26 # Dorimanx @ State Notifier: clean dual bool define. derp by me..
+b817b16 # 2016-05-26 # Dorimanx @ State Notifier: allow to see suspend ON/OFF in userspace for cortex.
+8f6400f # 2016-05-26 # Dorimanx @ drivers: Add state notifier driver big thanks to @neobuddy89
+66138fe # 2016-05-26 # Sultanxda @ cpufreq: Introduce CPU input boost driver [SQUASHED]
+b16aa6a # 2016-05-26 # Viresh Kumar @ cpufreq: Manage only online cpus
+481f05f # 2016-05-26 # Stratos Karafotis @ cpufreq: Initial CPU utilization should be 0
+95bd0cb # 2016-05-26 # Victor Lourenço @ GCC 5.2 Fixes
+0278cfc # 2016-05-26 # Paul Beeler @ gcc5: fix warnings spam with gcc5
+5fa4d3a # 2016-05-26 # Zachariah @ mdss/mdss_debug.h: Fix build error
+cced2f8 # 2016-05-26 # anarkia1976 @ toolchain: gcc: squashed fixes related to optimized toolchain Thanks AK
+abb3549 # 2016-05-26 # Zachariah @ mdss/mdss_debug.h: Fix build error
+6078db6 # 2016-05-26 # Zachariah @ Fix Build Errors, I am sure there will be more
 1a24d3c # 2016-05-25 # Zdrowy Gosciu @ Version HM 6.3
 c072706 # 2016-05-25 # Zdrowy Gosciu @ devfreq: Don't start Adreno Idler
 07b5f1b # 2016-05-25 # Alex Naidis @ cpufreq: Fix cores not restoring saved frequencies after replugging

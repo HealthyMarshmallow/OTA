@@ -7,6 +7,13 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
                  |_____|              
 
 * Project device/lge/g2-common/
+e3db6ea # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Setup Fair IOPS as default I/O scheduler for better battery
+b14b88f # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable CRC check
+6d9a06f # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Lower max GPU freq at startup
+0a79760 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable ARM Gentle Fair Sleepers at startup
+70a4f65 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Enable Simple GPU at startup
+523874d # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: Disable MP-Decision
+5aa3ba6 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: ZZmoove as default CPU GOV
 278c38e # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable MP-Decision
 43a6db3 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Nightmare as default CPU GOV
 c391226 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable sched power saving at startup
@@ -19,6 +26,23 @@ b7668ae # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Bacon interactive
 a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
 
 * Project kernel/lge/msm8974/
+637015e # 2016-05-26 # Zdrowy Gosciu @ Version HM 6.5
+b01274b # 2016-05-26 # Zdrowy Gosciu @ autosmp: Tweak cycles
+1378b4b # 2016-05-26 # DerRomtester @ block: set Slice Idle to 0 BFQ/CFQ
+224c613 # 2016-05-26 # DerRomtester @ linux: blkdev: disable add random
+01c10476 # 2016-05-26 # Chester Kener @ block: Disable IO Stats
+0602326 # 2016-05-26 # Cong Wang @ ipv4, fib: pass LOOPBACK_IFINDEX instead of 0 to flowi4_iif
+648c091 # 2016-05-26 # Joonsoo Kim @ mm/slub: don't wait for high-order page allocation
+08886b8 # 2016-05-26 # Mel Gorman @ mm: slub: Default slub_max_order to 0
+d390050 # 2016-05-26 # Joonsoo Kim @ slub: fix incorrect return type of get_any_partial()
+91518e5 # 2016-05-26 # David Rientjes @ mm, oom: base root bonus on current usage
+d028b70 # 2016-05-26 # Dorimanx @  HOTPLUG AUTOSMP: fix enable disable function.
+6b4ced1 # 2016-05-26 # Dorimanx @ AUTOSMP HOTPLUG: set sample rate to 30 and some cleanup.
+55a0ff8 # 2016-05-26 # DerRomtester @ autosmp: rename that function for compatibility with kernel adiutor
+b4ba5f8 # 2016-05-26 # DerRomtester @ autosmp: remoove scroff things
+5494a00 # 2016-05-26 # DerRomtester @ arm: Introduce AutoSMP hotplug
+9ad3429 # 2016-05-26 # Zdrowy Gosciu @ arm: Don't build MSM RQ STATS
+cf4a747 # 2016-05-26 # Zdrowy Gosciu @ arm: Remove useless blu_plug
 74faee1 # 2016-05-26 # Zdrowy Gosciu @ Version HM 6.4
 5557a34 # 2016-05-26 # Zdrowy Gosciu @ arm: Cleanup after merge
 6bbdb48 # 2016-05-26 # Sultanxda @ cpu_input_boost: Use fixed-width integer types for local variables

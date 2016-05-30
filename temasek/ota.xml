@@ -2,11 +2,11 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>cm-13.0-20160527-110458-UNOFFICIAL-temasek-d802-V8.8.zip</Filename>
+            <Filename>cm-13.0-20160530-104132-UNOFFICIAL-temasek-d802-V8.9.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download temasek ROM">https://www.androidfilehost.com/?fid=24566454284190127</RomUrl>
+                description="Download temasek ROM">https://www.androidfilehost.com/?fid=24572330218881175</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="ROM changelog"
@@ -14,7 +14,7 @@
             <KernelUrl
                 id="kernel"
                 title="Kernel"
-                description="Enjoy HealthyMarshmallow 6.5">https://www.androidfilehost.com/?w=files&amp;flid=61193</KernelUrl>
+                description="Enjoy HealthyMarshmallow 6.7">https://www.androidfilehost.com/?w=files&amp;flid=61193</KernelUrl>
             <KernelChangelogUrl
                 id="kernelchangelog"
                 title="Kernel changelog"
@@ -26,7 +26,7 @@
             <XposedUrl
                 id="xposed"
                 title="Xposed"
-                description="Get Xposed v84">http://dl-xda.xposed.info/framework/sdk23/arm/xposed-v84-sdk23-arm.zip</XposedUrl>
+                description="Get Xposed v85">http://dl-xda.xposed.info/framework/sdk23/arm/xposed-v85-sdk23-arm.zip</XposedUrl>
             <DonateUrl
                 id="donate"
                 title="PayPal"

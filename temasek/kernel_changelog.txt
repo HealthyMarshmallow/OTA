@@ -7,6 +7,15 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
                  |_____|              
 
 * Project device/lge/g2-common/
+d014ac5 # 2016-05-30 # Zdrowy Gosciu @ g2-common: init: power: AutoSMP as default hotplugger
+302b702 # 2016-05-30 # Zdrowy Gosciu @ g2-common: init: power: Move boot I/O scheduler setup to kernel
+ec2b44a # 2016-05-30 # Zdrowy Gosciu @ Revert "g2-common: init: power: Don't underclock GPU at startup"
+7db7d35 # 2016-05-29 # Steve Kondik @ g2-common: init: power: Reduce boot time
+fc7c77d # 2016-05-29 # Zdrowy Gosciu @ g2-common: init: power: Don't underclock GPU at startup
+1e6f60f # 2016-05-29 # Zdrowy Gosciu @ g2-common: init: Clean up rest of MP-Decision
+bd39d69 # 2016-05-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+ce6baff # 2016-05-29 # Zdrowy Gosciu @ g2-common: init: power: LMK: Disable debugging + reduce 68 vmpressure_file_min
+6943b9b # 2016-05-29 # Tyler Dunn @ g2-common: Tweak power config
 e3db6ea # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Setup Fair IOPS as default I/O scheduler for better battery
 b14b88f # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable CRC check
 6d9a06f # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Lower max GPU freq at startup
@@ -26,6 +35,22 @@ b7668ae # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Bacon interactive
 a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
 
 * Project kernel/lge/msm8974/
+7d71626 # 2016-05-30 # Zdrowy Gosciu @ Version HM 6.7 + NOOP as default boot I/O scheduler
+fd4bc9a # 2016-05-30 # michelborges @ sched: fair: Reduce preemption latency
+b3c319f # 2016-05-30 # Padmanabhan Komanduru @ ARM: dts: msm: update 28nm DSI PHY regulator settings
+994183e # 2016-05-30 # Jeevan Shriram @ ARM: dts: msm: reduce control and panel power on delays
+853a588 # 2016-05-30 # Zdrowy Gosciu @ mmc: Disable tests
+9c5d949 # 2016-05-30 # Zdrowy Gosciu @ Version HM 6.6
+20ca105 # 2016-05-30 # franciscofranco @ block: row: add magic values.
+5324a4c # 2016-05-30 # mrg666 @ af_unix: speedup /proc/net/unix
+7f354c9 # 2016-05-30 # Zdrowy Gosciu @ devfreq: Remove CPUBW HWmon
+b3bd76f # 2016-05-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+d6c28af # 2016-05-28 # myfluxi @ msm: mdss: rotator: Remove work_busy
+eb1537b # 2016-05-28 # Joonsoo Kim @ slub: fix incorrect return type of get_any_partial()
+4a2c061 # 2016-05-28 # Mel Gorman @ mm: slub: Default slub_max_order to 0
+b580042 # 2016-05-28 # Joonsoo Kim @ mm/slub: don't wait for high-order page allocation
+ad19298 # 2016-05-28 # Cong Wang @ ipv4, fib: pass LOOPBACK_IFINDEX instead of 0 to flowi4_iif
+94dc75d # 2016-05-27 # David Rientjes @ mm, oom: base root bonus on current usage
 637015e # 2016-05-26 # Zdrowy Gosciu @ Version HM 6.5
 b01274b # 2016-05-26 # Zdrowy Gosciu @ autosmp: Tweak cycles
 1378b4b # 2016-05-26 # DerRomtester @ block: set Slice Idle to 0 BFQ/CFQ

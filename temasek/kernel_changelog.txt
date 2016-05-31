@@ -7,6 +7,7 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
                  |_____|              
 
 * Project device/lge/g2-common/
+d1533bd # 2016-05-31 # Zdrowy Gosciu @ g2-common: init: Remove QCOM Thermal Engine
 d014ac5 # 2016-05-30 # Zdrowy Gosciu @ g2-common: init: power: AutoSMP as default hotplugger
 302b702 # 2016-05-30 # Zdrowy Gosciu @ g2-common: init: power: Move boot I/O scheduler setup to kernel
 ec2b44a # 2016-05-30 # Zdrowy Gosciu @ Revert "g2-common: init: power: Don't underclock GPU at startup"
@@ -35,6 +36,12 @@ b7668ae # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Bacon interactive
 a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
 
 * Project kernel/lge/msm8974/
+07e4c06 # 2016-05-31 # Zdrowy Gosciu @ Version HM 6.8
+7f486b5 # 2016-05-31 # Zdrowy Gosciu @ arm: hotplug: Introduce intelli_plug
+d2159ed # 2016-05-31 # Dorimanx @ arm: dts: Reduce i2c clock rate to 19.2 MHz
+dffef74 # 2016-05-31 # Zdrowy Gosciu @ thermal: Fix bricked thermal build
+0d3cea0 # 2016-05-31 # Greg Wallace @ thermal: Add bricked thermal driver
+2f0d487 # 2016-05-31 # Zdrowy Gosciu @ Revert "msm: thermal: Limit the emergency mitigation messages"
 7d71626 # 2016-05-30 # Zdrowy Gosciu @ Version HM 6.7 + NOOP as default boot I/O scheduler
 fd4bc9a # 2016-05-30 # michelborges @ sched: fair: Reduce preemption latency
 b3c319f # 2016-05-30 # Padmanabhan Komanduru @ ARM: dts: msm: update 28nm DSI PHY regulator settings

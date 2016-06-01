@@ -7,6 +7,9 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
                  |_____|              
 
 * Project device/lge/g2-common/
+0f89504 # 2016-05-31 # Zdrowy Gosciu @ g2-common: fstab: Optimize mount options (EXT4)
+76b9d2d # 2016-05-31 # Zdrowy Gosciu @ g2-common: init: power: Rebase almost like stock
+551f599 # 2016-05-31 # Zdrowy Gosciu @ g2-common: init: Bring back stock Thermal-Engine (2/2)
 d1533bd # 2016-05-31 # Zdrowy Gosciu @ g2-common: init: Remove QCOM Thermal Engine
 d014ac5 # 2016-05-30 # Zdrowy Gosciu @ g2-common: init: power: AutoSMP as default hotplugger
 302b702 # 2016-05-30 # Zdrowy Gosciu @ g2-common: init: power: Move boot I/O scheduler setup to kernel
@@ -36,6 +39,8 @@ b7668ae # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Bacon interactive
 a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
 
 * Project kernel/lge/msm8974/
+3f5ee6f # 2016-05-31 # Zdrowy Gosciu @ 69
+5003345 # 2016-05-31 # Zdrowy Gosciu @ cpufreq: Remove useless MP-Decision blocker
 07e4c06 # 2016-05-31 # Zdrowy Gosciu @ Version HM 6.8
 7f486b5 # 2016-05-31 # Zdrowy Gosciu @ arm: hotplug: Introduce intelli_plug
 d2159ed # 2016-05-31 # Dorimanx @ arm: dts: Reduce i2c clock rate to 19.2 MHz

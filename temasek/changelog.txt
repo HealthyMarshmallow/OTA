@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-27 @ 08:38:18 (1464338298)
+CHANGES AFTER 2016-05-30 @ 08:44:47 (1464597887)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,165 +6,43 @@ CHANGES AFTER 2016-05-27 @ 08:38:18 (1464338298)
            |_____|___  |______|______|
                  |_____|              
 
-* Project /
-0000000 # 2016-05-30 # Zdrowy Gosciu @ manifest: Swith to my Snap(cam)
-0000000 # 2016-05-30 # Zdrowy Gosciu @ vendor: Optimize ROM size using Opticharger
-0000000 # 2016-05-30 # Zdrowy Gosciu @ temasek settings: Change device LCD density
-
 * Project OTA/
-67dc8e8 # 2016-05-27 # Zdrowy Gosciu @ OTA: cm-13.0-20160527-110458-UNOFFICIAL-temasek-d802-V8.8
+7070d1a # 2016-05-31 # Zdrowy Gosciu @ OTA: Temasek ROM: Kernel HM 6.8
+d762993 # 2016-05-30 # Zdrowy Gosciu @ OTA: cm-13.0-20160530-104132-UNOFFICIAL-temasek-d802-V8.9
 
 * Project device/lge/g2-common/
-f403779 # 2016-05-30 # Zdrowy Gosciu @ g2-common: Remove fluence for speaker
-d014ac5 # 2016-05-30 # Zdrowy Gosciu @ g2-common: init: power: AutoSMP as default hotplugger
-302b702 # 2016-05-30 # Zdrowy Gosciu @ g2-common: init: power: Move boot I/O scheduler setup to kernel
-ec2b44a # 2016-05-30 # Zdrowy Gosciu @ Revert "g2-common: init: power: Don't underclock GPU at startup"
-1f4accf # 2016-05-29 # Zdrowy Gosciu @ g2-common: Remove SnapdragonCamera
-2007290 # 2016-05-29 # Zdrowy Gosciu @ g2-common: bluetooth: Fix bluesleep wakelock
-ba4d8f9 # 2016-05-29 # Zdrowy Gosciu @ g2-common: CM SDK: Increase proximity check timeout
-7db7d35 # 2016-05-29 # Steve Kondik @ g2-common: init: power: Reduce boot time
-6f0c017 # 2016-05-29 # Zdrowy Gosciu @ Revert "g2: enable all sorts of fancy audio features"
-fc7c77d # 2016-05-29 # Zdrowy Gosciu @ g2-common: init: power: Don't underclock GPU at startup
-1e6f60f # 2016-05-29 # Zdrowy Gosciu @ g2-common: init: Clean up rest of MP-Decision
-bd39d69 # 2016-05-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-ce6baff # 2016-05-29 # Zdrowy Gosciu @ g2-common: init: power: LMK: Disable debugging + reduce 68 vmpressure_file_min
-6943b9b # 2016-05-29 # Tyler Dunn @ g2-common: Tweak power config
-8d84559 # 2016-05-29 # Tyler Dunn @ g2-common: Enable larger TCP accept window prop
-2bf2d41 # 2016-05-29 # Zdrowy Gosciu @ g2-common: Rebase fluence props
-bacf0d5 # 2016-05-29 # Zdrowy Gosciu @ g2-common: Cleanup custom emergency number list
-
-* Project device/qcom/sepolicy/
-236f12d # 2016-05-29 # Subash Abhinov Kasiviswanathan @ netmgrd: Allow netmgrd to set xlat property
-8ad941e # 2016-05-29 # Chitti Babu Theegala @ sepolicy: Add zram, swap disks creation permission
-090aa3b # 2016-05-29 # Prasanth Kamuju @ sepolicy: add selinux polices for gamed
-fed995e # 2016-05-29 # Ramakant Singh @ sepolicy : Add new properties for ubwc support
-
-* Project frameworks/av/
-520d7b7 # 2016-05-28 # Harish Mahendrakar @ Codecs: Fix EOS handling in soft codecs
+ba08e1f # 2016-05-31 # Zdrowy Gosciu @ Revert "g2-common: Turn OFF thermald mitigation"
+064dd4f # 2016-05-31 # Zdrowy Gosciu @ g2-common: Turn OFF thermald mitigation
+0f89504 # 2016-05-31 # Zdrowy Gosciu @ g2-common: fstab: Optimize mount options (EXT4)
+76b9d2d # 2016-05-31 # Zdrowy Gosciu @ g2-common: init: power: Rebase almost like stock
+551f599 # 2016-05-31 # Zdrowy Gosciu @ g2-common: init: Bring back stock Thermal-Engine (2/2)
+d1533bd # 2016-05-31 # Zdrowy Gosciu @ g2-common: init: Remove QCOM Thermal Engine
 
 * Project frameworks/base/
-31905fb # 2016-05-30 # Janson Kang @ Revert "Revert "Services: Only broadcast state change if keyguard service != null""
-d701406 # 2016-05-30 # Sai Kiran Korwar @ bootanimation: Call eglReleaseThread in threadLoop
-5c2f0a7 # 2016-05-30 # 宋凯伦 @ Fix bug - words's position is wrong in the RTL
-caffb6d # 2016-05-30 # zhangshuxiao @ Network permission update for multi-user case.
-f232793 # 2016-05-30 # neo.chae @ Fix unexpected notification after stopForeground(false)
-19a33b1 # 2016-05-30 # fei.liu @ When Monkey test, ANR in android:ui
-02e5bf6 # 2016-05-30 # fei.liu @ When monkey test, the object of mHost throws NullPointerException.
-a6f3d344 # 2016-05-30 # Sanket Agarwal @ While turning OFF do not honor ON requests.
-44d6f8d # 2016-05-30 # Simon Dubray @ Chronometer: Update the value only if displayed on screen
-2d9bb8c # 2016-05-30 # Eri Tanaka @ Fix system crash caused by invalid array index of LegacyTypeTracker
-c7eaf23 # 2016-05-30 # Mark Lu @ Fix batterySendBroadcast not synchronized issue.
-4b20929 # 2016-05-30 # Sam Mortimer @ Don't lookup application keyguard notification visibility unnecessarily
-db05552 # 2016-05-30 # Lars Greiss @ Frameworks: Add per app controls for LP keyguard notifications (1/2)
-3bb563d # 2016-05-30 # Janson Kang @ Revert "[1/2] base: app notifications hide when locked"
-664b1ac # 2016-05-30 # Janson Kang @ Merge pull request #126 from HealthyMarshmallow/SignatureSpoof
-2f547d0 # 2016-05-28 # Adnan Begovic @ appops: Respect screen interactivity before creating dialogs.
-5aa33c3 # 2016-05-28 # Adnan Begovic @ appops: Implement concept of delayedcount.
-75297da # 2016-05-28 # Jessica Wagantall @ Automatic translation import
-b9d152e # 2016-05-28 # Janson Kang @ Merge pull request #125 from HealthyMarshmallow/cm-13.0
-1a2c008 # 2016-05-27 # mar-v-in @ PM: Signature spoofing (1/2)
-65c49b2 # 2016-05-27 # Raleigh Matlock @ BatteryService: Fully charged notification toggle (1/2)
+13996a5 # 2016-05-31 # Takaki Makino @ Stop adjustConfigurationLw causing sleep/lock.
+b63e75b # 2016-05-31 # Yi, Peter @ Fix phone crashes after tapping Data Usage in Settings
+7342d44 # 2016-05-31 # Janson Kang @ Revert "Revert "Services: Only broadcast state change if keyguard service != null""
+556e679 # 2016-05-31 # Simon Dubray @ Chronometer: Update the value only if displayed on screen
 
 * Project kernel/lge/msm8974/
-7d71626 # 2016-05-30 # Zdrowy Gosciu @ Version HM 6.7 + NOOP as default boot I/O scheduler
-fd4bc9a # 2016-05-30 # michelborges @ sched: fair: Reduce preemption latency
-b3c319f # 2016-05-30 # Padmanabhan Komanduru @ ARM: dts: msm: update 28nm DSI PHY regulator settings
-994183e # 2016-05-30 # Jeevan Shriram @ ARM: dts: msm: reduce control and panel power on delays
-853a588 # 2016-05-30 # Zdrowy Gosciu @ mmc: Disable tests
-9c5d949 # 2016-05-30 # Zdrowy Gosciu @ Version HM 6.6
-20ca105 # 2016-05-30 # franciscofranco @ block: row: add magic values.
-5324a4c # 2016-05-30 # mrg666 @ af_unix: speedup /proc/net/unix
-7f354c9 # 2016-05-30 # Zdrowy Gosciu @ devfreq: Remove CPUBW HWmon
-b3bd76f # 2016-05-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-d6c28af # 2016-05-28 # myfluxi @ msm: mdss: rotator: Remove work_busy
-eb1537b # 2016-05-28 # Joonsoo Kim @ slub: fix incorrect return type of get_any_partial()
-4a2c061 # 2016-05-28 # Mel Gorman @ mm: slub: Default slub_max_order to 0
-b580042 # 2016-05-28 # Joonsoo Kim @ mm/slub: don't wait for high-order page allocation
-ad19298 # 2016-05-28 # Cong Wang @ ipv4, fib: pass LOOPBACK_IFINDEX instead of 0 to flowi4_iif
-94dc75d # 2016-05-27 # David Rientjes @ mm, oom: base root bonus on current usage
+3f5ee6f # 2016-05-31 # Zdrowy Gosciu @ 69
+5003345 # 2016-05-31 # Zdrowy Gosciu @ cpufreq: Remove useless MP-Decision blocker
+07e4c06 # 2016-05-31 # Zdrowy Gosciu @ Version HM 6.8
+7f486b5 # 2016-05-31 # Zdrowy Gosciu @ arm: hotplug: Introduce intelli_plug
+d2159ed # 2016-05-31 # Dorimanx @ arm: dts: Reduce i2c clock rate to 19.2 MHz
+dffef74 # 2016-05-31 # Zdrowy Gosciu @ thermal: Fix bricked thermal build
+0d3cea0 # 2016-05-31 # Greg Wallace @ thermal: Add bricked thermal driver
+2f0d487 # 2016-05-31 # Zdrowy Gosciu @ Revert "msm: thermal: Limit the emergency mitigation messages"
 
-* Project libcore/
-c582c9d # 2016-05-30 # Tobias Thierer @ Drop redundant calculation the result of which is unused.
-
-* Project packages/apps/Bluetooth/
-e10887a # 2016-05-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-
-* Project packages/apps/CMFileManager/
-1f47310 # 2016-05-27 # Keith Mok @ Fix crash when rotate to landscape without grant permission
-
-* Project packages/apps/CellBroadcastReceiver/
-d6461d6 # 2016-05-27 # Deepak Kundra @ Correct the broadcast channel for Colombia
-
-* Project packages/apps/KernelAdiutor/
-1748c95 # 2016-05-30 # Zdrowy Gosciu @ Merge remote-tracking branch 'desolation/mm6.0' into mm
-2c94041 # 2016-05-30 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
-b07f9ea # 2016-05-29 # Jacob McSwain @ Fix references to getContext()
-2df6364 # 2016-05-29 # shmuelr @ Merge pull request #23 from Bender80/master
-76b0a79 # 2016-05-29 # Jacob McSwain @ Merge pull request #1 from yoinx/master
-7f59541 # 2016-05-28 # Yoinx @ Clean up merging erroroneus data
-2bd3175 # 2016-05-28 # Bender80 @ Added HBM strings
-ac59868 # 2016-05-27 # Yoinx @ Misc: Fix logd enable/disable on boot
-64ad1be # 2016-05-27 # Yoinx @ Constants: Remove some stuff from Misc that is in other sections now
-6dd38e8 # 2016-05-27 # Yoinx @ Misc: Undo these vibration changes
-2b9a37d # 2016-05-27 # Yoinx @ StartUP Commands: Only show commands set to apply on boot.
-9881af3 # 2016-05-27 # Yoinx @ AutoHBM: Introduce option to smooth lux values.
-
-* Project packages/apps/Messaging/
-4cc542b # 2016-05-27 # clyde@build01 @ Automatic translation import
-ddf7c99 # 2016-05-27 # Deepak Kundra @ [SMS] Replace message content for protocol 0x41-0x47
-
-* Project packages/apps/Screencast/
-1ecd521 # 2016-05-27 # clyde@build01 @ Automatic translation import
+* Project packages/apps/Gello/
+1a35851 # 2016-05-31 # Kra1o5 @ Gello: Add DuckDuckGo search engine to ES locale
 
 * Project packages/apps/Settings/
-1cf652e # 2016-05-30 # Janson Kang @ Build V8.9
-fcfe454 # 2016-05-30 # 宋凯伦 @ Fix bug - APN protocol shows wrong value in ApnEditor page
-d8904a5 # 2016-05-30 # yifan.bai @ Fix register multiple PhoneStateListeners.
-c170461 # 2016-05-30 # Qi Ding @ Fix end padding of summary text for dialog is too narrow
-626de44 # 2016-05-30 # Yifan Bai @ Fix cannot build prefer or restore APN for Secondary SIM/Sub.
-9ec59ef # 2016-05-30 # 宋凯伦 @ Fix the momery leak in DrawOverlayDetails
-427b197 # 2016-05-30 # Lars Greiss @ Settings: Add per app controls for LP keyguard notifications (2/2)
-6055a8b # 2016-05-30 # Janson Kang @ Revert "[2/2] Settings: app notifications hide when locked"
-fdb6aad # 2016-05-30 # Janson Kang @ Merge pull request #451 from HealthyMarshmallow/SignatureSpoof
-363c989 # 2016-05-28 # Jessica Wagantall @ Automatic translation import
-3d3bdc0 # 2016-05-28 # Janson Kang @ Merge pull request #450 from HealthyMarshmallow/cm-13.0
-4dfa50b # 2016-05-27 # mar-v-in @ Developer options: Signature spoofing (2/2)
-1fad655 # 2016-05-27 # Raleigh Matlock @ Notifications: Fully charged notification toggle (2/2)
+fa4d04e # 2016-05-31 # 宋凯伦 @ Fix the memory leak in TetherSettings
+9e6ecd4 # 2016-05-31 # Michael W @ Settings: Fix possible NPE
 
 * Project packages/apps/Snap/
-dcc6802 # 2016-05-30 # Zdrowy Gosciu @ Snap: My name is Snap
-20099f0 # 2016-05-30 # Sultanxda @ Snap: Lock screen orientation to portrait for secure cam activity
-91e030f # 2016-05-30 # Zdrowy Gosciu @ Snap: QuickPic as gallery app
-48a9ef3 # 2016-05-30 # maxwen @ Snap: Remove storage menu if no external storage available
-5a49558 # 2016-05-30 # Zdrowy Gosciu @ Revert "Snap: Use new window manager flag for prevent system keys."
-ac0a480 # 2016-05-30 # Sultanxda @ Snap: Don't place HDR top-view icon next to scene icon
-110c0c3 # 2016-05-30 # Sultanxda @ Snap: Don't dump parameters
-c98a7d2 # 2016-05-30 # Sultanxda @ Snap: Allow setting JPEG quality to 100%
-1b78725 # 2016-05-30 # Sultanxda @ Snap: Set default JPEG quality to 95%
-5bcf94a # 2016-05-30 # Sultanxda @ Snap: Disable panorama feature
-b8e1f8f # 2016-05-30 # Sultanxda @ Snap: Always enable developer menu
-8bff783 # 2016-05-30 # Zdrowy Gosciu @ Snap: Make auto rotation less aggressive
-e02bbf1 # 2016-05-30 # Hernán Castañón @ Snap: Update icon from Omni
+45f8d67 # 2016-05-30 # Zdrowy Gosciu @ Snap: Check photo orientation when creating thumbnail
 
-* Project packages/apps/Stk/
-f9aecea # 2016-05-28 # Diogo Ferreira @ Stk: Make the text a little smaller
-053ce97 # 2016-05-28 # Michael Bestas @ Stk: Materialize message dialog icon
-65aaf67 # 2016-05-28 # Chai Xuening @ Change the theme and the style of the activities
-a1e3c60 # 2016-05-28 # David Pursehouse @ Fix tab/space inconsistencies in stk_msg_dialog.xml
-
-* Project packages/apps/ThemeChooser/
-cd53946 # 2016-05-28 # Joey Rizzoli @ ThemeChooser: fix on theme installed notification
-
-* Project packages/apps/Trebuchet/
-93e949f # 2016-05-27 # d34d @ Wallpaper: Allow multiple partners to be loaded
-
-* Project packages/services/Telephony/
-235373a # 2016-05-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-1262004 # 2016-05-27 # clyde@build01 @ Automatic translation import
-
-* Project vendor/cm/
-de78046 # 2016-05-28 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-30e0b17 # 2016-05-27 # Abhisek Devkota @ Don't dex-preopt Gello
-
-* Project vendor/cmsdk/
-49d8d70 # 2016-05-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+* Project vendor/lge/
+2507267 # 2016-05-31 # Zdrowy Gosciu @ g2-common: Bring back stock Thermal-Engine (1/2)

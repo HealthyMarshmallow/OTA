@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
+CHANGES AFTER 2016-05-17 @ 20:12:48 (1464730432)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,184 +7,34 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1463515968)
                  |_____|              
 
 * Project device/lge/g2-common/
-0f89504 # 2016-05-31 # Zdrowy Gosciu @ g2-common: fstab: Optimize mount options (EXT4)
-76b9d2d # 2016-05-31 # Zdrowy Gosciu @ g2-common: init: power: Rebase almost like stock
-551f599 # 2016-05-31 # Zdrowy Gosciu @ g2-common: init: Bring back stock Thermal-Engine (2/2)
-d1533bd # 2016-05-31 # Zdrowy Gosciu @ g2-common: init: Remove QCOM Thermal Engine
-d014ac5 # 2016-05-30 # Zdrowy Gosciu @ g2-common: init: power: AutoSMP as default hotplugger
-302b702 # 2016-05-30 # Zdrowy Gosciu @ g2-common: init: power: Move boot I/O scheduler setup to kernel
-ec2b44a # 2016-05-30 # Zdrowy Gosciu @ Revert "g2-common: init: power: Don't underclock GPU at startup"
-7db7d35 # 2016-05-29 # Steve Kondik @ g2-common: init: power: Reduce boot time
-fc7c77d # 2016-05-29 # Zdrowy Gosciu @ g2-common: init: power: Don't underclock GPU at startup
-1e6f60f # 2016-05-29 # Zdrowy Gosciu @ g2-common: init: Clean up rest of MP-Decision
-bd39d69 # 2016-05-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-ce6baff # 2016-05-29 # Zdrowy Gosciu @ g2-common: init: power: LMK: Disable debugging + reduce 68 vmpressure_file_min
-6943b9b # 2016-05-29 # Tyler Dunn @ g2-common: Tweak power config
-e3db6ea # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Setup Fair IOPS as default I/O scheduler for better battery
-b14b88f # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable CRC check
-6d9a06f # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Lower max GPU freq at startup
-0a79760 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable ARM Gentle Fair Sleepers at startup
-70a4f65 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Enable Simple GPU at startup
-523874d # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: Disable MP-Decision
-5aa3ba6 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: ZZmoove as default CPU GOV
-278c38e # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable MP-Decision
-43a6db3 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Nightmare as default CPU GOV
-c391226 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Disable sched power saving at startup
-ba33b03 # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Don't run Adreno Idler at startup
-b7668ae # 2016-05-26 # Zdrowy Gosciu @ g2-common: init: power: Bacon interactive setup
-607f87d # 2016-05-25 # Zdrowy Gosciu @ g2-common: init: power: Block MP-Decision from changing min freq's
-6998904 # 2016-05-25 # Zdrowy Gosciu @ Revert "g2-common: init: Start time_daemon on early boot"
-9e1cdbc # 2016-05-25 # Zdrowy Gosciu @ g2-common: init: power: Fix cpu input boost permissions
-8440aa4 # 2016-05-23 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable: MSM Thermal temperature limit"
-a4953a4 # 2016-05-19 # Zdrowy Gosciu @ g2-common: init: power: Enable: MSM Thermal temperature limit
+04c7708 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug
+c92f9e5 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Rebase (and clean up)
+9ff1529 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
 
 * Project kernel/lge/msm8974/
-3f5ee6f # 2016-05-31 # Zdrowy Gosciu @ 69
-5003345 # 2016-05-31 # Zdrowy Gosciu @ cpufreq: Remove useless MP-Decision blocker
-07e4c06 # 2016-05-31 # Zdrowy Gosciu @ Version HM 6.8
-7f486b5 # 2016-05-31 # Zdrowy Gosciu @ arm: hotplug: Introduce intelli_plug
-d2159ed # 2016-05-31 # Dorimanx @ arm: dts: Reduce i2c clock rate to 19.2 MHz
-dffef74 # 2016-05-31 # Zdrowy Gosciu @ thermal: Fix bricked thermal build
-0d3cea0 # 2016-05-31 # Greg Wallace @ thermal: Add bricked thermal driver
-2f0d487 # 2016-05-31 # Zdrowy Gosciu @ Revert "msm: thermal: Limit the emergency mitigation messages"
-7d71626 # 2016-05-30 # Zdrowy Gosciu @ Version HM 6.7 + NOOP as default boot I/O scheduler
-fd4bc9a # 2016-05-30 # michelborges @ sched: fair: Reduce preemption latency
-b3c319f # 2016-05-30 # Padmanabhan Komanduru @ ARM: dts: msm: update 28nm DSI PHY regulator settings
-994183e # 2016-05-30 # Jeevan Shriram @ ARM: dts: msm: reduce control and panel power on delays
-853a588 # 2016-05-30 # Zdrowy Gosciu @ mmc: Disable tests
-9c5d949 # 2016-05-30 # Zdrowy Gosciu @ Version HM 6.6
-20ca105 # 2016-05-30 # franciscofranco @ block: row: add magic values.
-5324a4c # 2016-05-30 # mrg666 @ af_unix: speedup /proc/net/unix
-7f354c9 # 2016-05-30 # Zdrowy Gosciu @ devfreq: Remove CPUBW HWmon
-b3bd76f # 2016-05-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-d6c28af # 2016-05-28 # myfluxi @ msm: mdss: rotator: Remove work_busy
-eb1537b # 2016-05-28 # Joonsoo Kim @ slub: fix incorrect return type of get_any_partial()
-4a2c061 # 2016-05-28 # Mel Gorman @ mm: slub: Default slub_max_order to 0
-b580042 # 2016-05-28 # Joonsoo Kim @ mm/slub: don't wait for high-order page allocation
-ad19298 # 2016-05-28 # Cong Wang @ ipv4, fib: pass LOOPBACK_IFINDEX instead of 0 to flowi4_iif
-94dc75d # 2016-05-27 # David Rientjes @ mm, oom: base root bonus on current usage
-637015e # 2016-05-26 # Zdrowy Gosciu @ Version HM 6.5
-b01274b # 2016-05-26 # Zdrowy Gosciu @ autosmp: Tweak cycles
-1378b4b # 2016-05-26 # DerRomtester @ block: set Slice Idle to 0 BFQ/CFQ
-224c613 # 2016-05-26 # DerRomtester @ linux: blkdev: disable add random
-01c10476 # 2016-05-26 # Chester Kener @ block: Disable IO Stats
-0602326 # 2016-05-26 # Cong Wang @ ipv4, fib: pass LOOPBACK_IFINDEX instead of 0 to flowi4_iif
-648c091 # 2016-05-26 # Joonsoo Kim @ mm/slub: don't wait for high-order page allocation
-08886b8 # 2016-05-26 # Mel Gorman @ mm: slub: Default slub_max_order to 0
-d390050 # 2016-05-26 # Joonsoo Kim @ slub: fix incorrect return type of get_any_partial()
-91518e5 # 2016-05-26 # David Rientjes @ mm, oom: base root bonus on current usage
-d028b70 # 2016-05-26 # Dorimanx @  HOTPLUG AUTOSMP: fix enable disable function.
-6b4ced1 # 2016-05-26 # Dorimanx @ AUTOSMP HOTPLUG: set sample rate to 30 and some cleanup.
-55a0ff8 # 2016-05-26 # DerRomtester @ autosmp: rename that function for compatibility with kernel adiutor
-b4ba5f8 # 2016-05-26 # DerRomtester @ autosmp: remoove scroff things
-5494a00 # 2016-05-26 # DerRomtester @ arm: Introduce AutoSMP hotplug
-9ad3429 # 2016-05-26 # Zdrowy Gosciu @ arm: Don't build MSM RQ STATS
-cf4a747 # 2016-05-26 # Zdrowy Gosciu @ arm: Remove useless blu_plug
-74faee1 # 2016-05-26 # Zdrowy Gosciu @ Version HM 6.4
-5557a34 # 2016-05-26 # Zdrowy Gosciu @ arm: Cleanup after merge
-6bbdb48 # 2016-05-26 # Sultanxda @ cpu_input_boost: Use fixed-width integer types for local variables
-e848a33 # 2016-05-26 # Victor Lourenço @ blu_plug: fix warnings
-a5a6e73 # 2016-05-26 # franciscofranco @ cpufreq: create a helper function to get CPU utilization.
-3310d1a # 2016-05-26 # Victor Lourenço @ blu_plug: add enabled/disabled toggle
-43ef2d4 # 2016-05-26 # engstk @ blu_plug: Fix direct references to HZ
-3fcf321 # 2016-05-26 # engstk @ blu_plug: update plug threshold to match hi_speed freq load threshold
-66b68e6 # 2016-05-26 # engstk @ blu_plug: updates and fixes
-2854613 # 2016-05-26 # engstk @ blu_plug: Dynamic hotplug driver for hammerhead
-7d16e26 # 2016-05-26 # Ethan Chen @ msm: mdss: Fix compilation
-dd97806 # 2016-05-26 # anarkia1976 @ Support GCC 5.0
-279f03f # 2016-05-26 # Victor Lourenço @ Fix merge
-a18622d # 2016-05-26 # ZaneZam @ cpufreq: zzmoove: Version 1.0 develop
-9eb1456 # 2016-05-26 # Dorimanx @ Introduce msm_hotplug [SQUASHED]
-f3cbb36 # 2016-05-26 # Dorimanx @ state_notifier: schedule work on any available CPU
-50ce354 # 2016-05-26 # Dorimanx @ state_notifier: use singlethread workqueue!
-fa4d489 # 2016-05-26 # Dorimanx @ STATE NOTIFIER: start driver as subsystem!
-a5b48ec # 2016-05-26 # Dorimanx @ STATE NOTIFIER: Use more relaxed workqueu but still high prio.
-16423df # 2016-05-26 # Dorimanx @ drivers: state_notifier: cleanups and add delay to state_suspended.
-a60d050 # 2016-05-26 # Pranav Vashi @ drivers: state_notifier: Use high priority workqueue
-fabf566 # 2016-05-26 # Dorimanx @  drivers: state_notifier: Prevent racy suspend call
-685cadc # 2016-05-26 # Dorimanx @ State Notifier: clean dual bool define. derp by me..
-b817b16 # 2016-05-26 # Dorimanx @ State Notifier: allow to see suspend ON/OFF in userspace for cortex.
-8f6400f # 2016-05-26 # Dorimanx @ drivers: Add state notifier driver big thanks to @neobuddy89
-66138fe # 2016-05-26 # Sultanxda @ cpufreq: Introduce CPU input boost driver [SQUASHED]
-b16aa6a # 2016-05-26 # Viresh Kumar @ cpufreq: Manage only online cpus
-481f05f # 2016-05-26 # Stratos Karafotis @ cpufreq: Initial CPU utilization should be 0
-95bd0cb # 2016-05-26 # Victor Lourenço @ GCC 5.2 Fixes
-0278cfc # 2016-05-26 # Paul Beeler @ gcc5: fix warnings spam with gcc5
-5fa4d3a # 2016-05-26 # Zachariah @ mdss/mdss_debug.h: Fix build error
-cced2f8 # 2016-05-26 # anarkia1976 @ toolchain: gcc: squashed fixes related to optimized toolchain Thanks AK
-abb3549 # 2016-05-26 # Zachariah @ mdss/mdss_debug.h: Fix build error
-6078db6 # 2016-05-26 # Zachariah @ Fix Build Errors, I am sure there will be more
-1a24d3c # 2016-05-25 # Zdrowy Gosciu @ Version HM 6.3
-c072706 # 2016-05-25 # Zdrowy Gosciu @ devfreq: Don't start Adreno Idler
-07b5f1b # 2016-05-25 # Alex Naidis @ cpufreq: Fix cores not restoring saved frequencies after replugging
-efdd949 # 2016-05-25 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-c55767c # 2016-05-25 # Viresh Kumar @ cpufreq: Optimize cpufreq_frequency_table_verify()
-0895d37 # 2016-05-25 # michelborges @ fix previous commit
-a246af1 # 2016-05-25 # michelborges @ kernel: Use the new *_relaxed macros for lower power usage
-bc5abbf # 2016-05-25 # michelborges @ fair: Replace with relaxed flags
-2cec98c # 2016-05-25 # michelborges @ hrtimer: Replace usage of hrtimer_callback_running with the new relaxed
-c7eefcc # 2016-05-25 # Klozz @ arm: Enhance power efficiency
-b7520e4 # 2016-05-25 # nikhil18 @ arm: use -mtune=cortex-a15 for Krait targets
-a9a3d60 # 2016-05-25 # Rama Krishna Phani A @ soc: qcom: bam_dmux: Use SPS hold mem flag
-fa56d73 # 2016-05-25 # Srinivasarao P @ msm: sps: Handle low memory condition in SPS driver
-d73e417 # 2016-05-25 # Abhimanyu Kapur @ serial: tty: msm_hs_uart: Fix the compat table
-e67d924 # 2016-05-25 # Jessica Wagantall @ msm: ADSPRPC: Initialize hlist node pointers
-c85d7e3 # 2016-05-25 # Vikram Mulukutla @ arm: mach-msm: pil-msa: Set the strongly-ordered attribute on DMA allocations
-e15f664 # 2016-05-25 # Pavan Anamula @ Revert "Revert "mmc: queue: exclude asynchronous transfer for special request""
-c1eee0c # 2016-05-25 # Pavan Anamula @ Revert "Revert "mmc: queue: use cached attributes of special requests""
-a96970c # 2016-05-25 # Pavan Anamula @ mmc: fix host release issue after discard/flush operation
-5006149 # 2016-05-25 # Dorimanx @ arch/arm: boot: dts: Fix vidc ddr table and set max freq as MSM8974AC
-ba55005 # 2016-05-25 # Nirmal Abraham @ cpufreq: Correct the data reported in all_time_in_state
-0d0e4c4 # 2016-05-25 # Stratos Karafotis @ cpufreq: Break out early when frequency equals target_freq
-c55c819 # 2016-05-25 # Kishor PK @ msm: perf: validate input argument of ev_constraints functions
-45f092f # 2016-05-25 # Tim Murray @ ANDROID: mmc: move to a SCHED_FIFO thread
-b625fad # 2016-05-25 # Zdrowy Gosciu @ Version HM 6.2
-50eaf24 # 2016-05-25 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-6bf3afc # 2016-05-25 # Zdrowy Gosciu @ Revert "Fast charge expirimentation"
-24a0f0e # 2016-05-25 # Kangjie Lu @ USB: usbfs: fix potential infoleak in devio
-85acdbe # 2016-05-25 # Zdrowy Gosciu @ Revert "Revert "f2fs: squash to f2fs-stable/linux-3.4.y""
-6950a4c # 2016-05-24 # Chao Yu @ f2fs: fix to update dirty page count correctly
-ef89dd1 # 2016-05-24 # Tyler Dunn @ f2fs: Bring up to latest revision
-bc49a74 # 2016-05-23 # Zdrowy Gosciu @ Version HM 6.1
-14c098a # 2016-05-23 # michelborges @ gpu: kgsl: Use min pwr level as default
-ea7aa93 # 2016-05-23 # micheborges @ kernel: power: Decrease more time for deepsleep
-ee35a72 # 2016-05-23 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
-f455057 # 2016-05-23 # Ashwin Chaugule @ Optimized ARM RWSEM algorithm
-5f71020 # 2016-05-23 # Manikanta Sivapala @ msm: vidc: disable CPU L2 cache PC during video sessions
-a1bf6cb # 2016-05-23 # Patrick Auchter @ arm: dts: msm8974-mdss: decrease splash memblock-reserve
-a4e51b8 # 2016-05-23 # Fred Fettinger @ arm: dts: mdss: remove framebuffer memory reservation
-9c53cbc # 2016-05-23 # Patrick Auchter @ arm: dts: msm8974-mdss: decrease splash memblock-reserve
-30a92ae # 2016-05-23 # Kenny Kessler @ arm/dts: msm8974-mdss: Increase Buffer
-1d641a0 # 2016-05-23 # michelborges @ msm_adreno_tz: Make GPU use lowest idle frequency when no load (andip71)
-eceb718 # 2016-05-23 # JTrefzger @ PM: enable all sleep states.
-e8614c0 # 2016-05-23 # Paul Reioux @ msm: kgsl: show current power level for 8974 SOCs.
-3ac4e6a # 2016-05-23 # Zdrowy Gosciu @ Sound Control: Tweak default values
-f42c4bf # 2016-05-19 # Zdrowy Gosciu @ Version HM 6.0
-18c8b21 # 2016-05-19 # Zdrowy Gosciu @ Sweep2Sleep: All directions or OFF
-0f5bfe4 # 2016-05-19 # Dorimanx @ Sweep2Sleep: Fix LCD notifier functions
-59e174d # 2016-05-19 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
-e67ab5a # 2016-05-19 # Zdrowy Gosciu @ Revert "g2: Use interruptible waits to fix high load average"
-d7bfa1d # 2016-05-19 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
-f751d68 # 2016-05-19 # Lucille Sylvester @ msm: kgsl: Bump the GPU frequency for long blocks of processing
-0ef6c8f # 2016-05-19 # myfluxi @ PM: devfreq: Fix show available freqs
-3588b3a # 2016-05-19 # Suman Tatiraju @ PM / devfreq: Check for GPU busy time before sending the sample
-470ea94 # 2016-05-19 # Saravana Kannan @ PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
-6d8de02 # 2016-05-19 # myfluxi @ PM: devfreq: Use high priority workqueue
-4633c36 # 2016-05-18 # Zdrowy Gosciu @ Version HM 5.9
-0a1797d # 2016-05-18 # Tyler Dunn @ Revert "f2fs: squash to f2fs-stable/linux-3.4.y"
-936a610 # 2016-05-18 # Kishor PK @ msm: perf: validate input argument of ev_constraints functions
-0df3d0f # 2016-05-18 # Junjie Wu @ cpufreq: Protect against hotplug in cpufreq_register_driver()
-723fb2b # 2016-05-18 # Junjie Wu @ cpufreq: Return directly in __cpufreq_get if policy is NULL
-9424d41 # 2016-05-18 # Srivatsa Vaddagiri @ cpufreq: cpu-boost: Resolve deadlock when waking up sync thread
-9a43032 # 2016-05-18 # Abhimanyu Kapur @ serial: tty: msm_hs_uart: Fix the compat table
-1d48d37 # 2016-05-18 # Rama Krishna Phani A @ soc: qcom: bam_dmux: Use SPS hold mem flag
-46f7c72 # 2016-05-18 # Srinivasarao P @ msm: sps: Handle low memory condition in SPS driver
-df73837 # 2016-05-18 # Jessica Wagantall @ msm: ADSPRPC: Initialize hlist node pointers
-c9ee387 # 2016-05-18 # Dorimanx @ arch/arm: boot: dts: Fix vidc ddr table and set max freq as MSM8974AC
-e0f8219 # 2016-05-18 # Vikram Mulukutla @ arm: mach-msm: pil-msa: Set the strongly-ordered attribute on DMA allocations
-d85f907 # 2016-05-18 # Nirmal Abraham @ cpufreq: Correct the data reported in all_time_in_state
-7c17138 # 2016-05-18 # Stratos Karafotis @ cpufreq: Break out early when frequency equals target_freq
-d9d92a1 # 2016-05-18 # Pavan Anamula @ mmc: fix host release issue after discard/flush operation
-70787cb # 2016-05-18 # Pavan Anamula @ Revert "Revert "mmc: queue: use cached attributes of special requests""
-df56ee6 # 2016-05-18 # Pavan Anamula @ Revert "Revert "mmc: queue: exclude asynchronous transfer for special request""
-38931c1 # 2016-05-18 # Tim Murray @ ANDROID: mmc: move to a SCHED_FIFO thread
+07fa5dc # 2016-06-02 # Zdrowy Gosciu @ Version HM 7.0
+67e35a6 # 2016-06-02 # Zdrowy Gosciu @ devfreq: Tweak Simple GPU
+d047def # 2016-06-02 # Zdrowy Gosciu @ random: Increase wakeup thresholds
+1d02821 # 2016-06-02 # Zdrowy Gosciu @ alarm-dev: Disable debug
+e9311ca # 2016-06-02 # Zdrowy Gosciu @ lge_touch_core: Disable debug
+1c0c6fb # 2016-06-02 # Zdrowy Gosciu @ sched: Disable gentle fair sleepers
+80d60a9 # 2016-06-02 # Zdrowy Gosciu @ mmc: Disable CRC check
+c0f13c5 # 2016-06-02 # Zdrowy Gosciu @ mm: Increase read ahead
+edf571d # 2016-06-02 # Zdrowy Gosciu @ Revert "devfreq: Remove CPUBW HWmon"
+4d1e6c3 # 2016-06-02 # Joe Swantek @ power: catch wake-up requests in suspend_again
+6361854 # 2016-06-02 # Joe Swantek @ power: quickwakeup: initial driver
+79e365a # 2016-06-02 # Russ W. Knize @ power: make sync on suspend optional
+85339d5 # 2016-06-02 # Jan Kara @ block: Reserve only one queue tag for sync IO if only 3 tags are available
+731e4fa # 2016-06-02 # Shaohua Li @ block: recursive merge requests
+d60f2fb # 2016-06-02 # anarkia1976 @ workqueue: timekeeping: move clock sync work to power efficient workqueue
+d6dda64 # 2016-06-02 # Zdrowy Gosciu @ Power efficient workqueue: Enable by default
+92afc0c # 2016-06-02 # Pranav Vashi @ net/neighbour: queue work on power efficient wq
+b47bdb7 # 2016-06-02 # Pranav Vashi @ workqueue: Remove panic
+322dd2b # 2016-06-02 # Mark Brown @ ASoC: jack: Use power efficient workqueue
+b432fbd # 2016-06-02 # Mark Brown @ regulator: core: Use the power efficient workqueue for delayed powerdown
+1bae0a3 # 2016-06-02 # Mark Brown @ ASoC: pcm: Use the power efficient workqueue for delayed powerdown
+5c1d04a # 2016-06-02 # Viresh Kumar @ PHYLIB: queue work on system_power_efficient_wq
+b6c49db # 2016-06-02 # Viresh Kumar @ block: queue work on power efficient wq
+011a8d9 # 2016-06-02 # Viresh Kumar @ workqueue: Add system wide power_efficient workqueues
+59d057c # 2016-06-02 # Viresh Kumar @ workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues
+3c1f780 # 2016-06-02 # Zdrowy Gosciu @ video: Introduce lm3630 min backlight reducer

@@ -12,6 +12,18 @@ c92f9e5 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Rebase (and clean
 9ff1529 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
 
 * Project kernel/lge/msm8974/
+7008735 # 2016-06-02 # Zdrowy Gosciu @ Version HM 7.1
+9676f01 # 2016-06-02 # michelborges @ ARM: smp: Wait just 1 second for other CPU to halt
+77a3ae1 # 2016-06-02 # Catalin Marinas @ ARM: 8036/1: Enable IRQs before attempting to read user space in __und_usr
+291084a # 2016-06-02 # Zdrowy Gosciu @ Revert "power: quickwakeup: initial driver"
+d6182f9 # 2016-06-02 # Zdrowy Gosciu @ Revert "power: catch wake-up requests in suspend_again"
+411d063 # 2016-06-02 # Yasuaki Ishimatsu @ ACPI / processor: prevent cpu from becoming online
+aa07fa0 # 2016-06-02 # Angelo G. Del Regno -- EternityProject Team Manager @ fs: aio: Optimization for SSD-only machines
+c34984c # 2016-06-02 # Jeevan Shriram @ ARM: dts: msm: Remove fb memory allocation
+af21a66 # 2016-06-02 # gustavo @ Speed up console framebuffer imageblit function
+f8be926 # 2016-06-02 # gustavo @ Optimize kernel cfbfillrect function
+afb8d0b # 2016-06-02 # Quarx2k @ Revert "PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs"
+b24b153 # 2016-06-02 # Prasad Sodagudi @ [Debug] Map only first 50MB of kernel
 07fa5dc # 2016-06-02 # Zdrowy Gosciu @ Version HM 7.0
 67e35a6 # 2016-06-02 # Zdrowy Gosciu @ devfreq: Tweak Simple GPU
 d047def # 2016-06-02 # Zdrowy Gosciu @ random: Increase wakeup thresholds

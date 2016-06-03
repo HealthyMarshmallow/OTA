@@ -7,11 +7,34 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1464730432)
                  |_____|              
 
 * Project device/lge/g2-common/
+9b374da # 2016-06-03 # Zdrowy Gosciu @ g2-common: init: Rebase CPU values
 04c7708 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug
 c92f9e5 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Rebase (and clean up)
 9ff1529 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
 
 * Project kernel/lge/msm8974/
+5aa2c35 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.2
+71911f5 # 2016-06-04 # Zdrowy Gosciu @ cpufreq: interactive: Derp
+d4421e1 # 2016-06-03 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+10513c6 # 2016-06-03 # Dan Pasanen @ Revert "sched: Remove get_online_cpus() usage"
+ab751d7 # 2016-06-03 # Dan Pasanen @ Revert "sched: Fix hotplug vs. set_cpus_allowed_ptr()"
+9656a7f # 2016-06-03 # Kaushal Kumar @ sched: Remove get_online_cpus() usage
+c516627 # 2016-06-03 # myfluxi @ cpufreq: cpu-boost: Readd missing bits
+b6809c6 # 2016-06-03 # Patrick Cain @ cpufreq: cpu-boost: Re-issue boosts above minimum frequency
+ee79692 # 2016-06-03 # Patrick Cain @ cpufreq: Sync on thread migration optimizations
+101dc1f # 2016-06-03 # myfluxi @ cpufreq: cpu-boost: Use hotplug thread infrastructure
+21b3e0d # 2016-06-03 # Zdrowy Gosciu @ Revert "cpufreq: cpu-boost: Use interruptible wait to not affect load average"
+00ac3db # 2016-06-03 # Zdrowy Gosciu @ Revert "cpufreq: cpu-boost: Resolve deadlock when waking up sync thread"
+9ab41f8 # 2016-06-03 # Zdrowy Gosciu @ Revert "cpufreq: cpu-boost: Resolve deadlock when waking up sync thread"
+543d24f # 2016-06-03 # Thomas Gleixner @ softirq: Use hotplug thread infrastructure
+a0a1896 # 2016-06-03 # Thomas Gleixner @ [backport] Hotplug thread infrastructure
+bd39016 # 2016-06-03 # Zdrowy Gosciu @ Revert "ACPI / processor: prevent cpu from becoming online"
+2c8c197 # 2016-06-03 # Hong-Mei Li @ msm: memutils: memcpy, memmove optimization
+df96808 # 2016-06-03 # Hong-Mei Li @ msm: memutils: memcpy, memmove optimization
+d24fe45 # 2016-06-03 # Hong-Mei Li @ arm: lib: Fix makefile bug
+01ccc0e # 2016-06-03 # Jason Hrycay @ msm: memutils: memcpy, memmove, copy_page optimization
+8b282f6 # 2016-06-03 # Vladis Dronov @ Input: aiptek - fix crash on detecting device without endpoints
+138f90e # 2016-06-03 # Julia Lawall @ Input: aiptek - adjust error-handling code label
 7008735 # 2016-06-02 # Zdrowy Gosciu @ Version HM 7.1
 9676f01 # 2016-06-02 # michelborges @ ARM: smp: Wait just 1 second for other CPU to halt
 77a3ae1 # 2016-06-02 # Catalin Marinas @ ARM: 8036/1: Enable IRQs before attempting to read user space in __und_usr

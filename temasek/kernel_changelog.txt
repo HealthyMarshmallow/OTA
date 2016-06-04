@@ -7,12 +7,19 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1464730432)
                  |_____|              
 
 * Project device/lge/g2-common/
+28ea3c6 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal
+6f5c779 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Clean up MSM Thermal (we are using Bricked)
+54d0b87 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Use default boost ms
+c53deb5 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Remove underclock + fix permissions
 9b374da # 2016-06-03 # Zdrowy Gosciu @ g2-common: init: Rebase CPU values
 04c7708 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug
 c92f9e5 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Rebase (and clean up)
 9ff1529 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
 
 * Project kernel/lge/msm8974/
+a2efe33 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.3
+4e562fb # 2016-06-04 # Zdrowy Gosciu @ Revert "sched: Disable gentle fair sleepers"
+5537c98 # 2016-06-04 # Zdrowy Gosciu @ backlight: lm3630: Set minimum brightness
 5aa2c35 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.2
 71911f5 # 2016-06-04 # Zdrowy Gosciu @ cpufreq: interactive: Derp
 d4421e1 # 2016-06-03 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm

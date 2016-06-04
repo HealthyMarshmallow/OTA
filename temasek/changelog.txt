@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-31 @ 21:33:52 (1464730432)
+CHANGES AFTER 2016-06-02 @ 12:16:13 (1464869773)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,195 +7,176 @@ CHANGES AFTER 2016-05-31 @ 21:33:52 (1464730432)
                  |_____|              
 
 * Project OTA/
-3aec8fa # 2016-06-01 # Zdrowy Gosciu @ OTA: cm-13.0-20160531-212807-UNOFFICIAL-temasek-d802-V8.9
+596a38a # 2016-06-04 # Zdrowy Gosciu @ OTA: Temasek ROM: Kernel HM 7.3
+1c7558c # 2016-06-04 # Zdrowy Gosciu @ OTA: Temasek ROM: Kernel HM 7.2
+b3009a6 # 2016-06-02 # Zdrowy Gosciu @ OTA: Temasek ROM: Kernel HM 7.1
+61cdc5f # 2016-06-02 # Zdrowy Gosciu @ OTA: cm-13.0-20160602-121023-UNOFFICIAL-temasek-d802-V9.0
+
+* Project build/
+83b523c # 2016-06-04 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+0bf1403 # 2016-06-03 # Scott Mertz @ build: add kernel header dependency if module uses kernel headers
 
 * Project device/lge/g2-common/
-04c7708 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug
-3ac824a # 2016-06-02 # Zdrowy Gosciu @ g2-common: Rebase auto brightness values (hammerkang)
-c92f9e5 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Rebase (and clean up)
-9ff1529 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
-5439840 # 2016-06-01 # Zdrowy Gosciu @ Revert "g2-common: bluetooth: Fix bluesleep wakelock"
-a702a35 # 2016-06-01 # Zdrowy Gosciu @ g2-common: Rebase auto brightness values (makokang)
-21476b6 # 2016-06-01 # Zdrowy Gosciu @ g2-common: Tweak min scaling span
-bbbb457 # 2016-06-01 # Zdrowy Gosciu @ g2-common: Tweak default LED on time
-6298994 # 2016-06-01 # Zdrowy Gosciu @ g2-common: Disable fading marquee
-8d3ea38 # 2016-06-01 # Zdrowy Gosciu @ g2-common: Rebase auto brightness values
+9512382 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal
+6f5c779 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Clean up MSM Thermal (we are using Bricked)
+54d0b87 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Use default boost ms
+c53deb5 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Remove underclock + fix permissions
+9b374da # 2016-06-03 # Zdrowy Gosciu @ g2-common: init: Rebase CPU values
+
+* Project device/qcom/common/
+674fb85 # 2016-06-04 # Pat Erley @ power-8952: Fix array initialization
+a214e51 # 2016-06-02 # Pat Erley @ power: Fixup typo in 8939 cpu4 timer rate
 
 * Project external/stagefright-plugins/
-b8f2c70 # 2016-05-31 # Keith Mok @ stagefright-plugins: check if input queue is empty
+9db7a9c # 2016-06-03 # Keith Mok @ stagefright-plugins: flac does not playback
 
 * Project frameworks/base/
-4b74637 # 2016-06-02 # Mark Lu @ Fix batterySendBroadcast not synchronized issue.
-3a1ffa6 # 2016-06-02 # Chih-Hung Hsieh @ Fix google-explicit-constructor warnings.
-9ba0e44 # 2016-06-02 # Nico60 @ Add animations to quick settings tiles [1/2]
-64be84b # 2016-06-02 # Ethan Chen @ SystemUI: Fix mCanDismissKeyguard state issue
-abc3966 # 2016-06-02 # inky@build01 @ Automatic translation import
-d5ad700 # 2016-06-02 # Danesh M @ SystemUI : Ensure we unset focus when showKeyguard is called
-605acbc # 2016-06-01 # Adnan Begovic @ services: Kick off to CMSystemServer for external service init.
-f804b98 # 2016-06-01 # Adnan Begovic @ am: clear state for every protected app invocation.
-3da3a07 # 2016-06-01 # Michael W @ Core: Fix OOB
-
-* Project frameworks/native/
-2f721cd # 2016-06-01 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
+b006850 # 2016-06-04 # Zdrowy Gosciu @ Revert "PM: Signature spoofing (1/2)"
+911cf79 # 2016-06-04 # Steve Kondik @ powermanager: Extend scope of lock when updating blocked UIDs
+445b382 # 2016-06-04 # Danesh M @ Only show keyguard panel if on lockscreen + no activity on top
+6237839 # 2016-06-04 # Dan Pasanen @ Visualizer: Let visualizer fill the entire available screen
 
 * Project kernel/lge/msm8974/
-07fa5dc # 2016-06-02 # Zdrowy Gosciu @ Version HM 7.0
-67e35a6 # 2016-06-02 # Zdrowy Gosciu @ devfreq: Tweak Simple GPU
-d047def # 2016-06-02 # Zdrowy Gosciu @ random: Increase wakeup thresholds
-1d02821 # 2016-06-02 # Zdrowy Gosciu @ alarm-dev: Disable debug
-e9311ca # 2016-06-02 # Zdrowy Gosciu @ lge_touch_core: Disable debug
-1c0c6fb # 2016-06-02 # Zdrowy Gosciu @ sched: Disable gentle fair sleepers
-80d60a9 # 2016-06-02 # Zdrowy Gosciu @ mmc: Disable CRC check
-c0f13c5 # 2016-06-02 # Zdrowy Gosciu @ mm: Increase read ahead
-edf571d # 2016-06-02 # Zdrowy Gosciu @ Revert "devfreq: Remove CPUBW HWmon"
-4d1e6c3 # 2016-06-02 # Joe Swantek @ power: catch wake-up requests in suspend_again
-6361854 # 2016-06-02 # Joe Swantek @ power: quickwakeup: initial driver
-79e365a # 2016-06-02 # Russ W. Knize @ power: make sync on suspend optional
-85339d5 # 2016-06-02 # Jan Kara @ block: Reserve only one queue tag for sync IO if only 3 tags are available
-731e4fa # 2016-06-02 # Shaohua Li @ block: recursive merge requests
-d60f2fb # 2016-06-02 # anarkia1976 @ workqueue: timekeeping: move clock sync work to power efficient workqueue
-d6dda64 # 2016-06-02 # Zdrowy Gosciu @ Power efficient workqueue: Enable by default
-92afc0c # 2016-06-02 # Pranav Vashi @ net/neighbour: queue work on power efficient wq
-b47bdb7 # 2016-06-02 # Pranav Vashi @ workqueue: Remove panic
-322dd2b # 2016-06-02 # Mark Brown @ ASoC: jack: Use power efficient workqueue
-b432fbd # 2016-06-02 # Mark Brown @ regulator: core: Use the power efficient workqueue for delayed powerdown
-1bae0a3 # 2016-06-02 # Mark Brown @ ASoC: pcm: Use the power efficient workqueue for delayed powerdown
-5c1d04a # 2016-06-02 # Viresh Kumar @ PHYLIB: queue work on system_power_efficient_wq
-b6c49db # 2016-06-02 # Viresh Kumar @ block: queue work on power efficient wq
-011a8d9 # 2016-06-02 # Viresh Kumar @ workqueue: Add system wide power_efficient workqueues
-59d057c # 2016-06-02 # Viresh Kumar @ workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues
-3c1f780 # 2016-06-02 # Zdrowy Gosciu @ video: Introduce lm3630 min backlight reducer
-
-* Project packages/apps/AudioFX/
-3e0aa4d # 2016-06-01 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Bluetooth/
-27c2972 # 2016-06-02 # Roman Birg @ Bluetooth: update transfer notification on state change
-cfead0a # 2016-06-02 # Ajay Kumar @ Bluetooth: Using the eventHandler to start listener
-3a111c7 # 2016-06-02 # Roman Birg @ Bluetooth: don't sleep in sync block
-f1d8203 # 2016-06-02 # Roman Birg @ Bluetooth: remove adapter null checks from mismerge
-
-* Project packages/apps/CMBugReport/
-5e67b37 # 2016-06-01 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/CMFileManager/
-8e28d1f # 2016-06-01 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Calendar/
-0d3b3f3 # 2016-06-01 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Camera2/
-d2bb13d # 2016-05-31 # Scott Mertz @ Camera2: only override power key
+2771b49 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.333
+445bb9d5 # 2016-06-04 # Jaeseong GIM @ persistent_ram: check PERSISTENT_RAM_SIG before writing
+e587803 # 2016-06-04 # franciscofranco @ mdss: use an interruptible thread on edp to reduce load_average
+a3fea66 # 2016-06-04 # Linus Torvalds @ vfs: fix bad hashing of dentries
+c7a01c6 # 2016-06-04 # franciscofranco @ sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire.
+62a51c1 # 2016-06-04 # franciscofranco @ vfp: according to android's gerrit, krait can use neon-vfpv4
+d533c55 # 2016-06-04 # Amir Goldstein @ sysrq: Emergency Remount R/O in reverse order
+a2efe33 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.3
+4e562fb # 2016-06-04 # Zdrowy Gosciu @ Revert "sched: Disable gentle fair sleepers"
+5537c98 # 2016-06-04 # Zdrowy Gosciu @ backlight: lm3630: Set minimum brightness
+5aa2c35 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.2
+71911f5 # 2016-06-04 # Zdrowy Gosciu @ cpufreq: interactive: Derp
+d4421e1 # 2016-06-03 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+10513c6 # 2016-06-03 # Dan Pasanen @ Revert "sched: Remove get_online_cpus() usage"
+ab751d7 # 2016-06-03 # Dan Pasanen @ Revert "sched: Fix hotplug vs. set_cpus_allowed_ptr()"
+9656a7f # 2016-06-03 # Kaushal Kumar @ sched: Remove get_online_cpus() usage
+c516627 # 2016-06-03 # myfluxi @ cpufreq: cpu-boost: Readd missing bits
+b6809c6 # 2016-06-03 # Patrick Cain @ cpufreq: cpu-boost: Re-issue boosts above minimum frequency
+ee79692 # 2016-06-03 # Patrick Cain @ cpufreq: Sync on thread migration optimizations
+101dc1f # 2016-06-03 # myfluxi @ cpufreq: cpu-boost: Use hotplug thread infrastructure
+21b3e0d # 2016-06-03 # Zdrowy Gosciu @ Revert "cpufreq: cpu-boost: Use interruptible wait to not affect load average"
+00ac3db # 2016-06-03 # Zdrowy Gosciu @ Revert "cpufreq: cpu-boost: Resolve deadlock when waking up sync thread"
+9ab41f8 # 2016-06-03 # Zdrowy Gosciu @ Revert "cpufreq: cpu-boost: Resolve deadlock when waking up sync thread"
+543d24f # 2016-06-03 # Thomas Gleixner @ softirq: Use hotplug thread infrastructure
+a0a1896 # 2016-06-03 # Thomas Gleixner @ [backport] Hotplug thread infrastructure
+bd39016 # 2016-06-03 # Zdrowy Gosciu @ Revert "ACPI / processor: prevent cpu from becoming online"
+2c8c197 # 2016-06-03 # Hong-Mei Li @ msm: memutils: memcpy, memmove optimization
+df96808 # 2016-06-03 # Hong-Mei Li @ msm: memutils: memcpy, memmove optimization
+d24fe45 # 2016-06-03 # Hong-Mei Li @ arm: lib: Fix makefile bug
+01ccc0e # 2016-06-03 # Jason Hrycay @ msm: memutils: memcpy, memmove, copy_page optimization
+8b282f6 # 2016-06-03 # Vladis Dronov @ Input: aiptek - fix crash on detecting device without endpoints
+138f90e # 2016-06-03 # Julia Lawall @ Input: aiptek - adjust error-handling code label
+7008735 # 2016-06-02 # Zdrowy Gosciu @ Version HM 7.1
+9676f01 # 2016-06-02 # michelborges @ ARM: smp: Wait just 1 second for other CPU to halt
+77a3ae1 # 2016-06-02 # Catalin Marinas @ ARM: 8036/1: Enable IRQs before attempting to read user space in __und_usr
+291084a # 2016-06-02 # Zdrowy Gosciu @ Revert "power: quickwakeup: initial driver"
+d6182f9 # 2016-06-02 # Zdrowy Gosciu @ Revert "power: catch wake-up requests in suspend_again"
+411d063 # 2016-06-02 # Yasuaki Ishimatsu @ ACPI / processor: prevent cpu from becoming online
+aa07fa0 # 2016-06-02 # Angelo G. Del Regno -- EternityProject Team Manager @ fs: aio: Optimization for SSD-only machines
+c34984c # 2016-06-02 # Jeevan Shriram @ ARM: dts: msm: Remove fb memory allocation
+af21a66 # 2016-06-02 # gustavo @ Speed up console framebuffer imageblit function
+f8be926 # 2016-06-02 # gustavo @ Optimize kernel cfbfillrect function
+afb8d0b # 2016-06-02 # Quarx2k @ Revert "PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs"
+b24b153 # 2016-06-02 # Prasad Sodagudi @ [Debug] Map only first 50MB of kernel
 
 * Project packages/apps/CellBroadcastReceiver/
-eb998df # 2016-06-01 # Abhisek Devkota @ Revert "Automatic translation import"
-b48cf1f # 2016-05-31 # Deepak Kundra @ Move the strings to cm_strings.xml for translation
+73f70cd # 2016-06-04 # Zdrowy Gosciu @ Revert "Do not let system keys bypass alert"
+6bddeb7 # 2016-06-03 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/Contacts/
-17df072 # 2016-06-01 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/ContactsCommon/
-3b240ec # 2016-06-01 # inky@build01 @ Automatic translation import
+2453818 # 2016-06-03 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/Dialer/
-951ea21 # 2016-06-02 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-61d4f83 # 2016-06-01 # Keith Mok @ Fix call recording does not using AAC format on some devices
-5538aea # 2016-06-01 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Eleven/
-adf2dcb # 2016-06-01 # inky@build01 @ Automatic translation import
+4ce731c # 2016-06-04 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+4893c00 # 2016-06-03 # clyde@build01 @ Automatic translation import
+18f2cb8 # 2016-06-03 # Keith Mok @ Fix outgoing call vibrate does not work
+6e6c1c7 # 2016-06-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+297bc8d # 2016-06-02 # Raj Yengisetty @ Fix NPE when checking default Dialer
 
 * Project packages/apps/Gello/
-94aa057 # 2016-06-01 # inky@build01 @ Automatic translation import
+e01b231 # 2016-06-03 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/InCallUI/
-c056371 # 2016-06-02 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-474aa4a # 2016-06-01 # inky@build01 @ Automatic translation import
-43dc101 # 2016-06-01 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+792a519 # 2016-06-04 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+c6cce58 # 2016-06-03 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/KernelAdiutor/
-07d989e # 2016-06-02 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
-2a77ebc # 2016-06-01 # Yoinx @ AutoHBM: Allow number of samples to be configurable
-1daeb02 # 2016-06-01 # Zdrowy Gosciu @ Screen: Correct lm3630 max brightness
-5b6fbb6 # 2016-06-01 # Zdrowy Gosciu @ ScreenFragment: Fix references to getContext()
-02faac6 # 2016-06-01 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
-8addd29 # 2016-06-01 # Zdrowy Gosciu @ Screen: Enable lm3630 min backlight reducer
-34ab56b # 2016-06-01 # Yoinx @ Some Minor code cleanup
-abd60b8 # 2016-06-01 # Yoinx @ StartUpCommands: Change Stringbuilder to String
-5ca965c # 2016-06-01 # Yoinx @ HBMWidget/AutoHBM: Allowing AutoHBM to resume after the second toggle of the widget
-d2f98c4 # 2016-06-01 # Yoinx @ AutoHBM: Ensure variable is initialized.
-7b7b287 # 2016-06-01 # Yoinx @ Sound: Stop duplicating High-Perf Mode
-f520e57 # 2016-06-01 # Yoinx @ HBMWidget: Move the logging into the if block
-8f2ad5a # 2016-06-01 # Yoinx @ AutoHBM/HBMWidget: Fix where it's checking the variable
-3625d08 # 2016-06-01 # Yoinx @ AutoHBM/HBMWidget: Make them play nice
-bbf7a57 # 2016-06-01 # Yoinx @ AutoHBM: This variable is no longer needed
-c1f8434 # 2016-06-01 # Yoinx @ Revert "BootService: Add a check to appease LINT/Android Studio"
-5a6b2b6 # 2016-06-01 # Yoinx @ GPU: Gaming Mode Min Power Level
-9be7ab1 # 2016-06-01 # Yoinx @ Screen: This toast only makes sense when enabling AutoHBM
-6740d7d # 2016-06-01 # Yoinx @ Wake: Add back in halfscreen/fullscreen selection
-fbd5bb0 # 2016-06-01 # Yoinx @ THermal: Remove derp
-e99859f # 2016-06-01 # Yoinx @ Merge branch 'testing'
-d3ab87f # 2016-05-31 # Yoinx @ Decrease MinSDK to 19 here as well...
-995a98f # 2016-05-31 # Yoinx @ BootService: Add a check to appease LINT/Android Studio
-10d7881 # 2016-05-31 # Yoinx @ Reduce MinSDK back to 19
-1ebb305 # 2016-05-31 # Yoinx @ SysFS Dump: This creates a sysfs dump function.
+8540fbb # 2016-06-04 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
+fb6f7c7 # 2016-06-04 # Zdrowy Gosciu @ Screen: Lower lm3630 max brightness
+17f1131 # 2016-06-04 # Yoinx @ Bump to Build 12
+53b2d26 # 2016-06-04 # Yoinx @ Revert "Bump to Build 12"
+f86bb99 # 2016-06-04 # Bender80 @ translate no_enable_toggle (#27)
+632cf4c # 2016-06-04 # Yoinx @ Bump to Build 12
+a145ebc # 2016-06-04 # Yoinx @ Hotplugs: AutoSMP - Fix  a warning being added to the divider card
+328d21f # 2016-06-04 # Yoinx @ Hotplugs: Intelliplug - Fix some malfunctioning cards
+6cd430d # 2016-06-04 # Yoinx @ Hotplugs: Bricked - remove some variable usage
+a4a212e # 2016-06-04 # Yoinx @ MSM_Performance: Get rid of the big/little stuff...
+47a09cf # 2016-06-04 # Yoinx @ Hotplugs: Fixup IntelliPlug enable/disable toggle and tunables issue
+206b26b # 2016-06-04 # Yoinx @ Hotplugs: Fix IntelliPlug logic.
+7977a89 # 2016-06-04 # Yoinx @ Hotplugs: Fix crash caused by MSM_Performance
+d2b705c # 2016-06-03 # Yoinx @ Bump to Build 11
+a483659 # 2016-06-03 # Yoinx @ Power/Battery: Clarify what notifierrs are enabled with the State Notifier card
+d932422 # 2016-06-03 # benschhold @ add support for MSM Performance
+383845c # 2016-06-03 # Yoinx @ CoreControl: Remove BCH and clean up the formatting a bit
+c45ba42 # 2016-06-03 # Yoinx @ Constants: Add some sysfs paths from @Benschold for OP2
+14ea2f4 # 2016-06-03 # Yoinx @ Utils: Add helper function to return the existing sysfs path from an array of paths.
+8362106 # 2016-06-03 # benschhold @ Add MW and TW gestures
+333f49d # 2016-06-03 # Yoinx @ AutoHBM: Fix null crash when attempting to access sharedpreferences on boot
+8f3708e # 2016-06-02 # Yoinx @ Add CoreControl to Bootservice
+f9158a8 # 2016-06-02 # benschhold @ Setup Core Control
+ab6954e # 2016-06-02 # benschhold @ Add switch for Boeffla Config Helper
+95311bb # 2016-06-02 # benschhold @ Add possibility to switch back and recents button
+11e4afd # 2016-06-02 # Yoinx @ GPU: Adreno Idler - Allow for either a Y or 1 for enabled
+e8469a2 # 2016-06-02 # Yoinx @ Utils: isLetter function
+bba2ded # 2016-06-02 # Yoinx @ Fix Merge Derps from Previous 2 commits
+ff221a0 # 2016-06-02 # benschhold @ Thunderplug settings
+b72bd33 # 2016-06-02 # benschhold @ Slider for SD810 low power mode
+9a32bd9 # 2016-06-02 # Yoinx @ Hotplugs: Fixup some compatability issues.
+2e1bad5 # 2016-06-02 # Yoinx @ CPU Governor Tunables: Add support for big/little tuned paths
 
 * Project packages/apps/Messaging/
-5366155 # 2016-06-01 # cretin45 @ Messaging: Respect always ask pref in quick message
-90cc20f # 2016-06-01 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/OmniSwitch/
-9d4376a # 2016-06-02 # maxwen @ OmniSwitch: rework thumb loading
-
-* Project packages/apps/PhoneCommon/
-8a39ad1 # 2016-06-01 # inky@build01 @ Automatic translation import
+d829188 # 2016-06-03 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/Screencast/
-7926087 # 2016-06-01 # inky@build01 @ Automatic translation import
+8af2ad3 # 2016-06-03 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/Settings/
-1c6acb1 # 2016-06-02 # Janson Kang @ Merge pull request #452 from beroid/cm-13.0
-0a43899 # 2016-06-02 # beroid @ Settings: Update RU translations
-2a890cb # 2016-06-02 # Janson Kang @ Build V9.0
-c9a3c69 # 2016-06-02 # Nico60 @ Add animations to quick settings tiles [2/2]
-3a24f40 # 2016-06-02 # inky@build01 @ Automatic translation import
+f54d176 # 2016-06-04 # Zdrowy Gosciu @ Revert "Developer options: Signature spoofing (2/2)"
+58d011b # 2016-06-04 # Deepak Kundra @ Radio info to control QC dbg prop's
+2c6b2af # 2016-06-04 # clyde@build01 @ Automatic translation import
+ec7b8c3 # 2016-06-03 # Michael Bestas @ Lockscreen -> lock screen
 
-* Project packages/apps/SetupWizard/
-73d56b4 # 2016-06-01 # inky@build01 @ Automatic translation import
+* Project packages/apps/Snap/
+c1c99fb # 2016-06-04 # Sultanxda @ Snap: Fix remaining-photos icon margin
 
 * Project packages/apps/SoundRecorder/
-dd05872 # 2016-06-01 # inky@build01 @ Automatic translation import
+368b858 # 2016-06-03 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/Trebuchet/
-156cc21 # 2016-06-01 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/TvSettings/
-a5c32e0 # 2016-06-01 # inky@build01 @ Automatic translation import
+3b75fff # 2016-06-03 # clyde@build01 @ Automatic translation import
 
 * Project packages/providers/DataUsageProvider/
-e48baf2 # 2016-06-01 # inky@build01 @ Automatic translation import
+45cab1e # 2016-06-03 # clyde@build01 @ Automatic translation import
 
-* Project packages/providers/DownloadProvider/
-7c5833e # 2016-06-01 # inky@build01 @ Automatic translation import
+* Project packages/services/Mms/
+50a85fe # 2016-06-02 # Ricardo Cerqueira @ Revert "MmsRequest: Turn on data for the MMS transaction if required"
 
-* Project packages/providers/WeatherProvider/
-38583d6 # 2016-06-01 # inky@build01 @ Automatic translation import
-
-* Project packages/services/LiveLockScreenService/
-3853af4 # 2016-06-01 # inky@build01 @ Automatic translation import
+* Project packages/services/Telecomm/
+a18df5e # 2016-06-04 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telecomm into cm-13.0
 
 * Project packages/services/Telephony/
-ddd1c9b # 2016-06-02 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-e5bd6c0 # 2016-06-01 # inky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/PhotoPhase/
-9fb61ea # 2016-06-01 # inky@build01 @ Automatic translation import
+ec3a7cc # 2016-06-04 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
+af093b1 # 2016-06-03 # clyde@build01 @ Automatic translation import
 
 * Project vendor/cm/
-db35ad7 # 2016-06-01 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+788e8c4 # 2016-06-04 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+278fa60 # 2016-06-03 # Deepak Kundra @ persist.dbg/data for radio to control QC prop's
+7139d22 # 2016-06-04 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+b538b7c # 2016-06-03 # Dan Pasanen @ cm: enable lockscreen rotation option
 
 * Project vendor/cmsdk/
-a20401c # 2016-06-02 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-af55f98 # 2016-06-01 # inky@build01 @ Automatic translation import
-e756931 # 2016-06-01 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-b51572d # 2016-05-31 # Adnan Begovic @ cmsdk: Create CMSystemServer to handle our platform init.
+174af0a # 2016-06-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+ee069f8 # 2016-06-02 # d34d @ Themes: Use default audibles when pkgName is empty

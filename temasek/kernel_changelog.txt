@@ -17,6 +17,13 @@ c92f9e5 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Rebase (and clean
 9ff1529 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
 
 * Project kernel/lge/msm8974/
+2771b49 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.333
+445bb9d5 # 2016-06-04 # Jaeseong GIM @ persistent_ram: check PERSISTENT_RAM_SIG before writing
+e587803 # 2016-06-04 # franciscofranco @ mdss: use an interruptible thread on edp to reduce load_average
+a3fea66 # 2016-06-04 # Linus Torvalds @ vfs: fix bad hashing of dentries
+c7a01c6 # 2016-06-04 # franciscofranco @ sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire.
+62a51c1 # 2016-06-04 # franciscofranco @ vfp: according to android's gerrit, krait can use neon-vfpv4
+d533c55 # 2016-06-04 # Amir Goldstein @ sysrq: Emergency Remount R/O in reverse order
 a2efe33 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.3
 4e562fb # 2016-06-04 # Zdrowy Gosciu @ Revert "sched: Disable gentle fair sleepers"
 5537c98 # 2016-06-04 # Zdrowy Gosciu @ backlight: lm3630: Set minimum brightness

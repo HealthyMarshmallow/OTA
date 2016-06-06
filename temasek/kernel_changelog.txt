@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-05-17 @ 20:12:48 (1464730432)
+CHANGES AFTER 2016-06-04 @ 19:45:31 (1465069531)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,16 +7,73 @@ CHANGES AFTER 2016-05-17 @ 20:12:48 (1464730432)
                  |_____|              
 
 * Project device/lge/g2-common/
-28ea3c6 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal
-6f5c779 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Clean up MSM Thermal (we are using Bricked)
-54d0b87 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Use default boost ms
-c53deb5 # 2016-06-04 # Zdrowy Gosciu @ g2-common: init: power: Remove underclock + fix permissions
-9b374da # 2016-06-03 # Zdrowy Gosciu @ g2-common: init: Rebase CPU values
-04c7708 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug
-c92f9e5 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Rebase (and clean up)
-9ff1529 # 2016-06-02 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
+d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+171fabe # 2016-06-06 # Zdrowy Gosciu @ Version HM 8.0
+d4c6f5b # 2016-06-06 # Zdrowy Gosciu @ GPU: Add 27MHz Freq Step
+907ae54 # 2016-06-06 # Loller79 @ /dev/frandom Support
+9865ad2 # 2016-06-06 # franciscofranco @ FSync On/Off
+bd9dcc3 # 2016-06-06 # 777jon @ cpufreq: enforce stock max frequency on boot
+70a20a1 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Upgrade and fix AD implementation"
+9ff5dbf # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Protect ad_bl_level using ad_lock mutex"
+ec04f73 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: ensure rotator work is done before reconfiguring session"
+0338378 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: fix rotator failures when pixel format changes"
+01891a9 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: fix pixel extension validation on decimation"
+c602418 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: fix issue in calculating decimated dimensions"
+eaedfb1 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: Clean up properly when instance exits at MSM_VIDC_INIT state"
+0dbec61 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: release sync_lock before waiting on command response"
+4691d31 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Extend GC programming to writeback mixers in pp"
+1489369 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Program linear GC LUT as default for rounding"
+ee69d85 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: un map dsi transmit buffer properly"
+b02af45 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Prevent backlight update during continuous splash"
+c5b41a5 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Fix check for backlight update during continuous splash"
+22b699a # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Notify AD only when brightness changes"
+c2965ba # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: rotator: replace work_pending with work_busy"
+efa046a # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: Cancel pending power collapse works in core_release"
+075c1cb # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: Handle power collapse cancel properly"
+38c0f13 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: Update the clock state variable before unprepare clocks"
+23e259e # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: kgsl: Wake up snoozing threads on marker expiry"
+c44d6e1 # 2016-06-06 # Zdrowy Gosciu @ Revert "ARM/ARM64: arch_timer: add macros for bits in control register"
+e3d2439 # 2016-06-06 # Zdrowy Gosciu @ Revert "ARM: arch_timer: add support to configure and enable event stream"
+ba58280 # 2016-06-06 # Zdrowy Gosciu @ Revert "drivers: clocksource: add CPU PM notifier for ARM architected timer"
+60ec3d9 # 2016-06-06 # Zdrowy Gosciu @ Revert "ARM: msm: Clean up sensor ADSP driver; OCMEM is no longer used"
+5e53d40 # 2016-06-06 # Zdrowy Gosciu @ Revert "ARM: dts: msm: Fix ROI alignment for CMD mode panel"
+7b0f430 # 2016-06-06 # Zdrowy Gosciu @ mmc: clk_scaling: Set scale_down_in_low_wr_load to true
+1dbb967 # 2016-06-06 # Sultanxda @ mmc: clk_scaling: Fix scale_down_in_low_wr_load sysfs return value
+8809e0f # 2016-06-06 # Talel Shenhar @ mmc: clk_scaling: add sysfs for avoiding scale down in write
+1654a47 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: add init and deinit calls to notify update ioctl"
+54d3f42 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: isolate cleanup of pipes within kickoff"
+42f22a2 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Allow DMA pipe sharing only on WB mixer"
+dc92b07 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: check for validity of ESD thread before scheduling it"
+9616b40 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Update ad_bl_level on first set backlight call"
+f91db9c # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: Error handling when core is in bad state"
+3b872ef # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: replace resurrect_fw with unload_fw"
+392ae73 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: remove unnecessary lock in checking DSI status"
+6500557 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: add support to parse dynamic refresh rate range"
+c8fae01 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: handle secure display state for MDP"
+5ce517c # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: fix underrun seen with HDMI connected as external"
+4f34eee # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Fix Iommu page fault for splash logo enabled feature"
+f722754 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Grouping enable and prepare calls for dsi link clocks"
+80d93f7 # 2016-06-06 # Zdrowy Gosciu @ Revert "scm-mpu: Add additional memory protection options"
+6129b7e # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Unmap only when buffer was mapped"
+c4a5008 # 2016-06-06 # Zdrowy Gosciu @ Revert "spi_qsd: Fix DMA errors"
+05efe2b # 2016-06-06 # Zdrowy Gosciu @ Revert "rtac: Check active asm clients before removing adm device"
+52428bb # 2016-06-06 # Zdrowy Gosciu @ Revert "spi: spi_qsd: Add multi-ee support"
+0aab0e4 # 2016-06-06 # Zdrowy Gosciu @ Revert "qseecom: add mutex protection for unloading app in qseecom_release"
+e8f69e6 # 2016-06-06 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+da4e73c # 2016-06-06 # Venkat Devarasetty @ msm: hotplug: Do not skip the platform init for boot core
+3e67776 # 2016-06-06 # Sasha Levin @ block,elevator: use new hashtable implementation
+8951c1b # 2016-06-06 # Tejun Heo @ workqueue: new hashtable: fix find_worker_executing_work() brekage from hashtable conversion
+acf555b # 2016-06-06 # Sasha Levin @ workqueue: use new hashtable implementation
+6585ee0 # 2016-06-06 # anarkia1976 @ PM: Enable asynchronous noirq resume threads to save the resuming time
+3a45dfe # 2016-06-06 # Shaibal Dutta @ workqueue: net: wireless: move regulatory timeout work to power efficient workqueue
+35abfe5 # 2016-06-06 # Shaibal Dutta @ workqueue: net: rfkill: move poll work to power efficient workqueue
+4aa987e # 2016-06-06 # Shaibal Dutta @ workqueue: usb: move hub init and LED blink work to power efficient workqueue
+af7c143 # 2016-06-06 # Azhar Shaikh @ USB: android: Fix memory leak in mass_storage_function_init()
+b1be3c2 # 2016-06-06 # Matias Bjørling @ workqueue: block: remove WQ_POWER_EFFICIENT from kblockd
+c3d4c24 # 2016-06-06 # Ingo Molnar @ nohz: Reduce overhead under high-freq idling patterns
+b030aeb # 2016-06-05 # Linus Torvalds @ vfs: make AIO use the proper rw_verify_area() area helpers
 2771b49 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.333
 445bb9d5 # 2016-06-04 # Jaeseong GIM @ persistent_ram: check PERSISTENT_RAM_SIG before writing
 e587803 # 2016-06-04 # franciscofranco @ mdss: use an interruptible thread on edp to reduce load_average
@@ -24,66 +81,3 @@ a3fea66 # 2016-06-04 # Linus Torvalds @ vfs: fix bad hashing of dentries
 c7a01c6 # 2016-06-04 # franciscofranco @ sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire.
 62a51c1 # 2016-06-04 # franciscofranco @ vfp: according to android's gerrit, krait can use neon-vfpv4
 d533c55 # 2016-06-04 # Amir Goldstein @ sysrq: Emergency Remount R/O in reverse order
-a2efe33 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.3
-4e562fb # 2016-06-04 # Zdrowy Gosciu @ Revert "sched: Disable gentle fair sleepers"
-5537c98 # 2016-06-04 # Zdrowy Gosciu @ backlight: lm3630: Set minimum brightness
-5aa2c35 # 2016-06-04 # Zdrowy Gosciu @ Version HM 7.2
-71911f5 # 2016-06-04 # Zdrowy Gosciu @ cpufreq: interactive: Derp
-d4421e1 # 2016-06-03 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-10513c6 # 2016-06-03 # Dan Pasanen @ Revert "sched: Remove get_online_cpus() usage"
-ab751d7 # 2016-06-03 # Dan Pasanen @ Revert "sched: Fix hotplug vs. set_cpus_allowed_ptr()"
-9656a7f # 2016-06-03 # Kaushal Kumar @ sched: Remove get_online_cpus() usage
-c516627 # 2016-06-03 # myfluxi @ cpufreq: cpu-boost: Readd missing bits
-b6809c6 # 2016-06-03 # Patrick Cain @ cpufreq: cpu-boost: Re-issue boosts above minimum frequency
-ee79692 # 2016-06-03 # Patrick Cain @ cpufreq: Sync on thread migration optimizations
-101dc1f # 2016-06-03 # myfluxi @ cpufreq: cpu-boost: Use hotplug thread infrastructure
-21b3e0d # 2016-06-03 # Zdrowy Gosciu @ Revert "cpufreq: cpu-boost: Use interruptible wait to not affect load average"
-00ac3db # 2016-06-03 # Zdrowy Gosciu @ Revert "cpufreq: cpu-boost: Resolve deadlock when waking up sync thread"
-9ab41f8 # 2016-06-03 # Zdrowy Gosciu @ Revert "cpufreq: cpu-boost: Resolve deadlock when waking up sync thread"
-543d24f # 2016-06-03 # Thomas Gleixner @ softirq: Use hotplug thread infrastructure
-a0a1896 # 2016-06-03 # Thomas Gleixner @ [backport] Hotplug thread infrastructure
-bd39016 # 2016-06-03 # Zdrowy Gosciu @ Revert "ACPI / processor: prevent cpu from becoming online"
-2c8c197 # 2016-06-03 # Hong-Mei Li @ msm: memutils: memcpy, memmove optimization
-df96808 # 2016-06-03 # Hong-Mei Li @ msm: memutils: memcpy, memmove optimization
-d24fe45 # 2016-06-03 # Hong-Mei Li @ arm: lib: Fix makefile bug
-01ccc0e # 2016-06-03 # Jason Hrycay @ msm: memutils: memcpy, memmove, copy_page optimization
-8b282f6 # 2016-06-03 # Vladis Dronov @ Input: aiptek - fix crash on detecting device without endpoints
-138f90e # 2016-06-03 # Julia Lawall @ Input: aiptek - adjust error-handling code label
-7008735 # 2016-06-02 # Zdrowy Gosciu @ Version HM 7.1
-9676f01 # 2016-06-02 # michelborges @ ARM: smp: Wait just 1 second for other CPU to halt
-77a3ae1 # 2016-06-02 # Catalin Marinas @ ARM: 8036/1: Enable IRQs before attempting to read user space in __und_usr
-291084a # 2016-06-02 # Zdrowy Gosciu @ Revert "power: quickwakeup: initial driver"
-d6182f9 # 2016-06-02 # Zdrowy Gosciu @ Revert "power: catch wake-up requests in suspend_again"
-411d063 # 2016-06-02 # Yasuaki Ishimatsu @ ACPI / processor: prevent cpu from becoming online
-aa07fa0 # 2016-06-02 # Angelo G. Del Regno -- EternityProject Team Manager @ fs: aio: Optimization for SSD-only machines
-c34984c # 2016-06-02 # Jeevan Shriram @ ARM: dts: msm: Remove fb memory allocation
-af21a66 # 2016-06-02 # gustavo @ Speed up console framebuffer imageblit function
-f8be926 # 2016-06-02 # gustavo @ Optimize kernel cfbfillrect function
-afb8d0b # 2016-06-02 # Quarx2k @ Revert "PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs"
-b24b153 # 2016-06-02 # Prasad Sodagudi @ [Debug] Map only first 50MB of kernel
-07fa5dc # 2016-06-02 # Zdrowy Gosciu @ Version HM 7.0
-67e35a6 # 2016-06-02 # Zdrowy Gosciu @ devfreq: Tweak Simple GPU
-d047def # 2016-06-02 # Zdrowy Gosciu @ random: Increase wakeup thresholds
-1d02821 # 2016-06-02 # Zdrowy Gosciu @ alarm-dev: Disable debug
-e9311ca # 2016-06-02 # Zdrowy Gosciu @ lge_touch_core: Disable debug
-1c0c6fb # 2016-06-02 # Zdrowy Gosciu @ sched: Disable gentle fair sleepers
-80d60a9 # 2016-06-02 # Zdrowy Gosciu @ mmc: Disable CRC check
-c0f13c5 # 2016-06-02 # Zdrowy Gosciu @ mm: Increase read ahead
-edf571d # 2016-06-02 # Zdrowy Gosciu @ Revert "devfreq: Remove CPUBW HWmon"
-4d1e6c3 # 2016-06-02 # Joe Swantek @ power: catch wake-up requests in suspend_again
-6361854 # 2016-06-02 # Joe Swantek @ power: quickwakeup: initial driver
-79e365a # 2016-06-02 # Russ W. Knize @ power: make sync on suspend optional
-85339d5 # 2016-06-02 # Jan Kara @ block: Reserve only one queue tag for sync IO if only 3 tags are available
-731e4fa # 2016-06-02 # Shaohua Li @ block: recursive merge requests
-d60f2fb # 2016-06-02 # anarkia1976 @ workqueue: timekeeping: move clock sync work to power efficient workqueue
-d6dda64 # 2016-06-02 # Zdrowy Gosciu @ Power efficient workqueue: Enable by default
-92afc0c # 2016-06-02 # Pranav Vashi @ net/neighbour: queue work on power efficient wq
-b47bdb7 # 2016-06-02 # Pranav Vashi @ workqueue: Remove panic
-322dd2b # 2016-06-02 # Mark Brown @ ASoC: jack: Use power efficient workqueue
-b432fbd # 2016-06-02 # Mark Brown @ regulator: core: Use the power efficient workqueue for delayed powerdown
-1bae0a3 # 2016-06-02 # Mark Brown @ ASoC: pcm: Use the power efficient workqueue for delayed powerdown
-5c1d04a # 2016-06-02 # Viresh Kumar @ PHYLIB: queue work on system_power_efficient_wq
-b6c49db # 2016-06-02 # Viresh Kumar @ block: queue work on power efficient wq
-011a8d9 # 2016-06-02 # Viresh Kumar @ workqueue: Add system wide power_efficient workqueues
-59d057c # 2016-06-02 # Viresh Kumar @ workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues
-3c1f780 # 2016-06-02 # Zdrowy Gosciu @ video: Introduce lm3630 min backlight reducer

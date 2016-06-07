@@ -7,6 +7,12 @@ CHANGES AFTER 2016-06-04 @ 19:45:31 (1465069531)
                  |_____|              
 
 * Project device/lge/g2-common/
+1c083c7 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O scheduler
+2d2a89c # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Remove unused param
+9c69527 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Disable CPU Boost
+39cdc9e # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Rebase GPU GOVs
+0684011 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Lower boost CPUs (MSM Hotplug)
+433c003 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Tweak thermal limits (part III)
 7462c85 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Shorter MSM Hotplug boost
 c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file_min
 503b174 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: Disable adaptive LMK + no need to setup scaling_min_freq at boot
@@ -14,6 +20,27 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+8ce5acf # 2016-06-07 # Zdrowy Gosciu @ Version HM 8.2
+bdc4dc0 # 2016-06-07 # Saravana Kannan @ PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
+0bf3149 # 2016-06-07 # Zdrowy Gosciu @ devfreq: Don't start Simple GPU Algorithm by default
+339f2fb # 2016-06-07 # Zdrowy Gosciu @ Revert "arm: dts: msm8974-lge-panel: Enable ULPS"
+c1eb8a5 # 2016-06-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+d9713d2 # 2016-06-07 # Mark Salyzyn @ net: wireless: bcmdhd: Verify SSID length (part deux)
+1682f92 # 2016-06-07 # Jerry Lee @ net: wireless: bcmdhd: Verify SSID length
+e7a34dc # 2016-06-07 # Ravi Kumar Alamanda @ ASoC: msm: audio-effects: fix stack overread and heap overwrite
+be116f5 # 2016-06-07 # Suman Mukherjee @ msm: camera: ispif: Validate VFE num input during reset
+970432a # 2016-06-07 # vivek mehta @ ASoC: msm: disable unwanted module
+e16a1fd # 2016-06-07 # Jerry Lee @ net: wireless: bcmdhd: check privilege on priv cmd
+d74cab5 # 2016-06-07 # Rajesh Kemisetti @ msm: kgsl: Add missing checks for alloc size and sglen
+33bf48c # 2016-06-07 # Ethan Chen @ msm: camera: Place camera firmware in a sane location
+1c2f934 # 2016-06-07 # Dan Pasanen @ drivers: mmc: Disable lpm_sup on G2 open com if needed
+a941a49 # 2016-06-07 # Zdrowy Gosciu @ arm: dts: msm8974-lge-panel: Enable ULPS
+8767486 # 2016-06-07 # Zdrowy Gosciu @ Revert "Revert "ARM: dts: msm: update 28nm DSI PHY regulator settings""
+ee78e61 # 2016-06-07 # Zdrowy Gosciu @ Revert "Revert "ARM: dts: msm: update the DSI PHY lane configuration settings""
+da751d7 # 2016-06-07 # Zdrowy Gosciu @ Revert "Revert "arm: dts: Reduce i2c clock rate to 19.2 MHz""
+08eea28 # 2016-06-07 # Zdrowy Gosciu @ Revert "Revert "ARM: dts: msm: i2c: change  clock rate to 19.2 MHz""
+daf9b8a # 2016-06-07 # Tyler Dunn @ ARM: dts: msm: Update adsp heap memory size
+a2507a1 # 2016-06-07 # Adrian Salido-Moreno @ msm: mdss: fix possible out-of-bounds and overflow issue in mdp debugfs
 f0b8266 # 2016-06-07 # Zdrowy Gosciu @ Version HM 8.1
 cd181f7 # 2016-06-07 # Zdrowy Gosciu @ cpufreq: Build SmartMAX
 ba4819b # 2016-06-07 # Zachariah @ SmartMAX: Tune for G2!!

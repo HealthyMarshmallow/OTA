@@ -7,60 +7,34 @@ CHANGES AFTER 2016-06-04 @ 19:45:31 (1465069531)
                  |_____|              
 
 * Project device/lge/g2-common/
+7462c85 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Shorter MSM Hotplug boost
+c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file_min
+503b174 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: Disable adaptive LMK + no need to setup scaling_min_freq at boot
+942aca7 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Reset boost ms
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
-171fabe # 2016-06-06 # Zdrowy Gosciu @ Version HM 8.0
-d4c6f5b # 2016-06-06 # Zdrowy Gosciu @ GPU: Add 27MHz Freq Step
-907ae54 # 2016-06-06 # Loller79 @ /dev/frandom Support
-9865ad2 # 2016-06-06 # franciscofranco @ FSync On/Off
-bd9dcc3 # 2016-06-06 # 777jon @ cpufreq: enforce stock max frequency on boot
-70a20a1 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Upgrade and fix AD implementation"
-9ff5dbf # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Protect ad_bl_level using ad_lock mutex"
-ec04f73 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: ensure rotator work is done before reconfiguring session"
-0338378 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: fix rotator failures when pixel format changes"
-01891a9 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: fix pixel extension validation on decimation"
-c602418 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: fix issue in calculating decimated dimensions"
-eaedfb1 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: Clean up properly when instance exits at MSM_VIDC_INIT state"
-0dbec61 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: release sync_lock before waiting on command response"
-4691d31 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Extend GC programming to writeback mixers in pp"
-1489369 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Program linear GC LUT as default for rounding"
-ee69d85 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: un map dsi transmit buffer properly"
-b02af45 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Prevent backlight update during continuous splash"
-c5b41a5 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Fix check for backlight update during continuous splash"
-22b699a # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Notify AD only when brightness changes"
-c2965ba # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: rotator: replace work_pending with work_busy"
-efa046a # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: Cancel pending power collapse works in core_release"
-075c1cb # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: Handle power collapse cancel properly"
-38c0f13 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: Update the clock state variable before unprepare clocks"
-23e259e # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: kgsl: Wake up snoozing threads on marker expiry"
-c44d6e1 # 2016-06-06 # Zdrowy Gosciu @ Revert "ARM/ARM64: arch_timer: add macros for bits in control register"
-e3d2439 # 2016-06-06 # Zdrowy Gosciu @ Revert "ARM: arch_timer: add support to configure and enable event stream"
-ba58280 # 2016-06-06 # Zdrowy Gosciu @ Revert "drivers: clocksource: add CPU PM notifier for ARM architected timer"
-60ec3d9 # 2016-06-06 # Zdrowy Gosciu @ Revert "ARM: msm: Clean up sensor ADSP driver; OCMEM is no longer used"
-5e53d40 # 2016-06-06 # Zdrowy Gosciu @ Revert "ARM: dts: msm: Fix ROI alignment for CMD mode panel"
-7b0f430 # 2016-06-06 # Zdrowy Gosciu @ mmc: clk_scaling: Set scale_down_in_low_wr_load to true
-1dbb967 # 2016-06-06 # Sultanxda @ mmc: clk_scaling: Fix scale_down_in_low_wr_load sysfs return value
-8809e0f # 2016-06-06 # Talel Shenhar @ mmc: clk_scaling: add sysfs for avoiding scale down in write
-1654a47 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: add init and deinit calls to notify update ioctl"
-54d3f42 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: isolate cleanup of pipes within kickoff"
-42f22a2 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Allow DMA pipe sharing only on WB mixer"
-dc92b07 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: check for validity of ESD thread before scheduling it"
-9616b40 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Update ad_bl_level on first set backlight call"
-f91db9c # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: Error handling when core is in bad state"
-3b872ef # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: vidc: replace resurrect_fw with unload_fw"
-392ae73 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: remove unnecessary lock in checking DSI status"
-6500557 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: add support to parse dynamic refresh rate range"
-c8fae01 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: handle secure display state for MDP"
-5ce517c # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: fix underrun seen with HDMI connected as external"
-4f34eee # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Fix Iommu page fault for splash logo enabled feature"
-f722754 # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Grouping enable and prepare calls for dsi link clocks"
-80d93f7 # 2016-06-06 # Zdrowy Gosciu @ Revert "scm-mpu: Add additional memory protection options"
-6129b7e # 2016-06-06 # Zdrowy Gosciu @ Revert "msm: mdss: Unmap only when buffer was mapped"
-c4a5008 # 2016-06-06 # Zdrowy Gosciu @ Revert "spi_qsd: Fix DMA errors"
-05efe2b # 2016-06-06 # Zdrowy Gosciu @ Revert "rtac: Check active asm clients before removing adm device"
-52428bb # 2016-06-06 # Zdrowy Gosciu @ Revert "spi: spi_qsd: Add multi-ee support"
-0aab0e4 # 2016-06-06 # Zdrowy Gosciu @ Revert "qseecom: add mutex protection for unloading app in qseecom_release"
+f0b8266 # 2016-06-07 # Zdrowy Gosciu @ Version HM 8.1
+cd181f7 # 2016-06-07 # Zdrowy Gosciu @ cpufreq: Build SmartMAX
+ba4819b # 2016-06-07 # Zachariah @ SmartMAX: Tune for G2!!
+3323f49 # 2016-06-07 # andip71 @ cpufreq: Introduce SmartMAX
+eeb1408 # 2016-06-07 # Zdrowy Gosciu @ arm: configs: d802: Set default TCP CONG to westwood
+da67e8a # 2016-06-07 # ejjohnson1999 @ sound: dolby_dap: Kill some logspam
+688a9be # 2016-06-07 # ejjohnson1999 @ irq: Remove IRQ no longer affine to CPU logspam
+ebc1ef0 # 2016-06-07 # ejjohnson1999 @ increase pet and bark time
+c02b8c9 # 2016-06-07 # Zdrowy Gosciu @ cpufreq: interactive: Back to previous version
+81abc2e # 2016-06-07 # Zdrowy Gosciu @ Revert "ARM: dts: msm: i2c: change  clock rate to 19.2 MHz"
+424133a # 2016-06-07 # Zdrowy Gosciu @ Revert "arm: dts: Reduce i2c clock rate to 19.2 MHz"
+618a742 # 2016-06-07 # Zdrowy Gosciu @ Revert "ARM: dts: msm: update the DSI PHY lane configuration settings"
+d57b376 # 2016-06-07 # Zdrowy Gosciu @ Revert "ARM: dts: msm: update 28nm DSI PHY regulator settings"
+6a8d60f # 2016-06-07 # Zdrowy Gosciu @ Version HM 8.0
+c6d376a # 2016-06-07 # Zdrowy Gosciu @ GPU: Add 27MHz Freq Step
+d1b7430 # 2016-06-07 # Loller79 @ /dev/frandom Support
+c4461b8 # 2016-06-07 # franciscofranco @ FSync On/Off
+59562fb # 2016-06-07 # 777jon @ cpufreq: enforce stock max frequency on boot
+cd76ddb # 2016-06-07 # Zdrowy Gosciu @ mmc: clk_scaling: Set scale_down_in_low_wr_load to true
+1579d42 # 2016-06-07 # Sultanxda @ mmc: clk_scaling: Fix scale_down_in_low_wr_load sysfs return value
+5fdf7c0 # 2016-06-07 # Talel Shenhar @ mmc: clk_scaling: add sysfs for avoiding scale down in write
 e8f69e6 # 2016-06-06 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 da4e73c # 2016-06-06 # Venkat Devarasetty @ msm: hotplug: Do not skip the platform init for boot core
 3e67776 # 2016-06-06 # Sasha Levin @ block,elevator: use new hashtable implementation

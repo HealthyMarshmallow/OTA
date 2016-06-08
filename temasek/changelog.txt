@@ -7,17 +7,21 @@ CHANGES AFTER 2016-06-06 @ 20:20:03 (1465244403)
                  |_____|              
 
 * Project OTA/
+9717859 # 2016-06-08 # Zdrowy Gosciu @ OTA: cm-13.0-20160607-214008-UNOFFICIAL-temasek-d802-V9.01
 295602f # 2016-06-07 # Zdrowy Gosciu @ OTA: Temasek ROM: Kernel HM 8.1
 0574374 # 2016-06-06 # Zdrowy Gosciu @ OTA: cm-13.0-20160606-201344-UNOFFICIAL-temasek-d802-V9.0
 
 * Project android/
-e260419 # 2016-06-07 # Jessica Wagantall @ default.xml: cm: Update to 6.0.1_r46
+3855a89 # 2016-06-08 # Jessica Wagantall @ default.xml: cm: Update to 6.0.1_r46
+3e67e76 # 2016-06-08 # Janson Kang @ Track own CellBroadcastReceiver
 
 * Project build/
-8de96b9 # 2016-06-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+1488c40 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
 9b017f9 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
 
 * Project device/lge/g2-common/
+8e782a8 # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: power: Lower max GPU freq at startup
+d896b6f # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: Disable LG Thermal-Engine
 1c083c7 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O scheduler
 2d2a89c # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Remove unused param
 9c69527 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Disable CPU Boost
@@ -35,18 +39,21 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 2246e67 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
 
 * Project frameworks/av/
-3af4a1b # 2016-06-07 # Zdrowy Gosciu @ Revert "Check mp3 output buffer size"
-6784d64 # 2016-06-07 # Tom Marshall @ MtpServer: Fix concurrent access to mStorages
-7b032b4 # 2016-06-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+3ffb2c1 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
+fdc7d1f # 2016-06-07 # Jessica Wagantall @ Fixing ALOGE message in commit ad40e57890f81a3cf436c5f06da66396010bd9e5
+b3fbce1 # 2016-06-07 # Tom Marshall @ MtpServer: Fix concurrent access to mStorages
 9bdc0f6 # 2016-06-07 # Tom Marshall @ MTP: Fix crash when no storages are available
 80c362f # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
 
 * Project frameworks/base/
-7570ac0 # 2016-06-07 # Michael Wright @ Add new, hidden MotionEvent flag for partially obscured windows.
-5c2f52b # 2016-06-07 # Christopher Tate @ Kill the real/isolated uid group, not the ApplicationInfo uid
+627453d # 2016-06-08 # Nico60 @ Add interpolators to qs tiles animation [1/2]
+9283356 # 2016-06-08 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+369147b # 2016-06-08 # Diogo Ferreira @ systemui: Fix compilation failure
+b13f247 # 2016-06-08 # Michael W @ isRoaming: fix possible NPE
+ff66d59 # 2016-06-08 # Adnan Begovic @ SystemUI: Add support for persistent usb drive notification.
 
 * Project frameworks/native/
-9d9e42a # 2016-06-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+0f53fc6 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
 508eb77 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
 
 * Project hardware/qcom/media/default/
@@ -97,8 +104,12 @@ cd76ddb # 2016-06-07 # Zdrowy Gosciu @ mmc: clk_scaling: Set scale_down_in_low_w
 5fdf7c0 # 2016-06-07 # Talel Shenhar @ mmc: clk_scaling: add sysfs for avoiding scale down in write
 
 * Project packages/apps/Bluetooth/
-ffaa1b4 # 2016-06-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+f403fdd # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
 ef133b1 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+
+* Project packages/apps/BluetoothExt/
+8b8eb2f # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_BluetoothExt into cm-13.0
+559f783 # 2016-06-06 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/CMBugReport/
 1ed8ff0 # 2016-06-06 # inky@build01 @ Automatic translation import
@@ -107,29 +118,50 @@ ef133b1 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HE
 bcc87f9 # 2016-06-06 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/CellBroadcastReceiver/
+12d0366 # 2016-06-08 # Janson Kang @ Revert "Do not let system keys bypass alert"
 f54de60 # 2016-06-07 # Eddy Witkamp @ fix Dutch translation - On vs Off
 6134363 # 2016-06-06 # inky@build01 @ Automatic translation import
 
+* Project packages/apps/ContactsCommon/
+26fe569 # 2016-06-06 # inky@build01 @ Automatic translation import
+
+* Project packages/apps/Dialer/
+4f006e8 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+fd13175 # 2016-06-06 # inky@build01 @ Automatic translation import
+
 * Project packages/apps/Gello/
 93e2820 # 2016-06-06 # inky@build01 @ Automatic translation import
+
+* Project packages/apps/InCallUI/
+5817b88 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+7ce8323 # 2016-06-07 # inky@build01 @ Automatic translation import
+919274a # 2016-06-07 # Michael W @ InCallUI: Fix possible OOBs
+8ce4db2 # 2016-06-07 # Danny Baumann @ Fix appearance of auxiliary circles in GlowPadView.
 
 * Project packages/apps/Messaging/
 4a0efca # 2016-06-06 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/PackageInstaller/
-0cb7f6d # 2016-06-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+55d4c1e # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_packages_apps_PackageInstaller into cm-13.0
 b277701 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+
+* Project packages/apps/PhoneCommon/
+8e21a14 # 2016-06-06 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/Screencast/
 f934b05 # 2016-06-06 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/Settings/
-5b6f8b0 # 2016-06-07 # Zdrowy Gosciu @ Version 9.01 (AOSP release 46)
+2144ff6 # 2016-06-08 # Janson Kang @ Build V9.1 - Android 6.0.1_r46
+b751dac # 2016-06-08 # Ankit Gupta @ Settings: fix crash when reset App preference
+692cab1 # 2016-06-08 # Nico60 @ Add interpolators to qs tiles animation [2/2]
+b89a70b # 2016-06-08 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/Snap/
 c9b30a5 # 2016-06-07 # Zdrowy Gosciu @ Snap: Focus before shot disabled by default
 
 * Project packages/apps/SoundRecorder/
+700fcdb # 2016-06-07 # Keith Mok @ Stop audio playback/recording in LOSS_TRANSIENT mode
 ee23f8e # 2016-06-07 # Keith Mok @ Set notification to auto clean.
 f128234 # 2016-06-06 # inky@build01 @ Automatic translation import
 
@@ -143,18 +175,34 @@ a27755d # 2016-06-06 # inky@build01 @ Automatic translation import
 09b9135 # 2016-06-06 # inky@build01 @ Automatic translation import
 
 * Project packages/services/Telephony/
-f23103c # 2016-06-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+e03b991 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
 d24e2c9 # 2016-06-07 # Jessica Wagantall @ Merge "Merge tag 'android-6.0.1_r46' into HEAD" into cm-13.0
 2dc2985 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
 e0196cc # 2016-06-06 # inky@build01 @ Automatic translation import
 
 * Project system/bt/
-769caa2 # 2016-06-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+4a65305 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_bt into cm-13.0
 600e1a9 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
 
 * Project system/core/
-8515787 # 2016-06-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+7c8cafd # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
 64caba3 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+
+* Project vendor/cm/
+31a41f5 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+3ab3d0e # 2016-06-07 # Adnan Begovic @ cm: Include CMSettingsProvider in test coverage report.
+64cb3b6 # 2016-06-07 # Adnan Begovic @ cm: Change output html name for cmsdk test coverage.
+
+* Project vendor/cmsdk/
+09c1978 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+19de84c # 2016-06-07 # Diogo Ferreira @ cmsdk: LiveDisplay: Enforce dump permission
+7058902 # 2016-06-07 # Adnan Begovic @ CMSettingsProvider: Add coverage for CMSettings' interfaces.
+8cbdd2a # 2016-06-07 # Adnan Begovic @ CMSettingsProvider: Fix defaults test for DEV_FORCE_SHOW_NAVBAR.
+cf8f5ce # 2016-06-07 # Adnan Begovic @ CMSettingsProvider: Register as CMTS package.
+7a48ce3 # 2016-06-07 # Adnan Begovic @ cmsdk: Add test package to CMTS targets.
+fb0c037 # 2016-06-07 # Adnan Begovic @ cmsdk: Fix redundant case in themes contract's componentToImageColName.
+39f0012 # 2016-06-07 # Adnan Begovic @ cmsdk: Provide themescontract tests.
+c45e01b # 2016-06-06 # inky@build01 @ Automatic translation import
 
 * Project vendor/lge/
 7ec6ce0 # 2016-06-07 # Zdrowy Gosciu @ Revert "g2-common: Update Adreno from adreno_nexus_may2016.zip"

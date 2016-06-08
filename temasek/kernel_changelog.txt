@@ -7,6 +7,8 @@ CHANGES AFTER 2016-06-04 @ 19:45:31 (1465069531)
                  |_____|              
 
 * Project device/lge/g2-common/
+8e782a8 # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: power: Lower max GPU freq at startup
+d896b6f # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: Disable LG Thermal-Engine
 1c083c7 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O scheduler
 2d2a89c # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Remove unused param
 9c69527 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Disable CPU Boost

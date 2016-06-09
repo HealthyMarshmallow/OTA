@@ -7,6 +7,19 @@ CHANGES AFTER 2016-06-04 @ 19:45:31 (1465069531)
                  |_____|              
 
 * Project device/lge/g2-common/
+d06d371 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Enable gentle_fair_sleepers
+abc1635 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Lower FIOPS read_ahead_kb
+09aa877 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Fix MSM Thermal not restoring max freq
+fdf2cc7 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Tune global suspend setup on boot
+7678e37 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Setup 389 MHz max GPU freq at startup
+11b7ef9 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Disable gentle fair sleepers at startup
+5b57443 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Enable sched power saving at startup
+8fbe59b # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Enable ARM ARCH POWER
+bfce28a # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Tweak ondemand GOV
+60276f7 # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: power: Change ondemand io_is_busy to 0
+4377e9b # 2016-06-08 # Park jongheum @ g2-common: init: power: ondemand as default CPU GOV
+48973d0 # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: power: Rebase MSM Thermal config
+ccd594d # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: power: Clean up I/O scheduler setup (go back to FIOPS)
 8e782a8 # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: power: Lower max GPU freq at startup
 d896b6f # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: Disable LG Thermal-Engine
 1c083c7 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O scheduler
@@ -22,6 +35,11 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+a1183a2 # 2016-06-09 # Zdrowy Gosciu @ Version HM 8.3
+e2a4554 # 2016-06-09 # mrg666 @ arm: msm: Disable nohlt debugfs node
+c96274d # 2016-06-09 # Zdrowy Gosciu @ arm: msm: Remove clock-debug
+484e1d5 # 2016-06-09 # mrg666 @ arm: configs: d802: Disable SECURITY_SELINUX_DEVELOP and SECURITY_SELINUX_AVC_STATS
+3427220 # 2016-06-09 # mrg666 @ ARM: msm: disable MSM_SMD_LOGGING
 8ce5acf # 2016-06-07 # Zdrowy Gosciu @ Version HM 8.2
 bdc4dc0 # 2016-06-07 # Saravana Kannan @ PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
 0bf3149 # 2016-06-07 # Zdrowy Gosciu @ devfreq: Don't start Simple GPU Algorithm by default

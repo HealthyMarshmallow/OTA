@@ -7,6 +7,19 @@ CHANGES AFTER 2016-06-04 @ 19:45:31 (1465069531)
                  |_____|              
 
 * Project device/lge/g2-common/
+675ec6f # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Remove power eWQ (2/2)
+0140183 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Moar tweaks (interactive + power eWQ)
+a6b04d8 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O read ahead + disable power eWQ
+fea0d19 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
+7be7662 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Disable GPU underclock
+a0cdfa2 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Disable useless ARM features
+70f020b # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: interactive: Clean up disabled freq
+3c4b0c7 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: interactive: Disable io_is_busy
+8f7c18c # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: interactive as default CPU GOV
+fb081ad # 2016-06-09 # Zdrowy Gosciu @ Revert "g2-common: init: power: Tune global suspend setup on boot"
+4c59c5b # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: MSM Thermal tweak (once again)
+a81d78a # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Use ondenand defaults
+8b868f1 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: MSM Thermal tweak (again)
 d06d371 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Enable gentle_fair_sleepers
 abc1635 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Lower FIOPS read_ahead_kb
 09aa877 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Fix MSM Thermal not restoring max freq
@@ -35,6 +48,34 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+72ae42a # 2016-06-10 # Zdrowy Gosciu @ Version HM 8.5
+b821f17 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues"
+392e415 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: Add system wide power_efficient workqueues"
+55cd145 # 2016-06-10 # Zdrowy Gosciu @ Revert "block: queue work on power efficient wq"
+150bb6b # 2016-06-10 # Zdrowy Gosciu @ Revert "PHYLIB: queue work on system_power_efficient_wq"
+88dc700 # 2016-06-10 # Zdrowy Gosciu @ Revert "ASoC: pcm: Use the power efficient workqueue for delayed powerdown"
+11d2052 # 2016-06-10 # Zdrowy Gosciu @ Revert "regulator: core: Use the power efficient workqueue for delayed powerdown"
+df6e910 # 2016-06-10 # Zdrowy Gosciu @ Revert "ASoC: jack: Use power efficient workqueue"
+f039a01 # 2016-06-10 # Zdrowy Gosciu @ Revert "net/neighbour: queue work on power efficient wq"
+ed57fc6 # 2016-06-10 # Zdrowy Gosciu @ Revert "Power efficient workqueue: Enable by default"
+84f0a6e # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: timekeeping: move clock sync work to power efficient workqueue"
+2479793 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: block: remove WQ_POWER_EFFICIENT from kblockd"
+36a94aa # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: usb: move hub init and LED blink work to power efficient workqueue"
+23d7c41 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: net: rfkill: move poll work to power efficient workqueue"
+f798e73 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: net: wireless: move regulatory timeout work to power efficient workqueue"
+df386cc # 2016-06-09 # Zdrowy Gosciu @ Revert "msm: kgsl: set the correct max_state"
+6ba9483 # 2016-06-09 # Zdrowy Gosciu @ Revert "Introduce Adreno idler for devfreq-based Adreno devices"
+e618b75 # 2016-06-09 # Zdrowy Gosciu @ Revert "PM: devfreq: Use high priority workqueue"
+d022063 # 2016-06-09 # Zdrowy Gosciu @ Revert "PM / devfreq: Check for GPU busy time before sending the sample"
+9681fb7 # 2016-06-09 # Zdrowy Gosciu @ Revert "PM: devfreq: Fix show available freqs"
+237cfeef # 2016-06-09 # Zdrowy Gosciu @ Revert "PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs"
+0deb4a9 # 2016-06-09 # Zdrowy Gosciu @ Revert "msm: kgsl: Bump the GPU frequency for long blocks of processing"
+b728c3b # 2016-06-09 # Zdrowy Gosciu @ Version HM 8.4
+53038d9 # 2016-06-09 # Zdrowy Gosciu @ cpufreq: Lower init policy min freq
+df83c09 # 2016-06-09 # franciscofranco @ cpufreq: Rebase ondemand CPU GOV
+8023f26 # 2016-06-09 # Zdrowy Gosciu @ arm: dts: msm8974: Underclock CPU
+1920891 # 2016-06-09 # Zdrowy Gosciu @ devfreq: Tweak msm-adreno-tz GPU GOV
+9c99435 # 2016-06-09 # Zdrowy Gosciu @ thermal: MSM Thermal: Fix not restoring max freq BUG
 a1183a2 # 2016-06-09 # Zdrowy Gosciu @ Version HM 8.3
 e2a4554 # 2016-06-09 # mrg666 @ arm: msm: Disable nohlt debugfs node
 c96274d # 2016-06-09 # Zdrowy Gosciu @ arm: msm: Remove clock-debug

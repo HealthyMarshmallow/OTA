@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-06-06 @ 20:20:03 (1465244403)
+CHANGES AFTER 2016-06-08 @ 07:13:53 (1465370033)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,202 +7,186 @@ CHANGES AFTER 2016-06-06 @ 20:20:03 (1465244403)
                  |_____|              
 
 * Project OTA/
-9717859 # 2016-06-08 # Zdrowy Gosciu @ OTA: cm-13.0-20160607-214008-UNOFFICIAL-temasek-d802-V9.01
-295602f # 2016-06-07 # Zdrowy Gosciu @ OTA: Temasek ROM: Kernel HM 8.1
-0574374 # 2016-06-06 # Zdrowy Gosciu @ OTA: cm-13.0-20160606-201344-UNOFFICIAL-temasek-d802-V9.0
+185d473 # 2016-06-10 # Zdrowy Gosciu @ OTA: Temasek ROM: Kernel HM 8.5
+4313b59 # 2016-06-09 # Zdrowy Gosciu @ OTA: Temasek ROM: Kernel HM 8.3
+773bccf # 2016-06-08 # Zdrowy Gosciu @ OTA: cm-13.0-20160608-070558-UNOFFICIAL-temasek-d802-V9.1
 
 * Project android/
-3855a89 # 2016-06-08 # Jessica Wagantall @ default.xml: cm: Update to 6.0.1_r46
-3e67e76 # 2016-06-08 # Janson Kang @ Track own CellBroadcastReceiver
+15b78c3 # 2016-06-10 # Joey Rizzoli @ android: add ahbottomnavigation library
+861bda4 # 2016-06-10 # Jessica Wagantall @ default.xml: Move external/libpng to android-6.0.1_r43
 
-* Project build/
-1488c40 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
-9b017f9 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+* Project device/lge/d802/
+76fa140 # 2016-06-10 # Zdrowy Gosciu @ d802: Turbo ROM: Remove persist.sf.lcd_density
+79eb19b # 2016-06-10 # Zdrowy Gosciu @ Revert "d802: Move Gello to device repo"
 
 * Project device/lge/g2-common/
-8e782a8 # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: power: Lower max GPU freq at startup
-d896b6f # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: Disable LG Thermal-Engine
-1c083c7 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O scheduler
-2d2a89c # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Remove unused param
-9c69527 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Disable CPU Boost
-39cdc9e # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Rebase GPU GOVs
-e47ea31 # 2016-06-07 # Zdrowy Gosciu @ g2-common: Rebase LG Thermal Engine config
-0684011 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Lower boost CPUs (MSM Hotplug)
-433c003 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Tweak thermal limits (part III)
-7462c85 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Shorter MSM Hotplug boost
-c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file_min
-503b174 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: Disable adaptive LMK + no need to setup scaling_min_freq at boot
-942aca7 # 2016-06-07 # Zdrowy Gosciu @ g2-common: init: power: Reset boost ms
-7688b90 # 2016-06-06 # Sultanxda @ g2-common: Use gpsOneXTRA time server
+6cdf9e7 # 2016-06-10 # Zdrowy Gosciu @ Revert "g2-common: Move Gello to device repo"
+771be37 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
+9a4c7ab # 2016-06-10 # Zdrowy Gosciu @ Revert "g2-common: Disable fluence for good"
+675ec6f # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Remove power eWQ (2/2)
+0140183 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Moar tweaks (interactive + power eWQ)
+a6b04d8 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O read ahead + disable power eWQ
+fea0d19 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
+7be7662 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Disable GPU underclock
+a0cdfa2 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Disable useless ARM features
+70f020b # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: interactive: Clean up disabled freq
+3c4b0c7 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: interactive: Disable io_is_busy
+8f7c18c # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: interactive as default CPU GOV
+fb081ad # 2016-06-09 # Zdrowy Gosciu @ Revert "g2-common: init: power: Tune global suspend setup on boot"
+4c59c5b # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: MSM Thermal tweak (once again)
+a81d78a # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Use ondenand defaults
+8b868f1 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: MSM Thermal tweak (again)
+d06d371 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Enable gentle_fair_sleepers
+abc1635 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Lower FIOPS read_ahead_kb
+09aa877 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Fix MSM Thermal not restoring max freq
+fdf2cc7 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Tune global suspend setup on boot
+7678e37 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Setup 389 MHz max GPU freq at startup
+11b7ef9 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Disable gentle fair sleepers at startup
+5b57443 # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Enable sched power saving at startup
+8fbe59b # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Enable ARM ARCH POWER
+bfce28a # 2016-06-09 # Zdrowy Gosciu @ g2-common: init: power: Tweak ondemand GOV
+60276f7 # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: power: Change ondemand io_is_busy to 0
+4377e9b # 2016-06-08 # Park jongheum @ g2-common: init: power: ondemand as default CPU GOV
+48973d0 # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: power: Rebase MSM Thermal config
+ccd594d # 2016-06-08 # Zdrowy Gosciu @ g2-common: init: power: Clean up I/O scheduler setup (go back to FIOPS)
+be328e3 # 2016-06-08 # Zdrowy Gosciu @ g2-common: Enable STATE_DOZE and STATE_DOZE_SUSPEND support
+494cecb # 2016-06-08 # Park jongheum @ g2-common: Rebase power profile
+adf7523 # 2016-06-08 # Park jongheum @ g2-common: configs: Increase speaker volume from Stock F320Kv30H
 
-* Project external/libvpx/
-2246e67 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+* Project device/qcom/common/
+97aa119 # 2016-06-09 # Steve Kondik @ power-8992: Remove extraneous boosting
+ad90ded # 2016-06-08 # Zhao Wei Liew @ power: Use declared enums where possible
+
+* Project external/ahbottomnavigation/
+db5dd34 # 2016-06-09 # Aurelien Hubert @ Updated Readme & changelog
+27658ee # 2016-06-09 # Aurelien Hubert @ Updated versions
+5c90357 # 2016-06-09 # Aurelien Hubert @ Updated Demo
+27ca79e # 2016-06-09 # Aurelien Hubert @ Added constructor Added annotations for parameters
+3fa8147 # 2016-06-09 # Aurelien Hubert @ Improved callback to update or not the UI when a tab is selected
+f1a367d # 2016-06-09 # Aurelien Hubert @ Added elevation for bottom navigation layouts
+d25c076 # 2016-06-09 # Aurelien Hubert @ Increased gradle version
+a492a57 # 2016-06-09 # Aurelien Hubert @ Added notification elevation
+ba96907 # 2016-06-09 # Flavius Popescu @ Notification animates margin top in order to stick to the tab icon
+2745251 # 2016-06-09 # Aurelien Hubert @ Added setSelected() for item icon
+98bac94 # 2016-06-09 # Aurelien Hubert @ Improved Demo project (added animations)
+
+* Project external/skia/
+b632abe # 2016-06-09 # Ricardo Cerqueira @ skia: qc-perf: link against libqc-opt for msm8937/17/53
 
 * Project frameworks/av/
-3ffb2c1 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
-fdc7d1f # 2016-06-07 # Jessica Wagantall @ Fixing ALOGE message in commit ad40e57890f81a3cf436c5f06da66396010bd9e5
-b3fbce1 # 2016-06-07 # Tom Marshall @ MtpServer: Fix concurrent access to mStorages
-9bdc0f6 # 2016-06-07 # Tom Marshall @ MTP: Fix crash when no storages are available
-80c362f # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+39d3ed8 # 2016-06-09 # Marco Nelissen @ Fix undefined behavior
 
 * Project frameworks/base/
-627453d # 2016-06-08 # Nico60 @ Add interpolators to qs tiles animation [1/2]
-9283356 # 2016-06-08 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
-369147b # 2016-06-08 # Diogo Ferreira @ systemui: Fix compilation failure
-b13f247 # 2016-06-08 # Michael W @ isRoaming: fix possible NPE
-ff66d59 # 2016-06-08 # Adnan Begovic @ SystemUI: Add support for persistent usb drive notification.
+a00c9d4 # 2016-06-10 # Wilhelm Fitzpatrick @ Framework: allow ResolverActivity to be specialized from other package
+ff040be # 2016-06-10 # Janson Kang @ Revert "keyguard: SIM Display Name is now a config"
+8b42af4 # 2016-06-10 # Marcos Marado @ keyguard: SIM Display Name is now a config
 
-* Project frameworks/native/
-0f53fc6 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
-508eb77 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+* Project frameworks/opt/telephony/
+bb90cc3 # 2016-06-09 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+
+* Project hardware/qcom/media-caf/msm8974/
+ca99059 # 2016-06-08 # Praveen Chavan @ mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+eac7fd0 # 2016-06-08 # Praveen Chavan @ mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
 
 * Project hardware/qcom/media/default/
-e824046 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+487da6e # 2016-06-08 # Praveen Chavan @ mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+f0fb3c9 # 2016-06-08 # Praveen Chavan @ mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
 
 * Project kernel/lge/msm8974/
-8ce5acf # 2016-06-07 # Zdrowy Gosciu @ Version HM 8.2
-bdc4dc0 # 2016-06-07 # Saravana Kannan @ PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
-0bf3149 # 2016-06-07 # Zdrowy Gosciu @ devfreq: Don't start Simple GPU Algorithm by default
-339f2fb # 2016-06-07 # Zdrowy Gosciu @ Revert "arm: dts: msm8974-lge-panel: Enable ULPS"
-c1eb8a5 # 2016-06-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-d9713d2 # 2016-06-07 # Mark Salyzyn @ net: wireless: bcmdhd: Verify SSID length (part deux)
-1682f92 # 2016-06-07 # Jerry Lee @ net: wireless: bcmdhd: Verify SSID length
-e7a34dc # 2016-06-07 # Ravi Kumar Alamanda @ ASoC: msm: audio-effects: fix stack overread and heap overwrite
-be116f5 # 2016-06-07 # Suman Mukherjee @ msm: camera: ispif: Validate VFE num input during reset
-970432a # 2016-06-07 # vivek mehta @ ASoC: msm: disable unwanted module
-e16a1fd # 2016-06-07 # Jerry Lee @ net: wireless: bcmdhd: check privilege on priv cmd
-d74cab5 # 2016-06-07 # Rajesh Kemisetti @ msm: kgsl: Add missing checks for alloc size and sglen
-33bf48c # 2016-06-07 # Ethan Chen @ msm: camera: Place camera firmware in a sane location
-1c2f934 # 2016-06-07 # Dan Pasanen @ drivers: mmc: Disable lpm_sup on G2 open com if needed
-a941a49 # 2016-06-07 # Zdrowy Gosciu @ arm: dts: msm8974-lge-panel: Enable ULPS
-8767486 # 2016-06-07 # Zdrowy Gosciu @ Revert "Revert "ARM: dts: msm: update 28nm DSI PHY regulator settings""
-ee78e61 # 2016-06-07 # Zdrowy Gosciu @ Revert "Revert "ARM: dts: msm: update the DSI PHY lane configuration settings""
-da751d7 # 2016-06-07 # Zdrowy Gosciu @ Revert "Revert "arm: dts: Reduce i2c clock rate to 19.2 MHz""
-08eea28 # 2016-06-07 # Zdrowy Gosciu @ Revert "Revert "ARM: dts: msm: i2c: change  clock rate to 19.2 MHz""
-daf9b8a # 2016-06-07 # Tyler Dunn @ ARM: dts: msm: Update adsp heap memory size
-a2507a1 # 2016-06-07 # Adrian Salido-Moreno @ msm: mdss: fix possible out-of-bounds and overflow issue in mdp debugfs
-f0b8266 # 2016-06-07 # Zdrowy Gosciu @ Version HM 8.1
-cd181f7 # 2016-06-07 # Zdrowy Gosciu @ cpufreq: Build SmartMAX
-ba4819b # 2016-06-07 # Zachariah @ SmartMAX: Tune for G2!!
-3323f49 # 2016-06-07 # andip71 @ cpufreq: Introduce SmartMAX
-eeb1408 # 2016-06-07 # Zdrowy Gosciu @ arm: configs: d802: Set default TCP CONG to westwood
-da67e8a # 2016-06-07 # ejjohnson1999 @ sound: dolby_dap: Kill some logspam
-688a9be # 2016-06-07 # ejjohnson1999 @ irq: Remove IRQ no longer affine to CPU logspam
-ebc1ef0 # 2016-06-07 # ejjohnson1999 @ increase pet and bark time
-c02b8c9 # 2016-06-07 # Zdrowy Gosciu @ cpufreq: interactive: Back to previous version
-81abc2e # 2016-06-07 # Zdrowy Gosciu @ Revert "ARM: dts: msm: i2c: change  clock rate to 19.2 MHz"
-424133a # 2016-06-07 # Zdrowy Gosciu @ Revert "arm: dts: Reduce i2c clock rate to 19.2 MHz"
-618a742 # 2016-06-07 # Zdrowy Gosciu @ Revert "ARM: dts: msm: update the DSI PHY lane configuration settings"
-d57b376 # 2016-06-07 # Zdrowy Gosciu @ Revert "ARM: dts: msm: update 28nm DSI PHY regulator settings"
-6a8d60f # 2016-06-07 # Zdrowy Gosciu @ Version HM 8.0
-c6d376a # 2016-06-07 # Zdrowy Gosciu @ GPU: Add 27MHz Freq Step
-d1b7430 # 2016-06-07 # Loller79 @ /dev/frandom Support
-c4461b8 # 2016-06-07 # franciscofranco @ FSync On/Off
-59562fb # 2016-06-07 # 777jon @ cpufreq: enforce stock max frequency on boot
-cd76ddb # 2016-06-07 # Zdrowy Gosciu @ mmc: clk_scaling: Set scale_down_in_low_wr_load to true
-1579d42 # 2016-06-07 # Sultanxda @ mmc: clk_scaling: Fix scale_down_in_low_wr_load sysfs return value
-5fdf7c0 # 2016-06-07 # Talel Shenhar @ mmc: clk_scaling: add sysfs for avoiding scale down in write
+72ae42a # 2016-06-10 # Zdrowy Gosciu @ Version HM 8.5
+b821f17 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues"
+392e415 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: Add system wide power_efficient workqueues"
+55cd145 # 2016-06-10 # Zdrowy Gosciu @ Revert "block: queue work on power efficient wq"
+150bb6b # 2016-06-10 # Zdrowy Gosciu @ Revert "PHYLIB: queue work on system_power_efficient_wq"
+88dc700 # 2016-06-10 # Zdrowy Gosciu @ Revert "ASoC: pcm: Use the power efficient workqueue for delayed powerdown"
+11d2052 # 2016-06-10 # Zdrowy Gosciu @ Revert "regulator: core: Use the power efficient workqueue for delayed powerdown"
+df6e910 # 2016-06-10 # Zdrowy Gosciu @ Revert "ASoC: jack: Use power efficient workqueue"
+f039a01 # 2016-06-10 # Zdrowy Gosciu @ Revert "net/neighbour: queue work on power efficient wq"
+ed57fc6 # 2016-06-10 # Zdrowy Gosciu @ Revert "Power efficient workqueue: Enable by default"
+84f0a6e # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: timekeeping: move clock sync work to power efficient workqueue"
+2479793 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: block: remove WQ_POWER_EFFICIENT from kblockd"
+36a94aa # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: usb: move hub init and LED blink work to power efficient workqueue"
+23d7c41 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: net: rfkill: move poll work to power efficient workqueue"
+f798e73 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: net: wireless: move regulatory timeout work to power efficient workqueue"
+df386cc # 2016-06-09 # Zdrowy Gosciu @ Revert "msm: kgsl: set the correct max_state"
+6ba9483 # 2016-06-09 # Zdrowy Gosciu @ Revert "Introduce Adreno idler for devfreq-based Adreno devices"
+e618b75 # 2016-06-09 # Zdrowy Gosciu @ Revert "PM: devfreq: Use high priority workqueue"
+d022063 # 2016-06-09 # Zdrowy Gosciu @ Revert "PM / devfreq: Check for GPU busy time before sending the sample"
+9681fb7 # 2016-06-09 # Zdrowy Gosciu @ Revert "PM: devfreq: Fix show available freqs"
+237cfeef # 2016-06-09 # Zdrowy Gosciu @ Revert "PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs"
+0deb4a9 # 2016-06-09 # Zdrowy Gosciu @ Revert "msm: kgsl: Bump the GPU frequency for long blocks of processing"
+b728c3b # 2016-06-09 # Zdrowy Gosciu @ Version HM 8.4
+53038d9 # 2016-06-09 # Zdrowy Gosciu @ cpufreq: Lower init policy min freq
+df83c09 # 2016-06-09 # franciscofranco @ cpufreq: Rebase ondemand CPU GOV
+8023f26 # 2016-06-09 # Zdrowy Gosciu @ arm: dts: msm8974: Underclock CPU
+1920891 # 2016-06-09 # Zdrowy Gosciu @ devfreq: Tweak msm-adreno-tz GPU GOV
+9c99435 # 2016-06-09 # Zdrowy Gosciu @ thermal: MSM Thermal: Fix not restoring max freq BUG
+a1183a2 # 2016-06-09 # Zdrowy Gosciu @ Version HM 8.3
+e2a4554 # 2016-06-09 # mrg666 @ arm: msm: Disable nohlt debugfs node
+c96274d # 2016-06-09 # Zdrowy Gosciu @ arm: msm: Remove clock-debug
+484e1d5 # 2016-06-09 # mrg666 @ arm: configs: d802: Disable SECURITY_SELINUX_DEVELOP and SECURITY_SELINUX_AVC_STATS
+3427220 # 2016-06-09 # mrg666 @ ARM: msm: disable MSM_SMD_LOGGING
 
-* Project packages/apps/Bluetooth/
-f403fdd # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-ef133b1 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+* Project packages/apps/CMFileManager/
+bb9e0c5 # 2016-06-09 # d34d @ Invalidate preferences headers when resuming
+f86cee7 # 2016-06-08 # Keith Mok @ Check if view is inited when screen rotated
 
-* Project packages/apps/BluetoothExt/
-8b8eb2f # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_BluetoothExt into cm-13.0
-559f783 # 2016-06-06 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/CMBugReport/
-1ed8ff0 # 2016-06-06 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Calendar/
-bcc87f9 # 2016-06-06 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/CellBroadcastReceiver/
-12d0366 # 2016-06-08 # Janson Kang @ Revert "Do not let system keys bypass alert"
-f54de60 # 2016-06-07 # Eddy Witkamp @ fix Dutch translation - On vs Off
-6134363 # 2016-06-06 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/ContactsCommon/
-26fe569 # 2016-06-06 # inky@build01 @ Automatic translation import
+* Project packages/apps/Contacts/
+aa24ca6 # 2016-06-08 # Ankit Gupta @ Contacts : Remove silent option from ringtone
 
 * Project packages/apps/Dialer/
-4f006e8 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-fd13175 # 2016-06-06 # inky@build01 @ Automatic translation import
+1db73a8 # 2016-06-10 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+49ee037 # 2016-06-09 # pinky@build01 @ Automatic translation import
+209c67b # 2016-06-09 # NathanielWaggoner @ Performance tweaks for DeepLinkCache and icon retrieval.
+860a9a9 # 2016-06-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+52cab04 # 2016-06-08 # Stephen Bird @ Nudges: Move roaming nudge logic to wifi listener
+6a2124a # 2016-06-08 # Raj Yengisetty @ Initialize ContactsTile loader in SpeedDialFragment onStart
 
 * Project packages/apps/Gello/
-93e2820 # 2016-06-06 # inky@build01 @ Automatic translation import
+e6b6219 # 2016-06-09 # pinky@build01 @ Automatic translation import
 
-* Project packages/apps/InCallUI/
-5817b88 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-7ce8323 # 2016-06-07 # inky@build01 @ Automatic translation import
-919274a # 2016-06-07 # Michael W @ InCallUI: Fix possible OOBs
-8ce4db2 # 2016-06-07 # Danny Baumann @ Fix appearance of auxiliary circles in GlowPadView.
+* Project packages/apps/KernelAdiutor/
+ff59597 # 2016-06-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
+2a95ed4 # 2016-06-09 # Yoinx @ AutoHBM: Fix smoothing algorithm. Fix Sensor Read breaking after screen off.
+91f2e2b # 2016-06-09 # Yoinx @ Downloads.json: Can't have a vendor without a device list. Not sure how these got here.
+2776e75 # 2016-06-09 # Yoinx @ Control: Check for nulls in the run command as well.
+4adb161 # 2016-06-09 # Yoinx @ Control: This needs to be checking null reference objects... String.equals() crashes when comparing against null references.
+e8226cb # 2016-06-09 # Zdrowy Gosciu @ Merge remote-tracking branch 'desolation/mm6.0' into mm
+b0963e8 # 2016-06-08 # Jacob McSwain @ Update ROM AndroidManifest.xml
+dce6ba7 # 2016-06-08 # Jacob McSwain @ Merge https://github.com/yoinx/kernel_adiutor into mm6.0
 
 * Project packages/apps/Messaging/
-4a0efca # 2016-06-06 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/PackageInstaller/
-55d4c1e # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_packages_apps_PackageInstaller into cm-13.0
-b277701 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
-
-* Project packages/apps/PhoneCommon/
-8e21a14 # 2016-06-06 # inky@build01 @ Automatic translation import
+5203455 # 2016-06-09 # pinky@build01 @ Automatic translation import
+b3585c8 # 2016-06-08 # Ricardo Cerqueira @ PhoneUtils: Doublecheck that the system default is actually usable
+ca8ed52 # 2016-06-08 # Roman Birg @ Messaging: fix multi participant "always-ask" MSIM flow
 
 * Project packages/apps/Screencast/
-f934b05 # 2016-06-06 # inky@build01 @ Automatic translation import
+3de1b3f # 2016-06-09 # pinky@build01 @ Automatic translation import
 
 * Project packages/apps/Settings/
-2144ff6 # 2016-06-08 # Janson Kang @ Build V9.1 - Android 6.0.1_r46
-b751dac # 2016-06-08 # Ankit Gupta @ Settings: fix crash when reset App preference
-692cab1 # 2016-06-08 # Nico60 @ Add interpolators to qs tiles animation [2/2]
-b89a70b # 2016-06-08 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Snap/
-c9b30a5 # 2016-06-07 # Zdrowy Gosciu @ Snap: Focus before shot disabled by default
-
-* Project packages/apps/SoundRecorder/
-700fcdb # 2016-06-07 # Keith Mok @ Stop audio playback/recording in LOSS_TRANSIENT mode
-ee23f8e # 2016-06-07 # Keith Mok @ Set notification to auto clean.
-f128234 # 2016-06-06 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/ThemeChooser/
-b95194d # 2016-06-06 # inky@build01 @ Automatic translation import
+910f596 # 2016-06-10 # pinky@build01 @ Automatic translation import
+eea5800 # 2016-06-09 # Artem Shvadskiy @ Use child fragment manager for nested dialog fragment
+dd9276d # 2016-06-09 # Roman Birg @ Settings: use subid & imsi for MSIM apn lookups
+a9fbd69 # 2016-06-09 # Janson Kang @ Revert "Fix cannot build prefer or restore APN for Secondary SIM/Sub."
 
 * Project packages/providers/DataUsageProvider/
-a27755d # 2016-06-06 # inky@build01 @ Automatic translation import
+ad02907 # 2016-06-09 # pinky@build01 @ Automatic translation import
 
-* Project packages/providers/WeatherProvider/
-09b9135 # 2016-06-06 # inky@build01 @ Automatic translation import
+* Project packages/providers/TelephonyProvider/
+c3b4d6b # 2016-06-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
 
 * Project packages/services/Telephony/
-e03b991 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-d24e2c9 # 2016-06-07 # Jessica Wagantall @ Merge "Merge tag 'android-6.0.1_r46' into HEAD" into cm-13.0
-2dc2985 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
-e0196cc # 2016-06-06 # inky@build01 @ Automatic translation import
-
-* Project system/bt/
-4a65305 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_bt into cm-13.0
-600e1a9 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
-
-* Project system/core/
-7c8cafd # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
-64caba3 # 2016-06-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r46' into HEAD
+7646832 # 2016-06-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
 
 * Project vendor/cm/
-31a41f5 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-3ab3d0e # 2016-06-07 # Adnan Begovic @ cm: Include CMSettingsProvider in test coverage report.
-64cb3b6 # 2016-06-07 # Adnan Begovic @ cm: Change output html name for cmsdk test coverage.
+88a9d74 # 2016-06-09 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+0c86291 # 2016-06-08 # Abhisek Devkota @ Gello: Update to v20 artifact
 
 * Project vendor/cmsdk/
-09c1978 # 2016-06-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-19de84c # 2016-06-07 # Diogo Ferreira @ cmsdk: LiveDisplay: Enforce dump permission
-7058902 # 2016-06-07 # Adnan Begovic @ CMSettingsProvider: Add coverage for CMSettings' interfaces.
-8cbdd2a # 2016-06-07 # Adnan Begovic @ CMSettingsProvider: Fix defaults test for DEV_FORCE_SHOW_NAVBAR.
-cf8f5ce # 2016-06-07 # Adnan Begovic @ CMSettingsProvider: Register as CMTS package.
-7a48ce3 # 2016-06-07 # Adnan Begovic @ cmsdk: Add test package to CMTS targets.
-fb0c037 # 2016-06-07 # Adnan Begovic @ cmsdk: Fix redundant case in themes contract's componentToImageColName.
-39f0012 # 2016-06-07 # Adnan Begovic @ cmsdk: Provide themescontract tests.
-c45e01b # 2016-06-06 # inky@build01 @ Automatic translation import
-
-* Project vendor/lge/
-7ec6ce0 # 2016-06-07 # Zdrowy Gosciu @ Revert "g2-common: Update Adreno from adreno_nexus_may2016.zip"
+67784b7 # 2016-06-10 # Janson Kang @ Revert "Keyguard: Get your weather on... the lock screen [2/3]"
+82d88e1 # 2016-06-10 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+fda1fc6 # 2016-06-09 # Adnan Begovic @ cmsdk: Provide coverage for serial number and unique device id.
+b6a21ca # 2016-06-09 # d34d @ Keyguard: Get your weather on... the lock screen [2/3]
+5b66380 # 2016-06-09 # Roman Birg @ CMSettingsProvider: load provisioned flag when creating DB
+6edcf4c # 2016-06-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+aa1f592 # 2016-06-08 # Luis Vidal @ Ensures ProfileTrustAgent properly grants/revokes trust [2/2]

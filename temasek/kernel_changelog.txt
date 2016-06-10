@@ -7,6 +7,7 @@ CHANGES AFTER 2016-06-04 @ 19:45:31 (1465069531)
                  |_____|              
 
 * Project device/lge/g2-common/
+771be37 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
 675ec6f # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Remove power eWQ (2/2)
 0140183 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Moar tweaks (interactive + power eWQ)
 a6b04d8 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O read ahead + disable power eWQ

@@ -49,6 +49,14 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+c9cec65 # 2016-06-11 # Zdrowy Gosciu @ Version HM 8.7
+e752eb0 # 2016-06-10 # Zdrowy Gosciu @ Revert "thermal: MSM Thermal: Fix not restoring max freq BUG"
+c285b0a # 2016-06-10 # Zdrowy Gosciu @ Revert "cpufreq: set policy max properly"
+3d17b69 # 2016-06-10 # Zdrowy Gosciu @ Revert "Make thermal engine play nice --Imoseyon--"
+70446a7 # 2016-06-10 # Zdrowy Gosciu @ Revert "cpufreq: force cpuN policy to match cpu0 when changing freq or gov"
+1de21f8 # 2016-06-10 # Zdrowy Gosciu @ Revert "cpufreq: Fix cores not restoring saved frequencies after replugging"
+97874d3 # 2016-06-10 # Zdrowy Gosciu @ Version HM 8.6
+bd9c68b # 2016-06-10 # Zdrowy Gosciu @ Revert "arm: configs: d802: Disable SECURITY_SELINUX_DEVELOP and SECURITY_SELINUX_AVC_STATS"
 72ae42a # 2016-06-10 # Zdrowy Gosciu @ Version HM 8.5
 b821f17 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues"
 392e415 # 2016-06-10 # Zdrowy Gosciu @ Revert "workqueue: Add system wide power_efficient workqueues"

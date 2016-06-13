@@ -7,6 +7,8 @@ CHANGES AFTER 2016-06-04 @ 19:45:31 (1465069531)
                  |_____|              
 
 * Project device/lge/g2-common/
+68266b2 # 2016-06-13 # Zdrowy Gosciu @ g2-common: init: power: Less agressive interactive GOV
+6b1a278 # 2016-06-13 # Zdrowy Gosciu @ g2-common: init: power: Rebase interactive GOV setup
 771be37 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
 675ec6f # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Remove power eWQ (2/2)
 0140183 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Moar tweaks (interactive + power eWQ)
@@ -49,6 +51,8 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+9dc419a # 2016-06-13 # Zdrowy Gosciu @ Version HM 8.8
+a58d399 # 2016-06-13 # Taniya Das @ cpufreq: Always allow update of user policy
 c9cec65 # 2016-06-11 # Zdrowy Gosciu @ Version HM 8.7
 e752eb0 # 2016-06-10 # Zdrowy Gosciu @ Revert "thermal: MSM Thermal: Fix not restoring max freq BUG"
 c285b0a # 2016-06-10 # Zdrowy Gosciu @ Revert "cpufreq: set policy max properly"

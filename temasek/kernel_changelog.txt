@@ -7,6 +7,7 @@ CHANGES AFTER 2016-06-04 @ 19:45:31 (1465069531)
                  |_____|              
 
 * Project device/lge/g2-common/
+13519b3 # 2016-06-14 # Zdrowy Gosciu @ g2-common: init: power: Clean up unused code + setup GOV/I-O scheduler
 68266b2 # 2016-06-13 # Zdrowy Gosciu @ g2-common: init: power: Less agressive interactive GOV
 6b1a278 # 2016-06-13 # Zdrowy Gosciu @ g2-common: init: power: Rebase interactive GOV setup
 771be37 # 2016-06-10 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
@@ -51,6 +52,28 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+6ac6301 # 2016-06-14 # Zdrowy Gosciu @ Version HM 8.9
+2e87869 # 2016-06-14 # Zdrowy Gosciu @ msm_thermal: Increase log level
+963b2b0 # 2016-06-14 # Gupta, Kapil @ wlan: Fix memory leak issue
+ed6e8e9 # 2016-06-14 # Zdrowy Gosciu @ Revert "msm_thermal: when we restore the original limits use the norm_min freq from mpdecision inputboost"
+d532e6d # 2016-06-14 # Zdrowy Gosciu @ Revert "Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers"
+5717415 # 2016-06-14 # Sultanxda @ PM / devfreq: Remove unstable/unused governors
+6ee0649 # 2016-06-14 # Lucille Sylvester @ msm: kgsl: Bump the GPU frequency for long blocks of processing
+e020424 # 2016-06-14 # Saravana Kannan @ PM / devfreq: governor_bw_hwmon: Add suspend/resume support
+6e78299 # 2016-06-14 # Saravana Kannan @ PM / devfreq: bw_hwmon: Move IRQ handling to device specific drivers
+c1a94b8 # 2016-06-14 # Saravana Kannan @ PM / devfreq: Refactor CPUBW HWmon governor to be more generic
+c0b4599 # 2016-06-14 # Saravana Kannan @ PM / devfreq: Add cache HW monitor governor
+1be284b # 2016-06-14 # Suman Tatiraju @ PM / devfreq: Check for GPU busy time before sending the sample
+f7bef0d # 2016-06-14 # Saravana Kannan @ devfreq: Make cpubw_hwmon governor reusable and hardware agnostic
+0f45f32 # 2016-06-14 # Saravana Kannan @ PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
+36ecbb7 # 2016-06-14 # Suman Tatiraju @ msm: kgsl: set the correct max_state
+ee7fc3e # 2016-06-14 # myfluxi @ PM: devfreq: Use high priority workqueue
+0e50f4b # 2016-06-14 # Zdrowy Gosciu @ devfreq: simple_ondemand: Rebase
+ee22f35 # 2016-06-14 # myfluxi @ PM: devfreq: Always reflect a change of polling interval
+60e23c1 # 2016-06-14 # myfluxi @ PM: devfreq: Fix show available freqs
+2d33dec # 2016-06-14 # myfluxi @ block: deadline: Optimize for non-rotational
+9b0f968 # 2016-06-14 # xiaobing tu @ deadline: Allow 0ms deadline latency, increase the read speed
+1bf4a98 # 2016-06-14 # Zdrowy Gosciu @ Revert "cpufreq: Always allow update of user policy"
 9dc419a # 2016-06-13 # Zdrowy Gosciu @ Version HM 8.8
 a58d399 # 2016-06-13 # Taniya Das @ cpufreq: Always allow update of user policy
 c9cec65 # 2016-06-11 # Zdrowy Gosciu @ Version HM 8.7

@@ -7,6 +7,7 @@ CHANGES AFTER 2016-06-04 @ 19:45:31 (1465069531)
                  |_____|              
 
 * Project device/lge/g2-common/
+3129cac # 2016-06-15 # Zdrowy Gosciu @ g2-common: init: power: MSM Thermal: Relax poll time
 13519b3 # 2016-06-14 # Zdrowy Gosciu @ g2-common: init: power: Clean up unused code + setup GOV/I-O scheduler
 68266b2 # 2016-06-13 # Zdrowy Gosciu @ g2-common: init: power: Less agressive interactive GOV
 6b1a278 # 2016-06-13 # Zdrowy Gosciu @ g2-common: init: power: Rebase interactive GOV setup
@@ -52,6 +53,17 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+4dafdb9 # 2016-06-15 # Zdrowy Gosciu @ Version HM 9.0
+0cd8fd7 # 2016-06-15 # Zdrowy Gosciu @ msm_thermal: Rebase low thermal throttle end
+f4dc9fa # 2016-06-15 # Zdrowy Gosciu @ msm_thermal: Remove useless stats
+bfc68ef # 2016-06-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+807dada # 2016-06-15 # Al Viro @ net: validate the range we feed to iov_iter_init() in sys_sendto/sys_recvfrom
+a88a6dc # 2016-06-15 # Eric W. Biederman @ mnt: Fail collect_mounts when applied to unmounted mounts
+b945ced # 2016-06-15 # Dan Carpenter @ KEYS: potential uninitialized variable
+d8a1c62 # 2016-06-15 # Zdrowy Gosciu @ cpufreq: dancedance: Remove get_cpu_idle_time references
+f8dbc9f # 2016-06-15 # Snuzzo @ cpufreq: Introduce DanceDance
+52bc093 # 2016-06-15 # Snuzzo @ random: Increase entropy wakeup thresholds
+4625c55 # 2016-06-15 # Hendrik Hagendorn @ arm: configs: g2: Enable CFG80211_ALLOW_RECONNECT
 8a46374 # 2016-06-14 # Zdrowy Gosciu @ Version HM 8.999
 51531cb # 2016-06-14 # Zdrowy Gosciu @ msm_thermal: Enable moar logs
 4ac5d8e # 2016-06-14 # Zdrowy Gosciu @ Revert "linux: blkdev: disable add random"

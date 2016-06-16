@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-06-10 @ 08:31:01 (1465547461)
+CHANGES AFTER 2016-06-13 @ 16:37:43 (1465835863)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,94 +6,195 @@ CHANGES AFTER 2016-06-10 @ 08:31:01 (1465547461)
            |_____|___  |______|______|
                  |_____|              
 
-* Project /
-0000000 # 2016-06-13 # Zdrowy Gosciu @ prebuilt: Update F-Droid to version 0.100
-
 * Project OTA/
-e6c2952 # 2016-06-13 # Zdrowy Gosciu @ OTA: Temasek ROM: Kernel HM 8.7
-76be5ca # 2016-06-10 # Zdrowy Gosciu @ OTA: cm-13.0-20160610-081855-UNOFFICIAL-temasek-d802-V9.1
+84967ec # 2016-06-16 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 9.1
+c561928 # 2016-06-15 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 9.0
+a26a212 # 2016-06-14 # Zdrowy Gosciu @ OTA: Temasek: Use direct link to kernel
+4408f5a # 2016-06-14 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 8.999
+e070504 # 2016-06-14 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 8.9
+770d47c # 2016-06-13 # Zdrowy Gosciu @ OTA: cm-13.0-20160613-162934-UNOFFICIAL-temasek-d802-V9.2
 
-* Project art/
-c560387 # 2016-06-11 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_art into cm-13.0
+* Project android/
+cf46643 # 2016-06-14 # Adnan Begovic @ default: Add cmsdk-api-coverage tool to manifest.
+
+* Project build/
+9a87b0b # 2016-06-16 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+8019126 # 2016-06-15 # Ricardo Cerqueira @ Conditionally skip dex-preopting specific prebuilts.
+
+* Project device/lge/d802/
+8892320 # 2016-06-14 # Zyg0te @ d802: Improved boot animation performance
 
 * Project device/lge/g2-common/
-68266b2 # 2016-06-13 # Zdrowy Gosciu @ g2-common: init: power: Less agressive interactive GOV
-6b1a278 # 2016-06-13 # Zdrowy Gosciu @ g2-common: init: power: Rebase interactive GOV setup
+3129cac # 2016-06-15 # Zdrowy Gosciu @ g2-common: init: power: MSM Thermal: Relax poll time
+003fae3 # 2016-06-14 # Kendrick Vargas @ Revert "g2: Force 1080p photo preview"
+13519b3 # 2016-06-14 # Zdrowy Gosciu @ g2-common: init: power: Clean up unused code + setup GOV/I-O scheduler
 
-* Project device/qcom/common/
-9e9693e # 2016-06-10 # Ethan Chen @ power: msm8952: process_video_encode_hint returns void
-
-* Project frameworks/av/
-96b711a # 2016-06-11 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
+* Project external/cmsdk-api-coverage/
+c281622 # 2016-06-13 # Adnan Begovic @ cmsdk-api-coverage: Actually use the cmsdk-api-coverage jar.
+8ebfd3c # 2016-06-13 # Adnan Begovic @ cmsdk-api-coverage: initial fork of cts-api-coverage.
 
 * Project frameworks/base/
-3bcaa55 # 2016-06-13 # Soi, Yoshinari @ When the device boots up, netd works more than required
-b026896 # 2016-06-13 # LorDClockaN @ Fix a glitch causing shadow not to be reset when header disabled
-b4480fb # 2016-06-11 # Roman Birg @ Revert "base: start nfc service prior to systemui"
-27b436a # 2016-06-11 # Roman Birg @ SystemUI: fix NFC tile sometimes hiding
-7cc1ad1 # 2016-06-11 # Tom Marshall @ UsbDeviceManager: Remove charging from persisted function composition
+cdaac46 # 2016-06-15 # FahimHossain @ SystemUI : grey out heads-up and floating windows tile when off
+f407b67 # 2016-06-15 # LorD ClockaN @ SystemUI: fix one more misbehaving shadow
+524c62a # 2016-06-15 # d34d @ SysUI: Don't let rogue themes ruin notifications
+63a9ab8 # 2016-06-15 # Bryan Owens @ Themes: Expose Power Dialogs
+f870dd5 # 2016-06-15 # Danesh M @ DocumentsUI : Hide advanced menu option when in forced mode
+
+* Project hardware/qcom/bt-caf/
+e024328 # 2016-06-14 # Steve Kondik @ Merge branch 'bt.lnx.1.0.c1-rel' of git://codeaurora.org/platform/hardware/qcom/bt into HEAD
+
+* Project hardware/qcom/wlan-caf/
+b1243a0 # 2016-06-15 # Anand N Sunkad @ wcnss_service: Migrate from QMI to QCCI
+e81bc90 # 2016-06-14 # Steve Kondik @ Merge branch 'wlan-aosp.lnx.1.0.c1-rel' of git://codeaurora.org/platform/hardware/qcom/wlan into cm-13.0
 
 * Project kernel/lge/msm8974/
-9dc419a # 2016-06-13 # Zdrowy Gosciu @ Version HM 8.8
-a58d399 # 2016-06-13 # Taniya Das @ cpufreq: Always allow update of user policy
-c9cec65 # 2016-06-11 # Zdrowy Gosciu @ Version HM 8.7
-e752eb0 # 2016-06-10 # Zdrowy Gosciu @ Revert "thermal: MSM Thermal: Fix not restoring max freq BUG"
-c285b0a # 2016-06-10 # Zdrowy Gosciu @ Revert "cpufreq: set policy max properly"
-3d17b69 # 2016-06-10 # Zdrowy Gosciu @ Revert "Make thermal engine play nice --Imoseyon--"
-70446a7 # 2016-06-10 # Zdrowy Gosciu @ Revert "cpufreq: force cpuN policy to match cpu0 when changing freq or gov"
-1de21f8 # 2016-06-10 # Zdrowy Gosciu @ Revert "cpufreq: Fix cores not restoring saved frequencies after replugging"
-97874d3 # 2016-06-10 # Zdrowy Gosciu @ Version HM 8.6
-bd9c68b # 2016-06-10 # Zdrowy Gosciu @ Revert "arm: configs: d802: Disable SECURITY_SELINUX_DEVELOP and SECURITY_SELINUX_AVC_STATS"
+c92cc76 # 2016-06-16 # Zdrowy Gosciu @ Version HM 9.111
+3a5c626 # 2016-06-16 # Zdrowy Gosciu @ Revert "random: Increase entropy wakeup thresholds"
+eb7dbcc # 2016-06-16 # Sunil Khatri @ msm: kgsl: Cast perfcounter query count to an unsigned int
+1ba591d # 2016-06-16 # Rajesh Bondugula @ msm: camera: sensor: Validate step_boundary
+b296fee # 2016-06-16 # Zdrowy Gosciu @ Version HM 9.1
+19f8b61 # 2016-06-16 # Zdrowy Gosciu @ random: Remove input_timer_state (defined but not used build error)
+7ade516 # 2016-06-16 # mrg666 @ msm_rotator: Fix rotator getting stuck leading to fence timeout
+bc774f2 # 2016-06-16 # dorimanx @ random: entropy tweaks are all the rage nowadays
+4dafdb9 # 2016-06-15 # Zdrowy Gosciu @ Version HM 9.0
+0cd8fd7 # 2016-06-15 # Zdrowy Gosciu @ msm_thermal: Rebase low thermal throttle end
+f4dc9fa # 2016-06-15 # Zdrowy Gosciu @ msm_thermal: Remove useless stats
+bfc68ef # 2016-06-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+807dada # 2016-06-15 # Al Viro @ net: validate the range we feed to iov_iter_init() in sys_sendto/sys_recvfrom
+a88a6dc # 2016-06-15 # Eric W. Biederman @ mnt: Fail collect_mounts when applied to unmounted mounts
+b945ced # 2016-06-15 # Dan Carpenter @ KEYS: potential uninitialized variable
+d8a1c62 # 2016-06-15 # Zdrowy Gosciu @ cpufreq: dancedance: Remove get_cpu_idle_time references
+f8dbc9f # 2016-06-15 # Snuzzo @ cpufreq: Introduce DanceDance
+52bc093 # 2016-06-15 # Snuzzo @ random: Increase entropy wakeup thresholds
+4625c55 # 2016-06-15 # Hendrik Hagendorn @ arm: configs: g2: Enable CFG80211_ALLOW_RECONNECT
+8a46374 # 2016-06-14 # Zdrowy Gosciu @ Version HM 8.999
+51531cb # 2016-06-14 # Zdrowy Gosciu @ msm_thermal: Enable moar logs
+4ac5d8e # 2016-06-14 # Zdrowy Gosciu @ Revert "linux: blkdev: disable add random"
+bca4bef # 2016-06-14 # Zdrowy Gosciu @ mm: Set 512kB readahead
+a8f0c96 # 2016-06-14 # Zdrowy Gosciu @ sched: Disable gentle fair sleepers
+4a68885 # 2016-06-14 # Hendrik Hagendorn @ arm: configs: Enable CFG80211_ALLOW_RECONNECT
+3aab647 # 2016-06-14 # Zdrowy Gosciu @ Revert "drivers: mmc: Disable lpm_sup on G2 open com if needed"
+7d4015b # 2016-06-14 # Jaeseong GIM @ persistent_ram: check PERSISTENT_RAM_SIG before writing
+a037ca1 # 2016-06-14 # Mark Salyzyn @ bcmdhd: Verify SSID length (part deux)
+1510c2c # 2016-06-14 # Jerry Lee @ bcmdhd: Verify SSID length
+6ac6301 # 2016-06-14 # Zdrowy Gosciu @ Version HM 8.9
+2e87869 # 2016-06-14 # Zdrowy Gosciu @ msm_thermal: Increase log level
+963b2b0 # 2016-06-14 # Gupta, Kapil @ wlan: Fix memory leak issue
+ed6e8e9 # 2016-06-14 # Zdrowy Gosciu @ Revert "msm_thermal: when we restore the original limits use the norm_min freq from mpdecision inputboost"
+d532e6d # 2016-06-14 # Zdrowy Gosciu @ Revert "Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers"
+5717415 # 2016-06-14 # Sultanxda @ PM / devfreq: Remove unstable/unused governors
+6ee0649 # 2016-06-14 # Lucille Sylvester @ msm: kgsl: Bump the GPU frequency for long blocks of processing
+e020424 # 2016-06-14 # Saravana Kannan @ PM / devfreq: governor_bw_hwmon: Add suspend/resume support
+6e78299 # 2016-06-14 # Saravana Kannan @ PM / devfreq: bw_hwmon: Move IRQ handling to device specific drivers
+c1a94b8 # 2016-06-14 # Saravana Kannan @ PM / devfreq: Refactor CPUBW HWmon governor to be more generic
+c0b4599 # 2016-06-14 # Saravana Kannan @ PM / devfreq: Add cache HW monitor governor
+1be284b # 2016-06-14 # Suman Tatiraju @ PM / devfreq: Check for GPU busy time before sending the sample
+f7bef0d # 2016-06-14 # Saravana Kannan @ devfreq: Make cpubw_hwmon governor reusable and hardware agnostic
+0f45f32 # 2016-06-14 # Saravana Kannan @ PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
+36ecbb7 # 2016-06-14 # Suman Tatiraju @ msm: kgsl: set the correct max_state
+ee7fc3e # 2016-06-14 # myfluxi @ PM: devfreq: Use high priority workqueue
+0e50f4b # 2016-06-14 # Zdrowy Gosciu @ devfreq: simple_ondemand: Rebase
+ee22f35 # 2016-06-14 # myfluxi @ PM: devfreq: Always reflect a change of polling interval
+60e23c1 # 2016-06-14 # myfluxi @ PM: devfreq: Fix show available freqs
+2d33dec # 2016-06-14 # myfluxi @ block: deadline: Optimize for non-rotational
+9b0f968 # 2016-06-14 # xiaobing tu @ deadline: Allow 0ms deadline latency, increase the read speed
+1bf4a98 # 2016-06-14 # Zdrowy Gosciu @ Revert "cpufreq: Always allow update of user policy"
 
-* Project packages/apps/Bluetooth/
-9a5be1e # 2016-06-11 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-acfd7c3 # 2016-06-10 # Juffin Alex Varghese @ Bluetooth-OPP: Check URI of sending files before entry cleanup
-cf5fdf7 # 2016-06-10 # Luke Zhang @ Set sJniAdapterServiceObj to NULL after deleting it
-02d9c10 # 2016-06-10 # Ajay Kumar @ Bluetooth: Using the eventHandler to start listener
-5080b9b # 2016-06-10 # Roman Birg @ Bluetooth OPP: Fix mismerge
-072643f # 2016-06-10 # Roman Birg @ Bluetooth: fix opp NPE
-
-* Project packages/apps/CarrierConfig/
-1477e70 # 2016-06-13 # Abhisek Devkota @ Resolve NZ roaming entry
-
-* Project packages/apps/CellBroadcastReceiver/
-2bd611b # 2016-06-11 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
+* Project packages/apps/CMFileManager/
+83abccb # 2016-06-13 # Keith Mok @ Filter out vnd.android.cursor mimetype for Picker
 
 * Project packages/apps/Dialer/
-5ce5795 # 2016-06-13 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-c56c579 # 2016-06-11 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-6f8f504 # 2016-06-10 # Stephen Bird @ Ensure we have permissions before rebuilding database
-5287347 # 2016-06-10 # Stephen Bird @ Increment nudge only after shown intent returns
+9541d1d # 2016-06-15 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+d7cc36f # 2016-06-14 # Nathaniel Waggoner @ Makes private the ambient connection check, to stop log spam.
 
 * Project packages/apps/InCallUI/
-2ccd424 # 2016-06-11 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+24187b9 # 2016-06-16 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+7a3316a # 2016-06-15 # Rohit Yengisetty @ Explicitly set the visibility of right_icon within call notification
+325e610 # 2016-06-15 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+91468b0 # 2016-06-14 # Nathaniel Waggoner @ Stops ModButtonPresenter from hitting PackageManager on UI updates.
+
+* Project packages/apps/KernelAdiutor/
+d535669 # 2016-06-16 # Yoinx @ Misc: Fix FSync not showing proper state
+790168b # 2016-06-16 # Zdrowy Gosciu @ Revert "Revert "Misc: Remove FSYNC variables""
+7170b19 # 2016-06-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
+253cb6d # 2016-06-15 # Yoinx @ Misc: Fix SELinux NPE
+0bb638b # 2016-06-15 # Yoinx @ CPUHotplug: Fix NPE
+7f18b58 # 2016-06-15 # Yoinx @ PerAppMonitor: Fix NPE
+ed51ac1 # 2016-06-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
+887494a # 2016-06-15 # Yoinx @ Per_App.java: Fix NPE by ensuring that value is not null before doing a string comparison on it.
+305e008 # 2016-06-15 # Yoinx @ HBMWidget: Prevent NPE if device does not have HBM, and don't try to update the widget if it hasn't been added.
+8ac0a2f # 2016-06-15 # Yoinx @ Screen.java: remove unused imports
+a41162c # 2016-06-15 # Zdrowy Gosciu @ CPUVoltageFragment + MainActivity: Fix build after merge
+bb0ca95 # 2016-06-15 # Zdrowy Gosciu @ Revert "some code cleanup"
+c05bee8 # 2016-06-15 # Yoinx @ Try to fix SU Root Toasts appearing randomly.
+2e1ffe7 # 2016-06-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
+4f637df # 2016-06-15 # Zdrowy Gosciu @ Constants: Fix Bricked Thermal poll_ms
+0a8c183 # 2016-06-14 # Yoinx @ CPUVoltage: Remove some unused stuff from adding in the ability to show voltage offset
+8f7bcbb # 2016-06-14 # Joe Schubert @ Merge pull request #36 from shmuelr/master
+dae3ca4 # 2016-06-14 # Joe Schubert @ Ensure that a Voltage table is present when opening the fragment (#37)
+0cdfdc1 # 2016-06-14 # shmuelr @ add some annotations for thread clarity
+da0558a # 2016-06-14 # Yoinx @ Update .travis.yml
+16f28b0 # 2016-06-14 # Joe Schubert @ Merge pull request #35 from shmuelr/master
+601d161 # 2016-06-14 # shmuelr @ cleanup code for getting app names
+73cdb6a # 2016-06-14 # shmuelr @ oops, undo that..
+ef1891a # 2016-06-14 # shmuelr @ this preloading wasn't actually doing anything...
+813b04e # 2016-06-14 # shmuelr @ remove handler (the handler is on the UI thread anyways. so its just posting a runnable to the ui thread. this is not needed as the code runs on the UI thread by default)
+359be2e # 2016-06-14 # shmuelr @ fix crash when setting image
+f2fbb73 # 2016-06-14 # shmuelr @ please don't hold a static context. thanks :D https://android-developers.blogspot.com/2009/01/avoiding-memory-leaks.html
+3540e9e # 2016-06-14 # shmuelr @ Only enable Crashlytics on release builds
+d66d056 # 2016-06-14 # shmuelr @ Merge pull request #4 from yoinx/master
+ac6baf9 # 2016-06-14 # shmuelr @ handle handlers properly
+86e74ee # 2016-06-14 # shmuelr @ guard against another npe
+5c0f174 # 2016-06-14 # shmuelr @ fix npe exception https://fabric.io/kernel-adiutormod/android/apps/com.kerneladiutor.mod/issues/575f75e5ffcdc0425043874f
+ec6b248 # 2016-06-14 # Zdrowy Gosciu @ Revert "Misc: Remove FSYNC variables"
+dd29709 # 2016-06-14 # Zdrowy Gosciu @ kernel: Fix build after merge
+635c775 # 2016-06-14 # Zdrowy Gosciu @ Revert "Add Fabric for Crashlytics"
+4711d9d # 2016-06-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
+624aeef # 2016-06-14 # Yoinx @ CPUVOLTAGE: Show difference between current and kernel stock
+306dd03 # 2016-06-13 # Yoinx @ BootService: Store initial voltage table
+2e3e6ee # 2016-06-13 # Yoinx @ Fabric.properties commit
+0ead154 # 2016-06-13 # Yoinx @ Bump to Build 13
+7bf0254 # 2016-06-13 # Yoinx @ HBM: Quit using a variable.
+e277daa # 2016-06-13 # Yoinx @ AutoHBM: Stop always starting the service when opening the app.
+dd04e41 # 2016-06-13 # Yoinx @ HBM Widget: Some fixup
+6816169 # 2016-06-13 # Yoinx @ Add Fabric for Crashlytics
+f810ab7 # 2016-06-13 # Yoinx @ CPUHotplugs: Fix Lazyplug in togglehotplugs
 
 * Project packages/apps/Messaging/
-c042a5e # 2016-06-10 # Gary Kipnis @ Fixed storage permission issue for attachments Moved some audio library tab related string to cm_strings.xml
+358c6ad # 2016-06-13 # Adnan Begovic @ messaging: Filter out SIP accounts from SelectAccountDialogFragments.
 
-* Project packages/apps/Nfc/
-01ba29d # 2016-06-10 # Roman Birg @ Revert "Nfc: Clear transfer manager service on Destroy"
-606f7ef # 2016-06-10 # Roman Birg @ Revert "nfc: create a bootstrap service"
+* Project packages/apps/PackageInstaller/
+4ad59fe # 2016-06-15 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_packages_apps_PackageInstaller into cm-13.0
+c963ecd # 2016-06-14 # Bryan Owens @ Themes: Add tint mode so custom icons can show in permissions settings
+
+* Project packages/apps/PhoneCommon/
+59574f3 # 2016-06-13 # Stephen Bird @ AmbientDataSubscription: Allow subscriptions to run different queries
 
 * Project packages/apps/Settings/
-44ed263 # 2016-06-13 # Alex Cruz @ Fix wrong label for Desktop backup password
-ed01dd6 # 2016-06-13 # Siavash Arya @ Show more accurate internal storage capacity
-460b9ad # 2016-06-13 # Wechy77 @ Settings: replace 3 dots with horizontal ellipsis
-0d1add5 # 2016-06-13 # Janson Kang @ Merge pull request #454 from Mai19930513/cm-13.0
-b339210 # 2016-06-12 # Mai19930513 @ update zh-rCN translations
-9164276 # 2016-06-12 # Janson Kang @ Merge pull request #453 from beroid/cm-13.0
-8e3b27b # 2016-06-11 # beroid @ Settings: Update RU translations
-b1eea73 # 2016-06-11 # Janson Kang @ Build V9.2
-bba2cca # 2016-06-11 # Michael Bestas @ String improvements
+01eb6ab # 2016-06-16 # Janson Kang @ Build V9.3
+520c0c0 # 2016-06-16 # maxwen @ Settings: display fstype for mounted volumes
+dd4f053 # 2016-06-16 # Adnan Begovic @ Settings: Dissallow privacy guarding system apps on overlay.
 
-* Project system/bt/
-6f1e1dc # 2016-06-13 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_bt into cm-13.0
-5365992 # 2016-06-11 # Christopher R. Palmer @ bt: Use the clock functions from libutils instead of clock_gettime
-c718527 # 2016-06-11 # Christopher R. Palmer @ bt: Unify usage of clock_gettime
+* Project packages/services/Telephony/
+b863501 # 2016-06-16 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
+0ef4188 # 2016-06-15 # Keith Mok @ Telephony: change input type to phone for my phone no.
 
 * Project vendor/cm/
-9fd4fe3 # 2016-06-12 # Janson Kang @ Merge pull request #30 from tioguda/cm-13.0
-9d733a7 # 2016-06-11 # tioguda @ Add bootanimation 540.zip in 16by9
-d523a49 # 2016-06-11 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-dd3a17f # 2016-06-10 # Tom Marshall @ config: Make product size available for use by project mkfiles
-1b4eeb3 # 2016-06-10 # Matt Mower @ cm: Give BootReceiver permissions to read fsck log
+2284bf3 # 2016-06-16 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+3c96082 # 2016-06-14 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+1117dae # 2016-06-13 # Luis Vidal @ cmsdk-api-coverage: Don't prepend ANDROID_BUILD_TOP to file path
+c385e36 # 2016-06-13 # Adnan Begovic @ cm: Use cmsdk-api-coverage executable for coverage.
+
+* Project vendor/cmsdk/
+9d2f37b # 2016-06-16 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+c701b8e # 2016-06-15 # Danesh M @ CMSDK : Add tests for ColorUtils
+60c6053 # 2016-06-15 # Danesh M @ CMSDK : Fix external view test
+912410f # 2016-06-15 # Danesh M @ CMSDK : Add LiveLockScreenManager tests
+795130f # 2016-06-15 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+b6e71bc # 2016-06-14 # Danesh M @ External view test
+aa11b33 # 2016-06-14 # Scott Mertz @ cmsdk: fixup javadoc in CMHardwareManager
+7fff40e # 2016-06-14 # Adnan Begovic @ cmsdk: Clean up posted tile in CustomTileListenerService test.
+5d14ffe # 2016-06-14 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+8387d3c # 2016-06-13 # Adnan Begovic @ cmsdk: Add CustomTileListenerService tests.
+0e0cb73 # 2016-06-13 # Adnan Begovic @ cmsdk: Provide test coverage to Profile's *Settings classes.
+2add3de # 2016-06-13 # Adnan Begovic @ cmsdk: Provide tests for Profile.ProfileTrigger interfaces.

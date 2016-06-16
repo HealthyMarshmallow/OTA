@@ -53,6 +53,10 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+c92cc76 # 2016-06-16 # Zdrowy Gosciu @ Version HM 9.111
+3a5c626 # 2016-06-16 # Zdrowy Gosciu @ Revert "random: Increase entropy wakeup thresholds"
+eb7dbcc # 2016-06-16 # Sunil Khatri @ msm: kgsl: Cast perfcounter query count to an unsigned int
+1ba591d # 2016-06-16 # Rajesh Bondugula @ msm: camera: sensor: Validate step_boundary
 b296fee # 2016-06-16 # Zdrowy Gosciu @ Version HM 9.1
 19f8b61 # 2016-06-16 # Zdrowy Gosciu @ random: Remove input_timer_state (defined but not used build error)
 7ade516 # 2016-06-16 # mrg666 @ msm_rotator: Fix rotator getting stuck leading to fence timeout

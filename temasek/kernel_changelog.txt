@@ -53,6 +53,14 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+5f398e7 # 2016-06-18 # Zdrowy Gosciu @ Version HM 9.2
+593d6dd # 2016-06-18 # Zdrowy Gosciu @ msm_thermal: Rebase LOW Thermal Throttle END
+8074876 # 2016-06-18 # Zdrowy Gosciu @ msm_thermal: Don't update max_freq if not throttled
+4defb70 # 2016-06-18 # Zdrowy Gosciu @ msm_thermal: Clean up dmesg's
+490984f # 2016-06-18 # Zdrowy Gosciu @ msm_thermal: Correct store_user_max_freq dmesg
+964b1ce # 2016-06-18 # Zdrowy Gosciu @ msm_thermal: Init user_max_freq if not set
+1d4c59c # 2016-06-18 # Zdrowy Gosciu @ msm_thermal: Add user_max_freq control + clean up disable function
+bbeed6c # 2016-06-18 # Zdrowy Gosciu @ Revert "wlan: Fix memory leak issue"
 c92cc76 # 2016-06-16 # Zdrowy Gosciu @ Version HM 9.111
 3a5c626 # 2016-06-16 # Zdrowy Gosciu @ Revert "random: Increase entropy wakeup thresholds"
 eb7dbcc # 2016-06-16 # Sunil Khatri @ msm: kgsl: Cast perfcounter query count to an unsigned int

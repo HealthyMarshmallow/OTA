@@ -53,6 +53,10 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+301d037 # 2016-06-23 # Zdrowy Gosciu @ Version HM 9.3
+af8b4d2 # 2016-06-23 # imoseyon @ msm: camera: Suppress excessive logging - boot faster
+4ba4eff # 2016-06-23 # Zdrowy Gosciu @ msm_thermal: Increase bricked_thermal_throttled value to fix LOW Thermal Throttle
+e838adb # 2016-06-22 # fluxi @ net: Allow devices to opt-out net watchdog
 5f398e7 # 2016-06-18 # Zdrowy Gosciu @ Version HM 9.2
 593d6dd # 2016-06-18 # Zdrowy Gosciu @ msm_thermal: Rebase LOW Thermal Throttle END
 8074876 # 2016-06-18 # Zdrowy Gosciu @ msm_thermal: Don't update max_freq if not throttled

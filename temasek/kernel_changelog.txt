@@ -53,6 +53,12 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+c571c80 # 2016-06-25 # Zdrowy Gosciu @ Version HM 9.4
+f34d987 # 2016-06-24 # Zdrowy Gosciu @ arm: configs: d802: Enable XZ compression
+c5f33a2 # 2016-06-24 # yank555-lu @ binfmt_elf.c: Use get_random_int() to fix entropy depleting
+f885d49 # 2016-06-24 # ejjohnson1999 @ arm: dts: msm8974-lge-misc: Clean up some useless stuff
+955bf60 # 2016-06-24 # Zdrowy Gosciu @ arm: configs: d802: Remove useless params
+d55a734 # 2016-06-24 # Zdrowy Gosciu @ arm: configs: d802: Don't optimize for size
 301d037 # 2016-06-23 # Zdrowy Gosciu @ Version HM 9.3
 af8b4d2 # 2016-06-23 # imoseyon @ msm: camera: Suppress excessive logging - boot faster
 4ba4eff # 2016-06-23 # Zdrowy Gosciu @ msm_thermal: Increase bricked_thermal_throttled value to fix LOW Thermal Throttle

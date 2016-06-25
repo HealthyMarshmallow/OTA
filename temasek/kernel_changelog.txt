@@ -53,6 +53,10 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+3e7d9ed # 2016-06-25 # Zdrowy Gosciu @ Version HM 9.444
+afe335e # 2016-06-25 # myfluxi @ bcmdhd: Serialize wl_notify_escan_complete
+8bef957 # 2016-06-25 # Naseer Ahmed @ msm_fb: display: Enable display debugging through mdp debugfs
+ce252a4 # 2016-06-25 # Naseer Ahmed @ msm: display: Validate MDP, MDDI and HDMI debug reg offset
 c571c80 # 2016-06-25 # Zdrowy Gosciu @ Version HM 9.4
 f34d987 # 2016-06-24 # Zdrowy Gosciu @ arm: configs: d802: Enable XZ compression
 c5f33a2 # 2016-06-24 # yank555-lu @ binfmt_elf.c: Use get_random_int() to fix entropy depleting

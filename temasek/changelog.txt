@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-06-21 @ 05:46:35 (1466487995)
+CHANGES AFTER 2016-06-24 @ 11:44:45 (1466768685)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,80 +7,53 @@ CHANGES AFTER 2016-06-21 @ 05:46:35 (1466487995)
                  |_____|              
 
 * Project /
-0000000 # 2016-06-24 # Zdrowy Gosciu @ local manifest: Switch back to temasek WiFi framework
+0000000 # 2016-06-25 # Zdrowy Gosciu @ local manifest: Switch chromium from CM to CAF
 
 * Project OTA/
-e72de69 # 2016-06-23 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 9.3
-335816c # 2016-06-21 # Zdrowy Gosciu @ OTA: cm-13.0-20160621-053909-UNOFFICIAL-temasek-d802-V9.4
+3ce15f0 # 2016-06-25 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 9.4
+36b93dd # 2016-06-24 # Zdrowy Gosciu @ OTA: cm-13.0-20160624-113656-UNOFFICIAL-temasek-d802-V9.5
 
-* Project device/lge/g2-common/
-f78534e # 2016-06-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-8350697 # 2016-06-23 # Zdrowy Gosciu @ g2-common: Disable WiFi IpReachabilityMonitor
-fc03f7b # 2016-06-21 # Kendrick Vargas @ Revert "g2: Force 1080p photo preview"
-
-* Project device/qcom/common/
-e1dbc22 # 2016-06-21 # Zhao Wei Liew @ power: msm8952: Fix previous_boost_time getting reset
-
-* Project device/qcom/sepolicy/
-2805e63 # 2016-06-23 # Ravi Kumar Siddojigari @ file_contexts: Adding context to block devices
-2ada4e4 # 2016-06-22 # Ricardo Cerqueira @ dpm: Let dpmserviceapp create its subdirs
-
-* Project external/chromium-webview/
-3f0ac07 # 2016-06-23 # luca020400 @ webview: Update to 51.0.2704.106
-
-* Project frameworks/base/
-f58a8e8 # 2016-06-24 # Randall Rushing @ Update QS panel resources to fix padding issues
-e6ed2ef # 2016-06-24 # Alexander Martinz @ (1/2) Frameworks: allow to toggle smart cover wake
-5368aef # 2016-06-24 # Zdrowy Gosciu @ wifi: Enable WiFi IpReachabilityMonitor by default
+* Project cts/
+8a3f20b # 2016-06-24 # Daniel Xie @ Merge "DO NOT MERGE: disable libskia test." into marshmallow-cts-release
+f9c17e5 # 2016-06-24 # Daniel Xie @ DO NOT MERGE: disable libskia test.
 
 * Project frameworks/opt/net/wifi/
-f1f933b # 2016-06-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_net_wifi into cm-13.0
-88db18e # 2016-06-23 # Sravanthi Palakonda @ wifi: Bring back mIsWiFiIpReachabilityEnabled check
-6d15b6e # 2016-06-23 # Ricardo Cerqueira @ hotspot: Add a fallback to model-name for SSID
+4f18000 # 2016-06-25 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_net_wifi into cm-13.0
+a0ac5e1 # 2016-06-24 # Nalla Kartheek @ Reduce the link de-bounce time to 4 from earlier 7 seconds
+012e76c # 2016-06-24 # King Li @ Wifi: Clear scan caches while loading configured networks
+80dfbc2 # 2016-06-24 # Hu Wang @ wifi: Use isGbkString() to check if SSID is GBK encoded
+bb5d2c2 # 2016-06-24 # Boxiang Pan @ Wifi: Update Frequency before broadcasting intent
+045ddba # 2016-06-24 # Sravanthi Palakonda @ Wifi: send an explicit ENABLE_NETWORK with "no-connect"
+c17a63e # 2016-06-24 # Nalla Kartheek @ Wifi: Unblacklist the BSSIDs, if driver roams to the same again.
+f995ef7 # 2016-06-24 # Nalla Kartheek @ Wifi : Add null check before accessing ScanDetailCache
+c06efae # 2016-06-24 # Nalla Kartheek @ Wifi: Add NULL check before processing gscan results
+faada83 # 2016-06-24 # c_rrajiv @ P2P: p2p flush on a group remove event.
+cbe286e # 2016-06-24 # c_rrajiv @ wificonfig: store the scan cache for saved wifi configuration
+e97c943 # 2016-06-24 # Nalla Kartheek @ Don't create ScanDetailCache if entry absent in mScanDetailCaches
+22b3c71 # 2016-06-24 # Nalla Kartheek @ Wifi: Update WifiController state if Wifi turn On fails
+6c7911a # 2016-06-24 # Nalla Kartheek @ Wifi: Clear lastConnectAttemptTimestamp variable on a Wifi turn off
 
-* Project frameworks/opt/telephony/
-3ae4555 # 2016-06-24 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
-b3d9061 # 2016-06-21 # Sooraj Sasindran @ Telephony Data: Introduce DataAllowed state
-9354bf6 # 2016-06-21 # Prasath Balakrishnan @ Fix issue when two MMS requests with same priority on both SUB's
+* Project hardware/ril-caf/
+eb67a6f # 2016-06-24 # Steve Kondik @ ril-caf: Fix build when using prebuilt libril
 
 * Project kernel/lge/msm8974/
-301d037 # 2016-06-23 # Zdrowy Gosciu @ Version HM 9.3
-af8b4d2 # 2016-06-23 # imoseyon @ msm: camera: Suppress excessive logging - boot faster
-4ba4eff # 2016-06-23 # Zdrowy Gosciu @ msm_thermal: Increase bricked_thermal_throttled value to fix LOW Thermal Throttle
-e838adb # 2016-06-22 # fluxi @ net: Allow devices to opt-out net watchdog
-
-* Project packages/apps/BluetoothExt/
-8acfb15 # 2016-06-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_BluetoothExt into cm-13.0
-a92c7d6 # 2016-06-21 # Steve Kondik @ wipower: Only build a4wp if BSP is available
-
-* Project packages/apps/CMFileManager/
-70addac # 2016-06-23 # Keith Mok @ Fix no icon for 3GP files
-faa6c46 # 2016-06-23 # Scott Mertz @ Assign application/octet-stream to unknown file extensions
-92ac0ff # 2016-06-23 # Scott Mertz @ Remove send/send multiple if intent doesn't resolve to any activity
-994dd34 # 2016-06-22 # Scott Mertz @ Navigate to path when launched from folder shortcut
-
-* Project packages/apps/KernelAdiutor/
-5fba132 # 2016-06-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
+3e7d9ed # 2016-06-25 # Zdrowy Gosciu @ Version HM 9.444
+afe335e # 2016-06-25 # myfluxi @ bcmdhd: Serialize wl_notify_escan_complete
+8bef957 # 2016-06-25 # Naseer Ahmed @ msm_fb: display: Enable display debugging through mdp debugfs
+ce252a4 # 2016-06-25 # Naseer Ahmed @ msm: display: Validate MDP, MDDI and HDMI debug reg offset
+c571c80 # 2016-06-25 # Zdrowy Gosciu @ Version HM 9.4
+f34d987 # 2016-06-24 # Zdrowy Gosciu @ arm: configs: d802: Enable XZ compression
+c5f33a2 # 2016-06-24 # yank555-lu @ binfmt_elf.c: Use get_random_int() to fix entropy depleting
+f885d49 # 2016-06-24 # ejjohnson1999 @ arm: dts: msm8974-lge-misc: Clean up some useless stuff
+955bf60 # 2016-06-24 # Zdrowy Gosciu @ arm: configs: d802: Remove useless params
+d55a734 # 2016-06-24 # Zdrowy Gosciu @ arm: configs: d802: Don't optimize for size
 
 * Project packages/apps/Settings/
-9f35fd2 # 2016-06-24 # Janson Kang @ Build V9.5
-6971af1 # 2016-06-24 # Alexander Martinz @ (2/2) Settings: allow to toggle smart cover wake
-
-* Project packages/apps/SoundRecorder/
-d22f0a1 # 2016-06-21 # Keith Mok @ SoundRecorder: Fix notifcation out of sync when audio focus loss
-
-* Project packages/services/Mms/
-56584b7 # 2016-06-21 # Ricardo Cerqueira @ Revert "MmsRequest: Reimplement automatic data sub switch"
-
-* Project system/bt/
-c8e7c4b # 2016-06-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_bt into cm-13.0
-2e63e65 # 2016-06-22 # Ethan Chen @ bt: Don't use CLOCK_BOOTTIME where CLOCK_MONOTONIC was expected
-0af4949 # 2016-06-21 # Ethan Chen @ bt-vendor: Check for vendor SSR function before attempting to call it
-
-* Project vendor/cm/
-2d9a16e # 2016-06-24 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-a8984b3 # 2016-06-23 # Christopher N. Hesse @ Add SM-T810 and SM-T815
-2b8c4b2 # 2016-06-21 # Dan Pasanen @ sepolicy: put bash in shell context
+0ae8b99 # 2016-06-25 # lijun.xie @ UI: Ensure "use for" options displayed when in landscape orientation
+abec2ec # 2016-06-25 # Janson Kang @ Merge pull request #456 from Mai19930513/cm-13.0
+ccb7b0c # 2016-06-25 # Mai19930513 @ update zh-rCN translations
+89ec149 # 2016-06-25 # Janson Kang @ Merge pull request #455 from beroid/cm-13.0
 
 * Project vendor/cmsdk/
-47e7907 # 2016-06-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+c281f72 # 2016-06-25 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+131de78 # 2016-06-24 # d34d @ Themes: Provide 100% test coverage for themes

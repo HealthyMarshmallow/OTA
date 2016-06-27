@@ -53,6 +53,17 @@ c6ea0eb # 2016-06-07 # ejjohnson1999 @ g2-common: init: Increase vmpressure_file
 d70d697 # 2016-06-06 # Zdrowy Gosciu @ g2-common: init: power: Tweak Bricked Thermal (part II)
 
 * Project kernel/lge/msm8974/
+cfeab81 # 2016-06-27 # Zdrowy Gosciu @ Version HM 9.6
+29314b9 # 2016-06-27 # Shubhraprakash Das @ msm: kgsl: Get rid of KGSL_FLAGS_STARTED
+c6faf4d # 2016-06-27 # Carter Cooper @ msm: kgsl: Clear pending transactions from VBIF on hang
+f6067b2 # 2016-06-27 # Carter Cooper @ msm: kgsl: Modify which MMU clocks are enabled/disabled
+cf4f127 # 2016-06-27 # Tarun Karra @ msm: kgsl: Prevent adreno stop after gpu is power collapsed
+f50f894 # 2016-06-27 # myfluxi @ msm: kgsl: Fix nice level for higher priority GPU start thread
+07f5f5a # 2016-06-27 # Shubhraprakash Das @ msm: kgsl: Fix memory entry leak when calling adreno_convertaddr
+d5d5ad4 # 2016-06-27 # myfluxi @ ARM/dt: msm8974-gpu: Enable qcom bus-control
+cad0fb1 # 2016-06-27 # Ethan @ cpufreq: Print error when an invalid CPU freq is trying to be set
+229fe5d # 2016-06-27 # arter97 @ devfreq: Introduce ADRENO IDLER v1.1 (arter97)
+5ea8dab # 2016-06-27 # yank555-lu @ power: Introduce POWERSUSPEND v1.7 (faux123/Yank555.lu)
 da2cd2b # 2016-06-27 # Zdrowy Gosciu @ Version HM 9.5
 828fb2b # 2016-06-27 # Thierry Strudel @ cpu: send KOBJ_ONLINE event when enabling cpus
 80d76fd # 2016-06-27 # myfluxi @ arm/dts: msm8974: Disable second crypto device

@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-06-24 @ 11:44:45 (1466768685)
+CHANGES AFTER 2016-06-25 @ 09:40:09 (1466847609)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,54 +6,99 @@ CHANGES AFTER 2016-06-24 @ 11:44:45 (1466768685)
            |_____|___  |______|______|
                  |_____|              
 
-* Project /
-0000000 # 2016-06-25 # Zdrowy Gosciu @ local manifest: Switch chromium from CM to CAF
-
 * Project OTA/
-3ce15f0 # 2016-06-25 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 9.4
-36b93dd # 2016-06-24 # Zdrowy Gosciu @ OTA: cm-13.0-20160624-113656-UNOFFICIAL-temasek-d802-V9.5
+3a54140 # 2016-06-27 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 9.6
+0c6127d # 2016-06-27 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 9.5
+cf2dd2f # 2016-06-27 # Zdrowy Gosciu @ OTA: cm-13.0-20160625-093158-UNOFFICIAL-temasek-d802-V9.5
 
-* Project cts/
-8a3f20b # 2016-06-24 # Daniel Xie @ Merge "DO NOT MERGE: disable libskia test." into marshmallow-cts-release
-f9c17e5 # 2016-06-24 # Daniel Xie @ DO NOT MERGE: disable libskia test.
+* Project bionic/
+a25423f # 2016-06-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_bionic into cm-13.0
+2a016b8 # 2016-06-27 # Kyle Repinski @ cortex-a9: Fix reference to __memcpy_base_aligned.
 
-* Project frameworks/opt/net/wifi/
-4f18000 # 2016-06-25 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_net_wifi into cm-13.0
-a0ac5e1 # 2016-06-24 # Nalla Kartheek @ Reduce the link de-bounce time to 4 from earlier 7 seconds
-012e76c # 2016-06-24 # King Li @ Wifi: Clear scan caches while loading configured networks
-80dfbc2 # 2016-06-24 # Hu Wang @ wifi: Use isGbkString() to check if SSID is GBK encoded
-bb5d2c2 # 2016-06-24 # Boxiang Pan @ Wifi: Update Frequency before broadcasting intent
-045ddba # 2016-06-24 # Sravanthi Palakonda @ Wifi: send an explicit ENABLE_NETWORK with "no-connect"
-c17a63e # 2016-06-24 # Nalla Kartheek @ Wifi: Unblacklist the BSSIDs, if driver roams to the same again.
-f995ef7 # 2016-06-24 # Nalla Kartheek @ Wifi : Add null check before accessing ScanDetailCache
-c06efae # 2016-06-24 # Nalla Kartheek @ Wifi: Add NULL check before processing gscan results
-faada83 # 2016-06-24 # c_rrajiv @ P2P: p2p flush on a group remove event.
-cbe286e # 2016-06-24 # c_rrajiv @ wificonfig: store the scan cache for saved wifi configuration
-e97c943 # 2016-06-24 # Nalla Kartheek @ Don't create ScanDetailCache if entry absent in mScanDetailCaches
-22b3c71 # 2016-06-24 # Nalla Kartheek @ Wifi: Update WifiController state if Wifi turn On fails
-6c7911a # 2016-06-24 # Nalla Kartheek @ Wifi: Clear lastConnectAttemptTimestamp variable on a Wifi turn off
+* Project device/lge/g2-common/
+b5f586b # 2016-06-28 # Zdrowy Gosciu @ g2-common: Resync proximity + doze settings with hammerhead
+65eeb31 # 2016-06-28 # Zdrowy Gosciu @ g2-common: Sync vibrator duration with hammerhead
+0500e8e # 2016-06-28 # Zdrowy Gosciu @ g2-common: Distinguish HSPA / UMTS data icons
+d7b8245 # 2016-06-28 # Zdrowy Gosciu @ g2-common: Sync proximity settings with hammerhead
 
-* Project hardware/ril-caf/
-eb67a6f # 2016-06-24 # Steve Kondik @ ril-caf: Fix build when using prebuilt libril
+* Project device/qcom/common/
+229eb1a # 2016-06-26 # Steve Kondik @ perf: Wrap v3 opcodes with ifdefs
+8fe35cc # 2016-06-25 # Zhao Wei Liew @ power: msm8996: Support boost and perf profile hints
+
+* Project frameworks/av/
+c1396fe # 2016-06-28 # Andy Hung @ Remove throttle logcat for bluetooth
+
+* Project frameworks/base/
+7d58b6f # 2016-06-26 # Eric Biedert @ SystemUI: Add margin in qs_tile_top between instruction text and add button
+
+* Project frameworks/opt/telephony/
+cdac2f0 # 2016-06-28 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+9122c16 # 2016-06-27 # Roman Birg @ Ims: remove use of old nonexistant qti constant
+8e0b6ee # 2016-06-27 # Muhammed Siju @ IMS-VT: Remove unused QTI_IMS_CALL_RAT_EXTRA_KEY extra.
+9e3df8a # 2016-06-27 # Omkar Kolangade @ IMS: Encrypted Calling Extras Key Definition
+079b0b5 # 2016-06-27 # Anju Mathapati @ IMS: Interface change for VOPS and SSAC
+bee587b # 2016-06-27 # Suresh Kumar Sugguna @ IMS: Explicit call transfer feature
+4d14d0f # 2016-06-26 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+90501cb # 2016-06-25 # Roman Birg @ Subscription updater: don't turn data off if we've never set a deafult
 
 * Project kernel/lge/msm8974/
-3e7d9ed # 2016-06-25 # Zdrowy Gosciu @ Version HM 9.444
-afe335e # 2016-06-25 # myfluxi @ bcmdhd: Serialize wl_notify_escan_complete
-8bef957 # 2016-06-25 # Naseer Ahmed @ msm_fb: display: Enable display debugging through mdp debugfs
-ce252a4 # 2016-06-25 # Naseer Ahmed @ msm: display: Validate MDP, MDDI and HDMI debug reg offset
-c571c80 # 2016-06-25 # Zdrowy Gosciu @ Version HM 9.4
-f34d987 # 2016-06-24 # Zdrowy Gosciu @ arm: configs: d802: Enable XZ compression
-c5f33a2 # 2016-06-24 # yank555-lu @ binfmt_elf.c: Use get_random_int() to fix entropy depleting
-f885d49 # 2016-06-24 # ejjohnson1999 @ arm: dts: msm8974-lge-misc: Clean up some useless stuff
-955bf60 # 2016-06-24 # Zdrowy Gosciu @ arm: configs: d802: Remove useless params
-d55a734 # 2016-06-24 # Zdrowy Gosciu @ arm: configs: d802: Don't optimize for size
+cfeab81 # 2016-06-27 # Zdrowy Gosciu @ Version HM 9.6
+29314b9 # 2016-06-27 # Shubhraprakash Das @ msm: kgsl: Get rid of KGSL_FLAGS_STARTED
+c6faf4d # 2016-06-27 # Carter Cooper @ msm: kgsl: Clear pending transactions from VBIF on hang
+f6067b2 # 2016-06-27 # Carter Cooper @ msm: kgsl: Modify which MMU clocks are enabled/disabled
+cf4f127 # 2016-06-27 # Tarun Karra @ msm: kgsl: Prevent adreno stop after gpu is power collapsed
+f50f894 # 2016-06-27 # myfluxi @ msm: kgsl: Fix nice level for higher priority GPU start thread
+07f5f5a # 2016-06-27 # Shubhraprakash Das @ msm: kgsl: Fix memory entry leak when calling adreno_convertaddr
+d5d5ad4 # 2016-06-27 # myfluxi @ ARM/dt: msm8974-gpu: Enable qcom bus-control
+cad0fb1 # 2016-06-27 # Ethan @ cpufreq: Print error when an invalid CPU freq is trying to be set
+229fe5d # 2016-06-27 # arter97 @ devfreq: Introduce ADRENO IDLER v1.1 (arter97)
+5ea8dab # 2016-06-27 # yank555-lu @ power: Introduce POWERSUSPEND v1.7 (faux123/Yank555.lu)
+da2cd2b # 2016-06-27 # Zdrowy Gosciu @ Version HM 9.5
+828fb2b # 2016-06-27 # Thierry Strudel @ cpu: send KOBJ_ONLINE event when enabling cpus
+80d76fd # 2016-06-27 # myfluxi @ arm/dts: msm8974: Disable second crypto device
+a6d4f74 # 2016-06-27 # myfluxi @ crypto: msm: Update clock vote for improved performance
+509405b # 2016-06-27 # Ethan @ arm/dts: msm8974: Schedule mmcqd on idle CPU
+c068705 # 2016-06-27 # Dov Levenglick @ mmc: add support for scheduling mmcqd on idle CPU
+9e1f0ac # 2016-06-27 # Patrick Daly @ PM / Wakeup: Use rcu callbacks for better performance
 
-* Project packages/apps/Settings/
-0ae8b99 # 2016-06-25 # lijun.xie @ UI: Ensure "use for" options displayed when in landscape orientation
-abec2ec # 2016-06-25 # Janson Kang @ Merge pull request #456 from Mai19930513/cm-13.0
-ccb7b0c # 2016-06-25 # Mai19930513 @ update zh-rCN translations
-89ec149 # 2016-06-25 # Janson Kang @ Merge pull request #455 from beroid/cm-13.0
+* Project packages/apps/Bluetooth/
+62d031a # 2016-06-26 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
+4924f59 # 2016-06-25 # Roman Birg @ Revert "Revert "Ensure synchronized access of JNI callback object""
 
-* Project vendor/cmsdk/
-c281f72 # 2016-06-25 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-131de78 # 2016-06-24 # d34d @ Themes: Provide 100% test coverage for themes
+* Project packages/apps/CMFileManager/
+65db040 # 2016-06-27 # Danesh M @ FileManager : Update to use toybox ls
+95c92cb # 2016-06-27 # Scott Mertz @ Fix crash when long press directory
+
+* Project packages/apps/KernelAdiutor/
+49c3701 # 2016-06-27 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
+8fa7e80 # 2016-06-26 # Yoinx @ Bump to Build 14
+14e1690 # 2016-06-26 # Yoinx @ About US: change G+ wording
+ddfed4c # 2016-06-26 # Yoinx @ About Us: Fix Typo
+24fe943 # 2016-06-26 # Yoinx @ About Us: add Google+ community
+a1be7b2 # 2016-06-26 # Yoinx @ Merge branch 'master' of https://github.com/yoinx/kernel_adiutor
+92d0eb6 # 2016-06-26 # Joe Schubert @ Merge pull request #43 from AndroPlus-org/master
+eaa5656 # 2016-06-26 # Joe Schubert @ Merge pull request #44 from spezi77/master
+71b1bc3 # 2016-06-26 # Joe Schubert @ Merge pull request #39 from shmuelr/master
+44fa084 # 2016-06-25 # Shmuel Rosansky @ fix per-app profiles
+8c1e924 # 2016-06-25 # spezi77 @ Add controls for auto_hotplug by Thalamus.
+2d05629 # 2016-06-25 # AndroPlus-org @ GPU: Add support for Snapdragon 820 msm8996
+
+* Project packages/apps/Snap/
+7edad93 # 2016-06-28 # jrizzoli @ Snap: Update switcher layout
+3982250 # 2016-06-27 # Hernán Castañón @ Snap: Update icon from Omni
+6db74c0 # 2016-06-27 # Zdrowy Gosciu @ Snap: My name is Snap
+d13a588 # 2016-06-27 # Zdrowy Gosciu @ Snap: Make auto rotation less aggressive
+557c40a # 2016-06-27 # Zdrowy Gosciu @ Snap: QuickPic as gallery app
+6e40a1f # 2016-06-27 # Zdrowy Gosciu @ Revert "Snap: Hard-code manual shutter speed setting for Bacon"
+f9e955c # 2016-06-27 # Zdrowy Gosciu @ Revert "Snap: Silently disable ZSL when HDR is enabled"
+933aed3 # 2016-06-27 # Zdrowy Gosciu @ Revert "Snap: Add support for QHD 1440p video resolution"
+13be31e # 2016-06-27 # Zdrowy Gosciu @ Revert "Snap: Fix FC when selecting high-speed 1440p"
+ee1c1a3 # 2016-06-27 # Zdrowy Gosciu @ Revert "Snap: Hard-code default video qualities"
+d880b55 # 2016-06-25 # Sultanxda @ Snap: Calculate focus ring boundaries using position of UI elements
+
+* Project vendor/cm/
+2dbee5e # 2016-06-28 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+1bc4b31 # 2016-06-27 # Michael Ott @ Remove APN pinternet.interkom.de from MCC 262/MNC 02
+
+* Project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+e630607 # 2016-06-27 # Scott Warner @ Don't remove today from the forecast

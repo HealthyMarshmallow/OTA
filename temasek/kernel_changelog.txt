@@ -7,6 +7,9 @@ CHANGES AFTER 2016-06-25 @ 09:40:09 (1466847609)
                  |_____|              
 
 * Project kernel/lge/msm8974/
+0e65aac # 2016-06-30 # Zdrowy Gosciu @ Version HM 9.7
+2c14213 # 2016-06-30 # Zdrowy Gosciu @ cpufreq: interactive: Sync hispeed_freq with init script
+f953cdc # 2016-06-30 # myfluxi @ msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag
 cfeab81 # 2016-06-27 # Zdrowy Gosciu @ Version HM 9.6
 29314b9 # 2016-06-27 # Shubhraprakash Das @ msm: kgsl: Get rid of KGSL_FLAGS_STARTED
 c6faf4d # 2016-06-27 # Carter Cooper @ msm: kgsl: Clear pending transactions from VBIF on hang

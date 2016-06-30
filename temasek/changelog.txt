@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-06-25 @ 09:40:09 (1466847609)
+CHANGES AFTER 2016-06-28 @ 17:21:05 (1467134465)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,98 +7,98 @@ CHANGES AFTER 2016-06-25 @ 09:40:09 (1466847609)
                  |_____|              
 
 * Project OTA/
-3a54140 # 2016-06-27 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 9.6
-0c6127d # 2016-06-27 # Zdrowy Gosciu @ OTA: Temasek: Kernel HM 9.5
-cf2dd2f # 2016-06-27 # Zdrowy Gosciu @ OTA: cm-13.0-20160625-093158-UNOFFICIAL-temasek-d802-V9.5
-
-* Project bionic/
-a25423f # 2016-06-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_bionic into cm-13.0
-2a016b8 # 2016-06-27 # Kyle Repinski @ cortex-a9: Fix reference to __memcpy_base_aligned.
-
-* Project device/lge/g2-common/
-b5f586b # 2016-06-28 # Zdrowy Gosciu @ g2-common: Resync proximity + doze settings with hammerhead
-65eeb31 # 2016-06-28 # Zdrowy Gosciu @ g2-common: Sync vibrator duration with hammerhead
-0500e8e # 2016-06-28 # Zdrowy Gosciu @ g2-common: Distinguish HSPA / UMTS data icons
-d7b8245 # 2016-06-28 # Zdrowy Gosciu @ g2-common: Sync proximity settings with hammerhead
+cbb5b5a # 2016-06-28 # Zdrowy Gosciu @ OTA: cm-13.0-20160628-171310-UNOFFICIAL-temasek-d802-V9.5
 
 * Project device/qcom/common/
-229eb1a # 2016-06-26 # Steve Kondik @ perf: Wrap v3 opcodes with ifdefs
-8fe35cc # 2016-06-25 # Zhao Wei Liew @ power: msm8996: Support boost and perf profile hints
+3d10066 # 2016-06-29 # Sravan Kumar Ambapuram @ power: add support for PowerHAL in Feero
 
-* Project frameworks/av/
-c1396fe # 2016-06-28 # Andy Hung @ Remove throttle logcat for bluetooth
+* Project device/qcom/sepolicy/
+427b02e # 2016-06-29 # Ricardo Cerqueira @ wcnss: Fix annoying warning when ptt looks for its log dir
 
 * Project frameworks/base/
-7d58b6f # 2016-06-26 # Eric Biedert @ SystemUI: Add margin in qs_tile_top between instruction text and add button
+98d6389 # 2016-06-30 # inky@build01 @ Automatic translation import
+a043e2f # 2016-06-30 # Danesh M @ Revert "Revert "Only show keyguard panel if on lockscreen + no activity on top""
+9124ef6 # 2016-06-30 # Danesh M @ PhoneWindowManager : Check CM_SETUP_WIZARD_COMPLETED for isUserSetupComplete
+32d3232 # 2016-06-29 # Danesh M @ KeyguardSecurityViewFlipper : Fix sim unlock height overlap
+f43293a # 2016-06-29 # LuK1337 @ Disable proximity check on power key properly
+abc3b1e # 2016-06-29 # Tom Marshall @ fw: GlobalActions: Always dismiss any existing dialog
+49cb187 # 2016-06-29 # Trishool Narayanasetty @ SystemServer: Do not start Atlas Service on lowram devices.
 
-* Project frameworks/opt/telephony/
-cdac2f0 # 2016-06-28 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
-9122c16 # 2016-06-27 # Roman Birg @ Ims: remove use of old nonexistant qti constant
-8e0b6ee # 2016-06-27 # Muhammed Siju @ IMS-VT: Remove unused QTI_IMS_CALL_RAT_EXTRA_KEY extra.
-9e3df8a # 2016-06-27 # Omkar Kolangade @ IMS: Encrypted Calling Extras Key Definition
-079b0b5 # 2016-06-27 # Anju Mathapati @ IMS: Interface change for VOPS and SSAC
-bee587b # 2016-06-27 # Suresh Kumar Sugguna @ IMS: Explicit call transfer feature
-4d14d0f # 2016-06-26 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
-90501cb # 2016-06-25 # Roman Birg @ Subscription updater: don't turn data off if we've never set a deafult
+* Project hardware/cyanogen/
+ce0c9b1 # 2016-06-29 # Michael Bestas @ cmhw: Whitespace cleanup
+
+* Project hardware/qcom/wlan-caf/
+b5ecb1d # 2016-06-29 # Steve Kondik @ wifi-hal: Only try LOWI once
 
 * Project kernel/lge/msm8974/
-cfeab81 # 2016-06-27 # Zdrowy Gosciu @ Version HM 9.6
-29314b9 # 2016-06-27 # Shubhraprakash Das @ msm: kgsl: Get rid of KGSL_FLAGS_STARTED
-c6faf4d # 2016-06-27 # Carter Cooper @ msm: kgsl: Clear pending transactions from VBIF on hang
-f6067b2 # 2016-06-27 # Carter Cooper @ msm: kgsl: Modify which MMU clocks are enabled/disabled
-cf4f127 # 2016-06-27 # Tarun Karra @ msm: kgsl: Prevent adreno stop after gpu is power collapsed
-f50f894 # 2016-06-27 # myfluxi @ msm: kgsl: Fix nice level for higher priority GPU start thread
-07f5f5a # 2016-06-27 # Shubhraprakash Das @ msm: kgsl: Fix memory entry leak when calling adreno_convertaddr
-d5d5ad4 # 2016-06-27 # myfluxi @ ARM/dt: msm8974-gpu: Enable qcom bus-control
-cad0fb1 # 2016-06-27 # Ethan @ cpufreq: Print error when an invalid CPU freq is trying to be set
-229fe5d # 2016-06-27 # arter97 @ devfreq: Introduce ADRENO IDLER v1.1 (arter97)
-5ea8dab # 2016-06-27 # yank555-lu @ power: Introduce POWERSUSPEND v1.7 (faux123/Yank555.lu)
-da2cd2b # 2016-06-27 # Zdrowy Gosciu @ Version HM 9.5
-828fb2b # 2016-06-27 # Thierry Strudel @ cpu: send KOBJ_ONLINE event when enabling cpus
-80d76fd # 2016-06-27 # myfluxi @ arm/dts: msm8974: Disable second crypto device
-a6d4f74 # 2016-06-27 # myfluxi @ crypto: msm: Update clock vote for improved performance
-509405b # 2016-06-27 # Ethan @ arm/dts: msm8974: Schedule mmcqd on idle CPU
-c068705 # 2016-06-27 # Dov Levenglick @ mmc: add support for scheduling mmcqd on idle CPU
-9e1f0ac # 2016-06-27 # Patrick Daly @ PM / Wakeup: Use rcu callbacks for better performance
-
-* Project packages/apps/Bluetooth/
-62d031a # 2016-06-26 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-4924f59 # 2016-06-25 # Roman Birg @ Revert "Revert "Ensure synchronized access of JNI callback object""
+0e65aac # 2016-06-30 # Zdrowy Gosciu @ Version HM 9.7
+2c14213 # 2016-06-30 # Zdrowy Gosciu @ cpufreq: interactive: Sync hispeed_freq with init script
+f953cdc # 2016-06-30 # myfluxi @ msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag
 
 * Project packages/apps/CMFileManager/
-65db040 # 2016-06-27 # Danesh M @ FileManager : Update to use toybox ls
-95c92cb # 2016-06-27 # Scott Mertz @ Fix crash when long press directory
+377e629 # 2016-06-29 # inky@build01 @ Automatic translation import
 
-* Project packages/apps/KernelAdiutor/
-49c3701 # 2016-06-27 # Zdrowy Gosciu @ Merge remote-tracking branch 'yoinx/master' into mm
-8fa7e80 # 2016-06-26 # Yoinx @ Bump to Build 14
-14e1690 # 2016-06-26 # Yoinx @ About US: change G+ wording
-ddfed4c # 2016-06-26 # Yoinx @ About Us: Fix Typo
-24fe943 # 2016-06-26 # Yoinx @ About Us: add Google+ community
-a1be7b2 # 2016-06-26 # Yoinx @ Merge branch 'master' of https://github.com/yoinx/kernel_adiutor
-92d0eb6 # 2016-06-26 # Joe Schubert @ Merge pull request #43 from AndroPlus-org/master
-eaa5656 # 2016-06-26 # Joe Schubert @ Merge pull request #44 from spezi77/master
-71b1bc3 # 2016-06-26 # Joe Schubert @ Merge pull request #39 from shmuelr/master
-44fa084 # 2016-06-25 # Shmuel Rosansky @ fix per-app profiles
-8c1e924 # 2016-06-25 # spezi77 @ Add controls for auto_hotplug by Thalamus.
-2d05629 # 2016-06-25 # AndroPlus-org @ GPU: Add support for Snapdragon 820 msm8996
+* Project packages/apps/CellBroadcastReceiver/
+2f1ce97 # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
+9dd2dfc # 2016-06-29 # inky@build01 @ Automatic translation import
 
-* Project packages/apps/Snap/
-7edad93 # 2016-06-28 # jrizzoli @ Snap: Update switcher layout
-3982250 # 2016-06-27 # Hernán Castañón @ Snap: Update icon from Omni
-6db74c0 # 2016-06-27 # Zdrowy Gosciu @ Snap: My name is Snap
-d13a588 # 2016-06-27 # Zdrowy Gosciu @ Snap: Make auto rotation less aggressive
-557c40a # 2016-06-27 # Zdrowy Gosciu @ Snap: QuickPic as gallery app
-6e40a1f # 2016-06-27 # Zdrowy Gosciu @ Revert "Snap: Hard-code manual shutter speed setting for Bacon"
-f9e955c # 2016-06-27 # Zdrowy Gosciu @ Revert "Snap: Silently disable ZSL when HDR is enabled"
-933aed3 # 2016-06-27 # Zdrowy Gosciu @ Revert "Snap: Add support for QHD 1440p video resolution"
-13be31e # 2016-06-27 # Zdrowy Gosciu @ Revert "Snap: Fix FC when selecting high-speed 1440p"
-ee1c1a3 # 2016-06-27 # Zdrowy Gosciu @ Revert "Snap: Hard-code default video qualities"
-d880b55 # 2016-06-25 # Sultanxda @ Snap: Calculate focus ring boundaries using position of UI elements
+* Project packages/apps/Contacts/
+6ecb91a # 2016-06-29 # Erica Chang @ Contacts metrics: corrected parsed timestamp values
+04561ba # 2016-06-29 # Erica Chang @ Contacts metrics: flip contacts merge order since they have dependency
+c6eb605 # 2016-06-29 # Raj Yengisetty @ Send count stats with DIRECTORY_SEARCH events
+0ae5fd2 # 2016-06-29 # inky@build01 @ Automatic translation import
 
-* Project vendor/cm/
-2dbee5e # 2016-06-28 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-1bc4b31 # 2016-06-27 # Michael Ott @ Remove APN pinternet.interkom.de from MCC 262/MNC 02
+* Project packages/apps/Dialer/
+a7b0e33 # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+bb8a083 # 2016-06-29 # inky@build01 @ Automatic translation import
 
-* Project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
-e630607 # 2016-06-27 # Scott Warner @ Don't remove today from the forecast
+* Project packages/apps/Gello/
+2c40f6b # 2016-06-30 # Joey Rizzoli @ Gello: nuke unused/broken localized search engines
+00f154b # 2016-06-29 # inky@build01 @ Automatic translation import
+9aaaede # 2016-06-28 # Alexandre Oliveira @ Add Encrypted Google search engine
+
+* Project packages/apps/InCallUI/
+f077feb # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+254289a # 2016-06-29 # inky@build01 @ Automatic translation import
+
+* Project packages/apps/Messaging/
+ba969ce # 2016-06-29 # inky@build01 @ Automatic translation import
+ea62dca # 2016-06-28 # Adnan Begovic @ Messaging: Use textutils to match against SIP scheme.
+
+* Project packages/apps/PhoneCommon/
+cbd20e8 # 2016-06-29 # inky@build01 @ Automatic translation import
+
+* Project packages/apps/Settings/
+57e6f28 # 2016-06-30 # inky@build01 @ Automatic translation import
+0c2cd4b # 2016-06-30 # Tom Marshall @ settings: wifi: Default to numeric keyboard for static IP items
+5f1663c # 2016-06-30 # Tom Marshall @ Settings: Set root access options appropriately
+97071a8 # 2016-06-30 # Michael Bestas @ Fix untranslatable
+63afc33 # 2016-06-29 # Janson Kang @ Build V9.6
+c1fb0d6 # 2016-06-29 # Danesh M @ Settings : Add country code to blacklist entry dialog
+a5ddb32 # 2016-06-29 # Danny Baumann @ Make sure LiveDisplay toggle default values are correct.
+
+* Project packages/apps/SetupWizard/
+3f2a08f # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
+20037b7 # 2016-06-29 # inky@build01 @ Automatic translation import
+
+* Project packages/apps/SoundRecorder/
+02cf1e2 # 2016-06-29 # inky@build01 @ Automatic translation import
+
+* Project packages/inputmethods/LatinIME/
+da10ff6 # 2016-06-29 # inky@build01 @ Automatic translation import
+
+* Project packages/providers/DataUsageProvider/
+02bc367 # 2016-06-29 # inky@build01 @ Automatic translation import
+
+* Project packages/providers/TelephonyProvider/
+0743bb9 # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
+01a0a16 # 2016-06-29 # Susheel Nyamala @ Fix apn restore issue for multi-sim
+
+* Project packages/services/Telephony/
+fe73cc8 # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
+d2f1215 # 2016-06-29 # inky@build01 @ Automatic translation import
+
+* Project vendor/cmsdk/
+a9f9fc2 # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+052af0a # 2016-06-29 # inky@build01 @ Automatic translation import
+78d80d6 # 2016-06-29 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0

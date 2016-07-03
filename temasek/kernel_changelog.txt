@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-06-25 @ 09:40:09 (1466847609)
+CHANGES AFTER 2016-06-30 @ 12:37:24 (1467290244)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,25 +6,30 @@ CHANGES AFTER 2016-06-25 @ 09:40:09 (1466847609)
            |_____|___  |______|______|
                  |_____|              
 
+* Project device/lge/g2-common/
+70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
+e0a6512 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: Setup darkness as default CPU GOV
+2227051 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: Throttle MSM Thermal earlier
+
 * Project kernel/lge/msm8974/
-0e65aac # 2016-06-30 # Zdrowy Gosciu @ Version HM 9.7
-2c14213 # 2016-06-30 # Zdrowy Gosciu @ cpufreq: interactive: Sync hispeed_freq with init script
-f953cdc # 2016-06-30 # myfluxi @ msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag
-cfeab81 # 2016-06-27 # Zdrowy Gosciu @ Version HM 9.6
-29314b9 # 2016-06-27 # Shubhraprakash Das @ msm: kgsl: Get rid of KGSL_FLAGS_STARTED
-c6faf4d # 2016-06-27 # Carter Cooper @ msm: kgsl: Clear pending transactions from VBIF on hang
-f6067b2 # 2016-06-27 # Carter Cooper @ msm: kgsl: Modify which MMU clocks are enabled/disabled
-cf4f127 # 2016-06-27 # Tarun Karra @ msm: kgsl: Prevent adreno stop after gpu is power collapsed
-f50f894 # 2016-06-27 # myfluxi @ msm: kgsl: Fix nice level for higher priority GPU start thread
-07f5f5a # 2016-06-27 # Shubhraprakash Das @ msm: kgsl: Fix memory entry leak when calling adreno_convertaddr
-d5d5ad4 # 2016-06-27 # myfluxi @ ARM/dt: msm8974-gpu: Enable qcom bus-control
-cad0fb1 # 2016-06-27 # Ethan @ cpufreq: Print error when an invalid CPU freq is trying to be set
-229fe5d # 2016-06-27 # arter97 @ devfreq: Introduce ADRENO IDLER v1.1 (arter97)
-5ea8dab # 2016-06-27 # yank555-lu @ power: Introduce POWERSUSPEND v1.7 (faux123/Yank555.lu)
-da2cd2b # 2016-06-27 # Zdrowy Gosciu @ Version HM 9.5
-828fb2b # 2016-06-27 # Thierry Strudel @ cpu: send KOBJ_ONLINE event when enabling cpus
-80d76fd # 2016-06-27 # myfluxi @ arm/dts: msm8974: Disable second crypto device
-a6d4f74 # 2016-06-27 # myfluxi @ crypto: msm: Update clock vote for improved performance
-509405b # 2016-06-27 # Ethan @ arm/dts: msm8974: Schedule mmcqd on idle CPU
-c068705 # 2016-06-27 # Dov Levenglick @ mmc: add support for scheduling mmcqd on idle CPU
-9e1f0ac # 2016-06-27 # Patrick Daly @ PM / Wakeup: Use rcu callbacks for better performance
+890102f # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.999
+e000f37 # 2016-07-03 # Zdrowy Gosciu @ Revert "block: Disable IO Stats"
+ed25e6d # 2016-07-03 # franciscofranco @ wireless: bcmdhd: halve rx and ctrl wakelock timeout by half
+3f0bfd4 # 2016-07-03 # Rashed Abdel-Tawab @ bcmdhd: Restore default wakelocks and timing
+0a5a4e0 # 2016-07-03 # Zdrowy Gosciu @ net: wireless: bcmdhd: Use normal thread priority for bcm4339
+26f44b8 # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.9
+268b047 # 2016-07-03 # Zdrowy Gosciu @ Revert "PM / Wakeup: Use rcu callbacks for better performance"
+8190eb4 # 2016-07-03 # Zdrowy Gosciu @ Revert "mmc: add support for scheduling mmcqd on idle CPU"
+fceb12d # 2016-07-03 # Zdrowy Gosciu @ Revert "arm/dts: msm8974: Schedule mmcqd on idle CPU"
+fe989d1 # 2016-07-03 # Zdrowy Gosciu @ arm: Revert last crypto/cpu/dts patches
+72cbb82 # 2016-07-03 # Zdrowy Gosciu @ gpu: Revert last kgsl commits
+d4f5018 # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.8
+4dee2b5 # 2016-07-03 # Scott Bauer @ HID: hiddev: validate num_values for HIDIOCGUSAGES, HIDIOCSUSAGES commands
+c27d9f2 # 2016-07-03 # Zdrowy Gosciu @ State Notifier: Disable debugs
+ec5c2ca # 2016-07-03 # Zdrowy Gosciu @ devfreq: Simple GPU Algorithm: Define val in simple_gpu_algorithm()
+6f76ccb # 2016-07-03 # Zdrowy Gosciu @ devfreq: Adreno Idler: Force min freq when GOV is suspended or screen is OFF
+ef34381 # 2016-07-03 # Zdrowy Gosciu @ devfreq: Rebase and enable Adreno Idler
+d541ccf # 2016-07-03 # Zdrowy Gosciu @ devfreq: Rebase and enable Simple GPU Algorithm
+a4fca5d # 2016-07-03 # Zdrowy Gosciu @ Revert "power: Introduce POWERSUSPEND v1.7 (faux123/Yank555.lu)"
+27b4619 # 2016-07-03 # Zdrowy Gosciu @ Revert "devfreq: Introduce ADRENO IDLER v1.1 (arter97)"
+c4be4ad # 2016-07-03 # Zdrowy Gosciu @ Revert "devfreq: Tweak msm-adreno-tz GPU GOV"

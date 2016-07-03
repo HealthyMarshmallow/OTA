@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-06-28 @ 17:21:05 (1467134465)
+CHANGES AFTER 2016-06-30 @ 12:37:24 (1467290244)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,99 +6,203 @@ CHANGES AFTER 2016-06-28 @ 17:21:05 (1467134465)
            |_____|___  |______|______|
                  |_____|              
 
+* Project /
+0000000 # 2016-07-03 # Zdrowy Gosciu @ local manifest: Use Nameless ROM OkHttp 2.7.5
+0000000 # 2016-07-03 # Zdrowy Gosciu @ frameworks base: Adjust battery/percent padding
+
 * Project OTA/
-cbb5b5a # 2016-06-28 # Zdrowy Gosciu @ OTA: cm-13.0-20160628-171310-UNOFFICIAL-temasek-d802-V9.5
+7a3fe64 # 2016-06-30 # Zdrowy Gosciu @ OTA: cm-13.0-20160630-122923-UNOFFICIAL-temasek-d802-V9.6
 
-* Project device/qcom/common/
-3d10066 # 2016-06-29 # Sravan Kumar Ambapuram @ power: add support for PowerHAL in Feero
+* Project bionic/
+3ed6869 # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_bionic into cm-13.0
+0a143d0 # 2016-07-01 # Steve Kondik @ libc: Fix invalid offset warning with Clang
 
-* Project device/qcom/sepolicy/
-427b02e # 2016-06-29 # Ricardo Cerqueira @ wcnss: Fix annoying warning when ptt looks for its log dir
+* Project cts/
+f76218b # 2016-06-30 # The Android Automerger @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+
+* Project device/lge/g2-common/
+70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
+ec63bd7 # 2016-07-03 # Ravi Kumar Alamanda @ audio: Add support for dualmic fluence for voice communication
+e0a6512 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: Setup darkness as default CPU GOV
+2227051 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: Throttle MSM Thermal earlier
+0eb73e4 # 2016-07-03 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+6fcd102 # 2016-07-03 # Zdrowy Gosciu @ Revert "g2-common: Remove fluence for speaker"
+2002424 # 2016-06-30 # Jan Jasper de Kroon @ Enable audio offloading with video
+f1be890 # 2016-06-30 # Ethan Chen @ Revert "g2: Disable offload"
+
+* Project external/okhttp/
+8219a39 # 2016-06-30 # Steve Kondik @ okhttp: Get tcmiface off the boot classpath
+ad5f866 # 2016-06-30 # Alexander Martinz @ TCM: adjust support for okhttp upgrade
+8e6bc49 # 2016-06-30 # Susheel Yadagiri @ Add TCM (TCP Connection Management) support
+ae0961c # 2016-06-30 # Alexander Martinz @ Revert "Revert obsolete parts of 'Android modifications to OkHttp'"
+bf2e946 # 2016-06-30 # Alexander Martinz @ Revert "Add core-oj to the list of dependencies"
+edbd2d1 # 2016-06-30 # Alexander Martinz @ Revert "Use core-oj alongside core-libart wherever required."
+ef2c3af # 2016-06-30 # Alexander Martinz @ Revert "Refactor NetworkSecurityPolicy to be pluggable"
+800bc80 # 2016-06-30 # Alexander Martinz @ Revert "Use hostname aware isCleartextTrafficPermitted"
 
 * Project frameworks/base/
-98d6389 # 2016-06-30 # inky@build01 @ Automatic translation import
-a043e2f # 2016-06-30 # Danesh M @ Revert "Revert "Only show keyguard panel if on lockscreen + no activity on top""
-9124ef6 # 2016-06-30 # Danesh M @ PhoneWindowManager : Check CM_SETUP_WIZARD_COMPLETED for isUserSetupComplete
-32d3232 # 2016-06-29 # Danesh M @ KeyguardSecurityViewFlipper : Fix sim unlock height overlap
-f43293a # 2016-06-29 # LuK1337 @ Disable proximity check on power key properly
-abc3b1e # 2016-06-29 # Tom Marshall @ fw: GlobalActions: Always dismiss any existing dialog
-49cb187 # 2016-06-29 # Trishool Narayanasetty @ SystemServer: Do not start Atlas Service on lowram devices.
+ed327bc # 2016-07-03 # Gurpreet Ghai @ BT: Set persiste Bluetooth State during enable timeout case
+ae0c95a # 2016-07-03 # Wileen Chiu @ Add absent sim info to locked screen text
+c3ae2b1 # 2016-07-03 # Luke Zhang @ Encapsulate the unbindService with try catch block
+f38df4f # 2016-07-03 # Ayan Ghosh @ Bluetooth: Access mediaplayerlist in synchronized way
+0d44814 # 2016-07-03 # Manoj Kumar AVM @ WifiDisplayController: Fix p2p disconnect before rtsp teardown completes
+e0546f7 # 2016-07-03 # Nalla Kartheek @ Wifi: Make maximum selective channel scans and interval configurable
+f85f527 # 2016-07-03 # Kevin Tang @ combo bug when location reported by providers do not come with extras
+14533cf # 2016-07-03 # Richard LIU @ Ignore IMS type APN when notify data connection
+e5c2d64 # 2016-07-03 # Sandeep Kunta @ Remove TONE_SUPERVISORY_CH
+eba459b # 2016-07-03 # Muhammed Siju @ MSIM: Restrict data activity change to listeners with matching subId
+cadcb2f # 2016-07-03 # Dheeraj Shetty @ Add config to show HD icon on EVS codec.
+46c998d # 2016-07-02 # Janson Kang @ Revert "PhoneWindowManager : Check CM_SETUP_WIZARD_COMPLETED for isUserSetupComplete"
 
-* Project hardware/cyanogen/
-ce0c9b1 # 2016-06-29 # Michael Bestas @ cmhw: Whitespace cleanup
-
-* Project hardware/qcom/wlan-caf/
-b5ecb1d # 2016-06-29 # Steve Kondik @ wifi-hal: Only try LOWI once
+* Project frameworks/opt/telephony/
+ba0bc5f # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+9f4f4be # 2016-07-02 # Altaf-Mahdi @ Subscription updater: don't post messages on events in BroadcastReceiver
+3b24907 # 2016-07-02 # kaiyiz @ TelephonyProvider: Add CDMA call forwarding/waiting function
+c49c744 # 2016-07-02 # Steve Kondik @ dct: Sync with upstream
+8ea51be # 2016-07-02 # Sandeep Gutta @ MSIM: Send FINISH request on flex map START fail
+3e12eb4 # 2016-07-02 # Umashankar Godachi @ Set additional info for LaunchBrowser error case.
+83ffc48 # 2016-07-02 # Yashdev Singh @ Telephony: Reduce back to back same APN activation delay.
+4cc7ede # 2016-07-02 # Susheel nyamala @ Fix emergency ims pdn setup issue
+09ca1bb # 2016-07-02 # Susheel nyamala @ Fix ims pdn issue on non dds sub on iwlan
+4a6e7c5 # 2016-07-02 # Ravindra @ Fix to resolve data call issue for sim hot swap case
+a9d7209 # 2016-07-02 # Ravindra Thattahalli Javaraiah @ Notify disconnect on phone dispose
+e93e6b5 # 2016-07-02 # Dheeraj Shetty @ Use EVS codec for HD if carrier supports it.
+a8208a5 # 2016-07-02 # Susheel nyamala @ Fix Dds switch issue for wifi and IWLAN scenarios
+b6d95be # 2016-07-02 # Ravindra @ Fix to avoid unnecessary PS attach.
+fea40e5 # 2016-07-02 # Susheel nyamala @ Fix ims pdn request issue
+cbaa8d3 # 2016-07-02 # Yujing Gu @ Parse the record number from byte to int
+ce2ca07 # 2016-07-02 # pengfeix @ Finer grained character boundaries in computing SMS fragment lengths
+b3571da # 2016-07-02 # Sandeep Gutta @ MSIM: Use SIM specific subId for setMccMnc
+8b477da # 2016-07-02 # Suchand Ghosh @ IMS: Fix phone app crash at setOutgoingCallerIdDisplay().
+0f88ef6 # 2016-07-02 # Muhammed Siju @ Fix DDS switch issues for CDMA and IWLAN scenarios.
+7e64272 # 2016-07-02 # Yujing Gu @ Add the slot id when broadcasting card state to STK app.
+0dbab41 # 2016-07-02 # Susheel nyamala @ Fix default data reset issue on device powerup
+1e4c0b0 # 2016-07-02 # Wileen Chiu @ Send shutdown command to modem
+8b4ba43 # 2016-07-02 # Huaibin Yang @ Telephony: CDMA: allow MT SMS when in ECBM
+eec0d61 # 2016-07-02 # Suresh Kumar Sugguna @ IMS: Exit ECBM before dialing a pending non-emergency MO call
+28678cf # 2016-07-02 # Benergy Meenan Ravuri @ IMS: Fix null pointer exception for call forwarding
+35b357b # 2016-07-02 # Sukanya Rajkhowa @ Setup data on new APNs only when APN changes
+31cadbe # 2016-07-02 # Sandeep Kunta @ MSIM: Fix ECBM dialog issue in G+C
+fe0a2f2 # 2016-07-02 # Richard LIU @ Do not set "gsm.operator.idpstring" per phoneId
+2a2094e # 2016-07-02 # Andalam Parthasarathi @ Telephony: Config values for other languages
+200c495 # 2016-07-02 # David Ng @ Revert "updateSpnDisplay: When PLMN values are same for before & after SIM loading in."
+9a69cad # 2016-07-02 # Wileen Chiu @ Check subid when querying network selection
+3139447 # 2016-07-02 # Umashankar Godachi @ FR29338: Read SIM Contacts from EF-ADN if EF-PBR read failed.
+07d7e45 # 2016-07-02 # Umashankar Godachi @ Fix ADN records loading removing EFEXT1 dependency.
+f567219 # 2016-07-02 # Sridhar Dubbaka @ Add channel 60 Cellboradcast support.
+a80e16f # 2016-07-02 # Steve Kondik @ gsmsst: Protect against "null" string literals
+5caa9c8 # 2016-07-02 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+44396d8 # 2016-07-01 # Neil Fuller @ Remove identifier that causes warnings under OpenJDK 8 compiler
 
 * Project kernel/lge/msm8974/
-0e65aac # 2016-06-30 # Zdrowy Gosciu @ Version HM 9.7
-2c14213 # 2016-06-30 # Zdrowy Gosciu @ cpufreq: interactive: Sync hispeed_freq with init script
-f953cdc # 2016-06-30 # myfluxi @ msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag
-
-* Project packages/apps/CMFileManager/
-377e629 # 2016-06-29 # inky@build01 @ Automatic translation import
+890102f # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.999
+e000f37 # 2016-07-03 # Zdrowy Gosciu @ Revert "block: Disable IO Stats"
+ed25e6d # 2016-07-03 # franciscofranco @ wireless: bcmdhd: halve rx and ctrl wakelock timeout by half
+3f0bfd4 # 2016-07-03 # Rashed Abdel-Tawab @ bcmdhd: Restore default wakelocks and timing
+0a5a4e0 # 2016-07-03 # Zdrowy Gosciu @ net: wireless: bcmdhd: Use normal thread priority for bcm4339
+26f44b8 # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.9
+268b047 # 2016-07-03 # Zdrowy Gosciu @ Revert "PM / Wakeup: Use rcu callbacks for better performance"
+8190eb4 # 2016-07-03 # Zdrowy Gosciu @ Revert "mmc: add support for scheduling mmcqd on idle CPU"
+fceb12d # 2016-07-03 # Zdrowy Gosciu @ Revert "arm/dts: msm8974: Schedule mmcqd on idle CPU"
+fe989d1 # 2016-07-03 # Zdrowy Gosciu @ arm: Revert last crypto/cpu/dts patches
+72cbb82 # 2016-07-03 # Zdrowy Gosciu @ gpu: Revert last kgsl commits
+d4f5018 # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.8
+4dee2b5 # 2016-07-03 # Scott Bauer @ HID: hiddev: validate num_values for HIDIOCGUSAGES, HIDIOCSUSAGES commands
+c27d9f2 # 2016-07-03 # Zdrowy Gosciu @ State Notifier: Disable debugs
+ec5c2ca # 2016-07-03 # Zdrowy Gosciu @ devfreq: Simple GPU Algorithm: Define val in simple_gpu_algorithm()
+6f76ccb # 2016-07-03 # Zdrowy Gosciu @ devfreq: Adreno Idler: Force min freq when GOV is suspended or screen is OFF
+ef34381 # 2016-07-03 # Zdrowy Gosciu @ devfreq: Rebase and enable Adreno Idler
+d541ccf # 2016-07-03 # Zdrowy Gosciu @ devfreq: Rebase and enable Simple GPU Algorithm
+a4fca5d # 2016-07-03 # Zdrowy Gosciu @ Revert "power: Introduce POWERSUSPEND v1.7 (faux123/Yank555.lu)"
+27b4619 # 2016-07-03 # Zdrowy Gosciu @ Revert "devfreq: Introduce ADRENO IDLER v1.1 (arter97)"
+c4be4ad # 2016-07-03 # Zdrowy Gosciu @ Revert "devfreq: Tweak msm-adreno-tz GPU GOV"
 
 * Project packages/apps/CellBroadcastReceiver/
-2f1ce97 # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
-9dd2dfc # 2016-06-29 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Contacts/
-6ecb91a # 2016-06-29 # Erica Chang @ Contacts metrics: corrected parsed timestamp values
-04561ba # 2016-06-29 # Erica Chang @ Contacts metrics: flip contacts merge order since they have dependency
-c6eb605 # 2016-06-29 # Raj Yengisetty @ Send count stats with DIRECTORY_SEARCH events
-0ae5fd2 # 2016-06-29 # inky@build01 @ Automatic translation import
+a58d22f # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
+2126a2f # 2016-07-01 # Sridhar Dubbaka @ Use of SubId inplace of SlotId in CellBroadcastReceiver
+9d5aa27 # 2016-07-01 # Sridhar Dubbaka @ Add Msim support for Service State intent in CB receiver
+7a76013 # 2016-07-01 # Sridhar Dubbaka @ Regional: Support Channel 60 switch in CellBroadcast
+1389da5 # 2016-07-01 # Sridhar Dubbaka @ Fix duplicate detection for ETWS primary and secondary notifications.
 
 * Project packages/apps/Dialer/
-a7b0e33 # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-bb8a083 # 2016-06-29 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Gello/
-2c40f6b # 2016-06-30 # Joey Rizzoli @ Gello: nuke unused/broken localized search engines
-00f154b # 2016-06-29 # inky@build01 @ Automatic translation import
-9aaaede # 2016-06-28 # Alexandre Oliveira @ Add Encrypted Google search engine
+12986ea # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+8e281d6 # 2016-07-01 # Shammi Khattar @ Added permission READ_PRIVILEGED_PHONE_STATE.
 
 * Project packages/apps/InCallUI/
-f077feb # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-254289a # 2016-06-29 # inky@build01 @ Automatic translation import
+1fb54b5 # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+cde32f3 # 2016-07-01 # Muhammed Siju @ IMS-VT: Fix for auto fullscreen issue during UI rotation.
+5a7ea94 # 2016-07-01 # Mengjun Leng @ Fix display 'null' for geocoder location
+5227cbd # 2016-07-01 # Shaoxu Liu @ Add rtl support to GlowPadView
+f71be91 # 2016-07-01 # Ravindra @ Fix to incall screen for incoming call
 
 * Project packages/apps/Messaging/
-ba969ce # 2016-06-29 # inky@build01 @ Automatic translation import
-ea62dca # 2016-06-28 # Adnan Begovic @ Messaging: Use textutils to match against SIP scheme.
+e063271 # 2016-07-01 # Neil Fuller @ Remove identifier that causes warnings under OpenJDK 8 compiler
 
-* Project packages/apps/PhoneCommon/
-cbd20e8 # 2016-06-29 # inky@build01 @ Automatic translation import
+* Project packages/apps/OmniSwitch/
+d8b0296 # 2016-07-03 # Andreas Blaesius @ Automatic translation import
 
 * Project packages/apps/Settings/
-57e6f28 # 2016-06-30 # inky@build01 @ Automatic translation import
-0c2cd4b # 2016-06-30 # Tom Marshall @ settings: wifi: Default to numeric keyboard for static IP items
-5f1663c # 2016-06-30 # Tom Marshall @ Settings: Set root access options appropriately
-97071a8 # 2016-06-30 # Michael Bestas @ Fix untranslatable
-63afc33 # 2016-06-29 # Janson Kang @ Build V9.6
-c1fb0d6 # 2016-06-29 # Danesh M @ Settings : Add country code to blacklist entry dialog
-a5ddb32 # 2016-06-29 # Danny Baumann @ Make sure LiveDisplay toggle default values are correct.
-
-* Project packages/apps/SetupWizard/
-3f2a08f # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
-20037b7 # 2016-06-29 # inky@build01 @ Automatic translation import
+bbbdb70 # 2016-07-03 # Janson Kang @ Build V9.7
+fca925b # 2016-07-03 # Venkatraman Nerellapalli @ Telephony(MSIM): Fix ANR on SIM deactivation
+bf2b14e # 2016-07-03 # Ravindra @ Fix to enable data for non-dds sub.
+2143b91 # 2016-07-03 # Benergy Meenan Ravuri @ IMS: Set Wifi calling preference to Wifi preferred by default
+1bf8ef9 # 2016-07-03 # Nalla Kartheek @ Wi-Fi: Do not display the not scanned saved networks forever
+7b834f1 # 2016-07-03 # venkata Jagadeesh @ Don't start auto scan if screen recovers from frozen state
+86bca5d # 2016-07-03 # Susheel nyamala @ Fix mcc-mnc population issue in apn editor
+9f6ca23 # 2016-07-03 # Sridhar Dubbaka @ Update OperatorInfo in Simstatus settings for correct subid
+74becf0 # 2016-07-03 # Janson Kang @ Revert "Fix register multiple PhoneStateListeners."
+44a7553 # 2016-07-03 # Ruthwar Kumar Ambeer @ Grey out PIN1 enable/disable option when SUB is not ready
+dc89a37 # 2016-07-03 # Sravan Kumar V @ Bluetooth : Handle SQL memory situation during OPP.
+67f8aa0 # 2016-07-02 # d34d @ fingerpint: Allow devices to configure sensor location
 
 * Project packages/apps/SoundRecorder/
-02cf1e2 # 2016-06-29 # inky@build01 @ Automatic translation import
+c8b4cf4 # 2016-06-30 # Khalid Zubair @ Add Bluetooth sound recording
 
-* Project packages/inputmethods/LatinIME/
-da10ff6 # 2016-06-29 # inky@build01 @ Automatic translation import
-
-* Project packages/providers/DataUsageProvider/
-02bc367 # 2016-06-29 # inky@build01 @ Automatic translation import
+* Project packages/apps/Stk/
+f983c8e # 2016-07-01 # Rakesh Pallerla @ Do not go Fullscreen in StkInputAcvtivity.
+e1ec2cc # 2016-07-01 # Umashankar Godachi @ Fix the notification cancel during SIM refresh.
+dec7400 # 2016-07-01 # Ravindra @ MSIM: Add MSIM support for language selection event.
+6dd1eb9 # 2016-07-01 # Wileen Chiu @ Send slotId in message for OP_STOP_TONE
+7757426 # 2016-07-01 # Paramananda Pradhan @ Add intent to send STK app name
 
 * Project packages/providers/TelephonyProvider/
-0743bb9 # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
-01a0a16 # 2016-06-29 # Susheel Nyamala @ Fix apn restore issue for multi-sim
+b3c6e1d # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
+057cbb3 # 2016-07-01 # Richard LIU @ TelephonyProvider: Add CDMA call forwarding/waiting function
+615e785 # 2016-07-01 # Susheel nyamala @ Merge regional apns to telephony db
+2ab318f # 2016-07-01 # Susheel nyamala @ Fix Mms failures due to wrong numeric
+09632e8 # 2016-07-01 # Sridhar Dubbaka @ [CellBroadcast Alerts] : Enable CMAS Test alerts
+1752a04 # 2016-07-01 # Sridhar Dubbaka @ [TelephonyProvider]: Add Channel 60 support
+
+* Project packages/screensavers/Basic/
+43c7edb # 2016-07-01 # d34d @ Avoid potential NPE when tearing down LLS
+
+* Project packages/services/Telecomm/
+efdbb73 # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telecomm into cm-13.0
+a154eed # 2016-07-01 # Hall Liu @ DO NOT MERGE - Restrict ability to add call based on device provision status
+50c5860 # 2016-07-01 # Ravindra @ Fix to prevent NPE
+a5ee9a7 # 2016-07-01 # Sandeep Kunta @ Remove TONE_SUPERVISORY_CH
+95a3e66 # 2016-07-01 # Shriram Ganesh @ Fix a bug where conference call does not automatically resume.
+bce16cb # 2016-07-01 # Shriram Ganesh @ Fix disabled merge button on conference failure.
+51fed81 # 2016-07-01 # Mengjun Leng @ Fix sound output from headset when switching speaker to BT
 
 * Project packages/services/Telephony/
-fe73cc8 # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-d2f1215 # 2016-06-29 # inky@build01 @ Automatic translation import
+2539318 # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
+f1826d8 # 2016-07-01 # Qiang Chen @ Fix updating FDN using uri without subId issue
+8ff8c84 # 2016-07-01 # wangjing @ Mms: Fix SMS is not sent in ECBM unless click send again
+865ab32 # 2016-07-01 # Umashankar Godachi @ Add "FDN service is not available" toast message
+d34b5c3 # 2016-07-01 # Wileen Chiu @ SEEK: Change security check for getAtrUsingSubId
+9bfe715 # 2016-07-01 # Garik Badalyan @ IMS-VT: Conf: Propagate call extras to UI.
+95d94df # 2016-07-01 # Rakesh Pallerla @ Set APM mode property for RIL to access.
+
+* Project system/core/
+5b1bf8e # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
+dd08664 # 2016-07-01 # Benson Leung @ healthd: Support new PD and USB Type C types
+d68de66 # 2016-06-30 # Maunik Shah @ Copy the ETB dumps and maps file to /data/core
+00c551e # 2016-06-30 # sanketk @ Don't use global variable in libnetutils.
 
 * Project vendor/cmsdk/
-a9f9fc2 # 2016-06-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-052af0a # 2016-06-29 # inky@build01 @ Automatic translation import
-78d80d6 # 2016-06-29 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+5a78aab # 2016-07-02 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+d4bc9d3 # 2016-07-01 # Adnan Begovic @ cmsdk: Update README.
+b62a455 # 2016-07-01 # Adnan Begovic @ cmsdk: Create brokerablecmsystemservice concept.
+551b377 # 2016-07-01 # Adnan Begovic @ cmsdk: Factor CMSystemServiceHelper to common.
+50571ba # 2016-06-30 # Luis Vidal @ Apply active profile if user enables system profiles

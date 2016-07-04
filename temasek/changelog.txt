@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-06-30 @ 12:37:24 (1467290244)
+CHANGES AFTER 2016-07-03 @ 07:01:10 (1467529270)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,94 +7,82 @@ CHANGES AFTER 2016-06-30 @ 12:37:24 (1467290244)
                  |_____|              
 
 * Project /
-0000000 # 2016-07-03 # Zdrowy Gosciu @ local manifest: Use Nameless ROM OkHttp 2.7.5
-0000000 # 2016-07-03 # Zdrowy Gosciu @ frameworks base: Adjust battery/percent padding
+0000000 # 2016-07-04 # Zdrowy Gosciu @ local manifest: Switch QCOM hardware from CM to SultanXDA's CAF
 
 * Project OTA/
-7a3fe64 # 2016-06-30 # Zdrowy Gosciu @ OTA: cm-13.0-20160630-122923-UNOFFICIAL-temasek-d802-V9.6
-
-* Project bionic/
-3ed6869 # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_bionic into cm-13.0
-0a143d0 # 2016-07-01 # Steve Kondik @ libc: Fix invalid offset warning with Clang
-
-* Project cts/
-f76218b # 2016-06-30 # The Android Automerger @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+759acfe # 2016-07-04 # Zdrowy Gosciu @ OTA: Kernel HM 10.1 for Temasek
+3077ddd # 2016-07-04 # Zdrowy Gosciu @ OTA: cm-13.0-20160703-211101-UNOFFICIAL-temasek-d802-V9.7
 
 * Project device/lge/g2-common/
+4bd8542 # 2016-07-04 # Zdrowy Gosciu @ Revert "g2-common: init: power: Throttle MSM Thermal earlier"
+4d895d2 # 2016-07-04 # Zdrowy Gosciu @ g2-common: init: power: Remove MSM Hotplug settings
 70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
-ec63bd7 # 2016-07-03 # Ravi Kumar Alamanda @ audio: Add support for dualmic fluence for voice communication
-e0a6512 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: Setup darkness as default CPU GOV
-2227051 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: Throttle MSM Thermal earlier
-0eb73e4 # 2016-07-03 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-6fcd102 # 2016-07-03 # Zdrowy Gosciu @ Revert "g2-common: Remove fluence for speaker"
-2002424 # 2016-06-30 # Jan Jasper de Kroon @ Enable audio offloading with video
-f1be890 # 2016-06-30 # Ethan Chen @ Revert "g2: Disable offload"
-
-* Project external/okhttp/
-8219a39 # 2016-06-30 # Steve Kondik @ okhttp: Get tcmiface off the boot classpath
-ad5f866 # 2016-06-30 # Alexander Martinz @ TCM: adjust support for okhttp upgrade
-8e6bc49 # 2016-06-30 # Susheel Yadagiri @ Add TCM (TCP Connection Management) support
-ae0961c # 2016-06-30 # Alexander Martinz @ Revert "Revert obsolete parts of 'Android modifications to OkHttp'"
-bf2e946 # 2016-06-30 # Alexander Martinz @ Revert "Add core-oj to the list of dependencies"
-edbd2d1 # 2016-06-30 # Alexander Martinz @ Revert "Use core-oj alongside core-libart wherever required."
-ef2c3af # 2016-06-30 # Alexander Martinz @ Revert "Refactor NetworkSecurityPolicy to be pluggable"
-800bc80 # 2016-06-30 # Alexander Martinz @ Revert "Use hostname aware isCleartextTrafficPermitted"
 
 * Project frameworks/base/
-ed327bc # 2016-07-03 # Gurpreet Ghai @ BT: Set persiste Bluetooth State during enable timeout case
-ae0c95a # 2016-07-03 # Wileen Chiu @ Add absent sim info to locked screen text
-c3ae2b1 # 2016-07-03 # Luke Zhang @ Encapsulate the unbindService with try catch block
-f38df4f # 2016-07-03 # Ayan Ghosh @ Bluetooth: Access mediaplayerlist in synchronized way
-0d44814 # 2016-07-03 # Manoj Kumar AVM @ WifiDisplayController: Fix p2p disconnect before rtsp teardown completes
-e0546f7 # 2016-07-03 # Nalla Kartheek @ Wifi: Make maximum selective channel scans and interval configurable
-f85f527 # 2016-07-03 # Kevin Tang @ combo bug when location reported by providers do not come with extras
-14533cf # 2016-07-03 # Richard LIU @ Ignore IMS type APN when notify data connection
-e5c2d64 # 2016-07-03 # Sandeep Kunta @ Remove TONE_SUPERVISORY_CH
-eba459b # 2016-07-03 # Muhammed Siju @ MSIM: Restrict data activity change to listeners with matching subId
-cadcb2f # 2016-07-03 # Dheeraj Shetty @ Add config to show HD icon on EVS codec.
-46c998d # 2016-07-02 # Janson Kang @ Revert "PhoneWindowManager : Check CM_SETUP_WIZARD_COMPLETED for isUserSetupComplete"
-
-* Project frameworks/opt/telephony/
-ba0bc5f # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
-9f4f4be # 2016-07-02 # Altaf-Mahdi @ Subscription updater: don't post messages on events in BroadcastReceiver
-3b24907 # 2016-07-02 # kaiyiz @ TelephonyProvider: Add CDMA call forwarding/waiting function
-c49c744 # 2016-07-02 # Steve Kondik @ dct: Sync with upstream
-8ea51be # 2016-07-02 # Sandeep Gutta @ MSIM: Send FINISH request on flex map START fail
-3e12eb4 # 2016-07-02 # Umashankar Godachi @ Set additional info for LaunchBrowser error case.
-83ffc48 # 2016-07-02 # Yashdev Singh @ Telephony: Reduce back to back same APN activation delay.
-4cc7ede # 2016-07-02 # Susheel nyamala @ Fix emergency ims pdn setup issue
-09ca1bb # 2016-07-02 # Susheel nyamala @ Fix ims pdn issue on non dds sub on iwlan
-4a6e7c5 # 2016-07-02 # Ravindra @ Fix to resolve data call issue for sim hot swap case
-a9d7209 # 2016-07-02 # Ravindra Thattahalli Javaraiah @ Notify disconnect on phone dispose
-e93e6b5 # 2016-07-02 # Dheeraj Shetty @ Use EVS codec for HD if carrier supports it.
-a8208a5 # 2016-07-02 # Susheel nyamala @ Fix Dds switch issue for wifi and IWLAN scenarios
-b6d95be # 2016-07-02 # Ravindra @ Fix to avoid unnecessary PS attach.
-fea40e5 # 2016-07-02 # Susheel nyamala @ Fix ims pdn request issue
-cbaa8d3 # 2016-07-02 # Yujing Gu @ Parse the record number from byte to int
-ce2ca07 # 2016-07-02 # pengfeix @ Finer grained character boundaries in computing SMS fragment lengths
-b3571da # 2016-07-02 # Sandeep Gutta @ MSIM: Use SIM specific subId for setMccMnc
-8b477da # 2016-07-02 # Suchand Ghosh @ IMS: Fix phone app crash at setOutgoingCallerIdDisplay().
-0f88ef6 # 2016-07-02 # Muhammed Siju @ Fix DDS switch issues for CDMA and IWLAN scenarios.
-7e64272 # 2016-07-02 # Yujing Gu @ Add the slot id when broadcasting card state to STK app.
-0dbab41 # 2016-07-02 # Susheel nyamala @ Fix default data reset issue on device powerup
-1e4c0b0 # 2016-07-02 # Wileen Chiu @ Send shutdown command to modem
-8b4ba43 # 2016-07-02 # Huaibin Yang @ Telephony: CDMA: allow MT SMS when in ECBM
-eec0d61 # 2016-07-02 # Suresh Kumar Sugguna @ IMS: Exit ECBM before dialing a pending non-emergency MO call
-28678cf # 2016-07-02 # Benergy Meenan Ravuri @ IMS: Fix null pointer exception for call forwarding
-35b357b # 2016-07-02 # Sukanya Rajkhowa @ Setup data on new APNs only when APN changes
-31cadbe # 2016-07-02 # Sandeep Kunta @ MSIM: Fix ECBM dialog issue in G+C
-fe0a2f2 # 2016-07-02 # Richard LIU @ Do not set "gsm.operator.idpstring" per phoneId
-2a2094e # 2016-07-02 # Andalam Parthasarathi @ Telephony: Config values for other languages
-200c495 # 2016-07-02 # David Ng @ Revert "updateSpnDisplay: When PLMN values are same for before & after SIM loading in."
-9a69cad # 2016-07-02 # Wileen Chiu @ Check subid when querying network selection
-3139447 # 2016-07-02 # Umashankar Godachi @ FR29338: Read SIM Contacts from EF-ADN if EF-PBR read failed.
-07d7e45 # 2016-07-02 # Umashankar Godachi @ Fix ADN records loading removing EFEXT1 dependency.
-f567219 # 2016-07-02 # Sridhar Dubbaka @ Add channel 60 Cellboradcast support.
-a80e16f # 2016-07-02 # Steve Kondik @ gsmsst: Protect against "null" string literals
-5caa9c8 # 2016-07-02 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
-44396d8 # 2016-07-01 # Neil Fuller @ Remove identifier that causes warnings under OpenJDK 8 compiler
+d6916de # 2016-07-04 # AdrianDC @ SystemUI: Restrict persistent USB drive notifications to USB disks
 
 * Project kernel/lge/msm8974/
+5966bc1 # 2016-07-04 # Zdrowy Gosciu @ Version HM 10.111
+1cfaf5e # 2016-07-04 # Zdrowy Gosciu @ cpufreq: darkness: Higher sampling rate
+5695281 # 2016-07-04 # Zdrowy Gosciu @ Version HM 10.1
+f7cb5a5 # 2016-07-04 # Zdrowy Gosciu @ devfreq: Don't run Adreno idler at startup
+ce9c52f # 2016-07-04 # Zdrowy Gosciu @ cpufreq: darkness: Lower sampling rate
+1676901 # 2016-07-04 # Zdrowy Gosciu @ Version HM 10.0
+af08270 # 2016-07-04 # Zdrowy Gosciu @ cpufreq: Disable boost drivers
+784d89b # 2016-07-04 # Zdrowy Gosciu @ arm: msm hotplug: Don't run at startup
+ea6b28d # 2016-07-04 # Zdrowy Gosciu @ dirvers: cpuquiet: Build me!
+4ef999d # 2016-07-04 # DerRomtester @ drivers: cpuquiet: Remove useless governors
+891ed0f # 2016-07-04 # DerRomtester @ drivers: Introduce CPUQuiet
+bdee4b9 # 2016-07-04 # Francisco Franco @ Revert "sched_avg: add run queue averaging."
+c81e465 # 2016-07-04 # franciscofranco @ sched/rt: Reduce rq lock contention by eliminating locking of non-feasible target
+69ae3e3 # 2016-07-04 # Oleg Nesterov @ sched: Change autogroup_move_group() to use for_each_thread()
+86ee0df # 2016-07-04 # franciscofranco @ sched: s/do_each_thread/for_each_process_thread/ in debug.c
+65ad170 # 2016-07-04 # Oleg Nesterov @ sched: s/do_each_thread/for_each_process_thread/ in core.c
+a9d9dea # 2016-07-04 # franciscofranco @ sched: Fix exec_start/task_hot on migrated tasks
+45b4706 # 2016-07-04 # Michal Nazarewicz @ sched/fair: Avoid integer overflow
+297aaf4 # 2016-07-04 # Peter Zijlstra @ sched/core: Fix an SMP ordering race in try_to_wake_up() vs. schedule()
+b42a33b # 2016-07-04 # Brian Silverman @ sched: Fix RLIMIT_RTTIME when PI-boosting to RT
+05cc14b # 2016-07-04 # Thomas Gleixner @ sched: Queue RT tasks to head when prio drops
+7caaf6c # 2016-07-04 # Srivatsa Vaddagiri @ sched: window-based load stats improvements
+f390b7b # 2016-07-04 # Srivatsa Vaddagiri @ sched: Add min_max_freq and rq->max_possible_freq
+ae12b90 # 2016-07-04 # Steve Muckle @ sched: move task load based functions
+efed618 # 2016-07-04 # Matt Wagantall @ sched/rt: Add Kconfig option to enable panicking for RT throttling
+85bcda7 # 2016-07-04 # Matt Wagantall @ sched/rt: print RT tasks when RT throttling is activated
+e32b8d2 # 2016-07-04 # Srivatsa Vaddagiri @ sched: Skip load update for idle task
+249cc18 # 2016-07-04 # Srivatsa Vaddagiri @ sched: window-stats: Fix overflow bug
+6a0e91d # 2016-07-04 # Naveen Ramaraj @ cpufreq: Always allow update of user policy
+3a767c5 # 2016-07-04 # Stephen Boyd @ soc: qcom: rq_stats: Always show idle time left
+edbee47 # 2016-07-04 # Steve Kondik @ sched: Fix race in idle_balance()
+9afa043 # 2016-07-04 # Guojian Chen @ cpuidle: remove cross-cpu IPI by new latency request.
+dedf701 # 2016-07-04 # Srivatsa Vaddagiri @ sched: Window-based load stat improvements
+1ff30df # 2016-07-04 # Rohit Gupta @ sched: Disable wakeup hints for foreground tasks by default
+c2cc480 # 2016-07-04 # Rohit Gupta @ sched: Call the notify_on_migrate notifier chain for wakeups as well
+8deaa9e # 2016-07-04 # Rohit Gupta @ cpufreq: cpu-boost: Introduce scheduler assisted load based syncs
+4919d1c # 2016-07-04 # George McCollister @ sched: Fix double normalization of vruntime
+9b3e0f8 # 2016-07-04 # Srivatsa Vaddagiri @ sched: window-based load stats for tasks
+4593dcf # 2016-07-04 # myfluxi @ Revert "tracing/sched: Track per-cpu rt and non-rt cpu_load."
+0494b2a # 2016-07-04 # Srivatsa Vaddagiri @ sched: Make scheduler aware of cpu frequency state
+124b563 # 2016-07-04 # Paul Turner @ sched: Introduce temporary FAIR_GROUP_SCHED dependency for load-tracking
+ac54bb2 # 2016-07-04 # Paul Turner @ sched: Make __update_entity_runnable_avg() fast
+b9d93e6 # 2016-07-04 # Paul Turner @ sched: Update_cfs_shares at period edge
+02d7458 # 2016-07-04 # Paul Turner @ sched: Refactor update_shares_cpu() -> update_blocked_avgs()
+eaa04b5 # 2016-07-04 # Paul Turner @ sched: Replace update_shares weight distribution with per-entity computation
+ef5ddc4 # 2016-07-04 # Paul Turner @ sched: Maintain runnable averages across throttled periods
+3eb8630 # 2016-07-04 # Paul Turner @ sched: Normalize tg load contributions against runnable time
+9390871 # 2016-07-04 # Paul Turner @ sched: Compute load contribution by a group entity
+705648a # 2016-07-04 # Paul Turner @ sched: Aggregate total task_group load
+6408d8a # 2016-07-04 # Paul Turner @ sched: Account for blocked load waking back up
+eeb70c0 # 2016-07-04 # Paul Turner @ sched: Add an rq migration call-back to sched_class
+48fca95 # 2016-07-04 # Paul Turner @ sched: Maintain the load contribution of blocked entities
+2cbfe43 # 2016-07-04 # Paul Turner @ sched: Aggregate load contributed by task entities on parenting cfs_rq
+f44fa65 # 2016-07-04 # Ben Segall @ sched: Maintain per-rq runnable averages
+5948c45 # 2016-07-04 # Paul Turner @ sched: Track the runnable average on a per-task entity basis
+2f1d60f # 2016-07-04 # DerRomtester @ msm_rq_stats: Add get_rq_info
+ce443ac # 2016-07-04 # Suman Tatiraju @ msm: kgsl: Fix race condition in adreno_spin_idle()
+76e7fb3 # 2016-07-04 # Zdrowy Gosciu @ Revert "arm: hotplug: Introduce intelli_plug"
+d962a0c # 2016-07-04 # Zdrowy Gosciu @ Revert "arm: Don't build MSM RQ STATS"
+8eac918 # 2016-07-04 # Zdrowy Gosciu @ Revert "Revert "linux: blkdev: disable add random""
+2a775e4 # 2016-07-04 # Zdrowy Gosciu @ Revert "Revert "block: Disable IO Stats""
 890102f # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.999
 e000f37 # 2016-07-03 # Zdrowy Gosciu @ Revert "block: Disable IO Stats"
 ed25e6d # 2016-07-03 # franciscofranco @ wireless: bcmdhd: halve rx and ctrl wakelock timeout by half
@@ -106,103 +94,3 @@ ed25e6d # 2016-07-03 # franciscofranco @ wireless: bcmdhd: halve rx and ctrl wak
 fceb12d # 2016-07-03 # Zdrowy Gosciu @ Revert "arm/dts: msm8974: Schedule mmcqd on idle CPU"
 fe989d1 # 2016-07-03 # Zdrowy Gosciu @ arm: Revert last crypto/cpu/dts patches
 72cbb82 # 2016-07-03 # Zdrowy Gosciu @ gpu: Revert last kgsl commits
-d4f5018 # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.8
-4dee2b5 # 2016-07-03 # Scott Bauer @ HID: hiddev: validate num_values for HIDIOCGUSAGES, HIDIOCSUSAGES commands
-c27d9f2 # 2016-07-03 # Zdrowy Gosciu @ State Notifier: Disable debugs
-ec5c2ca # 2016-07-03 # Zdrowy Gosciu @ devfreq: Simple GPU Algorithm: Define val in simple_gpu_algorithm()
-6f76ccb # 2016-07-03 # Zdrowy Gosciu @ devfreq: Adreno Idler: Force min freq when GOV is suspended or screen is OFF
-ef34381 # 2016-07-03 # Zdrowy Gosciu @ devfreq: Rebase and enable Adreno Idler
-d541ccf # 2016-07-03 # Zdrowy Gosciu @ devfreq: Rebase and enable Simple GPU Algorithm
-a4fca5d # 2016-07-03 # Zdrowy Gosciu @ Revert "power: Introduce POWERSUSPEND v1.7 (faux123/Yank555.lu)"
-27b4619 # 2016-07-03 # Zdrowy Gosciu @ Revert "devfreq: Introduce ADRENO IDLER v1.1 (arter97)"
-c4be4ad # 2016-07-03 # Zdrowy Gosciu @ Revert "devfreq: Tweak msm-adreno-tz GPU GOV"
-
-* Project packages/apps/CellBroadcastReceiver/
-a58d22f # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
-2126a2f # 2016-07-01 # Sridhar Dubbaka @ Use of SubId inplace of SlotId in CellBroadcastReceiver
-9d5aa27 # 2016-07-01 # Sridhar Dubbaka @ Add Msim support for Service State intent in CB receiver
-7a76013 # 2016-07-01 # Sridhar Dubbaka @ Regional: Support Channel 60 switch in CellBroadcast
-1389da5 # 2016-07-01 # Sridhar Dubbaka @ Fix duplicate detection for ETWS primary and secondary notifications.
-
-* Project packages/apps/Dialer/
-12986ea # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-8e281d6 # 2016-07-01 # Shammi Khattar @ Added permission READ_PRIVILEGED_PHONE_STATE.
-
-* Project packages/apps/InCallUI/
-1fb54b5 # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-cde32f3 # 2016-07-01 # Muhammed Siju @ IMS-VT: Fix for auto fullscreen issue during UI rotation.
-5a7ea94 # 2016-07-01 # Mengjun Leng @ Fix display 'null' for geocoder location
-5227cbd # 2016-07-01 # Shaoxu Liu @ Add rtl support to GlowPadView
-f71be91 # 2016-07-01 # Ravindra @ Fix to incall screen for incoming call
-
-* Project packages/apps/Messaging/
-e063271 # 2016-07-01 # Neil Fuller @ Remove identifier that causes warnings under OpenJDK 8 compiler
-
-* Project packages/apps/OmniSwitch/
-d8b0296 # 2016-07-03 # Andreas Blaesius @ Automatic translation import
-
-* Project packages/apps/Settings/
-bbbdb70 # 2016-07-03 # Janson Kang @ Build V9.7
-fca925b # 2016-07-03 # Venkatraman Nerellapalli @ Telephony(MSIM): Fix ANR on SIM deactivation
-bf2b14e # 2016-07-03 # Ravindra @ Fix to enable data for non-dds sub.
-2143b91 # 2016-07-03 # Benergy Meenan Ravuri @ IMS: Set Wifi calling preference to Wifi preferred by default
-1bf8ef9 # 2016-07-03 # Nalla Kartheek @ Wi-Fi: Do not display the not scanned saved networks forever
-7b834f1 # 2016-07-03 # venkata Jagadeesh @ Don't start auto scan if screen recovers from frozen state
-86bca5d # 2016-07-03 # Susheel nyamala @ Fix mcc-mnc population issue in apn editor
-9f6ca23 # 2016-07-03 # Sridhar Dubbaka @ Update OperatorInfo in Simstatus settings for correct subid
-74becf0 # 2016-07-03 # Janson Kang @ Revert "Fix register multiple PhoneStateListeners."
-44a7553 # 2016-07-03 # Ruthwar Kumar Ambeer @ Grey out PIN1 enable/disable option when SUB is not ready
-dc89a37 # 2016-07-03 # Sravan Kumar V @ Bluetooth : Handle SQL memory situation during OPP.
-67f8aa0 # 2016-07-02 # d34d @ fingerpint: Allow devices to configure sensor location
-
-* Project packages/apps/SoundRecorder/
-c8b4cf4 # 2016-06-30 # Khalid Zubair @ Add Bluetooth sound recording
-
-* Project packages/apps/Stk/
-f983c8e # 2016-07-01 # Rakesh Pallerla @ Do not go Fullscreen in StkInputAcvtivity.
-e1ec2cc # 2016-07-01 # Umashankar Godachi @ Fix the notification cancel during SIM refresh.
-dec7400 # 2016-07-01 # Ravindra @ MSIM: Add MSIM support for language selection event.
-6dd1eb9 # 2016-07-01 # Wileen Chiu @ Send slotId in message for OP_STOP_TONE
-7757426 # 2016-07-01 # Paramananda Pradhan @ Add intent to send STK app name
-
-* Project packages/providers/TelephonyProvider/
-b3c6e1d # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
-057cbb3 # 2016-07-01 # Richard LIU @ TelephonyProvider: Add CDMA call forwarding/waiting function
-615e785 # 2016-07-01 # Susheel nyamala @ Merge regional apns to telephony db
-2ab318f # 2016-07-01 # Susheel nyamala @ Fix Mms failures due to wrong numeric
-09632e8 # 2016-07-01 # Sridhar Dubbaka @ [CellBroadcast Alerts] : Enable CMAS Test alerts
-1752a04 # 2016-07-01 # Sridhar Dubbaka @ [TelephonyProvider]: Add Channel 60 support
-
-* Project packages/screensavers/Basic/
-43c7edb # 2016-07-01 # d34d @ Avoid potential NPE when tearing down LLS
-
-* Project packages/services/Telecomm/
-efdbb73 # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telecomm into cm-13.0
-a154eed # 2016-07-01 # Hall Liu @ DO NOT MERGE - Restrict ability to add call based on device provision status
-50c5860 # 2016-07-01 # Ravindra @ Fix to prevent NPE
-a5ee9a7 # 2016-07-01 # Sandeep Kunta @ Remove TONE_SUPERVISORY_CH
-95a3e66 # 2016-07-01 # Shriram Ganesh @ Fix a bug where conference call does not automatically resume.
-bce16cb # 2016-07-01 # Shriram Ganesh @ Fix disabled merge button on conference failure.
-51fed81 # 2016-07-01 # Mengjun Leng @ Fix sound output from headset when switching speaker to BT
-
-* Project packages/services/Telephony/
-2539318 # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-f1826d8 # 2016-07-01 # Qiang Chen @ Fix updating FDN using uri without subId issue
-8ff8c84 # 2016-07-01 # wangjing @ Mms: Fix SMS is not sent in ECBM unless click send again
-865ab32 # 2016-07-01 # Umashankar Godachi @ Add "FDN service is not available" toast message
-d34b5c3 # 2016-07-01 # Wileen Chiu @ SEEK: Change security check for getAtrUsingSubId
-9bfe715 # 2016-07-01 # Garik Badalyan @ IMS-VT: Conf: Propagate call extras to UI.
-95d94df # 2016-07-01 # Rakesh Pallerla @ Set APM mode property for RIL to access.
-
-* Project system/core/
-5b1bf8e # 2016-07-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
-dd08664 # 2016-07-01 # Benson Leung @ healthd: Support new PD and USB Type C types
-d68de66 # 2016-06-30 # Maunik Shah @ Copy the ETB dumps and maps file to /data/core
-00c551e # 2016-06-30 # sanketk @ Don't use global variable in libnetutils.
-
-* Project vendor/cmsdk/
-5a78aab # 2016-07-02 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-d4bc9d3 # 2016-07-01 # Adnan Begovic @ cmsdk: Update README.
-b62a455 # 2016-07-01 # Adnan Begovic @ cmsdk: Create brokerablecmsystemservice concept.
-551b377 # 2016-07-01 # Adnan Begovic @ cmsdk: Factor CMSystemServiceHelper to common.
-50571ba # 2016-06-30 # Luis Vidal @ Apply active profile if user enables system profiles

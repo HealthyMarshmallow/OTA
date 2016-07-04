@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-06-30 @ 12:37:24 (1467290244)
+CHANGES AFTER 2016-07-03 @ 07:01:10 (1467529270)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,11 +7,70 @@ CHANGES AFTER 2016-06-30 @ 12:37:24 (1467290244)
                  |_____|              
 
 * Project device/lge/g2-common/
+4bd8542 # 2016-07-04 # Zdrowy Gosciu @ Revert "g2-common: init: power: Throttle MSM Thermal earlier"
+4d895d2 # 2016-07-04 # Zdrowy Gosciu @ g2-common: init: power: Remove MSM Hotplug settings
 70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
-e0a6512 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: Setup darkness as default CPU GOV
-2227051 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: Throttle MSM Thermal earlier
 
 * Project kernel/lge/msm8974/
+5695281 # 2016-07-04 # Zdrowy Gosciu @ Version HM 10.1
+f7cb5a5 # 2016-07-04 # Zdrowy Gosciu @ devfreq: Don't run Adreno idler at startup
+ce9c52f # 2016-07-04 # Zdrowy Gosciu @ cpufreq: darkness: Lower sampling rate
+1676901 # 2016-07-04 # Zdrowy Gosciu @ Version HM 10.0
+af08270 # 2016-07-04 # Zdrowy Gosciu @ cpufreq: Disable boost drivers
+784d89b # 2016-07-04 # Zdrowy Gosciu @ arm: msm hotplug: Don't run at startup
+ea6b28d # 2016-07-04 # Zdrowy Gosciu @ dirvers: cpuquiet: Build me!
+4ef999d # 2016-07-04 # DerRomtester @ drivers: cpuquiet: Remove useless governors
+891ed0f # 2016-07-04 # DerRomtester @ drivers: Introduce CPUQuiet
+bdee4b9 # 2016-07-04 # Francisco Franco @ Revert "sched_avg: add run queue averaging."
+c81e465 # 2016-07-04 # franciscofranco @ sched/rt: Reduce rq lock contention by eliminating locking of non-feasible target
+69ae3e3 # 2016-07-04 # Oleg Nesterov @ sched: Change autogroup_move_group() to use for_each_thread()
+86ee0df # 2016-07-04 # franciscofranco @ sched: s/do_each_thread/for_each_process_thread/ in debug.c
+65ad170 # 2016-07-04 # Oleg Nesterov @ sched: s/do_each_thread/for_each_process_thread/ in core.c
+a9d9dea # 2016-07-04 # franciscofranco @ sched: Fix exec_start/task_hot on migrated tasks
+45b4706 # 2016-07-04 # Michal Nazarewicz @ sched/fair: Avoid integer overflow
+297aaf4 # 2016-07-04 # Peter Zijlstra @ sched/core: Fix an SMP ordering race in try_to_wake_up() vs. schedule()
+b42a33b # 2016-07-04 # Brian Silverman @ sched: Fix RLIMIT_RTTIME when PI-boosting to RT
+05cc14b # 2016-07-04 # Thomas Gleixner @ sched: Queue RT tasks to head when prio drops
+7caaf6c # 2016-07-04 # Srivatsa Vaddagiri @ sched: window-based load stats improvements
+f390b7b # 2016-07-04 # Srivatsa Vaddagiri @ sched: Add min_max_freq and rq->max_possible_freq
+ae12b90 # 2016-07-04 # Steve Muckle @ sched: move task load based functions
+efed618 # 2016-07-04 # Matt Wagantall @ sched/rt: Add Kconfig option to enable panicking for RT throttling
+85bcda7 # 2016-07-04 # Matt Wagantall @ sched/rt: print RT tasks when RT throttling is activated
+e32b8d2 # 2016-07-04 # Srivatsa Vaddagiri @ sched: Skip load update for idle task
+249cc18 # 2016-07-04 # Srivatsa Vaddagiri @ sched: window-stats: Fix overflow bug
+6a0e91d # 2016-07-04 # Naveen Ramaraj @ cpufreq: Always allow update of user policy
+3a767c5 # 2016-07-04 # Stephen Boyd @ soc: qcom: rq_stats: Always show idle time left
+edbee47 # 2016-07-04 # Steve Kondik @ sched: Fix race in idle_balance()
+9afa043 # 2016-07-04 # Guojian Chen @ cpuidle: remove cross-cpu IPI by new latency request.
+dedf701 # 2016-07-04 # Srivatsa Vaddagiri @ sched: Window-based load stat improvements
+1ff30df # 2016-07-04 # Rohit Gupta @ sched: Disable wakeup hints for foreground tasks by default
+c2cc480 # 2016-07-04 # Rohit Gupta @ sched: Call the notify_on_migrate notifier chain for wakeups as well
+8deaa9e # 2016-07-04 # Rohit Gupta @ cpufreq: cpu-boost: Introduce scheduler assisted load based syncs
+4919d1c # 2016-07-04 # George McCollister @ sched: Fix double normalization of vruntime
+9b3e0f8 # 2016-07-04 # Srivatsa Vaddagiri @ sched: window-based load stats for tasks
+4593dcf # 2016-07-04 # myfluxi @ Revert "tracing/sched: Track per-cpu rt and non-rt cpu_load."
+0494b2a # 2016-07-04 # Srivatsa Vaddagiri @ sched: Make scheduler aware of cpu frequency state
+124b563 # 2016-07-04 # Paul Turner @ sched: Introduce temporary FAIR_GROUP_SCHED dependency for load-tracking
+ac54bb2 # 2016-07-04 # Paul Turner @ sched: Make __update_entity_runnable_avg() fast
+b9d93e6 # 2016-07-04 # Paul Turner @ sched: Update_cfs_shares at period edge
+02d7458 # 2016-07-04 # Paul Turner @ sched: Refactor update_shares_cpu() -> update_blocked_avgs()
+eaa04b5 # 2016-07-04 # Paul Turner @ sched: Replace update_shares weight distribution with per-entity computation
+ef5ddc4 # 2016-07-04 # Paul Turner @ sched: Maintain runnable averages across throttled periods
+3eb8630 # 2016-07-04 # Paul Turner @ sched: Normalize tg load contributions against runnable time
+9390871 # 2016-07-04 # Paul Turner @ sched: Compute load contribution by a group entity
+705648a # 2016-07-04 # Paul Turner @ sched: Aggregate total task_group load
+6408d8a # 2016-07-04 # Paul Turner @ sched: Account for blocked load waking back up
+eeb70c0 # 2016-07-04 # Paul Turner @ sched: Add an rq migration call-back to sched_class
+48fca95 # 2016-07-04 # Paul Turner @ sched: Maintain the load contribution of blocked entities
+2cbfe43 # 2016-07-04 # Paul Turner @ sched: Aggregate load contributed by task entities on parenting cfs_rq
+f44fa65 # 2016-07-04 # Ben Segall @ sched: Maintain per-rq runnable averages
+5948c45 # 2016-07-04 # Paul Turner @ sched: Track the runnable average on a per-task entity basis
+2f1d60f # 2016-07-04 # DerRomtester @ msm_rq_stats: Add get_rq_info
+ce443ac # 2016-07-04 # Suman Tatiraju @ msm: kgsl: Fix race condition in adreno_spin_idle()
+76e7fb3 # 2016-07-04 # Zdrowy Gosciu @ Revert "arm: hotplug: Introduce intelli_plug"
+d962a0c # 2016-07-04 # Zdrowy Gosciu @ Revert "arm: Don't build MSM RQ STATS"
+8eac918 # 2016-07-04 # Zdrowy Gosciu @ Revert "Revert "linux: blkdev: disable add random""
+2a775e4 # 2016-07-04 # Zdrowy Gosciu @ Revert "Revert "block: Disable IO Stats""
 890102f # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.999
 e000f37 # 2016-07-03 # Zdrowy Gosciu @ Revert "block: Disable IO Stats"
 ed25e6d # 2016-07-03 # franciscofranco @ wireless: bcmdhd: halve rx and ctrl wakelock timeout by half
@@ -23,13 +82,3 @@ ed25e6d # 2016-07-03 # franciscofranco @ wireless: bcmdhd: halve rx and ctrl wak
 fceb12d # 2016-07-03 # Zdrowy Gosciu @ Revert "arm/dts: msm8974: Schedule mmcqd on idle CPU"
 fe989d1 # 2016-07-03 # Zdrowy Gosciu @ arm: Revert last crypto/cpu/dts patches
 72cbb82 # 2016-07-03 # Zdrowy Gosciu @ gpu: Revert last kgsl commits
-d4f5018 # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.8
-4dee2b5 # 2016-07-03 # Scott Bauer @ HID: hiddev: validate num_values for HIDIOCGUSAGES, HIDIOCSUSAGES commands
-c27d9f2 # 2016-07-03 # Zdrowy Gosciu @ State Notifier: Disable debugs
-ec5c2ca # 2016-07-03 # Zdrowy Gosciu @ devfreq: Simple GPU Algorithm: Define val in simple_gpu_algorithm()
-6f76ccb # 2016-07-03 # Zdrowy Gosciu @ devfreq: Adreno Idler: Force min freq when GOV is suspended or screen is OFF
-ef34381 # 2016-07-03 # Zdrowy Gosciu @ devfreq: Rebase and enable Adreno Idler
-d541ccf # 2016-07-03 # Zdrowy Gosciu @ devfreq: Rebase and enable Simple GPU Algorithm
-a4fca5d # 2016-07-03 # Zdrowy Gosciu @ Revert "power: Introduce POWERSUSPEND v1.7 (faux123/Yank555.lu)"
-27b4619 # 2016-07-03 # Zdrowy Gosciu @ Revert "devfreq: Introduce ADRENO IDLER v1.1 (arter97)"
-c4be4ad # 2016-07-03 # Zdrowy Gosciu @ Revert "devfreq: Tweak msm-adreno-tz GPU GOV"

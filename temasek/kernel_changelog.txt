@@ -7,11 +7,37 @@ CHANGES AFTER 2016-07-03 @ 07:01:10 (1467529270)
                  |_____|              
 
 * Project device/lge/g2-common/
+a81c591 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Don't online all cores
+077ea39 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Clean up + ondemand as default CPU governor
 4bd8542 # 2016-07-04 # Zdrowy Gosciu @ Revert "g2-common: init: power: Throttle MSM Thermal earlier"
 4d895d2 # 2016-07-04 # Zdrowy Gosciu @ g2-common: init: power: Remove MSM Hotplug settings
 70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+f39f71b # 2016-07-05 # Zdrowy Gosciu @ Version HM 10.2
+06070eb # 2016-07-05 # Zdrowy Gosciu @ logger: Fix build (logcat size redefine)
+23e3bad # 2016-07-05 # Zdrowy Gosciu @ cpufreq: ondemand: Remove useless should_io_be_busy()
+4cddaf2 # 2016-07-05 # Zdrowy Gosciu @ logger: Replace power suspend with state notifier driver
+f51b8f7 # 2016-07-05 # Jerry Stralko @ staging: android: logger: fixed checkpatch.pl warnings.
+d47f7ac # 2016-07-05 # Seunghun Lee @ staging: android: fix a possible memory leak
+e4c82a2 # 2016-07-05 # Karlis Ogsts @ staging: android: logger: Correct write offset reset on error
+1969b53 # 2016-07-05 # Luca Clementi @ Staging: Android: logger: module_exit implementation
+80c5977 # 2016-07-05 # Charndeep Grewal @ staging: android: logger: enforce GID and CAP check on log flush
+d449656 # 2016-07-05 # Tim Bird @ staging: android: logger: Fix some sparse and whitespace issues
+4d52c6c # 2016-07-05 # Cruz Julian Bishop @ staging: android: logger: Finish documentation of two structs
+1abc415 # 2016-07-05 # Sachin Kamat @ staging: Android: Fix some checkpatch warnings
+26155a8 # 2016-07-05 # Tim Bird @ staging: android: logger: Allocate logs dynamically at boot (v3)
+ce7ca19 # 2016-07-05 # Pranav Vashi @ staging: logger: Allow to completely disable
+c9815e0 # 2016-07-05 # Pranav Vashi @ staging: android: logger: Improve logging
+46338e7 # 2016-07-05 # Bhargav Upperla @ drivers/staging: Configurable android log buffer sizes
+1cb6608 # 2016-07-05 # Pranav Vashi @ staging: Allow logcat termination on suspend
+6275123 # 2016-07-05 # Zdrowy Gosciu @ Revert "gpu: Revert last kgsl commits"
+6a8d7a9 # 2016-07-05 # Zdrowy Gosciu @ Revert "arm: Revert last crypto/cpu/dts patches"
+0be6ae2 # 2016-07-05 # Zdrowy Gosciu @ Revert "Revert "arm/dts: msm8974: Schedule mmcqd on idle CPU""
+9237a15 # 2016-07-05 # Zdrowy Gosciu @ Revert "Revert "mmc: add support for scheduling mmcqd on idle CPU""
+bd125a9 # 2016-07-05 # Zdrowy Gosciu @ Revert "Revert "PM / Wakeup: Use rcu callbacks for better performance""
+216b3af # 2016-07-05 # Zdrowy Gosciu @ Revert "devfreq: Don't run Adreno idler at startup"
+32fd021 # 2016-07-05 # Zdrowy Gosciu @ cpufreq: Rebase ondemand governor
 5966bc1 # 2016-07-04 # Zdrowy Gosciu @ Version HM 10.111
 1cfaf5e # 2016-07-04 # Zdrowy Gosciu @ cpufreq: darkness: Higher sampling rate
 5695281 # 2016-07-04 # Zdrowy Gosciu @ Version HM 10.1

@@ -7,6 +7,9 @@ CHANGES AFTER 2016-07-03 @ 07:01:10 (1467529270)
                  |_____|              
 
 * Project device/lge/g2-common/
+01e1fe5 # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Disable idle in retention
+4209e7b # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Remove I/O scheduler setup (use kernel settings)
+cb95b09 # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Try interactive GOV + ROW 128 kB
 a81c591 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Don't online all cores
 077ea39 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Clean up + ondemand as default CPU governor
 4bd8542 # 2016-07-04 # Zdrowy Gosciu @ Revert "g2-common: init: power: Throttle MSM Thermal earlier"
@@ -14,6 +17,52 @@ a81c591 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Don't online all 
 70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+999c2e0 # 2016-07-06 # Zdrowy Gosciu @ Version HM 10.5
+cd75b30 # 2016-07-06 # Zdrowy Gosciu @ arm: configs: d802: Remove useless error handlers
+c207ba2 # 2016-07-06 # Zdrowy Gosciu @ Revert "msm: use of swp{b} is deprecated for ARMv6+"
+ed5e0b2 # 2016-07-06 # Zdrowy Gosciu @ cpufreq: IntelliMM: Fix build
+890bebb # 2016-07-06 # faux123 @ cpufreq: Introduce IntelliMinMax
+ba263b9 # 2016-07-06 # Hong-Mei Li @ arm: msm: improve memory access performance for 8974
+662dfe0 # 2016-07-06 # Hong-Mei Li @ arm: lib: Fix makefile bug
+5b12460 # 2016-07-06 # Hong-Mei Li @ msm: memutils: memcpy, memmove optimization
+979808a # 2016-07-06 # Jason Hrycay @ msm: memutils: memcpy, memmove, copy_page optimization
+84dfde2 # 2016-07-06 # Zdrowy Gosciu @ msm: Remove MEMUTILS
+b5eeed6 # 2016-07-06 # Krishna Chaitanya Parimi @ msm: mdss: cancel AD calc work and destroy workqueue at power off
+17de5a3 # 2016-07-06 # Krishna Chaitanya Parimi @ msm: mdss: do not assign ad_calc_bl if AD offsets are absent
+9ca8104 # 2016-07-06 # Zdrowy Gosciu @ arm: configs: d802: ROW as default I/O scheduler
+3213174 # 2016-07-06 # Zdrowy Gosciu @ mm: Revert readahead to 128 kB
+4e8b56b # 2016-07-06 # Park Ju Hyung @ Revert "mm: vmscan: If kswapd has been running too long, allow it to sleep"
+7dc3e9c # 2016-07-06 # Janson Kang @ Revert "mm: slub: Default slub_max_order to 0"
+d273e77 # 2016-07-06 # Elektroschmock @ cpufreq: interactive: Replace strict_strtoul with kstrtoul
+fd0d761 # 2016-07-06 # Andrew Bresticker @ CHROMIUM: cpufreq: interactive: free above_hispeed_delay on exit
+adafc3a # 2016-07-06 # Janson Kang @ cpufreq: interactive: set io_is_busy to 1
+ce82ae1 # 2016-07-06 # Janson Kang @ Revert "cpufreq: Initial CPU utilization should be 0"
+660b1eb # 2016-07-06 # Theodore Ts'o @ ext4: optimize test_root()
+6d7e81a # 2016-07-06 # Thomas Gleixner @ futex: Always cleanup owner tid in unlock_pi
+08257d1 # 2016-07-06 # Thomas Gleixner @ futex: Validate atomic acquisition in futex_lock_pi_atomic()
+d3857fc # 2016-07-06 # Thomas Gleixner @ futex: Make lookup_pi_state more robust
+02e3329 # 2016-07-06 # Jeevan Shriram @ msm: mdss: Align the shared memory length to PAGE_SIZE
+866e50b # 2016-07-06 # Andrew Hunter @ jiffies: Fix timeval conversion to jiffies
+ad8d80a # 2016-07-06 # Wen Congyang @ memory hotplug: reset pgdat->kswapd to NULL if creating kernel thread fails
+6b93ef0 # 2016-07-06 # Hugh Dickins @ memcg: further prevent OOM with too many dirty pages
+f0480ad # 2016-07-06 # Michal Hocko @ memcg: prevent OOM with too many dirty pages
+7dbee4e # 2016-07-06 # Jiang Liu @ memory hotplug: fix invalid memory access caused by stale kswapd pointer
+9fb19c0fa # 2016-07-06 # olokos @ mm: consider all swapped back pages in used-once logic
+75e8ee2 # 2016-07-05 # Paul Reioux @ android: binder: use GPF_HIGHUSER flag since binder is designed for userspace
+b0fd3cb # 2016-07-05 # olokos @ tick: don't update idle time if cpu offline
+c846bc3 # 2016-07-05 # olokos @ msm: camera_v2: Create jpeg debugfs
+a8f8248 # 2016-07-05 # olokos @ block: row-iosched idling triggered by readahead pages
+a1a50f4 # 2016-07-05 # Deepak Verma @ msm: vidc: Initialize kernel space stack variables
+7ace337 # 2016-07-05 # Srivatsa S. Bhat @ CPU hotplug, writeback: Don't call writeback_set_ratelimit() too often during hotplug
+11321d3 # 2016-07-05 # Francisco Franco @ writeback: increase bdi_min_ratio to 5 in light of the latest writeback commit.
+6f9afe2 # 2016-07-05 # Namjae Jeon @ writeback: fix writeback cache thrashing
+78ff08b # 2016-07-05 # Mel Gorman @ mm: vmscan: If kswapd has been running too long, allow it to sleep
+7626d12 # 2016-07-05 # Joonsoo Kim @ mm, vmalloc: remove useless variable in vmap_block
+cf3c688 # 2016-07-05 # Joonsoo Kim @ mm, vmalloc: use well-defined find_last_bit() func
+f772fe0 # 2016-07-05 # Fengguang Wu @ readahead: make context readahead more conservative
+3ed139d # 2016-07-05 # Junxiao Bi @ writeback: fix race that cause writeback hung
+c71db4b # 2016-07-05 # Johannes Weiner @ mm/page-writeback.c: fix dirty_balance_reserve subtraction from dirtyable memory
+d5b1c15 # 2016-07-05 # Ming Lei @ block/partitions: optimize memory allocation in check_partition()
 f39f71b # 2016-07-05 # Zdrowy Gosciu @ Version HM 10.2
 06070eb # 2016-07-05 # Zdrowy Gosciu @ logger: Fix build (logcat size redefine)
 23e3bad # 2016-07-05 # Zdrowy Gosciu @ cpufreq: ondemand: Remove useless should_io_be_busy()

@@ -1,0 +1,11 @@
+# Common OTA url for LG G2 device
+ota_url=https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/emotion/ota.xml
+release_type=Stable
+device_name=ro.emotion.device
+
+# Example emotion.ota.version=Emotion-d802-MM.r10.Official-20160523-185727
+# version_position is zero based and it's compared to Filename in OTA XML
+version_source=emotion.ota.version
+version_delimiter=-
+version_position=3
+version_format=yyyyMMdd

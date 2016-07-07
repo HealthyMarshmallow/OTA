@@ -2,15 +2,16 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>Emotion-d802-MM.r10.Official-20160523-185727.zip</Filename>
+            <Filename>Emotion-d802-MM.r12.Unofficial-20160707-223846.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download Emotion ROM">https://www.androidfilehost.com/?fid=24591000424944445</RomUrl>
+                description="Download Emotion ROM">https://www.androidfilehost.com/?fid=24591000424945125</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="ROM changelog"
                 description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/temasek/changelog.txt</ChangelogUrl>
+<!--
             <KernelUrl
                 id="kernel"
                 title="Kernel"
@@ -19,6 +20,7 @@
                 id="kernelchangelog"
                 title="Kernel changelog"
                 description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/temasek/kernel_changelog.txt</KernelChangelogUrl>
+-->
             <GappsUrl
                 id="gapps"
                 title="GApps"
@@ -31,6 +33,10 @@
                 id="donate"
                 title="PayPal"
                 description="Donate ^_^">https://www.paypal.com/cgi-bin/webscr?button=donate&amp;size=small&amp;item_name=Donation&amp;cmd=_donations&amp;business=ZdrowyGosciu%40GoogleMail.com&amp;bn=JavaScriptButton_donate&amp;env=www</DonateUrl>
+            <FontUrl
+                id="font"
+                title="Custom ROM font"
+                description="Flash Choco cooky">https://www.androidfilehost.com/?fid=24591000424944988</FontUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"

@@ -1,0 +1,446 @@
+CHANGES AFTER 2016-07-03 @ 07:01:10 (1467529270)
+
+                        ______ ______ 
+           .-----.-----|  __  |    __|
+           |-- __|  _  |  __  |__    |
+           |_____|___  |______|______|
+                 |_____|              
+
+* Project OTA/
+682829b # 2016-07-07 # Zdrowy Gosciu @ OTA: Introduce Emotion ROM
+7f1e4ca # 2016-07-07 # Zdrowy Gosciu @ OTA: Kernel HM 10.6 for Temasek
+ea452b6 # 2016-07-06 # Zdrowy Gosciu @ OTA: Kernel HM 10.5 for Temasek
+42f3da8 # 2016-07-05 # Zdrowy Gosciu @ OTA: Kernel HM 10.2 for Temasek
+866b812 # 2016-07-04 # Zdrowy Gosciu @ OTA: cm-13.0-20160704-124919-UNOFFICIAL-temasek-d802-V9.7
+759acfe # 2016-07-04 # Zdrowy Gosciu @ OTA: Kernel HM 10.1 for Temasek
+3077ddd # 2016-07-04 # Zdrowy Gosciu @ OTA: cm-13.0-20160703-211101-UNOFFICIAL-temasek-d802-V9.7
+
+* Project build/
+06c5535 # 2016-07-06 # Ricardo Cerqueira @ build: Let the verity signer and metadata builders ask for a password
+
+* Project device/lge/d802/
+689bd34 # 2016-07-07 # Zdrowy Gosciu @ d802: Update for Emotion ROM (OTA, denisty, dexpreopt)
+
+* Project device/lge/g2-common/
+14b5ffd # 2016-07-07 # Zdrowy Gosciu @ Revert "audio: Add support for dualmic fluence for voice communication"
+5a41242 # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Don't start Adreno idler by default
+ce0e79e # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Revert to interactive CPU governor
+8e42a13 # 2016-07-07 # Zdrowy Gosciu @ Revert "g2-common: init: power: Disable idle in retention"
+20ef32b # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Remove interactive CPU governor setup
+2d0c1b4 # 2016-07-06 # Zdrowy Gosciu @ Revert "g2-common: Distinguish HSPA / UMTS data icons"
+01e1fe5 # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Disable idle in retention
+4209e7b # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Remove I/O scheduler setup (use kernel settings)
+cb95b09 # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Try interactive GOV + ROW 128 kB
+4b37075 # 2016-07-05 # Zdrowy Gosciu @ g2-common: Remove useless system props
+a81c591 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Don't online all cores
+077ea39 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Clean up + ondemand as default CPU governor
+4bd8542 # 2016-07-04 # Zdrowy Gosciu @ Revert "g2-common: init: power: Throttle MSM Thermal earlier"
+4d895d2 # 2016-07-04 # Zdrowy Gosciu @ g2-common: init: power: Remove MSM Hotplug settings
+70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
+
+* Project device/qcom/common/
+94c7d19 # 2016-07-04 # Steve Kondik @ power/8996: Disable sched grouping for flings
+
+* Project device/qcom/sepolicy/
+6658b46 # 2016-07-06 # Ricardo Cerqueira @ wcnss: Fix annoying warning when ptt looks for its log dir
+a7da02e # 2016-07-06 # Ravi Kumar Siddojigari @ file_contexts: Adding context to block devices
+ba9570b # 2016-07-06 # Ricardo Cerqueira @ dpm: Let dpmserviceapp create its subdirs
+
+* Project external/okhttp/
+f04b4af # 2016-07-04 # Tobias Thierer @ Drop unneeded OkHttp compile-time dependency on conscrypt
+
+* Project external/stagefright-plugins/
+4f5545a # 2016-07-05 # Steve Kondik @ stagefright-plugins: Clean up warnings for invalid format strings
+be0ec90 # 2016-07-05 # Steve Kondik @ stagefright-plugins: Stop using AVPicture
+
+* Project frameworks/base/
+746a424 # 2016-07-07 # maxwen @ Add OmniSwitch as option for default recents [1/2]
+31694f9 # 2016-07-06 # Pafcholini @ Revert "PhoneWindowManager : Check CM_SETUP_WIZARD_COMPLETED for isUserSetupComplete"
+09fddd1 # 2016-07-06 # Pafcholini @ Revert "WindowAnimator : Check KEYGUARD_PANEL when deciding to show/hide window"
+8e66218 # 2016-07-06 # Wilhelm Fitzpatrick @ SystemConfig: allow app-link to be set to any possible state
+847b2f6 # 2016-07-06 # Scott Mertz @ am: clear protected apps from recents
+4760850 # 2016-07-06 # blinky@build01 @ Automatic translation import
+0ab8b70 # 2016-07-06 # kaiyiz @ media:Modify the display of system default ringtone when it is none.
+42f12d4 # 2016-07-06 # AdrianDC @ SystemUI: Restrict persistent USB drive notifications to USB disks
+213dfd1 # 2016-07-06 # Gurpreet Ghai @ BT: Set persiste Bluetooth State during enable timeout case
+7431be9 # 2016-07-06 # Wileen Chiu @ Add absent sim info to locked screen text
+3953497 # 2016-07-06 # Luke Zhang @ Encapsulate the unbindService with try catch block
+145352c # 2016-07-06 # Ayan Ghosh @ Bluetooth: Access mediaplayerlist in synchronized way
+15e34f3 # 2016-07-06 # Manoj Kumar AVM @ WifiDisplayController: Fix p2p disconnect before rtsp teardown completes
+f509653 # 2016-07-06 # Nalla Kartheek @ Wifi: Make maximum selective channel scans and interval configurable
+2c2108b # 2016-07-06 # Kevin Tang @ combo bug when location reported by providers do not come with extras
+21dbf39 # 2016-07-06 # Richard LIU @ Ignore IMS type APN when notify data connection
+5f90e20 # 2016-07-06 # Sandeep Kunta @ Remove TONE_SUPERVISORY_CH
+8bdb192 # 2016-07-06 # Muhammed Siju @ MSIM: Restrict data activity change to listeners with matching subId
+902ef4b # 2016-07-06 # Dheeraj Shetty @ Add config to show HD icon on EVS codec.
+a7f95cd # 2016-07-06 # Neil Fuller @ Remove use of '_' variable name
+1dced85 # 2016-07-06 # inky@build01 @ Automatic translation import
+7b76733 # 2016-07-06 # Danesh M @ Revert "Revert "Only show keyguard panel if on lockscreen + no activity on top""
+a6c9ccc # 2016-07-06 # Danesh M @ WindowAnimator : Check KEYGUARD_PANEL when deciding to show/hide window
+cb2c71e # 2016-07-06 # Danesh M @ PhoneWindowManager : Check CM_SETUP_WIZARD_COMPLETED for isUserSetupComplete
+fa3b348 # 2016-07-06 # Danesh M @ KeyguardSecurityViewFlipper : Fix sim unlock height overlap
+f94a139 # 2016-07-06 # LuK1337 @ Disable proximity check on power key properly
+0b1e314 # 2016-07-06 # Tom Marshall @ fw: GlobalActions: Always dismiss any existing dialog
+b5b6560 # 2016-07-06 # Trishool Narayanasetty @ SystemServer: Do not start Atlas Service on lowram devices.
+51211e1 # 2016-07-06 # Eric Biedert @ SystemUI: Add margin in qs_tile_top between instruction text and add button
+abe26a9 # 2016-07-06 # Zdrowy Gosciu @ wifi: Enable WiFi IpReachabilityMonitor by default
+cafb355 # 2016-07-06 # blinky@build01 @ Automatic translation import
+
+* Project frameworks/opt/telephony/
+a929239 # 2016-07-06 # Altaf-Mahdi @ Subscription updater: don't post messages on events in BroadcastReceiver
+03a29f8 # 2016-07-06 # kaiyiz @ TelephonyProvider: Add CDMA call forwarding/waiting function
+4e13204 # 2016-07-06 # Steve Kondik @ dct: Sync with upstream
+7cdc5f2 # 2016-07-06 # Sandeep Gutta @ MSIM: Send FINISH request on flex map START fail
+b4753ab # 2016-07-06 # Umashankar Godachi @ Set additional info for LaunchBrowser error case.
+2d7c894 # 2016-07-06 # Yashdev Singh @ Telephony: Reduce back to back same APN activation delay.
+3404ba3 # 2016-07-06 # Susheel nyamala @ Fix emergency ims pdn setup issue
+47c08df # 2016-07-06 # Susheel nyamala @ Fix ims pdn issue on non dds sub on iwlan
+556edab # 2016-07-06 # Ravindra @ Fix to resolve data call issue for sim hot swap case
+2e3b9f2 # 2016-07-06 # Ravindra Thattahalli Javaraiah @ Notify disconnect on phone dispose
+1f49214 # 2016-07-06 # Dheeraj Shetty @ Use EVS codec for HD if carrier supports it.
+8449ce6 # 2016-07-06 # Susheel nyamala @ Fix Dds switch issue for wifi and IWLAN scenarios
+ffbb6ff # 2016-07-06 # Ravindra @ Fix to avoid unnecessary PS attach.
+ce8a641 # 2016-07-06 # Susheel nyamala @ Fix ims pdn request issue
+9a990c2 # 2016-07-06 # Yujing Gu @ Parse the record number from byte to int
+60ab07a # 2016-07-06 # pengfeix @ Finer grained character boundaries in computing SMS fragment lengths
+d2fb729 # 2016-07-06 # Sandeep Gutta @ MSIM: Use SIM specific subId for setMccMnc
+6a143bc # 2016-07-06 # Suchand Ghosh @ IMS: Fix phone app crash at setOutgoingCallerIdDisplay().
+634d8b9 # 2016-07-06 # Muhammed Siju @ Fix DDS switch issues for CDMA and IWLAN scenarios.
+9d3c0ad # 2016-07-06 # Yujing Gu @ Add the slot id when broadcasting card state to STK app.
+05e0086 # 2016-07-06 # Susheel nyamala @ Fix default data reset issue on device powerup
+6559f1a # 2016-07-06 # Wileen Chiu @ Send shutdown command to modem
+368928d # 2016-07-06 # Huaibin Yang @ Telephony: CDMA: allow MT SMS when in ECBM
+e9ed729 # 2016-07-06 # Suresh Kumar Sugguna @ IMS: Exit ECBM before dialing a pending non-emergency MO call
+a4e0a29 # 2016-07-06 # Benergy Meenan Ravuri @ IMS: Fix null pointer exception for call forwarding
+268ce10 # 2016-07-06 # Sukanya Rajkhowa @ Setup data on new APNs only when APN changes
+47c3e72 # 2016-07-06 # Sandeep Kunta @ MSIM: Fix ECBM dialog issue in G+C
+01c0a58 # 2016-07-06 # Richard LIU @ Do not set "gsm.operator.idpstring" per phoneId
+c7c5a65 # 2016-07-06 # Andalam Parthasarathi @ Telephony: Config values for other languages
+fac5b6e # 2016-07-06 # David Ng @ Revert "updateSpnDisplay: When PLMN values are same for before & after SIM loading in."
+92bf4d1 # 2016-07-06 # Wileen Chiu @ Check subid when querying network selection
+5f816f7 # 2016-07-06 # Umashankar Godachi @ FR29338: Read SIM Contacts from EF-ADN if EF-PBR read failed.
+6fc8289 # 2016-07-06 # Umashankar Godachi @ Fix ADN records loading removing EFEXT1 dependency.
+e22ed81 # 2016-07-06 # Sridhar Dubbaka @ Add channel 60 Cellboradcast support.
+9f67393 # 2016-07-06 # Steve Kondik @ gsmsst: Protect against "null" string literals
+a44ef5b # 2016-07-06 # Neil Fuller @ Remove identifier that causes warnings under OpenJDK 8 compiler
+b441d9d # 2016-07-06 # Roman Birg @ Ims: remove use of old nonexistant qti constant
+6ae2ade # 2016-07-06 # Muhammed Siju @ IMS-VT: Remove unused QTI_IMS_CALL_RAT_EXTRA_KEY extra.
+565576f # 2016-07-06 # Omkar Kolangade @ IMS: Encrypted Calling Extras Key Definition
+362c4b5 # 2016-07-06 # Anju Mathapati @ IMS: Interface change for VOPS and SSAC
+1a7d51a # 2016-07-06 # Suresh Kumar Sugguna @ IMS: Explicit call transfer feature
+934d137 # 2016-07-06 # Roman Birg @ Subscription updater: don't turn data off if we've never set a deafult
+d771f6b # 2016-07-06 # Sooraj Sasindran @ Telephony Data: Introduce DataAllowed state
+1ce7c96 # 2016-07-06 # Prasath Balakrishnan @ Fix issue when two MMS requests with same priority on both SUB's
+af29eac # 2016-07-06 # Roman Birg @ Telephony: handle 3rd party sms apps + 'always ask'
+
+* Project hardware/broadcom/libbt/
+a3ac3c9 # 2016-07-06 # Kevin F. Haggerty @ libbt-vendor (BRCM): Add ssr_cleanup
+
+* Project kernel/lge/msm8974/
+873ddf3 # 2016-07-07 # Zdrowy Gosciu @ Version HM 10.6
+a63ad89 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove, copy_page optimization"
+79bbc16 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove optimization"
+f4aca9e # 2016-07-07 # Zdrowy Gosciu @ Revert "arm: lib: Fix makefile bug"
+68db913 # 2016-07-07 # Zdrowy Gosciu @ Revert "arm: msm: improve memory access performance for 8974"
+f22a8e3 # 2016-07-07 # Zdrowy Gosciu @ arm: configs: d802: IntelliMinMax as default CPU governor
+5aee561 # 2016-07-07 # Cody Ferber @ clock: Fix uninitialized div_s64 for GCC 4.9
+259bc07 # 2016-07-07 # Nikola Majkić @ selinux: Fix sel_write_enforce broken return value
+36a5a3d # 2016-07-07 # Shawn Lin @ gpu: ion: fix corruption of ion_import_dma_buf
+02b8645 # 2016-07-07 # Mike Snitzer @ block: fix alignment_offset math that assumes io_min is a power-of-2
+d3d9af6 # 2016-07-07 # Matias Bjørling @ block: remove WQ_POWER_EFFICIENT from kblockd
+09dc544 # 2016-07-07 # Mark Brown @ ASoC: jack: Use power efficient workqueue
+edd2604 # 2016-07-07 # Mark Brown @ ASoC: pcm: Use the power efficient workqueue for delayed  powerdown
+daef71f # 2016-07-07 # Mark Brown @ regulator: core: Use the power efficient workqueue for  delayed powerdown
+222647a # 2016-07-07 # Viresh Kumar @ block: queue work on power efficient wq
+29adadb # 2016-07-07 # Viresh Kumar @ PHYLIB: queue work on system_power_efficient_wq
+a5153f0 # 2016-07-07 # Viresh Kumar @ workqueue: Add system wide power_efficient workqueues
+350b457 # 2016-07-07 # Viresh Kumar @ workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues
+c7df5ef # 2016-07-07 # Zdrowy Gosciu @ Revert "Revert "msm: use of swp{b} is deprecated for ARMv6+""
+aa3f9a5 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm_rq_stats: Add get_rq_info"
+9eca6d8 # 2016-07-07 # Zdrowy Gosciu @ hotplug: bricked: Remove CPU Boost + tweak
+79f345a # 2016-07-07 # Dennis Rassmann @ arm: Introduce Bricked HotPlug
+62fb945 # 2016-07-07 # Loller79 @ cpufreq: Remove LOW_BATT_LIMIT
+4c9c3ef # 2016-07-07 # Loller79 @ lib: GLIBC version of string and memcopy libs
+26658d0 # 2016-07-06 # Loller79 @ devfreq: Tweak Adreno idler
+e1dc2e3 # 2016-07-06 # Zdrowy Gosciu @ arm: configs: d802: Remove useless DEBUGs
+999c2e0 # 2016-07-06 # Zdrowy Gosciu @ Version HM 10.5
+cd75b30 # 2016-07-06 # Zdrowy Gosciu @ arm: configs: d802: Remove useless error handlers
+c207ba2 # 2016-07-06 # Zdrowy Gosciu @ Revert "msm: use of swp{b} is deprecated for ARMv6+"
+ed5e0b2 # 2016-07-06 # Zdrowy Gosciu @ cpufreq: IntelliMM: Fix build
+890bebb # 2016-07-06 # faux123 @ cpufreq: Introduce IntelliMinMax
+ba263b9 # 2016-07-06 # Hong-Mei Li @ arm: msm: improve memory access performance for 8974
+662dfe0 # 2016-07-06 # Hong-Mei Li @ arm: lib: Fix makefile bug
+5b12460 # 2016-07-06 # Hong-Mei Li @ msm: memutils: memcpy, memmove optimization
+979808a # 2016-07-06 # Jason Hrycay @ msm: memutils: memcpy, memmove, copy_page optimization
+84dfde2 # 2016-07-06 # Zdrowy Gosciu @ msm: Remove MEMUTILS
+b5eeed6 # 2016-07-06 # Krishna Chaitanya Parimi @ msm: mdss: cancel AD calc work and destroy workqueue at power off
+17de5a3 # 2016-07-06 # Krishna Chaitanya Parimi @ msm: mdss: do not assign ad_calc_bl if AD offsets are absent
+9ca8104 # 2016-07-06 # Zdrowy Gosciu @ arm: configs: d802: ROW as default I/O scheduler
+3213174 # 2016-07-06 # Zdrowy Gosciu @ mm: Revert readahead to 128 kB
+4e8b56b # 2016-07-06 # Park Ju Hyung @ Revert "mm: vmscan: If kswapd has been running too long, allow it to sleep"
+7dc3e9c # 2016-07-06 # Janson Kang @ Revert "mm: slub: Default slub_max_order to 0"
+d273e77 # 2016-07-06 # Elektroschmock @ cpufreq: interactive: Replace strict_strtoul with kstrtoul
+fd0d761 # 2016-07-06 # Andrew Bresticker @ CHROMIUM: cpufreq: interactive: free above_hispeed_delay on exit
+adafc3a # 2016-07-06 # Janson Kang @ cpufreq: interactive: set io_is_busy to 1
+ce82ae1 # 2016-07-06 # Janson Kang @ Revert "cpufreq: Initial CPU utilization should be 0"
+660b1eb # 2016-07-06 # Theodore Ts'o @ ext4: optimize test_root()
+6d7e81a # 2016-07-06 # Thomas Gleixner @ futex: Always cleanup owner tid in unlock_pi
+08257d1 # 2016-07-06 # Thomas Gleixner @ futex: Validate atomic acquisition in futex_lock_pi_atomic()
+d3857fc # 2016-07-06 # Thomas Gleixner @ futex: Make lookup_pi_state more robust
+02e3329 # 2016-07-06 # Jeevan Shriram @ msm: mdss: Align the shared memory length to PAGE_SIZE
+866e50b # 2016-07-06 # Andrew Hunter @ jiffies: Fix timeval conversion to jiffies
+ad8d80a # 2016-07-06 # Wen Congyang @ memory hotplug: reset pgdat->kswapd to NULL if creating kernel thread fails
+6b93ef0 # 2016-07-06 # Hugh Dickins @ memcg: further prevent OOM with too many dirty pages
+f0480ad # 2016-07-06 # Michal Hocko @ memcg: prevent OOM with too many dirty pages
+7dbee4e # 2016-07-06 # Jiang Liu @ memory hotplug: fix invalid memory access caused by stale kswapd pointer
+9fb19c0fa # 2016-07-06 # olokos @ mm: consider all swapped back pages in used-once logic
+75e8ee2 # 2016-07-05 # Paul Reioux @ android: binder: use GPF_HIGHUSER flag since binder is designed for userspace
+b0fd3cb # 2016-07-05 # olokos @ tick: don't update idle time if cpu offline
+c846bc3 # 2016-07-05 # olokos @ msm: camera_v2: Create jpeg debugfs
+a8f8248 # 2016-07-05 # olokos @ block: row-iosched idling triggered by readahead pages
+a1a50f4 # 2016-07-05 # Deepak Verma @ msm: vidc: Initialize kernel space stack variables
+7ace337 # 2016-07-05 # Srivatsa S. Bhat @ CPU hotplug, writeback: Don't call writeback_set_ratelimit() too often during hotplug
+11321d3 # 2016-07-05 # Francisco Franco @ writeback: increase bdi_min_ratio to 5 in light of the latest writeback commit.
+6f9afe2 # 2016-07-05 # Namjae Jeon @ writeback: fix writeback cache thrashing
+78ff08b # 2016-07-05 # Mel Gorman @ mm: vmscan: If kswapd has been running too long, allow it to sleep
+7626d12 # 2016-07-05 # Joonsoo Kim @ mm, vmalloc: remove useless variable in vmap_block
+cf3c688 # 2016-07-05 # Joonsoo Kim @ mm, vmalloc: use well-defined find_last_bit() func
+f772fe0 # 2016-07-05 # Fengguang Wu @ readahead: make context readahead more conservative
+3ed139d # 2016-07-05 # Junxiao Bi @ writeback: fix race that cause writeback hung
+c71db4b # 2016-07-05 # Johannes Weiner @ mm/page-writeback.c: fix dirty_balance_reserve subtraction from dirtyable memory
+d5b1c15 # 2016-07-05 # Ming Lei @ block/partitions: optimize memory allocation in check_partition()
+f39f71b # 2016-07-05 # Zdrowy Gosciu @ Version HM 10.2
+06070eb # 2016-07-05 # Zdrowy Gosciu @ logger: Fix build (logcat size redefine)
+23e3bad # 2016-07-05 # Zdrowy Gosciu @ cpufreq: ondemand: Remove useless should_io_be_busy()
+4cddaf2 # 2016-07-05 # Zdrowy Gosciu @ logger: Replace power suspend with state notifier driver
+f51b8f7 # 2016-07-05 # Jerry Stralko @ staging: android: logger: fixed checkpatch.pl warnings.
+d47f7ac # 2016-07-05 # Seunghun Lee @ staging: android: fix a possible memory leak
+e4c82a2 # 2016-07-05 # Karlis Ogsts @ staging: android: logger: Correct write offset reset on error
+1969b53 # 2016-07-05 # Luca Clementi @ Staging: Android: logger: module_exit implementation
+80c5977 # 2016-07-05 # Charndeep Grewal @ staging: android: logger: enforce GID and CAP check on log flush
+d449656 # 2016-07-05 # Tim Bird @ staging: android: logger: Fix some sparse and whitespace issues
+4d52c6c # 2016-07-05 # Cruz Julian Bishop @ staging: android: logger: Finish documentation of two structs
+1abc415 # 2016-07-05 # Sachin Kamat @ staging: Android: Fix some checkpatch warnings
+26155a8 # 2016-07-05 # Tim Bird @ staging: android: logger: Allocate logs dynamically at boot (v3)
+ce7ca19 # 2016-07-05 # Pranav Vashi @ staging: logger: Allow to completely disable
+c9815e0 # 2016-07-05 # Pranav Vashi @ staging: android: logger: Improve logging
+46338e7 # 2016-07-05 # Bhargav Upperla @ drivers/staging: Configurable android log buffer sizes
+1cb6608 # 2016-07-05 # Pranav Vashi @ staging: Allow logcat termination on suspend
+6275123 # 2016-07-05 # Zdrowy Gosciu @ Revert "gpu: Revert last kgsl commits"
+6a8d7a9 # 2016-07-05 # Zdrowy Gosciu @ Revert "arm: Revert last crypto/cpu/dts patches"
+0be6ae2 # 2016-07-05 # Zdrowy Gosciu @ Revert "Revert "arm/dts: msm8974: Schedule mmcqd on idle CPU""
+9237a15 # 2016-07-05 # Zdrowy Gosciu @ Revert "Revert "mmc: add support for scheduling mmcqd on idle CPU""
+bd125a9 # 2016-07-05 # Zdrowy Gosciu @ Revert "Revert "PM / Wakeup: Use rcu callbacks for better performance""
+216b3af # 2016-07-05 # Zdrowy Gosciu @ Revert "devfreq: Don't run Adreno idler at startup"
+32fd021 # 2016-07-05 # Zdrowy Gosciu @ cpufreq: Rebase ondemand governor
+5966bc1 # 2016-07-04 # Zdrowy Gosciu @ Version HM 10.111
+1cfaf5e # 2016-07-04 # Zdrowy Gosciu @ cpufreq: darkness: Higher sampling rate
+5695281 # 2016-07-04 # Zdrowy Gosciu @ Version HM 10.1
+f7cb5a5 # 2016-07-04 # Zdrowy Gosciu @ devfreq: Don't run Adreno idler at startup
+ce9c52f # 2016-07-04 # Zdrowy Gosciu @ cpufreq: darkness: Lower sampling rate
+1676901 # 2016-07-04 # Zdrowy Gosciu @ Version HM 10.0
+af08270 # 2016-07-04 # Zdrowy Gosciu @ cpufreq: Disable boost drivers
+784d89b # 2016-07-04 # Zdrowy Gosciu @ arm: msm hotplug: Don't run at startup
+ea6b28d # 2016-07-04 # Zdrowy Gosciu @ dirvers: cpuquiet: Build me!
+4ef999d # 2016-07-04 # DerRomtester @ drivers: cpuquiet: Remove useless governors
+891ed0f # 2016-07-04 # DerRomtester @ drivers: Introduce CPUQuiet
+bdee4b9 # 2016-07-04 # Francisco Franco @ Revert "sched_avg: add run queue averaging."
+c81e465 # 2016-07-04 # franciscofranco @ sched/rt: Reduce rq lock contention by eliminating locking of non-feasible target
+69ae3e3 # 2016-07-04 # Oleg Nesterov @ sched: Change autogroup_move_group() to use for_each_thread()
+86ee0df # 2016-07-04 # franciscofranco @ sched: s/do_each_thread/for_each_process_thread/ in debug.c
+65ad170 # 2016-07-04 # Oleg Nesterov @ sched: s/do_each_thread/for_each_process_thread/ in core.c
+a9d9dea # 2016-07-04 # franciscofranco @ sched: Fix exec_start/task_hot on migrated tasks
+45b4706 # 2016-07-04 # Michal Nazarewicz @ sched/fair: Avoid integer overflow
+297aaf4 # 2016-07-04 # Peter Zijlstra @ sched/core: Fix an SMP ordering race in try_to_wake_up() vs. schedule()
+b42a33b # 2016-07-04 # Brian Silverman @ sched: Fix RLIMIT_RTTIME when PI-boosting to RT
+05cc14b # 2016-07-04 # Thomas Gleixner @ sched: Queue RT tasks to head when prio drops
+7caaf6c # 2016-07-04 # Srivatsa Vaddagiri @ sched: window-based load stats improvements
+f390b7b # 2016-07-04 # Srivatsa Vaddagiri @ sched: Add min_max_freq and rq->max_possible_freq
+ae12b90 # 2016-07-04 # Steve Muckle @ sched: move task load based functions
+efed618 # 2016-07-04 # Matt Wagantall @ sched/rt: Add Kconfig option to enable panicking for RT throttling
+85bcda7 # 2016-07-04 # Matt Wagantall @ sched/rt: print RT tasks when RT throttling is activated
+e32b8d2 # 2016-07-04 # Srivatsa Vaddagiri @ sched: Skip load update for idle task
+249cc18 # 2016-07-04 # Srivatsa Vaddagiri @ sched: window-stats: Fix overflow bug
+6a0e91d # 2016-07-04 # Naveen Ramaraj @ cpufreq: Always allow update of user policy
+3a767c5 # 2016-07-04 # Stephen Boyd @ soc: qcom: rq_stats: Always show idle time left
+edbee47 # 2016-07-04 # Steve Kondik @ sched: Fix race in idle_balance()
+9afa043 # 2016-07-04 # Guojian Chen @ cpuidle: remove cross-cpu IPI by new latency request.
+dedf701 # 2016-07-04 # Srivatsa Vaddagiri @ sched: Window-based load stat improvements
+1ff30df # 2016-07-04 # Rohit Gupta @ sched: Disable wakeup hints for foreground tasks by default
+c2cc480 # 2016-07-04 # Rohit Gupta @ sched: Call the notify_on_migrate notifier chain for wakeups as well
+8deaa9e # 2016-07-04 # Rohit Gupta @ cpufreq: cpu-boost: Introduce scheduler assisted load based syncs
+4919d1c # 2016-07-04 # George McCollister @ sched: Fix double normalization of vruntime
+9b3e0f8 # 2016-07-04 # Srivatsa Vaddagiri @ sched: window-based load stats for tasks
+4593dcf # 2016-07-04 # myfluxi @ Revert "tracing/sched: Track per-cpu rt and non-rt cpu_load."
+0494b2a # 2016-07-04 # Srivatsa Vaddagiri @ sched: Make scheduler aware of cpu frequency state
+124b563 # 2016-07-04 # Paul Turner @ sched: Introduce temporary FAIR_GROUP_SCHED dependency for load-tracking
+ac54bb2 # 2016-07-04 # Paul Turner @ sched: Make __update_entity_runnable_avg() fast
+b9d93e6 # 2016-07-04 # Paul Turner @ sched: Update_cfs_shares at period edge
+02d7458 # 2016-07-04 # Paul Turner @ sched: Refactor update_shares_cpu() -> update_blocked_avgs()
+eaa04b5 # 2016-07-04 # Paul Turner @ sched: Replace update_shares weight distribution with per-entity computation
+ef5ddc4 # 2016-07-04 # Paul Turner @ sched: Maintain runnable averages across throttled periods
+3eb8630 # 2016-07-04 # Paul Turner @ sched: Normalize tg load contributions against runnable time
+9390871 # 2016-07-04 # Paul Turner @ sched: Compute load contribution by a group entity
+705648a # 2016-07-04 # Paul Turner @ sched: Aggregate total task_group load
+6408d8a # 2016-07-04 # Paul Turner @ sched: Account for blocked load waking back up
+eeb70c0 # 2016-07-04 # Paul Turner @ sched: Add an rq migration call-back to sched_class
+48fca95 # 2016-07-04 # Paul Turner @ sched: Maintain the load contribution of blocked entities
+2cbfe43 # 2016-07-04 # Paul Turner @ sched: Aggregate load contributed by task entities on parenting cfs_rq
+f44fa65 # 2016-07-04 # Ben Segall @ sched: Maintain per-rq runnable averages
+5948c45 # 2016-07-04 # Paul Turner @ sched: Track the runnable average on a per-task entity basis
+2f1d60f # 2016-07-04 # DerRomtester @ msm_rq_stats: Add get_rq_info
+ce443ac # 2016-07-04 # Suman Tatiraju @ msm: kgsl: Fix race condition in adreno_spin_idle()
+76e7fb3 # 2016-07-04 # Zdrowy Gosciu @ Revert "arm: hotplug: Introduce intelli_plug"
+d962a0c # 2016-07-04 # Zdrowy Gosciu @ Revert "arm: Don't build MSM RQ STATS"
+8eac918 # 2016-07-04 # Zdrowy Gosciu @ Revert "Revert "linux: blkdev: disable add random""
+2a775e4 # 2016-07-04 # Zdrowy Gosciu @ Revert "Revert "block: Disable IO Stats""
+890102f # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.999
+e000f37 # 2016-07-03 # Zdrowy Gosciu @ Revert "block: Disable IO Stats"
+ed25e6d # 2016-07-03 # franciscofranco @ wireless: bcmdhd: halve rx and ctrl wakelock timeout by half
+3f0bfd4 # 2016-07-03 # Rashed Abdel-Tawab @ bcmdhd: Restore default wakelocks and timing
+0a5a4e0 # 2016-07-03 # Zdrowy Gosciu @ net: wireless: bcmdhd: Use normal thread priority for bcm4339
+26f44b8 # 2016-07-03 # Zdrowy Gosciu @ Version HM 9.9
+268b047 # 2016-07-03 # Zdrowy Gosciu @ Revert "PM / Wakeup: Use rcu callbacks for better performance"
+8190eb4 # 2016-07-03 # Zdrowy Gosciu @ Revert "mmc: add support for scheduling mmcqd on idle CPU"
+fceb12d # 2016-07-03 # Zdrowy Gosciu @ Revert "arm/dts: msm8974: Schedule mmcqd on idle CPU"
+fe989d1 # 2016-07-03 # Zdrowy Gosciu @ arm: Revert last crypto/cpu/dts patches
+72cbb82 # 2016-07-03 # Zdrowy Gosciu @ gpu: Revert last kgsl commits
+
+* Project packages/apps/AudioFX/
+af5d8a7 # 2016-07-04 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/CellBroadcastReceiver/
+b76e794 # 2016-07-06 # pinky@build01 @ Automatic translation import
+c013f43 # 2016-07-04 # blinky@build01 @ Automatic translation import
+561a5be # 2016-07-04 # Abhisek Devkota @ Cleanup for translations
+
+* Project packages/apps/Contacts/
+1bf2f74 # 2016-07-04 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/DeskClock/
+111f176 # 2016-07-06 # inky@build01 @ Automatic translation import
+
+* Project packages/apps/Dialer/
+dfa4d5f # 2016-07-06 # pinky@build01 @ Automatic translation import
+9a01de3 # 2016-07-05 # Stephen Bird @ Set content intent to final button intent
+f1946eb # 2016-07-04 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/Gello/
+13cad17 # 2016-07-04 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/InCallUI/
+99e5e96 # 2016-07-06 # blinky@build01 @ Automatic translation import
+3733ab5 # 2016-07-06 # Muhammed Siju @ IMS-VT: Fix for auto fullscreen issue during UI rotation.
+a9c5cc0 # 2016-07-06 # Mengjun Leng @ Fix display 'null' for geocoder location
+08a4fea # 2016-07-06 # Shaoxu Liu @ Add rtl support to GlowPadView
+d1d5c64 # 2016-07-06 # Ravindra @ Fix to incall screen for incoming call
+a95fb55 # 2016-07-06 # inky@build01 @ Automatic translation import
+259ec26 # 2016-07-06 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/Messaging/
+e45eb2f # 2016-07-07 # tnmy-cyngn @ Messaging app crashes after a few MMS
+cbb0458 # 2016-07-04 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/Profiles/
+5972fba # 2016-07-06 # pinky@build01 @ Automatic translation import
+
+* Project packages/apps/Screencast/
+95cdd6a # 2016-07-06 # pinky@build01 @ Automatic translation import
+
+* Project packages/apps/Settings/
+e7e0ab3 # 2016-07-06 # Scott Mertz @ Prevent orientation changes from destroying/recreating security settings
+11523cd # 2016-07-06 # Luca Stefani @ Settings: Disable sim switch if subscription isn't valid
+35a524f # 2016-07-06 # LuK1337 @ Settings: Don't set the icon for sim activation / deactivation dialog
+e689b1a # 2016-07-06 # blinky@build01 @ Automatic translation import
+df81522 # 2016-07-06 # Venkatraman Nerellapalli @ Telephony(MSIM): Fix ANR on SIM deactivation
+db5fd2a # 2016-07-06 # Ravindra @ Fix to enable data for non-dds sub.
+05a7ed7 # 2016-07-06 # Benergy Meenan Ravuri @ IMS: Set Wifi calling preference to Wifi preferred by default
+3ab0da4 # 2016-07-06 # Nalla Kartheek @ Wi-Fi: Do not display the not scanned saved networks forever
+1bf0107 # 2016-07-06 # venkata Jagadeesh @ Don't start auto scan if screen recovers from frozen state
+33e9d19 # 2016-07-06 # Susheel nyamala @ Fix mcc-mnc population issue in apn editor
+bad721a # 2016-07-06 # Sridhar Dubbaka @ Update OperatorInfo in Simstatus settings for correct subid
+39c265b # 2016-07-06 # Ruthwar Kumar Ambeer @ Grey out PIN1 enable/disable option when SUB is not ready
+c70e8d9 # 2016-07-06 # Sravan Kumar V @ Bluetooth : Handle SQL memory situation during OPP.
+36ce037 # 2016-07-06 # d34d @ fingerpint: Allow devices to configure sensor location
+e369efd # 2016-07-06 # inky@build01 @ Automatic translation import
+f4dde19 # 2016-07-06 # Tom Marshall @ settings: wifi: Default to numeric keyboard for static IP items
+915a120 # 2016-07-06 # Tom Marshall @ Settings: Set root access options appropriately
+f593fd6 # 2016-07-06 # Michael Bestas @ Fix untranslatable
+cede4c8 # 2016-07-06 # Danesh M @ Settings : Add country code to blacklist entry dialog
+5de5da0 # 2016-07-06 # Danny Baumann @ Make sure LiveDisplay toggle default values are correct.
+946d22e # 2016-07-06 # lijun.xie @ UI: Ensure "use for" options displayed when in landscape orientation
+b189813 # 2016-07-06 # Michael W @ Settings: Fix possible NPE
+18d6b81 # 2016-07-06 # Roman Birg @ Settings: handle 'always ask' for SMS subscription on 3rd party apps
+bc17e47 # 2016-07-06 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/Snap/
+5f8b54f # 2016-07-07 # pinky@build01 @ Automatic translation import
+7c87393 # 2016-07-07 # blinky@build01 @ Automatic translation import
+0078f77 # 2016-07-07 # inky@build01 @ Automatic translation import
+3d90dba # 2016-07-07 # inky@build01 @ Automatic translation import
+93e9f6d # 2016-07-07 # inky@build01 @ Automatic translation import
+5ce4909 # 2016-07-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'sultanxda/cm-13.0-sultan' into mm-sultanxda
+
+* Project packages/apps/SoundRecorder/
+77399f4 # 2016-07-07 # Keith Mok @ SoundRecorder: onConfigurationChanged dismiss popupmenu
+d0c02a3 # 2016-07-07 # Keith Mok @ Revert "SoundRecorder: onConfigurationChanged dismiss popupmenu"
+a955d4c # 2016-07-06 # pinky@build01 @ Automatic translation import
+c8d0800 # 2016-07-04 # blinky@build01 @ Automatic translation import
+
+* Project packages/inputmethods/LatinIME/
+485e4a3 # 2016-07-06 # inky@build01 @ Automatic translation import
+6bbaf58 # 2016-07-06 # blinky@build01 @ Automatic translation import
+fd632be # 2016-07-06 # inky@build01 @ Automatic translation import
+
+* Project packages/services/Telecomm/
+8039187 # 2016-07-06 # Hall Liu @ DO NOT MERGE - Restrict ability to add call based on device provision status
+be6ee34 # 2016-07-06 # Ravindra @ Fix to prevent NPE
+c9117b7 # 2016-07-06 # Sandeep Kunta @ Remove TONE_SUPERVISORY_CH
+fb07efc # 2016-07-06 # Shriram Ganesh @ Fix a bug where conference call does not automatically resume.
+2e2152f # 2016-07-06 # Shriram Ganesh @ Fix disabled merge button on conference failure.
+4a51afb # 2016-07-06 # Mengjun Leng @ Fix sound output from headset when switching speaker to BT
+
+* Project packages/services/Telephony/
+20b64f6 # 2016-07-06 # blinky@build01 @ Automatic translation import
+c25c708 # 2016-07-06 # Adnan Begovic @ Telephony: Handle PIN locked sim slot swapping between boots.
+4c6bf72 # 2016-07-06 # Abhisek Devkota @ Cleanup for translations
+bdfd629 # 2016-07-06 # Qiang Chen @ Fix updating FDN using uri without subId issue
+853e53e # 2016-07-06 # wangjing @ Mms: Fix SMS is not sent in ECBM unless click send again
+ff4a82f # 2016-07-06 # Umashankar Godachi @ Add "FDN service is not available" toast message
+e73a136 # 2016-07-06 # Wileen Chiu @ SEEK: Change security check for getAtrUsingSubId
+00cbc37 # 2016-07-06 # Garik Badalyan @ IMS-VT: Conf: Propagate call extras to UI.
+4c67c2f # 2016-07-06 # Rakesh Pallerla @ Set APM mode property for RIL to access.
+6055b8b # 2016-07-06 # inky@build01 @ Automatic translation import
+bdd2f96 # 2016-07-06 # blinky@build01 @ Automatic translation import
+
+* Project platform_manifest/
+c40ea78 # 2016-07-07 # Pafcholini @ track omniswitch
+ab73e26 # 2016-07-06 # d34d @ Bring back the custom wallpaper picker [4/5]
+
+* Project system/core/
+70767b3 # 2016-07-06 # Benson Leung @ healthd: Support new PD and USB Type C types
+eb1b51a # 2016-07-06 # Maunik Shah @ Copy the ETB dumps and maps file to /data/core
+4f64558 # 2016-07-06 # sanketk @ Don't use global variable in libnetutils.
+
+* Project system/extras/
+5c269b8 # 2016-07-04 # Ricardo Cerqueira @ verity: Let the tools ask for a password if needed
+
+* Project vendor/cmsdk/
+65da775 # 2016-07-06 # Adnan Begovic @ cmsdk: Update README.
+ee33ca2 # 2016-07-06 # Adnan Begovic @ cmsdk: Create brokerablecmsystemservice concept.
+da37617 # 2016-07-06 # Adnan Begovic @ cmsdk: Factor CMSystemServiceHelper to common.
+bcb8523 # 2016-07-06 # Luis Vidal @ Apply active profile if user enables system profiles
+3d6e658 # 2016-07-06 # inky@build01 @ Automatic translation import
+9085475 # 2016-07-06 # d34d @ LLS: Allow default enabled events to be overlaid
+50bd93c # 2016-07-06 # d34d @ Themes: Provide 100% test coverage for themes
+e9fb178 # 2016-07-06 # d34d @ Themes: Fix ThemeManagerTest
+5d562e3 # 2016-07-06 # d34d @ Themes: Fix applying default theme
+
+* Project vendor/emotion/
+bed7ac9 # 2016-07-07 # Pafcholini @ common: add omniswitch
+9633cc8 # 2016-07-07 # Pafcholini @ Revert "Update SuperSU v2.76"
+355e5c0 # 2016-07-06 # Pafcholini @ Update SuperSU v2.76
+605bdd7 # 2016-07-06 # Joey Rizzoli @ cm: overlay: enable otg notification
+eedf2d7 # 2016-07-06 # Chenxi Mao @ UFS: support UFS IO-sched setting.
+3303331 # 2016-07-06 # Michael Ott @ Remove APN pinternet.interkom.de from MCC 262/MNC 02
+e77a148 # 2016-07-06 # Dan Pasanen @ sepolicy: put bash in shell context

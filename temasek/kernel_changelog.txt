@@ -7,6 +7,8 @@ CHANGES AFTER 2016-07-03 @ 07:01:10 (1467529270)
                  |_____|              
 
 * Project device/lge/g2-common/
+8e42a13 # 2016-07-07 # Zdrowy Gosciu @ Revert "g2-common: init: power: Disable idle in retention"
+20ef32b # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Remove interactive CPU governor setup
 01e1fe5 # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Disable idle in retention
 4209e7b # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Remove I/O scheduler setup (use kernel settings)
 cb95b09 # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Try interactive GOV + ROW 128 kB
@@ -17,6 +19,32 @@ a81c591 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Don't online all 
 70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+873ddf3 # 2016-07-07 # Zdrowy Gosciu @ Version HM 10.6
+a63ad89 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove, copy_page optimization"
+79bbc16 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove optimization"
+f4aca9e # 2016-07-07 # Zdrowy Gosciu @ Revert "arm: lib: Fix makefile bug"
+68db913 # 2016-07-07 # Zdrowy Gosciu @ Revert "arm: msm: improve memory access performance for 8974"
+f22a8e3 # 2016-07-07 # Zdrowy Gosciu @ arm: configs: d802: IntelliMinMax as default CPU governor
+5aee561 # 2016-07-07 # Cody Ferber @ clock: Fix uninitialized div_s64 for GCC 4.9
+259bc07 # 2016-07-07 # Nikola Majkić @ selinux: Fix sel_write_enforce broken return value
+36a5a3d # 2016-07-07 # Shawn Lin @ gpu: ion: fix corruption of ion_import_dma_buf
+02b8645 # 2016-07-07 # Mike Snitzer @ block: fix alignment_offset math that assumes io_min is a power-of-2
+d3d9af6 # 2016-07-07 # Matias Bjørling @ block: remove WQ_POWER_EFFICIENT from kblockd
+09dc544 # 2016-07-07 # Mark Brown @ ASoC: jack: Use power efficient workqueue
+edd2604 # 2016-07-07 # Mark Brown @ ASoC: pcm: Use the power efficient workqueue for delayed  powerdown
+daef71f # 2016-07-07 # Mark Brown @ regulator: core: Use the power efficient workqueue for  delayed powerdown
+222647a # 2016-07-07 # Viresh Kumar @ block: queue work on power efficient wq
+29adadb # 2016-07-07 # Viresh Kumar @ PHYLIB: queue work on system_power_efficient_wq
+a5153f0 # 2016-07-07 # Viresh Kumar @ workqueue: Add system wide power_efficient workqueues
+350b457 # 2016-07-07 # Viresh Kumar @ workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues
+c7df5ef # 2016-07-07 # Zdrowy Gosciu @ Revert "Revert "msm: use of swp{b} is deprecated for ARMv6+""
+aa3f9a5 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm_rq_stats: Add get_rq_info"
+9eca6d8 # 2016-07-07 # Zdrowy Gosciu @ hotplug: bricked: Remove CPU Boost + tweak
+79f345a # 2016-07-07 # Dennis Rassmann @ arm: Introduce Bricked HotPlug
+62fb945 # 2016-07-07 # Loller79 @ cpufreq: Remove LOW_BATT_LIMIT
+4c9c3ef # 2016-07-07 # Loller79 @ lib: GLIBC version of string and memcopy libs
+26658d0 # 2016-07-06 # Loller79 @ devfreq: Tweak Adreno idler
+e1dc2e3 # 2016-07-06 # Zdrowy Gosciu @ arm: configs: d802: Remove useless DEBUGs
 999c2e0 # 2016-07-06 # Zdrowy Gosciu @ Version HM 10.5
 cd75b30 # 2016-07-06 # Zdrowy Gosciu @ arm: configs: d802: Remove useless error handlers
 c207ba2 # 2016-07-06 # Zdrowy Gosciu @ Revert "msm: use of swp{b} is deprecated for ARMv6+"

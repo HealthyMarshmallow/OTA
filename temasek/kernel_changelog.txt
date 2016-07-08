@@ -7,6 +7,9 @@ CHANGES AFTER 2016-07-03 @ 07:01:10 (1467529270)
                  |_____|              
 
 * Project device/lge/g2-common/
+e7a1f9b # 2016-07-08 # Zdrowy Gosciu @ g2-common: init: power: Correct interactive setup
+5a41242 # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Don't start Adreno idler by default
+ce0e79e # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Revert to interactive CPU governor
 8e42a13 # 2016-07-07 # Zdrowy Gosciu @ Revert "g2-common: init: power: Disable idle in retention"
 20ef32b # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Remove interactive CPU governor setup
 01e1fe5 # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Disable idle in retention
@@ -19,6 +22,8 @@ a81c591 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Don't online all 
 70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+cf6e188 # 2016-07-08 # Zdrowy Gosciu @ Version HM 10.7
+29a24b6 # 2016-07-08 # Zdrowy Gosciu @ wcd9320: Add toggle to enable FauxSound
 873ddf3 # 2016-07-07 # Zdrowy Gosciu @ Version HM 10.6
 a63ad89 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove, copy_page optimization"
 79bbc16 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove optimization"

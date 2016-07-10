@@ -7,6 +7,7 @@ CHANGES AFTER 2016-07-04 @ 12:57:06 (1467637026)
                  |_____|              
 
 * Project /
+0000000 # 2016-07-10 # Zdrowy Gosciu @ build: Optimize ROM size using Squisher
 0000000 # 2016-07-09 # Zdrowy Gosciu @ Settings: Replace FORCE MTP MODE with UNLOCKED USB DATA ACCESS (Storage and USB > Advanced menu)
 0000000 # 2016-07-09 # Zdrowy Gosciu @ local manifest: Revert to CM CAF HAL's (audio/display/media)
 0000000 # 2016-07-09 # Zdrowy Gosciu @ build: Clean up ro.build.date
@@ -41,6 +42,7 @@ a24a33b # 2016-07-08 # Zdrowy Gosciu @ d802: Emotion ROM: Disable block based bu
 689bd34 # 2016-07-07 # Zdrowy Gosciu @ d802: Update for Emotion ROM (OTA, denisty, dexpreopt)
 
 * Project device/lge/g2-common/
+55ea1d1 # 2016-07-10 # Zdrowy Gosciu @ g2-common: Disable radio scanning timeout
 e7a1f9b # 2016-07-08 # Zdrowy Gosciu @ g2-common: init: power: Correct interactive setup
 14b5ffd # 2016-07-07 # Zdrowy Gosciu @ Revert "audio: Add support for dualmic fluence for voice communication"
 5a41242 # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Don't start Adreno idler by default
@@ -56,6 +58,8 @@ a81c591 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Don't online all 
 077ea39 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Clean up + ondemand as default CPU governor
 
 * Project device/qcom/common/
+fdca960 # 2016-07-09 # Zhao Wei Liew @ power: Don't send obsolete DISPLAY_OFF opcode
+97f2320 # 2016-07-09 # Zhao Wei Liew @ power: Use ARRAY_SIZE macro where possible
 94c7d19 # 2016-07-04 # Steve Kondik @ power/8996: Disable sched grouping for flings
 
 * Project external/boringssl/
@@ -121,6 +125,16 @@ e61dfdc # 2016-07-07 # Michael Bestas @ cmhw: Add VibratorHW implementation
 c6f3e59 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
 
 * Project kernel/lge/msm8974/
+2104a6a # 2016-07-10 # Zdrowy Gosciu @ Version HM 10.8
+f85b403 # 2016-07-10 # Veena Sambasivan @ msm: perf: Do not allocate new hw_event if event is duplicate.
+65fb335 # 2016-07-10 # Xiaojun Sang @ ASoC: compress: fix unsigned integer overflow check
+d8cf810 # 2016-07-10 # vivek mehta @ ASoC: msm: audio-effects: misc fixes in h/w accelerated effect
+c712a06 # 2016-07-10 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
+e4fb22b # 2016-07-10 # Dibyendu Roy @ Bluetooth: Replace %p with %pK
+40ff6c2 # 2016-07-10 # Mohamad Ayyash @ Replace %p with %pK to prevent leaking kernel address
+11c7769 # 2016-07-10 # Alan Stern @ USB: fix invalid memory access in hub_activate()
+78ba581 # 2016-07-10 # Vijayavardhan Vennapusa @ USB: dwc3: debugfs: Add boundary check in dwc3_store_ep_num()
+daa39af # 2016-07-10 # fluxi @ defconfig: Disable NF_TARGET_REJECT_SKERR
 cf6e188 # 2016-07-08 # Zdrowy Gosciu @ Version HM 10.7
 29a24b6 # 2016-07-08 # Zdrowy Gosciu @ wcd9320: Add toggle to enable FauxSound
 873ddf3 # 2016-07-07 # Zdrowy Gosciu @ Version HM 10.6

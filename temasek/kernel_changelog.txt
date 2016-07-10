@@ -22,6 +22,45 @@ a81c591 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Don't online all 
 70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+90ad66a # 2016-07-10 # Zdrowy Gosciu @ Version HM 10.9
+7908932 # 2016-07-10 # Fred Oh @ avtimer: validate input parameter before using it
+97217a5 # 2016-07-10 # Dorimanx @ SPS: allow modem driver to sleep when no data traffic.
+39221ce # 2016-07-10 # myfluxi @ msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag
+18f177e # 2016-07-10 # Yan He @ msm: sps: check the pending descriptor
+e8a77ae # 2016-07-10 # Yan He @ msm: sps: add the support to disable a pipe
+57750fc # 2016-07-10 # Niranjan Pendharkar @ msm: sps: add the callback for BAM-level polling
+2fad4f4 # 2016-07-10 # Jiangli Yuan @ sps: Always clear pipe irq status before enabling sps irq.
+b0bed94 # 2016-07-10 # Jiangli Yuan @ sps: make sure pipe active mask match with pipe list status
+39287d2 # 2016-07-10 # Jiangli Yuan @ sps: add lock protection for pipe list
+207f9c5 # 2016-07-10 # Yan He @ msm: sps: avoid writing to MSB registers with zero value
+34b996f # 2016-07-10 # Dipen Parmar @ msm: sps: add support for register mapping
+23dea5d # 2016-07-10 # Dipen Parmar @ msm: sps: enable 4K resource group support for SPS
+ec9c111 # 2016-07-10 # Yan He @ msm: sps: extend sps macros for 64-bit
+38e4e67 # 2016-07-10 # Rama Krishna Phani A @ msm: sps: Handle low memory condition in SPS driver
+180bfa9 # 2016-07-10 # Azhar Shaikh @ msm: bam: Use memset_io instead of memset
+22f76f8 # 2016-07-10 # Yan He @ msm: sps: add handling of late EOT
+d1e4893 # 2016-07-10 # Yan He @ msm: sps: add handling of late EOT.
+b29ef02 # 2016-07-10 # Yan He @ msm: sps: check new pending IRQs before exit IRQ handler
+6ea5ee7 # 2016-07-10 # Yan He @ msm: sps: add the option to distinguish BAM types
+3dffa61 # 2016-07-10 # Yan He @ msm: sps: change the default device configuration
+8e8c302 # 2016-07-10 # Yan He @ msm: sps: check the BAM clock status before access a BAM
+7291cc9 # 2016-07-10 # Yan He @ msm: sps: add the support to reset a pipe
+cb008c8 # 2016-07-10 # Yan He @ msm: sps: add the support to halt a pipe
+9f7b4c2 # 2016-07-10 # Yan He @ msm: sps: avoid accessing resources released by pipe disconnect
+1731358 # 2016-07-10 # Dipen Parmar @ msm: sps: Add 64-bit support for sps
+1994c99 # 2016-07-10 # Yan He @ msm: sps: correct a bug in descriptor number calculation
+9b73292 # 2016-07-10 # Yan He @ msm: sps: update the checking of free slots
+ef6a61f # 2016-07-10 # Zdrowy Gosciu @ Revert "msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag"
+2104a6a # 2016-07-10 # Zdrowy Gosciu @ Version HM 10.8
+f85b403 # 2016-07-10 # Veena Sambasivan @ msm: perf: Do not allocate new hw_event if event is duplicate.
+65fb335 # 2016-07-10 # Xiaojun Sang @ ASoC: compress: fix unsigned integer overflow check
+d8cf810 # 2016-07-10 # vivek mehta @ ASoC: msm: audio-effects: misc fixes in h/w accelerated effect
+c712a06 # 2016-07-10 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
+e4fb22b # 2016-07-10 # Dibyendu Roy @ Bluetooth: Replace %p with %pK
+40ff6c2 # 2016-07-10 # Mohamad Ayyash @ Replace %p with %pK to prevent leaking kernel address
+11c7769 # 2016-07-10 # Alan Stern @ USB: fix invalid memory access in hub_activate()
+78ba581 # 2016-07-10 # Vijayavardhan Vennapusa @ USB: dwc3: debugfs: Add boundary check in dwc3_store_ep_num()
+daa39af # 2016-07-10 # fluxi @ defconfig: Disable NF_TARGET_REJECT_SKERR
 cf6e188 # 2016-07-08 # Zdrowy Gosciu @ Version HM 10.7
 29a24b6 # 2016-07-08 # Zdrowy Gosciu @ wcd9320: Add toggle to enable FauxSound
 873ddf3 # 2016-07-07 # Zdrowy Gosciu @ Version HM 10.6

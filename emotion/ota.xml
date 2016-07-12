@@ -2,25 +2,23 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>Emotion-d802-MM.r12.Unofficial-20160707-223846.zip</Filename>
+            <Filename>Emotion-d802-MM.r12.Unofficial-20160712-235827.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download Emotion ROM">https://www.androidfilehost.com/?fid=24591000424945125</RomUrl>
+                description="Download Emotion ROM">https://www.androidfilehost.com/?fid=24591000424946662</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="ROM changelog"
-                description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/temasek/changelog.txt</ChangelogUrl>
-<!--
+                description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/emotion/changelog.txt</ChangelogUrl>
             <KernelUrl
                 id="kernel"
                 title="Kernel"
-                description="Enjoy HealthyMarshmallow 10.6">https://www.androidfilehost.com/?fid=24591000424944967</KernelUrl>
+                description="Enjoy HealthyMarshmallow 10.9">https://www.androidfilehost.com/?fid=24591000424945770</KernelUrl>
             <KernelChangelogUrl
                 id="kernelchangelog"
                 title="Kernel changelog"
                 description="Read changelog">https://raw.githubusercontent.com/HealthyMarshmallow/OTA/mm/temasek/kernel_changelog.txt</KernelChangelogUrl>
--->
             <GappsUrl
                 id="gapps"
                 title="GApps"
@@ -28,7 +26,7 @@
             <XposedUrl
                 id="xposed"
                 title="Xposed"
-                description="Get Xposed v85">http://dl-xda.xposed.info/framework/sdk23/arm/xposed-v85-sdk23-arm.zip</XposedUrl>
+                description="Get Xposed v86">http://dl-xda.xposed.info/framework/sdk23/arm/xposed-v86-sdk23-arm.zip</XposedUrl>
             <DonateUrl
                 id="donate"
                 title="PayPal"

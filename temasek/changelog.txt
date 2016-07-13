@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-07-04 @ 12:57:06 (1467637026)
+CHANGES AFTER 2016-07-10 @ 01:38:00 (1468114680)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,332 +7,171 @@ CHANGES AFTER 2016-07-04 @ 12:57:06 (1467637026)
                  |_____|              
 
 * Project /
-0000000 # 2016-07-10 # Zdrowy Gosciu @ build: Optimize ROM size using Squisher
-0000000 # 2016-07-09 # Zdrowy Gosciu @ Settings: Replace FORCE MTP MODE with UNLOCKED USB DATA ACCESS (Storage and USB > Advanced menu)
-0000000 # 2016-07-09 # Zdrowy Gosciu @ local manifest: Revert to CM CAF HAL's (audio/display/media)
-0000000 # 2016-07-09 # Zdrowy Gosciu @ build: Clean up ro.build.date
+0000000 # 2016-07-13 # Zdrowy Gosciu @ Switch to SultanXDA CAF HALs
+0000000 # 2016-07-13 # Zdrowy Gosciu @ Introduce WiFi DHCP accelerator
+0000000 # 2016-07-13 # Zdrowy Gosciu @ Silence spammy logs from logcat
 
 * Project OTA/
-96b262c # 2016-07-08 # Zdrowy Gosciu @ OTA: Kernel HM 10.7 for CM based ROMs
-0da0c00 # 2016-07-07 # Zdrowy Gosciu @ OTA: Emotion'all
-682829b # 2016-07-07 # Zdrowy Gosciu @ OTA: Introduce Emotion ROM
-7f1e4ca # 2016-07-07 # Zdrowy Gosciu @ OTA: Kernel HM 10.6 for Temasek
-ea452b6 # 2016-07-06 # Zdrowy Gosciu @ OTA: Kernel HM 10.5 for Temasek
-42f3da8 # 2016-07-05 # Zdrowy Gosciu @ OTA: Kernel HM 10.2 for Temasek
-866b812 # 2016-07-04 # Zdrowy Gosciu @ OTA: cm-13.0-20160704-124919-UNOFFICIAL-temasek-d802-V9.7
-
-* Project android/
-8fea470 # 2016-07-08 # Jessica Wagantall @ default.xml: cm: Update to 6.0.1_r52
-
-* Project bionic/
-a335d97 # 2016-07-08 # Josh Gao @ Make getpid work before TLS has been initialized.
+389830f # 2016-07-13 # Zdrowy Gosciu @ OTA: Emotion-d802-MM.r12.Unofficial-20160713-125846
+ba22074 # 2016-07-13 # Zdrowy Gosciu @ OTA: Emotion-d802-MM.r12.Unofficial-20160712-235827
+d457b97 # 2016-07-10 # Zdrowy Gosciu @ OTA: Kernel HM 10.9 for CM based ROMs
+a2c81b5 # 2016-07-10 # Zdrowy Gosciu @ OTA: cm-13.0-20160710-013347-UNOFFICIAL-temasek-d802-V9.8
 
 * Project build/
-8c21a75 # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
-edb9509 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
-300da8b # 2016-07-05 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
-a68d79c # 2016-07-04 # Ricardo Cerqueira @ build: Let the verity signer and metadata builders ask for a password
+a9299e9 # 2016-07-12 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+d6a079f # 2016-07-11 # Ricardo Cerqueira @ build: Use the password manager for the verity key if possible
 
 * Project dalvik/
-400bfb9 # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_dalvik into cm-13.0
-c27cc46 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
+1768a30 # 2016-07-12 # Tobias Thierer @ Fix stream not being closed on all exception paths.
+438969d # 2016-07-12 # Aart Bik @ Bug fix for segfault on reading bytecode with dexdump.
+f1768c3 # 2016-07-12 # Alexander Martinz @ dx: remove javac flags
+0dcb77e # 2016-07-12 # Roland Levillain @ Shush "unused parameter" warnings in hprof-conv.
+00d7910 # 2016-07-12 # Yohann Roussel @ Consider declared member descriptors as direct ref
+cb49a3f # 2016-07-12 # Aart Bik @ Fix compiler warning on ptr size vs unsigned.
+269917a # 2016-07-12 # Liam Miller-Cushon @ Improve dx error handling
+4b231bc # 2016-07-12 # Delphine Martin @ Add better error message for unsupported classfile
+66154a8 # 2016-07-12 # Yohann Roussel @ Consider direct references in interface methods
+4fc4440 # 2016-07-12 # Rohit Agrawal @ Handle ACONST_NULL multidimensional arrays.
 
 * Project device/lge/d802/
-a24a33b # 2016-07-08 # Zdrowy Gosciu @ d802: Emotion ROM: Disable block based build
-689bd34 # 2016-07-07 # Zdrowy Gosciu @ d802: Update for Emotion ROM (OTA, denisty, dexpreopt)
+c1cfe81 # 2016-07-12 # Zdrowy Gosciu @ Revert "d802: Emotion ROM: Disable block based build"
 
 * Project device/lge/g2-common/
-55ea1d1 # 2016-07-10 # Zdrowy Gosciu @ g2-common: Disable radio scanning timeout
-e7a1f9b # 2016-07-08 # Zdrowy Gosciu @ g2-common: init: power: Correct interactive setup
-14b5ffd # 2016-07-07 # Zdrowy Gosciu @ Revert "audio: Add support for dualmic fluence for voice communication"
-5a41242 # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Don't start Adreno idler by default
-ce0e79e # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Revert to interactive CPU governor
-8e42a13 # 2016-07-07 # Zdrowy Gosciu @ Revert "g2-common: init: power: Disable idle in retention"
-20ef32b # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Remove interactive CPU governor setup
-2d0c1b4 # 2016-07-06 # Zdrowy Gosciu @ Revert "g2-common: Distinguish HSPA / UMTS data icons"
-01e1fe5 # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Disable idle in retention
-4209e7b # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Remove I/O scheduler setup (use kernel settings)
-cb95b09 # 2016-07-06 # Zdrowy Gosciu @ g2-common: init: power: Try interactive GOV + ROW 128 kB
-4b37075 # 2016-07-05 # Zdrowy Gosciu @ g2-common: Remove useless system props
-a81c591 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Don't online all cores
-077ea39 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Clean up + ondemand as default CPU governor
+5644b37 # 2016-07-13 # Zdrowy Gosciu @ g2-common: Use default ROW readahead
+361de29 # 2016-07-13 # Zdrowy Gosciu @ g2-common: Upgrade G2 Power HAL
+b5e7864 # 2016-07-13 # Zdrowy Gosciu @ g2-common: Change CPU GOV to ondemand + increase ROW to 256 kB
+222419d # 2016-07-13 # Zdrowy Gosciu @ g2-common: Introduce simple G2 Power HAL
+cb907c1 # 2016-07-13 # Zdrowy Gosciu @ g2-common: Set USE_CLANG_PLATFORM_BUILD to TRUE
+0a39d06 # 2016-07-13 # Zdrowy Gosciu @ g2-common: Build liboverlay
+ba3e703 # 2016-07-13 # Zdrowy Gosciu @ g2-common: Rebase for SultanXDA CAF HALs
+507a050 # 2016-07-13 # Sultanxda @ g2-common: Don't force 3 framebuffers
 
-* Project device/qcom/common/
-fdca960 # 2016-07-09 # Zhao Wei Liew @ power: Don't send obsolete DISPLAY_OFF opcode
-97f2320 # 2016-07-09 # Zhao Wei Liew @ power: Use ARRAY_SIZE macro where possible
-94c7d19 # 2016-07-04 # Steve Kondik @ power/8996: Disable sched grouping for flings
-
-* Project external/boringssl/
-9eeaa8c # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
-
-* Project external/libavc/
-a76695a # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
-
-* Project external/okhttp/
-f04b4af # 2016-07-04 # Tobias Thierer @ Drop unneeded OkHttp compile-time dependency on conscrypt
-
-* Project external/sepolicy/
-0e4f117 # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_external_sepolicy into cm-13.0
-0d2bc43 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
-
-* Project external/stagefright-plugins/
-4f5545a # 2016-07-05 # Steve Kondik @ stagefright-plugins: Clean up warnings for invalid format strings
-be0ec90 # 2016-07-05 # Steve Kondik @ stagefright-plugins: Stop using AVPicture
-
-* Project external/wpa_supplicant_8/
-771349a # 2016-07-08 # Park Ju Hyung @ Add -Os
-3d3b2ea # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
-
-* Project frameworks/av/
-2d4ba99 # 2016-07-09 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
-940b28b # 2016-07-08 # Scott Mertz @ Enforce permission for accessing fm tuner
-a568379 # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
-1e7c9d2 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
+* Project device/qcom/sepolicy/
+e46016c # 2016-07-13 # Ricardo Cerqueira @ wcnss: Fix I40eeb6895f1c5550813bf8b4182e33f9a4dc5dfd
 
 * Project frameworks/base/
-d9f4711 # 2016-07-09 # Roman Birg @ SystemUI: add themes dynamic tiles icon
-1cb9781 # 2016-07-08 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD Ticket: CYNGNOS-3020
-bce42ba # 2016-07-08 # Janson Kang @ Revert "Bind backup transport in later boot phase."
-20ab370 # 2016-07-08 # Roman Birg @ SystemUI: fix qstile page reset timeout
-30d4eb6 # 2016-07-06 # Wilhelm Fitzpatrick @ SystemConfig: allow app-link to be set to any possible state
-38188a6 # 2016-07-06 # Scott Mertz @ am: clear protected apps from recents
-c3e3dfe # 2016-07-06 # blinky@build01 @ Automatic translation import
-f1de3c5 # 2016-07-06 # kaiyiz @ media:Modify the display of system default ringtone when it is none.
-
-* Project frameworks/native/
-014745e # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
-cf27ee8 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
-
-* Project frameworks/opt/net/wifi/
-1c099f2 # 2016-07-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_net_wifi into cm-13.0
-95acd46 # 2016-07-08 # Khalid Zubair @ wifi: fixup hotspot disconnect on subscriber change
-1fcc0dd # 2016-07-08 # Roman Birg @ wifi: don't disable AP on sub change if it's the same sub
-886ac42 # 2016-07-08 # Roman Birg @ wifi: disable access point on subscription change
-
-* Project hardware/broadcom/wlan/
-6915649 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
-
-* Project hardware/cyanogen/
-e61dfdc # 2016-07-07 # Michael Bestas @ cmhw: Add VibratorHW implementation
-
-* Project hardware/libhardware/
-65ea8ef # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
-
-* Project hardware/qcom/audio-caf/msm8974/
-8c1ea0f # 2016-07-07 # Andy Hung @ DO NOT MERGE Fix AudioEffect reply overflow
-
-* Project hardware/qcom/audio/default/
-c6f3e59 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
+2b165af # 2016-07-13 # Janson Kang @ SystemUI: Define method setTextColor(int) back to ClockController
+0eb988c # 2016-07-13 # Janson Kang @ Frameworks: Disable smart cover wake by default
+c59ca90 # 2016-07-13 # LorDClockaN @ FWB: Clock color master switch (1/2)
+0b0ea8f # 2016-07-13 # Roman Birg @ SettingsProvider: fix data_enabled default lookup
+acad9a8 # 2016-07-12 # clyde@build01 @ Automatic translation import
+70f03b5 # 2016-07-12 # Adnan Begovic @ pm: Avoid filtering out protected components in implicit queries.
+8014815 # 2016-07-11 # d34d @ Keyguard: Don't circular reveal a non-visible view
 
 * Project kernel/lge/msm8974/
-2104a6a # 2016-07-10 # Zdrowy Gosciu @ Version HM 10.8
-f85b403 # 2016-07-10 # Veena Sambasivan @ msm: perf: Do not allocate new hw_event if event is duplicate.
-65fb335 # 2016-07-10 # Xiaojun Sang @ ASoC: compress: fix unsigned integer overflow check
-d8cf810 # 2016-07-10 # vivek mehta @ ASoC: msm: audio-effects: misc fixes in h/w accelerated effect
-c712a06 # 2016-07-10 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
-e4fb22b # 2016-07-10 # Dibyendu Roy @ Bluetooth: Replace %p with %pK
-40ff6c2 # 2016-07-10 # Mohamad Ayyash @ Replace %p with %pK to prevent leaking kernel address
-11c7769 # 2016-07-10 # Alan Stern @ USB: fix invalid memory access in hub_activate()
-78ba581 # 2016-07-10 # Vijayavardhan Vennapusa @ USB: dwc3: debugfs: Add boundary check in dwc3_store_ep_num()
-daa39af # 2016-07-10 # fluxi @ defconfig: Disable NF_TARGET_REJECT_SKERR
-cf6e188 # 2016-07-08 # Zdrowy Gosciu @ Version HM 10.7
-29a24b6 # 2016-07-08 # Zdrowy Gosciu @ wcd9320: Add toggle to enable FauxSound
-873ddf3 # 2016-07-07 # Zdrowy Gosciu @ Version HM 10.6
-a63ad89 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove, copy_page optimization"
-79bbc16 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm: memutils: memcpy, memmove optimization"
-f4aca9e # 2016-07-07 # Zdrowy Gosciu @ Revert "arm: lib: Fix makefile bug"
-68db913 # 2016-07-07 # Zdrowy Gosciu @ Revert "arm: msm: improve memory access performance for 8974"
-f22a8e3 # 2016-07-07 # Zdrowy Gosciu @ arm: configs: d802: IntelliMinMax as default CPU governor
-5aee561 # 2016-07-07 # Cody Ferber @ clock: Fix uninitialized div_s64 for GCC 4.9
-259bc07 # 2016-07-07 # Nikola Majkić @ selinux: Fix sel_write_enforce broken return value
-36a5a3d # 2016-07-07 # Shawn Lin @ gpu: ion: fix corruption of ion_import_dma_buf
-02b8645 # 2016-07-07 # Mike Snitzer @ block: fix alignment_offset math that assumes io_min is a power-of-2
-d3d9af6 # 2016-07-07 # Matias Bjørling @ block: remove WQ_POWER_EFFICIENT from kblockd
-09dc544 # 2016-07-07 # Mark Brown @ ASoC: jack: Use power efficient workqueue
-edd2604 # 2016-07-07 # Mark Brown @ ASoC: pcm: Use the power efficient workqueue for delayed  powerdown
-daef71f # 2016-07-07 # Mark Brown @ regulator: core: Use the power efficient workqueue for  delayed powerdown
-222647a # 2016-07-07 # Viresh Kumar @ block: queue work on power efficient wq
-29adadb # 2016-07-07 # Viresh Kumar @ PHYLIB: queue work on system_power_efficient_wq
-a5153f0 # 2016-07-07 # Viresh Kumar @ workqueue: Add system wide power_efficient workqueues
-350b457 # 2016-07-07 # Viresh Kumar @ workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues
-c7df5ef # 2016-07-07 # Zdrowy Gosciu @ Revert "Revert "msm: use of swp{b} is deprecated for ARMv6+""
-aa3f9a5 # 2016-07-07 # Zdrowy Gosciu @ Revert "msm_rq_stats: Add get_rq_info"
-9eca6d8 # 2016-07-07 # Zdrowy Gosciu @ hotplug: bricked: Remove CPU Boost + tweak
-79f345a # 2016-07-07 # Dennis Rassmann @ arm: Introduce Bricked HotPlug
-62fb945 # 2016-07-07 # Loller79 @ cpufreq: Remove LOW_BATT_LIMIT
-4c9c3ef # 2016-07-07 # Loller79 @ lib: GLIBC version of string and memcopy libs
-26658d0 # 2016-07-06 # Loller79 @ devfreq: Tweak Adreno idler
-e1dc2e3 # 2016-07-06 # Zdrowy Gosciu @ arm: configs: d802: Remove useless DEBUGs
-999c2e0 # 2016-07-06 # Zdrowy Gosciu @ Version HM 10.5
-cd75b30 # 2016-07-06 # Zdrowy Gosciu @ arm: configs: d802: Remove useless error handlers
-c207ba2 # 2016-07-06 # Zdrowy Gosciu @ Revert "msm: use of swp{b} is deprecated for ARMv6+"
-ed5e0b2 # 2016-07-06 # Zdrowy Gosciu @ cpufreq: IntelliMM: Fix build
-890bebb # 2016-07-06 # faux123 @ cpufreq: Introduce IntelliMinMax
-ba263b9 # 2016-07-06 # Hong-Mei Li @ arm: msm: improve memory access performance for 8974
-662dfe0 # 2016-07-06 # Hong-Mei Li @ arm: lib: Fix makefile bug
-5b12460 # 2016-07-06 # Hong-Mei Li @ msm: memutils: memcpy, memmove optimization
-979808a # 2016-07-06 # Jason Hrycay @ msm: memutils: memcpy, memmove, copy_page optimization
-84dfde2 # 2016-07-06 # Zdrowy Gosciu @ msm: Remove MEMUTILS
-b5eeed6 # 2016-07-06 # Krishna Chaitanya Parimi @ msm: mdss: cancel AD calc work and destroy workqueue at power off
-17de5a3 # 2016-07-06 # Krishna Chaitanya Parimi @ msm: mdss: do not assign ad_calc_bl if AD offsets are absent
-9ca8104 # 2016-07-06 # Zdrowy Gosciu @ arm: configs: d802: ROW as default I/O scheduler
-3213174 # 2016-07-06 # Zdrowy Gosciu @ mm: Revert readahead to 128 kB
-4e8b56b # 2016-07-06 # Park Ju Hyung @ Revert "mm: vmscan: If kswapd has been running too long, allow it to sleep"
-7dc3e9c # 2016-07-06 # Janson Kang @ Revert "mm: slub: Default slub_max_order to 0"
-d273e77 # 2016-07-06 # Elektroschmock @ cpufreq: interactive: Replace strict_strtoul with kstrtoul
-fd0d761 # 2016-07-06 # Andrew Bresticker @ CHROMIUM: cpufreq: interactive: free above_hispeed_delay on exit
-adafc3a # 2016-07-06 # Janson Kang @ cpufreq: interactive: set io_is_busy to 1
-ce82ae1 # 2016-07-06 # Janson Kang @ Revert "cpufreq: Initial CPU utilization should be 0"
-660b1eb # 2016-07-06 # Theodore Ts'o @ ext4: optimize test_root()
-6d7e81a # 2016-07-06 # Thomas Gleixner @ futex: Always cleanup owner tid in unlock_pi
-08257d1 # 2016-07-06 # Thomas Gleixner @ futex: Validate atomic acquisition in futex_lock_pi_atomic()
-d3857fc # 2016-07-06 # Thomas Gleixner @ futex: Make lookup_pi_state more robust
-02e3329 # 2016-07-06 # Jeevan Shriram @ msm: mdss: Align the shared memory length to PAGE_SIZE
-866e50b # 2016-07-06 # Andrew Hunter @ jiffies: Fix timeval conversion to jiffies
-ad8d80a # 2016-07-06 # Wen Congyang @ memory hotplug: reset pgdat->kswapd to NULL if creating kernel thread fails
-6b93ef0 # 2016-07-06 # Hugh Dickins @ memcg: further prevent OOM with too many dirty pages
-f0480ad # 2016-07-06 # Michal Hocko @ memcg: prevent OOM with too many dirty pages
-7dbee4e # 2016-07-06 # Jiang Liu @ memory hotplug: fix invalid memory access caused by stale kswapd pointer
-9fb19c0fa # 2016-07-06 # olokos @ mm: consider all swapped back pages in used-once logic
-75e8ee2 # 2016-07-05 # Paul Reioux @ android: binder: use GPF_HIGHUSER flag since binder is designed for userspace
-b0fd3cb # 2016-07-05 # olokos @ tick: don't update idle time if cpu offline
-c846bc3 # 2016-07-05 # olokos @ msm: camera_v2: Create jpeg debugfs
-a8f8248 # 2016-07-05 # olokos @ block: row-iosched idling triggered by readahead pages
-a1a50f4 # 2016-07-05 # Deepak Verma @ msm: vidc: Initialize kernel space stack variables
-7ace337 # 2016-07-05 # Srivatsa S. Bhat @ CPU hotplug, writeback: Don't call writeback_set_ratelimit() too often during hotplug
-11321d3 # 2016-07-05 # Francisco Franco @ writeback: increase bdi_min_ratio to 5 in light of the latest writeback commit.
-6f9afe2 # 2016-07-05 # Namjae Jeon @ writeback: fix writeback cache thrashing
-78ff08b # 2016-07-05 # Mel Gorman @ mm: vmscan: If kswapd has been running too long, allow it to sleep
-7626d12 # 2016-07-05 # Joonsoo Kim @ mm, vmalloc: remove useless variable in vmap_block
-cf3c688 # 2016-07-05 # Joonsoo Kim @ mm, vmalloc: use well-defined find_last_bit() func
-f772fe0 # 2016-07-05 # Fengguang Wu @ readahead: make context readahead more conservative
-3ed139d # 2016-07-05 # Junxiao Bi @ writeback: fix race that cause writeback hung
-c71db4b # 2016-07-05 # Johannes Weiner @ mm/page-writeback.c: fix dirty_balance_reserve subtraction from dirtyable memory
-d5b1c15 # 2016-07-05 # Ming Lei @ block/partitions: optimize memory allocation in check_partition()
-f39f71b # 2016-07-05 # Zdrowy Gosciu @ Version HM 10.2
-06070eb # 2016-07-05 # Zdrowy Gosciu @ logger: Fix build (logcat size redefine)
-23e3bad # 2016-07-05 # Zdrowy Gosciu @ cpufreq: ondemand: Remove useless should_io_be_busy()
-4cddaf2 # 2016-07-05 # Zdrowy Gosciu @ logger: Replace power suspend with state notifier driver
-f51b8f7 # 2016-07-05 # Jerry Stralko @ staging: android: logger: fixed checkpatch.pl warnings.
-d47f7ac # 2016-07-05 # Seunghun Lee @ staging: android: fix a possible memory leak
-e4c82a2 # 2016-07-05 # Karlis Ogsts @ staging: android: logger: Correct write offset reset on error
-1969b53 # 2016-07-05 # Luca Clementi @ Staging: Android: logger: module_exit implementation
-80c5977 # 2016-07-05 # Charndeep Grewal @ staging: android: logger: enforce GID and CAP check on log flush
-d449656 # 2016-07-05 # Tim Bird @ staging: android: logger: Fix some sparse and whitespace issues
-4d52c6c # 2016-07-05 # Cruz Julian Bishop @ staging: android: logger: Finish documentation of two structs
-1abc415 # 2016-07-05 # Sachin Kamat @ staging: Android: Fix some checkpatch warnings
-26155a8 # 2016-07-05 # Tim Bird @ staging: android: logger: Allocate logs dynamically at boot (v3)
-ce7ca19 # 2016-07-05 # Pranav Vashi @ staging: logger: Allow to completely disable
-c9815e0 # 2016-07-05 # Pranav Vashi @ staging: android: logger: Improve logging
-46338e7 # 2016-07-05 # Bhargav Upperla @ drivers/staging: Configurable android log buffer sizes
-1cb6608 # 2016-07-05 # Pranav Vashi @ staging: Allow logcat termination on suspend
-6275123 # 2016-07-05 # Zdrowy Gosciu @ Revert "gpu: Revert last kgsl commits"
-6a8d7a9 # 2016-07-05 # Zdrowy Gosciu @ Revert "arm: Revert last crypto/cpu/dts patches"
-0be6ae2 # 2016-07-05 # Zdrowy Gosciu @ Revert "Revert "arm/dts: msm8974: Schedule mmcqd on idle CPU""
-9237a15 # 2016-07-05 # Zdrowy Gosciu @ Revert "Revert "mmc: add support for scheduling mmcqd on idle CPU""
-bd125a9 # 2016-07-05 # Zdrowy Gosciu @ Revert "Revert "PM / Wakeup: Use rcu callbacks for better performance""
-216b3af # 2016-07-05 # Zdrowy Gosciu @ Revert "devfreq: Don't run Adreno idler at startup"
-32fd021 # 2016-07-05 # Zdrowy Gosciu @ cpufreq: Rebase ondemand governor
+220520e # 2016-07-13 # Zdrowy Gosciu @ Version HM 11.0
+1efff93 # 2016-07-13 # Zdrowy Gosciu @ Revert "Revert "arm: msm: improve memory access performance for 8974""
+b35629a # 2016-07-13 # Zdrowy Gosciu @ Revert "Revert "arm: lib: Fix makefile bug""
+92f9620 # 2016-07-13 # Zdrowy Gosciu @ Revert "Revert "msm: memutils: memcpy, memmove optimization""
+2bafa7d # 2016-07-13 # Zdrowy Gosciu @ Revert "Revert "msm: memutils: memcpy, memmove, copy_page optimization""
+61b9634 # 2016-07-13 # Zdrowy Gosciu @ Revert "workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues"
+38b07af # 2016-07-13 # Zdrowy Gosciu @ Revert "workqueue: Add system wide power_efficient workqueues"
+9463363 # 2016-07-13 # Zdrowy Gosciu @ Revert "PHYLIB: queue work on system_power_efficient_wq"
+5d3cc07 # 2016-07-13 # Zdrowy Gosciu @ Revert "block: queue work on power efficient wq"
+d3a7994 # 2016-07-13 # Zdrowy Gosciu @ Revert "regulator: core: Use the power efficient workqueue for"
+167e6ad # 2016-07-13 # Zdrowy Gosciu @ Revert "ASoC: pcm: Use the power efficient workqueue for delayed"
+eb5988b # 2016-07-13 # Zdrowy Gosciu @ Revert "ASoC: jack: Use power efficient workqueue"
+13993b7 # 2016-07-13 # Zdrowy Gosciu @ Revert "block: remove WQ_POWER_EFFICIENT from kblockd"
+8df0650 # 2016-07-13 # Arve Hjønnevåg @ epoll: Add a flag, EPOLLWAKEUP, to prevent suspend while epoll events are ready
+f283763 # 2016-07-13 # Florian Westphal @ netfilter: x_tables: make sure e->next_offset covers remaining blob size
+bc4d29a # 2016-07-12 # Zdrowy Gosciu @ Version HM 10.999
+142ddaf # 2016-07-12 # Pat Erley @ arm: configs: g2: Disable CONFIG_PFT as it is unsupported
+90ad66a # 2016-07-10 # Zdrowy Gosciu @ Version HM 10.9
+7908932 # 2016-07-10 # Fred Oh @ avtimer: validate input parameter before using it
+97217a5 # 2016-07-10 # Dorimanx @ SPS: allow modem driver to sleep when no data traffic.
+39221ce # 2016-07-10 # myfluxi @ msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag
+18f177e # 2016-07-10 # Yan He @ msm: sps: check the pending descriptor
+e8a77ae # 2016-07-10 # Yan He @ msm: sps: add the support to disable a pipe
+57750fc # 2016-07-10 # Niranjan Pendharkar @ msm: sps: add the callback for BAM-level polling
+2fad4f4 # 2016-07-10 # Jiangli Yuan @ sps: Always clear pipe irq status before enabling sps irq.
+b0bed94 # 2016-07-10 # Jiangli Yuan @ sps: make sure pipe active mask match with pipe list status
+39287d2 # 2016-07-10 # Jiangli Yuan @ sps: add lock protection for pipe list
+207f9c5 # 2016-07-10 # Yan He @ msm: sps: avoid writing to MSB registers with zero value
+34b996f # 2016-07-10 # Dipen Parmar @ msm: sps: add support for register mapping
+23dea5d # 2016-07-10 # Dipen Parmar @ msm: sps: enable 4K resource group support for SPS
+ec9c111 # 2016-07-10 # Yan He @ msm: sps: extend sps macros for 64-bit
+38e4e67 # 2016-07-10 # Rama Krishna Phani A @ msm: sps: Handle low memory condition in SPS driver
+180bfa9 # 2016-07-10 # Azhar Shaikh @ msm: bam: Use memset_io instead of memset
+22f76f8 # 2016-07-10 # Yan He @ msm: sps: add handling of late EOT
+d1e4893 # 2016-07-10 # Yan He @ msm: sps: add handling of late EOT.
+b29ef02 # 2016-07-10 # Yan He @ msm: sps: check new pending IRQs before exit IRQ handler
+6ea5ee7 # 2016-07-10 # Yan He @ msm: sps: add the option to distinguish BAM types
+3dffa61 # 2016-07-10 # Yan He @ msm: sps: change the default device configuration
+8e8c302 # 2016-07-10 # Yan He @ msm: sps: check the BAM clock status before access a BAM
+7291cc9 # 2016-07-10 # Yan He @ msm: sps: add the support to reset a pipe
+cb008c8 # 2016-07-10 # Yan He @ msm: sps: add the support to halt a pipe
+9f7b4c2 # 2016-07-10 # Yan He @ msm: sps: avoid accessing resources released by pipe disconnect
+1731358 # 2016-07-10 # Dipen Parmar @ msm: sps: Add 64-bit support for sps
+1994c99 # 2016-07-10 # Yan He @ msm: sps: correct a bug in descriptor number calculation
+9b73292 # 2016-07-10 # Yan He @ msm: sps: update the checking of free slots
+ef6a61f # 2016-07-10 # Zdrowy Gosciu @ Revert "msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag"
 
-* Project packages/apps/AudioFX/
-af5d8a7 # 2016-07-04 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/Bluetooth/
-15d0aa4 # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-80bd5e6 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
+* Project packages/apps/CMFileManager/
+fc89b23 # 2016-07-11 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/CellBroadcastReceiver/
-f1688cc # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
-b76e794 # 2016-07-06 # pinky@build01 @ Automatic translation import
-7eade94 # 2016-07-06 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
-c013f43 # 2016-07-04 # blinky@build01 @ Automatic translation import
-561a5be # 2016-07-04 # Abhisek Devkota @ Cleanup for translations
+6f54e73 # 2016-07-12 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
+ce041cf # 2016-07-11 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/Contacts/
-a586a52 # 2016-07-07 # Erica Chang @ Contacts metrics: corrected process interval
-1bf2f74 # 2016-07-04 # blinky@build01 @ Automatic translation import
+6aebf68 # 2016-07-12 # Stephen Bird @ [2/4] Add cancel callback for BlockContactDialog
+
+* Project packages/apps/ContactsCommon/
+b9ecf21 # 2016-07-12 # Stephen Bird @ [1/4] Add cancel callback for BlockContactDialog
 
 * Project packages/apps/Dialer/
-bf804c8 # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-dfa4d5f # 2016-07-06 # pinky@build01 @ Automatic translation import
-e685e6a # 2016-07-06 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-9a01de3 # 2016-07-05 # Stephen Bird @ Set content intent to final button intent
-f1946eb # 2016-07-04 # blinky@build01 @ Automatic translation import
+549fb46 # 2016-07-13 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+442722e # 2016-07-12 # Stephen Bird @ [3/4] Add cancel callback for BlockContactDialog
+bf248fe # 2016-07-12 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+c24b68c # 2016-07-11 # Raj Yengisetty @ Bump version code and name
+19afeb9 # 2016-07-11 # Tom Marshall @ Dialer: Add option to open dialpad at start
+9a5d69a # 2016-07-11 # Stephen Bird @ Remove hard dependency on proprietary smartsearch lib
 
 * Project packages/apps/Gello/
-13cad17 # 2016-07-04 # blinky@build01 @ Automatic translation import
+36aff52 # 2016-07-11 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/InCallUI/
-4f32a57 # 2016-07-06 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-7cb3472 # 2016-07-04 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/Messaging/
-e45eb2f # 2016-07-07 # tnmy-cyngn @ Messaging app crashes after a few MMS
-cbb0458 # 2016-07-04 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/Nfc/
-f7ea48e # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
-
-* Project packages/apps/Profiles/
-5972fba # 2016-07-06 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Screencast/
-95cdd6a # 2016-07-06 # pinky@build01 @ Automatic translation import
+5548337 # 2016-07-13 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+5d62f58 # 2016-07-12 # Stephen Bird @ [4/4] Add cancel callback for BlockContactDialogCallbacks
+8e57153 # 2016-07-12 # Trevor Halvorson @ Don't search LookupProvider for emergency calls
 
 * Project packages/apps/Settings/
-90b2b41 # 2016-07-08 # Janson Kang @ Build V9.8 - Android 6.0.1_r52
-58b5eaa # 2016-07-08 # Dave Kover @ Break out Bluetooth device icon from dashboard reference.
-e9fb1c1 # 2016-07-08 # Altaf-Mahdi @ InstalledAppDetails: fix refreshing storage summary after force stop
-d36c99e # 2016-07-08 # pinky@build01 @ Automatic translation import
-ebebad7 # 2016-07-06 # Scott Mertz @ Prevent orientation changes from destroying/recreating security settings
-13c620f # 2016-07-06 # Luca Stefani @ Settings: Disable sim switch if subscription isn't valid
-fe8d49d # 2016-07-06 # LuK1337 @ Settings: Don't set the icon for sim activation / deactivation dialog
-49d0d4e # 2016-07-06 # blinky@build01 @ Automatic translation import
+3d71fa6 # 2016-07-13 # Janson Kang @ Build V9.9
+9f0fe8f # 2016-07-13 # Janson Kang @ Settings: Disable smart cover wake by default
+29e612e # 2016-07-13 # LorDClockaN @ Settings: Clock color master switch (2/2)
+8e43b7c # 2016-07-13 # Keith Mok @ Settings: Always set ramp-up time value during bindView
+b31c991 # 2016-07-12 # clyde@build01 @ Automatic translation import
+04932ad # 2016-07-11 # Zhao Wei Liew @ Settings: Add adaptive display mode desc. strings
+
+* Project packages/apps/SetupWizard/
+054f4c3 # 2016-07-12 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
+07c44c4 # 2016-07-11 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/Snap/
-4775de4 # 2016-07-09 # Zdrowy Gosciu @ Snap: Restart preview for back camera onPictureTaken
-5f8b54f # 2016-07-07 # pinky@build01 @ Automatic translation import
-7c87393 # 2016-07-07 # blinky@build01 @ Automatic translation import
-0078f77 # 2016-07-07 # inky@build01 @ Automatic translation import
-3d90dba # 2016-07-07 # inky@build01 @ Automatic translation import
-93e9f6d # 2016-07-07 # inky@build01 @ Automatic translation import
-5ce4909 # 2016-07-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'sultanxda/cm-13.0-sultan' into mm-sultanxda
+5b3c9fd # 2016-07-13 # Zdrowy Gosciu @ Revert "Snap: Restart preview for back camera onPictureTaken"
+a477327 # 2016-07-13 # Zhao Wei Liew @ Snap: Tighten openLegacy() try-catch block
+c9ef3dd # 2016-07-12 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/SoundRecorder/
-77399f4 # 2016-07-07 # Keith Mok @ SoundRecorder: onConfigurationChanged dismiss popupmenu
-d0c02a3 # 2016-07-07 # Keith Mok @ Revert "SoundRecorder: onConfigurationChanged dismiss popupmenu"
-a955d4c # 2016-07-06 # pinky@build01 @ Automatic translation import
-c8d0800 # 2016-07-04 # blinky@build01 @ Automatic translation import
+f780c6f # 2016-07-11 # clyde@build01 @ Automatic translation import
+
+* Project packages/apps/ThemeChooser/
+ea7e6b9 # 2016-07-11 # clyde@build01 @ Automatic translation import
+
+* Project packages/apps/TvSettings/
+375e251 # 2016-07-11 # clyde@build01 @ Automatic translation import
+
+* Project packages/services/Telecomm/
+335ebc1 # 2016-07-12 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telecomm into cm-13.0
+8624016 # 2016-07-11 # clyde@build01 @ Automatic translation import
 
 * Project packages/services/Telephony/
-35c2648 # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-9ceb4c8 # 2016-07-06 # pinky@build01 @ Automatic translation import
-b00ff9b # 2016-07-06 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-f72be63 # 2016-07-05 # blinky@build01 @ Automatic translation import
-763edfb # 2016-07-05 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-c64967f # 2016-07-05 # Adnan Begovic @ Telephony: Handle PIN locked sim slot swapping between boots.
-8b225b2 # 2016-07-04 # Abhisek Devkota @ Cleanup for translations
-
-* Project system/bt/
-ca3320c # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_bt into cm-13.0
-f1eada5 # 2016-07-07 # Jessica Wagantall @ Fix call to enable(bool) which changed as part of 049eae4ff84fbbdbc4b0068cb2a217f9f0460bf4
-8c6a7c5 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
+79547c0 # 2016-07-12 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
+3700f9b # 2016-07-11 # clyde@build01 @ Automatic translation import
 
 * Project system/core/
-314c0c2 # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
-2de1acf # 2016-07-08 # William Roberts @ fs_mgr: pass sehandle to ext4 format routine
-5d90c85 # 2016-07-06 # Tom Marshall @ healthd: Write to blink file to fix LED
+330b9a8 # 2016-07-11 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
+5b537bb # 2016-07-10 # Ruchi Kandoi @ healthd: Check if battery device exists instead of charger drivers before setting fake properties.
 
 * Project system/extras/
-5c269b8 # 2016-07-04 # Ricardo Cerqueira @ verity: Let the tools ask for a password if needed
-
-* Project vendor/cm/
-7ce3a3c # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-f1c5ab8 # 2016-07-07 # Abhisek Devkota @ Adapt to 6.0.1_r52 backup whitelist
-2d2eb9a # 2016-07-07 # Michael Bestas @ init: Add VibratorHW sysfs permissions
-9b3cd85 # 2016-07-06 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-a04941c # 2016-07-05 # Joey Rizzoli @ cm: overlay: enable otg notification
-
-* Project vendor/cmsdk/
-f6e5d87 # 2016-07-08 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-1a2589b # 2016-07-06 # pinky@build01 @ Automatic translation import
+cae0f79 # 2016-07-11 # Ricardo Cerqueira @ verity: Split the signer arguments correctly

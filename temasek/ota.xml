@@ -31,6 +31,10 @@
                 id="font"
                 title="Custom ROM font"
                 description="Flash Choco cooky">https://www.androidfilehost.com/?fid=24591000424944988</FontUrl>
+            <ThemeUrl
+                id="theme"
+                title="Dark CM Theme"
+                description="Install Deep Darkness">https://play.google.com/store/apps/details?id=com.blissroms.moelle.ddoverhauled</ThemeUrl>
             <DonateUrl
                 id="donate"
                 title="PayPal"

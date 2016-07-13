@@ -6,7 +6,11 @@ CHANGES AFTER 2016-07-07 @ 20:46:16 (1467924376)
            |_____|___  |______|______|
                  |_____|              
 
+* Project /
+0000000 # 2016-07-13 # Zdrowy Gosciu @ hardware: Switch to SultanXDA CAF HALs
+
 * Project OTA/
+ba22074 # 2016-07-13 # Zdrowy Gosciu @ OTA: Emotion-d802-MM.r12.Unofficial-20160712-235827
 d457b97 # 2016-07-10 # Zdrowy Gosciu @ OTA: Kernel HM 10.9 for CM based ROMs
 a2c81b5 # 2016-07-10 # Zdrowy Gosciu @ OTA: cm-13.0-20160710-013347-UNOFFICIAL-temasek-d802-V9.8
 67bc633 # 2016-07-09 # Zdrowy Gosciu @ OTA: cm-13.0-20160709-160419-UNOFFICIAL-temasek-d802-V9.8
@@ -17,22 +21,22 @@ a2c81b5 # 2016-07-10 # Zdrowy Gosciu @ OTA: cm-13.0-20160710-013347-UNOFFICIAL-t
 16430f3 # 2016-07-11 # Park Ju Hyung @ art: force optimizing compiler and optimize everything
 
 * Project build/
+df3ffd1 # 2016-07-13 # Zdrowy Gosciu @ core: Use QCOM CAF HALs
 f6c46b0 # 2016-07-11 # Pafcholini @ MOB30R
 
 * Project dalvik/
 c27cc46 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
 
 * Project device/lge/d802/
+c1cfe81 # 2016-07-12 # Zdrowy Gosciu @ Revert "d802: Emotion ROM: Disable block based build"
 a24a33b # 2016-07-08 # Zdrowy Gosciu @ d802: Emotion ROM: Disable block based build
 
 * Project device/lge/g2-common/
+0a39d06 # 2016-07-13 # Zdrowy Gosciu @ g2-common: Build liboverlay
+ba3e703 # 2016-07-13 # Zdrowy Gosciu @ g2-common: Rebase for SultanXDA CAF HALs
+507a050 # 2016-07-13 # Sultanxda @ g2-common: Don't force 3 framebuffers
 55ea1d1 # 2016-07-10 # Zdrowy Gosciu @ g2-common: Disable radio scanning timeout
 e7a1f9b # 2016-07-08 # Zdrowy Gosciu @ g2-common: init: power: Correct interactive setup
-
-* Project device/qcom/common/
-b80081c # 2016-07-11 # Michael Bestas @ Remove libinit_msm
-fdca960 # 2016-07-09 # Zhao Wei Liew @ power: Don't send obsolete DISPLAY_OFF opcode
-97f2320 # 2016-07-09 # Zhao Wei Liew @ power: Use ARRAY_SIZE macro where possible
 
 * Project external/boringssl/
 9eeaa8c # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
@@ -75,12 +79,6 @@ e61dfdc # 2016-07-07 # Michael Bestas @ cmhw: Add VibratorHW implementation
 
 * Project hardware/libhardware/
 65ea8ef # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
-
-* Project hardware/qcom/audio-caf/msm8974/
-8c1ea0f # 2016-07-07 # Andy Hung @ DO NOT MERGE Fix AudioEffect reply overflow
-
-* Project hardware/qcom/audio/default/
-c6f3e59 # 2016-07-07 # Jessica Wagantall @ Merge remote-tracking branch 'remotes/android-6.0.1_r52' into HEAD
 
 * Project kernel/lge/msm8974/
 bc4d29a # 2016-07-12 # Zdrowy Gosciu @ Version HM 10.999
@@ -137,9 +135,14 @@ fc89b23 # 2016-07-11 # clyde@build01 @ Automatic translation import
 ce041cf # 2016-07-11 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/Contacts/
+6aebf68 # 2016-07-12 # Stephen Bird @ [2/4] Add cancel callback for BlockContactDialog
 a586a52 # 2016-07-07 # Erica Chang @ Contacts metrics: corrected process interval
 
+* Project packages/apps/ContactsCommon/
+b9ecf21 # 2016-07-12 # Stephen Bird @ [1/4] Add cancel callback for BlockContactDialog
+
 * Project packages/apps/Dialer/
+442722e # 2016-07-12 # Stephen Bird @ [3/4] Add cancel callback for BlockContactDialog
 c24b68c # 2016-07-11 # Raj Yengisetty @ Bump version code and name
 19afeb9 # 2016-07-11 # Tom Marshall @ Dialer: Add option to open dialpad at start
 9a5d69a # 2016-07-11 # Stephen Bird @ Remove hard dependency on proprietary smartsearch lib

@@ -2,11 +2,11 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>Emotion-d802-MM.r12.Unofficial-20160712-235827.zip</Filename>
+            <Filename>Emotion-d802-MM.r12.Unofficial-20160713-125846.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download Emotion ROM">https://www.androidfilehost.com/?fid=24591000424946662</RomUrl>
+                description="Download Emotion ROM">https://www.androidfilehost.com/?fid=24591000424946821</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="ROM changelog"

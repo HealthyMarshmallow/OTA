@@ -7,6 +7,10 @@ CHANGES AFTER 2016-07-03 @ 07:01:10 (1467529270)
                  |_____|              
 
 * Project device/lge/g2-common/
+a0695ae # 2016-07-14 # Zdrowy Gosciu @ g2-common: init: power: Reconfigure interactive setup
+abe448e # 2016-07-14 # Zdrowy Gosciu @ g2-common: Rebase power init script
+5644b37 # 2016-07-13 # Zdrowy Gosciu @ g2-common: Use default ROW readahead
+b5e7864 # 2016-07-13 # Zdrowy Gosciu @ g2-common: Change CPU GOV to ondemand + increase ROW to 256 kB
 e7a1f9b # 2016-07-08 # Zdrowy Gosciu @ g2-common: init: power: Correct interactive setup
 5a41242 # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Don't start Adreno idler by default
 ce0e79e # 2016-07-07 # Zdrowy Gosciu @ g2-common: init: power: Revert to interactive CPU governor
@@ -22,6 +26,44 @@ a81c591 # 2016-07-05 # Zdrowy Gosciu @ g2-common: init: power: Don't online all 
 70dff73 # 2016-07-03 # Zdrowy Gosciu @ g2-common: init: power: FIOPS as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+89b0a5f # 2016-07-14 # Zdrowy Gosciu @ Version HM 11.1
+afc6a5e # 2016-07-14 # Zdrowy Gosciu @ defconfig: Use ondemand as boot CPU governor
+f610896 # 2016-07-14 # Zdrowy Gosciu @ cpuquiet: Fix build warning
+ff6485e # 2016-07-14 # Zdrowy Gosciu @ trace: Fix compilation
+48f1380 # 2016-07-14 # Sultanxda @ msm: Fix compile errors
+2cfe96a # 2016-07-14 # Sultanxda @ defconfig: Enable support for various filesystems
+861b27b # 2016-07-14 # Suresh Jayaraman @ cifs: fix parsing of password mount option
+47cd63d # 2016-07-14 # Devin Kim @ mmc: workaround for read ahead issue
+02e4723 # 2016-07-14 # Asutosh Das @ mmc: block: fix race in deferred resume
+ccad13c # 2016-07-14 # Adrian Salido-Moreno @ msm: mdss: free ion memory after panel is blanked
+f28c206 # 2016-07-14 # 777jon @ cpufreq: Add lionheart CPU governor
+c38b3fa # 2016-07-14 # Raleigh Matlock @ cpufreq: Add the pegasusq CPU governor
+9800684 # 2016-07-14 # Zdrowy Gosciu @ defconfig: Noop as default I/O scheduler
+c02de98 # 2016-07-14 # Raleigh Matlock @ mm: Increase readhead from 128 to 256
+ef0cdfa # 2016-07-14 # Paul Keith @ kernel: Set multi-core power saving mode to 2
+c1515c1 # 2016-07-14 # desaishivam26 @ mm: lower swappiness
+3e10388 # 2016-07-14 # myfluxi @ block: deadline: Optimize for non-rotational
+a71847a # 2016-07-14 # faux123 @ block: deadline: tweak for better android performance
+2a20b99 # 2016-07-14 # Cristoforo Cataldo @ mm: Added filesystem dynamic read-ahead
+375599b # 2016-07-14 # Stratos Karafotis @ cpufreq: ondemand: Eliminate the dead band effect in low load
+95b6b57 # 2016-07-14 # Stratos Karafotis @ cpufreq: Introduce new relation for freq selection (CPUFREQ_RELATION_C)
+220520e # 2016-07-13 # Zdrowy Gosciu @ Version HM 11.0
+1efff93 # 2016-07-13 # Zdrowy Gosciu @ Revert "Revert "arm: msm: improve memory access performance for 8974""
+b35629a # 2016-07-13 # Zdrowy Gosciu @ Revert "Revert "arm: lib: Fix makefile bug""
+92f9620 # 2016-07-13 # Zdrowy Gosciu @ Revert "Revert "msm: memutils: memcpy, memmove optimization""
+2bafa7d # 2016-07-13 # Zdrowy Gosciu @ Revert "Revert "msm: memutils: memcpy, memmove, copy_page optimization""
+61b9634 # 2016-07-13 # Zdrowy Gosciu @ Revert "workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues"
+38b07af # 2016-07-13 # Zdrowy Gosciu @ Revert "workqueue: Add system wide power_efficient workqueues"
+9463363 # 2016-07-13 # Zdrowy Gosciu @ Revert "PHYLIB: queue work on system_power_efficient_wq"
+5d3cc07 # 2016-07-13 # Zdrowy Gosciu @ Revert "block: queue work on power efficient wq"
+d3a7994 # 2016-07-13 # Zdrowy Gosciu @ Revert "regulator: core: Use the power efficient workqueue for"
+167e6ad # 2016-07-13 # Zdrowy Gosciu @ Revert "ASoC: pcm: Use the power efficient workqueue for delayed"
+eb5988b # 2016-07-13 # Zdrowy Gosciu @ Revert "ASoC: jack: Use power efficient workqueue"
+13993b7 # 2016-07-13 # Zdrowy Gosciu @ Revert "block: remove WQ_POWER_EFFICIENT from kblockd"
+8df0650 # 2016-07-13 # Arve Hjønnevåg @ epoll: Add a flag, EPOLLWAKEUP, to prevent suspend while epoll events are ready
+f283763 # 2016-07-13 # Florian Westphal @ netfilter: x_tables: make sure e->next_offset covers remaining blob size
+bc4d29a # 2016-07-12 # Zdrowy Gosciu @ Version HM 10.999
+142ddaf # 2016-07-12 # Pat Erley @ arm: configs: g2: Disable CONFIG_PFT as it is unsupported
 90ad66a # 2016-07-10 # Zdrowy Gosciu @ Version HM 10.9
 7908932 # 2016-07-10 # Fred Oh @ avtimer: validate input parameter before using it
 97217a5 # 2016-07-10 # Dorimanx @ SPS: allow modem driver to sleep when no data traffic.

@@ -43,6 +43,10 @@
                 id="xda"
                 title="XDA"
                 description="Twitter">http://twitter.com/ZdrowyGosciu</XDAUrl>
+            <SourceCodeUrl
+                id="sourcecode"
+                title="Sources"
+                description="Bitbucket">https://bitbucket.org/ZdrowyGosciu</SourceCodeUrl>
         </d802>
     </Stable>
 </TurboOTA>

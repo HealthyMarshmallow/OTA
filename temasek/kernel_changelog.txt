@@ -16,6 +16,29 @@ a0695ae # 2016-07-14 # Zdrowy Gosciu @ g2-common: init: power: Reconfigure inter
 abe448e # 2016-07-14 # Zdrowy Gosciu @ g2-common: Rebase power init script
 
 * Project kernel/lge/msm8974/
+11f1e4b # 2016-07-17 # Zdrowy Gosciu @ Version 11.4
+a77218d # 2016-07-17 # Zdrowy Gosciu @ Revert "kernel: Set multi-core power saving mode to 2"
+7d61be1 # 2016-07-17 # Michael Bohan @ hrtimer: Prevent enqueue of hrtimer on dead CPU
+cd57693 # 2016-07-17 # Michael Bohan @ hrtimer: Consider preemption when migrating hrtimer cpu_bases
+d96dcbe # 2016-07-17 # Puneet Kumar @ CHROMIUM: mm: Fix calculation of dirtyable memory
+e8ac19f # 2016-07-17 # Zdrowy Gosciu @ Revert "mm/page-writeback.c: fix dirty_balance_reserve subtraction from dirtyable memory"
+87697f2 # 2016-07-17 # Ruchi Kandoi @ nf: IDLETIMER: Adds the uid field in the msg
+1a1a19d # 2016-07-17 # Zdrowy Gosciu @ Revert "ARM: dts: msm: update the DSI PHY lane configuration settings"
+e43e923 # 2016-07-17 # Zdrowy Gosciu @ Revert "PM: Fix a bug in dpm_suspend_late()"
+ed51bc0 # 2016-07-17 # Zdrowy Gosciu @ Revert "msm: mdss: Replace msleep() with usleep()"
+8f9390b # 2016-07-17 # Zdrowy Gosciu @ Revert "msm: mdss: Remove redundant clock operations"
+ebeaa9d # 2016-07-17 # Zdrowy Gosciu @ Revert "msm: mdss: Adjust fence timeouts"
+e13d738 # 2016-07-17 # Zdrowy Gosciu @ Revert "msm: camera: isp: protect driver from using invalid bufq"
+f8691ac # 2016-07-17 # Zdrowy Gosciu @ Revert "msm: kgsl: Fix the busy counter initialization sequence"
+f234454 # 2016-07-17 # Zdrowy Gosciu @ timeconst: Fix build (deprecated defined for array)
+b9587c5 # 2016-07-17 # Zdrowy Gosciu @ Revert "kernel: Replace timeconst.pl with a bc script"
+a2792b1 # 2016-07-17 # Zdrowy Gosciu @ Revert "arm: dts: msm: update SPM sequences for krait v2.x"
+8b02873 # 2016-07-16 # Zdrowy Gosciu @ Version HM 11.3
+d2281fd # 2016-07-16 # Zdrowy Gosciu @ Revert "epoll: Add a flag, EPOLLWAKEUP, to prevent suspend while epoll events are ready"
+0595b39 # 2016-07-16 # Zdrowy Gosciu @ Revert "mm: Added filesystem dynamic read-ahead"
+87e2147 # 2016-07-16 # Zdrowy Gosciu @ Revert "mm: lower swappiness"
+6494476 # 2016-07-16 # Zdrowy Gosciu @ Revert "mm: Further improve I/O"
+55d1506 # 2016-07-16 # Zdrowy Gosciu @ Revert "mm: Dynamic management of dirty page writebacks"
 7f79479 # 2016-07-15 # Zdrowy Gosciu @ Version HM 11.2
 6fd09ad # 2016-07-15 # Zdrowy Gosciu @ cpufreq: ondemand: Lower sampling down factor
 2ed5c5d # 2016-07-15 # Zdrowy Gosciu @ mm: Reset read ahead to stock value

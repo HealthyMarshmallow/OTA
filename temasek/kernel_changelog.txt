@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-07-13 @ 21:43:44 (1468446224)
+CHANGES AFTER 2016-07-20 @ 11:28:17 (1469014097)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,79 +6,81 @@ CHANGES AFTER 2016-07-13 @ 21:43:44 (1468446224)
            |_____|___  |______|______|
                  |_____|              
 
+* Project device/lge/d802/
+563729b # 2016-07-21 # Zdrowy Gosciu @ d802: Cut CM from kernel defconfig name
+
 * Project device/lge/g2-common/
-314c8b4 # 2016-07-15 # Zdrowy Gosciu @ g2-common: init: power: ROW as default ROM I/O scheduler
-fb07be2 # 2016-07-15 # Zdrowy Gosciu @ g2-common: init: power: Switch to kernel default CPU governor
-b815966 # 2016-07-15 # Zdrowy Gosciu @ g2-common: init: power: Colder thermal
-e5d9b77 # 2016-07-15 # Zdrowy Gosciu @ g2-common: init: power: Move read ahead setup to boot complete
-929d750 # 2016-07-15 # Zdrowy Gosciu @ g2-common: init: Set SIO as default I/O scheduler after boot
-a0695ae # 2016-07-14 # Zdrowy Gosciu @ g2-common: init: power: Reconfigure interactive setup
-abe448e # 2016-07-14 # Zdrowy Gosciu @ g2-common: Rebase power init script
+2451357 # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Setup ZEN 1 MB as default I/O scheduler
+01db9fc # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Don't setup I/O scheduler via sys.io.scheduler
+a7be72d # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Remove CPU Boost
+343f02f # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Rebase for G2 Power HAL
+c52a97c # 2016-07-21 # Zdrowy Gosciu @ Revert "Revert "g2: build kernel with gcc 4.9""
+1d7da48 # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Setup MSM HotPlug
+d1b32a1 # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Enable MSM Simple Thermal
+6109635 # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Sync interactive GOV setup with CAF
+4091796 # 2016-07-21 # Zdrowy Gosciu @ g2-common: Remove QCOM Thermal-Engine + MP-Decision
 
 * Project kernel/lge/msm8974/
-11f1e4b # 2016-07-17 # Zdrowy Gosciu @ Version 11.4
-a77218d # 2016-07-17 # Zdrowy Gosciu @ Revert "kernel: Set multi-core power saving mode to 2"
-7d61be1 # 2016-07-17 # Michael Bohan @ hrtimer: Prevent enqueue of hrtimer on dead CPU
-cd57693 # 2016-07-17 # Michael Bohan @ hrtimer: Consider preemption when migrating hrtimer cpu_bases
-d96dcbe # 2016-07-17 # Puneet Kumar @ CHROMIUM: mm: Fix calculation of dirtyable memory
-e8ac19f # 2016-07-17 # Zdrowy Gosciu @ Revert "mm/page-writeback.c: fix dirty_balance_reserve subtraction from dirtyable memory"
-87697f2 # 2016-07-17 # Ruchi Kandoi @ nf: IDLETIMER: Adds the uid field in the msg
-1a1a19d # 2016-07-17 # Zdrowy Gosciu @ Revert "ARM: dts: msm: update the DSI PHY lane configuration settings"
-e43e923 # 2016-07-17 # Zdrowy Gosciu @ Revert "PM: Fix a bug in dpm_suspend_late()"
-ed51bc0 # 2016-07-17 # Zdrowy Gosciu @ Revert "msm: mdss: Replace msleep() with usleep()"
-8f9390b # 2016-07-17 # Zdrowy Gosciu @ Revert "msm: mdss: Remove redundant clock operations"
-ebeaa9d # 2016-07-17 # Zdrowy Gosciu @ Revert "msm: mdss: Adjust fence timeouts"
-e13d738 # 2016-07-17 # Zdrowy Gosciu @ Revert "msm: camera: isp: protect driver from using invalid bufq"
-f8691ac # 2016-07-17 # Zdrowy Gosciu @ Revert "msm: kgsl: Fix the busy counter initialization sequence"
-f234454 # 2016-07-17 # Zdrowy Gosciu @ timeconst: Fix build (deprecated defined for array)
-b9587c5 # 2016-07-17 # Zdrowy Gosciu @ Revert "kernel: Replace timeconst.pl with a bc script"
-a2792b1 # 2016-07-17 # Zdrowy Gosciu @ Revert "arm: dts: msm: update SPM sequences for krait v2.x"
-8b02873 # 2016-07-16 # Zdrowy Gosciu @ Version HM 11.3
-d2281fd # 2016-07-16 # Zdrowy Gosciu @ Revert "epoll: Add a flag, EPOLLWAKEUP, to prevent suspend while epoll events are ready"
-0595b39 # 2016-07-16 # Zdrowy Gosciu @ Revert "mm: Added filesystem dynamic read-ahead"
-87e2147 # 2016-07-16 # Zdrowy Gosciu @ Revert "mm: lower swappiness"
-6494476 # 2016-07-16 # Zdrowy Gosciu @ Revert "mm: Further improve I/O"
-55d1506 # 2016-07-16 # Zdrowy Gosciu @ Revert "mm: Dynamic management of dirty page writebacks"
-7f79479 # 2016-07-15 # Zdrowy Gosciu @ Version HM 11.2
-6fd09ad # 2016-07-15 # Zdrowy Gosciu @ cpufreq: ondemand: Lower sampling down factor
-2ed5c5d # 2016-07-15 # Zdrowy Gosciu @ mm: Reset read ahead to stock value
-e5ca9a9 # 2016-07-15 # Zdrowy Gosciu @ sched: Fix compilation after ed7a0d5e34ae2051af0dee3c4f4ca9cc9939c250
-40c4a4b # 2016-07-15 # Zdrowy Gosciu @ mm: 1024 kB read ahead
-3392f3b # 2016-07-15 # Cristoforo Cataldo @ mm: Dynamic management of dirty page writebacks
-da43950 # 2016-07-15 # thicklizard @ timer: Optimize slack
-dbe3923 # 2016-07-15 # ProjectIce @ mm: Further improve I/O
-0f7e2fd # 2016-07-15 # UpInTheAir @ SELinux: Fix kernel BUG on empty security contexts. [Stephen Smalley]
-8a2b30d # 2016-07-15 # UpInTheAir @ SELinux: Reduce overhead of mls_level_isvalid() function call [Waiman Long]
-ef02f60 # 2016-07-15 # UpInTheAir @ sched: LOAD_FREQ (4*HZ+122) avoids loadavg Moire [halaszk]
-195ce97 # 2016-07-15 # Luis Cruz @ msm: bam_dmux: Use power efficient workqueues for delayed timeouts
-95dd13d # 2016-07-15 # JTrefzger @ net/neighbour: queue work on power efficient wq
-818e38e # 2016-07-15 # Matias Bjørling @ workqueue: block: remove WQ_POWER_EFFICIENT from kblockd
-67a4b1f # 2016-07-15 # UpInTheAir @ workqueue: fix permission for power_efficient [neobuddy89]
-5a4cbd6 # 2016-07-15 # HolyAngel @ power: Add power efficient workqueues
-ed7a0d5 # 2016-07-15 # GuneetAtwal @ arm: Blaze trace/sched tweaks
-3157363 # 2016-07-15 # Paul Walmsley @ sched: reinitialize rq->next_balance when a CPU is hot-added
-1e60319 # 2016-07-15 # Ilya Zykov @ tty: Correct tty buffer flush.
-a970b18 # 2016-07-15 # HolyAngel @ media-device: fix infoleak in ioctl media_enum_entities()
-5257305 # 2016-07-14 # ktoonsez @ fs: fix btrfs 32 bit compatibility
-824f2b9 # 2016-07-14 # Paul Keith @ sched: Slight tuning
-89b0a5f # 2016-07-14 # Zdrowy Gosciu @ Version HM 11.1
-afc6a5e # 2016-07-14 # Zdrowy Gosciu @ defconfig: Use ondemand as boot CPU governor
-f610896 # 2016-07-14 # Zdrowy Gosciu @ cpuquiet: Fix build warning
-ff6485e # 2016-07-14 # Zdrowy Gosciu @ trace: Fix compilation
-48f1380 # 2016-07-14 # Sultanxda @ msm: Fix compile errors
-2cfe96a # 2016-07-14 # Sultanxda @ defconfig: Enable support for various filesystems
-861b27b # 2016-07-14 # Suresh Jayaraman @ cifs: fix parsing of password mount option
-47cd63d # 2016-07-14 # Devin Kim @ mmc: workaround for read ahead issue
-02e4723 # 2016-07-14 # Asutosh Das @ mmc: block: fix race in deferred resume
-ccad13c # 2016-07-14 # Adrian Salido-Moreno @ msm: mdss: free ion memory after panel is blanked
-f28c206 # 2016-07-14 # 777jon @ cpufreq: Add lionheart CPU governor
-c38b3fa # 2016-07-14 # Raleigh Matlock @ cpufreq: Add the pegasusq CPU governor
-9800684 # 2016-07-14 # Zdrowy Gosciu @ defconfig: Noop as default I/O scheduler
-c02de98 # 2016-07-14 # Raleigh Matlock @ mm: Increase readhead from 128 to 256
-ef0cdfa # 2016-07-14 # Paul Keith @ kernel: Set multi-core power saving mode to 2
-c1515c1 # 2016-07-14 # desaishivam26 @ mm: lower swappiness
-3e10388 # 2016-07-14 # myfluxi @ block: deadline: Optimize for non-rotational
-a71847a # 2016-07-14 # faux123 @ block: deadline: tweak for better android performance
-2a20b99 # 2016-07-14 # Cristoforo Cataldo @ mm: Added filesystem dynamic read-ahead
-375599b # 2016-07-14 # Stratos Karafotis @ cpufreq: ondemand: Eliminate the dead band effect in low load
-95b6b57 # 2016-07-14 # Stratos Karafotis @ cpufreq: Introduce new relation for freq selection (CPUFREQ_RELATION_C)
+d0e0a9f # 2016-07-21 # Zdrowy Gosciu @ Version HM 21.5
+e67a69a # 2016-07-21 # Felipe Torres @ Revert "arm: configs: g2: Enable CFG80211_ALLOW_RECONNECT"
+5d62fa2 # 2016-07-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+7cb47d5 # 2016-07-21 # TripNRaVeR @ block: add tripndroid i/o scheduler
+17c9bf0 # 2016-07-21 # Aaron Carroll @ block: add vr i/o scheduler
+74515e5 # 2016-07-21 # Brandon Berhent @ block: add zen i/o scheduler
+32c8a78 # 2016-07-21 # Miguel Boton @ block: add sioplus i/o scheduler
+20530ca # 2016-07-21 # Miguel Boton @ block: add sio i/o scheduler
+0c294eb # 2016-07-21 # Shaohua Li @ block: add fiops i/o scheduler
+cdc65dc # 2016-07-21 # franciscofranco @ block: row: add magic values.
+5313ae9 # 2016-07-21 # Paul Keith @ block: cfq: fix slice Idle check
+ac475a4 # 2016-07-21 # Chet Kener @ block: cfq: set slice Idle default to 0
+27f1591 # 2016-07-21 # Jens Axboe @ block: cfq: default to IOPS mode on SSDs
+1b07b2b # 2016-07-21 # Paul Keith @ block: bfq: fix slice Idle check
+bc84923 # 2016-07-21 # Chet Kener @ block: bfq: set slice Idle default to 0
+7133776 # 2016-07-21 # Zhao Wei Liew @ block: bfq: default to IOPS mode on SSDs
+a530161 # 2016-07-21 # Alexander Clouter @ cpufreq: Introduce lionheart governor
+312e666 # 2016-07-21 # Alucard24 @ cpufreq: Introduce nightmare governor
+3827ca1 # 2016-07-21 # Sultanxda @ scsi: Remove scsi_wait_scan
+a80f41d # 2016-07-21 # Rashed Abdel-Tawab @ bcmdhd: Restore default wakelocks and timing
+89f4a53 # 2016-07-21 # Zdrowy Gosciu @ Version HM 21.0
+af7b964 # 2016-07-21 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
+61792e0 # 2016-07-21 # Zdrowy Gosciu @ Remove build.sh
+3719a39 # 2016-07-21 # Zdrowy Gosciu @ mmc: sdhci: Disable register dumps
+7f803da # 2016-07-21 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
+94d8489 # 2016-07-21 # Ard Biesheuvel @ ARM: move VFP init to an earlier boot stage
+8c2af44 # 2016-07-21 # Andrey Ryabinin @ ARM: 8051/1: put_user: fix possible data corruption in put_user
+678206d # 2016-07-21 # Mark Rutland @ ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex
+bc7db349 # 2016-07-21 # Nikola Majkić @ d802_defconfig: Disable ARM_UNWIND
+f75e634 # 2016-07-21 # Zdrowy Gosciu @ devfreq: Build Simple GPU
+0738518 # 2016-07-21 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
+51503f9 # 2016-07-21 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
+6207c23 # 2016-07-21 # franciscofranco @ tick: Don't update idle time if cpu offline
+b0801a9 # 2016-07-21 # franciscofranco @ fs: FSync On/Off
+009885d # 2016-07-21 # Zdrowy Gosciu @ arm: Fast Charge is for G2
+057737c # 2016-07-21 # Jeremy @ arm: Forced Fast Charge for LG G2 ported by PTMR3
+a1f2667 # 2016-07-21 # ejjohnson1999 @ cpufreq: Remove cpu-boost driver
+5f9c525 # 2016-07-21 # Dave Kessler @ Make sure we are using the correct calls for CONFIG_CC_STACKPROTECTOR
+1a98f01 # 2016-07-21 # Zdrowy Gosciu @ d802_defconfig: Set HZ to 250
+f47bb80 # 2016-07-21 # Paul Keith @ sched: Export arch power to sysfs
+60825cd # 2016-07-21 # ktoonsez @ sched: Make GENTLE_FAIR_SLEEPERS configurable thru sysfs
+e22a4be # 2016-07-21 # myfluxi @ block: deadline: Optimize for non-rotational
+43b3929 # 2016-07-21 # xiaobing tu @ deadline: Allow 0ms deadline latency, increase the read speed
+4b2e145 # 2016-07-21 # faux123 @ block: deadline: tweak for better android performance
+f62b7aa # 2016-07-21 # Pavel @ drivers: mmc: sysfs interface to enable / disable CRC
+54cc152 # 2016-07-21 # showp1984 @ bcmdhd: allow low-wifi-signals to be seen
+51994d8 # 2016-07-21 # Zdrowy Gosciu @ Revert "blu_plug: Dynamic hotplug driver for hammerhead"
+7eed97d # 2016-07-21 # Zdrowy Gosciu @ Kill logspam (SQUASHED)
+1873cac # 2016-07-21 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
+e94df22 # 2016-07-21 # Rashed Abdel-Tawab @ arm: configs: d802: Disable CONFIG_MSM_L2_ERP_PORT_PANIC
+66940f2 # 2016-07-21 # myfluxi @ msm: bam_dmux: Reduce debug logs to avoid watchdog bite
+3764a65 # 2016-07-21 # myfluxi @ PM / devfreq: Fix simple_ondemand crashing
+12a042c # 2016-07-21 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
+ed46180 # 2016-07-21 # ejjohnson1999 @ irq: Remove IRQ no longer affine to CPU logspam
+d49fff9 # 2016-07-21 # Zdrowy Gosciu @ Revert "wlan: Fix memory leak issue"
+a7f8d20 # 2016-07-21 # Zdrowy Gosciu @ arm: configs: d802: Enable XZ compression
+bf0c113 # 2016-07-21 # Steve Kondik @ msm_rmnet: Kill logspam
+0cb08b1 # 2016-07-21 # myfluxi @ arm: irq: Tone down kernel logging
+e1bf87a # 2016-07-21 # Zdrowy Gosciu @ d802_defconfig: Enable MSM Simple Thermal
+93641b5 # 2016-07-21 # Zdrowy Gosciu @ arm: configs: Clean up
+1b55593 # 2016-07-21 # Sultanxda @ ARM: dts: msm8974: Configure msm-thermal-simple device
+e00649a # 2016-07-21 # Francisco Franco @ mm: push readahead to 512kB.
+b541bd6 # 2016-07-21 # Ruchi Kandoi @ nf: IDLETIMER: Adds the uid field in the msg

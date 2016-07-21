@@ -7,11 +7,12 @@ CHANGES AFTER 2016-07-20 @ 11:28:17 (1469014097)
                  |_____|              
 
 * Project /
-0000000 # 2016-07-20 # Zdrowy Gosciu @ KERNEL REBASE !! Start from pure CM 13.0 sources
-0000000 # 2016-07-20 # Zdrowy Gosciu @ CPUInfo: Use Simple Thermal temperature zone
+0000000 # 2016-07-20 # Zdrowy Gosciu @ KERNEL REBASE !! Restart from pure CM 13.0 sources
+0000000 # 2016-07-20 # Zdrowy Gosciu @ CPUInfo: Use MSM Thermal Simple temperature zone
 0000000 # 2016-07-20 # Zdrowy Gosciu @ manifest: Switch from SultanXDA's to CM CAF HAL's
 
 * Project OTA/
+220637a # 2016-07-21 # Zdrowy Gosciu @ OTA: Prepare for new Temasek build + change Sources URL
 c04ca44 # 2016-07-20 # Zdrowy Gosciu @ OTA: cm-13.0-20160720-112025-UNOFFICIAL-temasek-d802-V10.1
 
 * Project cts/
@@ -27,6 +28,11 @@ a8520b5 # 2016-07-20 # Diogo Ferreira @ arm64: Dummy out the kernel output folde
 db4ba2d # 2016-07-20 # Zdrowy Gosciu @ d802: ZG'ify
 
 * Project device/lge/g2-common/
+4d89b3e # 2016-07-21 # Zdrowy Gosciu @ g2-common: releasetools: ZG at InstallBegin
+2451357 # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Setup ZEN 1 MB as default I/O scheduler
+f87760c # 2016-07-21 # Zdrowy Gosciu @ g2-common: releasetools: Powered by ZG
+6eba799 # 2016-07-21 # Zdrowy Gosciu @ g2-common: CM SDK: Increase proximityCheckTimeout
+01db9fc # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Don't setup I/O scheduler via sys.io.scheduler
 a7be72d # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Remove CPU Boost
 fd98137 # 2016-07-21 # Zdrowy Gosciu @ Revert "g2-common: Don't build using CLang"
 a5439ff # 2016-07-21 # Zdrowy Gosciu @ g2-common: Add missing persist.sys.ssr.enable_debug
@@ -54,17 +60,36 @@ d89d4b1 # 2016-07-21 # Sultanxda @ g2-common: Don't force 3 framebuffers
 bb0293f # 2016-07-20 # Steve Kondik @ cmhw: Add ColorBalance impl for the LiveDisplay native interface
 
 * Project kernel/lge/msm8974/
-05e7ca6 # 2016-07-21 # Zdrowy Gosciu @ Remove build.sh
-63d5bc7 # 2016-07-21 # Zdrowy Gosciu @ Version HM 20.5
-f477af9 # 2016-07-21 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
-fe4abe5 # 2016-07-21 # Zdrowy Gosciu @ devfreq: Build Simple GPU
-374bd96 # 2016-07-21 # Zdrowy Gosciu @ mmc: sdhci: Disable register dumps
-0fdb86a # 2016-07-21 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
-565462e # 2016-07-21 # Ard Biesheuvel @ ARM: move VFP init to an earlier boot stage
-b58fad9 # 2016-07-21 # Andrey Ryabinin @ ARM: 8051/1: put_user: fix possible data corruption in put_user
-e27558a # 2016-07-21 # Mark Rutland @ ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex
-359763f # 2016-07-21 # Nikola Majkić @ d802_defconfig: Disable ARM_UNWIND
-84a3b72 # 2016-07-21 # Zdrowy Gosciu @ Version 20.1
+d0e0a9f # 2016-07-21 # Zdrowy Gosciu @ Version HM 21.5
+e67a69a # 2016-07-21 # Felipe Torres @ Revert "arm: configs: g2: Enable CFG80211_ALLOW_RECONNECT"
+5d62fa2 # 2016-07-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+7cb47d5 # 2016-07-21 # TripNRaVeR @ block: add tripndroid i/o scheduler
+17c9bf0 # 2016-07-21 # Aaron Carroll @ block: add vr i/o scheduler
+74515e5 # 2016-07-21 # Brandon Berhent @ block: add zen i/o scheduler
+32c8a78 # 2016-07-21 # Miguel Boton @ block: add sioplus i/o scheduler
+20530ca # 2016-07-21 # Miguel Boton @ block: add sio i/o scheduler
+0c294eb # 2016-07-21 # Shaohua Li @ block: add fiops i/o scheduler
+cdc65dc # 2016-07-21 # franciscofranco @ block: row: add magic values.
+5313ae9 # 2016-07-21 # Paul Keith @ block: cfq: fix slice Idle check
+ac475a4 # 2016-07-21 # Chet Kener @ block: cfq: set slice Idle default to 0
+27f1591 # 2016-07-21 # Jens Axboe @ block: cfq: default to IOPS mode on SSDs
+1b07b2b # 2016-07-21 # Paul Keith @ block: bfq: fix slice Idle check
+bc84923 # 2016-07-21 # Chet Kener @ block: bfq: set slice Idle default to 0
+7133776 # 2016-07-21 # Zhao Wei Liew @ block: bfq: default to IOPS mode on SSDs
+a530161 # 2016-07-21 # Alexander Clouter @ cpufreq: Introduce lionheart governor
+312e666 # 2016-07-21 # Alucard24 @ cpufreq: Introduce nightmare governor
+3827ca1 # 2016-07-21 # Sultanxda @ scsi: Remove scsi_wait_scan
+a80f41d # 2016-07-21 # Rashed Abdel-Tawab @ bcmdhd: Restore default wakelocks and timing
+89f4a53 # 2016-07-21 # Zdrowy Gosciu @ Version HM 21.0
+af7b964 # 2016-07-21 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
+61792e0 # 2016-07-21 # Zdrowy Gosciu @ Remove build.sh
+3719a39 # 2016-07-21 # Zdrowy Gosciu @ mmc: sdhci: Disable register dumps
+7f803da # 2016-07-21 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
+94d8489 # 2016-07-21 # Ard Biesheuvel @ ARM: move VFP init to an earlier boot stage
+8c2af44 # 2016-07-21 # Andrey Ryabinin @ ARM: 8051/1: put_user: fix possible data corruption in put_user
+678206d # 2016-07-21 # Mark Rutland @ ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex
+bc7db349 # 2016-07-21 # Nikola Majkić @ d802_defconfig: Disable ARM_UNWIND
+f75e634 # 2016-07-21 # Zdrowy Gosciu @ devfreq: Build Simple GPU
 0738518 # 2016-07-21 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
 51503f9 # 2016-07-21 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
 6207c23 # 2016-07-21 # franciscofranco @ tick: Don't update idle time if cpu offline
@@ -99,15 +124,37 @@ e1bf87a # 2016-07-21 # Zdrowy Gosciu @ d802_defconfig: Enable MSM Simple Thermal
 e00649a # 2016-07-21 # Francisco Franco @ mm: push readahead to 512kB.
 b541bd6 # 2016-07-21 # Ruchi Kandoi @ nf: IDLETIMER: Adds the uid field in the msg
 
+* Project packages/apps/CMFileManager/
+a12e80f # 2016-07-21 # pinky@build01 @ Automatic translation import
+
 * Project packages/apps/Dialer/
 af90b7b # 2016-07-21 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
 24a2f15 # 2016-07-20 # Stephen Bird @ Bump metrics version and fix swapped events
 
+* Project packages/apps/Gello/
+3bae403 # 2016-07-21 # pinky@build01 @ Automatic translation import
+
+* Project packages/apps/KernelAdiutor/
+a0fa03d # 2016-07-21 # Zdrowy Gosciu @ Start-Up Commands: Add MSM Thermal Simple
+ff88e87 # 2016-07-21 # Zdrowy Gosciu @ Thermal: Update MSM Thermal Simple strings
+231f282 # 2016-07-21 # Zdrowy Gosciu @ Thermal: Add simple support for SultanXDA's MSM Thermal Simple zones (part II)
+dc09fb8 # 2016-07-21 # Zdrowy Gosciu @ Thermal: Add simple support for SultanXDA's MSM Thermal Simple (part I)
+
 * Project packages/apps/Messaging/
+fd5a2be # 2016-07-21 # pinky@build01 @ Automatic translation import
 ed5e13b # 2016-07-20 # Danesh M @ Messaging : Fix blacklist sync
+
+* Project packages/apps/OmniSwitch/
+f490893 # 2016-07-22 # maxwen @ OmniSwitch: launcher mode - fix saving state
+355d290 # 2016-07-22 # mweninge @ OmniSwitch: launcher mode - remember state
+4507fc8 # 2016-07-22 # maxwen @ OmniSwitch: launcher mode day 0 fixes
+dc107fd # 2016-07-22 # maxwen @ OmniSwitch: add launcher mode
 
 * Project packages/apps/Settings/
 e910205 # 2016-07-21 # Steve Kondik @ settings: Add support for color balance in LiveDisplay
+
+* Project packages/apps/TvSettings/
+77127a0 # 2016-07-21 # pinky@build01 @ Automatic translation import
 
 * Project system/bt/
 0152d77 # 2016-07-21 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_bt into cm-13.0

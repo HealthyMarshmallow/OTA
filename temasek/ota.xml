@@ -46,7 +46,7 @@
             <SourceCodeUrl
                 id="sourcecode"
                 title="Sources"
-                description="Bitbucket">https://bitbucket.org/ZdrowyGosciu</SourceCodeUrl>
+                description="Github">https://github.com/HealthyMarshmallow</SourceCodeUrl>
         </d802>
     </Stable>
 </TurboOTA>

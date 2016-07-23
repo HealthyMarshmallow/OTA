@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-07-20 @ 11:28:17 (1469014097)
+CHANGES AFTER 2016-07-21 @ 21:42:25 (1469137345)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,159 +6,63 @@ CHANGES AFTER 2016-07-20 @ 11:28:17 (1469014097)
            |_____|___  |______|______|
                  |_____|              
 
-* Project /
-0000000 # 2016-07-20 # Zdrowy Gosciu @ KERNEL REBASE !! Restart from pure CM 13.0 sources
-0000000 # 2016-07-20 # Zdrowy Gosciu @ CPUInfo: Use MSM Thermal Simple temperature zone
-0000000 # 2016-07-20 # Zdrowy Gosciu @ manifest: Switch from SultanXDA's to CM CAF HAL's
-
 * Project OTA/
-220637a # 2016-07-21 # Zdrowy Gosciu @ OTA: Prepare for new Temasek build + change Sources URL
-c04ca44 # 2016-07-20 # Zdrowy Gosciu @ OTA: cm-13.0-20160720-112025-UNOFFICIAL-temasek-d802-V10.1
-
-* Project cts/
-9f2e0be # 2016-07-20 # Daniel Xie @ Merge "DO NOT MERGE: bump cts to 6.0R9" into marshmallow-cts-release
-d26da32 # 2016-07-20 # Daniel Xie @ DO NOT MERGE: bump cts to 6.0R9
-
-* Project device/generic/arm64/
-a8520b5 # 2016-07-20 # Diogo Ferreira @ arm64: Dummy out the kernel output folder
-7b70011 # 2016-07-20 # Scott Mertz @ arm64: add cm.mk
-
-* Project device/lge/d802/
-563729b # 2016-07-21 # Zdrowy Gosciu @ d802: Cut CM from kernel defconfig name
-db4ba2d # 2016-07-20 # Zdrowy Gosciu @ d802: ZG'ify
+8ab490d # 2016-07-22 # Zdrowy Gosciu @ OTA: cm-13.0-20160721-213714-UNOFFICIAL-temasek-d802-V10.1
 
 * Project device/lge/g2-common/
-4d89b3e # 2016-07-21 # Zdrowy Gosciu @ g2-common: releasetools: ZG at InstallBegin
-2451357 # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Setup ZEN 1 MB as default I/O scheduler
-f87760c # 2016-07-21 # Zdrowy Gosciu @ g2-common: releasetools: Powered by ZG
-6eba799 # 2016-07-21 # Zdrowy Gosciu @ g2-common: CM SDK: Increase proximityCheckTimeout
-01db9fc # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Don't setup I/O scheduler via sys.io.scheduler
-a7be72d # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Remove CPU Boost
-fd98137 # 2016-07-21 # Zdrowy Gosciu @ Revert "g2-common: Don't build using CLang"
-a5439ff # 2016-07-21 # Zdrowy Gosciu @ g2-common: Add missing persist.sys.ssr.enable_debug
-343f02f # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Rebase for G2 Power HAL
-c52a97c # 2016-07-21 # Zdrowy Gosciu @ Revert "Revert "g2: build kernel with gcc 4.9""
-f8507de # 2016-07-21 # Felipe Torres @ g2-common: Adjust auto brightness level
-232c6e5 # 2016-07-21 # Zdrowy Gosciu @ Revert "g2-common: FB: Sync automatic brightness values with CM 12.1"
-1d7da48 # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Setup MSM HotPlug
-072c8ed # 2016-07-21 # Zdrowy Gosciu @ g2-common: FB: Sync automatic brightness values with CM 12.1
-d1b32a1 # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Enable MSM Simple Thermal
-6109635 # 2016-07-21 # Zdrowy Gosciu @ g2-common: init: power: Sync interactive GOV setup with CAF
-4091796 # 2016-07-21 # Zdrowy Gosciu @ g2-common: Remove QCOM Thermal-Engine + MP-Decision
-4df445b # 2016-07-21 # Zdrowy Gosciu @ g2-common: Introduce G2 Power HAL
-6c63fbb # 2016-07-21 # Zdrowy Gosciu @ g2-common: Disable WatchDog for Dex2Oat
-d89d4b1 # 2016-07-21 # Sultanxda @ g2-common: Don't force 3 framebuffers
-8cd2364 # 2016-07-21 # Zdrowy Gosciu @ g2-common: Don't build using CLang
-036ff88 # 2016-07-21 # Zdrowy Gosciu @ g2-common: Lower density to 400
-048a4c1 # 2016-07-21 # Zdrowy Gosciu @ g2-common: Remove cm.dependencies
-840eaab # 2016-07-21 # Zdrowy Gosciu @ g2-common: Enable rebooting to bootloader
+315ae22 # 2016-07-23 # Zdrowy Gosciu @ g2-common: CM SDK: Adjust proximityCheckTimeout
 
-* Project frameworks/native/
-4731546 # 2016-07-21 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
-
-* Project hardware/cyanogen/
-bb0293f # 2016-07-20 # Steve Kondik @ cmhw: Add ColorBalance impl for the LiveDisplay native interface
+* Project frameworks/base/
+675ed8c # 2016-07-23 # xiaoli.xb.zuo @ Fix memory leak in MediaScannerConnection
+50ac62e # 2016-07-23 # inky@build01 @ Automatic translation import
+8399ce9 # 2016-07-23 # Janson Kang @ Revert "SysUI: Add first time use lock screen hints"
+4a9fca0 # 2016-07-22 # Shibin George @ Resolve deadlock between ActivityManagerService and PowerManagerService
+20c08ac # 2016-07-22 # Roman Birg @ PackageManager: make protected-broadcasts permission aware
+41c8968 # 2016-07-22 # d34d @ SysUI: Add first time use lock screen hints
+de787d0 # 2016-07-22 # pinky@build01 @ Automatic translation import
 
 * Project kernel/lge/msm8974/
-d0e0a9f # 2016-07-21 # Zdrowy Gosciu @ Version HM 21.5
-e67a69a # 2016-07-21 # Felipe Torres @ Revert "arm: configs: g2: Enable CFG80211_ALLOW_RECONNECT"
-5d62fa2 # 2016-07-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-7cb47d5 # 2016-07-21 # TripNRaVeR @ block: add tripndroid i/o scheduler
-17c9bf0 # 2016-07-21 # Aaron Carroll @ block: add vr i/o scheduler
-74515e5 # 2016-07-21 # Brandon Berhent @ block: add zen i/o scheduler
-32c8a78 # 2016-07-21 # Miguel Boton @ block: add sioplus i/o scheduler
-20530ca # 2016-07-21 # Miguel Boton @ block: add sio i/o scheduler
-0c294eb # 2016-07-21 # Shaohua Li @ block: add fiops i/o scheduler
-cdc65dc # 2016-07-21 # franciscofranco @ block: row: add magic values.
-5313ae9 # 2016-07-21 # Paul Keith @ block: cfq: fix slice Idle check
-ac475a4 # 2016-07-21 # Chet Kener @ block: cfq: set slice Idle default to 0
-27f1591 # 2016-07-21 # Jens Axboe @ block: cfq: default to IOPS mode on SSDs
-1b07b2b # 2016-07-21 # Paul Keith @ block: bfq: fix slice Idle check
-bc84923 # 2016-07-21 # Chet Kener @ block: bfq: set slice Idle default to 0
-7133776 # 2016-07-21 # Zhao Wei Liew @ block: bfq: default to IOPS mode on SSDs
-a530161 # 2016-07-21 # Alexander Clouter @ cpufreq: Introduce lionheart governor
-312e666 # 2016-07-21 # Alucard24 @ cpufreq: Introduce nightmare governor
-3827ca1 # 2016-07-21 # Sultanxda @ scsi: Remove scsi_wait_scan
-a80f41d # 2016-07-21 # Rashed Abdel-Tawab @ bcmdhd: Restore default wakelocks and timing
-89f4a53 # 2016-07-21 # Zdrowy Gosciu @ Version HM 21.0
-af7b964 # 2016-07-21 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
-61792e0 # 2016-07-21 # Zdrowy Gosciu @ Remove build.sh
-3719a39 # 2016-07-21 # Zdrowy Gosciu @ mmc: sdhci: Disable register dumps
-7f803da # 2016-07-21 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
-94d8489 # 2016-07-21 # Ard Biesheuvel @ ARM: move VFP init to an earlier boot stage
-8c2af44 # 2016-07-21 # Andrey Ryabinin @ ARM: 8051/1: put_user: fix possible data corruption in put_user
-678206d # 2016-07-21 # Mark Rutland @ ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex
-bc7db349 # 2016-07-21 # Nikola Majkić @ d802_defconfig: Disable ARM_UNWIND
-f75e634 # 2016-07-21 # Zdrowy Gosciu @ devfreq: Build Simple GPU
-0738518 # 2016-07-21 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
-51503f9 # 2016-07-21 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
-6207c23 # 2016-07-21 # franciscofranco @ tick: Don't update idle time if cpu offline
-b0801a9 # 2016-07-21 # franciscofranco @ fs: FSync On/Off
-009885d # 2016-07-21 # Zdrowy Gosciu @ arm: Fast Charge is for G2
-057737c # 2016-07-21 # Jeremy @ arm: Forced Fast Charge for LG G2 ported by PTMR3
-a1f2667 # 2016-07-21 # ejjohnson1999 @ cpufreq: Remove cpu-boost driver
-5f9c525 # 2016-07-21 # Dave Kessler @ Make sure we are using the correct calls for CONFIG_CC_STACKPROTECTOR
-1a98f01 # 2016-07-21 # Zdrowy Gosciu @ d802_defconfig: Set HZ to 250
-f47bb80 # 2016-07-21 # Paul Keith @ sched: Export arch power to sysfs
-60825cd # 2016-07-21 # ktoonsez @ sched: Make GENTLE_FAIR_SLEEPERS configurable thru sysfs
-e22a4be # 2016-07-21 # myfluxi @ block: deadline: Optimize for non-rotational
-43b3929 # 2016-07-21 # xiaobing tu @ deadline: Allow 0ms deadline latency, increase the read speed
-4b2e145 # 2016-07-21 # faux123 @ block: deadline: tweak for better android performance
-f62b7aa # 2016-07-21 # Pavel @ drivers: mmc: sysfs interface to enable / disable CRC
-54cc152 # 2016-07-21 # showp1984 @ bcmdhd: allow low-wifi-signals to be seen
-51994d8 # 2016-07-21 # Zdrowy Gosciu @ Revert "blu_plug: Dynamic hotplug driver for hammerhead"
-7eed97d # 2016-07-21 # Zdrowy Gosciu @ Kill logspam (SQUASHED)
-1873cac # 2016-07-21 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
-e94df22 # 2016-07-21 # Rashed Abdel-Tawab @ arm: configs: d802: Disable CONFIG_MSM_L2_ERP_PORT_PANIC
-66940f2 # 2016-07-21 # myfluxi @ msm: bam_dmux: Reduce debug logs to avoid watchdog bite
-3764a65 # 2016-07-21 # myfluxi @ PM / devfreq: Fix simple_ondemand crashing
-12a042c # 2016-07-21 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
-ed46180 # 2016-07-21 # ejjohnson1999 @ irq: Remove IRQ no longer affine to CPU logspam
-d49fff9 # 2016-07-21 # Zdrowy Gosciu @ Revert "wlan: Fix memory leak issue"
-a7f8d20 # 2016-07-21 # Zdrowy Gosciu @ arm: configs: d802: Enable XZ compression
-bf0c113 # 2016-07-21 # Steve Kondik @ msm_rmnet: Kill logspam
-0cb08b1 # 2016-07-21 # myfluxi @ arm: irq: Tone down kernel logging
-e1bf87a # 2016-07-21 # Zdrowy Gosciu @ d802_defconfig: Enable MSM Simple Thermal
-93641b5 # 2016-07-21 # Zdrowy Gosciu @ arm: configs: Clean up
-1b55593 # 2016-07-21 # Sultanxda @ ARM: dts: msm8974: Configure msm-thermal-simple device
-e00649a # 2016-07-21 # Francisco Franco @ mm: push readahead to 512kB.
-b541bd6 # 2016-07-21 # Ruchi Kandoi @ nf: IDLETIMER: Adds the uid field in the msg
+f4f358f # 2016-07-23 # Zdrowy Gosciu @ Version HM 21.7
+c46f2ac # 2016-07-23 # Rajesh Bondugula @ msm: camera: sensor: Validate step_boundary
+71dbb5a # 2016-07-23 # Shubhraprakash Das @ msm: kgsl: Fix memory entry leak when calling adreno_convertaddr
+0e3e29f # 2016-07-23 # Suman Tatiraju @ msm: kgsl: Fix race condition in adreno_spin_idle()
+5b324fe # 2016-07-23 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+d5fa8c3 # 2016-07-23 # Zdrowy Gosciu @ Revert "ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex"
+d1929d2 # 2016-07-23 # Zdrowy Gosciu @ Revert "input: touchscreen: g2: Disable I2C_SUSPEND_WORKAROUND"
+67e91a0 # 2016-07-23 # Amir Goldstein @ sysrq: Emergency Remount R/O in reverse order
+9b1cb88 # 2016-07-23 # Kumar Gala @ msm: reorder init calls in board's init_machine handler
+1ba8b64 # 2016-07-23 # Greg Kroah-Hartman @ arm: configs: g2: Disable CONFIG_PFT as it is unsupported
+5c02495 # 2016-07-23 # Ruchi Kandoi @ nf: IDLETIMER: Adds the uid field in the msg
+125d602 # 2016-07-22 # Zdrowy Gosciu @ Version HM 21.6
+d7bb399 # 2016-07-22 # Zdrowy Gosciu @ input: touchscreen: g2: Disable I2C_SUSPEND_WORKAROUND
+7f0386f # 2016-07-22 # Thomas Gleixner @ tick: Upstream fixes (reapply)
+1d5cbdb # 2016-07-22 # Thomas Gleixner @ tick: Cleanup NOHZ per cpu data on cpu down
+2fd7526 # 2016-07-22 # Frederic Weisbecker @ nohz: Make tick_nohz_irq_exit() irq safe
+e9cc515 # 2016-07-22 # Zdrowy Gosciu @ Revert "mm: push readahead to 512kB."
+3061654 # 2016-07-22 # Greg Kroah-Hartman @ arm: configs: g2: Disable CONFIG_PFT as it is unsupported
+c1ab6fe # 2016-07-22 # Dorimanx @ irq: Clean Unbalanced IRQ 61 warning for SPS Modem Data wakeup
 
-* Project packages/apps/CMFileManager/
-a12e80f # 2016-07-21 # pinky@build01 @ Automatic translation import
+* Project packages/apps/DeskClock/
+0da4c46 # 2016-07-22 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
 
 * Project packages/apps/Dialer/
-af90b7b # 2016-07-21 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-24a2f15 # 2016-07-20 # Stephen Bird @ Bump metrics version and fix swapped events
+bfefdf4 # 2016-07-22 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
 
 * Project packages/apps/Gello/
-3bae403 # 2016-07-21 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/KernelAdiutor/
-a0fa03d # 2016-07-21 # Zdrowy Gosciu @ Start-Up Commands: Add MSM Thermal Simple
-ff88e87 # 2016-07-21 # Zdrowy Gosciu @ Thermal: Update MSM Thermal Simple strings
-231f282 # 2016-07-21 # Zdrowy Gosciu @ Thermal: Add simple support for SultanXDA's MSM Thermal Simple zones (part II)
-dc09fb8 # 2016-07-21 # Zdrowy Gosciu @ Thermal: Add simple support for SultanXDA's MSM Thermal Simple (part I)
-
-* Project packages/apps/Messaging/
-fd5a2be # 2016-07-21 # pinky@build01 @ Automatic translation import
-ed5e13b # 2016-07-20 # Danesh M @ Messaging : Fix blacklist sync
-
-* Project packages/apps/OmniSwitch/
-f490893 # 2016-07-22 # maxwen @ OmniSwitch: launcher mode - fix saving state
-355d290 # 2016-07-22 # mweninge @ OmniSwitch: launcher mode - remember state
-4507fc8 # 2016-07-22 # maxwen @ OmniSwitch: launcher mode day 0 fixes
-dc107fd # 2016-07-22 # maxwen @ OmniSwitch: add launcher mode
+08562d2 # 2016-07-23 # Bryan Owens @ Themes: Expose and separate hard coded colors for themes
 
 * Project packages/apps/Settings/
-e910205 # 2016-07-21 # Steve Kondik @ settings: Add support for color balance in LiveDisplay
+3c25977 # 2016-07-23 # inky@build01 @ Automatic translation import
+eb50568 # 2016-07-22 # pinky@build01 @ Automatic translation import
 
-* Project packages/apps/TvSettings/
-77127a0 # 2016-07-21 # pinky@build01 @ Automatic translation import
+* Project packages/apps/SetupWizard/
+030a862 # 2016-07-22 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
 
-* Project system/bt/
-0152d77 # 2016-07-21 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_bt into cm-13.0
+* Project packages/apps/ThemeChooser/
+8c2033e # 2016-07-22 # inky@build01 @ Automatic translation import
 
-* Project vendor/cmsdk/
-adf9a59 # 2016-07-21 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-86cae92 # 2016-07-20 # Steve Kondik @ livedisplay: Add support for direct color balance control
+* Project vendor/cm/
+66b4944 # 2016-07-23 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+df0ba3a # 2016-07-22 # Abhisek Devkota @ Gello artifact v26
+8b3ccbe # 2016-07-22 # Bruno Martins @ sepolicy: Allow batterymanager and batteryproperties services to be found
+f853738 # 2016-07-22 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0

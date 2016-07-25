@@ -1,28 +1,19 @@
-CHANGES AFTER 2016-07-21 @ 21:42:25 (1469137345)
+CHANGES AFTER 2016-07-23 @ 21:50:51 (1469310651)
 
-                        ______ ______ 
+                        ______ ______
            .-----.-----|  __  |    __|
            |-- __|  _  |  __  |__    |
            |_____|___  |______|______|
-                 |_____|              
+                 |_____|
+
+* Project device/lge/g2-common/
+f96fe32 # 2016-07-25 # Zdrowy Gosciu @ g2-common: init: power: Force remove ro.vendor.extension_library
 
 * Project kernel/lge/msm8974/
-f4f358f # 2016-07-23 # Zdrowy Gosciu @ Version HM 21.7
-c46f2ac # 2016-07-23 # Rajesh Bondugula @ msm: camera: sensor: Validate step_boundary
-71dbb5a # 2016-07-23 # Shubhraprakash Das @ msm: kgsl: Fix memory entry leak when calling adreno_convertaddr
-0e3e29f # 2016-07-23 # Suman Tatiraju @ msm: kgsl: Fix race condition in adreno_spin_idle()
-5b324fe # 2016-07-23 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-d5fa8c3 # 2016-07-23 # Zdrowy Gosciu @ Revert "ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex"
-d1929d2 # 2016-07-23 # Zdrowy Gosciu @ Revert "input: touchscreen: g2: Disable I2C_SUSPEND_WORKAROUND"
-67e91a0 # 2016-07-23 # Amir Goldstein @ sysrq: Emergency Remount R/O in reverse order
-9b1cb88 # 2016-07-23 # Kumar Gala @ msm: reorder init calls in board's init_machine handler
-1ba8b64 # 2016-07-23 # Greg Kroah-Hartman @ arm: configs: g2: Disable CONFIG_PFT as it is unsupported
-5c02495 # 2016-07-23 # Ruchi Kandoi @ nf: IDLETIMER: Adds the uid field in the msg
-125d602 # 2016-07-22 # Zdrowy Gosciu @ Version HM 21.6
-d7bb399 # 2016-07-22 # Zdrowy Gosciu @ input: touchscreen: g2: Disable I2C_SUSPEND_WORKAROUND
-7f0386f # 2016-07-22 # Thomas Gleixner @ tick: Upstream fixes (reapply)
-1d5cbdb # 2016-07-22 # Thomas Gleixner @ tick: Cleanup NOHZ per cpu data on cpu down
-2fd7526 # 2016-07-22 # Frederic Weisbecker @ nohz: Make tick_nohz_irq_exit() irq safe
-e9cc515 # 2016-07-22 # Zdrowy Gosciu @ Revert "mm: push readahead to 512kB."
-3061654 # 2016-07-22 # Greg Kroah-Hartman @ arm: configs: g2: Disable CONFIG_PFT as it is unsupported
-c1ab6fe # 2016-07-22 # Dorimanx @ irq: Clean Unbalanced IRQ 61 warning for SPS Modem Data wakeup
+040c70c # 2016-07-25 # Zdrowy Gosciu @ Version HM 22.1
+3f1d675 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Add logspam
+6ee9330 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Add delay and double check before forcing suspend mode
+c51e23b # 2016-07-25 # Zdrowy Gosciu @ Version HM 22.0
+0f9e67c # 2016-07-25 # Mark Rutland @ ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex
+9fa3c2b # 2016-07-25 # Mark Rutland @ ARM: 8128/1: abort: don't clear the exclusive monitors
+6bce133 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Fix proximity check

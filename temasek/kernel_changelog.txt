@@ -10,6 +10,9 @@ CHANGES AFTER 2016-07-23 @ 21:50:51 (1469310651)
 f96fe32 # 2016-07-25 # Zdrowy Gosciu @ g2-common: init: power: Force remove ro.vendor.extension_library
 
 * Project kernel/lge/msm8974/
+23c7fe3 # 2016-07-25 # Zdrowy Gosciu @ Version HM 22.2
+264d9df # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Increase screen state checking delay
+bcffc63 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Always force suspend in touch_gesture_wakeup_func
 040c70c # 2016-07-25 # Zdrowy Gosciu @ Version HM 22.1
 3f1d675 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Add logspam
 6ee9330 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Add delay and double check before forcing suspend mode

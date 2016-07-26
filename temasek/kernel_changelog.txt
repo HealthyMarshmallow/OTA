@@ -7,9 +7,39 @@ CHANGES AFTER 2016-07-23 @ 21:50:51 (1469310651)
                  |_____|
 
 * Project device/lge/g2-common/
+844f0be # 2016-07-26 # Zdrowy Gosciu @ g2-common: init: power: Tweak VM
+6209ddf # 2016-07-26 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
+00839a4 # 2016-07-26 # Zdrowy Gosciu @ g2-common: init: power: Tweak thermal zones
+4c69612 # 2016-07-26 # Zdrowy Gosciu @ g2-common: init: power: FIOPS 512 kB as default I/O scheduler
 f96fe32 # 2016-07-25 # Zdrowy Gosciu @ g2-common: init: power: Force remove ro.vendor.extension_library
 
 * Project kernel/lge/msm8974/
+a1724e7 # 2016-07-26 # Zdrowy Gosciu @ Version HM 23.0
+5d3b2b3 # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Force LCD suspend during touch suspend
+dc028fe # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Revert latest changes
+66df723 # 2016-07-26 # franciscofranco @ Enable pipe flag.
+9ed6fb1 # 2016-07-26 # myfluxi @ PM: devfreq: Use high priority workqueue
+6f43964 # 2016-07-26 # Guojian Chen @ cpuidle: remove cross-cpu IPI by new latency request.
+0590f8e # 2016-07-26 # Takashi Iwai @ KEYS: Fix stale key registration at error path
+a2ce301 # 2016-07-26 # Michel Lespinasse @ rbtree: Backport from 3.10
+309c3b6 # 2016-07-26 # Jan Kara @ jbd2: avoid infinite loop when destroying aborted journal
+aeb4e4b # 2016-07-26 # Joseph Qi @ jbd2: fix ocfs2 corrupt when updating journal superblock fails
+fee495b # 2016-07-26 # Eric Sandeen @ jbd2: don't write superblock when if its empty
+0e0733e # 2016-07-26 # Darrick J. Wong @ ext4: don't retry file block mapping on bigalloc fs with non-extent file
+0179371 # 2016-07-26 # Theodore Ts'o @ ext4: call sync_blockdev() before invalidate_bdev() in put_super()
+85fb3a8 # 2016-07-26 # Theodore Ts'o @ ext4: fix race between truncate and __ext4_journalled_writepage()
+516f0fb # 2016-07-26 # Eryu Guan @ ext4: check for zero length extent explicitly
+4473393 # 2016-07-26 # Davide Italiano @ ext4: move check under lock scope to close a race.
+5f8493d # 2016-07-26 # Stephen Boyd @ soc: qcom: rq_stats: Always show idle time left
+799252c # 2016-07-26 # Patrick Daly @ PM / Wakeup: Use rcu callbacks for better performance
+456a56c # 2016-07-26 # Waiman Long @ mutex: Move mutex spinning code from sched/core.c back to mutex.c
+8fb402bf # 2016-07-26 # Lance Poore @ SCHEDULER: Autogroup patch group by current user android UID instead of task ID
+14f51a4 # 2016-07-26 # Chester Kener @ block: Disable IO Stats
+24216e3 # 2016-07-26 # myfluxi @ arm: vfpmodule: Fix warning procfs vfp_bounce reporting failed
+0b8f519 # 2016-07-26 # Zdrowy Gosciu @ Version HM 22.6
+59b9a7f # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Moar logspam
+fb880c0 # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Correct message
+36b4a8a # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Switch to msleep before suspend check
 c3542d9 # 2016-07-25 # Zdrowy Gosciu @ Version HM 22.5
 2b9cac9 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Show me the BUF
 8531807 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Check suspend status before force suspend

@@ -14,6 +14,11 @@ CHANGES AFTER 2016-07-23 @ 21:50:51 (1469310651)
 f96fe32 # 2016-07-25 # Zdrowy Gosciu @ g2-common: init: power: Force remove ro.vendor.extension_library
 
 * Project kernel/lge/msm8974/
+ce99ef5 # 2016-07-27 # Zdrowy Gosciu @ Version HM 23.5
+025699d # 2016-07-27 # Zdrowy Gosciu @ bcmdhd: Fix build with disabled debug
+b683316 # 2016-07-27 # Zdrowy Gosciu @ d802_defconfig: Remove lots of debugging
+b7283a0 # 2016-07-27 # franciscofranco @ arm: Use -mtune=cortex-a15 for Krait targets
+c01f73a # 2016-07-27 # Chester Kener @ bcmdhd: Disable debugging
 a1724e7 # 2016-07-26 # Zdrowy Gosciu @ Version HM 23.0
 5d3b2b3 # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Force LCD suspend during touch suspend
 dc028fe # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Revert latest changes

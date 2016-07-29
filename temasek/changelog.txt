@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-07-23 @ 21:50:51 (1469310651)
+CHANGES AFTER 2016-07-27 @ 08:17:49 (1469607469)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,171 +7,104 @@ CHANGES AFTER 2016-07-23 @ 21:50:51 (1469310651)
                  |_____|              
 
 * Project OTA/
-623ef55 # 2016-07-26 # Zdrowy Gosciu @ OTA: HealthyMarshmallow 23.0
-f7d21c7 # 2016-07-25 # Zdrowy Gosciu @ OTA: HealthyMarshmallow 22.5
-7818796 # 2016-07-25 # Zdrowy Gosciu @ OTA: HealthyMarshmallow 22.2
-f5b2c70 # 2016-07-25 # Zdrowy Gosciu @ OTA: HealthyMarshmallow 22.1
-d6b6214 # 2016-07-24 # Zdrowy Gosciu @ OTA: cm-13.0-20160723-214648-UNOFFICIAL-temasek-d802-V10.1
+998b3ed # 2016-07-27 # Zdrowy Gosciu @ OTA: cm-13.0-20160727-081401-UNOFFICIAL-temasek-d802-V10.2
 
-* Project android/
-1726379 # 2016-07-26 # Roman Birg @ manifests: add CMAudioService
+* Project cts/
+3eab954 # 2016-07-28 # Daniel Xie @ Merge "DO NOT MERGE, re-apply, Adjust testAppFailAccessPrivateData to fail on non-tagged sockets" into marshmallow-cts-release
+3762c5d # 2016-07-28 # Mohamad Ayyash @ DO NOT MERGE, re-apply, Adjust testAppFailAccessPrivateData to fail on non-tagged sockets
 
 * Project device/lge/g2-common/
-0453643 # 2016-07-27 # Zdrowy Gosciu @ g2-common: Remove GloveMode and QuickCircle
-0a76375 # 2016-07-27 # quesoo @ g2-common: QuickCircle: Change path
-9b566a5 # 2016-07-27 # codeworkx @ g2-common: Add initial QuickCircle app
-b14ce8f # 2016-07-27 # dadi11 @ g2-common: Rebrand DeviceSettings to GloveMode
-40ec8e1 # 2016-07-27 # AdrianDC @ g2-common: Implement Glove Mode service from huashan
-b8478af # 2016-07-27 # dadi11 @ g2-common: Enable modem power save mode
-f6722bd # 2016-07-26 # Zdrowy Gosciu @ g2-common: gps: Enable intermediate position report
-8432ba5 # 2016-07-26 # Zdrowy Gosciu @ g2-common: gps: Switch NTP server to sk.pool.ntp.org
-844f0be # 2016-07-26 # Zdrowy Gosciu @ g2-common: init: power: Tweak VM
-6209ddf # 2016-07-26 # Zdrowy Gosciu @ g2-common: init: power: Tweak interactive GOV
-00839a4 # 2016-07-26 # Zdrowy Gosciu @ g2-common: init: power: Tweak thermal zones
-4c69612 # 2016-07-26 # Zdrowy Gosciu @ g2-common: init: power: FIOPS 512 kB as default I/O scheduler
-f96fe32 # 2016-07-25 # Zdrowy Gosciu @ g2-common: init: power: Force remove ro.vendor.extension_library
+80798aa # 2016-07-28 # Jayachandran C @ g2-common: Enable persist.radio.no_wait_for_card to make RIL not wait for card
+3d5ed31 # 2016-07-28 # Zdrowy Gosciu @ g2-common: CM SDK: Set proximityCheckTimeout to 350 ms
+b5d5606 # 2016-07-28 # Zdrowy Gosciu @ Revert "g2-common: CM SDK: Decrease proximityCheckTimeout to 150 ms"
+1b77a4e # 2016-07-28 # Zdrowy Gosciu @ Revert "g2-common: init: power: ROW 1024 kB as default I/O scheduler"
+cf0ca6f # 2016-07-28 # Zdrowy Gosciu @ Revert "g2-common: init: Force legacy DHCP client"
+32a4ddc # 2016-07-28 # Zdrowy Gosciu @ g2-common: CM SDK: Decrease proximityCheckTimeout to 150 ms
+59dbb01 # 2016-07-27 # Zdrowy Gosciu @ g2-common: init: Force legacy DHCP client
+75542dc # 2016-07-27 # Zdrowy Gosciu @ g2-common: init: power: ROW 1024 kB as default I/O scheduler
+
+* Project external/sepolicy/
+167c6dc # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_external_sepolicy into cm-13.0
 
 * Project frameworks/base/
-846c97e # 2016-07-27 # Sai Kiran Korwar @ bootanimation: Call eglReleaseThread in threadLoop
-5885ae7 # 2016-07-27 # inky@build01 @ Automatic translation import
-d82ed36 # 2016-07-27 # mqi @ Improve the scan process
-3846d92 # 2016-07-26 # Scott Mertz @ Factory reset: Wipe media by default
-f7b9a26 # 2016-07-26 # blinky@build01 @ Automatic translation import
-389ea75 # 2016-07-26 # Danesh M @ SystemUI : Initialize state linked volume
-92fda35 # 2016-07-26 # blinky@build01 @ Automatic translation import
-52ca4d8 # 2016-07-26 # Roman Birg @ SystemUI: don't automatically disable compass tile
-74c7114 # 2016-07-25 # Chih-Hung Hsieh @ Fix google-explicit-constructor warnings in frameworks/base
-456fa32 # 2016-07-24 # d34d @ SysUI: Show hints if showing keyguard and provisioned
-452f354 # 2016-07-24 # inky@build01 @ Automatic translation import
-
-* Project frameworks/native/
-e84eca3 # 2016-07-27 # Sai Kiran Korwar @ egl: Call loseCurrent after eglReleaseThread
-b337823 # 2016-07-27 # Sandeep Shinde @ egl: Enable EGL_KHR_GL_COLORSPACE
-005a6a9 # 2016-07-25 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
-8cafa37 # 2016-07-24 # Steve Kondik @ surfaceflinger: Fix the fix of the opaque check fix
+ed15c9c # 2016-07-29 # inky@build01 @ Automatic translation import
+7d73c17 # 2016-07-29 # Steve Kondik @ lights: Make sure the lights are out
+9c87cb4 # 2016-07-29 # d34d @ SysUI: Define config for showing screen on hints
+f37f0bb # 2016-07-28 # Steve Kondik @ mountservice: Shut down volumes before restarting framework
+4ce8261 # 2016-07-28 # clyde@build01 @ Automatic translation import
 
 * Project kernel/lge/msm8974/
-ce99ef5 # 2016-07-27 # Zdrowy Gosciu @ Version HM 23.5
-025699d # 2016-07-27 # Zdrowy Gosciu @ bcmdhd: Fix build with disabled debug
-b683316 # 2016-07-27 # Zdrowy Gosciu @ d802_defconfig: Remove lots of debugging
-b7283a0 # 2016-07-27 # franciscofranco @ arm: Use -mtune=cortex-a15 for Krait targets
-c01f73a # 2016-07-27 # Chester Kener @ bcmdhd: Disable debugging
-a1724e7 # 2016-07-26 # Zdrowy Gosciu @ Version HM 23.0
-5d3b2b3 # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Force LCD suspend during touch suspend
-dc028fe # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Revert latest changes
-66df723 # 2016-07-26 # franciscofranco @ Enable pipe flag.
-9ed6fb1 # 2016-07-26 # myfluxi @ PM: devfreq: Use high priority workqueue
-6f43964 # 2016-07-26 # Guojian Chen @ cpuidle: remove cross-cpu IPI by new latency request.
-0590f8e # 2016-07-26 # Takashi Iwai @ KEYS: Fix stale key registration at error path
-a2ce301 # 2016-07-26 # Michel Lespinasse @ rbtree: Backport from 3.10
-309c3b6 # 2016-07-26 # Jan Kara @ jbd2: avoid infinite loop when destroying aborted journal
-aeb4e4b # 2016-07-26 # Joseph Qi @ jbd2: fix ocfs2 corrupt when updating journal superblock fails
-fee495b # 2016-07-26 # Eric Sandeen @ jbd2: don't write superblock when if its empty
-0e0733e # 2016-07-26 # Darrick J. Wong @ ext4: don't retry file block mapping on bigalloc fs with non-extent file
-0179371 # 2016-07-26 # Theodore Ts'o @ ext4: call sync_blockdev() before invalidate_bdev() in put_super()
-85fb3a8 # 2016-07-26 # Theodore Ts'o @ ext4: fix race between truncate and __ext4_journalled_writepage()
-516f0fb # 2016-07-26 # Eryu Guan @ ext4: check for zero length extent explicitly
-4473393 # 2016-07-26 # Davide Italiano @ ext4: move check under lock scope to close a race.
-5f8493d # 2016-07-26 # Stephen Boyd @ soc: qcom: rq_stats: Always show idle time left
-799252c # 2016-07-26 # Patrick Daly @ PM / Wakeup: Use rcu callbacks for better performance
-456a56c # 2016-07-26 # Waiman Long @ mutex: Move mutex spinning code from sched/core.c back to mutex.c
-8fb402bf # 2016-07-26 # Lance Poore @ SCHEDULER: Autogroup patch group by current user android UID instead of task ID
-14f51a4 # 2016-07-26 # Chester Kener @ block: Disable IO Stats
-24216e3 # 2016-07-26 # myfluxi @ arm: vfpmodule: Fix warning procfs vfp_bounce reporting failed
-0b8f519 # 2016-07-26 # Zdrowy Gosciu @ Version HM 22.6
-59b9a7f # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Moar logspam
-fb880c0 # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Correct message
-36b4a8a # 2016-07-26 # Zdrowy Gosciu @ input: touchscreen: g2: Switch to msleep before suspend check
-c3542d9 # 2016-07-25 # Zdrowy Gosciu @ Version HM 22.5
-2b9cac9 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Show me the BUF
-8531807 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Check suspend status before force suspend
-23c7fe3 # 2016-07-25 # Zdrowy Gosciu @ Version HM 22.2
-264d9df # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Increase screen state checking delay
-bcffc63 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Always force suspend in touch_gesture_wakeup_func
-040c70c # 2016-07-25 # Zdrowy Gosciu @ Version HM 22.1
-3f1d675 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Add logspam
-6ee9330 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Add delay and double check before forcing suspend mode
-c51e23b # 2016-07-25 # Zdrowy Gosciu @ Version HM 22.0
-0f9e67c # 2016-07-25 # Mark Rutland @ ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex
-9fa3c2b # 2016-07-25 # Mark Rutland @ ARM: 8128/1: abort: don't clear the exclusive monitors
-6bce133 # 2016-07-25 # Zdrowy Gosciu @ input: touchscreen: g2: Fix proximity check
+cf9ba3e # 2016-07-27 # Zdrowy Gosciu @ Version HM 23.6
+8dcd3d2 # 2016-07-27 # Zdrowy Gosciu @ Revert "Revert "arm: configs: g2: Enable CFG80211_ALLOW_RECONNECT""
 
-* Project packages/apps/CMFileManager/
-3d80dd5 # 2016-07-26 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/DeskClock/
-f0ab3bc # 2016-07-27 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
-f17d6ef # 2016-07-25 # Ankit Gupta @ Timer: Do not rotate Alert timer
-9e3567f # 2016-07-26 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
-21af6a7 # 2016-07-24 # blinky@build01 @ Automatic translation import
+* Project packages/apps/Bluetooth/
+2488c1a # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
+838da4a # 2016-07-28 # Marcos Marado @ Add epub to the list of filetypes to get and send
 
 * Project packages/apps/Dialer/
-5234f81 # 2016-07-26 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-d95a138 # 2016-07-24 # blinky@build01 @ Automatic translation import
+30d7ef7 # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+5848ab6 # 2016-07-27 # clyde@build01 @ Automatic translation import
+
+* Project packages/apps/Eleven/
+a6f204a # 2016-07-27 # Abhisek Devkota @ Merge "Eleven: fix possible NPE" into cm-13.0
 
 * Project packages/apps/Gello/
-39cb31b # 2016-07-25 # blinky@build01 @ Automatic translation import
-df2d427 # 2016-07-24 # blinky@build01 @ Automatic translation import
+34ad277 # 2016-07-28 # inky@build01 @ Automatic translation import
 
-* Project packages/apps/KernelAdiutor/
-8ea82d9 # 2016-07-27 # Zdrowy Gosciu @ VMFragment: Fix VFS Cache Pressure value
-
-* Project packages/apps/Messaging/
-e4d05e7 # 2016-07-25 # d34d @ Underp build
-fd22349 # 2016-07-25 # Bryan Owens @ Themes: Expose new hard coded colors for themes
-
-* Project packages/apps/Screencast/
-f419e0c # 2016-07-24 # blinky@build01 @ Automatic translation import
+* Project packages/apps/OmniSwitch/
+d2f97d0 # 2016-07-28 # maxwen @ OmniSwitch: disable all ListView and GridView selectors
+a5db0be # 2016-07-28 # maxwen @ OmniSwitch: add revert recents
 
 * Project packages/apps/Settings/
-a60f9d7 # 2016-07-27 # Janson Kang @ Build V10.2
-d50a0bf # 2016-07-27 # inky@build01 @ Automatic translation import
-258df0a # 2016-07-27 # Keith Mok @ Settings: Always set text value in color temperature
-eeb42e0 # 2016-07-26 # blinky@build01 @ Automatic translation import
-e12c835 # 2016-07-26 # blinky@build01 @ Automatic translation import
+447000b # 2016-07-29 # Janson Kang @ Build V10.3
+a1b3877 # 2016-07-29 # inky@build01 @ Automatic translation import
+a2688fe # 2016-07-29 # Luis Vidal @ ZenMode rules: Show days list in the correct order
+2fc43b7 # 2016-07-29 # Ricardo Cerqueira @ SimSettings: Make provisioning optional even if qti-telephony is present
+809a259 # 2016-07-28 # d34d @ Add SIM status string for localizing voice/data strings
+f960f5b # 2016-07-28 # clyde@build01 @ Automatic translation import
+4950140 # 2016-07-28 # Michael W @ Settings: Fix possible crash
+a95a580 # 2016-07-28 # Zhao Wei Liew @ Settings: Improve vibrator intensity dialog layout
 
 * Project packages/apps/SetupWizard/
-68d7153 # 2016-07-26 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
-739026a # 2016-07-25 # blinky@build01 @ Automatic translation import
-af36bfb # 2016-07-24 # blinky@build01 @ Automatic translation import
-249f0c5 # 2016-07-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
+52ffd33 # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
+aafff03 # 2016-07-27 # clyde@build01 @ Automatic translation import
 
 * Project packages/apps/SoundRecorder/
-42655b0 # 2016-07-25 # blinky@build01 @ Automatic translation import
+3a37d06 # 2016-07-27 # clyde@build01 @ Automatic translation import
 
-* Project packages/services/CMAudioService/
-b3cbad8 # 2016-07-25 # Roman Birg @ CMAudioService: initial brokered port from cmsdk
+* Project packages/inputmethods/LatinIME/
+c150b3a # 2016-07-28 # Ankit Gupta @ InputMethods: set the default value for preference
+
+* Project packages/providers/WeatherProvider/
+d947141 # 2016-07-28 # inky@build01 @ Automatic translation import
 
 * Project packages/services/Telephony/
-5caa26b # 2016-07-26 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-ce2ac52 # 2016-07-25 # blinky@build01 @ Automatic translation import
-b8cdd99 # 2016-07-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-89b872f # 2016-07-23 # Keith Mok @ Telephony: Fix voicemail preference issue
+665ac4f # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
+c3a8096 # 2016-07-27 # Michael W @ NetworkSelection: Cleanup
+ed75876 # 2016-07-27 # Michael W @ NetworkSelection: Fix for setting shortcut
+75915ed # 2016-07-27 # Michael W @ NetworkSelection: Fix double display of radio technology
 
 * Project system/core/
-52634a5 # 2016-07-27 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
-1576854 # 2016-07-26 # Steve Kondik @ sdcard: Pass the umask to sdcardfs correctly
-ffb7fb4 # 2016-07-24 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
-7f9b2ce # 2016-07-24 # Zhao Wei Liew @ sdcard: Fix sdcardFS check
-d63e675 # 2016-07-23 # Steve Kondik @ sdcard: Add support for sdcardfs!
+ba84767 # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
+4123d86 # 2016-07-28 # Steve Kondik @ healthd: Add DASH charger type
+
+* Project system/vold/
+f141689 # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_vold into cm-13.0
+89599b6 # 2016-07-27 # Steve Kondik @ vold: Allow reset after shutdown
 
 * Project vendor/cm/
-d857db4 # 2016-07-27 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-522c421 # 2016-07-26 # Steve Kondik @ sepolicy: A few more denials
-4a24ffe # 2016-07-25 # Steve Kondik @ sepolicy: More policy for sdcardfs
-beae861 # 2016-07-26 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-cdb0ea6 # 2016-07-25 # Roman Birg @ cm: include CMAudioService in builds
-005d47e # 2016-07-25 # Jason Riordan @ Movistar [ES] APN updates
-2a54220 # 2016-07-25 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-3110983 # 2016-07-24 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-d4a0f0a # 2016-07-24 # Steve Kondik @ sepolicy: Add rule to allow sdcardfs to read package list
-ba87877 # 2016-07-24 # Steve Kondik @ sepolicy: Add sdcardfs support
-6fed2cf # 2016-07-23 # Bruno Martins @ sepolicy: Allow batterymanager and batteryproperties services to be found
+a44b9b9 # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+630d7ed # 2016-07-28 # Luca Stefani @ cm: sepolicy: Allow system_server dir read access
+114dde3 # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+3b96ba5 # 2016-07-28 # Bruno Martins @ cm: extract_utils: Rewrite file existence checks
+b7b7f88 # 2016-07-28 # Steve Kondik @ extract_utils: Don't write multilib tags on 32-bit only devices
+a991cf1 # 2016-07-28 # Steve Kondik @ extract_utils: Add support for files in rootfs
+441752f # 2016-07-27 # Steve Kondik @ sepolicy: Allow media_rw write to fix camcorder denials
+6763f15 # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+73709d3 # 2016-07-27 # Marcos Marado @ Add missing truphone APNs
 
 * Project vendor/cmsdk/
-92f3f1a # 2016-07-27 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-7001c63 # 2016-07-26 # inky@build01 @ Automatic translation import
-e3992f2 # 2016-07-26 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-f42db22 # 2016-07-25 # blinky@build01 @ Automatic translation import
-16f0226 # 2016-07-25 # Bharadwaj Narasimha @ ThemeService:Component id is being changed for multiple entries in mixnmatch.
-705716f # 2016-07-25 # Roman Birg @ cmsdk: Broker out CMAudioService
+d0ba845 # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+544d324 # 2016-07-28 # inky@build01 @ Automatic translation import
+e190158 # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+8a3e6d3 # 2016-07-27 # clyde@build01 @ Automatic translation import

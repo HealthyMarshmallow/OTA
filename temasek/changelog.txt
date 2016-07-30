@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-07-27 @ 08:17:49 (1469607469)
+CHANGES AFTER 2016-07-29 @ 09:34:52 (1469784892)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,105 +6,69 @@ CHANGES AFTER 2016-07-27 @ 08:17:49 (1469607469)
            |_____|___  |______|______|
                  |_____|              
 
-* Project OTA/
-998b3ed # 2016-07-27 # Zdrowy Gosciu @ OTA: cm-13.0-20160727-081401-UNOFFICIAL-temasek-d802-V10.2
 
-* Project cts/
-3eab954 # 2016-07-28 # Daniel Xie @ Merge "DO NOT MERGE, re-apply, Adjust testAppFailAccessPrivateData to fail on non-tagged sockets" into marshmallow-cts-release
-3762c5d # 2016-07-28 # Mohamad Ayyash @ DO NOT MERGE, re-apply, Adjust testAppFailAccessPrivateData to fail on non-tagged sockets
+* Project /
+0000000 # 2016-07-30 # Zdrowy Gosciu @ hardware: display-caf: Use SultanXDA branch to fix camera issues
+0000000 # 2016-07-30 # Zdrowy Gosciu @ GoogleWebView: Use PureNexusProject branch
+
+* Project OTA/
+e61be98 # 2016-07-29 # Zdrowy Gosciu @ OTA: cm-13.0-20160729-092821-UNOFFICIAL-temasek-d802-V10.3
+
+* Project bionic/
+f28f3db # 2016-07-29 # Tom Marshall @ bionic: Sort and cache hosts file data for fast lookup
 
 * Project device/lge/g2-common/
-80798aa # 2016-07-28 # Jayachandran C @ g2-common: Enable persist.radio.no_wait_for_card to make RIL not wait for card
-3d5ed31 # 2016-07-28 # Zdrowy Gosciu @ g2-common: CM SDK: Set proximityCheckTimeout to 350 ms
-b5d5606 # 2016-07-28 # Zdrowy Gosciu @ Revert "g2-common: CM SDK: Decrease proximityCheckTimeout to 150 ms"
-1b77a4e # 2016-07-28 # Zdrowy Gosciu @ Revert "g2-common: init: power: ROW 1024 kB as default I/O scheduler"
-cf0ca6f # 2016-07-28 # Zdrowy Gosciu @ Revert "g2-common: init: Force legacy DHCP client"
-32a4ddc # 2016-07-28 # Zdrowy Gosciu @ g2-common: CM SDK: Decrease proximityCheckTimeout to 150 ms
-59dbb01 # 2016-07-27 # Zdrowy Gosciu @ g2-common: init: Force legacy DHCP client
-75542dc # 2016-07-27 # Zdrowy Gosciu @ g2-common: init: power: ROW 1024 kB as default I/O scheduler
+f228de5 # 2016-07-29 # Zdrowy Gosciu @ Revert "g2-common: Enable persist.radio.no_wait_for_card to make RIL not wait for card"
+aac8eeb # 2016-07-29 # Janson Kang @ g2-common: init: power: Set "Sweet Spot" for load switching
 
-* Project external/sepolicy/
-167c6dc # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_external_sepolicy into cm-13.0
+* Project external/chromium-webview/
+a83001e # 2016-07-29 # beanstown106 @ update webview 52.0.2743.91 (arm/arm64/x86)
 
 * Project frameworks/base/
-ed15c9c # 2016-07-29 # inky@build01 @ Automatic translation import
-7d73c17 # 2016-07-29 # Steve Kondik @ lights: Make sure the lights are out
-9c87cb4 # 2016-07-29 # d34d @ SysUI: Define config for showing screen on hints
-f37f0bb # 2016-07-28 # Steve Kondik @ mountservice: Shut down volumes before restarting framework
-4ce8261 # 2016-07-28 # clyde@build01 @ Automatic translation import
+f648cc1 # 2016-07-30 # SpiritCroc @ Slim recent: fix unknown window type error
+c3d0842 # 2016-07-30 # Steve Kondik @ mountservice: Don't nuke all volumes when decrypting
+5aefe71 # 2016-07-29 # Steve Kondik @ pm: Skip custom resolver use when mOnlyCore
+
+* Project frameworks/opt/telephony/
+c93c959 # 2016-07-29 # razorloves @ Fix for cellular data not connecting at boot up
 
 * Project kernel/lge/msm8974/
-cf9ba3e # 2016-07-27 # Zdrowy Gosciu @ Version HM 23.6
-8dcd3d2 # 2016-07-27 # Zdrowy Gosciu @ Revert "Revert "arm: configs: g2: Enable CFG80211_ALLOW_RECONNECT""
-
-* Project packages/apps/Bluetooth/
-2488c1a # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-838da4a # 2016-07-28 # Marcos Marado @ Add epub to the list of filetypes to get and send
-
-* Project packages/apps/Dialer/
-30d7ef7 # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-5848ab6 # 2016-07-27 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/Eleven/
-a6f204a # 2016-07-27 # Abhisek Devkota @ Merge "Eleven: fix possible NPE" into cm-13.0
+9492df1 # 2016-07-31 # Zdrowy Gosciu @ Version HM 24.1
+9a979e9 # 2016-07-31 # Prasad Sodagudi @ msm: rq_stats: Pass correct cpu id to update_average_load function
+90420a3 # 2016-07-31 # WANG Cong @ ppp: defer netns reference release for ppp channel
+4c1b211 # 2016-07-30 # Zdrowy Gosciu @ Version HM 24.0
+ec47068 # 2016-07-30 # Tyler Dunn @ msm: mdss: Rip out KCAL driver
+a142a92 # 2016-07-30 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+eb3a148 # 2016-07-30 # Carter Cooper @ msm: kgsl: Clear pending transactions from VBIF on hang
+4798c05 # 2016-07-30 # myfluxi @ arm/dts: msm8974: Disable second crypto device
+2d4a128 # 2016-07-29 # Zdrowy Gosciu @ Version HM 23.7
+d7a42ef # 2016-07-29 # Archana Sathyakumar @ msm: rpm-smd: Read RPM acks before entering system sleep
+44e615c # 2016-07-29 # Chester Kener @ block: Disable add_random
+35935b1 # 2016-07-29 # myfluxi @ crypto: msm: Update clock vote for improved performance
+06f8345 # 2016-07-29 # myfluxi @ msm: rpm_smd: Use spin_lock_irqsave in work function
+e09d89d # 2016-07-29 # Angelo G. Del Regno @ arm: DT: msm8974-gpu.dtsi: Update min-default adreno frequency to be 200MHz
 
 * Project packages/apps/Gello/
-34ad277 # 2016-07-28 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/OmniSwitch/
-d2f97d0 # 2016-07-28 # maxwen @ OmniSwitch: disable all ListView and GridView selectors
-a5db0be # 2016-07-28 # maxwen @ OmniSwitch: add revert recents
+be6327c # 2016-07-29 # Joey Rizzoli @ gello: unbreak the gellin'time
 
 * Project packages/apps/Settings/
-447000b # 2016-07-29 # Janson Kang @ Build V10.3
-a1b3877 # 2016-07-29 # inky@build01 @ Automatic translation import
-a2688fe # 2016-07-29 # Luis Vidal @ ZenMode rules: Show days list in the correct order
-2fc43b7 # 2016-07-29 # Ricardo Cerqueira @ SimSettings: Make provisioning optional even if qti-telephony is present
-809a259 # 2016-07-28 # d34d @ Add SIM status string for localizing voice/data strings
-f960f5b # 2016-07-28 # clyde@build01 @ Automatic translation import
-4950140 # 2016-07-28 # Michael W @ Settings: Fix possible crash
-a95a580 # 2016-07-28 # Zhao Wei Liew @ Settings: Improve vibrator intensity dialog layout
+74b1339 # 2016-07-30 # blinky@build01 @ Automatic translation import
 
-* Project packages/apps/SetupWizard/
-52ffd33 # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
-aafff03 # 2016-07-27 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/SoundRecorder/
-3a37d06 # 2016-07-27 # clyde@build01 @ Automatic translation import
-
-* Project packages/inputmethods/LatinIME/
-c150b3a # 2016-07-28 # Ankit Gupta @ InputMethods: set the default value for preference
+* Project packages/apps/Snap/
+95e8ebb # 2016-07-30 # Steve Kondik @ Snap: Unbreak auto-HDR
 
 * Project packages/providers/WeatherProvider/
-d947141 # 2016-07-28 # inky@build01 @ Automatic translation import
-
-* Project packages/services/Telephony/
-665ac4f # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
-c3a8096 # 2016-07-27 # Michael W @ NetworkSelection: Cleanup
-ed75876 # 2016-07-27 # Michael W @ NetworkSelection: Fix for setting shortcut
-75915ed # 2016-07-27 # Michael W @ NetworkSelection: Fix double display of radio technology
-
-* Project system/core/
-ba84767 # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
-4123d86 # 2016-07-28 # Steve Kondik @ healthd: Add DASH charger type
-
-* Project system/vold/
-f141689 # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_vold into cm-13.0
-89599b6 # 2016-07-27 # Steve Kondik @ vold: Allow reset after shutdown
+50d4702 # 2016-07-29 # blinky@build01 @ Automatic translation import
 
 * Project vendor/cm/
-a44b9b9 # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-630d7ed # 2016-07-28 # Luca Stefani @ cm: sepolicy: Allow system_server dir read access
-114dde3 # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-3b96ba5 # 2016-07-28 # Bruno Martins @ cm: extract_utils: Rewrite file existence checks
-b7b7f88 # 2016-07-28 # Steve Kondik @ extract_utils: Don't write multilib tags on 32-bit only devices
-a991cf1 # 2016-07-28 # Steve Kondik @ extract_utils: Add support for files in rootfs
-441752f # 2016-07-27 # Steve Kondik @ sepolicy: Allow media_rw write to fix camcorder denials
-6763f15 # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-73709d3 # 2016-07-27 # Marcos Marado @ Add missing truphone APNs
+598333c # 2016-07-30 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+fdd1ffc # 2016-07-29 # Abhisek Devkota @ Gello artifact: v29
+fb00ca6 # 2016-07-29 # Christopher N. Hesse @ Add missing OnePlus Two contributors
+833e113 # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+fa37074 # 2016-07-29 # Steve Kondik @ sepolicy: Let the IO prefetcher look at sdcardfs
+03ce400 # 2016-07-29 # Steve Kondik @ Revert "extract_utils: Don't write multilib tags on 32-bit only devices"
 
 * Project vendor/cmsdk/
-d0ba845 # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-544d324 # 2016-07-28 # inky@build01 @ Automatic translation import
-e190158 # 2016-07-28 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-8a3e6d3 # 2016-07-27 # clyde@build01 @ Automatic translation import
+fc2c758 # 2016-07-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+92fdd2b # 2016-07-29 # blinky@build01 @ Automatic translation import
+55c755a # 2016-07-29 # Arne Coucheron @ CMSettings: Add default overlay for forward and reverse lookup

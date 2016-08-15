@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-07-29 @ 09:34:52 (1469784892)
+CHANGES AFTER 2016-07-31 @ 18:25:29 (1469989529)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -8,67 +8,513 @@ CHANGES AFTER 2016-07-29 @ 09:34:52 (1469784892)
 
 
 * Project /
-0000000 # 2016-07-30 # Zdrowy Gosciu @ hardware: display-caf: Use SultanXDA branch to fix camera issues
-0000000 # 2016-07-30 # Zdrowy Gosciu @ GoogleWebView: Use PureNexusProject branch
+0000000 # 2016-08-15 # Zdrowy Gosciu @ hardware: display-caf: Go back to CM CAF
 
 * Project OTA/
-e61be98 # 2016-07-29 # Zdrowy Gosciu @ OTA: cm-13.0-20160729-092821-UNOFFICIAL-temasek-d802-V10.3
+757fa33 # 2016-08-15 # Zdrowy Gosciu @ OTA: HealthyMarshmallow 25.1
+338ca0f # 2016-07-31 # Zdrowy Gosciu @ OTA: cm-13.0-20160731-182037-UNOFFICIAL-temasek-d802-V10.3
+
+* Project android/
+a12a9c4 # 2016-08-12 # Steve Kondik @ Add HexoLibre to manifest!
+0e92681 # 2016-08-05 # Janson Kang @ Track own frameworks/opt/hardware
+589b087 # 2016-08-03 # d34d @ manifests: Add ThemeManagerService
+6fdadb9 # 2016-08-03 # Jessica Wagantall @ default.xml: cm: Update to 6.0.1_r61
 
 * Project bionic/
-f28f3db # 2016-07-29 # Tom Marshall @ bionic: Sort and cache hosts file data for fast lookup
+5201926 # 2016-08-05 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_bionic into cm-13.0
+9259508 # 2016-08-04 # Marcin Chojnacki @ linker: Avoid logcat spam with some blobs
+545862d # 2016-08-04 # Tom Marshall @ bionic: Sort and cache hosts file data for fast lookup
+
+* Project build/
+cb17251 # 2016-08-15 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+f63b642 # 2016-08-14 # Steve Kondik @ build: Source a CM-specific global BoardConfig
+222a1f5 # 2016-08-12 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+34dbd81 # 2016-08-12 # Janson Kang @ Revert "warn and continue if using wrong jdk"
+df03dd1 # 2016-08-11 # Zhao Wei Liew @ build: Allow all possible JDK editions by default
+c553bb2 # 2016-08-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+cbecec6 # 2016-08-08 # Tom Powell @ Revert "build: Allow building with Oracle JDK 8"
+a097018 # 2016-08-07 # Steve Kondik @ build: Allow building with Oracle JDK 8
+c2a93a3 # 2016-08-05 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+7143cae # 2016-08-04 # Caio Oliveira @ build: Readd msm7x27a to QCOM Targets
+b052cc9 # 2016-08-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+d5a160c # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
 
 * Project device/lge/g2-common/
-f228de5 # 2016-07-29 # Zdrowy Gosciu @ Revert "g2-common: Enable persist.radio.no_wait_for_card to make RIL not wait for card"
-aac8eeb # 2016-07-29 # Janson Kang @ g2-common: init: power: Set "Sweet Spot" for load switching
+8baeb4a # 2016-08-15 # Janson Kang @ g2-common: Enable C2D as the default compositor
+989b70e # 2016-08-15 # arter97 @ g2-common: Add L1/L2 cache size parameters optimizations
+4660ad0 # 2016-08-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+9ec5a87 # 2016-08-15 # duki994 @ g2-common: init: power: Tweaked ZEN as default I/O sched
+3b9f564 # 2016-08-15 # spezi77 @ g2-common: init: power: Speed up I/O
+2175ffb # 2016-08-15 # Zdrowy Gosciu @ g2-common: init: power: Use device GPU path
+7861377 # 2016-08-15 # Zdrowy Gosciu @ g2-common: init: power: Add GPU setup to power profiles
+3744110 # 2016-08-15 # spezi77 @ g2-common: init: power: Decrease GPU default frequency to 200 MHz to save energy
+ae10be6 # 2016-08-15 # Zdrowy Gosciu @ Revert "g2-common: Don't force 3 framebuffers"
+248b97b # 2016-08-12 # Nikola Majkić @ Revert "g2: include HexoLibre"
+63006d6 # 2016-08-12 # Nikola Majkić @ g2: include HexoLibre
+32a8321 # 2016-08-09 # Dan Pasanen @ g2: enable blur
+4d08d97 # 2016-08-08 # Rashed Abdel-Tawab @ Revert "Revert "g2: Disable offload""
+a3f5d64 # 2016-08-08 # Zdrowy Gosciu @ g2-common: CM SDK: Adjust proximityCheckTimeout to 350 ms
+3b74611 # 2016-08-08 # Zdrowy Gosciu @ g2-common: Add missing persist.sys.ssr.enable_debug
 
-* Project external/chromium-webview/
-a83001e # 2016-07-29 # beanstown106 @ update webview 52.0.2743.91 (arm/arm64/x86)
+* Project device/qcom/common/
+1a2515c # 2016-08-12 # Alberto97 @ power-8916: Simplify missed soc_id check in 9e40a0e
+b6d2e17 # 2016-08-05 # Paul Keith @ power: Undo video decode hint for ondemand
+6d70cd4 # 2016-08-04 # Zhao Wei Liew @ power: Simplify display_hint_sent
+a277d81 # 2016-08-04 # M1cha @ dtbtool: use O_TRUNC when writing to output file
+
+* Project device/qcom/sepolicy/
+d805fbc # 2016-08-05 # Steve Kondik @ sepolicy: Re-add legacy IOP rules
+091da82 # 2016-08-05 # Zhao Wei Liew @ Revert "SElinux policy rules addition for early audio feature"
+9d013af # 2016-08-05 # Steve Kondik @ sepolicy: Fix garbage in upstream commit
+7e91768 # 2016-08-05 # Lior Barenboim @ seandroid: allow QFP dameon access to Android services
+6e709b2 # 2016-08-05 # Sathish Ambley @ sepolicy: Add policy for VR service
+98fa20a # 2016-08-05 # Srikanth Chintala @ sepolicy: remove exec permission for radio
+88707c0 # 2016-08-05 # Sathish Ambley @ sepolicy: Add permissions for new dsp node
+9400d2f # 2016-08-05 # Kevin Tang @ Location: added media server access permission for test app
+40a865c # 2016-08-05 # Abhimanyu Garg @ SEPolicy: Update SePolicy for IOP
+43335cd # 2016-08-05 # Tholkappiyan Agaram Raghupathy @ SElinux policy rules addition for early audio feature
+242e02c # 2016-08-05 # Kuirong Wang @ sepolicy: add permissions for i2c-6 device
+e8b3230 # 2016-08-05 # Avinash Nalluri @ sepolicy : add inital rule to bootanimation.
+2bf358c # 2016-08-05 # Avinash Nalluri @ sepolicy: Add secontexts boot and persist.nativehmi.exit
+dc1abcd # 2016-08-05 # Trilokesh Rangam @ sepolicy : Allow bootkpi access to system apps and vold
+3825d73 # 2016-08-05 # taozhang @ common: add selinux policy for fastmmi
+53b3086 # 2016-08-05 # Puneet Mishra @ sepolicy: Policy for SmartcardService
+796761b # 2016-08-05 # Dedy Lansky @ sepolicy: allow fstman write permissions to wifi directory
+f1e1874 # 2016-08-04 # Abhimanyu Garg @ sepolicy: update iop socket path
+
+* Project external/libavc/
+6718ae7 # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
+
+* Project external/sepolicy/
+35c53a0 # 2016-08-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_external_sepolicy into cm-13.0
+c6c90b3 # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
+
+* Project external/sqlite/
+b4f2808 # 2016-08-13 # Janson Kang @ Upgrade to SQLite 3.14.1
+c2d73ed # 2016-08-09 # Janson Kang @ Upgrade to SQLite 3.14.0
+
+* Project external/wpa_supplicant_8/
+ea984e7 # 2016-08-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_external_wpa_supplicant_8 into cm-13.0
+a08fd9e # 2016-08-08 # Steve Kondik @ wpa_supplicant: Remove unnecessary QMI linkage
+
+* Project frameworks/av/
+c5c58d8 # 2016-08-11 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
+8d41a10 # 2016-08-10 # Danny Baumann @ mediascanner: Accept .opus file extension.
+2071f20 # 2016-08-10 # Ricardo Cerqueira @ stagefright: Remove the HAL3 limitation from the video reference clock selection
+a0049fc # 2016-08-10 # Chih-Hung Hsieh @ Fix google-explict-constructor warnings in radio.
+47c6774 # 2016-08-03 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
+aa98968 # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
 
 * Project frameworks/base/
-f648cc1 # 2016-07-30 # SpiritCroc @ Slim recent: fix unknown window type error
-c3d0842 # 2016-07-30 # Steve Kondik @ mountservice: Don't nuke all volumes when decrypting
-5aefe71 # 2016-07-29 # Steve Kondik @ pm: Skip custom resolver use when mOnlyCore
+4a9cd80 # 2016-08-15 # tao.pei @ am: Account for time changes when showing recent activities
+3f6423a # 2016-08-14 # blinky@build01 @ Automatic translation import
+4d14c0b # 2016-08-14 # Dave Kover @ Fix slow anim when using a gesture to open status bar pulldown
+674633a # 2016-08-14 # Janson Kang @ Revert "Speed up notification panel pulldown animation when called externally"
+c963424 # 2016-08-12 # Janson Kang @ Revert "Fix native memory leak caused by small HWUI path cache creation"
+1c030c7 # 2016-08-11 # Alexander Martinz @ [2/2] base: cm custom boot dexopt UI
+6c9119b # 2016-08-11 # Diogo Ferreira @ pm: resolver: Don't hold the lock when calling into the resolver
+16379ac # 2016-08-11 # Janson Kang @ Revert "BootMessage: Show each app name being optimized during boot"
+007add8 # 2016-08-11 # Janson Kang @ Revert "Bootmsg: The app name is now displayed in bold text."
+a51d511 # 2016-08-11 # Janson Kang @ Revert "PhoneWindowManager: Powered by arter97 optimizations :D:D:D"
+ee6c13a # 2016-08-10 # Bharadwaj Narasimha @ IconPackHelper:Use un-tinted iconback when no defaultSwatchcolor is specified
+1094477 # 2016-08-09 # caiqinl @ Fix native memory leak caused by small HWUI path cache creation
+65711ca # 2016-08-09 # Davor Bertovic @ Revert "Disable proximity check on power key properly"
+28a73b6 # 2016-08-09 # blinky@build01 @ Automatic translation import
+16d2490 # 2016-08-09 # Roman Birg @ framework: extend provision check to SEARCH intents
+765a5df # 2016-08-08 # westcripp @ Revert "am: Notify zygote of font change in ActivityManagerService" - Breaks font theme service This reverts commit 282c3a4294508a6cb21aee23779fb4173a4a5308.
+a265fb3 # 2016-08-07 # Max Weninger @ [1/3] base: make overlay permission check configurable
+c3613f2 # 2016-08-07 # Keith Mok @ Revert "Adding back pdf_printer_media_sizes for values-zh-rCN to accomodate mediasize_default"
+32a3f98 # 2016-08-05 # Scott Mertz @ bootanimation: add multithreaded decode
+872f59f # 2016-08-05 # Gavin Ni @ SystemUI: Display bluetooth battery status when available
+39fb34a # 2016-08-04 # Roman Birg @ framework: don't allow assist activities while not provisioned
+6345983 # 2016-08-03 # SpiritCroc @ Update Slim Recent App Sidebar (1/2)
+e327c96 # 2016-08-03 # d34d @ am: Notify zygote of font change in ActivityManagerService
+58f9631 # 2016-08-03 # d34d @ SysUI: Add theme manager permission
+5604c42 # 2016-08-03 # d34d @ Themes: Add permission to themes protected broadcasts
+12e0a7d # 2016-08-03 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
+402db5c # 2016-08-02 # Roman Birg @ SystemUI: avoid null tile creation
+b275452 # 2016-08-02 # inky@build01 @ Automatic translation import
+
+* Project frameworks/native/
+b53ad2b # 2016-08-08 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
+3b418d6 # 2016-08-05 # FPtje @ Fixed stylus eraser being rejected by palm rejection
+b519b68 # 2016-08-04 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
+542b068 # 2016-08-03 # Steve Kondik @ surfaceflinger: Fix uninitialized variable
+da998f4 # 2016-08-03 # Steve Kondik @ surfaceflinger: Unbreak casting and other use cases
+52b8462 # 2016-08-03 # Anjaneya Prasad Musunuri @ surfaceflinger: Add check for number of queued buffers
+3362d9b # 2016-08-03 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
+2ab013d # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
+b86bb46 # 2016-08-02 # dianlujitao @ sf: Fix compliation for non-8996 platforms
+193a8c9 # 2016-08-01 # Steve Kondik @ surfaceflinger: Isolate S3D code to msm8996 only
+534f857 # 2016-08-01 # Steve Kondik @ surfaceflinger: Cleanups for blur
+f5486d6 # 2016-07-31 # Tatenda Chipeperekwa @ sf: Allow HWC composition of virtual displays for HDMI primary
+537364c # 2016-07-31 # feifanz @ SF: Add support to draw S3D framebuffer target
+
+* Project frameworks/opt/hardware/
+45ef22e # 2016-08-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_hardware into cm-13.0
+105fbd1 # 2016-08-07 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_hardware into cm-13.0
+c11abf0 # 2016-08-05 # Steve Kondik @ cmhw: Add PictureAdjustment stubs - take deux
+91cb338 # 2016-08-05 # Michael Bestas @ Revert "cmhw: Add PictureAdjustment stubs"
+b1db61b # 2016-08-05 # Janson Kang @ Revert "cmhw: Add PictureAdjustment stubs"
+a8ef044 # 2016-07-31 # Steve Kondik @ cmhw: Add PictureAdjustment stubs
+
+* Project frameworks/opt/net/wifi/
+f70b279 # 2016-08-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_net_wifi into cm-13.0
+705773d # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
 
 * Project frameworks/opt/telephony/
-c93c959 # 2016-07-29 # razorloves @ Fix for cellular data not connecting at boot up
+65b0635 # 2016-08-05 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+6162b23 # 2016-08-04 # Ricardo Cerqueira @ DCT: Tear down MMS+default connections raised by config_enable_mms_with_mobile_data_off
+811bf08 # 2016-08-03 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+d8208c3 # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
+
+* Project hardware/cyanogen/
+ec15025 # 2016-08-08 # Steve Kondik @ cmhw: Add support for picture adjustment via LiveDisplay native API
+3c1ac73 # 2016-07-31 # Steve Kondik @ cmhw: Minor change to color balance API
+
+* Project hardware/qcom/media-caf/msm8974/
+052ff8f # 2016-08-02 # Praveen Chavan @ DO NOT MERGE mm-video-v4l2: venc: add checks before  accessing heap pointers
+0977dcf # 2016-08-02 # Wonsik Kim @ DO NOT MERGE Fix wrong nAllocLen
+
+* Project hardware/qcom/media/default/
+a1b4b98 # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
 
 * Project kernel/lge/msm8974/
-9492df1 # 2016-07-31 # Zdrowy Gosciu @ Version HM 24.1
-9a979e9 # 2016-07-31 # Prasad Sodagudi @ msm: rq_stats: Pass correct cpu id to update_average_load function
-90420a3 # 2016-07-31 # WANG Cong @ ppp: defer netns reference release for ppp channel
-4c1b211 # 2016-07-30 # Zdrowy Gosciu @ Version HM 24.0
-ec47068 # 2016-07-30 # Tyler Dunn @ msm: mdss: Rip out KCAL driver
-a142a92 # 2016-07-30 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-eb3a148 # 2016-07-30 # Carter Cooper @ msm: kgsl: Clear pending transactions from VBIF on hang
-4798c05 # 2016-07-30 # myfluxi @ arm/dts: msm8974: Disable second crypto device
-2d4a128 # 2016-07-29 # Zdrowy Gosciu @ Version HM 23.7
-d7a42ef # 2016-07-29 # Archana Sathyakumar @ msm: rpm-smd: Read RPM acks before entering system sleep
-44e615c # 2016-07-29 # Chester Kener @ block: Disable add_random
-35935b1 # 2016-07-29 # myfluxi @ crypto: msm: Update clock vote for improved performance
-06f8345 # 2016-07-29 # myfluxi @ msm: rpm_smd: Use spin_lock_irqsave in work function
-e09d89d # 2016-07-29 # Angelo G. Del Regno @ arm: DT: msm8974-gpu.dtsi: Update min-default adreno frequency to be 200MHz
+d4dc15b # 2016-08-15 # Zdrowy Gosciu @ arm: configs: g2: Don't print L2 master port errors
+5ee55d2 # 2016-08-15 # Zdrowy Gosciu @ Version HM 25.1
+a8dc03b # 2016-08-15 # gustavo @ Speed up console framebuffer imageblit function
+c504399 # 2016-08-15 # gustavo @ fbdev: Optimize kernel cfbfillrect function
+49552b7 # 2016-08-15 # Varun @ timer: Optimize apply_slack() for size and speed
+b06029b # 2016-08-15 # Arnaldo Carvalho de Melo @ UPSTREAM: net: Fix use after free in the recvmmsg exit path
+2944977 # 2016-08-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+d441bf5 # 2016-08-15 # Hendrik Hagendorn @ g2: Use interruptible waits to fix high load average
+5c450f2 # 2016-08-15 # Zdrowy Gosciu @ Revert "msm: mdss: Rip out KCAL driver"
+bbf5900 # 2016-08-11 # Karthikeyan Ramasubramanian @ net: ipc_router: Bind only a client port as control port
+7ac2be4 # 2016-08-11 # Sunil Khatri @ msm: kgsl: Defer adding the mem entry to a process
+32b384c # 2016-08-09 # Sunil Khatri @ ashmem: Validate ashmem memory with fops pointer
+
+* Project packages/apps/AudioFX/
+47248a0 # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/Bluetooth/
+3ab1836 # 2016-08-05 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
+2132084 # 2016-08-04 # Gavin Ni @ bluetooth: Broadcast battery status
+
+* Project packages/apps/CMFileManager/
+eef4e32 # 2016-08-07 # blinky@build01 @ Automatic translation import
+5d690dd # 2016-08-05 # Keith Mok @ Add ape file mimetype
+
+* Project packages/apps/Contacts/
+09dccf0 # 2016-08-13 # blinky@build01 @ Automatic translation import
+6063f78 # 2016-08-07 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/ContactsCommon/
+ec49830 # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/DeskClock/
+89d25a9 # 2016-08-14 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
+2412531 # 2016-08-13 # blinky@build01 @ Automatic translation import
+f7a078e # 2016-08-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
+0505c81 # 2016-08-07 # blinky@build01 @ Automatic translation import
+c158520 # 2016-08-02 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
+1332243 # 2016-07-31 # inky@build01 @ Automatic translation import
+
+* Project packages/apps/Dialer/
+6fec3d9 # 2016-08-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+863163b # 2016-08-07 # blinky@build01 @ Automatic translation import
+2a59f02 # 2016-08-02 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
+9144ad1 # 2016-07-31 # inky@build01 @ Automatic translation import
+
+* Project packages/apps/Eleven/
+4961f4e # 2016-08-03 # Danny Baumann @ Merge "handle media keys" into cm-13.0
+
+* Project packages/apps/Exchange/
+4758359 # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/Gallery2/
+a0ee497 # 2016-08-13 # Michael W @ Gallery: Remove more possible NPEs
 
 * Project packages/apps/Gello/
-be6327c # 2016-07-29 # Joey Rizzoli @ gello: unbreak the gellin'time
+8fb25f4 # 2016-08-13 # blinky@build01 @ Automatic translation import
+cf74c29 # 2016-08-12 # Abhisek Devkota @ Gello: Make incognito sentence fully translatable
+1772b98 # 2016-08-07 # blinky@build01 @ Automatic translation import
+e4bb564 # 2016-07-31 # inky@build01 @ Automatic translation import
+
+* Project packages/apps/InCallUI/
+6cb834f # 2016-08-05 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+
+* Project packages/apps/Messaging/
+8f1ecd7 # 2016-08-13 # blinky@build01 @ Automatic translation import
+84d9f82 # 2016-08-08 # d34d @ Clear avatar media cache on theme change
+3aaac3a # 2016-08-05 # Artem Shvadskiy @ Use app settings for conversation settings if no custom set
+
+* Project packages/apps/Nfc/
+72fb115 # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
+
+* Project packages/apps/OmniSwitch/
+11cf5b3 # 2016-08-08 # mweninge @ OmniSwitch: launcher: no ripple no fun
+6bcddc1 # 2016-08-08 # mweninge @ OmniSwitch: revert recent apps should not change order in quick switcher
+1d81e76 # 2016-08-08 # mweninge @ OmniSwitch: launcher: change essentials launch intents
+55ff5a3 # 2016-08-08 # maxwen @ OmniSwitch: launcher: dont force using a chooser for the set wallpaper intent
+bfcf7a5 # 2016-08-02 # maxwen @ OmniSwitch: handle overlay permission failures gracefully
+
+* Project packages/apps/PackageInstaller/
+99bc665 # 2016-08-07 # mweninge @ [3/3] PackageInstaller: make overlay permission check configurable
+acfc4f4 # 2016-08-03 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_packages_apps_PackageInstaller into cm-13.0
+96f551c # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
+
+* Project packages/apps/PhoneCommon/
+f3ceccc # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/Screencast/
+fff111e # 2016-08-07 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/Settings/
-74b1339 # 2016-07-30 # blinky@build01 @ Automatic translation import
+9d2fca8 # 2016-08-14 # blinky@build01 @ Automatic translation import
+391f652 # 2016-08-14 # Roman Birg @ Settings: move high touch sensitivity setting to Display
+32778fc # 2016-08-12 # xiaognol @ Settings:Fix mImsi null cause ApnSettings crash
+d17c6ee # 2016-08-12 # Scott Mertz @ Settings: remove wifi hotspot timeout when hotspot settings are removed
+4ee08d8 # 2016-08-12 # Adrian DC @ Settings: Show only one tab on PrivacyGuard direct access
+923b359 # 2016-08-12 # Adrian DC @ Settings: Root appops access in developer settings
+7ed948e # 2016-08-12 # Janson Kang @ Merge pull request #459 from Joshndroid/cm-13.0
+cac7796 # 2016-08-12 # beanstown106 @ Dynamically define currently installed vendor.img version *parse the vendor fingerprint for the vendor build id *automatically remove on devices without a vendor image
+6e574dc # 2016-08-11 # Janson Kang @ Build V10.8
+d550e54 # 2016-08-10 # Luis Vidal @ Settings: Animate pin/pattern fragment only if available
+537c723 # 2016-08-09 # Janson Kang @ Build V10.7
+1f7757e # 2016-08-09 # blinky@build01 @ Automatic translation import
+1e11566 # 2016-08-09 # Steve Kondik @ Revert "Settings: Add screen color settings"
+c7f5418 # 2016-08-09 # Steve Kondik @ livedisplay: Add picture adjustment settings
+1a02f63 # 2016-08-08 # Janson Kang @ Build V10.6
+efdcd28 # 2016-08-08 # Josh Chasky @ Revert "Fix NPE when rotating "Saved networks" screen"
+0a7f971 # 2016-08-08 # Randall Rushing @ Revert "do not include saved network in scan list"
+7e1faff # 2016-08-07 # Max Weninger @ [2/3] Settings: make overlay permission check configurable
+a10db3d # 2016-08-05 # Janson Kang @ Build V10.5
+bea7447 # 2016-08-05 # Sam Mortimer @ Allow restricted users to change status bar settings
+f215c1b # 2016-08-05 # Janson Kang @ Fix externally launching slim fragments
+373e697 # 2016-08-03 # Janson Kang @ Merge pull request #458 from Trafalgar-Square/patch-1
+7e579a2 # 2016-08-03 # Trafalgar-Square @ German translation
+ba13880 # 2016-08-03 # Janson Kang @ Build V10.4 - Android 6.0.1_r61
+9218bd6 # 2016-08-03 # SpiritCroc @ Update Slim Recent App Sidebar (2/2)
+d91eb9b # 2016-08-02 # inky@build01 @ Automatic translation import
+
+* Project packages/apps/SetupWizard/
+2c23c45 # 2016-08-12 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
+8331602 # 2016-08-11 # Ricardo Cerqueira @ If the device has FRP, prompt the user to set up a lockscreen
+ab82e06 # 2016-08-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
+3dce293 # 2016-08-07 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/Snap/
-95e8ebb # 2016-07-30 # Steve Kondik @ Snap: Unbreak auto-HDR
+4f3025c # 2016-08-15 # maxwen @ Snap: Remove storage menu if no external storage available
+82131cc # 2016-08-15 # blinky@build01 @ Automatic translation import
+ab8f695 # 2016-08-15 # Michael Bestas @ Snap: String improvements
+5e75fe7 # 2016-08-15 # Zhao Wei Liew @ Snap: Support 9.6 MP 16:9 picture resolution
+20a2163 # 2016-08-15 # blinky@build01 @ Automatic translation import
+f8287df # 2016-08-15 # Joey Rizzoli @ snap: fix untraslatables
+92482af # 2016-08-15 # Michael Bestas @ Revert "SnapdragonCamera: Fix AEC lock issue after non-zsl snapshot."
+7b52671 # 2016-08-15 # Steve Kondik @ snap: Add constrained longshot mode
+a9aa060 # 2016-08-15 # Steve Kondik @ snap: Additional fixes for auto-HDR mode
+aabba92 # 2016-08-15 # Steve Kondik @ snap: Fixes for advanced features and scene modes
+5e281ca # 2016-08-15 # Steve Kondik @ snap: Always turn touch-af-aec on
+4f9e7d2 # 2016-08-15 # Steve Kondik @ snap: Add missing resource
+9261d8e # 2016-08-15 # likaid @ SnapdragonCamera: Fix the advanced features relative toast issue
+8370c68 # 2016-08-15 # Likai Ding @ SnapdragonCamera: implement optizoom and chromaflash UI
+4364edb # 2016-08-15 # Byunghun Jeon @ SnapdragonCamera: Fix panorama cancel button location
+341fa9c # 2016-08-15 # Jay Wang @ SnapdragonCamera: Fix the issue that camera control is removed
+a7d7951 # 2016-08-15 # Jay Wang @ SnapdragonCamera: Add manufacture and model info
+17badaa # 2016-08-15 # Jay Wang @ SnapdragonCamera: adjust video recording duration margins
+e11f9ee # 2016-08-15 # Jay Wang @ SnapdragonCamera: Fix incorrect focus mode
+acda954 # 2016-08-15 # Jay Wang @ SnapdragonCamera: resolve touch af issue during countdown
+e65b734 # 2016-08-15 # Jay Wang @ SnapdragonCamera: Add support for outputting MPO format files
+756c528 # 2016-08-15 # Jack Yoo @ SnapdragonCamera: Removing unnecessary orientation check
+1c6e2f7 # 2016-08-15 # Jay Wang @ SnapdragonCamera: Fix viewfinder flashing issue in camcorder mode
+5c88c18 # 2016-08-15 # Jay Wang @ SnapdragonCamera: hide the preview surface during suspend
+b640dda # 2016-08-15 # Jay Wang @ SnapdragonCamera: Resolve camera control overlapping issue
+69c3b45 # 2016-08-15 # zfu @ Fix android.process.media got killed when capture
+0b30d86 # 2016-08-15 # Jay Wang @ SnapdragonCamera: Fix missing icon issue in error condition
+9274cce # 2016-08-15 # Byunghun Jeon @ SnapdragonCamera: Reset menu when device is rotated
+b33f343 # 2016-08-15 # Jay Wang @ SnapdragonCamera: fix null pointer exception
+235d826 # 2016-08-15 # Byunghun Jeon @ SnapdragonCamera: Fix menu highlight issue when rotating device
+c5b3171 # 2016-08-15 # Jack Yoo @ SnapdragonCamera: Adding null exception handler.
+2296bc7 # 2016-08-15 # Jack Yoo @ SnapdragonCamera: Register media status listener
+6f55813 # 2016-08-15 # Jack Yoo @ SnapdragonCamera: Removing filmstrip view touch handler
+179a4e6 # 2016-08-15 # Jack Yoo @ SnapdragonCamera: Adding current camera null check
+c4c0ee6 # 2016-08-15 # Jack Yoo @ SnapdragonCamera: Adding toast for media recording failure.
+63e26dc # 2016-08-15 # Camera Software Integration @ SnapdragonCamera: Improving Burstmode performance
+5c8533f # 2016-08-15 # Camera Software Integration @ SnapdragonCamera: Do not update panorama thumbnail when cancelled
+5745bce # 2016-08-15 # Byunghun Jeon @ SnapdragonCamera: Fix crash issue with enable FD with TruePortrait
+ed31a35 # 2016-08-15 # Jack Yoo @ VideoModule: Removing tmpPath and use path
+d63e7a3 # 2016-08-15 # Sanjeev Garg @ SnapdragonCamera: Handle startPreview exception in camera.
+1745f0e # 2016-08-15 # likaid @ SnapdragonCamera: Fix to make back key event work normally
+95155ca # 2016-08-15 # Byunghun Jeon @ SnapdragonCamera: Reset navigation bar state whenever screen turns on
+98f3b00 # 2016-08-15 # Jay Wang @ SnapdragonCamera: Always enable FD with TruePortrait on
+5dd316a # 2016-08-15 # likaid @ SnapdragonCamera: Fix progress indicator overlapped by thumbnail icon
+e6bbef1 # 2016-08-15 # likaid @ SnapdragonCamera: Fix the preview thumbnail issue
+46c6ec3 # 2016-08-15 # likaid @ SnapdragonCamera: Fix not able to view other pictures when macro mode
+e569431 # 2016-08-15 # likaid @ SnapdragonCamera: Reduce the latency for panorama preview starting
+4c442c4 # 2016-08-15 # Sai Kumar Sanagavarapu @ SnapdragonCamera: Limit preview size by capping display dimensions.
+32424e4 # 2016-08-15 # Likai Ding @ SnapdragonCamera: add button border
+56e6ca8 # 2016-08-15 # likaid @ SnapdragonCamera: Fix app freeze when connect to camera failed
+7dd992b # 2016-08-15 # Divya Sharma @ SnapdragonCamera: Use StorageManager for SDCard
+3ef3cab # 2016-08-15 # likaid @ SnapdragonCamera: Fix display smaller thumbnail on panorama preview
+21d3901 # 2016-08-15 # Krupal Divvela @ SnapdragonCamera: Fix FD roll_dir issue
+592ccaa # 2016-08-15 # Jay Wang @ SnapdragonCamera: Reduce number of countdown timer option
+58b4ee2 # 2016-08-15 # Likai Ding @ SnapdragonCamera: limit AF animation FPS
+c2fe98d # 2016-08-15 # Likai Ding @ SnapdragonCamera: fix crash after photo deletion
+c25827a # 2016-08-15 # likaid @ SnapdragonCamera: Fix app crash when taking longshot during countdown
+38b3012 # 2016-08-15 # likaid @ SnapdragonCamera: Fix app auto close when repeat plug in/out USB cable
+d121f27 # 2016-08-15 # Guruprasad Gaonkar @ SnapDragon: Changes to fix popup menu issue in camcorder
+113b57d # 2016-08-15 # likaid @ SnapdragonCamera: fix camera FC when internal storage isn't enough
+b0ed431 # 2016-08-15 # Likai Ding @ SnapdragonCamera: fix crash with persist.panel.orientation
+63387be # 2016-08-15 # Likai Ding @ SnapdragonCamera: fix a panorama memory leak
+742979c # 2016-08-15 # Santhosh Kumar H E @ SnapdragonCamera: Fix face detection UI offset
+8b1eb86 # 2016-08-15 # Sai Kumar Sanagavarapu @ SnapdragonCamera: Fix AEC lock issue after non-zsl snapshot.
+630b938 # 2016-08-15 # Jay Wang @ SnapdragonCamera: Disable continuous shot when HDR is enabled
+9915b6a # 2016-08-15 # Guruprasad Gaonkar @ SnapDragan: Changes to enable UI option for ASD mode.
+3e2e0a5 # 2016-08-15 # Jay Wang @ SnapdragonCamera: Fix the issue that IS is not disabled
+94bddab # 2016-08-15 # Shwetha Kotekar @ SnapdragonCamera: Disable CDS and TNR if SeeMore is enabled
+
+* Project packages/apps/SoundRecorder/
+946fee3 # 2016-08-07 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/ThemeChooser/
+dd53b04 # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/TvSettings/
+514c721 # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/inputmethods/LatinIME/
+fa3518f # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/providers/BookmarkProvider/
+be42e53 # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/providers/CalendarProvider/
+4066adb # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/providers/CallLogProvider/
+ba2ea00 # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/providers/DataUsageProvider/
+51d9963 # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/providers/TelephonyProvider/
+95a055b # 2016-08-14 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
+490a177 # 2016-08-13 # blinky@build01 @ Automatic translation import
+d79b363 # 2016-08-12 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
+65f7537 # 2016-07-31 # Aaron Knight @ TelephonyProvider: Fix Default APN Preference Overlay on 1st Boot
 
 * Project packages/providers/WeatherProvider/
-50d4702 # 2016-07-29 # blinky@build01 @ Automatic translation import
+3ffc294 # 2016-07-31 # inky@build01 @ Automatic translation import
+
+* Project packages/services/CMAudioService/
+4f029e0 # 2016-08-13 # blinky@build01 @ Automatic translation import
+2087f64 # 2016-08-11 # Roman Birg @ CMAudioService: sign with private keys if available
+1127d85 # 2016-08-11 # Asher Simonds @ CMAudioService: add icons
+8ce29f0 # 2016-08-07 # blinky@build01 @ Automatic translation import
+
+* Project packages/services/LiveLockScreenService/
+675cedc # 2016-08-11 # Asher Simonds @ LiveLockscreenService: add icons
+
+* Project packages/services/Telecomm/
+6321938 # 2016-08-14 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telecomm into cm-13.0
+7ee39a5 # 2016-08-13 # blinky@build01 @ Automatic translation import
+81a398e # 2016-08-05 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telecomm into cm-13.0
+
+* Project packages/services/Telephony/
+ae130d6 # 2016-08-14 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
+a686e01 # 2016-08-13 # blinky@build01 @ Automatic translation import
+b1c32b8 # 2016-08-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
+86fd10b # 2016-08-07 # blinky@build01 @ Automatic translation import
+add7e10 # 2016-08-05 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
+d2c1ea5 # 2016-08-04 # Aaron Knight @ MobileNetworkSettings: Check CarrierConfig on isWorldMode
+
+* Project packages/services/ThemeManagerService/
+93d9504 # 2016-08-13 # blinky@build01 @ Automatic translation import
+1e9e7cd # 2016-08-11 # Asher Simonds @ ThemeManager: add icon
+cdfcad6 # 2016-08-07 # blinky@build01 @ Automatic translation import
+256ba47 # 2016-08-01 # d34d @ Initial code checkin
+
+* Project packages/themes/HexoLibre/
+e9a9feb # 2016-08-12 # Steve Kondik @ Remove custom package signature
+792b24b # 2016-08-12 # Dave Kover @ Remove device specific assignments.
+ecccbb5 # 2016-08-11 # Steve Kondik @ Remove extra metadata
+1c82089 # 2016-08-11 # Steve Kondik @ hexolibre: Fix strings
+f61ab04 # 2016-08-11 # Steve Kondik @ VIVA LA HEXOLIBRE!
+
+* Project packages/wallpapers/LivePicker/
+39dc141 # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project packages/wallpapers/MagicSmoke/
+b204d0b # 2016-08-13 # blinky@build01 @ Automatic translation import
+
+* Project system/bt/
+96ae695 # 2016-08-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_bt into cm-13.0
+ccde045 # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
+
+* Project system/core/
+34f4365 # 2016-08-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
+4a978c6 # 2016-08-02 # Jessica Wagantall @ Merge tag 'android-6.0.1_r61' into HEAD
 
 * Project vendor/cm/
-598333c # 2016-07-30 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-fdd1ffc # 2016-07-29 # Abhisek Devkota @ Gello artifact: v29
-fb00ca6 # 2016-07-29 # Christopher N. Hesse @ Add missing OnePlus Two contributors
-833e113 # 2016-07-29 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-fa37074 # 2016-07-29 # Steve Kondik @ sepolicy: Let the IO prefetcher look at sdcardfs
-03ce400 # 2016-07-29 # Steve Kondik @ Revert "extract_utils: Don't write multilib tags on 32-bit only devices"
+387305f # 2016-08-15 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+e73b8c1 # 2016-08-15 # Steve Kondik @ cm: Allow LiveDisplay to write to display misc dir
+e91605c # 2016-08-14 # Adrian DC @ cm: charger: Export the RTC Clock and Alarm timestamps
+cadd0be # 2016-08-14 # Adrian DC @ cm: charger: Add support for double backlight displays
+d12d40b # 2016-08-15 # Janson Kang @ Revert "config: Add WeatherManagerService to PRODUCT_PACKAGES"
+8d3e2e6 # 2016-08-15 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+7595620 # 2016-08-14 # Steve Kondik @ cm: Add custom off-mode charging screen
+48f8df8 # 2016-08-14 # Steve Kondik @ extract-utils: Add pinning support
+049d4c5 # 2016-08-13 # Luis Vidal @ config: Add WeatherManagerService to PRODUCT_PACKAGES
+31125bc # 2016-08-11 # Steve Kondik @ cm: Build HexoLibre as part of common_full
+0e9838e # 2016-08-10 # Ziyan @ contributors: update Galaxy Nexus maintainers
+8e9bf1c # 2016-08-10 # Adrian DC @ cm: Update Xperia Blue contributor
+ce0a83a # 2016-08-10 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+eac8616 # 2016-08-09 # Steve Kondik @ sepolicy: Move new QCOM-specific policy to the right place
+695984c # 2016-08-09 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+dfcd472 # 2016-08-07 # Steve Kondik @ sepolicy: Additional policy for LiveDisplay
+5b7c525 # 2016-08-07 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+a995059 # 2016-08-05 # Scott Mertz @ Allow maintenance versions to be ignored
+9590e2f # 2016-08-05 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+a516c2f # 2016-08-05 # Louis Popi @ cm: extract_utils: Add a firmware extraction method
+3a03012 # 2016-08-05 # Luca Stefani @ cm: extract_utils: Fixup xml files
+7f9fff2 # 2016-08-05 # Luca Stefani @ cm: extract_utils: Implement oat2dex
+463feb6 # 2016-08-05 # Adrian DC @ cm: sepolicy: Fix the vold blkid.tab denial from recovery
+ce489f1 # 2016-08-04 # vm03 @ Add LG msm8226 family maintainers
+fea2dc9 # 2016-08-04 # vm03 @ Add Asus Z380KL maintainer
+79204e6 # 2016-08-03 # Jessica Wagantall @ version: Set version string to 13.0.1 to reflect security update
+19b67c6 # 2016-08-03 # DodoGTA GT @ Tele2 (LT) APN updates
+851457a # 2016-08-02 # d34d @ config: Add ThemeManagerService to PRODUCT_PACKAGES
+79eda9e # 2016-08-02 # d34d @ sepolicy: Put theme service in its own context
+1fe46c1 # 2016-08-02 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+7f81f3c # 2016-08-01 # TheStrix @ cm: Update contributors
+cd726ac # 2016-08-01 # Steve Kondik @ sepolicy: More IOP rules
+0c2c311 # 2016-08-01 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
 
 * Project vendor/cmsdk/
-fc2c758 # 2016-07-30 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-92fdd2b # 2016-07-29 # blinky@build01 @ Automatic translation import
-55c755a # 2016-07-29 # Arne Coucheron @ CMSettings: Add default overlay for forward and reverse lookup
+c00b1d6 # 2016-08-15 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+e1ba940 # 2016-08-14 # Danesh M @ CMSDK : Fix generateAlertColorFromDrawable for non BitmapDrawable
+c5c621b # 2016-08-14 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+4ceac56 # 2016-08-13 # blinky@build01 @ Automatic translation import
+c487191 # 2016-08-12 # Luis Vidal @ CMSDK: Broker out WeatherManagerService
+396caeb # 2016-08-12 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+da1776a # 2016-08-11 # Roman Birg @ cmsdk: allow MANAGE_AUDIO_SESSIONS to be whitelisted
+5785491 # 2016-08-11 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+6e5ab27 # 2016-08-10 # Alexander Martinz @ [1/2] cmsdk: cm custom boot dexopt UI
+db640a9 # 2016-08-10 # Steve Kondik @ livedisplay: Float-to-string conversions considered harmful
+80903f6 # 2016-08-10 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+c0dd46d # 2016-08-09 # Danny Baumann @ Introduce a hysteresis for outdoor condition determination.
+f8ed92a # 2016-08-09 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+d62a53f # 2016-08-08 # blinky@build01 @ Automatic translation import
+87590f0 # 2016-08-08 # Steve Kondik @ cmsdk/livedisplay: Add support for picture adjustment
+d270b72 # 2016-08-05 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+3e7dac1 # 2016-08-04 # Steve Kondik @ cmhw: Add support for display mode remapping
+19345cb # 2016-08-04 # Steve Kondik @ livedisplay: Enable by default
+ca6c5ef # 2016-08-03 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+c4ed8c8 # 2016-08-02 # d34d @ Themes: Broker the theme service
+44cbd4e # 2016-08-02 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+4cf18a3 # 2016-08-01 # Steve Kondik @ livedisplay: Tweak defaults
+7bf7c4b # 2016-08-01 # Steve Kondik @ cmsdk: Allow services to conditionally start before decryption
+fa227b1 # 2016-07-31 # inky@build01 @ Automatic translation import
+
+* Project vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+afe47bc # 2016-08-14 # Luis Vidal @ Refactor OpenWeatherMap weather provider service

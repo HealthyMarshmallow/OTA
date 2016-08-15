@@ -8,9 +8,25 @@ CHANGES AFTER 2016-07-29 @ 09:34:52 (1469784892)
 
 
 * Project device/lge/g2-common/
+9ec5a87 # 2016-08-15 # duki994 @ g2-common: init: power: Tweaked ZEN as default I/O sched
+3b9f564 # 2016-08-15 # spezi77 @ g2-common: init: power: Speed up I/O
+2175ffb # 2016-08-15 # Zdrowy Gosciu @ g2-common: init: power: Use device GPU path
+7861377 # 2016-08-15 # Zdrowy Gosciu @ g2-common: init: power: Add GPU setup to power profiles
+3744110 # 2016-08-15 # spezi77 @ g2-common: init: power: Decrease GPU default frequency to 200 MHz to save energy
 aac8eeb # 2016-07-29 # Janson Kang @ g2-common: init: power: Set "Sweet Spot" for load switching
 
 * Project kernel/lge/msm8974/
+5ee55d2 # 2016-08-15 # Zdrowy Gosciu @ Version HM 25.1
+a8dc03b # 2016-08-15 # gustavo @ Speed up console framebuffer imageblit function
+c504399 # 2016-08-15 # gustavo @ fbdev: Optimize kernel cfbfillrect function
+49552b7 # 2016-08-15 # Varun @ timer: Optimize apply_slack() for size and speed
+b06029b # 2016-08-15 # Arnaldo Carvalho de Melo @ UPSTREAM: net: Fix use after free in the recvmmsg exit path
+2944977 # 2016-08-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+d441bf5 # 2016-08-15 # Hendrik Hagendorn @ g2: Use interruptible waits to fix high load average
+5c450f2 # 2016-08-15 # Zdrowy Gosciu @ Revert "msm: mdss: Rip out KCAL driver"
+bbf5900 # 2016-08-11 # Karthikeyan Ramasubramanian @ net: ipc_router: Bind only a client port as control port
+7ac2be4 # 2016-08-11 # Sunil Khatri @ msm: kgsl: Defer adding the mem entry to a process
+32b384c # 2016-08-09 # Sunil Khatri @ ashmem: Validate ashmem memory with fops pointer
 9492df1 # 2016-07-31 # Zdrowy Gosciu @ Version HM 24.1
 9a979e9 # 2016-07-31 # Prasad Sodagudi @ msm: rq_stats: Pass correct cpu id to update_average_load function
 90420a3 # 2016-07-31 # WANG Cong @ ppp: defer netns reference release for ppp channel

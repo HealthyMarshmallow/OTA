@@ -16,6 +16,16 @@ CHANGES AFTER 2016-07-29 @ 09:34:52 (1469784892)
 aac8eeb # 2016-07-29 # Janson Kang @ g2-common: init: power: Set "Sweet Spot" for load switching
 
 * Project kernel/lge/msm8974/
+0e3bc8c # 2016-08-15 # Zdrowy Gosciu @ Version HM 25.5
+13096e5 # 2016-08-15 # Zdrowy Gosciu @ arm: configs: g2: Enable advanced TCP congestion control algorithms
+17e692e # 2016-08-15 # Neal Cardwell @ tcp_yeah: don't set ssthresh below 2
+44753c2 # 2016-08-15 # franciscofranco @ bcmdhd: Halve rx and ctrl wakelock timeout by half
+a925f2b # 2016-08-15 # franciscofranco @ sched/fair: rq might've been uninitialized, so fix it
+d4ad0a7 # 2016-08-15 # franciscofranco @ sched/balancing: Reduce the rate of needless idle load balancing
+1a62825 # 2016-08-15 # franciscofranco @ sched/fair: Stop searching for tasks in newidle balance if there are runnable tasks
+38dfc0d # 2016-08-15 # Steve Kondik @ sched: Fix race in idle_balance()
+f713fbfb # 2016-08-15 # Peter Zijlstra @ sched: Remove stale power aware scheduling remnants and dysfunctional knobs
+d4dc15b # 2016-08-15 # Zdrowy Gosciu @ arm: configs: g2: Don't print L2 master port errors
 5ee55d2 # 2016-08-15 # Zdrowy Gosciu @ Version HM 25.1
 a8dc03b # 2016-08-15 # gustavo @ Speed up console framebuffer imageblit function
 c504399 # 2016-08-15 # gustavo @ fbdev: Optimize kernel cfbfillrect function

@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-07-29 @ 09:34:52 (1469784892)
+CHANGES AFTER 2016-08-15 @ 12:01:14 (1471262474)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,15 +7,22 @@ CHANGES AFTER 2016-07-29 @ 09:34:52 (1469784892)
                  |_____|              
 
 
-* Project device/lge/g2-common/
-9ec5a87 # 2016-08-15 # duki994 @ g2-common: init: power: Tweaked ZEN as default I/O sched
-3b9f564 # 2016-08-15 # spezi77 @ g2-common: init: power: Speed up I/O
-2175ffb # 2016-08-15 # Zdrowy Gosciu @ g2-common: init: power: Use device GPU path
-7861377 # 2016-08-15 # Zdrowy Gosciu @ g2-common: init: power: Add GPU setup to power profiles
-3744110 # 2016-08-15 # spezi77 @ g2-common: init: power: Decrease GPU default frequency to 200 MHz to save energy
-aac8eeb # 2016-07-29 # Janson Kang @ g2-common: init: power: Set "Sweet Spot" for load switching
-
 * Project kernel/lge/msm8974/
+5e11286 # 2016-08-16 # Zdrowy Gosciu @ Version HM 26.6
+4e43d42 # 2016-08-16 # Zdrowy Gosciu @ arm: configs: g2: Set TCP CUBIC as default
+f04ac6c # 2016-08-16 # Zdrowy Gosciu @ Revert "bcmdhd: Halve rx and ctrl wakelock timeout by half"
+0f4a937 # 2016-08-16 # Scott Mertz @ arm: configs: g2: Enable SECURITY_PERF_EVENTS_RESTRICT
+562e96f # 2016-08-16 # Jeff Vander Stoep @ FROMLIST: security,perf: Allow further restriction of perf_event_open
+835f296 # 2016-08-16 # Ben Hutchings @ BACKPORT: perf tools: Document the perf sysctls
+193a16d # 2016-08-16 # Weijie Yang @ lowmemorykiller: Set TIF_MEMDIE before send kill sig
+47dbf15 # 2016-08-15 # Zdrowy Gosciu @ Version HM 26.1
+97ec48a # 2016-08-15 # Slim80 @ mmc: Disable CRC check for 30% extra performance
+79c236d # 2016-08-15 # Jan Kara @ block: Reserve only one queue tag for sync IO if only 3 tags are available
+a23820a # 2016-08-15 # Fengguang Wu @ readahead: make context readahead more conservative
+614cb37 # 2016-08-15 # Namjae Jeon @ writeback: fix writeback cache thrashing
+6034cb8 # 2016-08-15 # Junxiao Bi @ writeback: fix race that cause writeback hung
+42cd7f5 # 2016-08-15 # flar2 @ AIO: Don't plug the I/O queue in do_io_submit()
+000a8ea # 2016-08-15 # Jeff Liu @ binfmt_elf.c: use get_random_int() to fix entropy depleting
 0e3bc8c # 2016-08-15 # Zdrowy Gosciu @ Version HM 25.5
 13096e5 # 2016-08-15 # Zdrowy Gosciu @ arm: configs: g2: Enable advanced TCP congestion control algorithms
 17e692e # 2016-08-15 # Neal Cardwell @ tcp_yeah: don't set ssthresh below 2
@@ -25,29 +32,3 @@ d4ad0a7 # 2016-08-15 # franciscofranco @ sched/balancing: Reduce the rate of nee
 1a62825 # 2016-08-15 # franciscofranco @ sched/fair: Stop searching for tasks in newidle balance if there are runnable tasks
 38dfc0d # 2016-08-15 # Steve Kondik @ sched: Fix race in idle_balance()
 f713fbfb # 2016-08-15 # Peter Zijlstra @ sched: Remove stale power aware scheduling remnants and dysfunctional knobs
-d4dc15b # 2016-08-15 # Zdrowy Gosciu @ arm: configs: g2: Don't print L2 master port errors
-5ee55d2 # 2016-08-15 # Zdrowy Gosciu @ Version HM 25.1
-a8dc03b # 2016-08-15 # gustavo @ Speed up console framebuffer imageblit function
-c504399 # 2016-08-15 # gustavo @ fbdev: Optimize kernel cfbfillrect function
-49552b7 # 2016-08-15 # Varun @ timer: Optimize apply_slack() for size and speed
-b06029b # 2016-08-15 # Arnaldo Carvalho de Melo @ UPSTREAM: net: Fix use after free in the recvmmsg exit path
-2944977 # 2016-08-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-d441bf5 # 2016-08-15 # Hendrik Hagendorn @ g2: Use interruptible waits to fix high load average
-5c450f2 # 2016-08-15 # Zdrowy Gosciu @ Revert "msm: mdss: Rip out KCAL driver"
-bbf5900 # 2016-08-11 # Karthikeyan Ramasubramanian @ net: ipc_router: Bind only a client port as control port
-7ac2be4 # 2016-08-11 # Sunil Khatri @ msm: kgsl: Defer adding the mem entry to a process
-32b384c # 2016-08-09 # Sunil Khatri @ ashmem: Validate ashmem memory with fops pointer
-9492df1 # 2016-07-31 # Zdrowy Gosciu @ Version HM 24.1
-9a979e9 # 2016-07-31 # Prasad Sodagudi @ msm: rq_stats: Pass correct cpu id to update_average_load function
-90420a3 # 2016-07-31 # WANG Cong @ ppp: defer netns reference release for ppp channel
-4c1b211 # 2016-07-30 # Zdrowy Gosciu @ Version HM 24.0
-ec47068 # 2016-07-30 # Tyler Dunn @ msm: mdss: Rip out KCAL driver
-a142a92 # 2016-07-30 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-eb3a148 # 2016-07-30 # Carter Cooper @ msm: kgsl: Clear pending transactions from VBIF on hang
-4798c05 # 2016-07-30 # myfluxi @ arm/dts: msm8974: Disable second crypto device
-2d4a128 # 2016-07-29 # Zdrowy Gosciu @ Version HM 23.7
-d7a42ef # 2016-07-29 # Archana Sathyakumar @ msm: rpm-smd: Read RPM acks before entering system sleep
-44e615c # 2016-07-29 # Chester Kener @ block: Disable add_random
-35935b1 # 2016-07-29 # myfluxi @ crypto: msm: Update clock vote for improved performance
-06f8345 # 2016-07-29 # myfluxi @ msm: rpm_smd: Use spin_lock_irqsave in work function
-e09d89d # 2016-07-29 # Angelo G. Del Regno @ arm: DT: msm8974-gpu.dtsi: Update min-default adreno frequency to be 200MHz

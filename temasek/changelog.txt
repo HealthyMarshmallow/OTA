@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-08-16 @ 09:28:53 (1471339733)
+CHANGES AFTER 2016-08-17 @ 09:58:15 (1471427895)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,85 +7,38 @@ CHANGES AFTER 2016-08-16 @ 09:28:53 (1471339733)
                  |_____|              
 
 * Project OTA/
-39a8d29 # 2016-08-16 # Zdrowy Gosciu @ OTA: cm-13.0-20160816-092536-UNOFFICIAL-temasek-d802-V10.9
+05a00d3 # 2016-08-17 # Zdrowy Gosciu @ OTA: cm-13.0-20160817-095058-UNOFFICIAL-temasek-d802-V10.9
 
 * Project device/lge/d802/
-ca8d497 # 2016-08-17 # Zdrowy Gosciu @ d802: Move FB overlay blur config to device repo (1/2)
-17896e4 # 2016-08-17 # Zdrowy Gosciu @ d802: Move Power HAL setup to device repo (1/2)
-2c92abd # 2016-08-16 # Zdrowy Gosciu @ d802: Add makefile for Turbo ROM
-686fdfd # 2016-08-16 # Zdrowy Gosciu @ d802: Add config_proximityCheckOnWake FB overlay
+b0d27bd # 2016-08-17 # Zdrowy Gosciu @ d802: CM: Disable blurred lockscreen
 
 * Project device/lge/g2-common/
-d9953f0 # 2016-08-17 # Zdrowy Gosciu @ g2-common: Move FB overlay blur config to device repo (2/2)
-3b6d141 # 2016-08-17 # Zdrowy Gosciu @ g2-common: Move Power HAL setup to device repo (2/2)
-a57a3cb # 2016-08-16 # Zdrowy Gosciu @ g2-common: init: power: Increase max GPU frequency
-60e0b3b # 2016-08-16 # Zdrowy Gosciu @ g2-common: Enable C2D composition in copybit
-79bdd19 # 2016-08-16 # Zdrowy Gosciu @ g2-common: init: power: Remove VM tweaks
-99b7300 # 2016-08-16 # Zdrowy Gosciu @ g2-common: init: power: Disable gentle fair sleepers
-8951328 # 2016-08-16 # Zdrowy Gosciu @ g2-common: init: power: Speed up interactive GOV + I/O scheduler
-40a8a95 # 2016-08-16 # Zdrowy Gosciu @ g2-common: Remove config_deviceHardwareWakeKeys
+c580da3 # 2016-08-17 # Zdrowy Gosciu @ Revert "g2-common: gps: Enable intermediate position report"
 
-* Project frameworks/base/
-9de1560 # 2016-08-17 # artefvck @ SystemUI: Fix build without jack
+* Project frameworks/native/
+d3460b1 # 2016-08-18 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
+05ed8dc # 2016-08-18 # Janson Kang @ Revert "Revert "dalvik: rework 3 and 4-GB dalvik heap configurations""
+2a2b06d # 2016-08-17 # Abhisek Devkota @ Fix xxxhdpi 3072 heap sizes
 
 * Project frameworks/opt/net/wifi/
-6c37208 # 2016-08-17 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_net_wifi into cm-13.0
+3640884 # 2016-08-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_net_wifi into cm-13.0
+19adf48 # 2016-08-17 # Shun Iio @ Fix potential memory leak
 
-* Project kernel/lge/msm8974/
-bc8f384 # 2016-08-17 # Zdrowy Gosciu @ Version HM 28.8
-5cacddb # 2016-08-17 # Surendar karka @ ASoC: msm: qdsp6v2: check param length for EAC3 format
-5c854be # 2016-08-17 # Zdrowy Gosciu @ wcd9320: Correct mic paths
-20f5f0b # 2016-08-17 # Zdrowy Gosciu @ drivers: Sound Control: Increase allowed max value
-afa8aae # 2016-08-17 # Zdrowy Gosciu @ wcd9320: Correct camera mic boost path
-eaa8445 # 2016-08-17 # Zdrowy Gosciu @ wcd9320: Correct mic boost path
-397f658 # 2016-08-17 # Zdrowy Gosciu @ drivers: Sound Control: Fix build
-be1b5b6 # 2016-08-17 # Zdrowy Gosciu @ drivers: Sound Control: Add second option to configure speaker boost
-8bdee4e # 2016-08-17 # Zdrowy Gosciu @ wcd9320: Add camera mic setting to Sound Control
-aaa76c1 # 2016-08-17 # Zdrowy Gosciu @ wcd9320: Setup Sound Control for LG G2
-29a36cb # 2016-08-17 # Francisco Franco @ wcd9320: Introduce Franco Sound Control
-e33d976 # 2016-08-17 # Sudheer Papothi @ ASoC: wcd9320: Change headphone CnP settings
-14ab738 # 2016-08-17 # Zdrowy Gosciu @ Revert "wcd9320: Introduce Sound Control V3.7"
-e5f5d16 # 2016-08-16 # Zdrowy Gosciu @ Version HM 27.7
-fb8588b # 2016-08-16 # Zdrowy Gosciu @ wcd9320: Introduce Sound Control V3.7
-2db5d35 # 2016-08-16 # Zdrowy Gosciu @ Revert "sound: add sound control to increase headphones, speaker and mic gain."
-1f94fb0 # 2016-08-16 # Zdrowy Gosciu @ Revert "sound_control: d802 changes"
-1a9de18 # 2016-08-16 # Zdrowy Gosciu @ Version HM 27.1
-8893f51 # 2016-08-16 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-95e9601 # 2016-08-16 # myfluxi @ arm: vfpmodule: Fix warning procfs vfp_bounce reporting failed
-12a3b4c # 2016-08-16 # Ard Biesheuvel @ ARM: move VFP init to an earlier boot stage
-7951934 # 2016-08-16 # jude84.kim @ USB: gadget: midi: alloc wMaxPacketSize to buffer length
-887b16e # 2016-08-16 # Mike Lockwood @ USB: gadget: android: Integrate f_midi USB MIDI gadget driver
-03e8efd # 2016-08-16 # Mike Lockwood @ USB: gadget: midi: Fix deadlock unbinding driver while it is in use
-ad25eec # 2016-08-16 # Alan Stern @ USB: fix invalid memory access in hub_activate()
-5a35860 # 2016-08-16 # Naveen Ramaraj @ USB: u_ether: Set complete handler before queueing to endpoint
-ee2d2ed # 2016-08-16 # WANG Cong @ ppp: defer netns reference release for ppp channel
-3028d9a # 2016-08-16 # Prasad Sodagudi @ msm: rq_stats: Pass correct cpu id to update_average_load function
-23c6c04 # 2016-08-16 # Rajesh Bondugula @ msm: camera: sensor: Validate step_boundary
-113b4fc # 2016-08-16 # Srivatsa Vaddagiri @ cpufreq: cpu-boost: Resolve deadlock when waking up sync thread
-c9bb547 # 2016-08-16 # Suman Tatiraju @ msm: kgsl: Fix race condition in adreno_spin_idle()
+* Project packages/apps/Settings/
+7bcb597 # 2016-08-18 # Janson Kang @ Build V11
+1c7ecfe # 2016-08-18 # Janson Kang @ Revert "Settings: Show only one tab on PrivacyGuard direct access"
 
-* Project packages/apps/Contacts/
-a5730ba # 2016-08-16 # Ketut Putu Kumajaya @ Contacs: Fix build without jack
+* Project packages/inputmethods/LatinIME/
+877f8b4 # 2016-08-17 # Dan Yu @ LatinIME: add shortcut functionality
 
-* Project packages/apps/ContactsCommon/
-60a394e # 2016-08-16 # Keith Mok @ Fix crash when block incoming call without caller ID
-
-* Project packages/apps/Dialer/
-77b640d # 2016-08-17 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-7f23b87 # 2016-08-16 # Ketut Putu Kumajaya @ Dialer: Fix build without jack
-
-* Project packages/apps/KernelAdiutor/
-6777225 # 2016-08-17 # Zdrowy Gosciu @ Sound: Increase Franco Sound limits
-785f7ef # 2016-08-17 # Zdrowy Gosciu @ SoundFragment: Correct headphones description
-9922452 # 2016-08-17 # Zdrowy Gosciu @ Sound: Introduce Franco Sound Control camera mic boost
-
-* Project packages/providers/ContactsProvider/
-67931bb # 2016-08-17 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_ContactsProvider into cm-13.0
-4346f8e # 2016-08-16 # artefvck @ ContactsProvider: Fix build without jack
-
-* Project packages/services/LiveLockScreenService/
-09b857e # 2016-08-16 # Ketut Putu Kumajaya @ LiveLockScreenService: Fix build without jack
+* Project prebuilts/cmsdk/
+96707cf # 2016-08-17 # Adnan Begovic @ prebuilts/cmsdk: Cement api 6 release.
 
 * Project vendor/cm/
-3493b99 # 2016-08-17 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-3e85bf7 # 2016-08-16 # Adrian DC @ version: Keep the maintenance version defined and use it if needed
+1504323 # 2016-08-18 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
+a194731 # 2016-08-17 # Adnan Begovic @ cm: "Released" means current.
+850dd22 # 2016-08-17 # Brandon McAnsh @ charger: Add 640dpi support
+
+* Project vendor/cmsdk/
+0fcd690 # 2016-08-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+c349280 # 2016-08-17 # Adnan Begovic @ cmsdk: Finalize api level 6 (Fig).

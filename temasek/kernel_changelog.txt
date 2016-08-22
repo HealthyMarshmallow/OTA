@@ -15,6 +15,13 @@ bd13cbe # 2016-08-19 # fluxi @ g2-common: Remove writes to IPv6 router advertise
 a5ecc5b # 2016-08-19 # Nikola Majkić @ g2: Stop building generic charger images
 
 * Project kernel/lge/msm8974/
+0675017 # 2016-08-22 # Zdrowy Gosciu @ Version HM 30.1
+836999f # 2016-08-22 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+0fafdf8 # 2016-08-22 # Zdrowy Gosciu @ power: Enable WQ_POWER_EFFICIENT_DEFAULT
+2f4a163 # 2016-08-22 # Francisco Franco @ Backport WQ_POWER_EFFICIENT from 3.10 kernel
+b01c7df # 2016-08-22 # roel kluin @ printk: remove unused code from kernel/printk.c
+362a86f # 2016-08-22 # Fengguang Wu @ mm/vmscan.c: avoid possible deadlock caused by too_many_isolated()
+be6b89c # 2016-08-22 # Zdrowy Gosciu @ Revert "g2: Use interruptible waits to fix high load average"
 33f604c # 2016-08-21 # Zdrowy Gosciu @ Version HM 29.1
 69450a5 # 2016-08-21 # charles1018 @ CPU hotplug: Provide lockless versions of callback registration functions
 1286ba7 # 2016-08-21 # dorimanx @ Always set noatime no diratime on all partitions! I/O Boost! V2 [2/2].

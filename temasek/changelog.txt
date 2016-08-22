@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-08-17 @ 09:58:15 (1471427895)
+CHANGES AFTER 2016-08-18 @ 10:49:16 (1471517356)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,38 +7,93 @@ CHANGES AFTER 2016-08-17 @ 09:58:15 (1471427895)
                  |_____|              
 
 * Project OTA/
-05a00d3 # 2016-08-17 # Zdrowy Gosciu @ OTA: cm-13.0-20160817-095058-UNOFFICIAL-temasek-d802-V10.9
+a2d481c # 2016-08-18 # Zdrowy Gosciu @ OTA: cm-13.0-20160818-104145-UNOFFICIAL-temasek-d802-V11
+
+* Project android/
+afcbe20 # 2016-08-22 # Janson Kang @ Farewell temasek
+
+* Project build/
+5dcdd03 # 2016-08-22 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+ca35de0 # 2016-08-20 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+3fa03d0 # 2016-08-19 # Brandon McAnsh @ dt_image: Rename target
+0e39dd2 # 2016-08-18 # luca020400 @ build: Add dt.img and kernel target
+6f76f6b # 2016-08-18 # luca020400 @ generate_extra_images: Rename targets and add 'sec' prefix
 
 * Project device/lge/d802/
-b0d27bd # 2016-08-17 # Zdrowy Gosciu @ d802: CM: Disable blurred lockscreen
+af890bf # 2016-08-19 # Zdrowy Gosciu @ d802: Add Amaze File Manager + density backup script to Turbo ROM
 
 * Project device/lge/g2-common/
-c580da3 # 2016-08-17 # Zdrowy Gosciu @ Revert "g2-common: gps: Enable intermediate position report"
+b4fc06f # 2016-08-21 # Zdrowy Gosciu @ g2-common: init: power: Tweak read ahead value
+974d8f1 # 2016-08-21 # Zdrowy Gosciu @ g2-common: gps: Sync with LG G5
+837eb21 # 2016-08-19 # fluxi @ g2-common: init: power: Increase readahead later
+20d690e # 2016-08-19 # Daniel Stuart @ g2-common: init: usb: Sync with V39A
+bd13cbe # 2016-08-19 # fluxi @ g2-common: Remove writes to IPv6 router advertisements
+23d2255 # 2016-08-19 # Felipe Torres @ g2-common: Fix offmode charging jankness
+a5ecc5b # 2016-08-19 # Nikola Majkić @ g2: Stop building generic charger images
+
+* Project external/ffmpeg/
+0a27fb6 # 2016-08-19 # Steve Kondik @ Revert "ffmpeg: Additional APE extradata"
+b0f5859 # 2016-08-19 # Steve Kondik @ Merge branch 'release/3.0' of https://github.com/FFmpeg/FFmpeg into cm-13.0
+
+* Project frameworks/av/
+b4f645c # 2016-08-20 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
+16d14e1 # 2016-08-19 # Steve Kondik @ stagefright: Disable thumbnail mode for 8996-class devices
+e4575ae # 2016-08-19 # Haynes Mathew George @ audioflinger: Always process volume commands from a latest track
+6fde774 # 2016-08-19 # Haynes Mathew George @ audioflinger: set flush pending on invalidating offload track
+e72652f # 2016-08-19 # Glenn Kasten @ Don't place large objects on the stack
+
+* Project frameworks/base/
+70164d1 # 2016-08-22 # Harikrishnan Hariharan @ Prevent invocation of startNavigating() when GPS is off
+d350195 # 2016-08-22 # Glenn Kasten @ Squashed commit of the following:
+0e5746d # 2016-08-22 # Phil Burk @ UsbMidiDevice: fix MIDI flush()
 
 * Project frameworks/native/
-d3460b1 # 2016-08-18 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
-05ed8dc # 2016-08-18 # Janson Kang @ Revert "Revert "dalvik: rework 3 and 4-GB dalvik heap configurations""
-2a2b06d # 2016-08-17 # Abhisek Devkota @ Fix xxxhdpi 3072 heap sizes
+b2cece0 # 2016-08-20 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
+60f8bdf # 2016-08-18 # Christopher N. Hesse @ surfaceflinger: Add support for Exynos HWC services
+b7021ef # 2016-08-18 # Abhisek Devkota @ Fix xxhdpi 3072 heap sizes
 
-* Project frameworks/opt/net/wifi/
-3640884 # 2016-08-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_net_wifi into cm-13.0
-19adf48 # 2016-08-17 # Shun Iio @ Fix potential memory leak
+* Project hardware/libhardware/
+a900556 # 2016-08-19 # Mao Li @ keymaster: Add SOTER tags and API definations
 
-* Project packages/apps/Settings/
-7bcb597 # 2016-08-18 # Janson Kang @ Build V11
-1c7ecfe # 2016-08-18 # Janson Kang @ Revert "Settings: Show only one tab on PrivacyGuard direct access"
+* Project kernel/lge/msm8974/
+33f604c # 2016-08-21 # Zdrowy Gosciu @ Version HM 29.1
+69450a5 # 2016-08-21 # charles1018 @ CPU hotplug: Provide lockless versions of callback registration functions
+1286ba7 # 2016-08-21 # dorimanx @ Always set noatime no diratime on all partitions! I/O Boost! V2 [2/2].
+9bb6f9c # 2016-08-21 # dorimanx @ Always set noatime no diratime on all partitions! I/O Boost! V2 [1/2].
+3ce557f # 2016-08-21 # Neal Cardwell @ tcp: fix timing issue in CUBIC slope calculation
+47ae90c # 2016-08-21 # Dorimanx @ KGSL: GPU kgsl_pwrctrl.c use min pwr level as default. to reduce battery drain.
+fbe1780 # 2016-08-21 # Zdrowy Gosciu @ arm: configs: g2: Enable KSM
+fe6b30c # 2016-08-21 # klozz @ mm: ksm: Optimize
+74aa934 # 2016-08-21 # Sasha Levin @ mm/ksm.c: use new hashtable implementation
+6074678 # 2016-08-21 # franciscofranco @ ksm: check and skip page, if it is already scanned
+
+* Project packages/apps/Snap/
+cd71f0d # 2016-08-22 # Jay Wang @ SnapdragonCamera: Fix first-time crash and cleanup permissions
+3a05020 # 2016-08-22 # Michael Bestas @ Snap: Fix bad merge of "Fixed M permission issue"
+e6a372b # 2016-08-21 # Zdrowy Gosciu @ Revert "Snap: Make developer menu more accessible"
+e6cec3f # 2016-08-21 # Michael Bestas @ Snap: Make developer menu more accessible
+d2f7fad # 2016-08-21 # Jay Wang @ SnapdragonCamera: Force removing preview cover for camcorder
+a72f992 # 2016-08-21 # Jay Wang @ SnapdragonCamera: Fix NPE caused by empty permission result
+7636ad1 # 2016-08-21 # Steve Kondik @ snap: Change to target SDK 23
+4e66e6f # 2016-08-21 # Jay Wang @ SnapdragonCamera: Remove custom location permission request window
+ad0dd1c # 2016-08-21 # zafir @ Minimum viable Android M runtime permissions handling for H.
+f7fec87 # 2016-08-21 # Jay Wang @ SnapdragonCamera: Force removing preview cover
+813e02e # 2016-08-21 # Jack Yoo @ SnapdragonCamera: Adjusting view initialization
+9014d0d # 2016-08-21 # Jack Yoo @ SnapdragonCamera: Turn off LONGSHOT on ubifocus scene mode
 
 * Project packages/inputmethods/LatinIME/
-877f8b4 # 2016-08-17 # Dan Yu @ LatinIME: add shortcut functionality
+ff8efcf # 2016-08-18 # Janet Sun @ Revert "LatinIME: add shortcut functionality" Fix broken build from incomplete checkin for this change This reverts commit 877f8b481a6c6452a3894df14ec527c21d8e2d8c.
 
 * Project prebuilts/cmsdk/
-96707cf # 2016-08-17 # Adnan Begovic @ prebuilts/cmsdk: Cement api 6 release.
+755b224 # 2016-08-18 # Adnan Begovic @ prebuilts/cmsdk: Provide release artifact for Fig.
 
-* Project vendor/cm/
-1504323 # 2016-08-18 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into cm-13.0
-a194731 # 2016-08-17 # Adnan Begovic @ cm: "Released" means current.
-850dd22 # 2016-08-17 # Brandon McAnsh @ charger: Add 640dpi support
+* Project system/keymaster/
+dc06a0f # 2016-08-19 # Mao Li @ keymaster: Add SOTER support
+
+* Project system/security/
+6b8a2a3 # 2016-08-20 # AnilKumar Chimata @ keystore: Fix SoterTest issues
+b926925 # 2016-08-19 # Mao Li @ keystore: Add SOTER support in keystore
 
 * Project vendor/cmsdk/
-0fcd690 # 2016-08-18 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-c349280 # 2016-08-17 # Adnan Begovic @ cmsdk: Finalize api level 6 (Fig).
+622b162 # 2016-08-22 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
+2059ea6 # 2016-08-20 # Michael Bestas @ You are now a developer!

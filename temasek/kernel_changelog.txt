@@ -7,6 +7,7 @@ CHANGES AFTER 2016-08-18 @ 10:49:16 (1471517356)
                  |_____|              
 
 * Project device/lge/g2-common/
+5067e4f # 2016-08-24 # Zdrowy Gosciu @ g2-common: init: power: ondemandplus as default CPU GOV
 9d272d2 # 2016-08-23 # Zdrowy Gosciu @ g2-common: init: power: Nightmare as default CPU GOV
 b4fc06f # 2016-08-21 # Zdrowy Gosciu @ g2-common: init: power: Tweak read ahead value
 837eb21 # 2016-08-19 # fluxi @ g2-common: init: power: Increase readahead later
@@ -16,6 +17,15 @@ bd13cbe # 2016-08-19 # fluxi @ g2-common: Remove writes to IPv6 router advertise
 a5ecc5b # 2016-08-19 # Nikola Majkić @ g2: Stop building generic charger images
 
 * Project kernel/lge/msm8974/
+6228f53 # 2016-08-24 # Zdrowy Gosciu @ Version HM 31.1
+d2dff6f # 2016-08-24 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
+d4cd130 # 2016-08-24 # Zdrowy Gosciu @ cpufreq: Fix build
+45fdce1 # 2016-08-24 # Chet Kener @ cpufreq: Add few CPU GOVs
+7ae9bbb # 2016-08-24 # Zdrowy Gosciu @ Revert "wcd9320: Introduce Franco Sound Control"
+012f94f # 2016-08-24 # dcashman @ FROMLIST: drivers: char: random: add get_random_long()
+cc21251 # 2016-08-24 # dcashman @ FROMLIST: mm: mmap: Add new /proc tunable for mmap_base ASLR.
+19c1994 # 2016-08-23 # dcashman @ BACKPORT: FROMLIST: mm: ASLR: use get_random_long()
+2fcd0a5 # 2016-08-23 # dcashman @ FROMLIST: arm: mm: support ARCH_MMAP_RND_BITS.
 2c06700 # 2016-08-23 # Zdrowy Gosciu @ Version HM 30.3
 3d26100 # 2016-08-23 # Junjie Wu @ cpufreq: Return directly in __cpufreq_get if policy is NULL
 2703e02 # 2016-08-23 # Anton Vorontsov @ persistent_ram: Fix buffer size clamping during writes

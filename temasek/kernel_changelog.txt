@@ -17,6 +17,10 @@ bd13cbe # 2016-08-19 # fluxi @ g2-common: Remove writes to IPv6 router advertise
 a5ecc5b # 2016-08-19 # Nikola Majkić @ g2: Stop building generic charger images
 
 * Project kernel/lge/msm8974/
+1424a26 # 2016-08-26 # Zdrowy Gosciu @ Version HM 32.2
+867977f5 # 2016-08-26 # Zdrowy Gosciu @ Revert "Revert "sound_control: d802 changes""
+ff893e0 # 2016-08-26 # Zdrowy Gosciu @ Revert "Revert "sound: add sound control to increase headphones, speaker and mic gain.""
+e0b17f6 # 2016-08-26 # Zdrowy Gosciu @ Revert "ASoC: wcd9320: Change headphone CnP settings"
 6228f53 # 2016-08-24 # Zdrowy Gosciu @ Version HM 31.1
 d2dff6f # 2016-08-24 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
 d4cd130 # 2016-08-24 # Zdrowy Gosciu @ cpufreq: Fix build

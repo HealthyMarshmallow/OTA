@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-08-18 @ 10:49:16 (1471517356)
+CHANGES AFTER 2016-08-22 @ 09:36:25 (1471858585)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,94 +6,84 @@ CHANGES AFTER 2016-08-18 @ 10:49:16 (1471517356)
            |_____|___  |______|______|
                  |_____|              
 
+
+* Project /
+packages/apps/ThemeChooser/: discarding 104 commits (CM update)
+external/chromium-webview/: discarding 21 commits (switch to AOSP)
+frameworks/base/: (two commits patched locally)
+> Themes: Give power dialogs own set of volume icons for themes
+> SystemUI: Don't pad when config_showScreenOnLockScreenHints is false
+
 * Project OTA/
-a2d481c # 2016-08-18 # Zdrowy Gosciu @ OTA: cm-13.0-20160818-104145-UNOFFICIAL-temasek-d802-V11
-
-* Project android/
-afcbe20 # 2016-08-22 # Janson Kang @ Farewell temasek
-
-* Project build/
-5dcdd03 # 2016-08-22 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
-ca35de0 # 2016-08-20 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
-3fa03d0 # 2016-08-19 # Brandon McAnsh @ dt_image: Rename target
-0e39dd2 # 2016-08-18 # luca020400 @ build: Add dt.img and kernel target
-6f76f6b # 2016-08-18 # luca020400 @ generate_extra_images: Rename targets and add 'sec' prefix
+3faf016 # 2016-08-26 # Zdrowy Gosciu @ OTA: Kernel HM 32.2 for CM based ROMs
+cd045a8 # 2016-08-24 # Zdrowy Gosciu @ OTA: Kernel HM 31.1 for CM based ROMs
+0ae7389 # 2016-08-23 # Zdrowy Gosciu @ OTA: Kernel HM 30.3 for CM based ROMs
+8e128bd # 2016-08-22 # Zdrowy Gosciu @ OTA: Kernel HM 30.1 for CM based ROMs
+7e2e6df # 2016-08-22 # Zdrowy Gosciu @ OTA: cm-13.0-20160822-092908-UNOFFICIAL-temasek-d802-V11
 
 * Project device/lge/d802/
-af890bf # 2016-08-19 # Zdrowy Gosciu @ d802: Add Amaze File Manager + density backup script to Turbo ROM
+9bdd327 # 2016-08-22 # Zdrowy Gosciu @ d802: prebuilt: Remove NetworkInfo app
+8304476 # 2016-08-22 # Zdrowy Gosciu @ d802: Introduce Emotion ROM
 
 * Project device/lge/g2-common/
-b4fc06f # 2016-08-21 # Zdrowy Gosciu @ g2-common: init: power: Tweak read ahead value
-974d8f1 # 2016-08-21 # Zdrowy Gosciu @ g2-common: gps: Sync with LG G5
-837eb21 # 2016-08-19 # fluxi @ g2-common: init: power: Increase readahead later
-20d690e # 2016-08-19 # Daniel Stuart @ g2-common: init: usb: Sync with V39A
-bd13cbe # 2016-08-19 # fluxi @ g2-common: Remove writes to IPv6 router advertisements
-23d2255 # 2016-08-19 # Felipe Torres @ g2-common: Fix offmode charging jankness
-a5ecc5b # 2016-08-19 # Nikola Majkić @ g2: Stop building generic charger images
+8ac027c # 2016-08-29 # Zdrowy Gosciu @ g2-common: Set SELinux to permissive
+f0376d5 # 2016-08-29 # Zdrowy Gosciu @ g2-common: init: Allow RA packet to be accepted
+f7a8614 # 2016-08-29 # Zdrowy Gosciu @ g2-common: Build SnapdragonCamera
+5067e4f # 2016-08-24 # Zdrowy Gosciu @ g2-common: init: power: ondemandplus as default CPU GOV
+803144b # 2016-08-23 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+9d272d2 # 2016-08-23 # Zdrowy Gosciu @ g2-common: init: power: Nightmare as default CPU GOV
+1d69bd7 # 2016-08-23 # Felipe Torres @ g2-common: Fix offmode charging setting
 
-* Project external/ffmpeg/
-0a27fb6 # 2016-08-19 # Steve Kondik @ Revert "ffmpeg: Additional APE extradata"
-b0f5859 # 2016-08-19 # Steve Kondik @ Merge branch 'release/3.0' of https://github.com/FFmpeg/FFmpeg into cm-13.0
-
-* Project frameworks/av/
-b4f645c # 2016-08-20 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_av into cm-13.0
-16d14e1 # 2016-08-19 # Steve Kondik @ stagefright: Disable thumbnail mode for 8996-class devices
-e4575ae # 2016-08-19 # Haynes Mathew George @ audioflinger: Always process volume commands from a latest track
-6fde774 # 2016-08-19 # Haynes Mathew George @ audioflinger: set flush pending on invalidating offload track
-e72652f # 2016-08-19 # Glenn Kasten @ Don't place large objects on the stack
-
-* Project frameworks/base/
-70164d1 # 2016-08-22 # Harikrishnan Hariharan @ Prevent invocation of startNavigating() when GPS is off
-d350195 # 2016-08-22 # Glenn Kasten @ Squashed commit of the following:
-0e5746d # 2016-08-22 # Phil Burk @ UsbMidiDevice: fix MIDI flush()
-
-* Project frameworks/native/
-b2cece0 # 2016-08-20 # Janson Kang @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_native into cm-13.0
-60f8bdf # 2016-08-18 # Christopher N. Hesse @ surfaceflinger: Add support for Exynos HWC services
-b7021ef # 2016-08-18 # Abhisek Devkota @ Fix xxhdpi 3072 heap sizes
-
-* Project hardware/libhardware/
-a900556 # 2016-08-19 # Mao Li @ keymaster: Add SOTER tags and API definations
+* Project hardware/cyanogen/
+74128e2 # 2016-08-23 # Steve Kondik @ livedisplay: Moving native API to OSS
 
 * Project kernel/lge/msm8974/
-33f604c # 2016-08-21 # Zdrowy Gosciu @ Version HM 29.1
-69450a5 # 2016-08-21 # charles1018 @ CPU hotplug: Provide lockless versions of callback registration functions
-1286ba7 # 2016-08-21 # dorimanx @ Always set noatime no diratime on all partitions! I/O Boost! V2 [2/2].
-9bb6f9c # 2016-08-21 # dorimanx @ Always set noatime no diratime on all partitions! I/O Boost! V2 [1/2].
-3ce557f # 2016-08-21 # Neal Cardwell @ tcp: fix timing issue in CUBIC slope calculation
-47ae90c # 2016-08-21 # Dorimanx @ KGSL: GPU kgsl_pwrctrl.c use min pwr level as default. to reduce battery drain.
-fbe1780 # 2016-08-21 # Zdrowy Gosciu @ arm: configs: g2: Enable KSM
-fe6b30c # 2016-08-21 # klozz @ mm: ksm: Optimize
-74aa934 # 2016-08-21 # Sasha Levin @ mm/ksm.c: use new hashtable implementation
-6074678 # 2016-08-21 # franciscofranco @ ksm: check and skip page, if it is already scanned
+bb260db # 2016-08-29 # Zdrowy Gosciu @ Version HM 32.5
+16cd5b0 # 2016-08-29 # Trishansh Bhardwaj @ msm: camera: Fix memory read by adding bounds check
+ce600cb # 2016-08-29 # Zdrowy Gosciu @ cpufreq: Kconfig: Fix warning
+1424a26 # 2016-08-26 # Zdrowy Gosciu @ Version HM 32.2
+867977f5 # 2016-08-26 # Zdrowy Gosciu @ Revert "Revert "sound_control: d802 changes""
+ff893e0 # 2016-08-26 # Zdrowy Gosciu @ Revert "Revert "sound: add sound control to increase headphones, speaker and mic gain.""
+e0b17f6 # 2016-08-26 # Zdrowy Gosciu @ Revert "ASoC: wcd9320: Change headphone CnP settings"
+6228f53 # 2016-08-24 # Zdrowy Gosciu @ Version HM 31.1
+d2dff6f # 2016-08-24 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
+d4cd130 # 2016-08-24 # Zdrowy Gosciu @ cpufreq: Fix build
+45fdce1 # 2016-08-24 # Chet Kener @ cpufreq: Add few CPU GOVs
+7ae9bbb # 2016-08-24 # Zdrowy Gosciu @ Revert "wcd9320: Introduce Franco Sound Control"
+012f94f # 2016-08-24 # dcashman @ FROMLIST: drivers: char: random: add get_random_long()
+cc21251 # 2016-08-24 # dcashman @ FROMLIST: mm: mmap: Add new /proc tunable for mmap_base ASLR.
+19c1994 # 2016-08-23 # dcashman @ BACKPORT: FROMLIST: mm: ASLR: use get_random_long()
+2fcd0a5 # 2016-08-23 # dcashman @ FROMLIST: arm: mm: support ARCH_MMAP_RND_BITS.
+2c06700 # 2016-08-23 # Zdrowy Gosciu @ Version HM 30.3
+3d26100 # 2016-08-23 # Junjie Wu @ cpufreq: Return directly in __cpufreq_get if policy is NULL
+2703e02 # 2016-08-23 # Anton Vorontsov @ persistent_ram: Fix buffer size clamping during writes
+0675017 # 2016-08-22 # Zdrowy Gosciu @ Version HM 30.1
+836999f # 2016-08-22 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+0fafdf8 # 2016-08-22 # Zdrowy Gosciu @ power: Enable WQ_POWER_EFFICIENT_DEFAULT
+2f4a163 # 2016-08-22 # Francisco Franco @ Backport WQ_POWER_EFFICIENT from 3.10 kernel
+b01c7df # 2016-08-22 # roel kluin @ printk: remove unused code from kernel/printk.c
+362a86f # 2016-08-22 # Fengguang Wu @ mm/vmscan.c: avoid possible deadlock caused by too_many_isolated()
+be6b89c # 2016-08-22 # Zdrowy Gosciu @ Revert "g2: Use interruptible waits to fix high load average"
+
+* Project packages/apps/AudioFX/
+70457e9 # 2016-08-26 # Jessica Wagantall @ AudioFXTests: rename module back to AudioFXTests
+874ef70 # 2016-08-25 # Roman Birg @ Merge "AudioFX: disable debug logging" into cm-13.0
+fd4bccd # 2016-08-25 # Roman Birg @ Merge "AudioFX: remove legacy metrics provider" into cm-13.0
+6d435a4 # 2016-08-25 # Danny Baumann @ Fix strings.
+ee3a578 # 2016-08-25 # Roman Birg @ AudioFX: disable debug logging
+0429bca # 2016-08-25 # Roman Birg @ AudioFX: remove legacy metrics provider
+173320f # 2016-08-25 # Roman Birg @ Merge branch 'cm-13.0-oss' into HEAD
+e95b026 # 2016-08-25 # Roman Birg @ Revert "Revert "AudioFX: rename module back to AudioFX""
+c7dc272 # 2016-08-23 # Roman Birg @ Revert "AudioFX: rename module back to AudioFX"
+f520900 # 2016-08-23 # Roman Birg @ AudioFX: rename module back to AudioFX
+415792d # 2016-08-23 # Roman Birg @ AudioFX: rename package to org.cyanogenmod.audiofx
+b01d792 # 2016-08-23 # Roman Birg @ ModioFX: split backend implementations
+
+* Project packages/apps/Gello/
+01d73e8 # 2016-08-22 # Martin Brabham @ gello: increase res of shared images
 
 * Project packages/apps/Snap/
-cd71f0d # 2016-08-22 # Jay Wang @ SnapdragonCamera: Fix first-time crash and cleanup permissions
-3a05020 # 2016-08-22 # Michael Bestas @ Snap: Fix bad merge of "Fixed M permission issue"
-e6a372b # 2016-08-21 # Zdrowy Gosciu @ Revert "Snap: Make developer menu more accessible"
-e6cec3f # 2016-08-21 # Michael Bestas @ Snap: Make developer menu more accessible
-d2f7fad # 2016-08-21 # Jay Wang @ SnapdragonCamera: Force removing preview cover for camcorder
-a72f992 # 2016-08-21 # Jay Wang @ SnapdragonCamera: Fix NPE caused by empty permission result
-7636ad1 # 2016-08-21 # Steve Kondik @ snap: Change to target SDK 23
-4e66e6f # 2016-08-21 # Jay Wang @ SnapdragonCamera: Remove custom location permission request window
-ad0dd1c # 2016-08-21 # zafir @ Minimum viable Android M runtime permissions handling for H.
-f7fec87 # 2016-08-21 # Jay Wang @ SnapdragonCamera: Force removing preview cover
-813e02e # 2016-08-21 # Jack Yoo @ SnapdragonCamera: Adjusting view initialization
-9014d0d # 2016-08-21 # Jack Yoo @ SnapdragonCamera: Turn off LONGSHOT on ubifocus scene mode
+a969cfa # 2016-08-26 # Jack Yoo @ SnapdragonCamera: Adding PRIVILEGED true
 
-* Project packages/inputmethods/LatinIME/
-ff8efcf # 2016-08-18 # Janet Sun @ Revert "LatinIME: add shortcut functionality" Fix broken build from incomplete checkin for this change This reverts commit 877f8b481a6c6452a3894df14ec527c21d8e2d8c.
-
-* Project prebuilts/cmsdk/
-755b224 # 2016-08-18 # Adnan Begovic @ prebuilts/cmsdk: Provide release artifact for Fig.
-
-* Project system/keymaster/
-dc06a0f # 2016-08-19 # Mao Li @ keymaster: Add SOTER support
-
-* Project system/security/
-6b8a2a3 # 2016-08-20 # AnilKumar Chimata @ keystore: Fix SoterTest issues
-b926925 # 2016-08-19 # Mao Li @ keystore: Add SOTER support in keystore
-
-* Project vendor/cmsdk/
-622b162 # 2016-08-22 # Janson Kang @ Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
-2059ea6 # 2016-08-20 # Michael Bestas @ You are now a developer!
+* Project packages/apps/ThemeChooser/
+bcd90a3 # 2016-08-28 # Clark Scheff @ Theme chooser for the people

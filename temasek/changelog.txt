@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-08-29 @ 10:13:33 (1472465613)
+CHANGES AFTER 2016-08-30 @ 20:48:26 (1472590106)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,179 +7,36 @@ CHANGES AFTER 2016-08-29 @ 10:13:33 (1472465613)
                  |_____|              
 
 * Project /
-0000000 # 2016-08-29 # Zdrowy Gosciu @ hardware: Switch to EXODUS MSM8974 HALs
+0000000 # 2016-09-02 # Zdrowy Gosciu @ hardware: Switch to SlimRom MSM8974 HALs
 
 * Project OTA/
-e3d4755 # 2016-08-29 # Zdrowy Gosciu @ OTA: cm-13.0-20160829-100847-UNOFFICIAL-temasek-d802-V11
+8dd29ef # 2016-08-30 # Zdrowy Gosciu @ OTA: cm-13.0-20160830-204346-UNOFFICIAL-temasek-d802-V11.1
 
 * Project device/lge/g2-common/
-72bf5c3 # 2016-08-30 # Zdrowy Gosciu @ Revert "g2-common: Enable larger TCP accept window prop"
-47aeeba # 2016-08-30 # Zdrowy Gosciu @ Revert "g2-common: Enable modem power save mode"
-1f9f313 # 2016-08-30 # Zdrowy Gosciu @ Revert "g2-common: Remove writes to IPv6 router advertisements"
-70d53b8 # 2016-08-30 # Zdrowy Gosciu @ g2-common: init: power: SIO as default I/O scheduler
-30a64c1 # 2016-08-30 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug
-6099e6e # 2016-08-30 # Zdrowy Gosciu @ g2-common: init: power: Darkness as default CPU GOV
-
-* Project frameworks/av/
-ac73d1a # 2016-08-30 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-bdb54da # 2016-08-30 # Diogo Ferreira @ libstagefright: mtk: Use vendor extensions to check if we should fixup cropping
+eefc68d # 2016-09-01 # Zdrowy Gosciu @ g2-common: Disable DEX2OAT SWAP
+f8c1c9b # 2016-09-01 # Zdrowy Gosciu @ g2-common: gps: Sync with CM 13.0 hammerhead
+5616fef # 2016-09-01 # Zdrowy Gosciu @ g2-common: gps: Go back to stock (almost)
+0313e97 # 2016-09-01 # Zdrowy Gosciu @ g2-common: gps: Use Google SUPL
 
 * Project frameworks/base/
-b012377 # 2016-08-30 # pinky@build01 @ Automatic translation import
-94a002e # 2016-08-30 # Matthias Yzusqui @ SystemUI: Don't pad when config_showScreenOnLockScreenHints is false
-2946204 # 2016-08-30 # Bryan Owens @ Themes: Give power dialogs own set of volume icons for themes
+eca128e # 2016-09-02 # Roman Mazur @ Fix NPE in SyncRequest builder
+0dcf96e # 2016-09-02 # Vairavan Srinivasan @ Fix FragmentManager to save state of a Fragment only when needed
+e53983c # 2016-09-02 # riddle_hsu @ Fix race condition of job extras.
+378ed33 # 2016-09-02 # Kang Zhang @ Fix the bug in replacing a fragment with itself.
+9818c54 # 2016-09-02 # Kent Persson @ Fix NPE in BaseStatusbar in onListenerConnected
+9913370 # 2016-09-01 # Alexander Wuerstlein @ Ensure DHCP requests have nonempty hostnames
+46db158 # 2016-09-01 # Shibin George @ frameworks: Delay changes in accessibility state
+df084f9 # 2016-09-01 # zhangshuxiao @ frameworks: Network permission update for multi-user case.
 
-* Project kernel/lge/msm8974/
-d497ac4 # 2016-08-30 # Zdrowy Gosciu @ Version HM 35.5
-0e16de8 # 2016-08-30 # hellsgod @ readahead: Fix an error (thx ramgear)
-8122039 # 2016-08-30 # hellsgod @ Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)
-1a660e67 # 2016-08-30 # Chris Fries @ ARM: smp: Wait just 1 second for other CPU to halt
-d3f0121 # 2016-08-30 # a21834@motorola.com @ ipv6: fib: fix potential NULL pointer dereference
-88489bf # 2016-08-30 # Eric Dumazet @ ipv6: Limit mtu to 65575 bytes
-7806ecc # 2016-08-30 # Russ W. Knize @ power: make sync on suspend optional
-e7039dc # 2016-08-30 # Dirk Brandewie @ cpufreq_stats: do not remove sysfs files if frequency table is not present
-6f3e694 # 2016-08-30 # franciscofranco @ cpufreq: bail early if target_freq == current.
-56199ae # 2016-08-30 # Viresh Kumar @ cpufreq: Optimize cpufreq_frequency_table_verify()
-0bc4b1a # 2016-08-30 # engstk @ blu_active: add fastlane freq calc selection, upstream updates
-149cb2c # 2016-08-30 # engstk @ blu_active: updates and fixes
-ac7cff2 # 2016-08-30 # engstk @ blu_active: dynamic cpufreq policy governor designed for latency-sensitive workloads
+* Project hardware/qcom/audio-caf/msm8974/
+dc50095 # 2016-09-01 # Eric Laurent @ hal: Add support for Hearing Aid Compatibility (HAC) mode
 
 * Project packages/apps/AudioFX/
-33b5c82 # 2016-08-29 # Roman Birg @ Merge "AudioFX: finish rename; persist process" into cm-13.0
-71e5da3 # 2016-08-29 # Roman Birg @ AudioFX: finish rename; persist process
+cf02e9a # 2016-08-31 # Roman Birg @ AudioFXTests: remove key sign warning
 
-* Project packages/apps/BasicSmsReceiver/
-df317d5 # 2016-08-29 # pinky@build01 @ Automatic translation import
+* Project packages/apps/Settings/
+2785f50 # 2016-09-02 # scott @ DevelopmentSettings: Change default animations from 1 to 0.75
+e6c28cd # 2016-09-01 # pinky@build01 @ Automatic translation import
 
-* Project packages/apps/Browser/
-21cc56b # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/CMFileManager/
-2d6b1a8 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/CMWallpapers/
-140370d # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Calendar/
-51c4964 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/CertInstaller/
-c8f7e9b # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Eleven/
-99370db # 2016-08-29 # Jessica Wagantall @ Merge "Automatic translation import" into cm-13.0
-
-* Project packages/apps/Email/
-644cde9 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/ExactCalculator/
-eb4a240 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Exchange/
-6c8130b # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Gallery2/
-b6d3a52 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Gello/
-4b50363 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/HTMLViewer/
-7f53cdd # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/KernelAdiutor/
-784ddc7 # 2016-08-30 # Zdrowy Gosciu @ CPUHotplug: MSM Hotplug: Use string in update rates
-
-* Project packages/apps/KeyChain/
-6852242 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/ManagedProvisioning/
-250a661 # 2016-08-29 # Jessica Wagantall @ Merge "Automatic translation import" into cm-13.0
-
-* Project packages/apps/Messaging/
-3279dd0 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Nfc/
-375f151 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Profiles/
-eb67886 # 2016-08-29 # Jessica Wagantall @ Merge "Automatic translation import" into cm-13.0
-
-* Project packages/apps/Screencast/
-ae7bee3 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/SoundRecorder/
-1e32a30 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Stk/
-9f2f446 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Tag/
-12547f3 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Terminal/
-d36c1af # 2016-08-29 # Jessica Wagantall @ Merge "Automatic translation import" into cm-13.0
-
-* Project packages/apps/TvSettings/
-fc148a2 # 2016-08-29 # Jessica Wagantall @ Merge "Automatic translation import" into cm-13.0
-
-* Project packages/apps/UnifiedEmail/
-11e56cb # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/inputmethods/LatinIME/
-abcf99b # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/providers/BookmarkProvider/
-9be5364 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/providers/CalendarProvider/
-f8d89e3 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/providers/CallLogProvider/
-1a4649f # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/providers/DataUsageProvider/
-031f131 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/providers/DownloadProvider/
-a19e57a # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/providers/ThemesProvider/
-c8ca3e6 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/providers/UserDictionaryProvider/
-2d21c4f # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/providers/WeatherProvider/
-380e910 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/screensavers/Basic/
-1462f1c # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/screensavers/PhotoTable/
-dd0908b # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/services/CMAudioService/
-16b4c4d # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/services/LiveLockScreenService/
-03e5e4d # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/services/ThemeManagerService/
-9279a70 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/Basic/
-0f4308b # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/LivePicker/
-c4e7ff7 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/MagicSmoke/
-383a015 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/PhotoPhase/
-d9f98d6 # 2016-08-29 # pinky@build01 @ Automatic translation import
-
-* Project system/core/
-a71f0e9 # 2016-08-30 # Sultanxda @ liblog: Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
-c2bbc3d # 2016-08-30 # Scott Mertz @ libutils: fix deadlock in elapsedRealtimeNano
+* Project packages/apps/ThemeChooser/
+550e88b # 2016-08-31 # d34d @ Fall cleaning

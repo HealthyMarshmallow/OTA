@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-08-18 @ 10:49:16 (1471517356)
+CHANGES AFTER 2016-09-02 @ 11:12:35 (1472814755)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,47 +6,8 @@ CHANGES AFTER 2016-08-18 @ 10:49:16 (1471517356)
            |_____|___  |______|______|
                  |_____|              
 
-* Project device/lge/g2-common/
-5067e4f # 2016-08-24 # Zdrowy Gosciu @ g2-common: init: power: ondemandplus as default CPU GOV
-9d272d2 # 2016-08-23 # Zdrowy Gosciu @ g2-common: init: power: Nightmare as default CPU GOV
-b4fc06f # 2016-08-21 # Zdrowy Gosciu @ g2-common: init: power: Tweak read ahead value
-837eb21 # 2016-08-19 # fluxi @ g2-common: init: power: Increase readahead later
-20d690e # 2016-08-19 # Daniel Stuart @ g2-common: init: usb: Sync with V39A
-bd13cbe # 2016-08-19 # fluxi @ g2-common: Remove writes to IPv6 router advertisements
-23d2255 # 2016-08-19 # Felipe Torres @ g2-common: Fix offmode charging jankness
-a5ecc5b # 2016-08-19 # Nikola Majkić @ g2: Stop building generic charger images
-
 * Project kernel/lge/msm8974/
-1424a26 # 2016-08-26 # Zdrowy Gosciu @ Version HM 32.2
-867977f5 # 2016-08-26 # Zdrowy Gosciu @ Revert "Revert "sound_control: d802 changes""
-ff893e0 # 2016-08-26 # Zdrowy Gosciu @ Revert "Revert "sound: add sound control to increase headphones, speaker and mic gain.""
-e0b17f6 # 2016-08-26 # Zdrowy Gosciu @ Revert "ASoC: wcd9320: Change headphone CnP settings"
-6228f53 # 2016-08-24 # Zdrowy Gosciu @ Version HM 31.1
-d2dff6f # 2016-08-24 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
-d4cd130 # 2016-08-24 # Zdrowy Gosciu @ cpufreq: Fix build
-45fdce1 # 2016-08-24 # Chet Kener @ cpufreq: Add few CPU GOVs
-7ae9bbb # 2016-08-24 # Zdrowy Gosciu @ Revert "wcd9320: Introduce Franco Sound Control"
-012f94f # 2016-08-24 # dcashman @ FROMLIST: drivers: char: random: add get_random_long()
-cc21251 # 2016-08-24 # dcashman @ FROMLIST: mm: mmap: Add new /proc tunable for mmap_base ASLR.
-19c1994 # 2016-08-23 # dcashman @ BACKPORT: FROMLIST: mm: ASLR: use get_random_long()
-2fcd0a5 # 2016-08-23 # dcashman @ FROMLIST: arm: mm: support ARCH_MMAP_RND_BITS.
-2c06700 # 2016-08-23 # Zdrowy Gosciu @ Version HM 30.3
-3d26100 # 2016-08-23 # Junjie Wu @ cpufreq: Return directly in __cpufreq_get if policy is NULL
-2703e02 # 2016-08-23 # Anton Vorontsov @ persistent_ram: Fix buffer size clamping during writes
-0675017 # 2016-08-22 # Zdrowy Gosciu @ Version HM 30.1
-836999f # 2016-08-22 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-0fafdf8 # 2016-08-22 # Zdrowy Gosciu @ power: Enable WQ_POWER_EFFICIENT_DEFAULT
-2f4a163 # 2016-08-22 # Francisco Franco @ Backport WQ_POWER_EFFICIENT from 3.10 kernel
-b01c7df # 2016-08-22 # roel kluin @ printk: remove unused code from kernel/printk.c
-362a86f # 2016-08-22 # Fengguang Wu @ mm/vmscan.c: avoid possible deadlock caused by too_many_isolated()
-be6b89c # 2016-08-22 # Zdrowy Gosciu @ Revert "g2: Use interruptible waits to fix high load average"
-33f604c # 2016-08-21 # Zdrowy Gosciu @ Version HM 29.1
-69450a5 # 2016-08-21 # charles1018 @ CPU hotplug: Provide lockless versions of callback registration functions
-1286ba7 # 2016-08-21 # dorimanx @ Always set noatime no diratime on all partitions! I/O Boost! V2 [2/2].
-9bb6f9c # 2016-08-21 # dorimanx @ Always set noatime no diratime on all partitions! I/O Boost! V2 [1/2].
-3ce557f # 2016-08-21 # Neal Cardwell @ tcp: fix timing issue in CUBIC slope calculation
-47ae90c # 2016-08-21 # Dorimanx @ KGSL: GPU kgsl_pwrctrl.c use min pwr level as default. to reduce battery drain.
-fbe1780 # 2016-08-21 # Zdrowy Gosciu @ arm: configs: g2: Enable KSM
-fe6b30c # 2016-08-21 # klozz @ mm: ksm: Optimize
-74aa934 # 2016-08-21 # Sasha Levin @ mm/ksm.c: use new hashtable implementation
-6074678 # 2016-08-21 # franciscofranco @ ksm: check and skip page, if it is already scanned
+eafaf12 # 2016-09-05 # Zdrowy Gosciu @ Version HM 35.9
+aadf82b # 2016-09-05 # ejjohnson1999 @ msm8974-lge-misc.dtsi: Clean up some useless stuff
+ac4c14e # 2016-09-05 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
+82719ce # 2016-09-05 # Anand Kumar @ wcnss: Avoid user buffer overloading for write cal data

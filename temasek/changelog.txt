@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-08-30 @ 20:48:26 (1472590106)
+CHANGES AFTER 2016-09-02 @ 11:12:35 (1472814755)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,37 +6,51 @@ CHANGES AFTER 2016-08-30 @ 20:48:26 (1472590106)
            |_____|___  |______|______|
                  |_____|              
 
-* Project /
-0000000 # 2016-09-02 # Zdrowy Gosciu @ hardware: Switch to SlimRom MSM8974 HALs
-
 * Project OTA/
-8dd29ef # 2016-08-30 # Zdrowy Gosciu @ OTA: cm-13.0-20160830-204346-UNOFFICIAL-temasek-d802-V11.1
+a3d8b87 # 2016-09-02 # Zdrowy Gosciu @ OTA: cm-13.0-20160902-105926-UNOFFICIAL-temasek-d802-V11.2
 
-* Project device/lge/g2-common/
-eefc68d # 2016-09-01 # Zdrowy Gosciu @ g2-common: Disable DEX2OAT SWAP
-f8c1c9b # 2016-09-01 # Zdrowy Gosciu @ g2-common: gps: Sync with CM 13.0 hammerhead
-5616fef # 2016-09-01 # Zdrowy Gosciu @ g2-common: gps: Go back to stock (almost)
-0313e97 # 2016-09-01 # Zdrowy Gosciu @ g2-common: gps: Use Google SUPL
+* Project build/
+282c451 # 2016-09-05 # Zdrowy Gosciu @ tools: Fix date format
+8867c6a # 2016-09-05 # beanstown106 @ product: Use Google Nexus Audio Files (1/3)
 
 * Project frameworks/base/
-eca128e # 2016-09-02 # Roman Mazur @ Fix NPE in SyncRequest builder
-0dcf96e # 2016-09-02 # Vairavan Srinivasan @ Fix FragmentManager to save state of a Fragment only when needed
-e53983c # 2016-09-02 # riddle_hsu @ Fix race condition of job extras.
-378ed33 # 2016-09-02 # Kang Zhang @ Fix the bug in replacing a fragment with itself.
-9818c54 # 2016-09-02 # Kent Persson @ Fix NPE in BaseStatusbar in onListenerConnected
-9913370 # 2016-09-01 # Alexander Wuerstlein @ Ensure DHCP requests have nonempty hostnames
-46db158 # 2016-09-01 # Shibin George @ frameworks: Delay changes in accessibility state
-df084f9 # 2016-09-01 # zhangshuxiao @ frameworks: Network permission update for multi-user case.
+2fd9e56 # 2016-09-05 # beanstown106 @ data: Add Google new alarm sounds from Nougat
+b5badde # 2016-09-05 # beanstown106 @ data: Update camera and video UI sounds from new Nexus
+6a4c47b # 2016-09-05 # BeansTown106 @ data: Use Google Nexus Audio Files (2/3)
+98bec07 # 2016-09-02 # Alexander Wuerstlein @ connectivity-service: fix/improve unique hostname
 
-* Project hardware/qcom/audio-caf/msm8974/
-dc50095 # 2016-09-01 # Eric Laurent @ hal: Add support for Hearing Aid Compatibility (HAC) mode
+* Project frameworks/opt/telephony/
+5251db9 # 2016-09-02 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into HEAD
+4092816 # 2016-09-02 # Roman Birg @ Telephony: fix SMS NPE
+
+* Project kernel/lge/msm8974/
+eafaf12 # 2016-09-05 # Zdrowy Gosciu @ Version HM 35.9
+aadf82b # 2016-09-05 # ejjohnson1999 @ msm8974-lge-misc.dtsi: Clean up some useless stuff
+ac4c14e # 2016-09-05 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
+82719ce # 2016-09-05 # Anand Kumar @ wcnss: Avoid user buffer overloading for write cal data
 
 * Project packages/apps/AudioFX/
-cf02e9a # 2016-08-31 # Roman Birg @ AudioFXTests: remove key sign warning
+d4ff380 # 2016-09-04 # Michael Bestas @ AudioFX: Resync with AOSP translations
+
+* Project packages/apps/Gallery2/
+0304394 # 2016-09-03 # yongga @ Gallery2: Fix no android.permission.INTERACT_ACROSS_USERS in guest mode.
 
 * Project packages/apps/Settings/
-2785f50 # 2016-09-02 # scott @ DevelopmentSettings: Change default animations from 1 to 0.75
-e6c28cd # 2016-09-01 # pinky@build01 @ Automatic translation import
+f18241e # 2016-09-05 # Zdrowy Gosciu @ Version V11.2
 
 * Project packages/apps/ThemeChooser/
-550e88b # 2016-08-31 # d34d @ Fall cleaning
+fa08a0a # 2016-09-04 # Clark Scheff @ Remove BootReceiver
+3f9abe2 # 2016-09-05 # Abhisek Devkota @ Capitalize app name
+78efee5 # 2016-09-05 # NBruderman @ String updates
+2587e7f # 2016-09-05 # Michael Bestas @ Fix line wrapping for crowdin
+f40ac25 # 2016-09-03 # Bharadwaj Narasimha @ Move actions in theme card to overflow menu
+7e4390f # 2016-09-02 # Joey Rizzoli @ ThemeChooser: set untranslatable
+
+* Project vendor/cm/
+02dea8e # 2016-09-05 # Zdrowy Gosciu @ config: Use Google Nexus Audio Files (2/3)
+ac077b0 # 2016-09-05 # Zdrowy Gosciu @ config: Common update
+281142d # 2016-09-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+756ec88 # 2016-09-03 # Michael W @ cm: charger: Center capacity and vertical offset
+
+* Project vendor/cmsdk/
+8f04fea # 2016-09-02 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/cm_platform_sdk into HEAD

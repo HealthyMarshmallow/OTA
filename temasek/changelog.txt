@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-09-02 @ 11:12:35 (1472814755)
+CHANGES AFTER 2016-09-05 @ 12:47:26 (1473079646)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,51 +6,51 @@ CHANGES AFTER 2016-09-02 @ 11:12:35 (1472814755)
            |_____|___  |______|______|
                  |_____|              
 
-* Project OTA/
-a3d8b87 # 2016-09-02 # Zdrowy Gosciu @ OTA: cm-13.0-20160902-105926-UNOFFICIAL-temasek-d802-V11.2
-
-* Project build/
-282c451 # 2016-09-05 # Zdrowy Gosciu @ tools: Fix date format
-8867c6a # 2016-09-05 # beanstown106 @ product: Use Google Nexus Audio Files (1/3)
+* Project device/lge/g2-common/
+0a9de8d # 2016-09-06 # Zdrowy Gosciu @ g2-common: gps: Rebase with LG-Devs
+ab9be9c # 2016-09-06 # Zdrowy Gosciu @ g2-common: init: power: Clean up read ahead value (for now)
+cb7432d # 2016-09-06 # Zdrowy Gosciu @ g2-common: init: power: Setup 512 read ahead after boot complete
+d80d354 # 2016-09-05 # Zdrowy Gosciu @ Revert "g2-common: Build kernel with Linaro GCC 4.9 Toolchain optimized for Cortex-A15"
+85c552d # 2016-09-05 # Zdrowy Gosciu @ g2-common: Build kernel with Linaro GCC 4.9 Toolchain optimized for Cortex-A15
 
 * Project frameworks/base/
-2fd9e56 # 2016-09-05 # beanstown106 @ data: Add Google new alarm sounds from Nougat
-b5badde # 2016-09-05 # beanstown106 @ data: Update camera and video UI sounds from new Nexus
-6a4c47b # 2016-09-05 # BeansTown106 @ data: Use Google Nexus Audio Files (2/3)
-98bec07 # 2016-09-02 # Alexander Wuerstlein @ connectivity-service: fix/improve unique hostname
-
-* Project frameworks/opt/telephony/
-5251db9 # 2016-09-02 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into HEAD
-4092816 # 2016-09-02 # Roman Birg @ Telephony: fix SMS NPE
+fbfc22d # 2016-09-06 # Zdrowy Gosciu @ data: sounds: Include also CM sounds
 
 * Project kernel/lge/msm8974/
-eafaf12 # 2016-09-05 # Zdrowy Gosciu @ Version HM 35.9
-aadf82b # 2016-09-05 # ejjohnson1999 @ msm8974-lge-misc.dtsi: Clean up some useless stuff
-ac4c14e # 2016-09-05 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
-82719ce # 2016-09-05 # Anand Kumar @ wcnss: Avoid user buffer overloading for write cal data
-
-* Project packages/apps/AudioFX/
-d4ff380 # 2016-09-04 # Michael Bestas @ AudioFX: Resync with AOSP translations
-
-* Project packages/apps/Gallery2/
-0304394 # 2016-09-03 # yongga @ Gallery2: Fix no android.permission.INTERACT_ACROSS_USERS in guest mode.
+8799829 # 2016-09-06 # Zdrowy Gosciu @ Version HM 37.1
+53b05ef # 2016-09-06 # Shilpa Mamidi @ msm: camera: Freed the VPE prameters to avoid memleak
+56a62b0 # 2016-09-06 # Dorimanx @ msm: camera: align VPE code with 3.10.y branch
+ad7e55a # 2016-09-06 # Hariram Purushothaman @ msm: camera: Print v4l2 event details on error
+fe46eae # 2016-09-06 # Yiduo Wang @ msm: camera: Fix possible kernel panic in general buf manager
+da4ce4f # 2016-09-06 # Yiduo Wang @ msm: camera: Make ISPIF not interruptable
+e08e995 # 2016-09-06 # Suresh Vankadara @ msm: camera: Fix crash in ispif release
+a75d545 # 2016-09-06 # Sreesudhan Ramakrish Ramkumar @ msm: camera: Restructure ISPIF probe handler
+c1bb03e # 2016-09-06 # Suman Mukherjee @ msm: camera: ispif: Validate vfe_intf parameter
+016c5d6 # 2016-09-06 # Azam Sadiq Pasha Kapatrala Syed @ msm: camera: Handle race condition on stream buffer ops
+5e06969 # 2016-09-06 # Shuzhen Wang @ msm: camera: Do not ignore ERESTARTSYS return from wait function
+c3bbfde # 2016-09-06 # Shuzhen Wang @ msm: camera: return -EIO if daemon hasn't fully launched
+605409b # 2016-09-06 # Dorimanx @ msm: camera: tone down logspam resulted from IRQ irq_status
+f765d7d # 2016-09-06 # Ícaro Hoff @ qdsp6v2: remove superfluous function argument
+128fcbe # 2016-09-06 # Mitchel Humpherys @ ion: msm: remove superfluous function argument
+67a322d # 2016-09-06 # Zdrowy Gosciu @ Version HM 36.9
+53ce224 # 2016-09-06 # Eric Dumazet @ UPSTREAM: tcp: fix use after free in tcp_xmit_retransmit_queue()
+6e587cd3 # 2016-09-06 # Badhri Jagan Sridharan @ UPSTREAM: USB: usb_driver_claim_interface: add sanity checking
+12957e8 # 2016-09-06 # Vegard Nossum @ UPSTREAM: block: fix use-after-free in seq file
+473e2d5 # 2016-09-06 # Hannes Frederic Sowa @ ipv6: fix endianness error in icmpv6_err
+c85e141 # 2016-09-06 # Lorenzo Colitti @ net: ipv6: Fix ping to link-local addresses.
+56738f8 # 2016-09-06 # GuneetAtwal @ devfreq: Make Adreno Idler more aggressive
+2c41c89 # 2016-09-06 # GuneetAtwal @ char: random: Fix depleting entropy
+c4d7580 # 2016-09-06 # Francisco Franco @ mm: Push read ahead to 512 kB
+f3b5d67 # 2016-09-06 # Zdrowy Gosciu @ Version HM 36.6
+d86d2aa # 2016-09-06 # Dorimanx @ char: random: 512 read ahead is best for now
+6cc995c # 2016-09-06 # Eric Dumazet @ net: loopback: set default mtu to 64K
+34c5b2f # 2016-09-06 # andip71 @ tcp_output: set initial TCP window size to 64K (speed improvement)
+5681e09 # 2016-09-06 # franciscofranco @ cpufreq: ondemand: Stop uninterruptible threads
+1e9b0ab # 2016-09-06 # TroNit @ char: add frandom
+bc0fa76 # 2016-09-06 # Zdrowy Gosciu @ Revert "arm: configs: g2: Don't optimize for size"
+2626d82 # 2016-09-05 # Zdrowy Gosciu @ Version HM 36.1
+b73b33a # 2016-09-05 # Zdrowy Gosciu @ devfreq: Fix 'val' may be used uninitialized warning in Simple GPU Algo
+21da3b12 # 2016-09-05 # Zdrowy Gosciu @ arm: configs: g2: Don't optimize for size
 
 * Project packages/apps/Settings/
-f18241e # 2016-09-05 # Zdrowy Gosciu @ Version V11.2
-
-* Project packages/apps/ThemeChooser/
-fa08a0a # 2016-09-04 # Clark Scheff @ Remove BootReceiver
-3f9abe2 # 2016-09-05 # Abhisek Devkota @ Capitalize app name
-78efee5 # 2016-09-05 # NBruderman @ String updates
-2587e7f # 2016-09-05 # Michael Bestas @ Fix line wrapping for crowdin
-f40ac25 # 2016-09-03 # Bharadwaj Narasimha @ Move actions in theme card to overflow menu
-7e4390f # 2016-09-02 # Joey Rizzoli @ ThemeChooser: set untranslatable
-
-* Project vendor/cm/
-02dea8e # 2016-09-05 # Zdrowy Gosciu @ config: Use Google Nexus Audio Files (2/3)
-ac077b0 # 2016-09-05 # Zdrowy Gosciu @ config: Common update
-281142d # 2016-09-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-756ec88 # 2016-09-03 # Michael W @ cm: charger: Center capacity and vertical offset
-
-* Project vendor/cmsdk/
-8f04fea # 2016-09-02 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/cm_platform_sdk into HEAD
+a906571 # 2016-09-06 # Zdrowy Gosciu @ Version V11.3

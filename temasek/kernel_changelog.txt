@@ -1,34 +1,21 @@
-CHANGES AFTER 2016-09-05 @ 12:47:26 (1473079646)
+CHANGES AFTER 2016-09-06 @ 20:14:37 (1473192877)
 
-                        ______ ______
+                        ______ ______ 
            .-----.-----|  __  |    __|
            |-- __|  _  |  __  |__    |
            |_____|___  |______|______|
-                 |_____|
+                 |_____|              
 
 * Project device/lge/g2-common/
-ab9be9c # 2016-09-06 # Zdrowy Gosciu @ g2-common: init: power: Clean up read ahead value (for now)
-cb7432d # 2016-09-06 # Zdrowy Gosciu @ g2-common: init: power: Setup 512 read ahead after boot complete
-d80d354 # 2016-09-05 # Zdrowy Gosciu @ Revert "g2-common: Build kernel with Linaro GCC 4.9 Toolchain optimized for Cortex-A15"
-85c552d # 2016-09-05 # Zdrowy Gosciu @ g2-common: Build kernel with Linaro GCC 4.9 Toolchain optimized for Cortex-A15
+7fbaf47 # 2016-09-09 # Zdrowy Gosciu @ g2-common: init: usb: Fix property:sys.usb.config=none,adb
 
 * Project kernel/lge/msm8974/
-67a322d # 2016-09-06 # Zdrowy Gosciu @ Version HM 36.9
-53ce224 # 2016-09-06 # Eric Dumazet @ UPSTREAM: tcp: fix use after free in tcp_xmit_retransmit_queue()
-6e587cd3 # 2016-09-06 # Badhri Jagan Sridharan @ UPSTREAM: USB: usb_driver_claim_interface: add sanity checking
-12957e8 # 2016-09-06 # Vegard Nossum @ UPSTREAM: block: fix use-after-free in seq file
-473e2d5 # 2016-09-06 # Hannes Frederic Sowa @ ipv6: fix endianness error in icmpv6_err
-c85e141 # 2016-09-06 # Lorenzo Colitti @ net: ipv6: Fix ping to link-local addresses.
-56738f8 # 2016-09-06 # GuneetAtwal @ devfreq: Make Adreno Idler more aggressive
-2c41c89 # 2016-09-06 # GuneetAtwal @ char: random: Fix depleting entropy
-c4d7580 # 2016-09-06 # Francisco Franco @ mm: Push read ahead to 512 kB
-f3b5d67 # 2016-09-06 # Zdrowy Gosciu @ Version HM 36.6
-d86d2aa # 2016-09-06 # Dorimanx @ char: random: 512 read ahead is best for now
-6cc995c # 2016-09-06 # Eric Dumazet @ net: loopback: set default mtu to 64K
-34c5b2f # 2016-09-06 # andip71 @ tcp_output: set initial TCP window size to 64K (speed improvement)
-5681e09 # 2016-09-06 # franciscofranco @ cpufreq: ondemand: Stop uninterruptible threads
-1e9b0ab # 2016-09-06 # TroNit @ char: add frandom
-bc0fa76 # 2016-09-06 # Zdrowy Gosciu @ Revert "arm: configs: g2: Don't optimize for size"
-2626d82 # 2016-09-05 # Zdrowy Gosciu @ Version HM 36.1
-b73b33a # 2016-09-05 # Zdrowy Gosciu @ devfreq: Fix 'val' may be used uninitialized warning in Simple GPU Algo
-21da3b12 # 2016-09-05 # Zdrowy Gosciu @ arm: configs: g2: Don't optimize for size
+ba8a780 # 2016-09-09 # Zdrowy Gosciu @ Version HM 38.1
+6c52790 # 2016-09-09 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
+ad6126b # 2016-09-08 # Dan Pasanen @ g2: enable sdcardfs
+a446490 # 2016-09-08 # Trishansh Bhardwaj @ Adds bound check on reg_cfg_cmd->u.dmi_info.hi_tbl_offset.
+271a1bc # 2016-09-07 # Zdrowy Gosciu @ Version HM 37.7
+5d164a8 # 2016-09-07 # Nick Desaulniers @ fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
+57e5e0d # 2016-09-07 # Lars-Peter Clausen @ UPSTREAM: ALSA: control: Fix replacing user controls
+0770174 # 2016-09-07 # Florian Westphal @ BACKPORT: netfilter: x_tables: validate e->target_offset early
+b14e2b7 # 2016-09-07 # Guillaume Nault @ UPSTREAM: ppp: take reference on channels netns

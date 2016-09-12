@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-09-06 @ 20:14:37 (1473192877)
+CHANGES AFTER 2016-09-09 @ 11:25:14 (1473420314)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,148 +6,54 @@ CHANGES AFTER 2016-09-06 @ 20:14:37 (1473192877)
            |_____|___  |______|______|
                  |_____|              
 
+* Project /
+0000000 # 2016-09-09 # Zdrowy Gosciu @ WebView: Switch to Google
+
 * Project OTA/
-a738d9b # 2016-09-06 # Zdrowy Gosciu @ OTA: cm-13.0-20160906-201132-UNOFFICIAL-temasek-d802-V11.3
+74c61e0 # 2016-09-09 # Zdrowy Gosciu @ OTA: cm-13.0-20160909-112028-UNOFFICIAL-temasek-d802-V11.4
 
-* Project android/
-c5d790a # 2016-09-09 # Zdrowy Gosciu @ manifest: Track trader418 repo's
-8357b6a # 2016-09-08 # Zdrowy Gosciu @ manifest: Use HM manifest
-595d191 # 2016-09-08 # Zdrowy Gosciu @ manifest: Update AOSP to 6.0.1_r66
-
-* Project build/
-23175f6 # 2016-09-08 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-07c1234 # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
-
-* Project device/lge/g2-common/
-7ff9ea9 # 2016-09-09 # Steve Kondik @ g2-common: Turn on sdcardfs
-7fbaf47 # 2016-09-09 # Zdrowy Gosciu @ g2-common: init: usb: Fix property:sys.usb.config=none,adb
-
-* Project external/bouncycastle/
-e73530d # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
-
-* Project external/dhcpcd/
-89e5e41 # 2016-09-09 # Zdrowy Gosciu @ Merge remote-tracking branch 'VanirAOSP/m6' into mm
-06eafdb # 2016-09-09 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-576a466 # 2016-09-06 # DHOMD @ Merge branch 'android-6.0.1_r65' into HEAD
-
-* Project external/flac/
-4523c1d # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
-
-* Project external/libavc/
-f94f384 # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
-
-* Project external/libvpx/
-883c0ae # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
-
-* Project external/sonivox/
-3511c9d # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
+* Project cts/
+2f0cd21 # 2016-09-09 # Daniel Xie @ Merge "DO NOT MERGE:Updated the test to use Build.VERSION.SECURITY_PATCH Updated the test for August 2016" into marshmallow-cts-release
+3374a18 # 2016-09-09 # Dave Weinstein @ DO NOT MERGE:Updated the test to use Build.VERSION.SECURITY_PATCH Updated the test for August 2016
 
 * Project frameworks/av/
-887be24 # 2016-09-08 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-d9a8909 # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
-
-* Project frameworks/base/
-35961ab # 2016-09-08 # Sudheer Shanka @ DO NOT MERGE: Allow apps with CREATE_USERS permission to call UM.getProfiles.
-383309f # 2016-09-08 # Sungsoo Lim @ DO NOT MERGE: Fix CTS regression
-435f1f1 # 2016-09-08 # Sungsoo Lim @ DO NOT MERGE: Remove the use of JHEAD in ExifInterface
-2729165 # 2016-09-08 # Benjamin Franz @ DO NOT MERGE Block the user from entering safe boot mode
-25556c1 # 2016-09-08 # Sergio Giro @ Add bound checks to utf16_to_utf8
-bfbb184 # 2016-09-08 # Julia Reynolds @ Check caller's uid before allowing notification policy access.
-b4e4c98 # 2016-09-08 # Paul Stewart @ Fix string equality comparison
-260e44f # 2016-09-08 # Paul Stewart @ WifiEnterpriseConfiguration: Do not print credentials in toString
-
-* Project frameworks/native/
-8de0d8f # 2016-09-09 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-1c6eb19 # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
-
-* Project frameworks/opt/telephony/
-8a349c7 # 2016-09-08 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-f837c69 # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
-af78053 # 2016-09-07 # Vineeta Srivastava @ Revert "Revert "Fix problem with cell data service after SIM swap""
+56ccd4b # 2016-09-12 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+3f6bb68 # 2016-09-11 # irii @ libcameraservice: Don't pass NULL args on setCallbacks call
 
 * Project kernel/lge/msm8974/
-ba8a780 # 2016-09-09 # Zdrowy Gosciu @ Version HM 38.1
-6c52790 # 2016-09-09 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
-ad6126b # 2016-09-08 # Dan Pasanen @ g2: enable sdcardfs
-a446490 # 2016-09-08 # Trishansh Bhardwaj @ Adds bound check on reg_cfg_cmd->u.dmi_info.hi_tbl_offset.
-271a1bc # 2016-09-07 # Zdrowy Gosciu @ Version HM 37.7
-5d164a8 # 2016-09-07 # Nick Desaulniers @ fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
-57e5e0d # 2016-09-07 # Lars-Peter Clausen @ UPSTREAM: ALSA: control: Fix replacing user controls
-0770174 # 2016-09-07 # Florian Westphal @ BACKPORT: netfilter: x_tables: validate e->target_offset early
-b14e2b7 # 2016-09-07 # Guillaume Nault @ UPSTREAM: ppp: take reference on channels netns
+e06c079 # 2016-09-12 # Zdrowy Gosciu @ Version HM 39.1
+5964e1e # 2016-09-12 # Zdrowy Gosciu @ Revert "cpufreq: bail early if target_freq == current."
+f2c9568 # 2016-09-12 # Sultanxda @ Fix code errors detected using Linaro GCC 6.1.1-rc1
+87838a5 # 2016-09-12 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of https://github.com/Tsunamical/android_kernel_lge_msm8974 into mm
+a3092f5 # 2016-09-12 # Zdrowy Gosciu @ Revert "ARM: smp: Wait just 1 second for other CPU to halt"
+2da57cf # 2016-09-12 # Zdrowy Gosciu @ Revert "Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)"
+cfdf394 # 2016-09-12 # Zdrowy Gosciu @ Revert "readahead: Fix an error (thx ramgear)"
+da8e84e # 2016-09-09 # Anshul Garg @ Input: optimize events_per_packet count calculation
+945cfce # 2016-09-09 # JP Abgrall @ ext4: Add support for FIDTRIM, a best-effort ioctl for deep discard trim
+c992a71 # 2016-09-09 # Nick Desaulniers @ fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
+1132706 # 2016-09-09 # Biswajit Paul @ spmi: prevent showing the address of spmidev
+a32df7c # 2016-09-09 # Biswajit Paul @ msm: ipa: fix potential race condition ioctls
+aae4405 # 2016-09-09 # Biswajit Paul @ input: synaptics: allocate heap memory for temp buf
+024953c # 2016-09-09 # Ping Li @ msm: mdss: Correct block id check for mdss_mdp_misr_table
+76ef514 # 2016-09-09 # Vidyakumar Athota @ ASoC: msm-lsm-client: free lsm client data in msm_lsm_close
+85d67c8 # 2016-09-09 # Jaganath Kanakkassery @ BACKPORT: Bluetooth: Fix potential NULL dereference in RFCOMM bind callback
+f653be0 # 2016-09-09 # Arnaldo Carvalho de Melo @ UPSTREAM: net: Fix use after free in the recvmmsg exit path
+b5e8ea7 # 2016-09-09 # Rainer Weikusat @ UPSTREAM: unix: avoid use-after-free in ep_remove_wait_queue
+d500207 # 2016-09-09 # Andrey Vagin @ BACKPORT: signal: allow to send any siginfo to itself
 
-* Project libcore/
-fcc5003 # 2016-09-09 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-decc545 # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
+* Project packages/apps/Dialer/
+bf4c30c # 2016-09-12 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+2092d2d # 2016-09-09 # Danny Baumann @ Fix tab position handling for RTL languages.
 
-* Project packages/apps/AudioFX/
-5d47be9 # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/CMFileManager/
-c6fab43 # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/Email/
-b7d0aee # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
-
-* Project packages/apps/Gello/
-5148683 # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/Messaging/
-2bb428b # 2016-09-07 # Roman Birg @ Messaging: fix some int'l numbers from displaying incorrectly
-5593d34 # 2016-09-07 # Roman Birg @ Messaging: fix bad recycle on sending two mms in a row
-d0145f1 # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/Profiles/
-ecadba2 # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/Screencast/
-b2142fc # 2016-09-06 # clyde@build01 @ Automatic translation import
+* Project packages/apps/Eleven/
+89f5a4d # 2016-09-11 # Steve Kondik @ eleven: Runtime permissions
 
 * Project packages/apps/Settings/
-2bc4a77 # 2016-09-08 # Zdrowy Gosciu @ Build V11.4 (release 66)
-e1d1291 # 2016-09-08 # Jason Monk @ Pre-setup restrictions DO NOT MERGE
-
-* Project packages/apps/SoundRecorder/
-2a7a6ad # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/ThemeChooser/
-4075c50 # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/TvSettings/
-f2e84e8 # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/providers/DataUsageProvider/
-2473a6a # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/providers/WeatherProvider/
-823d00c # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/services/CMAudioService/
-6e6b71a # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/services/LiveLockScreenService/
-b58a3cc # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/services/Telephony/
-a8088a6 # 2016-09-09 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-1d471d0 # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
-5aabd63 # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/services/ThemeManagerService/
-449b0bb # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project packages/wallpapers/Galaxy4/
-a630c40 # 2016-09-06 # clyde@build01 @ Automatic translation import
-
-* Project system/core/
-3da7546 # 2016-09-08 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-b58cc75 # 2016-09-07 # Jessica Wagantall @ Merge tag 'android-6.0.1_r66' into HEAD
+2d14fe4 # 2016-09-12 # Zdrowy Gosciu @ AppOpsSummary: Fix build after merge
+fb2bfa7 # 2016-09-12 # Zdrowy Gosciu @ Revert "Changelog: prettify"
+f0a6e73 # 2016-09-12 # Zdrowy Gosciu @ Build V11.5
+8372333 # 2016-09-12 # Danny Baumann @ AppOpsSummary: Fix AIOOBE with root access disabled
+5eae97c # 2016-09-12 # Janet Sun @ Settings: Hidden option to view Device ID
 
 * Project vendor/cm/
-f0be991 # 2016-09-08 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-3bb79c7 # 2016-09-08 # Caio Oliveira @ cm: charger: Add support for Watch/LDPI devices
-d677aa8 # 2016-09-07 # Jessica Wagantall @ version: Set version string to 13.0.2 to reflect security update
-
-* Project vendor/cmsdk/
-7f814bc # 2016-09-08 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-f15f366 # 2016-09-06 # clyde@build01 @ Automatic translation import
+33dacef # 2016-09-12 # Zdrowy Gosciu @ prebuilt: Add backup script for Google WebView + BetterBatteryStats

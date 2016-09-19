@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-09-09 @ 11:25:14 (1473420314)
+CHANGES AFTER 2016-09-12 @ 09:15:31 (1473671731)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,22 +7,18 @@ CHANGES AFTER 2016-09-09 @ 11:25:14 (1473420314)
                  |_____|              
 
 * Project kernel/lge/msm8974/
-e06c079 # 2016-09-12 # Zdrowy Gosciu @ Version HM 39.1
-5964e1e # 2016-09-12 # Zdrowy Gosciu @ Revert "cpufreq: bail early if target_freq == current."
-f2c9568 # 2016-09-12 # Sultanxda @ Fix code errors detected using Linaro GCC 6.1.1-rc1
-87838a5 # 2016-09-12 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of https://github.com/Tsunamical/android_kernel_lge_msm8974 into mm
-a3092f5 # 2016-09-12 # Zdrowy Gosciu @ Revert "ARM: smp: Wait just 1 second for other CPU to halt"
-2da57cf # 2016-09-12 # Zdrowy Gosciu @ Revert "Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)"
-cfdf394 # 2016-09-12 # Zdrowy Gosciu @ Revert "readahead: Fix an error (thx ramgear)"
-da8e84e # 2016-09-09 # Anshul Garg @ Input: optimize events_per_packet count calculation
-945cfce # 2016-09-09 # JP Abgrall @ ext4: Add support for FIDTRIM, a best-effort ioctl for deep discard trim
-c992a71 # 2016-09-09 # Nick Desaulniers @ fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
-1132706 # 2016-09-09 # Biswajit Paul @ spmi: prevent showing the address of spmidev
-a32df7c # 2016-09-09 # Biswajit Paul @ msm: ipa: fix potential race condition ioctls
-aae4405 # 2016-09-09 # Biswajit Paul @ input: synaptics: allocate heap memory for temp buf
-024953c # 2016-09-09 # Ping Li @ msm: mdss: Correct block id check for mdss_mdp_misr_table
-76ef514 # 2016-09-09 # Vidyakumar Athota @ ASoC: msm-lsm-client: free lsm client data in msm_lsm_close
-85d67c8 # 2016-09-09 # Jaganath Kanakkassery @ BACKPORT: Bluetooth: Fix potential NULL dereference in RFCOMM bind callback
-f653be0 # 2016-09-09 # Arnaldo Carvalho de Melo @ UPSTREAM: net: Fix use after free in the recvmmsg exit path
-b5e8ea7 # 2016-09-09 # Rainer Weikusat @ UPSTREAM: unix: avoid use-after-free in ep_remove_wait_queue
-d500207 # 2016-09-09 # Andrey Vagin @ BACKPORT: signal: allow to send any siginfo to itself
+f41e973 # 2016-09-19 # Zdrowy Gosciu @ Version HM 40.0
+820eb8c # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "readahead: Fix an error (thx ramgear)""
+6efa248 # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)""
+74532bb # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "ARM: smp: Wait just 1 second for other CPU to halt""
+43b9a9c # 2016-09-19 # Zdrowy Gosciu @ Revert "Backport WQ_POWER_EFFICIENT from 3.10 kernel"
+2eaaaba # 2016-09-19 # Zdrowy Gosciu @ Version HM 39.9
+1edb833 # 2016-09-19 # Zdrowy Gosciu @ cpufreq: Fix yankactive build
+d8cbb11 # 2016-09-19 # yank555-lu @ cpufreq: Add yankdemand governor
+9a08074 # 2016-09-19 # yank555-lu @ cpufreq: Add yankactive governor
+cf8042d # 2016-09-19 # Rainer Weikusat @ UPSTREAM: af_unix: Guard against other == sk in unix_dgram_sendmsg
+becb57d # 2016-09-19 # Ícaro Hoff @ smb349: report current_max variable multiplied by 1000
+89682c6 # 2016-09-19 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
+e18298c # 2016-09-16 # Harout Hedeshian @ net: ipv6: Add sysctl entry to disable MTU updates from RA
+fc850de # 2016-09-13 # Subash Abhinov Kasiviswanathan @ include: rmnet_data: Define the MAPv4 data format
+6dca69e # 2016-09-13 # Muhammed Siju @ net: rmnet_data: Add header files for rmnet_data

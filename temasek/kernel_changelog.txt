@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-09-12 @ 09:15:31 (1473671731)
+CHANGES AFTER 2016-09-19 @ 08:40:46 (1474274446)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,19 +6,21 @@ CHANGES AFTER 2016-09-12 @ 09:15:31 (1473671731)
            |_____|___  |______|______|
                  |_____|              
 
+* Project device/lge/g2-common/
+a3ecce1 # 2016-09-20 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O scheduler
+befec0f # 2016-09-20 # Zdrowy Gosciu @ g2-common: init: Tweak LMK
+
 * Project kernel/lge/msm8974/
+701ad07 # 2016-09-20 # Zdrowy Gosciu @ devfreq: Tweak Adreno Idler
+a9daea4 # 2016-09-20 # Zdrowy Gosciu @ Revert "devfreq: Make Adreno Idler more aggressive"
+3f9c076 # 2016-09-20 # Zdrowy Gosciu @ Revert "mm: Push read ahead to 512 kB"
+9a3a251 # 2016-09-20 # Zdrowy Gosciu @ Revert "char: random: 512 read ahead is best for now"
+b27c6ff # 2016-09-20 # Zdrowy Gosciu @ Revert "char: random: Fix depleting entropy"
+426683e # 2016-09-20 # Zdrowy Gosciu @ power: Enable PM_SYNC_BEFORE_SUSPEND
+cb940dd # 2016-09-20 # Zdrowy Gosciu @ Revert "Revert "cpufreq: bail early if target_freq == current.""
+92776c5 # 2016-09-20 # Zdrowy Gosciu @ Revert "Revert "Backport WQ_POWER_EFFICIENT from 3.10 kernel""
 f41e973 # 2016-09-19 # Zdrowy Gosciu @ Version HM 40.0
 820eb8c # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "readahead: Fix an error (thx ramgear)""
 6efa248 # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)""
 74532bb # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "ARM: smp: Wait just 1 second for other CPU to halt""
 43b9a9c # 2016-09-19 # Zdrowy Gosciu @ Revert "Backport WQ_POWER_EFFICIENT from 3.10 kernel"
-2eaaaba # 2016-09-19 # Zdrowy Gosciu @ Version HM 39.9
-1edb833 # 2016-09-19 # Zdrowy Gosciu @ cpufreq: Fix yankactive build
-d8cbb11 # 2016-09-19 # yank555-lu @ cpufreq: Add yankdemand governor
-9a08074 # 2016-09-19 # yank555-lu @ cpufreq: Add yankactive governor
-cf8042d # 2016-09-19 # Rainer Weikusat @ UPSTREAM: af_unix: Guard against other == sk in unix_dgram_sendmsg
-becb57d # 2016-09-19 # Ícaro Hoff @ smb349: report current_max variable multiplied by 1000
-89682c6 # 2016-09-19 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
-e18298c # 2016-09-16 # Harout Hedeshian @ net: ipv6: Add sysctl entry to disable MTU updates from RA
-fc850de # 2016-09-13 # Subash Abhinov Kasiviswanathan @ include: rmnet_data: Define the MAPv4 data format
-6dca69e # 2016-09-13 # Muhammed Siju @ net: rmnet_data: Add header files for rmnet_data

@@ -7,10 +7,15 @@ CHANGES AFTER 2016-09-19 @ 08:40:46 (1474274446)
                  |_____|              
 
 * Project device/lge/g2-common/
+f5cc8ad # 2016-09-21 # Zdrowy Gosciu @ g2-common: init: power: Deadline as default I/O scheduler
 a3ecce1 # 2016-09-20 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O scheduler
 befec0f # 2016-09-20 # Zdrowy Gosciu @ g2-common: init: Tweak LMK
 
 * Project kernel/lge/msm8974/
+472fbea # 2016-09-21 # Zdrowy Gosciu @ Version HM 42.2
+534016a # 2016-09-21 # Zdrowy Gosciu @ Revert "Revert "Revert "Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)"""
+86eb7f9 # 2016-09-21 # Zdrowy Gosciu @ Revert "Revert "Revert "readahead: Fix an error (thx ramgear)"""
+5121676 # 2016-09-21 # Zdrowy Gosciu @ Version HM 41.1
 701ad07 # 2016-09-20 # Zdrowy Gosciu @ devfreq: Tweak Adreno Idler
 a9daea4 # 2016-09-20 # Zdrowy Gosciu @ Revert "devfreq: Make Adreno Idler more aggressive"
 3f9c076 # 2016-09-20 # Zdrowy Gosciu @ Revert "mm: Push read ahead to 512 kB"

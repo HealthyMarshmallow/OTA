@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-09-12 @ 09:15:31 (1473671731)
+CHANGES AFTER 2016-09-19 @ 08:40:46 (1474274446)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,109 +7,47 @@ CHANGES AFTER 2016-09-12 @ 09:15:31 (1473671731)
                  |_____|              
 
 * Project OTA/
-e490117 # 2016-09-12 # Zdrowy Gosciu @ OTA: cm-13.0-20160912-091043-UNOFFICIAL-temasek-d802-V11.5
+e7799d2 # 2016-09-20 # Zdrowy Gosciu @ OTA: Kernel HM 41.1 for CM based ROMs
+9e013fd # 2016-09-19 # Zdrowy Gosciu @ OTA: cm-13.0-20160919-083350-UNOFFICIAL-temasek-d802-V11.6
 
-* Project build/
-4edc90e # 2016-09-14 # Chet Kener @ core: Squisher/Opticharger (2/2)
-4dab0c0 # 2016-09-13 # Zdrowy Gosciu @ product: Build Google WebView
+* Project device/lge/g2-common/
+f5cc8ad # 2016-09-21 # Zdrowy Gosciu @ g2-common: init: power: Deadline as default I/O scheduler
+a3ecce1 # 2016-09-20 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O scheduler
+befec0f # 2016-09-20 # Zdrowy Gosciu @ g2-common: init: Tweak LMK
 
-* Project device/qcom/common/
-06c7d71 # 2016-09-16 # Zhao Wei Liew @ power: Simplify display_boost checks
+* Project external/mm-dash/
+20027e4 # 2016-09-19 # Scott Mertz @ Add dest length parameter to utf16_to_utf8
 
-* Project external/chromium-webview/
-190b833 # 2016-09-19 # Zdrowy Gosciu @ arm: Android System WebView 53.0.2785.124 (278512400)
-dae2f4e # 2016-09-13 # Zdrowy Gosciu @ arm: Android System WebView 53.0.2785.113 (278511300)
-6d00f46 # 2016-09-13 # Zdrowy Gosciu @ Update README
-099d87d # 2016-09-13 # Zdrowy Gosciu @ arm: Android System WebView 52.0.2743.98
-
-* Project frameworks/base/
-77d3836 # 2016-09-14 # d34d @ SysUI: Don't set panel bar to null and avoid NPEs
-aabf1a0 # 2016-09-14 # clyde@build01 @ Automatic translation import
-f892001 # 2016-09-14 # Roman Birg @ PhoneWindowManager: set focus flags on keyguard panels
-e518260 # 2016-09-14 # clyde@build01 @ Automatic translation import
-
-* Project hardware/qcom/audio-caf/msm8974/
-7ea2a0e # 2016-09-18 # keunhui.park @ audio: set voice call volume step by property
-8913d48 # 2016-09-18 # Eric Laurent @ hal: Add support for Hearing Aid Compatibility (HAC) mode
-edb4120 # 2016-09-18 # Andy Hung @ DO NOT MERGE Fix AudioEffect reply overflow
-
-* Project hardware/qcom/media-caf/msm8974/
-8ada248 # 2016-09-18 # Raja M @ Merge UPSTREAM hardware_qcom_media into HEAD
+* Project frameworks/opt/telephony/
+4757a2b # 2016-09-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+e8ed3af # 2016-09-19 # Aaron Knight @ CdmaServiceStateTracker: Load CarrierConfig for NV Subscription
 
 * Project kernel/lge/msm8974/
-2eaaaba # 2016-09-19 # Zdrowy Gosciu @ Version HM 39.9
-1edb833 # 2016-09-19 # Zdrowy Gosciu @ cpufreq: Fix yankactive build
-d8cbb11 # 2016-09-19 # yank555-lu @ cpufreq: Add yankdemand governor
-9a08074 # 2016-09-19 # yank555-lu @ cpufreq: Add yankactive governor
-cf8042d # 2016-09-19 # Rainer Weikusat @ UPSTREAM: af_unix: Guard against other == sk in unix_dgram_sendmsg
-becb57d # 2016-09-19 # Ícaro Hoff @ smb349: report current_max variable multiplied by 1000
-89682c6 # 2016-09-19 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
-e18298c # 2016-09-16 # Harout Hedeshian @ net: ipv6: Add sysctl entry to disable MTU updates from RA
-fc850de # 2016-09-13 # Subash Abhinov Kasiviswanathan @ include: rmnet_data: Define the MAPv4 data format
-6dca69e # 2016-09-13 # Muhammed Siju @ net: rmnet_data: Add header files for rmnet_data
+472fbea # 2016-09-21 # Zdrowy Gosciu @ Version HM 42.2
+534016a # 2016-09-21 # Zdrowy Gosciu @ Revert "Revert "Revert "Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)"""
+86eb7f9 # 2016-09-21 # Zdrowy Gosciu @ Revert "Revert "Revert "readahead: Fix an error (thx ramgear)"""
+5121676 # 2016-09-21 # Zdrowy Gosciu @ Version HM 41.1
+701ad07 # 2016-09-20 # Zdrowy Gosciu @ devfreq: Tweak Adreno Idler
+a9daea4 # 2016-09-20 # Zdrowy Gosciu @ Revert "devfreq: Make Adreno Idler more aggressive"
+3f9c076 # 2016-09-20 # Zdrowy Gosciu @ Revert "mm: Push read ahead to 512 kB"
+9a3a251 # 2016-09-20 # Zdrowy Gosciu @ Revert "char: random: 512 read ahead is best for now"
+b27c6ff # 2016-09-20 # Zdrowy Gosciu @ Revert "char: random: Fix depleting entropy"
+426683e # 2016-09-20 # Zdrowy Gosciu @ power: Enable PM_SYNC_BEFORE_SUSPEND
+cb940dd # 2016-09-20 # Zdrowy Gosciu @ Revert "Revert "cpufreq: bail early if target_freq == current.""
+92776c5 # 2016-09-20 # Zdrowy Gosciu @ Revert "Revert "Backport WQ_POWER_EFFICIENT from 3.10 kernel""
+f41e973 # 2016-09-19 # Zdrowy Gosciu @ Version HM 40.0
+820eb8c # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "readahead: Fix an error (thx ramgear)""
+6efa248 # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)""
+74532bb # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "ARM: smp: Wait just 1 second for other CPU to halt""
+43b9a9c # 2016-09-19 # Zdrowy Gosciu @ Revert "Backport WQ_POWER_EFFICIENT from 3.10 kernel"
 
-* Project packages/apps/AudioFX/
-509c103 # 2016-09-17 # Danny Baumann @ Merge "AudioFX: Fix possible NPE" into cm-13.0
-d6b01bb # 2016-09-12 # Jessica Wagantall @ Merge "Automatic translation import" into cm-13.0
-dfc3f36 # 2016-09-12 # Michael W @ AudioFX: Fix possible NPE
-
-* Project packages/apps/CMFileManager/
-9ba3d97 # 2016-09-12 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/DeskClock/
-3eb5b00 # 2016-09-14 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
-
-* Project packages/apps/InCallUI/
-fbab648 # 2016-09-14 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-
-* Project packages/apps/Messaging/
-9e542ad # 2016-09-16 # Stephen Bird @ Add permissions for ridesharing
-c0de5d0 # 2016-09-13 # Tyson Miller @ Adjust map and map bar UX
-435f3e7 # 2016-09-13 # emancebo @ Fix getProviderInfo compile error after api change
-6da984a # 2016-09-13 # Yvonne Wong @ Add don't optimize flag in proguard to avoid build error
-1a3b89e # 2016-09-13 # Yvonne Wong @ Add maps preview for addresses and integrate ridesharing request into Messaging
-
-* Project packages/apps/Settings/
-46a8698 # 2016-09-19 # Michael W @ Settings: Fix possible NPE
-85e81e7 # 2016-09-19 # Michael W @ Settings: Notification light: Fix for app customization
-20445c5 # 2016-09-14 # Marcos Marado @ Don't crash while entering in DevelopmentSettings
-b0a1142 # 2016-09-14 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/SetupWizard/
-5313e15 # 2016-09-14 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
-
-* Project packages/apps/ThemeChooser/
-b266a27 # 2016-09-12 # inky@build01 @ Automatic translation import
-
-* Project packages/providers/DataUsageProvider/
-bb88496 # 2016-09-17 # Michael W @ DataUsageProvider: Fix possible NPE
-
-* Project packages/providers/WeatherProvider/
-4a176fd # 2016-09-12 # inky@build01 @ Automatic translation import
-
-* Project packages/services/CMAudioService/
-fe7240b # 2016-09-12 # inky@build01 @ Automatic translation import
-
-* Project packages/themes/HexoLibre/
-b0003f4 # 2016-09-15 # Michael Bestas @ Fix eject SD card icon being too dark
-f433d8a # 2016-09-15 # Michael Bestas @ Update device settings theme and theme CMUpdater
-4d602a8 # 2016-09-13 # Michael Bestas @ Theme new Theme Chooser icon
-
-* Project packages/wallpapers/Galaxy4/
-3cf4e1c # 2016-09-12 # inky@build01 @ Automatic translation import
+* Project packages/apps/Snap/
+23aacfe # 2016-09-21 # clyde@build01 @ Automatic translation import
+048d214 # 2016-09-21 # pinky@build01 @ Automatic translation import
 
 * Project vendor/cm/
-eb029b6 # 2016-09-19 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-4b6f227 # 2016-09-16 # Abhisek Devkota @ Gello artifact v37
-5f54a4a # 2016-09-15 # Kra1o5 @ Contributors: Add maintainers for BQ Aquaris M5 (piccolo)
-b0dacdf # 2016-09-14 # Chet Kener @ tools: Squisher/Opticharger (1/2)
-adfe2bf # 2016-09-14 # Zdrowy Gosciu @ build: core: Fix Maven
-4487e34 # 2016-09-14 # Zdrowy Gosciu @ config: telephony: Remove CellBroadcastReceiver
-f53a720 # 2016-09-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-1957887 # 2016-09-13 # Stephen Bird @ increment ambientsdk version
-592c4f5 # 2016-09-13 # Zdrowy Gosciu @ prebuilt: addon.d: Don't restore Google WebView
+0294beb # 2016-09-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+699dcea # 2016-09-20 # d34d @ themes: allow system_server to relabel them dir
 
 * Project vendor/cmsdk/
-b75da03 # 2016-09-19 # Zdrowy Gosciu @ BootDexoptDialog: Add me to popup :)
-fafda78 # 2016-09-19 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-fceb077 # 2016-09-12 # Danny Baumann @ Don't unboundedly enqueue transition messages.
+9b6bdc3 # 2016-09-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm

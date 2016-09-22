@@ -1,31 +1,17 @@
-CHANGES AFTER 2016-09-19 @ 08:40:46 (1474274446)
+CHANGES AFTER 2016-09-21 @ 13:45:46 (1474465546)
 
-                        ______ ______ 
+                        ______ ______
            .-----.-----|  __  |    __|
            |-- __|  _  |  __  |__    |
            |_____|___  |______|______|
-                 |_____|              
-
-* Project device/lge/g2-common/
-f5cc8ad # 2016-09-21 # Zdrowy Gosciu @ g2-common: init: power: Deadline as default I/O scheduler
-a3ecce1 # 2016-09-20 # Zdrowy Gosciu @ g2-common: init: power: Tweak I/O scheduler
-befec0f # 2016-09-20 # Zdrowy Gosciu @ g2-common: init: Tweak LMK
+                 |_____|
 
 * Project kernel/lge/msm8974/
-472fbea # 2016-09-21 # Zdrowy Gosciu @ Version HM 42.2
-534016a # 2016-09-21 # Zdrowy Gosciu @ Revert "Revert "Revert "Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)"""
-86eb7f9 # 2016-09-21 # Zdrowy Gosciu @ Revert "Revert "Revert "readahead: Fix an error (thx ramgear)"""
-5121676 # 2016-09-21 # Zdrowy Gosciu @ Version HM 41.1
-701ad07 # 2016-09-20 # Zdrowy Gosciu @ devfreq: Tweak Adreno Idler
-a9daea4 # 2016-09-20 # Zdrowy Gosciu @ Revert "devfreq: Make Adreno Idler more aggressive"
-3f9c076 # 2016-09-20 # Zdrowy Gosciu @ Revert "mm: Push read ahead to 512 kB"
-9a3a251 # 2016-09-20 # Zdrowy Gosciu @ Revert "char: random: 512 read ahead is best for now"
-b27c6ff # 2016-09-20 # Zdrowy Gosciu @ Revert "char: random: Fix depleting entropy"
-426683e # 2016-09-20 # Zdrowy Gosciu @ power: Enable PM_SYNC_BEFORE_SUSPEND
-cb940dd # 2016-09-20 # Zdrowy Gosciu @ Revert "Revert "cpufreq: bail early if target_freq == current.""
-92776c5 # 2016-09-20 # Zdrowy Gosciu @ Revert "Revert "Backport WQ_POWER_EFFICIENT from 3.10 kernel""
-f41e973 # 2016-09-19 # Zdrowy Gosciu @ Version HM 40.0
-820eb8c # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "readahead: Fix an error (thx ramgear)""
-6efa248 # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)""
-74532bb # 2016-09-19 # Zdrowy Gosciu @ Revert "Revert "ARM: smp: Wait just 1 second for other CPU to halt""
-43b9a9c # 2016-09-19 # Zdrowy Gosciu @ Revert "Backport WQ_POWER_EFFICIENT from 3.10 kernel"
+6e8150c # 2016-09-22 # Zdrowy Gosciu @ Version HM 43.3
+228e7c2 # 2016-09-22 # Zdrowy Gosciu @ qdsp6v2: Fix audio_amrwbplus derp
+a53b689 # 2016-09-22 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
+630419b # 2016-09-22 # Dorimanx @ misc: Fix the code after GCC 6.1.0 review
+1dcdebd # 2016-09-22 # Zdrowy Gosciu @ Revert "SCHEDULER: Autogroup patch group by current user android UID instead of task ID"
+55bd604 # 2016-09-22 # Zdrowy Gosciu @ Revert "arm: configs: g2: Enable CFG80211_ALLOW_RECONNECT"
+7475411 # 2016-09-22 # Zdrowy Gosciu @ Revert "power: Enable PM_SYNC_BEFORE_SUSPEND"
+2a4d531 # 2016-09-21 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids

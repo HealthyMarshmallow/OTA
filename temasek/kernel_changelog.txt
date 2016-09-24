@@ -6,7 +6,19 @@ CHANGES AFTER 2016-09-21 @ 13:45:46 (1474465546)
            |_____|___  |______|______|
                  |_____|
 
+* Project device/lge/g2-common/
+bb510e7 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug load
+9fb28ce # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Clear MSM Hotplug update rate value
+8631013 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Max GPU freq back to 450 MHz
+42fb4bc # 2016-09-24 # Zdrowy Gosciu @ Revert "g2-common: init: Tweak LMK"
+04bf017 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: BFQ 256 kB as default I/O scheduler
+35e3667 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Lower MSM Hotplug history size
+
 * Project kernel/lge/msm8974/
+b88e5ba # 2016-09-24 # Zdrowy Gosciu @ Version HM 44.4
+1afda0d # 2016-09-24 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
+ce9d0df # 2016-09-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+294bc92 # 2016-09-22 # Andrey Ryabinin @ ARM: 8051/1: put_user: fix possible data corruption in put_user
 6e8150c # 2016-09-22 # Zdrowy Gosciu @ Version HM 43.3
 228e7c2 # 2016-09-22 # Zdrowy Gosciu @ qdsp6v2: Fix audio_amrwbplus derp
 a53b689 # 2016-09-22 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm

@@ -7,6 +7,8 @@ CHANGES AFTER 2016-09-21 @ 13:45:46 (1474465546)
                  |_____|
 
 * Project device/lge/g2-common/
+a946448 # 2016-09-27 # Zdrowy Gosciu @ g2-common: init: power: IntelliPlug as default hotplugger
+de159c9 # 2016-09-25 # Zdrowy Gosciu @ g2-common: init: power: Impulse as default CPU governor
 bb510e7 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug load
 9fb28ce # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Clear MSM Hotplug update rate value
 8631013 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Max GPU freq back to 450 MHz
@@ -15,6 +17,26 @@ bb510e7 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug
 35e3667 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Lower MSM Hotplug history size
 
 * Project kernel/lge/msm8974/
+e17299f # 2016-09-27 # Zdrowy Gosciu @ Version HM 45.5
+3ada711 # 2016-09-27 # Zdrowy Gosciu @ mach-msm: Disable Bricked HotPlug
+07d6b60 # 2016-09-27 # Zdrowy Gosciu @ mach-msm: Disable Runqueue Stats
+0ce4860 # 2016-09-27 # Dorimanx @ msm: Convert direct references to HZ
+4040361 # 2016-09-27 # Zdrowy Gosciu @ hotplugs: IntelliPlug as default hotplugger
+c2a4557 # 2016-09-27 # Zdrowy Gosciu @ MSM Hotplug: Disable by default
+90f49f9 # 2016-09-27 # Zdrowy Gosciu @ hotplugs: Fix build
+41c5bdb # 2016-09-27 # Pranav Vashi @ msm: Add Bricked Hotplug driver
+ae0bffa # 2016-09-27 # Pranav Vashi @ msm: Add Intelli Hotplug driver
+00e554a # 2016-09-27 # Pranav Vashi @ sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire
+45e5936 # 2016-09-27 # anarkia1976 @ PM: Enable asynchronous noirq resume threads to save the resuming time
+85a11c2 # 2016-09-27 # Zdrowy Gosciu @ cpufreq: Fix impulse build
+6760579 # 2016-09-27 # Stratos Karafotis @ cpufreq: Introduce new relation for freq selection
+d278f0c # 2016-09-27 # Pranav Vashi @ cpufreq: impulse: Do not rearm if load is greater than 100
+bc2b4bf # 2016-09-27 # Pranav Vashi @ cpufreq: impulse: Do not reschedule timer if policy->max changes
+2b1cbd6 # 2016-09-27 # Pranav Vashi @ cpufreq: impulse: Do not consider min freq change as boost
+94099bd # 2016-09-27 # anarkia1976 @ cpufreq: impulse: burn tuning directly into governor
+89aa6ad6 # 2016-09-27 # Zachariah @ cpufreq: Introduce impulse governor
+05956bb # 2016-09-27 # hellsgod @ readahead: Fix an error (thx ramgear)
+8f5ecd1 # 2016-09-27 # hellsgod @ Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)
 b88e5ba # 2016-09-24 # Zdrowy Gosciu @ Version HM 44.4
 1afda0d # 2016-09-24 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
 ce9d0df # 2016-09-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
@@ -26,4 +48,7 @@ a53b689 # 2016-09-22 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.co
 1dcdebd # 2016-09-22 # Zdrowy Gosciu @ Revert "SCHEDULER: Autogroup patch group by current user android UID instead of task ID"
 55bd604 # 2016-09-22 # Zdrowy Gosciu @ Revert "arm: configs: g2: Enable CFG80211_ALLOW_RECONNECT"
 7475411 # 2016-09-22 # Zdrowy Gosciu @ Revert "power: Enable PM_SYNC_BEFORE_SUSPEND"
+eb54edc # 2016-09-21 # Andrey Ryabinin @ ARM: 8051/1: put_user: fix possible data corruption in put_user
 2a4d531 # 2016-09-21 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
+6375a92 # 2016-09-21 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
+d103332 # 2016-09-21 # Ícaro Hoff @ smb349: report current_max variable multiplied by 1000

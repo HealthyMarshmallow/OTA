@@ -1,12 +1,22 @@
 CHANGES AFTER 2016-09-21 @ 13:45:46 (1474465546)
 
-                        ______ ______
+                        ______ ______ 
            .-----.-----|  __  |    __|
            |-- __|  _  |  __  |__    |
            |_____|___  |______|______|
-                 |_____|
+                 |_____|              
 
 * Project device/lge/g2-common/
+2ff6961 # 2016-10-05 # Zdrowy Gosciu @ g2-common: init: power: Bring back the LITE
+cd764cb # 2016-10-05 # Zdrowy Gosciu @ Revert "Enable hardware encryption"
+677646b # 2016-10-05 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Thermal Simple zones
+902d08b # 2016-10-05 # Zdrowy Gosciu @ g2-common: init: power: Switch to MSM Hotplug kernel defaults
+5e1e18a # 2016-10-04 # Zdrowy Gosciu @ g2-common: Remove L1/L2 cache optimizations
+9cef3fc # 2016-10-04 # Zdrowy Gosciu @ g2-common: Remove C2D props
+6be7be6 # 2016-10-04 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of https://github.com/blastagator/cm_device_lge_g2-common into mm-lite
+037f5be # 2016-10-04 # Zdrowy Gosciu @ g2-common: init: power: Re-sync CPU governor settings with CM 13.0
+ef34d17 # 2016-10-04 # Zdrowy Gosciu @ Revert "g2-common: init: power: IntelliPlug as default hotplugger"
+4e26ff3 # 2016-10-03 # Greg Wallace @ Enable hardware encryption
 a946448 # 2016-09-27 # Zdrowy Gosciu @ g2-common: init: power: IntelliPlug as default hotplugger
 de159c9 # 2016-09-25 # Zdrowy Gosciu @ g2-common: init: power: Impulse as default CPU governor
 bb510e7 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug load
@@ -17,38 +27,97 @@ bb510e7 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug
 35e3667 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Lower MSM Hotplug history size
 
 * Project kernel/lge/msm8974/
-e17299f # 2016-09-27 # Zdrowy Gosciu @ Version HM 45.5
-3ada711 # 2016-09-27 # Zdrowy Gosciu @ mach-msm: Disable Bricked HotPlug
-07d6b60 # 2016-09-27 # Zdrowy Gosciu @ mach-msm: Disable Runqueue Stats
-0ce4860 # 2016-09-27 # Dorimanx @ msm: Convert direct references to HZ
-4040361 # 2016-09-27 # Zdrowy Gosciu @ hotplugs: IntelliPlug as default hotplugger
-c2a4557 # 2016-09-27 # Zdrowy Gosciu @ MSM Hotplug: Disable by default
-90f49f9 # 2016-09-27 # Zdrowy Gosciu @ hotplugs: Fix build
-41c5bdb # 2016-09-27 # Pranav Vashi @ msm: Add Bricked Hotplug driver
-ae0bffa # 2016-09-27 # Pranav Vashi @ msm: Add Intelli Hotplug driver
-00e554a # 2016-09-27 # Pranav Vashi @ sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire
-45e5936 # 2016-09-27 # anarkia1976 @ PM: Enable asynchronous noirq resume threads to save the resuming time
-85a11c2 # 2016-09-27 # Zdrowy Gosciu @ cpufreq: Fix impulse build
-6760579 # 2016-09-27 # Stratos Karafotis @ cpufreq: Introduce new relation for freq selection
-d278f0c # 2016-09-27 # Pranav Vashi @ cpufreq: impulse: Do not rearm if load is greater than 100
-bc2b4bf # 2016-09-27 # Pranav Vashi @ cpufreq: impulse: Do not reschedule timer if policy->max changes
-2b1cbd6 # 2016-09-27 # Pranav Vashi @ cpufreq: impulse: Do not consider min freq change as boost
-94099bd # 2016-09-27 # anarkia1976 @ cpufreq: impulse: burn tuning directly into governor
-89aa6ad6 # 2016-09-27 # Zachariah @ cpufreq: Introduce impulse governor
-05956bb # 2016-09-27 # hellsgod @ readahead: Fix an error (thx ramgear)
-8f5ecd1 # 2016-09-27 # hellsgod @ Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)
-b88e5ba # 2016-09-24 # Zdrowy Gosciu @ Version HM 44.4
-1afda0d # 2016-09-24 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
-ce9d0df # 2016-09-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+01c950f # 2016-10-05 # Zdrowy Gosciu @ Version HML 1.2
+2876b81 # 2016-10-05 # Zdrowy Gosciu @ sched: Disable gentle fair sleepers
+2a82842 # 2016-10-05 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of https://github.com/blastagator/LGG2_Kernel into mm-lite
+67e6f06 # 2016-10-05 # Zdrowy Gosciu @ Version HML 1.1
+cdc1d44 # 2016-10-05 # Zdrowy Gosciu @ arm: configs: g2: Set TCP CUBIC as default
+1404bbe # 2016-10-05 # Neal Cardwell @ tcp: fix timing issue in CUBIC slope calculation
+13ba742 # 2016-10-05 # Zdrowy Gosciu @ arm: configs: g2: Enable advanced TCP congestion control algorithms
+37500db # 2016-10-05 # Neal Cardwell @ tcp_yeah: don't set ssthresh below 2
+56b3a32 # 2016-10-05 # myfluxi @ block: deadline: Optimize for non-rotational
+7d15a303 # 2016-10-05 # xiaobing tu @ deadline: Allow 0ms deadline latency, increase the read speed
+210d835 # 2016-10-05 # faux123 @ block: deadline: tweak for better android performance
+7d8b75e # 2016-10-05 # TripNRaVeR @ block: add tripndroid i/o scheduler
+2b99d6d # 2016-10-05 # Aaron Carroll @ block: add vr i/o scheduler
+59315cd # 2016-10-05 # Brandon Berhent @ block: add zen i/o scheduler
+046458a # 2016-10-05 # Miguel Boton @ block: add sioplus i/o scheduler
+70c719a # 2016-10-05 # Miguel Boton @ block: add sio i/o scheduler
+886cd12 # 2016-10-05 # Shaohua Li @ block: add fiops i/o scheduler
+1f92f5e # 2016-10-05 # franciscofranco @ block: row: add magic values.
+f34b4c9 # 2016-10-05 # Paul Keith @ block: cfq: fix slice Idle check
+3b361a9 # 2016-10-05 # Chet Kener @ block: cfq: set slice Idle default to 0
+06cda59 # 2016-10-05 # Jens Axboe @ block: cfq: default to IOPS mode on SSDs
+e2c7f54 # 2016-10-05 # Paul Keith @ block: bfq: fix slice Idle check
+e21748e # 2016-10-05 # Chet Kener @ block: bfq: set slice Idle default to 0
+6c6f2d8 # 2016-10-05 # Zhao Wei Liew @ block: bfq: default to IOPS mode on SSDs
+2ab8e7d # 2016-10-05 # Alexander Clouter @ cpufreq: Introduce lionheart governor
+5a61d0d # 2016-10-05 # Alucard24 @ cpufreq: Introduce nightmare governor
+d499eab # 2016-10-05 # Zdrowy Gosciu @ arm: configs: g2: Disable L2 master port panic
+6f8969e # 2016-10-05 # Zdrowy Gosciu @ Version HML 1.0
+c4d2a4f # 2016-10-05 # Zdrowy Gosciu @ cpufreq: cpu-boost: Zero values
+0758b3d # 2016-10-05 # Slim80 @ mmc: Disable CRC check for 30% extra performance
+2d435b6 # 2016-10-05 # Zdrowy Gosciu @ input: touchscreen: g2: Force LCD suspend during touch suspend
+05b5c06 # 2016-10-05 # Dorimanx @ irq: Clean Unbalanced IRQ 61 warning for SPS Modem Data wakeup
+e4845a7 # 2016-10-05 # Sultanxda @ scsi: Remove scsi_wait_scan
+8552b52 # 2016-10-05 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
+41e7d50 # 2016-10-05 # Zdrowy Gosciu @ Remove build.sh
+9432064 # 2016-10-05 # Zdrowy Gosciu @ mmc: sdhci: Disable register dumps
+a1dc1c4 # 2016-10-05 # Zdrowy Gosciu @ arm: Fast Charge is for G2
+780e013 # 2016-10-05 # Jeremy @ arm: Forced Fast Charge for LG G2 ported by PTMR3
+34bce55 # 2016-10-04 # Paul Keith @ sched: Export arch power to sysfs
+6b4d07d # 2016-10-04 # ktoonsez @ sched: Make GENTLE_FAIR_SLEEPERS configurable thru sysfs
+4dc787c # 2016-10-04 # Pavel @ drivers: mmc: sysfs interface to enable / disable CRC
+a79d070 # 2016-10-04 # Zdrowy Gosciu @ Revert "blu_plug: Dynamic hotplug driver for hammerhead"
+ffcdca8 # 2016-10-04 # Zdrowy Gosciu @ Kill logspam (SQUASHED)
+2d7bf85 # 2016-10-04 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
+a85b9d1 # 2016-10-04 # myfluxi @ msm: bam_dmux: Reduce debug logs to avoid watchdog bite
+c1afa83 # 2016-10-04 # myfluxi @ PM / devfreq: Fix simple_ondemand crashing
+d2947e5 # 2016-10-04 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
+e8cbe3d # 2016-10-04 # ejjohnson1999 @ irq: Remove IRQ no longer affine to CPU logspam
+bdd98e9 # 2016-10-04 # Steve Kondik @ msm_rmnet: Kill logspam
+d5b54a5 # 2016-10-04 # myfluxi @ arm: irq: Tone down kernel logging
+a04b686 # 2016-10-04 # Zdrowy Gosciu @ arm: configs: Remove non-D802 configs
+8807226 # 2016-10-04 # Zdrowy Gosciu @ arm: configs: g2: Enable msm-thermal-simple
+ae749b7 # 2016-10-04 # Sultanxda @ ARM: dts: msm8974: Configure msm-thermal-simple device
+1245e1d # 2016-10-04 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of https://github.com/blastagator/LGG2_Kernel into mm-lite
+9c7dae5 # 2016-10-04 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+fdb34e7 # 2016-10-03 # Greg Wallace @ Add PDE_DATA helper
+1bfd99a # 2016-10-03 # Greg Wallace @ regen d800 config
+9245edd # 2016-10-03 # Steve Kondik @ msm8974: Adjust qcrypto device name
+dfb7768 # 2016-10-03 # myfluxi @ crypto: msm: Update clock vote for improved performance
+45ebff3 # 2016-10-03 # Mallikarjuna Reddy Amireddy @ qseecom: Change format specifier %p to %pK
+71df9d3 # 2016-10-03 # Puneet Mishra @ qseecom: Remove core affinity requirement when loading external elf files
+2b03083 # 2016-10-03 # AnilKumar Chimata @ qseecom: Propagate qseecom_load_external_elf failure to userspace
+79dc101 # 2016-10-03 # Mallikarjuna Reddy Amireddy @ qseecom: Fix: qseecom_send_service_cmd failing secure world busy
+a39995b # 2016-10-03 # Zhen Kong @ qseecom: Register the existing app if it is loaded by appsbl.
+43dab56 # 2016-10-03 # Zhen Kong @ qseecom: Change to work with appsbl qseecom
+ae374fc # 2016-10-03 # Mitchel Humpherys @ ion: msm: remove superfluous function argument
+efb4815 # 2016-10-03 # Dorimanx @ QSECCOM: sync with 3.10.y
+1bb3d8f # 2016-10-03 # Mona Hossain @ qseecom: Fix clk initialization
+0a1ca19 # 2016-10-03 # Mona Hossain @ qseecom: Add checks for send_cmd inputs
+d9522b9 # 2016-10-03 # Mallikarjuna Reddy Amireddy @ qseecom: Add new parameter to pass ce frequency
+a02cc6e # 2016-10-03 # Zhen Kong @ qseecom: Change qseecom bw_inactive_req_ws worker
+5f9876d # 2016-10-03 # AnilKumar Chimata @ qseecom: Fix NULL pointer dereference
+776999c # 2016-10-03 # Zhen Kong @ qseecom: Check response result if KMS related scm call returns failure
+84a923d # 2016-10-03 # William Clark @ qseecom: Add multi-core crypto support
+38b86fe # 2016-10-03 # AnilKumar Chimata @ qseecom: Add proper checks for ION handle
+7f9faf8 # 2016-10-03 # Gilad Broner @ msm: tspp: use an actual device structure for DMA allocation
+e9bbeec # 2016-10-03 # Arve Hjønnevåg @ misc: uidstat: Remove use of obsolete create_proc_read_entry api
+31b354b # 2016-10-03 # JP Abgrall @ misc: uidstat: avoid create_stat() race and blockage.
+c7eca79 # 2016-10-03 # Zhen Kong @ qseecom: increase load app timer delay
+98810b7 # 2016-10-03 # Mona Hossain @ qseecom: Verify shared buffer size
+ffe6774 # 2016-10-03 # Zhen Kong @ qseecom: Fix issue related to retrieving pipe for PFE
+9499c77 # 2016-10-03 # Dorimanx @ scm: Export scm_inv_range() from SCM driver
+000fce1 # 2016-10-03 # Dorimanx @ scm: Add support for 64bit platforms
+f8b25f9 # 2016-10-03 # Dorimanx @  drivers: soc: Support the new SCM interface
+090ba86 # 2016-10-03 # Dorimanx @ scm: Implement a retry mechanism
+3f482f1 # 2016-10-01 # Veena Sambasivan @ msm: perf: Do not allocate new hw_event if event is duplicate.
+b1de487 # 2016-10-01 # Vijayavardhan Vennapusa @ USB: dwc3: debugfs: Add boundary check in dwc3_store_ep_num()
+354d9ee # 2016-10-01 # Weiyin Jiang @ ASoC: msm: audio-effects: misc fixes in h/w accelerated effect
+fbeeefd # 2016-10-01 # Srinivasarao P @ perf: duplicate deletion of perf event
+50ddb1a # 2016-10-01 # Ethan Chen @ platform: msm: Fix compile when CONFIG_PFT is not set
+655b64e # 2016-09-30 # Greg Wallace @ Reenable Crypto
 294bc92 # 2016-09-22 # Andrey Ryabinin @ ARM: 8051/1: put_user: fix possible data corruption in put_user
-6e8150c # 2016-09-22 # Zdrowy Gosciu @ Version HM 43.3
-228e7c2 # 2016-09-22 # Zdrowy Gosciu @ qdsp6v2: Fix audio_amrwbplus derp
-a53b689 # 2016-09-22 # Zdrowy Gosciu @ Merge branch 'cm-14.0' of git://github.com/CyanogenMod/android_kernel_lge_msm8974 into mm
-630419b # 2016-09-22 # Dorimanx @ misc: Fix the code after GCC 6.1.0 review
-1dcdebd # 2016-09-22 # Zdrowy Gosciu @ Revert "SCHEDULER: Autogroup patch group by current user android UID instead of task ID"
-55bd604 # 2016-09-22 # Zdrowy Gosciu @ Revert "arm: configs: g2: Enable CFG80211_ALLOW_RECONNECT"
-7475411 # 2016-09-22 # Zdrowy Gosciu @ Revert "power: Enable PM_SYNC_BEFORE_SUSPEND"
-eb54edc # 2016-09-21 # Andrey Ryabinin @ ARM: 8051/1: put_user: fix possible data corruption in put_user
-2a4d531 # 2016-09-21 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
 6375a92 # 2016-09-21 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
 d103332 # 2016-09-21 # Ícaro Hoff @ smb349: report current_max variable multiplied by 1000

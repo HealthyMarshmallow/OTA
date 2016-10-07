@@ -27,6 +27,10 @@ bb510e7 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug
 35e3667 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Lower MSM Hotplug history size
 
 * Project kernel/lge/msm8974/
+e837db1 # 2016-10-07 # Zdrowy Gosciu @ Version HML 1.4
+76a48a9 # 2016-10-07 # Zdrowy Gosciu @ Revert "ARM: crypto: add NEON accelerated XOR implementation"
+8212951 # 2016-10-07 # Zdrowy Gosciu @ Revert "ARM: 7835/2: fix modular build of xor_blocks() with NEON enabled"
+8948992 # 2016-10-07 # Zdrowy Gosciu @ Revert "Optimized ARM RWSEM algorithm"
 c02e6f5 # 2016-10-06 # Zdrowy Gosciu @ Version HML 1.3
 f6bf1b1 # 2016-10-06 # Ard Biesheuvel @ ARM: 7835/2: fix modular build of xor_blocks() with NEON enabled
 37b44ac # 2016-10-06 # Ard Biesheuvel @ ARM: crypto: add NEON accelerated XOR implementation

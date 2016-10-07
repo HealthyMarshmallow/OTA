@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-09-21 @ 13:45:46 (1474465546)
+CHANGES AFTER 2016-10-05 @ 19:49:19 (1475696959)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,341 +7,107 @@ CHANGES AFTER 2016-09-21 @ 13:45:46 (1474465546)
                  |_____|              
 
 * Project OTA/
-97345c0 # 2016-09-27 # Zdrowy Gosciu @ OTA: Kernel HM 45.5 for CM based ROMs
-fff58d3 # 2016-09-24 # Zdrowy Gosciu @ OTA: Kernel HM 44.4 for CM based ROMs
-2694c09 # 2016-09-22 # Zdrowy Gosciu @ OTA: Kernel HM 43.3 for CM based ROMs
-2f73dab # 2016-09-21 # Zdrowy Gosciu @ OTA: cm-13.0-20160921-134028-UNOFFICIAL-temasek-d802-V11.6
+fb80663 # 2016-10-06 # Zdrowy Gosciu @ OTA: Enjoy HML 1.3
+f8cdc37 # 2016-10-05 # Zdrowy Gosciu @ OTA: cm-13.0-20161005-193234-UNOFFICIAL-temasek-d802-V11.7
 
 * Project android/
-b035af5 # 2016-10-05 # Zdrowy Gosciu @ default: Switch to AOSP 6.0.1 r70
+9249c00 # 2016-10-07 # Zdrowy Gosciu @ default: Switch to AOSP 6.0.1 r72
 
 * Project build/
-ce245ce # 2016-10-05 # gitbuildkicker @ MOB31H
-3ed17d6 # 2016-10-05 # gitbuildkicker @ MOB31G
-5be3a56 # 2016-10-05 # gitbuildkicker @ MOB31F
-765f641 # 2016-10-05 # Adam Seaton @ Update comments around PLATFORM_SECURITY_LEVEL
-f03ea57 # 2016-10-05 # Adam Seaton @ Update Security String to 2016-10-05 to Platform and CTS for October Security Updates (rebased)
-f652878 # 2016-10-05 # Adam Seaton @ Update Security String to 2016-10-01 to platform and CTS for October Security
-a0058c7 # 2016-10-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-ba31c26 # 2016-09-30 # Neil Fuller @ Use sensible default locations for Java
-9f360cd # 2016-09-28 # Keith Mok @ Revert "envsetup: Always look up JAVA_HOME path"
+a37586c # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+7b16908 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
-* Project device/lge/g2-common/
-2ff6961 # 2016-10-05 # Zdrowy Gosciu @ g2-common: init: power: Bring back the LITE
-cd764cb # 2016-10-05 # Zdrowy Gosciu @ Revert "Enable hardware encryption"
-677646b # 2016-10-05 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Thermal Simple zones
-902d08b # 2016-10-05 # Zdrowy Gosciu @ g2-common: init: power: Switch to MSM Hotplug kernel defaults
-5e1e18a # 2016-10-04 # Zdrowy Gosciu @ g2-common: Remove L1/L2 cache optimizations
-9cef3fc # 2016-10-04 # Zdrowy Gosciu @ g2-common: Remove C2D props
-6be7be6 # 2016-10-04 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of https://github.com/blastagator/cm_device_lge_g2-common into mm-lite
-037f5be # 2016-10-04 # Zdrowy Gosciu @ g2-common: init: power: Re-sync CPU governor settings with CM 13.0
-ef34d17 # 2016-10-04 # Zdrowy Gosciu @ Revert "g2-common: init: power: IntelliPlug as default hotplugger"
-4e26ff3 # 2016-10-03 # Greg Wallace @ Enable hardware encryption
-a946448 # 2016-09-27 # Zdrowy Gosciu @ g2-common: init: power: IntelliPlug as default hotplugger
-de159c9 # 2016-09-25 # Zdrowy Gosciu @ g2-common: init: power: Impulse as default CPU governor
-bb510e7 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Tweak MSM Hotplug load
-9fb28ce # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Clear MSM Hotplug update rate value
-8631013 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Max GPU freq back to 450 MHz
-42fb4bc # 2016-09-24 # Zdrowy Gosciu @ Revert "g2-common: init: Tweak LMK"
-04bf017 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: BFQ 256 kB as default I/O scheduler
-35e3667 # 2016-09-24 # Zdrowy Gosciu @ g2-common: init: power: Lower MSM Hotplug history size
+* Project external/bouncycastle/
+beba020 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+
+* Project external/flac/
+be25551 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+
+* Project external/libavc/
+130f76a # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+
+* Project external/libvpx/
+22ab465 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+
+* Project external/sonivox/
+4d2a2d9 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project frameworks/av/
-79d6560 # 2016-10-05 # Wei Jia @ MediaPlayerService: allow next player to be NULL
-0ded9c9 # 2016-10-05 # Pawin Vongmasa @ Fix build breakage caused by commit 940829f69b52d6038db66a9c727534636ecc456d.
-e936abf # 2016-10-05 # Andy Hung @ Add EFFECT_CMD_SET_PARAM parameter checking
-98d06d2 # 2016-10-05 # Eric Laurent @ soundtrigger: add size check on sound model and recogntion data
-2f7cd72 # 2016-10-05 # Robert Shih @ MediaPlayerService: avoid invalid static cast
-c272f2b # 2016-10-05 # Ray Essick @ better validation lengths of strings in ID3 tags
-22cbdbd # 2016-10-05 # Pawin Vongmasa @ SoftMPEG4: Check the buffer size before writing the reference frame.
-
-* Project frameworks/base/
-d4737da # 2016-10-05 # Zdrowy Gosciu @ Keyguard: Remove charging speed
-7b58e21 # 2016-10-05 # David Christie @ DO NOT MERGE: Fix vulnerability where large GPS XTRA data can be injected. -Can potentially crash system with OOM. Bug: 29555864
-e71a38e # 2016-10-05 # Jim Miller @ Bind fingerprint when we start authentication - DO NOT MERGE
-1e21599 # 2016-10-05 # Narayan Kamath @ Process: Fix communication with zygote.
-b083513 # 2016-10-05 # Jim Miller @ Fix vulnerability in LockSettings service
-2b8af87 # 2016-10-05 # Amith Yamasani @ DO NOT MERGE: Clean up when recycling a pid with a pending launch
-7451521 # 2016-10-04 # Ricardo Cerqueira @ bootanim: Allow configurable rescaling
-4285c27 # 2016-10-04 # pinky@build01 @ Automatic translation import
-8085250 # 2016-09-27 # Michael Bestas @ bootanimation: Fix preload of shutdown & themed animations
+c9a755b # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+cb1cdff # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project frameworks/native/
-8b7e4e6 # 2016-10-05 # Arve Hjønnevåg @ ServiceManager: Allow system services running as secondary users to add services
-8e49938 # 2016-10-05 # Arve Hjønnevåg @ DO NOT MERGE ServiceManager: Restore basic uid check
+7fd5156 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+b22bca4 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project frameworks/opt/net/wifi/
-69864f8 # 2016-10-05 # Samuel Tan @ ANQPFactory: catch all potential parsing errors
-5e7483e # 2016-10-05 # Samuel Tan @ VenueNameElement: fix off-by-one enum bounds check
-
-* Project frameworks/opt/telephony/
-c19508c # 2016-10-04 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-427f7b9 # 2016-10-04 # yanglv @ Telephony: Show the sender address of WAP push message
-d85de45 # 2016-10-03 # Marcos Marado @ Allow to define a default app to handle Wap Push
+5ec2841 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+e9e7aed # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project hardware/ril/
-6841d15 # 2016-10-05 # Amit Mahajan @ Replace variable-length arrays on stack with malloc.
+60520d4 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+65c8989 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project kernel/lge/msm8974/
-01c950f # 2016-10-05 # Zdrowy Gosciu @ Version HML 1.2
-2876b81 # 2016-10-05 # Zdrowy Gosciu @ sched: Disable gentle fair sleepers
-2a82842 # 2016-10-05 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of https://github.com/blastagator/LGG2_Kernel into mm-lite
-67e6f06 # 2016-10-05 # Zdrowy Gosciu @ Version HML 1.1
-cdc1d44 # 2016-10-05 # Zdrowy Gosciu @ arm: configs: g2: Set TCP CUBIC as default
-1404bbe # 2016-10-05 # Neal Cardwell @ tcp: fix timing issue in CUBIC slope calculation
-13ba742 # 2016-10-05 # Zdrowy Gosciu @ arm: configs: g2: Enable advanced TCP congestion control algorithms
-37500db # 2016-10-05 # Neal Cardwell @ tcp_yeah: don't set ssthresh below 2
-56b3a32 # 2016-10-05 # myfluxi @ block: deadline: Optimize for non-rotational
-7d15a303 # 2016-10-05 # xiaobing tu @ deadline: Allow 0ms deadline latency, increase the read speed
-210d835 # 2016-10-05 # faux123 @ block: deadline: tweak for better android performance
-7d8b75e # 2016-10-05 # TripNRaVeR @ block: add tripndroid i/o scheduler
-2b99d6d # 2016-10-05 # Aaron Carroll @ block: add vr i/o scheduler
-59315cd # 2016-10-05 # Brandon Berhent @ block: add zen i/o scheduler
-046458a # 2016-10-05 # Miguel Boton @ block: add sioplus i/o scheduler
-70c719a # 2016-10-05 # Miguel Boton @ block: add sio i/o scheduler
-886cd12 # 2016-10-05 # Shaohua Li @ block: add fiops i/o scheduler
-1f92f5e # 2016-10-05 # franciscofranco @ block: row: add magic values.
-f34b4c9 # 2016-10-05 # Paul Keith @ block: cfq: fix slice Idle check
-3b361a9 # 2016-10-05 # Chet Kener @ block: cfq: set slice Idle default to 0
-06cda59 # 2016-10-05 # Jens Axboe @ block: cfq: default to IOPS mode on SSDs
-e2c7f54 # 2016-10-05 # Paul Keith @ block: bfq: fix slice Idle check
-e21748e # 2016-10-05 # Chet Kener @ block: bfq: set slice Idle default to 0
-6c6f2d8 # 2016-10-05 # Zhao Wei Liew @ block: bfq: default to IOPS mode on SSDs
-2ab8e7d # 2016-10-05 # Alexander Clouter @ cpufreq: Introduce lionheart governor
-5a61d0d # 2016-10-05 # Alucard24 @ cpufreq: Introduce nightmare governor
-d499eab # 2016-10-05 # Zdrowy Gosciu @ arm: configs: g2: Disable L2 master port panic
-6f8969e # 2016-10-05 # Zdrowy Gosciu @ Version HML 1.0
-c4d2a4f # 2016-10-05 # Zdrowy Gosciu @ cpufreq: cpu-boost: Zero values
-0758b3d # 2016-10-05 # Slim80 @ mmc: Disable CRC check for 30% extra performance
-2d435b6 # 2016-10-05 # Zdrowy Gosciu @ input: touchscreen: g2: Force LCD suspend during touch suspend
-05b5c06 # 2016-10-05 # Dorimanx @ irq: Clean Unbalanced IRQ 61 warning for SPS Modem Data wakeup
-e4845a7 # 2016-10-05 # Sultanxda @ scsi: Remove scsi_wait_scan
-8552b52 # 2016-10-05 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
-41e7d50 # 2016-10-05 # Zdrowy Gosciu @ Remove build.sh
-9432064 # 2016-10-05 # Zdrowy Gosciu @ mmc: sdhci: Disable register dumps
-a1dc1c4 # 2016-10-05 # Zdrowy Gosciu @ arm: Fast Charge is for G2
-780e013 # 2016-10-05 # Jeremy @ arm: Forced Fast Charge for LG G2 ported by PTMR3
-94f3253 # 2016-10-04 # AnilKumar Chimata @ crypto: msm: qcrypto: Close window during suspending for SMP
-7aedb45 # 2016-10-04 # AnilKumar Chimata @ crypto: msm: qcrypto: Update suspend resume code
-34bce55 # 2016-10-04 # Paul Keith @ sched: Export arch power to sysfs
-6b4d07d # 2016-10-04 # ktoonsez @ sched: Make GENTLE_FAIR_SLEEPERS configurable thru sysfs
-4dc787c # 2016-10-04 # Pavel @ drivers: mmc: sysfs interface to enable / disable CRC
-a79d070 # 2016-10-04 # Zdrowy Gosciu @ Revert "blu_plug: Dynamic hotplug driver for hammerhead"
-ffcdca8 # 2016-10-04 # Zdrowy Gosciu @ Kill logspam (SQUASHED)
-2d7bf85 # 2016-10-04 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
-a85b9d1 # 2016-10-04 # myfluxi @ msm: bam_dmux: Reduce debug logs to avoid watchdog bite
-c1afa83 # 2016-10-04 # myfluxi @ PM / devfreq: Fix simple_ondemand crashing
-d2947e5 # 2016-10-04 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
-e8cbe3d # 2016-10-04 # ejjohnson1999 @ irq: Remove IRQ no longer affine to CPU logspam
-bdd98e9 # 2016-10-04 # Steve Kondik @ msm_rmnet: Kill logspam
-d5b54a5 # 2016-10-04 # myfluxi @ arm: irq: Tone down kernel logging
-a04b686 # 2016-10-04 # Zdrowy Gosciu @ arm: configs: Remove non-D802 configs
-8807226 # 2016-10-04 # Zdrowy Gosciu @ arm: configs: g2: Enable msm-thermal-simple
-ae749b7 # 2016-10-04 # Sultanxda @ ARM: dts: msm8974: Configure msm-thermal-simple device
-1245e1d # 2016-10-04 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of https://github.com/blastagator/LGG2_Kernel into mm-lite
-9c7dae5 # 2016-10-04 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
-fdb34e7 # 2016-10-03 # Greg Wallace @ Add PDE_DATA helper
-1bfd99a # 2016-10-03 # Greg Wallace @ regen d800 config
-9245edd # 2016-10-03 # Steve Kondik @ msm8974: Adjust qcrypto device name
-dfb7768 # 2016-10-03 # myfluxi @ crypto: msm: Update clock vote for improved performance
-45ebff3 # 2016-10-03 # Mallikarjuna Reddy Amireddy @ qseecom: Change format specifier %p to %pK
-71df9d3 # 2016-10-03 # Puneet Mishra @ qseecom: Remove core affinity requirement when loading external elf files
-2b03083 # 2016-10-03 # AnilKumar Chimata @ qseecom: Propagate qseecom_load_external_elf failure to userspace
-79dc101 # 2016-10-03 # Mallikarjuna Reddy Amireddy @ qseecom: Fix: qseecom_send_service_cmd failing secure world busy
-a39995b # 2016-10-03 # Zhen Kong @ qseecom: Register the existing app if it is loaded by appsbl.
-43dab56 # 2016-10-03 # Zhen Kong @ qseecom: Change to work with appsbl qseecom
-ae374fc # 2016-10-03 # Mitchel Humpherys @ ion: msm: remove superfluous function argument
-efb4815 # 2016-10-03 # Dorimanx @ QSECCOM: sync with 3.10.y
-1bb3d8f # 2016-10-03 # Mona Hossain @ qseecom: Fix clk initialization
-0a1ca19 # 2016-10-03 # Mona Hossain @ qseecom: Add checks for send_cmd inputs
-d9522b9 # 2016-10-03 # Mallikarjuna Reddy Amireddy @ qseecom: Add new parameter to pass ce frequency
-a02cc6e # 2016-10-03 # Zhen Kong @ qseecom: Change qseecom bw_inactive_req_ws worker
-5f9876d # 2016-10-03 # AnilKumar Chimata @ qseecom: Fix NULL pointer dereference
-776999c # 2016-10-03 # Zhen Kong @ qseecom: Check response result if KMS related scm call returns failure
-84a923d # 2016-10-03 # William Clark @ qseecom: Add multi-core crypto support
-38b86fe # 2016-10-03 # AnilKumar Chimata @ qseecom: Add proper checks for ION handle
-7f9faf8 # 2016-10-03 # Gilad Broner @ msm: tspp: use an actual device structure for DMA allocation
-e9bbeec # 2016-10-03 # Arve Hjønnevåg @ misc: uidstat: Remove use of obsolete create_proc_read_entry api
-31b354b # 2016-10-03 # JP Abgrall @ misc: uidstat: avoid create_stat() race and blockage.
-c7eca79 # 2016-10-03 # Zhen Kong @ qseecom: increase load app timer delay
-98810b7 # 2016-10-03 # Mona Hossain @ qseecom: Verify shared buffer size
-ffe6774 # 2016-10-03 # Zhen Kong @ qseecom: Fix issue related to retrieving pipe for PFE
-9499c77 # 2016-10-03 # Dorimanx @ scm: Export scm_inv_range() from SCM driver
-000fce1 # 2016-10-03 # Dorimanx @ scm: Add support for 64bit platforms
-f8b25f9 # 2016-10-03 # Dorimanx @  drivers: soc: Support the new SCM interface
-090ba86 # 2016-10-03 # Dorimanx @ scm: Implement a retry mechanism
-3f482f1 # 2016-10-01 # Veena Sambasivan @ msm: perf: Do not allocate new hw_event if event is duplicate.
-b1de487 # 2016-10-01 # Vijayavardhan Vennapusa @ USB: dwc3: debugfs: Add boundary check in dwc3_store_ep_num()
-354d9ee # 2016-10-01 # Weiyin Jiang @ ASoC: msm: audio-effects: misc fixes in h/w accelerated effect
-fbeeefd # 2016-10-01 # Srinivasarao P @ perf: duplicate deletion of perf event
-50ddb1a # 2016-10-01 # Ethan Chen @ platform: msm: Fix compile when CONFIG_PFT is not set
-655b64e # 2016-09-30 # Greg Wallace @ Reenable Crypto
-294bc92 # 2016-09-22 # Andrey Ryabinin @ ARM: 8051/1: put_user: fix possible data corruption in put_user
-6375a92 # 2016-09-21 # Mohamad Ayyash @ Don't show empty tag stats for unprivileged uids
-d103332 # 2016-09-21 # Ícaro Hoff @ smb349: report current_max variable multiplied by 1000
+e837db1 # 2016-10-07 # Zdrowy Gosciu @ Version HML 1.4
+76a48a9 # 2016-10-07 # Zdrowy Gosciu @ Revert "ARM: crypto: add NEON accelerated XOR implementation"
+8212951 # 2016-10-07 # Zdrowy Gosciu @ Revert "ARM: 7835/2: fix modular build of xor_blocks() with NEON enabled"
+8948992 # 2016-10-07 # Zdrowy Gosciu @ Revert "Optimized ARM RWSEM algorithm"
+c02e6f5 # 2016-10-06 # Zdrowy Gosciu @ Version HML 1.3
+f6bf1b1 # 2016-10-06 # Ard Biesheuvel @ ARM: 7835/2: fix modular build of xor_blocks() with NEON enabled
+37b44ac # 2016-10-06 # Ard Biesheuvel @ ARM: crypto: add NEON accelerated XOR implementation
+464348a # 2016-10-06 # Paul Keith @ char: add frandom support
+cedb9a4 # 2016-10-06 # Jeff Liu @ binfmt_elf.c: use get_random_int() to fix entropy depleting
+d33d04d # 2016-10-06 # Alex Naidis @ Optimized ARM RWSEM algorithm
+8ca91e1 # 2016-10-06 # Lucille Sylvester @ msm: kgsl: Remove io_fraction as it is no longer used
+56cdf46 # 2016-10-06 # ktoonsez @ fs: fix btrfs 32 bit compatibility
+9c0b545 # 2016-10-06 # ktoonsez @ fs: Async I/O latency to a ssd greatly increased, 34% gain (Creds: kleikamp)
+92fff47 # 2016-10-06 # franciscofranco @ fs: FSync On/Off
+1d5534e # 2016-10-06 # Zdrowy Gosciu @ devfreq: Don't start Adreno Idler
+eb14407 # 2016-10-06 # GuneetAtwal @ devfreq: Make Adreno Idler more aggressive
+8c30eaa # 2016-10-06 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
+d33d34c # 2016-10-06 # Zdrowy Gosciu @ devfreq: Build Simple GPU
+4dd0ec4 # 2016-10-06 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
 
 * Project packages/apps/AudioFX/
-e3661b8 # 2016-10-03 # Michael Bestas @ Merge "AudioFX: Update copyright after OSS" into cm-13.0
-b15e56d # 2016-09-29 # Zhao Wei Liew @ AudioFX: Get rid of the DSPManager override
-5e109ac # 2016-09-29 # Zhao Wei Liew @ AudioFX: Update copyright after OSS
-5dbe618 # 2016-09-25 # pinky@build01 @ Automatic translation import
+73e1903 # 2016-10-05 # Steve Kondik @ Merge "AudioFX: fix missing bassboost/virtualizer" into cm-13.0
 
-* Project packages/apps/BasicSmsReceiver/
-ca20d95 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Browser/
-856061c # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/CMFileManager/
-96809f8 # 2016-09-30 # Ankit Gupta @ CMFileManager: remove shortcut option for secure folders
-80609d1 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/CMWallpapers/
-cb8f43e # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Calendar/
-d531eb3 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Eleven/
-1eee07b # 2016-10-04 # Michael Bestas @ Merge "Eleven: Set preferences on play" into cm-13.0
-df56b06 # 2016-09-30 # Sean Maas @ Eleven: Set preferences on play
-e832873 # 2016-09-30 # Marcos Marado @ Merge "Avoid NPE" into cm-13.0
-14d5e16 # 2016-09-29 # Zhao Wei Liew @ Eleven: Do not uppercase unnecessarily
-8d9973a # 2016-09-23 # Marcos Marado @ Avoid NPE
+* Project packages/apps/Dialer/
+c66b4ac # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 
 * Project packages/apps/Email/
-6e0da11 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/ExactCalculator/
-6e780cf # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Exchange/
-222f41e # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Gallery2/
-ebffdae # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Gello/
-88555fa # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/KeyChain/
-2674ad7 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/ManagedProvisioning/
-5024c35 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Messaging/
-7619c3c # 2016-09-30 # Vineet Patil @ Adding metrics related to Ridesharing
-57cadbe # 2016-09-30 # Ankit Gupta @ MediaPicker: Check for NPE
-bd7ecd6 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Nfc/
-dba3313 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Profiles/
-5385cd8 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Screencast/
-f4f2ed6 # 2016-09-25 # pinky@build01 @ Automatic translation import
+de1a096 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project packages/apps/Settings/
-0d33109 # 2016-10-05 # Zdrowy Gosciu @ Build V11.7
-
-* Project packages/apps/SoundRecorder/
-0f42444 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Stk/
-9404130 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/Terminal/
-63398de # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/ThemeChooser/
-56b2153 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/TvSettings/
-2ed1168 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/apps/UnifiedEmail/
-351a9d1 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/inputmethods/LatinIME/
-de2039f # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/providers/CalendarProvider/
-bf66c52 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/providers/DataUsageProvider/
-ffd3c50 # 2016-09-25 # pinky@build01 @ Automatic translation import
+8eb487c # 2016-10-07 # Zdrowy Gosciu @ Build V11.8
+169f2dc # 2016-10-07 # pinky@build01 @ Automatic translation import
 
 * Project packages/providers/DownloadProvider/
-f65b576 # 2016-09-25 # pinky@build01 @ Automatic translation import
+b25fddc # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project packages/providers/TelephonyProvider/
-e6761f9 # 2016-10-05 # Andre Furtado @ 30481342: Security Vulnerability - TOCTOU in MmsProvider allows access to files as phone (radio) uid
+256b9cd # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+c3d8153 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project packages/providers/ThemesProvider/
-6222a87 # 2016-09-25 # pinky@build01 @ Automatic translation import
+6abe369 # 2016-10-07 # d34d @ Implement theme mixes from ThemesContract
 
-* Project packages/providers/WeatherProvider/
-34d9c3e # 2016-09-25 # pinky@build01 @ Automatic translation import
+* Project packages/services/Telecomm/
+468685a # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
 
-* Project packages/screensavers/Basic/
-de1b4b4 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/screensavers/PhotoTable/
-fc5761b # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/services/CMAudioService/
-aa1ccf0 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/services/LiveLockScreenService/
-40301ec # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/services/Mms/
-477457f # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/services/ThemeManagerService/
-7b296c5 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/Basic/
-7faa195 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/HoloSpiral/
-69c0ea6 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/LivePicker/
-24c9bd7 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/MagicSmoke/
-b51da83 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/NoiseField/
-1cc45c9 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/PhaseBeam/
-4e6ecc6 # 2016-09-25 # pinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/PhotoPhase/
-d3e978f # 2016-09-25 # pinky@build01 @ Automatic translation import
+* Project packages/services/Telephony/
+3c40292 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+9330f1c # 2016-10-06 # Gabriele M @ Telephony: Fix mobile network settings for CDMA without LTE
+5accfb7 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project system/core/
-62b8be0 # 2016-10-05 # Connor O'Brien @ Fix vold vulnerability in FrameworkListener
-f3e8a43 # 2016-10-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-cc607cb # 2016-09-22 # c457 @ fastboot: Add Alcatel's USB vendor id
+1ade114 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+7e1cf25 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project system/media/
-123e9fd # 2016-10-05 # Eino-Ville Talvala @ Camera metadata: Check for inconsistent data count
-4986cd1 # 2016-10-05 # Chien-Yu Chen @ Camera: Prevent data size overflow
-
-* Project vendor/cm/
-e2ee79e # 2016-10-05 # Zdrowy Gosciu @ common: Remove V4A
-8747057 # 2016-10-05 # Zdrowy Gosciu @ Merge branch 'cm-13.0' of git://github.com/CyanogenMod/android_vendor_cm into mm
-827bd9e # 2016-09-26 # Arne Coucheron @ cm: Minor config reorganization
-65d9794 # 2016-09-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-18a1b3a # 2016-09-23 # c457 @ Contributors: Add maintainer for Alcatel Idol 3
-c279b9f # 2016-09-23 # Marcos Marado @ Added contributors for vegetalte
+07bae30 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+69c4724 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
 
 * Project vendor/cmsdk/
-eb9b17a # 2016-10-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-2f32195 # 2016-09-25 # pinky@build01 @ Automatic translation import
+6dda43e # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+c4f27d5 # 2016-10-07 # d34d @ Themes: Introduce theme mixes into ThemesContract

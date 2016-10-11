@@ -7,9 +7,20 @@ CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
                  |_____|
 
 * Project device/lge/g2-common/
+224e296 # 2016-10-11 # Zdrowy Gosciu @ g2-common: init: power: Rebase I/O + CPU GOV
 dfcd955 # 2016-10-09 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+afc38e2 # 2016-10-11 # Zdrowy Gosciu @ Version HML 1.6
+d595189 # 2016-10-11 # franciscofranco @ ion: adjust system heap pool orders
+3c48966 # 2016-10-11 # Zdrowy Gosciu @ power: Enable workqueue power-efficient mode by default
+66ca021 # 2016-10-11 # Francisco Franco @ workqueue: Backport power efficient workqueues from 3.10 kernel
+0e80234 # 2016-10-11 # Arun Kumar Neelakantam @ soc: qcom: smd: Fix SMD packet sync loss issue
+23208ad # 2016-10-11 # Anshul Garg @ Input: optimize events_per_packet count calculation
+aca3bab # 2016-10-11 # Zdrowy Gosciu @ drivers: Use RBTREE for Android Low Memory Killer
+7b06f2e # 2016-10-11 # franciscofranco @ android: lowmemorykiller: squash task adj rbtree optimization from Motorola
+c1fd636 # 2016-10-11 # Zdrowy Gosciu @ cpufreq: Rebase interactive GOV
+afa0aa0 # 2016-10-11 # franciscofranco @ display: add a simple api to query the display state (on/off) at any point in time
 9221cb2 # 2016-10-09 # Zdrowy Gosciu @ Version HML 1.5
 71fe228 # 2016-10-09 # desaishivam26 @ mm: lower swappiness
 a21f38e # 2016-10-09 # Paul Keith @ sched: Slight Tuning

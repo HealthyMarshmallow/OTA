@@ -11,7 +11,14 @@ CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
 dfcd955 # 2016-10-09 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
 
 * Project kernel/lge/msm8974/
-afc38e2 # 2016-10-11 # Zdrowy Gosciu @ Version HML 1.6
+4bce549 # 2016-10-14 # Zdrowy Gosciu @ Version HML 1.7
+42aec51 # 2016-10-14 # Rob Herring @ ARM: 7493/1: use generic unaligned.h
+b9e854b # 2016-10-14 # Ethan @ cpufreq: stats: Fix memory leak when tables are free
+6afcdb5 # 2016-10-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+29ac661 # 2016-10-13 # Arnaldo Carvalho de Melo @ UPSTREAM: net: Fix use after free in the recvmmsg exit path
+e142804 # 2016-10-12 # Viresh Kumar @ cpufreq: Make sure target freq is within limits
+4e0ee1e # 2016-10-12 # Viresh Kumar @ cpufreq: Avoid calling cpufreq driver's target() routine if target_freq == policy->cur
+76bbb8e # 2016-10-12 # Zdrowy Gosciu @ Version HML 1.6
 d595189 # 2016-10-11 # franciscofranco @ ion: adjust system heap pool orders
 3c48966 # 2016-10-11 # Zdrowy Gosciu @ power: Enable workqueue power-efficient mode by default
 66ca021 # 2016-10-11 # Francisco Franco @ workqueue: Backport power efficient workqueues from 3.10 kernel

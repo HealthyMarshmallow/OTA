@@ -11,6 +11,15 @@ CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
 dfcd955 # 2016-10-09 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+c081465 # 2016-10-17 # Zdrowy Gosciu @ Version HML 1.8
+34498d7 # 2016-10-17 # Zdrowy Gosciu @ Revert "drivers: Use RBTREE for Android Low Memory Killer"
+98826a0 # 2016-10-17 # Zdrowy Gosciu @ Revert "power: Enable workqueue power-efficient mode by default"
+8e427ad # 2016-10-17 # Zdrowy Gosciu @ Revert "ion: adjust system heap pool orders"
+ea1f8d8 # 2016-10-17 # Tahsin Erdogan @ block: Make CFQ default to IOPS mode on SSDs
+7edc536 # 2016-10-15 # kangjie @ fix infoleak in rtnetlink
+611b5af # 2016-10-15 # Nick Desaulniers @ fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
+cfcf3cb # 2016-10-15 # Mohamad Ayyash @ Replace %p with %pK to prevent leaking kernel address
+a0b9eee # 2016-10-15 # Nick Desaulniers @ binder: prevent kptr leak by using %pK format specifier
 4bce549 # 2016-10-14 # Zdrowy Gosciu @ Version HML 1.7
 42aec51 # 2016-10-14 # Rob Herring @ ARM: 7493/1: use generic unaligned.h
 b9e854b # 2016-10-14 # Ethan @ cpufreq: stats: Fix memory leak when tables are free

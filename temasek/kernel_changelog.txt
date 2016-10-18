@@ -7,10 +7,24 @@ CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
                  |_____|
 
 * Project device/lge/g2-common/
+95c8fae # 2016-10-18 # Ștefănescu Cristian @ g2-common: init: power: Tweak MSM Hotplug / KSM / CPU-Boost
+5a28bed # 2016-10-18 # Zdrowy Gosciu @ g2-common: init: power: BFQ as default I/O scheduler
 224e296 # 2016-10-11 # Zdrowy Gosciu @ g2-common: init: power: Rebase I/O + CPU GOV
 dfcd955 # 2016-10-09 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+5bfb16d # 2016-10-18 # Zdrowy Gosciu @ Version HML 1.9
+e016744c # 2016-10-18 # Zdrowy Gosciu @ arm: configs: g2: Enable KSM
+3c48916 # 2016-10-18 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+284e760 # 2016-10-18 # Pradeep Sawlani @ ksm: check and skip page, if it is already scanned
+1ea439f # 2016-10-18 # Sasha Levin @ mm/ksm.c: use new hashtable implementation
+6e9d63f # 2016-10-18 # Pranav Vashi @ mm: ksm: Enable deferred timer by default
+624eea5 # 2016-10-18 # kangjie @ fix infoleak in rtnetlink
+7e04567 # 2016-10-18 # Mohamad Ayyash @ Replace %p with %pK to prevent leaking kernel address
+3cde896 # 2016-10-18 # Lars-Peter Clausen @ ALSA: control: Fix replacing user controls
+17c289e # 2016-10-18 # Nick Desaulniers @ fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
+60dfece # 2016-10-18 # Nick Desaulniers @ binder: prevent kptr leak by using %pK format specifier
+1f3ebbc # 2016-10-18 # Eric Dumazet @ tcp: fix use after free in tcp_xmit_retransmit_queue()
 9a294ff # 2016-10-18 # Zdrowy Gosciu @ Version HML 1.888
 ab20122 # 2016-10-18 # Zdrowy Gosciu @ Revert "android: lowmemorykiller: squash task adj rbtree optimization from Motorola"
 cbbf217 # 2016-10-18 # Pranav Vashi @ workqueue: Fix permission for power_efficient

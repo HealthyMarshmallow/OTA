@@ -11,6 +11,10 @@ CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
 dfcd955 # 2016-10-09 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+9a294ff # 2016-10-18 # Zdrowy Gosciu @ Version HML 1.888
+ab20122 # 2016-10-18 # Zdrowy Gosciu @ Revert "android: lowmemorykiller: squash task adj rbtree optimization from Motorola"
+cbbf217 # 2016-10-18 # Pranav Vashi @ workqueue: Fix permission for power_efficient
+7873ed0 # 2016-10-18 # Pranav Vashi @ workqueue: Remove panic
 c081465 # 2016-10-17 # Zdrowy Gosciu @ Version HML 1.8
 34498d7 # 2016-10-17 # Zdrowy Gosciu @ Revert "drivers: Use RBTREE for Android Low Memory Killer"
 98826a0 # 2016-10-17 # Zdrowy Gosciu @ Revert "power: Enable workqueue power-efficient mode by default"

@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-10-05 @ 19:49:19 (1475696959)
+CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,107 +7,174 @@ CHANGES AFTER 2016-10-05 @ 19:49:19 (1475696959)
                  |_____|              
 
 * Project OTA/
-fb80663 # 2016-10-06 # Zdrowy Gosciu @ OTA: Enjoy HML 1.3
-f8cdc37 # 2016-10-05 # Zdrowy Gosciu @ OTA: cm-13.0-20161005-193234-UNOFFICIAL-temasek-d802-V11.7
-
-* Project android/
-9249c00 # 2016-10-07 # Zdrowy Gosciu @ default: Switch to AOSP 6.0.1 r72
+884fa43 # 2016-10-18 # Zdrowy Gosciu @ OTA: Enjoy HML 1.9
+77e46bb # 2016-10-18 # Zdrowy Gosciu @ OTA: Enjoy HML 1.888
+0d486ec # 2016-10-17 # Zdrowy Gosciu @ OTA: Enjoy HML 1.8
+8141ef8 # 2016-10-14 # Zdrowy Gosciu @ OTA: Enjoy HML 1.7
+4fb1c1c # 2016-10-11 # Zdrowy Gosciu @ OTA: Enjoy HML 1.6
+3db960f # 2016-10-09 # Zdrowy Gosciu @ OTA: Enjoy HML 1.5
+6f13841 # 2016-10-07 # Zdrowy Gosciu @ OTA: cm-13.0-20161007-191823-UNOFFICIAL-temasek-d802-V11.8
 
 * Project build/
-a37586c # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-7b16908 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+e647f03 # 2016-10-13 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+5bf9b09 # 2016-10-12 # Adrian DC @ build: Support a fallback to java 8 if java 7 is not found
 
-* Project external/bouncycastle/
-beba020 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+* Project cts/
+025f272 # 2016-10-14 # gitbuildkicker @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+4e088d1 # 2016-10-14 # Tina Zhou @ Merge "DO NOT MERGE CTS 6.0_R12 release (Bump version to 6.0_r12)" into marshmallow-cts-dev
+5ea0e68 # 2016-10-14 # tinazh @ DO NOT MERGE CTS 6.0_R12 release (Bump version to 6.0_r12)
+cf34156 # 2016-10-13 # Tina Zhou @ Merge "Add frame-rate requirement to MediaFormat used to find matched encoder" into marshmallow-cts-dev
+8ab6120 # 2016-10-13 # Tina Zhou @ Merge "Make tests wait correctly for Drawing to complete." into marshmallow-cts-dev
+dcb813f # 2016-10-13 # Tina Zhou @ Merge "Extend wait time for testTRacingContent" into marshmallow-cts-dev
+4e9a160 # 2016-10-13 # Tina Zhou @ Merge "ConnectivityConstraintTest: Fix wifi state check in tearDown()" into marshmallow-cts-dev
+1b85293 # 2016-10-13 # Tina Zhou @ Merge "Document waiver for testKeyStore_..._Params_Unencrypted_Failure" into marshmallow-cts-dev
+8493b7c # 2016-10-13 # Tina Zhou @ Merge "Remove failure check for NV21" into marshmallow-cts-dev
+aacf3fe # 2016-10-13 # Tina Zhou @ Merge "Add support to Conditionalized Tests to CTS Verifier using annotations." into marshmallow-cts-dev
+a9d0317 # 2016-10-13 # Tina Zhou @ Merge "Make sure telecom settings intents are handled" into marshmallow-cts-dev
+c0dd017 # 2016-10-13 # Tina Zhou @ Merge "fix null pointer exception for filesystemperf" into marshmallow-cts-dev
+958f2a8 # 2016-10-13 # Tina Zhou @ Merge "Fix for testPlayStreamData" into marshmallow-cts-dev
+6eeff52 # 2016-10-13 # Tina Zhou @ Merge "Add CTS test for CVE-2015-6608 This test verifies whether a m4a file limits the memory usage during decode media" into marshmallow-cts-dev
+b341afd # 2016-10-13 # Sam Lin @ Merge "Revert "DO NOT MERGE security: Test mediaserver crash against an invalid MIDI file"" into marshmallow-cts-dev
+6db5ace # 2016-10-13 # Tina Zhou @ Merge "Add /dev/pmsg0 to CHAR_DEV_EXCEPTIONS" into marshmallow-cts-dev
+9e08614 # 2016-10-13 # Tina Zhou @ Merge "PacketReflector: Ignore IPv6 flow labels in ICMPv6 test" into marshmallow-cts-dev
+5360665 # 2016-10-13 # Tina Zhou @ Merge "Revert "Tests migration feature meta tags to Conditionalized Tests."" into marshmallow-cts-dev
+323b160 # 2016-10-13 # Tina Zhou @ Revert "Tests migration feature meta tags to Conditionalized Tests."
+871aff1 # 2016-10-13 # Tina Zhou @ Merge "Tests migration feature meta tags to Conditionalized Tests." into marshmallow-cts-dev
+427e33a # 2016-10-10 # Dave Weinstein @ Merge "DO NOT MERGE:Updating CTS Security Patch Month to "10" for October 2016" into marshmallow-cts-dev
+de45f5e # 2016-10-10 # Adam Seaton @ DO NOT MERGE:Updating CTS Security Patch Month to "10" for October 2016
+81156fd # 2016-10-07 # preeti hiremath @ Add CTS test for CVE-2015-6608 This test verifies whether a m4a file limits the memory usage during decode media
 
-* Project external/flac/
-be25551 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+* Project device/lge/g2-common/
+cdb7e80 # 2016-10-20 # Aaron Kling @ g2-common: Use multithread decode for boot animation
+8ba698a # 2016-10-20 # Ștefănescu Cristian @ g2-common: init: power: Tweak interactive GOV
+95c8fae # 2016-10-18 # Ștefănescu Cristian @ g2-common: init: power: Tweak MSM Hotplug / KSM / CPU-Boost
+5a28bed # 2016-10-18 # Zdrowy Gosciu @ g2-common: init: power: BFQ as default I/O scheduler
+224e296 # 2016-10-11 # Zdrowy Gosciu @ g2-common: init: power: Rebase I/O + CPU GOV
+dfcd955 # 2016-10-09 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
 
-* Project external/libavc/
-130f76a # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
-
-* Project external/libvpx/
-22ab465 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
-
-* Project external/sonivox/
-4d2a2d9 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
-
-* Project frameworks/av/
-c9a755b # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-cb1cdff # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
-
-* Project frameworks/native/
-7fd5156 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-b22bca4 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
-
-* Project frameworks/opt/net/wifi/
-5ec2841 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-e9e7aed # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
-
-* Project hardware/ril/
-60520d4 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-65c8989 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+* Project frameworks/base/
+c76a6e3 # 2016-10-09 # Gabriele M @ Fix volume keys wakeup status handling
 
 * Project kernel/lge/msm8974/
-e837db1 # 2016-10-07 # Zdrowy Gosciu @ Version HML 1.4
-76a48a9 # 2016-10-07 # Zdrowy Gosciu @ Revert "ARM: crypto: add NEON accelerated XOR implementation"
-8212951 # 2016-10-07 # Zdrowy Gosciu @ Revert "ARM: 7835/2: fix modular build of xor_blocks() with NEON enabled"
-8948992 # 2016-10-07 # Zdrowy Gosciu @ Revert "Optimized ARM RWSEM algorithm"
-c02e6f5 # 2016-10-06 # Zdrowy Gosciu @ Version HML 1.3
-f6bf1b1 # 2016-10-06 # Ard Biesheuvel @ ARM: 7835/2: fix modular build of xor_blocks() with NEON enabled
-37b44ac # 2016-10-06 # Ard Biesheuvel @ ARM: crypto: add NEON accelerated XOR implementation
-464348a # 2016-10-06 # Paul Keith @ char: add frandom support
-cedb9a4 # 2016-10-06 # Jeff Liu @ binfmt_elf.c: use get_random_int() to fix entropy depleting
-d33d04d # 2016-10-06 # Alex Naidis @ Optimized ARM RWSEM algorithm
-8ca91e1 # 2016-10-06 # Lucille Sylvester @ msm: kgsl: Remove io_fraction as it is no longer used
-56cdf46 # 2016-10-06 # ktoonsez @ fs: fix btrfs 32 bit compatibility
-9c0b545 # 2016-10-06 # ktoonsez @ fs: Async I/O latency to a ssd greatly increased, 34% gain (Creds: kleikamp)
-92fff47 # 2016-10-06 # franciscofranco @ fs: FSync On/Off
-1d5534e # 2016-10-06 # Zdrowy Gosciu @ devfreq: Don't start Adreno Idler
-eb14407 # 2016-10-06 # GuneetAtwal @ devfreq: Make Adreno Idler more aggressive
-8c30eaa # 2016-10-06 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
-d33d34c # 2016-10-06 # Zdrowy Gosciu @ devfreq: Build Simple GPU
-4dd0ec4 # 2016-10-06 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
+4e80c52 # 2016-10-20 # Zdrowy Gosciu @ Version HML 2.0
+1559748 # 2016-10-20 # David Howells @ KEYS: Fix short sprintf buffer in /proc/keys show function
+5bfb16d # 2016-10-18 # Zdrowy Gosciu @ Version HML 1.9
+e016744c # 2016-10-18 # Zdrowy Gosciu @ arm: configs: g2: Enable KSM
+3c48916 # 2016-10-18 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+284e760 # 2016-10-18 # Pradeep Sawlani @ ksm: check and skip page, if it is already scanned
+1ea439f # 2016-10-18 # Sasha Levin @ mm/ksm.c: use new hashtable implementation
+6e9d63f # 2016-10-18 # Pranav Vashi @ mm: ksm: Enable deferred timer by default
+624eea5 # 2016-10-18 # kangjie @ fix infoleak in rtnetlink
+7e04567 # 2016-10-18 # Mohamad Ayyash @ Replace %p with %pK to prevent leaking kernel address
+3cde896 # 2016-10-18 # Lars-Peter Clausen @ ALSA: control: Fix replacing user controls
+17c289e # 2016-10-18 # Nick Desaulniers @ fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
+60dfece # 2016-10-18 # Nick Desaulniers @ binder: prevent kptr leak by using %pK format specifier
+1f3ebbc # 2016-10-18 # Eric Dumazet @ tcp: fix use after free in tcp_xmit_retransmit_queue()
+9a294ff # 2016-10-18 # Zdrowy Gosciu @ Version HML 1.888
+ab20122 # 2016-10-18 # Zdrowy Gosciu @ Revert "android: lowmemorykiller: squash task adj rbtree optimization from Motorola"
+cbbf217 # 2016-10-18 # Pranav Vashi @ workqueue: Fix permission for power_efficient
+7873ed0 # 2016-10-18 # Pranav Vashi @ workqueue: Remove panic
+c081465 # 2016-10-17 # Zdrowy Gosciu @ Version HML 1.8
+34498d7 # 2016-10-17 # Zdrowy Gosciu @ Revert "drivers: Use RBTREE for Android Low Memory Killer"
+98826a0 # 2016-10-17 # Zdrowy Gosciu @ Revert "power: Enable workqueue power-efficient mode by default"
+8e427ad # 2016-10-17 # Zdrowy Gosciu @ Revert "ion: adjust system heap pool orders"
+ea1f8d8 # 2016-10-17 # Tahsin Erdogan @ block: Make CFQ default to IOPS mode on SSDs
+7edc536 # 2016-10-15 # kangjie @ fix infoleak in rtnetlink
+611b5af # 2016-10-15 # Nick Desaulniers @ fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
+cfcf3cb # 2016-10-15 # Mohamad Ayyash @ Replace %p with %pK to prevent leaking kernel address
+a0b9eee # 2016-10-15 # Nick Desaulniers @ binder: prevent kptr leak by using %pK format specifier
+4bce549 # 2016-10-14 # Zdrowy Gosciu @ Version HML 1.7
+42aec51 # 2016-10-14 # Rob Herring @ ARM: 7493/1: use generic unaligned.h
+b9e854b # 2016-10-14 # Ethan @ cpufreq: stats: Fix memory leak when tables are free
+6afcdb5 # 2016-10-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+29ac661 # 2016-10-13 # Arnaldo Carvalho de Melo @ UPSTREAM: net: Fix use after free in the recvmmsg exit path
+e142804 # 2016-10-12 # Viresh Kumar @ cpufreq: Make sure target freq is within limits
+4e0ee1e # 2016-10-12 # Viresh Kumar @ cpufreq: Avoid calling cpufreq driver's target() routine if target_freq == policy->cur
+76bbb8e # 2016-10-12 # Zdrowy Gosciu @ Version HML 1.6
+3a00da0 # 2016-10-12 # franciscofranco @ ion: adjust system heap pool orders
+d7e5a07 # 2016-10-12 # Zdrowy Gosciu @ power: Enable workqueue power-efficient mode by default
+369cffa # 2016-10-12 # Francisco Franco @ workqueue: Backport power efficient workqueues from 3.10 kernel
+938c2ae # 2016-10-12 # Arun Kumar Neelakantam @ soc: qcom: smd: Fix SMD packet sync loss issue
+482b16b # 2016-10-12 # Anshul Garg @ Input: optimize events_per_packet count calculation
+65a0407 # 2016-10-12 # Zdrowy Gosciu @ drivers: Use RBTREE for Android Low Memory Killer
+8ac6c04 # 2016-10-12 # franciscofranco @ android: lowmemorykiller: squash task adj rbtree optimization from Motorola
+1519e7b # 2016-10-12 # Zdrowy Gosciu @ cpufreq: Rebase interactive GOV
+a46f423 # 2016-10-12 # franciscofranco @ display: add a simple api to query the display state (on/off) at any point in time
+9221cb2 # 2016-10-09 # Zdrowy Gosciu @ Version HML 1.5
+71fe228 # 2016-10-09 # desaishivam26 @ mm: lower swappiness
+a21f38e # 2016-10-09 # Paul Keith @ sched: Slight Tuning
+a3c762f6 # 2016-10-09 # Paul Keith @ Set Multi Core Power Saving Mode to 2
+97dd6b4 # 2016-10-09 # kasperhettinga @ LOAD_FREQ (4*HZ+61) avoids loadavg Moire
 
-* Project packages/apps/AudioFX/
-73e1903 # 2016-10-05 # Steve Kondik @ Merge "AudioFX: fix missing bassboost/virtualizer" into cm-13.0
+* Project packages/apps/Bluetooth/
+a4f5f39 # 2016-10-15 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
 
-* Project packages/apps/Dialer/
-c66b4ac # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+* Project packages/apps/BluetoothExt/
+ded8bc7 # 2016-10-15 # james.clarkson@live.co.uk @ Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_BluetoothExt into cm-13.0
 
-* Project packages/apps/Email/
-de1a096 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+* Project packages/apps/Contacts/
+0e0a76d # 2016-10-15 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Contacts into cm-13.0
+
+* Project packages/apps/ContactsCommon/
+59e523b # 2016-10-15 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_ContactsCommon into cm-13.0
+
+* Project packages/apps/DeskClock/
+0419f6f # 2016-10-15 # james.clarkson@live.co.uk @ Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_DeskClock into cm-13.0
+
+* Project packages/apps/Eleven/
+f1daeeb # 2016-10-09 # Steve Kondik @ Merge "eleven: Add support for the MediaSession queue" into cm-13.0
+bd9e6d2 # 2016-10-07 # Sean Maas @ Eleven: Correctly set shake to play
+
+* Project packages/apps/InCallUI/
+ed1d309 # 2016-10-15 # trader418 @ Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+
+* Project packages/apps/KernelAdiutor/
+fc88e87 # 2016-10-20 # Zdrowy Gosciu @ StartUpCommandsFragment: Fix echo -> write conversion
+21797b9 # 2016-10-20 # Zdrowy Gosciu @ StartUpCommandsFragment: Fix copy as RC for single command
+14bea41 # 2016-10-20 # Zdrowy Gosciu @ StartUpCommandsFragment: Fix typo
+8aa9a0b # 2016-10-20 # Yoinx @ StartupCommands: Fix case
+2fcd409 # 2016-10-20 # Yoinx @ Startup-Commands: Some style changes
+48fc459 # 2016-10-20 # Yoinx @ Startup-Commands: Add output as RC as an option
+
+* Project packages/apps/PackageInstaller/
+ed5a3e2 # 2016-10-15 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_PackageInstaller into cm-13.0
+
+* Project packages/apps/PhoneCommon/
+06813e6 # 2016-10-15 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_PhoneCommon into cm-13.0
 
 * Project packages/apps/Settings/
-8eb487c # 2016-10-07 # Zdrowy Gosciu @ Build V11.8
-169f2dc # 2016-10-07 # pinky@build01 @ Automatic translation import
+de5a882 # 2016-10-20 # Zdrowy Gosciu @ Build V11.9
+c07679f # 2016-10-09 # Zhao Wei Liew @ Settings: display: Fix search indexing of high touch sensitivity
+a9d1d04 # 2016-10-09 # Michael Bestas @ Settings: Update contributors cloud DB
 
-* Project packages/providers/DownloadProvider/
-b25fddc # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+* Project packages/apps/SetupWizard/
+fa57856 # 2016-10-15 # trader418 @ Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
 
-* Project packages/providers/TelephonyProvider/
-256b9cd # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-c3d8153 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+* Project packages/inputmethods/LatinIME/
+ed2ba12 # 2016-10-11 # Janet Sun @ LatinIME: add back shortcuts support
 
-* Project packages/providers/ThemesProvider/
-6abe369 # 2016-10-07 # d34d @ Implement theme mixes from ThemesContract
+* Project packages/providers/ContactsProvider/
+ac57517 # 2016-10-15 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_ContactsProvider into cm-13.0
 
-* Project packages/services/Telecomm/
-468685a # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+* Project packages/providers/MediaProvider/
+1e27ba3 # 2016-10-15 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_MediaProvider into cm-13.0
 
 * Project packages/services/Telephony/
-3c40292 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-9330f1c # 2016-10-06 # Gabriele M @ Telephony: Fix mobile network settings for CDMA without LTE
-5accfb7 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+df09f4d # 2016-10-20 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+b8655dc # 2016-10-17 # chengzhi.hou @ Telephony: Redirect to roaming SIM network setting(Dual SIM)
 
-* Project system/core/
-1ade114 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-7e1cf25 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
-
-* Project system/media/
-07bae30 # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-69c4724 # 2016-10-06 # Jessica Wagantall @ Merge tag 'android-6.0.1_r72' into HEAD
+* Project vendor/cm/
+881166a # 2016-10-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+0432d1c # 2016-10-13 # Zhao Wei Liew @ cm: changelog: Update changelog for 13.0 releases
+03130f3 # 2016-10-13 # Ricardo Cerqueira @ charger: Use the same metrics as recovery to pick a density
+98cb8a7 # 2016-10-13 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+b46148a # 2016-10-13 # Zdrowy Gosciu @ overlay: FB: Remove default wallpapers
+ac6115c # 2016-10-10 # Arvin Quilao @ Gello artifact v40
+a039b5f # 2016-10-09 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+8a1906c # 2016-10-08 # HashBang @ extract_utils: Do not change app SRC if there are arguments
+40c52a1 # 2016-10-08 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+fb1f75f # 2016-10-07 # Jessica Wagantall @ version: Set version string to 13.0.3 to reflect security update
 
 * Project vendor/cmsdk/
-6dda43e # 2016-10-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-c4f27d5 # 2016-10-07 # d34d @ Themes: Introduce theme mixes into ThemesContract
+5dd4c19 # 2016-10-17 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+d755121 # 2016-10-08 # Zhao Wei Liew @ cmsdk: Remove duplicate legacy system element

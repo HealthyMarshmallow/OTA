@@ -7,12 +7,15 @@ CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
                  |_____|
 
 * Project device/lge/g2-common/
+8ba698a # 2016-10-20 # Ștefănescu Cristian @ g2-common: init: power: Tweak interactive GOV
 95c8fae # 2016-10-18 # Ștefănescu Cristian @ g2-common: init: power: Tweak MSM Hotplug / KSM / CPU-Boost
 5a28bed # 2016-10-18 # Zdrowy Gosciu @ g2-common: init: power: BFQ as default I/O scheduler
 224e296 # 2016-10-11 # Zdrowy Gosciu @ g2-common: init: power: Rebase I/O + CPU GOV
 dfcd955 # 2016-10-09 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+4e80c52 # 2016-10-20 # Zdrowy Gosciu @ Version HML 2.0
+1559748 # 2016-10-20 # David Howells @ KEYS: Fix short sprintf buffer in /proc/keys show function
 5bfb16d # 2016-10-18 # Zdrowy Gosciu @ Version HML 1.9
 e016744c # 2016-10-18 # Zdrowy Gosciu @ arm: configs: g2: Enable KSM
 3c48916 # 2016-10-18 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite

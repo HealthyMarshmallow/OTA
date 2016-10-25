@@ -31,6 +31,10 @@
                 id="font"
                 title="Custom ROM font"
                 description="Flash Choco cooky">https://www.androidfilehost.com/?fid=24591000424944988</FontUrl>
+            <CameraUrl
+                id="camera"
+                title="Camera APP"
+                description="Install LG Camera">https://www.androidfilehost.com/?fid=24459283995311946</CameraUrl>
             <ThemeUrl
                 id="theme"
                 title="Dark CM Theme"

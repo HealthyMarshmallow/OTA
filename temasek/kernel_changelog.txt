@@ -14,6 +14,15 @@ CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
 dfcd955 # 2016-10-09 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+a7add7e # 2016-10-26 # Zdrowy Gosciu @ Version HML 2.1
+e47d077 # 2016-10-26 # Leon Peng @ mm: do not sleep in balance_pgdat if there's no i/o congestion
+28c919d # 2016-10-26 # Aarushi Girdhar @ g2: dts: msm: Update DSI PHY lane configuration settings for LGE dts
+c15ee09 # 2016-10-26 # Francisco Franco @ mdss: move to a kthread for vsync_retire_work_handler
+1449611 # 2016-10-26 # Francisco Franco @ kgsl: convert some workqueues to use kthreads
+83a0793 # 2016-10-24 # Greg Wallace @ arm: configs: g2: Disable L1/L2 Cache Error Kernel Panic
+7e0cca3 # 2016-10-24 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
+56f17ad # 2016-10-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+b149a08 # 2016-10-24 # Linus Torvalds @ mm: remove gup_flags FOLL_WRITE games from __get_user_pages()
 4e80c52 # 2016-10-20 # Zdrowy Gosciu @ Version HML 2.0
 1559748 # 2016-10-20 # David Howells @ KEYS: Fix short sprintf buffer in /proc/keys show function
 5bfb16d # 2016-10-18 # Zdrowy Gosciu @ Version HML 1.9

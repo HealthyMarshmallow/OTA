@@ -7,6 +7,7 @@ CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
                  |_____|
 
 * Project device/lge/g2-common/
+b7a192a # 2016-10-28 # Zdrowy Gosciu @ g2-common: init: power: Bring back stock max CPU freq
 8ba698a # 2016-10-20 # Ștefănescu Cristian @ g2-common: init: power: Tweak interactive GOV
 95c8fae # 2016-10-18 # Ștefănescu Cristian @ g2-common: init: power: Tweak MSM Hotplug / KSM / CPU-Boost
 5a28bed # 2016-10-18 # Zdrowy Gosciu @ g2-common: init: power: BFQ as default I/O scheduler
@@ -14,6 +15,16 @@ CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
 dfcd955 # 2016-10-09 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
 
 * Project kernel/lge/msm8974/
+55c49e0 # 2016-10-28 # Zdrowy Gosciu @ Version HML 2.2
+94ac8a4 # 2016-10-28 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+133f172 # 2016-10-28 # Cl3Kener @ block: Disable add_random
+08ee225 # 2016-10-28 # Tim Murray @ lowmemorykiller: account for unevictable pages
+1b82ee1 # 2016-10-27 # Biswajit Paul @ spmi: prevent showing the address of spmidev
+7d2b1d3 # 2016-10-27 # Biswajit Paul @ msm: ipa: fix potential race condition ioctls
+c35d2db # 2016-10-27 # Jaganath Kanakkassery @ BACKPORT: Bluetooth: Fix potential NULL dereference in RFCOMM bind callback
+4a9a381 # 2016-10-27 # Aarushi Girdhar @ g2: dts: msm: Update DSI PHY lane configuration settings for LGE dts
+b3c653f # 2016-10-27 # Greg Wallace @ Disable L1/L2 Cache Error Kernel Panic
+fe57766 # 2016-10-27 # Ethan Chen @ platform: msm: Fix compile when CONFIG_PFT is not set
 a7add7e # 2016-10-26 # Zdrowy Gosciu @ Version HML 2.1
 e47d077 # 2016-10-26 # Leon Peng @ mm: do not sleep in balance_pgdat if there's no i/o congestion
 28c919d # 2016-10-26 # Aarushi Girdhar @ g2: dts: msm: Update DSI PHY lane configuration settings for LGE dts

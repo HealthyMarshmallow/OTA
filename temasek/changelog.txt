@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-10-20 @ 17:51:47 (1476985907)
+CHANGES AFTER 2016-10-28 @ 21:23:31 (1477689811)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,89 +7,21 @@ CHANGES AFTER 2016-10-20 @ 17:51:47 (1476985907)
                  |_____|              
 
 * Project OTA/
-f93d839 # 2016-10-28 # Zdrowy Gosciu @ OTA: Enjoy HML 2.2
-198cc90 # 2016-10-26 # Zdrowy Gosciu @ OTA: Enjoy HML 2.1
-c1f4cbb # 2016-10-25 # Zdrowy Gosciu @ OTA: temasek: Add LG Camera
-eca0078 # 2016-10-20 # Zdrowy Gosciu @ OTA: cm-13.0-20161020-174902-UNOFFICIAL-temasek-d802-V11.9
-
-* Project build/
-65ac6e7 # 2016-10-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-6fd080e # 2016-10-20 # Michael Bestas @ envsetup: Fix cafremote/aospremote for projects with non-standard paths
+84adcb0 # 2016-10-29 # Zdrowy Gosciu @ OTA: cm-13.0-20161028-211001-UNOFFICIAL-temasek-d802-V12.0
 
 * Project device/lge/g2-common/
-b7a192a # 2016-10-28 # Zdrowy Gosciu @ g2-common: init: power: Bring back stock max CPU freq
-9144d09 # 2016-10-27 # Zdrowy Gosciu @ g2-common: Remove SnapdragonCamera
-
-* Project external/chromium-webview/
-ccb3a71 # 2016-10-28 # Zdrowy Gosciu @ WebViewGoogle: Remove non-ARM variants
-989a118 # 2016-10-28 # Zdrowy Gosciu @ arm: Android System WebView 54.0.2840.68 (284006800)
-
-* Project frameworks/base/
-27877a3 # 2016-10-28 # Danny Baumann @ Support enforcing a minimum delay between notification sounds of an app.
-756a6ab # 2016-10-28 # Danny Baumann @ (Optionally) allow vibration during priority zen mode.
-
-* Project frameworks/opt/telephony/
-68c198a # 2016-10-28 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-6ac0810 # 2016-10-26 # Marcos Marado @ properly check empty string
+54104b2 # 2016-10-29 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
+f5b01f8 # 2016-10-29 # Zdrowy Gosciu @ g2-common: Correct thermal zone 1
+ef3c1fa # 2016-10-29 # fluxi @ g2-common: Remove writes to non-existent IPv6 nodes
+3cf0485 # 2016-10-29 # Daniel Stuart @ g2-common: Update audio
 
 * Project kernel/lge/msm8974/
-55c49e0 # 2016-10-28 # Zdrowy Gosciu @ Version HML 2.2
-94ac8a4 # 2016-10-28 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-133f172 # 2016-10-28 # Cl3Kener @ block: Disable add_random
-08ee225 # 2016-10-28 # Tim Murray @ lowmemorykiller: account for unevictable pages
-1b82ee1 # 2016-10-27 # Biswajit Paul @ spmi: prevent showing the address of spmidev
-7d2b1d3 # 2016-10-27 # Biswajit Paul @ msm: ipa: fix potential race condition ioctls
-c35d2db # 2016-10-27 # Jaganath Kanakkassery @ BACKPORT: Bluetooth: Fix potential NULL dereference in RFCOMM bind callback
-4a9a381 # 2016-10-27 # Aarushi Girdhar @ g2: dts: msm: Update DSI PHY lane configuration settings for LGE dts
-b3c653f # 2016-10-27 # Greg Wallace @ Disable L1/L2 Cache Error Kernel Panic
-fe57766 # 2016-10-27 # Ethan Chen @ platform: msm: Fix compile when CONFIG_PFT is not set
-a7add7e # 2016-10-26 # Zdrowy Gosciu @ Version HML 2.1
-e47d077 # 2016-10-26 # Leon Peng @ mm: do not sleep in balance_pgdat if there's no i/o congestion
-28c919d # 2016-10-26 # Aarushi Girdhar @ g2: dts: msm: Update DSI PHY lane configuration settings for LGE dts
-c15ee09 # 2016-10-26 # Francisco Franco @ mdss: move to a kthread for vsync_retire_work_handler
-1449611 # 2016-10-26 # Francisco Franco @ kgsl: convert some workqueues to use kthreads
-83a0793 # 2016-10-24 # Greg Wallace @ arm: configs: g2: Disable L1/L2 Cache Error Kernel Panic
-7e0cca3 # 2016-10-24 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
-56f17ad # 2016-10-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-b149a08 # 2016-10-24 # Linus Torvalds @ mm: remove gup_flags FOLL_WRITE games from __get_user_pages()
-
-* Project packages/apps/CMFileManager/
-4dab55e # 2016-10-27 # Fujia Mi @ CMFileManager: Show loading dialog while loading files
-a2fdbf9 # 2016-10-27 # Zhao Wei Liew @ Revert "CMFM: Fix landscape/rotation issues in file system info dialog"
-d686360 # 2016-10-28 # emancebo @ Show message to user when toggling word wrap mode
-5afe58b # 2016-10-28 # yongga @ CMFileManager: Do not create multiple action dialogs
-59c9f19 # 2016-10-28 # Fujia Mi @ CMFileManager: Refresh the disk usage graph when layout size change
-967dc87 # 2016-10-28 # emancebo @ Fix rename of files ending with . on sdcard
-
-* Project packages/apps/CarrierConfig/
-6fe76ed # 2016-10-21 # Ricardo Cerqueira @ national roaming: NRJ (France) can also use Bouygues
-
-* Project packages/apps/CellBroadcastReceiver/
-14dde37 # 2016-10-28 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-
-* Project packages/apps/InCallUI/
-fc0f5cf # 2016-10-28 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-270c5c0 # 2016-10-28 # ‫דוד זר‬‎ @ Revert "Add rtl support to GlowPadView"
+ff1f3e7 # 2016-10-29 # Zdrowy Gosciu @ Version HML 2.222
+a66aba7 # 2016-10-29 # Arve Hjønnevåg @ ANDROID: binder: Add strong ref checks
+ff246d6 # 2016-10-29 # Arve Hjønnevåg @ ANDROID: binder: Clear binder and cookie when setting handle in flat binder struct
 
 * Project packages/apps/Settings/
-919fb92 # 2016-10-28 # Zdrowy Gosciu @ Changelog: Make readable on dark themes
-0f93470 # 2016-10-28 # Zdrowy Gosciu @ Revert "Revert "Changelog: prettify""
-eec273d # 2016-10-28 # Zdrowy Gosciu @ Build V12.0
-a4bf8fc # 2016-10-28 # Danny Baumann @ Add setup UI for minimum delay between an app's notification sounds.
-dce0c57 # 2016-10-28 # Danny Baumann @ Allow selecting vibration mode during zen priority mode.
-36642b5 # 2016-10-28 # Diogo Ferreira @ Settings: Apn: Don't dereference a null mSubscriptionInfo
-
-* Project packages/apps/Snap/
-e9118a2 # 2016-10-28 # Zdrowy Gosciu @ Snap: Introduce Focus Before Shot
-8b1af49 # 2016-10-24 # Michael W @ Snap: Fix possible NPE
-812e694 # 2016-10-24 # Michael W @ Snap: Fix possible RuntimeException (due to NPE)
-
-* Project packages/services/Telecomm/
-dff3ed8 # 2016-10-28 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+dd5ab2d # 2016-10-29 # Zdrowy Gosciu @ Build V12.1
 
 * Project vendor/cm/
-8e1d5e0 # 2016-10-27 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-877f046 # 2016-10-26 # Sean hoyt @ Update apns
-
-* Project vendor/cmsdk/
-5c63afa # 2016-10-27 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+8f76765 # 2016-10-29 # Zdrowy Gosciu @ Revert "config: telephony: Remove CellBroadcastReceiver"

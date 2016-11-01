@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-10-28 @ 21:23:31 (1477689811)
+CHANGES AFTER 2016-10-29 @ 20:09:23 (1477771763)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,21 +7,40 @@ CHANGES AFTER 2016-10-28 @ 21:23:31 (1477689811)
                  |_____|              
 
 * Project OTA/
-84adcb0 # 2016-10-29 # Zdrowy Gosciu @ OTA: cm-13.0-20161028-211001-UNOFFICIAL-temasek-d802-V12.0
+db2c760 # 2016-10-30 # Zdrowy Gosciu @ OTA: cm-13.0-20161029-200517-UNOFFICIAL-temasek-d802-V12.1
+
+* Project android/
+b613513 # 2016-11-01 # Zdrowy Gosciu @ default: android_external_wpa_supplicant_8: Go back to CM
+
+* Project cts/
+f42311e # 2016-10-29 # gitbuildkicker @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
 
 * Project device/lge/g2-common/
-54104b2 # 2016-10-29 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
-f5b01f8 # 2016-10-29 # Zdrowy Gosciu @ g2-common: Correct thermal zone 1
-ef3c1fa # 2016-10-29 # fluxi @ g2-common: Remove writes to non-existent IPv6 nodes
-3cf0485 # 2016-10-29 # Daniel Stuart @ g2-common: Update audio
+24bbc09 # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: power: Enable power efficient workqueue
+b9e075e # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: Bring back QCOM MP-Decision
+246e81a # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: power: Rebase CPU GOV & I/O Sched & Thermal
+
+* Project external/chromium-webview/
+f43e205 # 2016-11-01 # Zdrowy Gosciu @ arm: Android System WebView 54.0.2840.85 (284008500)
 
 * Project kernel/lge/msm8974/
-ff1f3e7 # 2016-10-29 # Zdrowy Gosciu @ Version HML 2.222
-a66aba7 # 2016-10-29 # Arve Hjønnevåg @ ANDROID: binder: Add strong ref checks
-ff246d6 # 2016-10-29 # Arve Hjønnevåg @ ANDROID: binder: Clear binder and cookie when setting handle in flat binder struct
+861ac3c # 2016-11-01 # Zdrowy Gosciu @ Version HML 2.3
+b8a5d7e # 2016-11-01 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+69c402e # 2016-10-31 # Arve Hjønnevåg @ ANDROID: binder: Add strong ref checks
+a0b6ec4 # 2016-10-31 # Mohit Aggarwal @ diag: Fix possible underflow/overflow issues
+146dc67 # 2016-10-31 # Marek Szyprowski @ arm64: dma-mapping: always clear allocated buffers
+cd3cad2 # 2016-10-31 # Biswajit Paul @ input: synaptics: allocate heap memory for temp buf
+3ddf23b # 2016-10-31 # Srinivasarao P @ ion: use %pk instead of %p which respects kptr_restrict sysctl
+ed05178 # 2016-10-31 # Bhaktipriya Shridhar @ android: binder: Remove deprecated create_singlethread_workqueue
+3be8cca # 2016-10-30 # Zdrowy Gosciu @ mmc: sdhci: Disable register dumps
+2fb4ce8 # 2016-10-30 # Leon Peng @ mm: do not sleep in balance_pgdat if there's no i/o congestion
+
+* Project packages/apps/CMFileManager/
+52f0f09 # 2016-10-30 # yazhan @ CMFileManager: Save history records when quitting
 
 * Project packages/apps/Settings/
-dd5ab2d # 2016-10-29 # Zdrowy Gosciu @ Build V12.1
+0c2a946 # 2016-11-01 # Zdrowy Gosciu @ Build V12.2
+7ba5525 # 2016-10-31 # Marcos Marado @ SecuritySettings: Fix KeyStore related NPE's
 
-* Project vendor/cm/
-8f76765 # 2016-10-29 # Zdrowy Gosciu @ Revert "config: telephony: Remove CellBroadcastReceiver"
+* Project packages/apps/Snap/
+dc520cd # 2016-10-31 # Danny Baumann @ Fix off-by-one error in submenu selection handling.

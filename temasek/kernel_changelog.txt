@@ -1,85 +1,24 @@
-CHANGES AFTER 2016-10-07 @ 19:23:21 (1475868201)
+CHANGES AFTER 2016-10-29 @ 20:09:23 (1477771763)
 
-                        ______ ______
+                        ______ ______ 
            .-----.-----|  __  |    __|
            |-- __|  _  |  __  |__    |
            |_____|___  |______|______|
-                 |_____|
+                 |_____|              
 
 * Project device/lge/g2-common/
-b7a192a # 2016-10-28 # Zdrowy Gosciu @ g2-common: init: power: Bring back stock max CPU freq
-8ba698a # 2016-10-20 # Ștefănescu Cristian @ g2-common: init: power: Tweak interactive GOV
-95c8fae # 2016-10-18 # Ștefănescu Cristian @ g2-common: init: power: Tweak MSM Hotplug / KSM / CPU-Boost
-5a28bed # 2016-10-18 # Zdrowy Gosciu @ g2-common: init: power: BFQ as default I/O scheduler
-224e296 # 2016-10-11 # Zdrowy Gosciu @ g2-common: init: power: Rebase I/O + CPU GOV
-dfcd955 # 2016-10-09 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
+24bbc09 # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: power: Enable power efficient workqueue
+b9e075e # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: Bring back QCOM MP-Decision
+246e81a # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: power: Rebase CPU GOV & I/O Sched & Thermal
 
 * Project kernel/lge/msm8974/
-55c49e0 # 2016-10-28 # Zdrowy Gosciu @ Version HML 2.2
-94ac8a4 # 2016-10-28 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-133f172 # 2016-10-28 # Cl3Kener @ block: Disable add_random
-08ee225 # 2016-10-28 # Tim Murray @ lowmemorykiller: account for unevictable pages
-1b82ee1 # 2016-10-27 # Biswajit Paul @ spmi: prevent showing the address of spmidev
-7d2b1d3 # 2016-10-27 # Biswajit Paul @ msm: ipa: fix potential race condition ioctls
-c35d2db # 2016-10-27 # Jaganath Kanakkassery @ BACKPORT: Bluetooth: Fix potential NULL dereference in RFCOMM bind callback
-4a9a381 # 2016-10-27 # Aarushi Girdhar @ g2: dts: msm: Update DSI PHY lane configuration settings for LGE dts
-b3c653f # 2016-10-27 # Greg Wallace @ Disable L1/L2 Cache Error Kernel Panic
-fe57766 # 2016-10-27 # Ethan Chen @ platform: msm: Fix compile when CONFIG_PFT is not set
-a7add7e # 2016-10-26 # Zdrowy Gosciu @ Version HML 2.1
-e47d077 # 2016-10-26 # Leon Peng @ mm: do not sleep in balance_pgdat if there's no i/o congestion
-28c919d # 2016-10-26 # Aarushi Girdhar @ g2: dts: msm: Update DSI PHY lane configuration settings for LGE dts
-c15ee09 # 2016-10-26 # Francisco Franco @ mdss: move to a kthread for vsync_retire_work_handler
-1449611 # 2016-10-26 # Francisco Franco @ kgsl: convert some workqueues to use kthreads
-83a0793 # 2016-10-24 # Greg Wallace @ arm: configs: g2: Disable L1/L2 Cache Error Kernel Panic
-7e0cca3 # 2016-10-24 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
-56f17ad # 2016-10-24 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-b149a08 # 2016-10-24 # Linus Torvalds @ mm: remove gup_flags FOLL_WRITE games from __get_user_pages()
-4e80c52 # 2016-10-20 # Zdrowy Gosciu @ Version HML 2.0
-1559748 # 2016-10-20 # David Howells @ KEYS: Fix short sprintf buffer in /proc/keys show function
-5bfb16d # 2016-10-18 # Zdrowy Gosciu @ Version HML 1.9
-e016744c # 2016-10-18 # Zdrowy Gosciu @ arm: configs: g2: Enable KSM
-3c48916 # 2016-10-18 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-284e760 # 2016-10-18 # Pradeep Sawlani @ ksm: check and skip page, if it is already scanned
-1ea439f # 2016-10-18 # Sasha Levin @ mm/ksm.c: use new hashtable implementation
-6e9d63f # 2016-10-18 # Pranav Vashi @ mm: ksm: Enable deferred timer by default
-624eea5 # 2016-10-18 # kangjie @ fix infoleak in rtnetlink
-7e04567 # 2016-10-18 # Mohamad Ayyash @ Replace %p with %pK to prevent leaking kernel address
-3cde896 # 2016-10-18 # Lars-Peter Clausen @ ALSA: control: Fix replacing user controls
-17c289e # 2016-10-18 # Nick Desaulniers @ fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
-60dfece # 2016-10-18 # Nick Desaulniers @ binder: prevent kptr leak by using %pK format specifier
-1f3ebbc # 2016-10-18 # Eric Dumazet @ tcp: fix use after free in tcp_xmit_retransmit_queue()
-9a294ff # 2016-10-18 # Zdrowy Gosciu @ Version HML 1.888
-ab20122 # 2016-10-18 # Zdrowy Gosciu @ Revert "android: lowmemorykiller: squash task adj rbtree optimization from Motorola"
-cbbf217 # 2016-10-18 # Pranav Vashi @ workqueue: Fix permission for power_efficient
-7873ed0 # 2016-10-18 # Pranav Vashi @ workqueue: Remove panic
-c081465 # 2016-10-17 # Zdrowy Gosciu @ Version HML 1.8
-34498d7 # 2016-10-17 # Zdrowy Gosciu @ Revert "drivers: Use RBTREE for Android Low Memory Killer"
-98826a0 # 2016-10-17 # Zdrowy Gosciu @ Revert "power: Enable workqueue power-efficient mode by default"
-8e427ad # 2016-10-17 # Zdrowy Gosciu @ Revert "ion: adjust system heap pool orders"
-ea1f8d8 # 2016-10-17 # Tahsin Erdogan @ block: Make CFQ default to IOPS mode on SSDs
-7edc536 # 2016-10-15 # kangjie @ fix infoleak in rtnetlink
-611b5af # 2016-10-15 # Nick Desaulniers @ fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
-cfcf3cb # 2016-10-15 # Mohamad Ayyash @ Replace %p with %pK to prevent leaking kernel address
-a0b9eee # 2016-10-15 # Nick Desaulniers @ binder: prevent kptr leak by using %pK format specifier
-4bce549 # 2016-10-14 # Zdrowy Gosciu @ Version HML 1.7
-42aec51 # 2016-10-14 # Rob Herring @ ARM: 7493/1: use generic unaligned.h
-b9e854b # 2016-10-14 # Ethan @ cpufreq: stats: Fix memory leak when tables are free
-6afcdb5 # 2016-10-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-29ac661 # 2016-10-13 # Arnaldo Carvalho de Melo @ UPSTREAM: net: Fix use after free in the recvmmsg exit path
-e142804 # 2016-10-12 # Viresh Kumar @ cpufreq: Make sure target freq is within limits
-4e0ee1e # 2016-10-12 # Viresh Kumar @ cpufreq: Avoid calling cpufreq driver's target() routine if target_freq == policy->cur
-76bbb8e # 2016-10-12 # Zdrowy Gosciu @ Version HML 1.6
-d595189 # 2016-10-11 # franciscofranco @ ion: adjust system heap pool orders
-3c48966 # 2016-10-11 # Zdrowy Gosciu @ power: Enable workqueue power-efficient mode by default
-66ca021 # 2016-10-11 # Francisco Franco @ workqueue: Backport power efficient workqueues from 3.10 kernel
-0e80234 # 2016-10-11 # Arun Kumar Neelakantam @ soc: qcom: smd: Fix SMD packet sync loss issue
-23208ad # 2016-10-11 # Anshul Garg @ Input: optimize events_per_packet count calculation
-aca3bab # 2016-10-11 # Zdrowy Gosciu @ drivers: Use RBTREE for Android Low Memory Killer
-7b06f2e # 2016-10-11 # franciscofranco @ android: lowmemorykiller: squash task adj rbtree optimization from Motorola
-c1fd636 # 2016-10-11 # Zdrowy Gosciu @ cpufreq: Rebase interactive GOV
-afa0aa0 # 2016-10-11 # franciscofranco @ display: add a simple api to query the display state (on/off) at any point in time
-9221cb2 # 2016-10-09 # Zdrowy Gosciu @ Version HML 1.5
-71fe228 # 2016-10-09 # desaishivam26 @ mm: lower swappiness
-a21f38e # 2016-10-09 # Paul Keith @ sched: Slight Tuning
-a3c762f6 # 2016-10-09 # Paul Keith @ Set Multi Core Power Saving Mode to 2
-97dd6b4 # 2016-10-09 # kasperhettinga @ LOAD_FREQ (4*HZ+61) avoids loadavg Moire
+861ac3c # 2016-11-01 # Zdrowy Gosciu @ Version HML 2.3
+b8a5d7e # 2016-11-01 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+69c402e # 2016-10-31 # Arve Hjønnevåg @ ANDROID: binder: Add strong ref checks
+a0b6ec4 # 2016-10-31 # Mohit Aggarwal @ diag: Fix possible underflow/overflow issues
+146dc67 # 2016-10-31 # Marek Szyprowski @ arm64: dma-mapping: always clear allocated buffers
+cd3cad2 # 2016-10-31 # Biswajit Paul @ input: synaptics: allocate heap memory for temp buf
+3ddf23b # 2016-10-31 # Srinivasarao P @ ion: use %pk instead of %p which respects kptr_restrict sysctl
+ed05178 # 2016-10-31 # Bhaktipriya Shridhar @ android: binder: Remove deprecated create_singlethread_workqueue
+3be8cca # 2016-10-30 # Zdrowy Gosciu @ mmc: sdhci: Disable register dumps
+2fb4ce8 # 2016-10-30 # Leon Peng @ mm: do not sleep in balance_pgdat if there's no i/o congestion

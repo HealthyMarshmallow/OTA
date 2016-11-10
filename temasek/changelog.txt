@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-10-29 @ 20:09:23 (1477771763)
+CHANGES AFTER 2016-11-01 @ 17:30:22 (1478021422)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,40 +7,151 @@ CHANGES AFTER 2016-10-29 @ 20:09:23 (1477771763)
                  |_____|              
 
 * Project OTA/
-db2c760 # 2016-10-30 # Zdrowy Gosciu @ OTA: cm-13.0-20161029-200517-UNOFFICIAL-temasek-d802-V12.1
+bf3f663 # 2016-11-01 # Zdrowy Gosciu @ OTA: cm-13.0-20161101-172548-UNOFFICIAL-temasek-d802-V12.2
 
 * Project android/
-b613513 # 2016-11-01 # Zdrowy Gosciu @ default: android_external_wpa_supplicant_8: Go back to CM
+9d6c38f # 2016-11-10 # Zdrowy Gosciu @ default: Switch to AOSP 6.0.1 r74
+
+* Project build/
+a7a9033 # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+6236695 # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+c5ac547 # 2016-11-09 # Zhao Wei Liew @ build: qcom_target: Enable BOARD_USES_ADRENO
+5a8b106 # 2016-11-09 # Diogo Ferreira @ releasetools: Rebuild recovery when signing target images
 
 * Project cts/
-f42311e # 2016-10-29 # gitbuildkicker @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+f8774bc # 2016-11-01 # gitbuildkicker @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+4bdac62 # 2016-11-01 # Tina Zhou @ Merge "DO NOT MERGE: disable tests that fail on some devices (Hammerhead)" into marshmallow-cts-dev
 
 * Project device/lge/g2-common/
-24bbc09 # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: power: Enable power efficient workqueue
-b9e075e # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: Bring back QCOM MP-Decision
-246e81a # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: power: Rebase CPU GOV & I/O Sched & Thermal
+7df8774 # 2016-11-10 # Zdrowy Gosciu @ g2-common: init: power: Disable KSM
+230825d # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+fbe3878 # 2016-11-08 # Tyler Dunn @ g2-common: Update partition sizes
+083e8b7 # 2016-11-07 # Zdrowy Gosciu @ Revert "g2-common: Use multithread decode for boot animation"
 
-* Project external/chromium-webview/
-f43e205 # 2016-11-01 # Zdrowy Gosciu @ arm: Android System WebView 54.0.2840.85 (284008500)
+* Project device/qcom/sepolicy/
+3d5eb2a # 2016-11-07 # Ricardo Cerqueira @ msm8937: boot block device needs context, too
+f297dd3 # 2016-11-04 # Ricardo Cerqueira @ msm8937: Add context to recovery block device
+
+* Project external/boringssl/
+1c725f9 # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+
+* Project external/libavc/
+eb80228 # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+
+* Project external/libvpx/
+8ba7fb7 # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+
+* Project frameworks/av/
+ba9673b # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+26c5fa3 # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+1c6e16c # 2016-11-08 # Andreas Blaesius @ Allow to use baseline profile for AVC recording
+6478db2 # 2016-11-08 # Lajos Molnar @ stagefright: don't fail MediaCodec.configure if clients use store-meta key
+fd3e97a # 2016-11-08 # Chong Zhang @ IOMX: do not clear buffer if it's allocated by component
+72d4e0c # 2016-11-08 # Lajos Molnar @ IOMX: allow configuration after going to loaded state
+8ec2762 # 2016-11-08 # Lajos Molnar @ IOMX: restrict conversion of ANWB to gralloc source in emptyBuffer
+4b0611b # 2016-11-08 # Marco Nelissen @ Limit mp4 atom size to something reasonable
+e888194 # 2016-11-08 # Robert Shih @ SampleIterator: clear members on seekTo error
+54312aa # 2016-11-08 # Marco Nelissen @ Check mprotect result
+7df35da # 2016-11-08 # Eric Laurent @ Radio: get service by value.
+6b55668 # 2016-11-08 # Eric Laurent @ SoundTrigger: get service by value.
+93f9679 # 2016-11-08 # Jeff Tinker @ Fix stack content leak vulnerability in mediaserver
+fe2f0f4 # 2016-11-08 # rago @ Fix potential overflow in Visualizer effect
+118a8ac # 2016-11-08 # Lajos Molnar @ IOMX: work against metadata buffer spoofing
+2e39b85 # 2016-11-06 # Ziyan @ libstagefright: wfd: don't use intra macroblock refresh mode on omap4
+
+* Project frameworks/base/
+028afae # 2016-11-10 # Steve Kondik @ Add CMSDK resource APK to Zygote FD whitelist
+7759c90 # 2016-11-10 # Zhao Wei Liew @ batteryservice: Remove remnants of CAF's HVDCP changes
+f9fba1e # 2016-11-10 # Danny Baumann @ Fix zen priority mode vibration logic.
+70f0010 # 2016-11-10 # Paul Jensen @ Avoid crashing when downloading MitM'd PAC that is too big am: 7d2198b586 am: 9c1cb7a273 am: 6634e90ad7 am: 66ee2296a9
+324ba7b # 2016-11-10 # Jeff Sharkey @ Merge commit '0a9d537f623b2c11dce707fb9b91fea016fd0e9f' into manual_merge_0a9d537
+a404d53 # 2016-11-10 # Jaewan Kim @ DO NOT MERGE Check caller for sending media key to global priority session
+fd710af # 2016-11-10 # Paul Jensen @ Fix build break due to automerge of 7d2198b5
+39c990a # 2016-11-10 # Tadashi G. Takaoka @ DO NOT MERGE: Catch all exceptions when parsing IME meta data
+885fbf3 # 2016-11-10 # Sudheer Shanka @ DO NOT MERGE: Fix deadlock in AcitivityManagerService.
+dea4743 # 2016-11-10 # John Reck @ Ensure munmap matches mmap
+c2f707f # 2016-11-10 # Marie Janssen @ Fix setPairingConfirmation permissions issue (2/2)
+14b426a # 2016-11-10 # Sungsoo @ DO NOT MERGE) ExifInterface: Make saveAttributes throw an exception before change
+c93738a # 2016-11-10 # Narayan Kamath @ Backport changes to whitelist sockets opened by the zygote.
+1570a93 # 2016-11-07 # Michael W @ SystemUI: Fix possible NPE
+ef154cf # 2016-11-07 # Diogo Ferreira @ services: battery: Don't blink with an hvdcp charger
+a761721 # 2016-11-07 # Dan Pasanen @ bootanimation: enable multithread decode by default
+8657709 # 2016-11-02 # Danny Baumann @ Use material icons in printer selection activity.
+
+* Project hardware/ril/
+2ed683b # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+37cd685 # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+
+* Project hardware/ti/omap4/
+98079ac # 2016-11-08 # Andreas Blaesius @ omap4: Fix screencast
 
 * Project kernel/lge/msm8974/
-861ac3c # 2016-11-01 # Zdrowy Gosciu @ Version HML 2.3
-b8a5d7e # 2016-11-01 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-69c402e # 2016-10-31 # Arve Hjønnevåg @ ANDROID: binder: Add strong ref checks
-a0b6ec4 # 2016-10-31 # Mohit Aggarwal @ diag: Fix possible underflow/overflow issues
-146dc67 # 2016-10-31 # Marek Szyprowski @ arm64: dma-mapping: always clear allocated buffers
-cd3cad2 # 2016-10-31 # Biswajit Paul @ input: synaptics: allocate heap memory for temp buf
-3ddf23b # 2016-10-31 # Srinivasarao P @ ion: use %pk instead of %p which respects kptr_restrict sysctl
-ed05178 # 2016-10-31 # Bhaktipriya Shridhar @ android: binder: Remove deprecated create_singlethread_workqueue
-3be8cca # 2016-10-30 # Zdrowy Gosciu @ mmc: sdhci: Disable register dumps
-2fb4ce8 # 2016-10-30 # Leon Peng @ mm: do not sleep in balance_pgdat if there's no i/o congestion
+e5244b8 # 2016-11-10 # Zdrowy Gosciu @ Version HML 2.4
+1cdd5b5 # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+03b0ea8 # 2016-11-10 # Francisco Franco @ msm: properly unlock mutexes
+fe753ac # 2016-11-08 # Daniel Rosenberg @ Fix incorrect conflict resolution in "vfs: Add setns support for the mount namespace"
+0fc5e3a # 2016-11-08 # Jin Qian @ proc: fix build broken by proc inode per namespace patch
+c11ef29 # 2016-11-08 # Benjamin Tissoires @ HID: core: prevent out-of-bound readings
+131e968 # 2016-11-08 # Vladis Dronov @ ALSA: usb-audio: Fix double-free in error paths after snd_usb_add_audio_stream() call
+fcd1bc1 # 2016-11-08 # Paul Moore @ BACKPORT: audit: fix a double fetch in audit_log_single_execve_arg()
+1256202 # 2016-11-08 # Peter Hurley @ BACKPORT: tty: Prevent ldisc drivers from re-using stale tty fields
+76f92e2 # 2016-11-08 # Zhen Kong @ msm: crypto: Fix integer over flow check in qcrypto driver
+b98f4a1 # 2016-11-08 # Takashi Iwai @ ALSA: usb-audio: Minor code cleanup in create_fixed_stream_quirk()
+16188b7 # 2016-11-08 # Vegard Nossum @ block: fix use-after-free in seq file
+e0023b5 # 2016-11-08 # Omar Sandoval @ block: fix use-after-free in sys_ioprio_get()
+afa3341 # 2016-11-08 # Calvin Owens @ sg: Fix double-free when drives detach during SG_IO
+c02f2d6 # 2016-11-08 # Peter Zijlstra @ perf: Fix race in swevent hash
+e4f9a0a # 2016-11-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+91851d6 # 2016-11-04 # Tim Murray @ lowmemorykiller: Account for unevictable pages
+53e0149 # 2016-11-04 # Eric Dumazet @ af_unix: speedup /proc/net/unix
+6b8e2e3 # 2016-11-04 # Rainer Weikusat @ UPSTREAM: af_unix: Guard against other == sk in unix_dgram_sendmsg
+f8d6ac3 # 2016-11-04 # Rainer Weikusat @ UPSTREAM: unix: avoid use-after-free in ep_remove_wait_queue
+303434d # 2016-11-04 # Min Chong @ input: synaptics: allocate heap memory for buffer
+a39344a # 2016-11-04 # Biswajit Paul @ input: synaptics: Apply temp buffers for additional drivers
+60a8d44 # 2016-11-04 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
+
+* Project libcore/
+06cc3e0 # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+1b7c367 # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+
+* Project packages/apps/AudioFX/
+f4fe364 # 2016-11-04 # Daniel Hillenbrand @ Merge "AudioFX: Fix possible NPE" into cm-13.0
+26d0126 # 2016-11-04 # Daniel Hillenbrand @ Merge "AudioFX: Fix possible RuntimeException" into cm-13.0
+b1c9efb # 2016-11-04 # Michael W @ AudioFX: Fix possible NPE
 
 * Project packages/apps/CMFileManager/
-52f0f09 # 2016-10-30 # yazhan @ CMFileManager: Save history records when quitting
+1aea5a8 # 2016-11-04 # Danny Baumann @ Properly upgrade DB.
+740efc6 # 2016-11-01 # Diogo Ferreira @ FileManager: Editor: Fix race on completion wait/notify
+
+* Project packages/apps/Email/
+4b3982a # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
 
 * Project packages/apps/Settings/
-0c2a946 # 2016-11-01 # Zdrowy Gosciu @ Build V12.2
-7ba5525 # 2016-10-31 # Marcos Marado @ SecuritySettings: Fix KeyStore related NPE's
+db819c0 # 2016-11-10 # Zdrowy Gosciu @ Build V12.3
 
-* Project packages/apps/Snap/
-dc520cd # 2016-10-31 # Danny Baumann @ Fix off-by-one error in submenu selection handling.
+* Project packages/providers/DownloadProvider/
+2e7c315 # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+
+* Project packages/providers/TelephonyProvider/
+dcd0c28 # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+8f137e7 # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+
+* Project packages/services/Telecomm/
+befaf09 # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+
+* Project system/core/
+6a0b417 # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+85f740e # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+0e248d7 # 2016-11-08 # Mark Salyzyn @ liblog: add __android_log_close()
+ceb6f0c # 2016-11-08 # Mark Salyzyn @ liblog: add __android_log_close()
+
+* Project system/media/
+63ced68 # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+c37b3f8 # 2016-11-09 # Jessica Wagantall @ Merge tag 'android-6.0.1_r74' into HEAD
+04f7b63 # 2016-11-08 # rago @ Fix potential overflow in Visualizer effect
+
+* Project vendor/cm/
+4917ee2 # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+615d84b # 2016-11-09 # Jessica Wagantall @ version: Set version string to 13.0.4 to reflect security update
+3e8d084 # 2016-11-07 # Elektroschmock @ extract_utils: Add option to define the certificate for jars
+cbc9b90 # 2016-11-04 # Elektroschmock @ extract_utils: Add option to define the certificate for jars

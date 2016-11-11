@@ -26,7 +26,7 @@
             <XposedUrl
                 id="xposed"
                 title="Xposed"
-                description="Get Xposed Installer 3.1.1">http://forum.xda-developers.com/attachment.php?attachmentid=3921508&amp;d=1477916609</XposedUrl>
+                description="Get Xposed v86">http://dl-xda.xposed.info/framework/sdk23/arm/xposed-v86-sdk23-arm.zip</XposedUrl>
             <FontUrl
                 id="font"
                 title="Custom ROM font"

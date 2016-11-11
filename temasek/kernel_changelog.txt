@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-10-29 @ 20:09:23 (1477771763)
+CHANGES AFTER 2016-11-10 @ 11:21:35 (1478776895)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,44 +7,11 @@ CHANGES AFTER 2016-10-29 @ 20:09:23 (1477771763)
                  |_____|              
 
 * Project device/lge/g2-common/
-7df8774 # 2016-11-10 # Zdrowy Gosciu @ g2-common: init: power: Disable KSM
-230825d # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-fbe3878 # 2016-11-08 # Tyler Dunn @ g2-common: Update partition sizes
-24bbc09 # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: power: Enable power efficient workqueue
-b9e075e # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: Bring back QCOM MP-Decision
-246e81a # 2016-11-01 # Zdrowy Gosciu @ g2-common: init: power: Rebase CPU GOV & I/O Sched & Thermal
+0836623 # 2016-11-11 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable power efficient workqueue"
 
 * Project kernel/lge/msm8974/
-e5244b8 # 2016-11-10 # Zdrowy Gosciu @ Version HML 2.4
-1cdd5b5 # 2016-11-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-03b0ea8 # 2016-11-10 # Francisco Franco @ msm: properly unlock mutexes
-fe753ac # 2016-11-08 # Daniel Rosenberg @ Fix incorrect conflict resolution in "vfs: Add setns support for the mount namespace"
-0fc5e3a # 2016-11-08 # Jin Qian @ proc: fix build broken by proc inode per namespace patch
-c11ef29 # 2016-11-08 # Benjamin Tissoires @ HID: core: prevent out-of-bound readings
-131e968 # 2016-11-08 # Vladis Dronov @ ALSA: usb-audio: Fix double-free in error paths after snd_usb_add_audio_stream() call
-fcd1bc1 # 2016-11-08 # Paul Moore @ BACKPORT: audit: fix a double fetch in audit_log_single_execve_arg()
-1256202 # 2016-11-08 # Peter Hurley @ BACKPORT: tty: Prevent ldisc drivers from re-using stale tty fields
-76f92e2 # 2016-11-08 # Zhen Kong @ msm: crypto: Fix integer over flow check in qcrypto driver
-b98f4a1 # 2016-11-08 # Takashi Iwai @ ALSA: usb-audio: Minor code cleanup in create_fixed_stream_quirk()
-16188b7 # 2016-11-08 # Vegard Nossum @ block: fix use-after-free in seq file
-e0023b5 # 2016-11-08 # Omar Sandoval @ block: fix use-after-free in sys_ioprio_get()
-afa3341 # 2016-11-08 # Calvin Owens @ sg: Fix double-free when drives detach during SG_IO
-c02f2d6 # 2016-11-08 # Peter Zijlstra @ perf: Fix race in swevent hash
-e4f9a0a # 2016-11-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-91851d6 # 2016-11-04 # Tim Murray @ lowmemorykiller: Account for unevictable pages
-53e0149 # 2016-11-04 # Eric Dumazet @ af_unix: speedup /proc/net/unix
-6b8e2e3 # 2016-11-04 # Rainer Weikusat @ UPSTREAM: af_unix: Guard against other == sk in unix_dgram_sendmsg
-f8d6ac3 # 2016-11-04 # Rainer Weikusat @ UPSTREAM: unix: avoid use-after-free in ep_remove_wait_queue
-303434d # 2016-11-04 # Min Chong @ input: synaptics: allocate heap memory for buffer
-a39344a # 2016-11-04 # Biswajit Paul @ input: synaptics: Apply temp buffers for additional drivers
-60a8d44 # 2016-11-04 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
-861ac3c # 2016-11-01 # Zdrowy Gosciu @ Version HML 2.3
-b8a5d7e # 2016-11-01 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-69c402e # 2016-10-31 # Arve Hjønnevåg @ ANDROID: binder: Add strong ref checks
-a0b6ec4 # 2016-10-31 # Mohit Aggarwal @ diag: Fix possible underflow/overflow issues
-146dc67 # 2016-10-31 # Marek Szyprowski @ arm64: dma-mapping: always clear allocated buffers
-cd3cad2 # 2016-10-31 # Biswajit Paul @ input: synaptics: allocate heap memory for temp buf
-3ddf23b # 2016-10-31 # Srinivasarao P @ ion: use %pk instead of %p which respects kptr_restrict sysctl
-ed05178 # 2016-10-31 # Bhaktipriya Shridhar @ android: binder: Remove deprecated create_singlethread_workqueue
-3be8cca # 2016-10-30 # Zdrowy Gosciu @ mmc: sdhci: Disable register dumps
-2fb4ce8 # 2016-10-30 # Leon Peng @ mm: do not sleep in balance_pgdat if there's no i/o congestion
+3aef894 # 2016-11-11 # Zdrowy Gosciu @ Version HML 2.5
+7e706c6 # 2016-11-11 # Francisco Franco @ cpufreq: cpu-boost: Change interval between consecutive boosts
+7c6d9a1 # 2016-11-11 # franciscofranco @ cpufreq: cpu-boost: don't boost over user set max freq
+4fcbcb6 # 2016-11-11 # Zdrowy Gosciu @ Version HML 2.444
+2d51296 # 2016-11-11 # Andrey Vagin @ BACKPORT: signal: allow to send any siginfo to itself

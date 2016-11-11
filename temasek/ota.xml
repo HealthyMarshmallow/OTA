@@ -37,8 +37,12 @@
                 description="Flash Choco cooky">https://www.androidfilehost.com/?fid=24591000424944988</FontUrl>
             <CameraUrl
                 id="camera"
-                title="Camera APP"
-                description="Install LG Camera">https://www.androidfilehost.com/?fid=24459283995311946</CameraUrl>
+                title="LG Camera"
+                description="Download APP">https://www.androidfilehost.com/?fid=24459283995311946</CameraUrl>
+            <OCameraUrl
+                id="ocamera"
+                title="OnePlus One Camera"
+                description="Read more">https://forum.xda-developers.com/oneplus-one/themes-apps/coloros-camera-port-t3034148</OCameraUrl>
             <ThemeUrl
                 id="theme"
                 title="Dark CM Theme"

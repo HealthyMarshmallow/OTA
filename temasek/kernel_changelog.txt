@@ -7,9 +7,12 @@ CHANGES AFTER 2016-11-11 @ 19:46:43 (1478893603)
                  |_____|              
 
 * Project device/lge/g2-common/
+a30145e # 2016-11-14 # Zdrowy Gosciu @ g2-common: init: power: Update CPU/GPU/I-O settings
 0836623 # 2016-11-11 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable power efficient workqueue"
 
 * Project kernel/lge/msm8974/
+e06a4f9 # 2016-11-14 # Zdrowy Gosciu @ Version HML 2.7
+7903685 # 2016-11-14 # Stefanescu Cristian @ arm: Remove some debugging
 3ece32b # 2016-11-12 # Zdrowy Gosciu @ Version HML 2.6
 e47493e # 2016-11-12 # Zdrowy Gosciu @ devfreq: Build new governors
 ed96a2c # 2016-11-12 # myfluxi @ msm: kgsl: Fix nice level for higher priority GPU start thread

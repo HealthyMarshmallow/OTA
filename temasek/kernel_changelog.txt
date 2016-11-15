@@ -7,11 +7,14 @@ CHANGES AFTER 2016-11-11 @ 19:46:43 (1478893603)
                  |_____|              
 
 * Project device/lge/g2-common/
+b23880c # 2016-11-15 # Zdrowy Gosciu @ g2-common: init: power: SIO 256 kB as default I/O scheduler
 2a63926 # 2016-11-14 # Zdrowy Gosciu @ g2-common: init: power: Let's tweak again
 a30145e # 2016-11-14 # Zdrowy Gosciu @ g2-common: init: power: Update CPU/GPU/I-O settings
 0836623 # 2016-11-11 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable power efficient workqueue"
 
 * Project kernel/lge/msm8974/
+8f51758 # 2016-11-15 # Zdrowy Gosciu @ Version HML 2.888
+a1581c8 # 2016-11-15 # Zdrowy Gosciu @ mach-msm: Disable RQ stats
 2815c1a # 2016-11-14 # Zdrowy Gosciu @ Version HML 2.8
 7f7c10f # 2016-11-14 # myfluxi @ PM: devfreq: Fix simple_ondemand crashing on startup
 e06a4f9 # 2016-11-14 # Zdrowy Gosciu @ Version HML 2.7

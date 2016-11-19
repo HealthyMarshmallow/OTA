@@ -2,11 +2,11 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>cm-13.0-20161112-221922-UNOFFICIAL-temasek-d802-V12.4.zip</Filename>
+            <Filename>cm-13.0-20161119-091101-UNOFFICIAL-temasek-d802-V12.5.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download temasek ROM V12.4">https://www.androidfilehost.com/?fid=457095661767115065</RomUrl>
+                description="Download temasek ROM V12.5">https://www.androidfilehost.com/?fid=529152257862682919</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="ROM changelog"
@@ -14,7 +14,7 @@
             <KernelUrl
                 id="kernel"
                 title="Kernel"
-                description="Enjoy HealthyMarshmallowLite 2.888">https://www.androidfilehost.com/?fid=385035244224398684</KernelUrl>
+                description="Enjoy HealthyMarshmallowLite 3.0">https://www.androidfilehost.com/?fid=385035244224399861</KernelUrl>
             <KernelChangelogUrl
                 id="kernelchangelog"
                 title="Kernel changelog"

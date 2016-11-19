@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-11-11 @ 19:46:43 (1478893603)
+CHANGES AFTER 2016-11-12 @ 22:23:04 (1478989384)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,55 +7,18 @@ CHANGES AFTER 2016-11-11 @ 19:46:43 (1478893603)
                  |_____|              
 
 * Project device/lge/g2-common/
-b23880c # 2016-11-15 # Zdrowy Gosciu @ g2-common: init: power: SIO 256 kB as default I/O scheduler
+623461b # 2016-11-19 # Zdrowy Gosciu @ g2-common: init: power: Moar power!
+9545d4e # 2016-11-18 # Zdrowy Gosciu @ g2-common: init: power: SIO 512 kB as default I/O scheduler
 2a63926 # 2016-11-14 # Zdrowy Gosciu @ g2-common: init: power: Let's tweak again
 a30145e # 2016-11-14 # Zdrowy Gosciu @ g2-common: init: power: Update CPU/GPU/I-O settings
-0836623 # 2016-11-11 # Zdrowy Gosciu @ Revert "g2-common: init: power: Enable power efficient workqueue"
 
 * Project kernel/lge/msm8974/
+5984276 # 2016-11-19 # Zdrowy Gosciu @ Version HML 3.0
+6c6b77b # 2016-11-17 # Zdrowy Gosciu @ Version HML 2.9
+b375bbe # 2016-11-17 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
 8f51758 # 2016-11-15 # Zdrowy Gosciu @ Version HML 2.888
 a1581c8 # 2016-11-15 # Zdrowy Gosciu @ mach-msm: Disable RQ stats
 2815c1a # 2016-11-14 # Zdrowy Gosciu @ Version HML 2.8
 7f7c10f # 2016-11-14 # myfluxi @ PM: devfreq: Fix simple_ondemand crashing on startup
 e06a4f9 # 2016-11-14 # Zdrowy Gosciu @ Version HML 2.7
 7903685 # 2016-11-14 # Stefanescu Cristian @ arm: Remove some debugging
-3ece32b # 2016-11-12 # Zdrowy Gosciu @ Version HML 2.6
-e47493e # 2016-11-12 # Zdrowy Gosciu @ devfreq: Build new governors
-ed96a2c # 2016-11-12 # myfluxi @ msm: kgsl: Fix nice level for higher priority GPU start thread
-4b3345c # 2016-11-12 # Chanwoo Choi @ devfreq: Fix devfreq_remove_device() to improve the seq of resource free
-c94090a # 2016-11-12 # Suman Tatiraju @ PM / devfreq: Allocate memory using the right data type
-28ad6be # 2016-11-12 # Saravana Kannan @ PM / devfreq: governor_bw_hwmon: Add suspend/resume support
-ccb386e # 2016-11-12 # Saravana Kannan @ PM / devfreq: bw_hwmon: Move IRQ handling to device specific drivers
-cd06a3f # 2016-11-12 # Saravana Kannan @ PM / devfreq: Refactor CPUBW HWmon governor to be more generic
-f02aff2 # 2016-11-12 # Saravana Kannan @ PM / devfreq: Add cache HW monitor governor
-f437f7b # 2016-11-12 # Saravana Kannan @ devfreq: Make cpubw_hwmon governor reusable and hardware agnostic
-eff5729 # 2016-11-12 # Lucille Sylvester @ msm: kgsl: Bump the GPU frequency for long blocks of processing
-0c849d5 # 2016-11-12 # Lucille Sylvester @ PM / devfreq: Make target flags unique
-12886dd # 2016-11-12 # Dorimanx @ DEVFREQ: Fix Wmaybe-uninitialized
-c933f9e # 2016-11-12 # dorimanx @ PM: devfreq: Define tunables with a static scope
-7f065d0 # 2016-11-12 # dorimanx @ GPU Conservative GOV: Fix controls store, and init, all was 0!
-040822f # 2016-11-12 # dorimanx @ GPU Conservative GOV: Rename upthreshold to upthreshold_cons
-ae3937a # 2016-11-12 # Sahitya Tummala @ PM / devfreq: Add new flag to do simple clock scaling
-14806b0 # 2016-11-12 # Vladimir Razgulin @ PM / devfreq: Add a new target flag for the performance governor
-1182988 # 2016-11-12 # myfluxi @ PM: devfreq: Use high priority workqueue
-c10748e # 2016-11-12 # myfluxi @ PM: devfreq: Fix show available freqs
-6ec6f14 # 2016-11-12 # myfluxi @ PM: devfreq: Always reflect a change of polling interval
-177cbaf # 2016-11-12 # myfluxi @ PM: devfreq: Move governor node to gpufreq
-7e1c374 # 2016-11-12 # Saravana Kannan @ PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs
-ebd205c # 2016-11-12 # myfluxi @ PM: devfreq: Adapt devfreq_get_freq_level to cpubw requirements
-6353260 # 2016-11-12 # Suman Tatiraju @ PM / devfreq: Check for GPU busy time before sending the sample
-6da55ca # 2016-11-12 # myfluxi @ PM: devfreq: Add sysfs nodes for devfreq governors
-90b6904 # 2016-11-12 # myfluxi @ PM: devfreq: Fixup device transition and usage statistics
-e3095a1 # 2016-11-12 # Vladimir Razgulin @ PM / devfreq: Get priv data for msm-adreno-tz governor from dev_profile
-40cb615 # 2016-11-12 # myfluxi @ msm: kgsl: Export device state to devfreq
-8502d06 # 2016-11-12 # myfluxi @ msm: kgsl: Report correct GPU frequency in sysfs
-a4d139c # 2016-11-12 # Paul Reioux @ msm: kgsl: show current power level for 8974 SOCs.
-3fe82f8 # 2016-11-12 # Zdrowy Gosciu @ devfreq: Build conservative governor
-0418142 # 2016-11-12 # myfluxi @ PM: devfreq: conservative: Return 0 if GPU just started
-6998aea # 2016-11-12 # myfluxi @ PM: devfreq: Add some conservativeness
-dc58479 # 2016-11-12 # myfluxi @ PM: devfreq: Add conservative governor
-9fa5724 # 2016-11-12 # Zdrowy Gosciu @ Version HML 2.555
-51b9b56 # 2016-11-12 # Liam Mark @ ion: disable system contig heap
-3aef894 # 2016-11-11 # Zdrowy Gosciu @ Version HML 2.5
-7e706c6 # 2016-11-11 # Francisco Franco @ cpufreq: cpu-boost: Change interval between consecutive boosts
-7c6d9a1 # 2016-11-11 # franciscofranco @ cpufreq: cpu-boost: don't boost over user set max freq

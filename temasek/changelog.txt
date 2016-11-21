@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-11-12 @ 22:23:04 (1478989384)
+CHANGES AFTER 2016-11-19 @ 09:15:56 (1479546956)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,106 +7,50 @@ CHANGES AFTER 2016-11-12 @ 22:23:04 (1478989384)
                  |_____|              
 
 * Project OTA/
-ba8aea9 # 2016-11-15 # Zdrowy Gosciu @ OTA: Enjoy HML 2.888
-13734b7 # 2016-11-14 # Zdrowy Gosciu @ OTA: Enjoy HML 2.8
-f41b6bf # 2016-11-14 # Zdrowy Gosciu @ OTA: Enjoy HML 2.7
-3169faa # 2016-11-12 # Zdrowy Gosciu @ OTA: cm-13.0-20161112-221922-UNOFFICIAL-temasek-d802-V12.4
+4509bfa # 2016-11-19 # Zdrowy Gosciu @ OTA: cm-13.0-20161119-091101-UNOFFICIAL-temasek-d802-V12.5
 
-* Project build/
-66f3162 # 2016-11-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-e06132c # 2016-11-13 # Zhao Wei Liew @ Revert "qcom: Select Sony display/media variants for Sony devices"
+* Project android/
+02ab832 # 2016-11-21 # Zhao Wei Liew @ cm: Remove mm-dash repo
 
-* Project cts/
-d54cd8d # 2016-11-17 # gitbuildkicker @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
-a34d54c # 2016-11-18 # Tina Zhou @ Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 6.0_r13" into marshmallow-cts-dev
-8a7001e # 2016-11-17 # tinazh @ DO NOT MERGE: Bump CTS and CTS Verifier to 6.0_r13
-5706e23 # 2016-11-17 # Android Merger @ Merge "Merge "Add CTS test for CVE_2016_2463 This test verifies whether a mp4 file limits  the memory usage during decode media" into lollipop-mr1-cts-dev am: 78aa98cbb8" into marshmallow-cts-dev
-000e1b1 # 2016-11-17 # Android Merger @ Merge "Add CTS test for CVE_2016_2463 This test verifies whether a mp4 file limits the memory usage during decode media am: 931bb65066" into marshmallow-cts-dev
-d73ab61 # 2016-11-17 # Tina Zhou @ Merge "Add CTS test for CVE_2016_2463 This test verifies whether a mp4 file limits  the memory usage during decode media" into lollipop-mr1-cts-dev am: 78aa98cbb8
-7e464f9 # 2016-11-17 # preeti hiremath @ Add CTS test for CVE_2016_2463 This test verifies whether a mp4 file limits the memory usage during decode media am: 931bb65066
-78aa98c # 2016-11-17 # Tina Zhou @ Merge "Add CTS test for CVE_2016_2463 This test verifies whether a mp4 file limits  the memory usage during decode media" into lollipop-mr1-cts-dev
-f040cc1 # 2016-11-17 # Tina Zhou @ Merge "fix android.hardware.camera2.cts.CameraManagerTest#testManagerGetDeviceIdList for TV" into marshmallow-cts-dev
-ef2f416 # 2016-11-17 # Tina Zhou @ Merge "fix android.graphics2#android.graphics2.cts.TextureViewTest#testTextureViewActivity for TV" into marshmallow-cts-dev
-9c62603 # 2016-11-17 # Tina Zhou @ Merge "AdaptivePlaybackTest: dequeue more output buffers at the end." into marshmallow-cts-dev
-af466e3 # 2016-11-16 # Android Merger @ Merge "Merge "Test: Fix testFindAll result listener not set issue" into lollipop-mr1-cts-dev am: 548f71f142" into marshmallow-cts-dev
-4006f9d # 2016-11-16 # Android Merger @ Merge "Test: Fix testFindAll result listener not set issue am: 69c73541a7" into marshmallow-cts-dev
-de5966a # 2016-11-16 # Tina Zhou @ Merge "Test: Fix testFindAll result listener not set issue" into lollipop-mr1-cts-dev am: 548f71f142
-9e39b14 # 2016-11-16 # Yoland Yan @ Test: Fix testFindAll result listener not set issue am: 69c73541a7
-548f71f # 2016-11-16 # Tina Zhou @ Merge "Test: Fix testFindAll result listener not set issue" into lollipop-mr1-cts-dev
-69c7354 # 2016-11-16 # Yoland Yan @ Test: Fix testFindAll result listener not set issue
-f3ee584 # 2016-11-16 # Android Merger @ Merge "Merge "Test: fix WebView testFindNext flakyness" into lollipop-mr1-cts-dev am: 9f7059f0f8" into marshmallow-cts-dev
-9da5e4d # 2016-11-16 # Android Merger @ Merge "Test: fix WebView testFindNext flakyness am: 77f169c80d" into marshmallow-cts-dev
-9810bb2 # 2016-11-16 # Tina Zhou @ Merge "Test: fix WebView testFindNext flakyness" into lollipop-mr1-cts-dev am: 9f7059f0f8
-cc8825b # 2016-11-16 # Yoland Yan @ Test: fix WebView testFindNext flakyness am: 77f169c80d
-9f7059f # 2016-11-16 # Tina Zhou @ Merge "Test: fix WebView testFindNext flakyness" into lollipop-mr1-cts-dev
-4beabff # 2016-11-16 # Android Merger @ Merge "Merge "Don't include ScreenPinning test on auto" into lollipop-mr1-cts-dev am: 70649a6f9e" into marshmallow-cts-dev
-40a5a27 # 2016-11-16 # Android Merger @ Merge "Don't include ScreenPinning test on auto am: be2b17c293" into marshmallow-cts-dev
-8d90ef5 # 2016-11-16 # Tina Zhou @ Merge "Don't include ScreenPinning test on auto" into lollipop-mr1-cts-dev am: 70649a6f9e
-685648f # 2016-11-16 # Jason Monk @ Don't include ScreenPinning test on auto am: be2b17c293
-70649a6 # 2016-11-16 # Tina Zhou @ Merge "Don't include ScreenPinning test on auto" into lollipop-mr1-cts-dev
-5b300bc # 2016-11-16 # Tina Zhou @ Merge "DO NOT MERGE: Updating CTS Security Patch Month to "11" for November 2016" into marshmallow-cts-dev
-798ea48 # 2016-11-15 # Android Merger @ Merge "Merge "PlayVideoActivity: update comments for ENABLE_PASS_DELAY" into lollipop-mr1-cts-dev am: 7ecee98066" into marshmallow-cts-dev
-118d988 # 2016-11-15 # Android Merger @ Merge "PlayVideoActivity: update comments for ENABLE_PASS_DELAY am: 0b8bed432c" into marshmallow-cts-dev
-d4a32d7 # 2016-11-15 # Sam Lin @ Merge "PlayVideoActivity: update comments for ENABLE_PASS_DELAY" into lollipop-mr1-cts-dev am: 7ecee98066
-615c5fb # 2016-11-15 # Robert Shih @ PlayVideoActivity: update comments for ENABLE_PASS_DELAY am: 0b8bed432c
-d6f6321 # 2016-11-15 # Android Merger @ Merge "Merge "streamquality: reduce ENABLE_PASS_DELAY to 5 seconds" into lollipop-mr1-cts-dev am: ee5668e042" into marshmallow-cts-dev
-a1f6909 # 2016-11-15 # Android Merger @ Merge "streamquality: reduce ENABLE_PASS_DELAY to 5 seconds am: c705f34f0c" into marshmallow-cts-dev
-2cd7545 # 2016-11-15 # Sam Lin @ Merge "streamquality: reduce ENABLE_PASS_DELAY to 5 seconds" into lollipop-mr1-cts-dev am: ee5668e042
-39b873e # 2016-11-15 # Robert Shih @ streamquality: reduce ENABLE_PASS_DELAY to 5 seconds am: c705f34f0c
-7ecee98 # 2016-11-15 # Sam Lin @ Merge "PlayVideoActivity: update comments for ENABLE_PASS_DELAY" into lollipop-mr1-cts-dev
-ee5668e # 2016-11-15 # Sam Lin @ Merge "streamquality: reduce ENABLE_PASS_DELAY to 5 seconds" into lollipop-mr1-cts-dev
-0b8bed4 # 2016-11-14 # Robert Shih @ PlayVideoActivity: update comments for ENABLE_PASS_DELAY
-c705f34 # 2016-11-14 # Robert Shih @ streamquality: reduce ENABLE_PASS_DELAY to 5 seconds
-49b45f0 # 2016-11-14 # Adam Seaton @ DO NOT MERGE: Updating CTS Security Patch Month to "11" for November 2016
+* Project device/lge/d802/
+751a01a # 2016-11-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+d3f1f91 # 2016-11-20 # Tyler Dunn @ d802: Remove enhanced NFC feature
 
 * Project device/lge/g2-common/
-623461b # 2016-11-19 # Zdrowy Gosciu @ g2-common: init: power: Moar power!
-03de9b7 # 2016-11-19 # Ícaro Hoff @ g2-common: Tweak LED & brightness values
-9545d4e # 2016-11-18 # Zdrowy Gosciu @ g2-common: init: power: SIO 512 kB as default I/O scheduler
-2a63926 # 2016-11-14 # Zdrowy Gosciu @ g2-common: init: power: Let's tweak again
-a30145e # 2016-11-14 # Zdrowy Gosciu @ g2-common: init: power: Update CPU/GPU/I-O settings
-7c0d5e1 # 2016-11-14 # Drgravy @ g2: adjust RECOVERYIMAGE_PARTITION_SIZE
+6358299 # 2016-11-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+5c8828f # 2016-11-20 # Tyler Dunn @ g2-common: Disable flush_merge for f2fs
+97d12d8 # 2016-11-20 # Tyler Dunn @ g2-common: Properly tune interactive values
 
-* Project frameworks/base/
-5161c7c # 2016-11-18 # Luca Stefani @ zygote: Allow device to append extra whitelisted paths
-89eda31 # 2016-11-18 # Michael W @ SettingsLib: Fix possible NPEs
-fec1914 # 2016-11-15 # Park Ju Hyung @ jni: consider /data/app to the fd whitelist if Xposed is detected
-6ee9374 # 2016-11-15 # Ricardo Cerqueira @ zygote: Add /proc/ged to the FD whitelist
-0619f96 # 2016-11-15 # Steve Kondik @ Add CMSDK resource APK to Zygote FD whitelist
-614ed99 # 2016-11-15 # Narayan Kamath @ Backport changes to whitelist sockets opened by the zygote.
+* Project frameworks/av/
+0f7b41f # 2016-11-19 # Anatol Pomazau @ DO NOT MERGE ANYWHERE Change Smaug volume curve
+1c8eac3 # 2016-11-19 # playfulgod @ libstagefright: fix ScreenRecord abort issue.
 
-* Project frameworks/opt/telephony/
-3dab23c # 2016-11-17 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-b51f0cc # 2016-11-16 # Ricardo Cerqueira @ SubscriptionInfoUpdater: Unbreak usage of TelephonyPlugin
-ca30c6a # 2016-11-16 # Sandeep Gutta @ MSIM: Pass slotId to EVENT_SIM_LOCKED_QUERY_ICCID_DONE
-4fe3e8d # 2016-11-16 # Sandeep Gutta @ MSIM: Change access modifier of handleSimLoaded
+* Project frameworks/opt/net/wifi/
+9674945 # 2016-11-19 # Akihiro Onodera @ Stop ANQP parsing when content of element is empty
+7953462 # 2016-11-19 # Kouhei Kuroda @ Handle EAP-SIM/AKA config without IMSI
 
 * Project kernel/lge/msm8974/
-5984276 # 2016-11-19 # Zdrowy Gosciu @ Version HML 3.0
-6c6b77b # 2016-11-17 # Zdrowy Gosciu @ Version HML 2.9
-b375bbe # 2016-11-17 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-8f51758 # 2016-11-15 # Zdrowy Gosciu @ Version HML 2.888
-a1581c8 # 2016-11-15 # Zdrowy Gosciu @ mach-msm: Disable RQ stats
-2815c1a # 2016-11-14 # Zdrowy Gosciu @ Version HML 2.8
-7f7c10f # 2016-11-14 # myfluxi @ PM: devfreq: Fix simple_ondemand crashing on startup
-e06a4f9 # 2016-11-14 # Zdrowy Gosciu @ Version HML 2.7
-7903685 # 2016-11-14 # Stefanescu Cristian @ arm: Remove some debugging
+7ae0ce3 # 2016-11-21 # Zdrowy Gosciu @ Version HML 3.1
+e504893 # 2016-11-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
+900d00b # 2016-11-20 # Jaegeuk Kim @ f2fs: Sync to upstream
 
-* Project packages/apps/Messaging/
-c25973a # 2016-11-18 # Michael W @ Messaging: Fix incorrect equality check
+* Project libcore/
+c8795b2 # 2016-11-21 # Zdrowy Gosciu @ dex: Fix merge
+bf18fa5 # 2016-11-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'slimsaber/mm6.0' into mm
+d48f0d7 # 2016-11-19 # fusionjack @ Merge tag 'android-6.0.1_r74' of https://android.googlesource.com/platform/libcore into mm6.0
+
+* Project packages/apps/InCallUI/
+19a1cd6 # 2016-11-19 # Wei Huang @ CallCardFragment: Fix OOM issue
 
 * Project packages/apps/Settings/
-879de49 # 2016-11-18 # Zdrowy Gosciu @ Build V12.5
-baf470f # 2016-11-18 # Zhao Wei Liew @ Settings: Make proximity wake string more accurate
+d98f0f1 # 2016-11-21 # Zdrowy Gosciu @ Build V12.6
+537b1f7 # 2016-11-21 # Alberto97 @ Settings: Hide Reset action if Battery LED is not multicolor
 
 * Project system/core/
-5270cd5 # 2016-11-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-656154a # 2016-11-13 # Michael W @ init: Fix possible open file pointer
+ba44bfa # 2016-11-21 # Phani (Gargey) Avadhanam @ Toolbox: |ps -t| now correctly displays the USER for threads
+1a4cf2a # 2016-11-21 # Piyush Gupta @ ueventd.rc: Change owner of graphics drivers to system
+e42c7e8 # 2016-11-21 # Zdrowy Gosciu @ Revert "Lose lsof to toybox."
 
 * Project vendor/cm/
-e344ce8 # 2016-11-15 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-9d73aa1 # 2016-11-15 # Silesh K Nair @ apns: Remove loop and bpl mobile
-f375ac5 # 2016-11-15 # Hriday Sharma @ apns: Add Reliance Jio APNs
-8c6cc93 # 2016-11-15 # doc HD @ vendor_cm: Vodafone TR: Fix mobile data on first boot
-3d3b3bf # 2016-11-15 # Luca Stefani @ Fix Truphone APN
-65c1819 # 2016-11-15 # amilcarpereira @ Add a new APN for new mcc/mnc assigned to Truphone
+b017d31 # 2016-11-21 # Zhao Wei Liew @ cm: config: Remove enhanced NFC feature
+4dd4288 # 2016-11-21 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm

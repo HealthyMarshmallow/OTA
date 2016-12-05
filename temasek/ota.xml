@@ -6,7 +6,7 @@
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download temasek ROM V12.7">https://www.androidfilehost.com/?fid=385035244224402647</RomUrl>
+                description="Download temasek ROM V12.8">https://www.androidfilehost.com/?fid=529152257862686750</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="ROM changelog"
@@ -14,7 +14,7 @@
             <KernelUrl
                 id="kernel"
                 title="Kernel"
-                description="Enjoy HealthyMarshmallowLite 3.0">https://www.androidfilehost.com/?fid=385035244224399861</KernelUrl>
+                description="Enjoy HealthyMarshmallowLite 5.5">https://www.androidfilehost.com/?fid=529152257862686751</KernelUrl>
             <KernelChangelogUrl
                 id="kernelchangelog"
                 title="Kernel changelog"
@@ -26,7 +26,7 @@
             <XposedUrl
                 id="xposed"
                 title="Xposed"
-                description="Get Xposed v86">http://dl-xda.xposed.info/framework/sdk23/arm/xposed-v86-sdk23-arm.zip</XposedUrl>
+                description="Get Xposed v87">http://dl-xda.xposed.info/framework/sdk23/arm/xposed-v87-sdk23-arm.zip</XposedUrl>
             <XposedIUrl
                 id="xposedi"
                 title="Xposed Installer"

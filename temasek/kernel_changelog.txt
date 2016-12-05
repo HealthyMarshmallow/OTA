@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-11-12 @ 22:23:04 (1478989384)
+CHANGES AFTER 2016-11-30 @ 13:02:15 (1480510935)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,18 +7,31 @@ CHANGES AFTER 2016-11-12 @ 22:23:04 (1478989384)
                  |_____|              
 
 * Project device/lge/g2-common/
-623461b # 2016-11-19 # Zdrowy Gosciu @ g2-common: init: power: Moar power!
-9545d4e # 2016-11-18 # Zdrowy Gosciu @ g2-common: init: power: SIO 512 kB as default I/O scheduler
-2a63926 # 2016-11-14 # Zdrowy Gosciu @ g2-common: init: power: Let's tweak again
-a30145e # 2016-11-14 # Zdrowy Gosciu @ g2-common: init: power: Update CPU/GPU/I-O settings
+bce4801 # 2016-12-05 # Tyler Dunn @ Revert "g2-common: Disable flush_merge for f2fs"
+4c55666 # 2016-12-03 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
+7d4a1c1 # 2016-12-03 # Zdrowy Gosciu @ Revert "g2-common: Build kernel with GCC 4.9-Cortex-A15 toolchain"
+8840ced # 2016-12-02 # Zdrowy Gosciu @ g2-common: Build kernel with GCC 4.9-Cortex-A15 toolchain
 
 * Project kernel/lge/msm8974/
-5984276 # 2016-11-19 # Zdrowy Gosciu @ Version HML 3.0
-6c6b77b # 2016-11-17 # Zdrowy Gosciu @ Version HML 2.9
-b375bbe # 2016-11-17 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-lite
-8f51758 # 2016-11-15 # Zdrowy Gosciu @ Version HML 2.888
-a1581c8 # 2016-11-15 # Zdrowy Gosciu @ mach-msm: Disable RQ stats
-2815c1a # 2016-11-14 # Zdrowy Gosciu @ Version HML 2.8
-7f7c10f # 2016-11-14 # myfluxi @ PM: devfreq: Fix simple_ondemand crashing on startup
-e06a4f9 # 2016-11-14 # Zdrowy Gosciu @ Version HML 2.7
-7903685 # 2016-11-14 # Stefanescu Cristian @ arm: Remove some debugging
+818a363 # 2016-12-05 # Zdrowy Gosciu @ Version HML 5.5
+56f6ec6 # 2016-12-05 # Dan Pasanen @ config: Disable a few unused features
+5ce0ff9 # 2016-12-03 # Zdrowy Gosciu @ Version HM 5.3
+54d8743 # 2016-12-03 # Dorimanx @ block: zen: Set fifo batch to 16 to reduce overload on eMMC and CPU
+02aea5b # 2016-12-03 # bbedward @ block: Introduce ZEN I/O scheduler
+f014f04 # 2016-12-03 # Zdrowy Gosciu @ block: Remove TEST I/O scheduler
+4ad2200 # 2016-12-03 # Jeff Liu @ binfmt_elf.c: use get_random_int() to fix entropy depleting
+bfccda7 # 2016-12-03 # Ethan @ lib/int_sqrt.c: Lets see if we can make integer sqrt any faster
+ae966f3 # 2016-12-03 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
+07aa866 # 2016-12-03 # Dave Kleikamp @ AIO: Don't plug the I/O queue in do_io_submit()
+fca97cb # 2016-12-03 # Zdrowy Gosciu @ config: Lower log level
+5d1771b # 2016-12-03 # Ethan @ mm: Disable VM swappiness
+cce8f55 # 2016-12-03 # Ethan @ block: Disable ADD_RANDOM
+50ff3ec # 2016-12-03 # Ethan @ config: Tuning
+6944403 # 2016-12-03 # Ethan @ lowmemorykiller: Tuning
+b9a2ff9 # 2016-12-02 # Zdrowy Gosciu @ Version HM 5.2
+6e643fd # 2016-12-02 # Dorimanx @ gcc: clean compilation warnings with latest GCC 6.1.0
+46c597e # 2016-12-02 # Ícaro Hoff @ sound control: squashed upgrade on top of hammerhead's controller
+8bd1b2d # 2016-12-02 # Ícaro Hoff @ defconfig, sound: set sound control to 'N' by default
+bb336b3 # 2016-12-02 # Ícaro Hoff @ sound control: rework the driver from faux's hammerhead
+78092b6 # 2016-12-02 # Ícaro Hoff @ sound control: force PA gain to be unlocked by default
+47f2d7e # 2016-12-02 # faux123 @ sound, mfd: introduce the GPL sound controller v3.8

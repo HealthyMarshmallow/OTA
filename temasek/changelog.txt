@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-11-21 @ 23:59:36 (1479772776)
+CHANGES AFTER 2016-11-30 @ 13:02:15 (1480510935)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -6,188 +6,109 @@ CHANGES AFTER 2016-11-21 @ 23:59:36 (1479772776)
            |_____|___  |______|______|
                  |_____|              
 
-
-* Project build/
-2efeed0 # 2016-11-29 # Alex Naidis @ core: main: never enable checkjni
-4b2335b # 2016-11-29 # Bernhard Rosenkränzer @ core: Use better -mfpu= options
+* Project OTA/
+ffea5fd # 2016-11-30 # Zdrowy Gosciu @ OTA: cm-13.0-20161130-125850-UNOFFICIAL-temasek-d802-V12.7
 
 * Project cts/
-b1deb8d # 2016-11-29 # Tina Zhou @ Merge "DO NOT MERGE: remove 2 hammerhead knownfailures (fixes are in)" into marshmallow-cts-release
-0fdc7ea # 2016-11-29 # tinazh @ DO NOT MERGE: remove 2 hammerhead knownfailures (fixes are in)
+27984e9 # 2016-11-30 # gitbuildkicker @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
 
 * Project device/lge/g2-common/
-7f7bc52 # 2016-11-30 # Zdrowy Gosciu @ g2-common: Remove dependencies
-fe3df62 # 2016-11-30 # Zdrowy Gosciu @ g2-common: Bring back Ambient Display settings
-5a19e47 # 2016-11-30 # Zdrowy Gosciu @ g2-common: releasetools: Display HM version
-2364c25 # 2016-11-30 # Zdrowy Gosciu @ Revert "g2: use hammerhead's powerhal"
-dc7c014 # 2016-11-30 # Zdrowy Gosciu @ g2-common: Setup 400 dpi density
-f4a7dd0 # 2016-11-30 # Zdrowy Gosciu @ g2-common: releasetools: Powered by ZG
-1d3e03d # 2016-11-30 # Zdrowy Gosciu @ g2-common: Set SELinux to permissive
-e3373e4 # 2016-11-30 # Drgravy @ g2-common: Adjust RECOVERYIMAGE_PARTITION_SIZE
-586af74 # 2016-11-30 # Ícaro Hoff @ g2-common: Tweak LED & brightness values
-a22fde0 # 2016-11-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into HEAD
+716f1f7 # 2016-12-05 # Zdrowy Gosciu @ g2-common: releasetools: HML is back ;)
+bce4801 # 2016-12-05 # Tyler Dunn @ Revert "g2-common: Disable flush_merge for f2fs"
+9f8c772 # 2016-12-03 # Zdrowy Gosciu @ g2-common: releasetools: Clean up HM version
+4c55666 # 2016-12-03 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
+7d4a1c1 # 2016-12-03 # Zdrowy Gosciu @ Revert "g2-common: Build kernel with GCC 4.9-Cortex-A15 toolchain"
+8840ced # 2016-12-02 # Zdrowy Gosciu @ g2-common: Build kernel with GCC 4.9-Cortex-A15 toolchain
 
 * Project frameworks/base/
-7319e88 # 2016-11-29 # George Burgess IV @ Fix static analyzer warnings.
-5f396b5 # 2016-11-29 # George Burgess IV @ Fix static-analyzer warning.
-abf98de # 2016-11-29 # mqi @ SystemUI: Fix intent tile dismiss issue
-284003c # 2016-11-29 # Manu Viswanadhan @ Fix broadcast receiver leak issue
-8fff3f4 # 2016-11-29 # Snild Dolkow @ Don't starve RenderThread animations
-40696c6 # 2016-11-29 # Snild Dolkow @ [4/4] sqlite query perf: try to avoid getCount()
-1cde05d # 2016-11-29 # Snild Dolkow @ [3/4] sqlite query perf: clean up in-flight statements on cursor close
-b766b0f # 2016-11-29 # Snild Dolkow @ [2/4] sqlite query perf: try to reuse in-flight statements
-02bf9c1 # 2016-11-29 # Snild Dolkow @ [1/4] sqlite query perf: better window selection in common case
-0f3a8ae # 2016-11-29 # inky@build01 @ Automatic translation import
-6e8dadf # 2016-11-29 # Bharadwaj Narasimha @ Themes: Don't cache explicitly themed resources
-decf449 # 2016-11-29 # Zhao Wei Liew @ Build: use UserHandle.isApp for M compatibility
-6966e2e # 2016-11-29 # Danny Baumann @ Make Build.TYPE and Build.FINGERPRINT consistent for apps.
+05f3caf # 2016-12-05 # clyde@build01 @ Automatic translation import
+74a30bb # 2016-12-05 # amtlib-dot-dll @ Support for MODE_ASK in commandline
+5ff36f3 # 2016-12-05 # Jorge Ruesga @ AppOps: Do not prune apps that are not present
+1cc5346d # 2016-12-05 # inky@build01 @ Automatic translation import
+
+* Project hardware/ti/omap4/
+d0cdb65 # 2016-12-04 # D. Andrei Măceș @ cmhw: Account for devices that don't use manager0 sysfs paths
 
 * Project kernel/lge/msm8974/
-24e5110 # 2016-11-30 # Zdrowy Gosciu @ Version HM 5.1
-2cf1109 # 2016-11-30 # Zdrowy Gosciu @ config: Disable MSM Cache ERP
-cd380a6 # 2016-11-30 # Zdrowy Gosciu @ arm: Fast Charge is for G2
-75a5242 # 2016-11-30 # Jeremy @ arm: Forced Fast Charge for LG G2 ported by PTMR3
-3d3b277 # 2016-11-30 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
-430e497 # 2016-11-30 # Sultanxda @ scsi: Remove scsi_wait_scan
-26ad890 # 2016-11-30 # Dorimanx @ irq: Clean Unbalanced IRQ 61 warning for SPS Modem Data wakeup
-4793a59 # 2016-11-30 # Neal Cardwell @ tcp_yeah: don't set ssthresh below 2
-e8f8037b # 2016-11-30 # Neal Cardwell @ tcp: fix timing issue in CUBIC slope calculation
-6c4b26a # 2016-11-30 # Zdrowy Gosciu @ config: Enable advanced TCP congestion control algorithms
-f61ddd4 # 2016-11-30 # Zdrowy Gosciu @ config: Disable L1 cache errors SPAM
-4611ee5 # 2016-11-30 # Zdrowy Gosciu @ config: Don't optimize for size
-8607602 # 2016-11-29 # Dorimanx @ fix arch/arm/mach-msm/msm_watchdog.h when not set in config
-7f98b94 # 2016-11-29 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
-f4c5a15 # 2016-11-29 # Zdrowy Gosciu @ Kill logspam (SQUASHED)
-b633481 # 2016-11-29 # myfluxi @ msm: bam_dmux: Reduce debug logs to avoid watchdog bite
-81e48ec # 2016-11-29 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
-93b746a # 2016-11-29 # Steve Kondik @ msm_rmnet: Kill logspam
-ceffd9d # 2016-11-29 # myfluxi @ arm: irq: Tone down kernel logging
-4fa4bb4 # 2016-11-29 # Zdrowy Gosciu @ Version HML 5.0
-12e016b # 2016-11-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-exodus
-bfb848b # 2016-11-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'slimroms/mm6.0' into mm-exodus
-90380e0 # 2016-11-27 # Tyler Dunn @ Revert "vfs: umount_tree() might be called on subtree that had never made it"
-46d0c12 # 2016-11-27 # Tyler Dunn @ Revert "msm: rpm-smd: return probe success when standalone flag is defined"
-4cedfab # 2016-11-27 # Vinayak Menon @ mm: vmscan: fix the page state calculation in too_many_isolated
-6cbe128 # 2016-11-27 # Al Viro @ vfs: umount_tree() might be called on subtree that had never made it
-7fa4da3 # 2016-11-27 # Murali Nalajala @ msm: rpm-smd: return probe success when standalone flag is defined
-68dc209 # 2016-11-27 # Mahesh Sivasubramanian @ soc: qcom: rpm: Change driver memory allocation to use GFP_NOFS
-0a13e57 # 2016-11-27 # Achyuth Sai Vadrav @ qcom: rpm-smd: Remove rpm workqueue initialization
-9c415cd # 2016-11-27 # Mahesh Sivasubramanian @ qcom: rpm-smd: Mask the interrupt before sending the sleep set.
-e83713c # 2016-11-27 # Venkat Devarasetty @ msm: rpm-smd: skip the smd initialization for standalone
-261a86b # 2016-11-27 # Archana Sathyakumar @ msm: rpm-smd: Read RPM acks before entering system sleep
-3354aa2 # 2016-11-27 # Stepan Moskovchenko @ msm: rpm-smd: Don't ignore the rpm-standalone property
-1d70421 # 2016-11-27 # Greg Wallace @ configs: Regen and catch up legacy variants
-97da9f2 # 2016-11-26 # Anji Jonnala @ rpm-smd: Optimize smd data read
-ce4fc10 # 2016-11-26 # Anji Jonnala @ msm: rpm-smd: Add a check to validate the rpm message length
-f2e6c5f # 2016-11-26 # Anil Kumar Mamidala @ qcom: rpm-smd: Add NULL check for input data variable
-387b673 # 2016-11-26 # Dan Pasanen @ camera: msm_ios_i2c: remove duplicate define
-7172549 # 2016-11-26 # Deepak Kaushal @ msm: camera: Validate size param before allocating memory
-8809931 # 2016-11-26 # Ivan Tiyanov @ platform: msm: sensor: Fix out of bounds and null pointer.
-dbfcac3 # 2016-11-26 # Samyukta Mogily @ msm: camera: Restructure data handling to be more robust
-f9a58c4 # 2016-11-26 # VijayaKumar T M @ msm: sensor: Avoid potential stack overflow
-7d97e15 # 2016-11-24 # Junxiao Bi @ writeback: fix race that cause writeback hung
-e8e6d1c # 2016-11-24 # Jan Kara @ writeback: fix occasional slow sync(1)
-b6f2a3e # 2016-11-24 # Dave Chinner @ sync: don't block the flusher thread waiting on IO
-44eb974 # 2016-11-23 # Diogo Ferreira @ bfq-sched: Forcefully lookup entities when the cache is inconsistent
-6c6737e # 2016-11-22 # Iliyan Malchev @ kgsl: allocate shared memory one page at a time
-8f2c3d0 # 2016-11-22 # myfluxi @ PM: devfreq: Fix simple_ondemand crashing on startup
-62ecfeb # 2016-11-22 # myfluxi @ PM: devfreq: Fix show available freqs
-968f785 # 2016-11-22 # Adrian DC @ lib/int_sqrt.c: Revert "optimize square root algorithm"
-7024418 # 2016-11-22 # Mike Snitzer @ block: disable entropy contributions for nonrot devices
-
-* Project packages/apps/AudioFX/
-370f58f # 2016-11-29 # inky@build01 @ Automatic translation import
+818a363 # 2016-12-05 # Zdrowy Gosciu @ Version HML 5.5
+56f6ec6 # 2016-12-05 # Dan Pasanen @ config: Disable a few unused features
+5ce0ff9 # 2016-12-03 # Zdrowy Gosciu @ Version HM 5.3
+54d8743 # 2016-12-03 # Dorimanx @ block: zen: Set fifo batch to 16 to reduce overload on eMMC and CPU
+02aea5b # 2016-12-03 # bbedward @ block: Introduce ZEN I/O scheduler
+f014f04 # 2016-12-03 # Zdrowy Gosciu @ block: Remove TEST I/O scheduler
+4ad2200 # 2016-12-03 # Jeff Liu @ binfmt_elf.c: use get_random_int() to fix entropy depleting
+bfccda7 # 2016-12-03 # Ethan @ lib/int_sqrt.c: Lets see if we can make integer sqrt any faster
+ae966f3 # 2016-12-03 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
+07aa866 # 2016-12-03 # Dave Kleikamp @ AIO: Don't plug the I/O queue in do_io_submit()
+fca97cb # 2016-12-03 # Zdrowy Gosciu @ config: Lower log level
+5d1771b # 2016-12-03 # Ethan @ mm: Disable VM swappiness
+cce8f55 # 2016-12-03 # Ethan @ block: Disable ADD_RANDOM
+50ff3ec # 2016-12-03 # Ethan @ config: Tuning
+6944403 # 2016-12-03 # Ethan @ lowmemorykiller: Tuning
+b9a2ff9 # 2016-12-02 # Zdrowy Gosciu @ Version HM 5.2
+6e643fd # 2016-12-02 # Dorimanx @ gcc: clean compilation warnings with latest GCC 6.1.0
+46c597e # 2016-12-02 # Ícaro Hoff @ sound control: squashed upgrade on top of hammerhead's controller
+8bd1b2d # 2016-12-02 # Ícaro Hoff @ defconfig, sound: set sound control to 'N' by default
+bb336b3 # 2016-12-02 # Ícaro Hoff @ sound control: rework the driver from faux's hammerhead
+78092b6 # 2016-12-02 # Ícaro Hoff @ sound control: force PA gain to be unlocked by default
+47f2d7e # 2016-12-02 # faux123 @ sound, mfd: introduce the GPL sound controller v3.8
 
 * Project packages/apps/Browser/
-48fcc0f # 2016-11-29 # inky@build01 @ Automatic translation import
+ebcd257 # 2016-12-02 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/CMFileManager/
-2085157 # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/CMWallpapers/
-fcbdc68 # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Calendar/
-b4573d1 # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Contacts/
-e2519bc # 2016-11-29 # inky@build01 @ Automatic translation import
-5f911a2 # 2016-11-26 # Vitalii Kulikov @ Contacts: Fix infinite loop in queryContactProviderByRawContactIds
+f5fd769 # 2016-12-04 # clyde@build01 @ Automatic translation import
+e07015f # 2016-12-02 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/Eleven/
-392d312 # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Email/
-8708651 # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Gallery2/
-2fd75d1 # 2016-11-29 # inky@build01 @ Automatic translation import
+15b929b # 2016-12-02 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/Gello/
-7bc358a # 2016-11-29 # inky@build01 @ Automatic translation import
+122e079 # 2016-12-02 # inky@build01 @ Automatic translation import
 
-* Project packages/apps/Messaging/
-fe193c2 # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Screencast/
-cd51032 # 2016-11-29 # inky@build01 @ Automatic translation import
+* Project packages/apps/Profiles/
+a811676 # 2016-12-02 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/Settings/
-54d275a # 2016-11-29 # Zdrowy Gosciu @ Build V12.7
-fec1485 # 2016-11-29 # inky@build01 @ Automatic translation import
-e298878 # 2016-11-29 # Tyler Dunn @ DataUsageUtils: Clean up based on code review
-00a0b38 # 2016-11-29 # Ricardo Cerqueira @ telephony: Disable the SIM state change receiver
-e4918cd # 2016-11-29 # Alberto97 @ NotificationLightSettings: Remove noop fields when LED can't pulse
+a2a77d5 # 2016-12-05 # Zdrowy Gosciu @ Build V12.8
+4a8982a # 2016-12-05 # clyde@build01 @ Automatic translation import
+4e4d81e # 2016-12-05 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/Snap/
-eeebae0 # 2016-11-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'sultanxda/cm-13.0-sultan' into mm-sultanxda
-4e5981b # 2016-11-25 # Sultanxda @ Snap: Fix shutter button clicks in rapid succession getting ignored
-adf0c38 # 2016-11-24 # Jack Yoo @ SnapdragonCamera: Adding null exception handler.
-
-* Project packages/apps/SoundRecorder/
-9ba65d0 # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Stk/
-16a7773 # 2016-11-29 # inky@build01 @ Automatic translation import
+5c987bc # 2016-12-05 # inky@build01 @ Automatic translation import
+2808dcc # 2016-12-05 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/Terminal/
-3c3e603 # 2016-11-29 # inky@build01 @ Automatic translation import
+b30df78 # 2016-12-02 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/ThemeChooser/
-076579d # 2016-11-29 # inky@build01 @ Automatic translation import
+8917931 # 2016-12-04 # clyde@build01 @ Automatic translation import
+cb15a34 # 2016-12-02 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/TvSettings/
-6583d06 # 2016-11-29 # inky@build01 @ Automatic translation import
+69b89f8 # 2016-12-02 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/UnifiedEmail/
-f0bcbde # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/providers/DataUsageProvider/
-b2862a1 # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/providers/DownloadProvider/
-6287e5e # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/providers/ThemesProvider/
-5722029 # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/providers/WeatherProvider/
-5ba443f # 2016-11-29 # inky@build01 @ Automatic translation import
-
-* Project packages/services/CMAudioService/
-4e55718 # 2016-11-29 # inky@build01 @ Automatic translation import
+60a1f11 # 2016-12-04 # clyde@build01 @ Automatic translation import
 
 * Project packages/services/LiveLockScreenService/
-d5227e5 # 2016-11-29 # inky@build01 @ Automatic translation import
+f353e0d # 2016-12-02 # inky@build01 @ Automatic translation import
 
-* Project packages/services/ThemeManagerService/
-d81b596 # 2016-11-29 # inky@build01 @ Automatic translation import
+* Project packages/services/Telephony/
+12e424b # 2016-12-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+6d513cb # 2016-12-02 # inky@build01 @ Automatic translation import
 
-* Project packages/wallpapers/Galaxy4/
-3f84861 # 2016-11-29 # inky@build01 @ Automatic translation import
+* Project system/core/
+198a479 # 2016-12-05 # Zdrowy Gosciu @ liblog: Remove few more SPAM generators
 
-* Project packages/wallpapers/PhaseBeam/
-9f4b558 # 2016-11-29 # inky@build01 @ Automatic translation import
+* Project vendor/cm/
+99adbff # 2016-12-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+72f4855 # 2016-11-30 # Luca Stefani @ cm: Add more Mi 5 maintainers
 
-* Project packages/wallpapers/PhotoPhase/
-1846f8a # 2016-11-29 # inky@build01 @ Automatic translation import
+* Project vendor/cmsdk/
+7699853 # 2016-12-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+8bc08a9 # 2016-12-04 # clyde@build01 @ Automatic translation import
+493ad4f # 2016-12-02 # inky@build01 @ Automatic translation import
+
+* Project vendor/lge/g2-common
+a41af37 # 2016-12-05 # Zdrowy Gosciu @ lib: Switch to common QCOM Adreno blobs (10/24/15 => 12/04/15)

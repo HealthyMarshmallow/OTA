@@ -6,7 +6,7 @@
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download temasek ROM V12.8">https://www.androidfilehost.com/?fid=529152257862686750</RomUrl>
+                description="Download temasek ROM V12.8">https://www.androidfilehost.com/?fid=313042859668277092</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="ROM changelog"
@@ -14,7 +14,7 @@
             <KernelUrl
                 id="kernel"
                 title="Kernel"
-                description="Enjoy HealthyMarshmallowLite 5.5">https://www.androidfilehost.com/?fid=529152257862686751</KernelUrl>
+                description="Enjoy HealthyMarshmallowLite 5.6">https://www.androidfilehost.com/?fid=313042859668277087</KernelUrl>
             <KernelChangelogUrl
                 id="kernelchangelog"
                 title="Kernel changelog"

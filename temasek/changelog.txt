@@ -30,6 +30,8 @@ bce4801 # 2016-12-05 # Tyler Dunn @ Revert "g2-common: Disable flush_merge for f
 d0cdb65 # 2016-12-04 # D. Andrei Măceș @ cmhw: Account for devices that don't use manager0 sysfs paths
 
 * Project kernel/lge/msm8974/
+5402f7d # 2016-12-05 # Zdrowy Gosciu @ Version HML 5.6
+7b83b34 # 2016-12-05 # Zdrowy Gosciu @ Revert "config: Disable a few unused features"
 818a363 # 2016-12-05 # Zdrowy Gosciu @ Version HML 5.5
 56f6ec6 # 2016-12-05 # Dan Pasanen @ config: Disable a few unused features
 5ce0ff9 # 2016-12-03 # Zdrowy Gosciu @ Version HM 5.3

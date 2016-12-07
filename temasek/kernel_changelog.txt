@@ -7,12 +7,23 @@ CHANGES AFTER 2016-11-30 @ 13:02:15 (1480510935)
                  |_____|              
 
 * Project device/lge/g2-common/
+3772f71 # 2016-12-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-exodus
+c1bd31e # 2016-12-06 # Wei Wang @ g2: remove discard in fstab
+3301b67 # 2016-12-06 # Jeff Sharkey @ So uh, enabling atime is bad.
 bce4801 # 2016-12-05 # Tyler Dunn @ Revert "g2-common: Disable flush_merge for f2fs"
 4c55666 # 2016-12-03 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
 7d4a1c1 # 2016-12-03 # Zdrowy Gosciu @ Revert "g2-common: Build kernel with GCC 4.9-Cortex-A15 toolchain"
 8840ced # 2016-12-02 # Zdrowy Gosciu @ g2-common: Build kernel with GCC 4.9-Cortex-A15 toolchain
 
 * Project kernel/lge/msm8974/
+e4136b1 # 2016-12-07 # Zdrowy Gosciu @ Version HML 5.7
+9c085d4 # 2016-12-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-exodus
+da58b3c # 2016-12-06 # Zdrowy Gosciu @ config: Bring back UIO
+d3f7331 # 2016-12-06 # Dan Pasanen @ config: Disable a few unused features
+dc38a8c # 2016-12-06 # Zdrowy Gosciu @ Revert "qcom: rpm-smd: Add NULL check for input data variable"
+f9ef67c # 2016-12-06 # Dorimanx @ msm: msm_bus: Provide valid input pointer argument
+9848f8b # 2016-12-06 # Girish Mahadevan @ msm: msm_bus: Fix inadvertent stomp on BKE_EN register
+70f7b1a # 2016-12-06 # Philip Pettersson @ packet: fix race condition in packet_set_ring
 5402f7d # 2016-12-05 # Zdrowy Gosciu @ Version HML 5.6
 7b83b34 # 2016-12-05 # Zdrowy Gosciu @ Revert "config: Disable a few unused features"
 818a363 # 2016-12-05 # Zdrowy Gosciu @ Version HML 5.5

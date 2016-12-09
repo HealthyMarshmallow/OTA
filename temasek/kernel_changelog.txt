@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-11-30 @ 13:02:15 (1480510935)
+CHANGES AFTER 2016-12-05 @ 15:57:22 (1480953442)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -10,12 +10,10 @@ CHANGES AFTER 2016-11-30 @ 13:02:15 (1480510935)
 3772f71 # 2016-12-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-exodus
 c1bd31e # 2016-12-06 # Wei Wang @ g2: remove discard in fstab
 3301b67 # 2016-12-06 # Jeff Sharkey @ So uh, enabling atime is bad.
-bce4801 # 2016-12-05 # Tyler Dunn @ Revert "g2-common: Disable flush_merge for f2fs"
-4c55666 # 2016-12-03 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
-7d4a1c1 # 2016-12-03 # Zdrowy Gosciu @ Revert "g2-common: Build kernel with GCC 4.9-Cortex-A15 toolchain"
-8840ced # 2016-12-02 # Zdrowy Gosciu @ g2-common: Build kernel with GCC 4.9-Cortex-A15 toolchain
 
 * Project kernel/lge/msm8974/
+c4bd538 # 2016-12-09 # Zdrowy Gosciu @ Version HML 5.8
+3f6c66b # 2016-12-09 # Zdrowy Gosciu @ Revert "Overclocking up to 2.8ghz"
 e4136b1 # 2016-12-07 # Zdrowy Gosciu @ Version HML 5.7
 9c085d4 # 2016-12-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-exodus
 da58b3c # 2016-12-06 # Zdrowy Gosciu @ config: Bring back UIO
@@ -24,27 +22,3 @@ dc38a8c # 2016-12-06 # Zdrowy Gosciu @ Revert "qcom: rpm-smd: Add NULL check for
 f9ef67c # 2016-12-06 # Dorimanx @ msm: msm_bus: Provide valid input pointer argument
 9848f8b # 2016-12-06 # Girish Mahadevan @ msm: msm_bus: Fix inadvertent stomp on BKE_EN register
 70f7b1a # 2016-12-06 # Philip Pettersson @ packet: fix race condition in packet_set_ring
-5402f7d # 2016-12-05 # Zdrowy Gosciu @ Version HML 5.6
-7b83b34 # 2016-12-05 # Zdrowy Gosciu @ Revert "config: Disable a few unused features"
-818a363 # 2016-12-05 # Zdrowy Gosciu @ Version HML 5.5
-56f6ec6 # 2016-12-05 # Dan Pasanen @ config: Disable a few unused features
-5ce0ff9 # 2016-12-03 # Zdrowy Gosciu @ Version HM 5.3
-54d8743 # 2016-12-03 # Dorimanx @ block: zen: Set fifo batch to 16 to reduce overload on eMMC and CPU
-02aea5b # 2016-12-03 # bbedward @ block: Introduce ZEN I/O scheduler
-f014f04 # 2016-12-03 # Zdrowy Gosciu @ block: Remove TEST I/O scheduler
-4ad2200 # 2016-12-03 # Jeff Liu @ binfmt_elf.c: use get_random_int() to fix entropy depleting
-bfccda7 # 2016-12-03 # Ethan @ lib/int_sqrt.c: Lets see if we can make integer sqrt any faster
-ae966f3 # 2016-12-03 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
-07aa866 # 2016-12-03 # Dave Kleikamp @ AIO: Don't plug the I/O queue in do_io_submit()
-fca97cb # 2016-12-03 # Zdrowy Gosciu @ config: Lower log level
-5d1771b # 2016-12-03 # Ethan @ mm: Disable VM swappiness
-cce8f55 # 2016-12-03 # Ethan @ block: Disable ADD_RANDOM
-50ff3ec # 2016-12-03 # Ethan @ config: Tuning
-6944403 # 2016-12-03 # Ethan @ lowmemorykiller: Tuning
-b9a2ff9 # 2016-12-02 # Zdrowy Gosciu @ Version HM 5.2
-6e643fd # 2016-12-02 # Dorimanx @ gcc: clean compilation warnings with latest GCC 6.1.0
-46c597e # 2016-12-02 # Ícaro Hoff @ sound control: squashed upgrade on top of hammerhead's controller
-8bd1b2d # 2016-12-02 # Ícaro Hoff @ defconfig, sound: set sound control to 'N' by default
-bb336b3 # 2016-12-02 # Ícaro Hoff @ sound control: rework the driver from faux's hammerhead
-78092b6 # 2016-12-02 # Ícaro Hoff @ sound control: force PA gain to be unlocked by default
-47f2d7e # 2016-12-02 # faux123 @ sound, mfd: introduce the GPL sound controller v3.8

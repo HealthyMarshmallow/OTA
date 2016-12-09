@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-11-30 @ 13:02:15 (1480510935)
+CHANGES AFTER 2016-12-05 @ 15:57:22 (1480953442)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,110 +7,76 @@ CHANGES AFTER 2016-11-30 @ 13:02:15 (1480510935)
                  |_____|              
 
 * Project OTA/
-ffea5fd # 2016-11-30 # Zdrowy Gosciu @ OTA: cm-13.0-20161130-125850-UNOFFICIAL-temasek-d802-V12.7
+3bdf59e # 2016-12-07 # Zdrowy Gosciu @ OTA: Enjoy HML 5.7
+3533be1 # 2016-12-06 # Zdrowy Gosciu @ OTA: cm-13.0-20161130-125850-UNOFFICIAL-temasek-d802-V12.7.zip
 
-* Project cts/
-27984e9 # 2016-11-30 # gitbuildkicker @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+* Project android/
+b18dc96 # 2016-12-09 # Zdrowy Gosciu @ default: Switch to AOSP 6.0.1 r77
+
+* Project build/
+742751d # 2016-12-09 # Adam Seaton @ Updating Security String to 2016-12-01
+f28507e # 2016-12-09 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 
 * Project device/lge/g2-common/
-716f1f7 # 2016-12-05 # Zdrowy Gosciu @ g2-common: releasetools: HML is back ;)
-bce4801 # 2016-12-05 # Tyler Dunn @ Revert "g2-common: Disable flush_merge for f2fs"
-9f8c772 # 2016-12-03 # Zdrowy Gosciu @ g2-common: releasetools: Clean up HM version
-4c55666 # 2016-12-03 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
-7d4a1c1 # 2016-12-03 # Zdrowy Gosciu @ Revert "g2-common: Build kernel with GCC 4.9-Cortex-A15 toolchain"
-8840ced # 2016-12-02 # Zdrowy Gosciu @ g2-common: Build kernel with GCC 4.9-Cortex-A15 toolchain
+3772f71 # 2016-12-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-exodus
+c1bd31e # 2016-12-06 # Wei Wang @ g2: remove discard in fstab
+3301b67 # 2016-12-06 # Jeff Sharkey @ So uh, enabling atime is bad.
+
+* Project external/libavc/
+4dd81b6 # 2016-12-09 # Harish Mahendrakar @ Decoder: Fixes in handling errors in Mbaff clips.
+43d1f93 # 2016-12-09 # Harish Mahendrakar @ Decoder: Ignore few dpb errors
+
+* Project frameworks/av/
+060d7f9 # 2016-12-09 # Marco Nelissen @ DO NOT MERGE Fix divide by zero
+484b95b # 2016-12-09 # rago @ Fix potential NULL dereference in Visualizer effect
 
 * Project frameworks/base/
-05f3caf # 2016-12-05 # clyde@build01 @ Automatic translation import
-74a30bb # 2016-12-05 # amtlib-dot-dll @ Support for MODE_ASK in commandline
-5ff36f3 # 2016-12-05 # Jorge Ruesga @ AppOps: Do not prune apps that are not present
-1cc5346d # 2016-12-05 # inky@build01 @ Automatic translation import
+f3715d6 # 2016-12-09 # Sungsoo @ DO NOT MERGE) ExifInterface: Close the file when an exception happens
+1832605 # 2016-12-09 # Christopher Tate @ DO NOT MERGE Isolated processes don't get precached system service binders
+f62b2dd # 2016-12-09 # Zdrowy Gosciu @ Revert "[1/4] sqlite query perf: better window selection in common case"
+4c62851 # 2016-12-09 # Zdrowy Gosciu @ Revert "[2/4] sqlite query perf: try to reuse in-flight statements"
+c6bebb5 # 2016-12-09 # Zdrowy Gosciu @ Revert "[3/4] sqlite query perf: clean up in-flight statements on cursor close"
+c0194ef # 2016-12-09 # Zdrowy Gosciu @ Revert "[4/4] sqlite query perf: try to avoid getCount()"
 
-* Project hardware/ti/omap4/
-d0cdb65 # 2016-12-04 # D. Andrei Măceș @ cmhw: Account for devices that don't use manager0 sysfs paths
+* Project frameworks/ex/
+1e34bd1 # 2016-12-09 # Chris Craik @ Handle color bounds correctly in GIF decode.
+
+* Project frameworks/opt/net/wifi/
+433296c # 2016-12-09 # Ningyuan Wang @ resolve merge conflicts of 849c5c7 to mnc-dev
+5390c09 # 2016-12-09 # Ningyuan Wang @ wifinative jni: check array length to prevent stack overflow
+
+* Project hardware/qcom/audio-caf/msm8974/
+4257db0 # 2016-12-09 # rago @ Fix potential NULL dereference in Visualizer effect
+
+* Project hardware/qcom/media-caf/msm8974/
+33c927c # 2016-12-09 # Mahesh Lanka @ mm-video-v4l2: vdec: Disallow input usebuffer for secure case
 
 * Project kernel/lge/msm8974/
-5402f7d # 2016-12-05 # Zdrowy Gosciu @ Version HML 5.6
-7b83b34 # 2016-12-05 # Zdrowy Gosciu @ Revert "config: Disable a few unused features"
-818a363 # 2016-12-05 # Zdrowy Gosciu @ Version HML 5.5
-56f6ec6 # 2016-12-05 # Dan Pasanen @ config: Disable a few unused features
-5ce0ff9 # 2016-12-03 # Zdrowy Gosciu @ Version HM 5.3
-54d8743 # 2016-12-03 # Dorimanx @ block: zen: Set fifo batch to 16 to reduce overload on eMMC and CPU
-02aea5b # 2016-12-03 # bbedward @ block: Introduce ZEN I/O scheduler
-f014f04 # 2016-12-03 # Zdrowy Gosciu @ block: Remove TEST I/O scheduler
-4ad2200 # 2016-12-03 # Jeff Liu @ binfmt_elf.c: use get_random_int() to fix entropy depleting
-bfccda7 # 2016-12-03 # Ethan @ lib/int_sqrt.c: Lets see if we can make integer sqrt any faster
-ae966f3 # 2016-12-03 # Davidlohr Bueso @ lib/int_sqrt.c: optimize square root algorithm
-07aa866 # 2016-12-03 # Dave Kleikamp @ AIO: Don't plug the I/O queue in do_io_submit()
-fca97cb # 2016-12-03 # Zdrowy Gosciu @ config: Lower log level
-5d1771b # 2016-12-03 # Ethan @ mm: Disable VM swappiness
-cce8f55 # 2016-12-03 # Ethan @ block: Disable ADD_RANDOM
-50ff3ec # 2016-12-03 # Ethan @ config: Tuning
-6944403 # 2016-12-03 # Ethan @ lowmemorykiller: Tuning
-b9a2ff9 # 2016-12-02 # Zdrowy Gosciu @ Version HM 5.2
-6e643fd # 2016-12-02 # Dorimanx @ gcc: clean compilation warnings with latest GCC 6.1.0
-46c597e # 2016-12-02 # Ícaro Hoff @ sound control: squashed upgrade on top of hammerhead's controller
-8bd1b2d # 2016-12-02 # Ícaro Hoff @ defconfig, sound: set sound control to 'N' by default
-bb336b3 # 2016-12-02 # Ícaro Hoff @ sound control: rework the driver from faux's hammerhead
-78092b6 # 2016-12-02 # Ícaro Hoff @ sound control: force PA gain to be unlocked by default
-47f2d7e # 2016-12-02 # faux123 @ sound, mfd: introduce the GPL sound controller v3.8
-
-* Project packages/apps/Browser/
-ebcd257 # 2016-12-02 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/CMFileManager/
-f5fd769 # 2016-12-04 # clyde@build01 @ Automatic translation import
-e07015f # 2016-12-02 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Eleven/
-15b929b # 2016-12-02 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Gello/
-122e079 # 2016-12-02 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Profiles/
-a811676 # 2016-12-02 # inky@build01 @ Automatic translation import
+c4bd538 # 2016-12-09 # Zdrowy Gosciu @ Version HML 5.8
+3f6c66b # 2016-12-09 # Zdrowy Gosciu @ Revert "Overclocking up to 2.8ghz"
+e4136b1 # 2016-12-07 # Zdrowy Gosciu @ Version HML 5.7
+9c085d4 # 2016-12-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm-exodus
+da58b3c # 2016-12-06 # Zdrowy Gosciu @ config: Bring back UIO
+d3f7331 # 2016-12-06 # Dan Pasanen @ config: Disable a few unused features
+dc38a8c # 2016-12-06 # Zdrowy Gosciu @ Revert "qcom: rpm-smd: Add NULL check for input data variable"
+f9ef67c # 2016-12-06 # Dorimanx @ msm: msm_bus: Provide valid input pointer argument
+9848f8b # 2016-12-06 # Girish Mahadevan @ msm: msm_bus: Fix inadvertent stomp on BKE_EN register
+70f7b1a # 2016-12-06 # Philip Pettersson @ packet: fix race condition in packet_set_ring
 
 * Project packages/apps/Settings/
-a2a77d5 # 2016-12-05 # Zdrowy Gosciu @ Build V12.8
-4a8982a # 2016-12-05 # clyde@build01 @ Automatic translation import
-4e4d81e # 2016-12-05 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Snap/
-5c987bc # 2016-12-05 # inky@build01 @ Automatic translation import
-2808dcc # 2016-12-05 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/Terminal/
-b30df78 # 2016-12-02 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/ThemeChooser/
-8917931 # 2016-12-04 # clyde@build01 @ Automatic translation import
-cb15a34 # 2016-12-02 # inky@build01 @ Automatic translation import
-
-* Project packages/apps/TvSettings/
-69b89f8 # 2016-12-02 # inky@build01 @ Automatic translation import
+9a4ca5d # 2016-12-09 # Zdrowy Gosciu @ Build V12.9
 
 * Project packages/apps/UnifiedEmail/
-60a1f11 # 2016-12-04 # clyde@build01 @ Automatic translation import
-
-* Project packages/services/LiveLockScreenService/
-f353e0d # 2016-12-02 # inky@build01 @ Automatic translation import
+e0f9d4f # 2016-12-05 # Vitalii Kulikov @ ActivityControler: Fix BadPacelableException in certain scenarios
 
 * Project packages/services/Telephony/
-12e424b # 2016-12-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-6d513cb # 2016-12-02 # inky@build01 @ Automatic translation import
+89b459b # 2016-12-09 # Ta-wei Yen @ Unexport OmtpMessageReceiver
+b94e1a2 # 2016-12-09 # Brad Ebinger @ Restrict SipProfiles to profiles directory
 
 * Project system/core/
-198a479 # 2016-12-05 # Zdrowy Gosciu @ liblog: Remove few more SPAM generators
+11696d7 # 2016-12-09 # Tianjie Xu @ Fix out of bound access in libziparchive
 
 * Project vendor/cm/
-99adbff # 2016-12-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-72f4855 # 2016-11-30 # Luca Stefani @ cm: Add more Mi 5 maintainers
-
-* Project vendor/cmsdk/
-7699853 # 2016-12-05 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-8bc08a9 # 2016-12-04 # clyde@build01 @ Automatic translation import
-493ad4f # 2016-12-02 # inky@build01 @ Automatic translation import
-
-* Project vendor/lge/g2-common
-a41af37 # 2016-12-05 # Zdrowy Gosciu @ lib: Switch to common QCOM Adreno blobs (10/24/15 => 12/04/15)
+671b0e5 # 2016-12-09 # Jessica Wagantall @ version: Set version string to 13.1.5 to reflect security update
+428d1bb # 2016-12-09 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+2e78b08 # 2016-12-06 # Anik1199 @ Contributors: Add maintainer for Xiaomi Redmi 3/Prime (ido)

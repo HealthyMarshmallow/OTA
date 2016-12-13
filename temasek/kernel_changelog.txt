@@ -1,70 +1,13 @@
-CHANGES AFTER 2016-12-09 @ 12:17:14 (1481285834)
+CHANGES AFTER 2016-12-12 @ 08:57:07 (1481533027)
 
-                        ______ ______ 
+                        ______ ______
            .-----.-----|  __  |    __|
            |-- __|  _  |  __  |__    |
            |_____|___  |______|______|
-                 |_____|              
+                 |_____|
 
 * Project device/lge/g2-common/
-9a016d1 # 2016-12-12 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-c91cc86 # 2016-12-11 # Tyler Dunn @ g2-common: Correct interactive tunable
-c6a11cc # 2016-12-11 # Tyler Dunn @ g2-common: Remove all writes to nonexistent nodes
-db6dba0 # 2016-12-11 # Tyler Dunn @ g2-common: Clean up and fix USB init script
-8834674 # 2016-12-12 # Daniel Stuart @ g2-common: init: usb: Sync with V39A
-7287b27 # 2016-12-11 # Tyler Dunn @ g2-common: Specify 4 streams and use lz4 compression for zram
-5e2840e # 2016-12-11 # Jeff Sharkey @ So uh, enabling atime is bad.
-25740a6 # 2016-12-11 # Tyler Dunn @ g2-common: Cleanup cmdline
-b71b53b # 2016-12-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-f4c21cb # 2016-12-10 # Todd Kjos @ Turn on zram for G2
-d346f0d # 2016-12-10 # Zdrowy Gosciu @ g2-common: Set SELinux to permissive
-f72d64e # 2016-12-10 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
+33c24d5 # 2016-12-13 # Zdrowy Gosciu @ g2-common: Setup 256 MB ZRAM
 
 * Project kernel/lge/msm8974/
-4e65a70 # 2016-12-12 # Zdrowy Gosciu @ Version HML 6.2
-3838436 # 2016-12-12 # myfluxi @ lowmemorykiller: Account for unevictable pages in vmpressure notifier
-e7e4303 # 2016-12-12 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-ae4a390 # 2016-12-11 # Naseer Ahmed @ msm: display: Enable display debugging through mdp debugfs
-43acec3 # 2016-12-11 # Naseer Ahmed @ msm: display: Validate MDP, MDDI and HDMI debug reg offset
-8bd7609 # 2016-12-11 # Dorimanx @ block: Fix get_task_ioprio() typo
-c947f72 # 2016-12-12 # Alok Chauhan @ msm: msm_bus: Provide valid input pointer argument
-3687f1b # 2016-12-11 # Minchan Kim @ mm: use up free swap space before reaching OOM kill
-68b953d # 2016-12-11 # Vinayak Menon @ mm: swap: fix swapcache usage for fast swap devices
-d53c12f # 2016-12-11 # Vinayak Menon @ mm: swap: don't delay swap free for fast swap devices
-9acf233 # 2016-12-10 # Zdrowy Gosciu @ Version HML 6.1
-a1029e0 # 2016-12-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-087aecc # 2016-12-10 # PsychoGame @ G2: enable zram for G2 variants.
-9a100f5 # 2016-12-10 # PsychoGame @ Revert some changes to zsmalloc.c
-a4213c6 # 2016-12-10 # Mike Snitzer @ UPSTREAM: block: disable entropy contributions for nonrot devices
-8f20dd5 # 2016-12-10 # Sergey Senozhatsky @ UPSTREAM: zram/zcomp: do not zero out zcomp private pages
-cb585a2 # 2016-12-10 # Minchan Kim @ UPSTREAM: zram: pass gfp from zcomp frontend to backend
-31c9a45 # 2016-12-10 # Kyeongdon Kim @ UPSTREAM: zram: try vmalloc() after kmalloc()
-f19c3ce # 2016-12-10 # Sergey Senozhatsky @ UPSTREAM: zram/zcomp: use GFP_NOIO to allocate streams
-ba922d3 # 2016-12-10 # Weijie Yang @ UPSTREAM: zram: avoid kunmap_atomic() of a NULL pointer
-dad4d71 # 2016-12-10 # Tim Murray @ zram: remove bvec_iters from zram.
-5990b06 # 2016-12-10 # Minchan Kim @ Rebase zram and zsmalloc from 3.15.
-f337faa # 2016-12-10 # Zdrowy Gosciu @ Version HML 6.0
-0a445e8 # 2016-12-10 # Zdrowy Gosciu @ config: Enable advanced TCP congestion control algorithms
-186d44a # 2016-12-10 # Zdrowy Gosciu @ config: Disable L1 cache errors SPAM
-c515d6f # 2016-12-10 # Zdrowy Gosciu @ config: Don't optimize for size
-ef33a07 # 2016-12-10 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
-9f05b5b # 2016-12-10 # Neal Cardwell @ tcp_yeah: don't set ssthresh below 2
-8fd6871 # 2016-12-10 # Neal Cardwell @ tcp: fix timing issue in CUBIC slope calculation
-2402fcf # 2016-12-10 # Zdrowy Gosciu @ arm: Fast Charge is for G2
-6a5a0dd # 2016-12-10 # Jeremy @ arm: Forced Fast Charge for LG G2 ported by PTMR3
-84c0024 # 2016-12-10 # Zdrowy Gosciu @ MSM Hotplug: Don't run at startup
-a33357a # 2016-12-10 # Zdrowy Gosciu @ input: touchscreen: g2: Force LCD suspend during touch suspend
-a23f8b9 # 2016-12-10 # Dorimanx @ block: zen: Set fifo batch to 16 to reduce overload on eMMC and CPU
-570034f # 2016-12-10 # bbedward @ block: Introduce ZEN I/O scheduler
-b0c8d09 # 2016-12-10 # Ethan @ block: Disable ADD_RANDOM
-3a00058 # 2016-12-10 # ejjohnson1999 @ mmc: core: Disable crc check
-a431c90 # 2016-12-10 # ejjohnson1999 @ dts: Increase pet and bark time
-e00fb42 # 2016-12-10 # myfluxi @ msm: bam_dmux: Reduce debug logs to avoid watchdog bite
-9ac7998 # 2016-12-10 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
-568c1b4 # 2016-12-10 # Dorimanx @ irq: Clean Unbalanced IRQ 61 warning for SPS Modem Data wakeup
-775fd09 # 2016-12-10 # Zdrowy Gosciu @ Kill logspam (SQUASHED)
-a08673d # 2016-12-10 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
-fa8d86a # 2016-12-10 # Steve Kondik @ msm_rmnet: Kill logspam
-c0d0fca # 2016-12-10 # ejjohnson1999 @ misc: Kill some log SPAM
-00eab4b # 2016-12-10 # Zdrowy Gosciu @ config: Clean up
-dbe56b0 # 2016-12-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+d2ae926 # 2016-12-13 # Zdrowy Gosciu @ Version HML 6.3

@@ -7,6 +7,7 @@ CHANGES AFTER 2016-12-12 @ 08:57:07 (1481533027)
                  |_____|              
 
 * Project OTA/
+d1cbaf5 # 2016-12-14 # Zdrowy Gosciu @ OTA: cm-13.0-20161214-095537-UNOFFICIAL-temasek-d802-V13.1
 41ecb3b # 2016-12-13 # Zdrowy Gosciu @ OTA: Enjoy HML 6.3
 824aa9a # 2016-12-12 # Zdrowy Gosciu @ OTA: cm-13.0-20161212-085116-UNOFFICIAL-temasek-d802-V13.0
 
@@ -17,10 +18,20 @@ CHANGES AFTER 2016-12-12 @ 08:57:07 (1481533027)
 * Project device/lge/g2-common/
 198df2a # 2016-12-14 # Zdrowy Gosciu @ g2-common: Setup 250 MB ZRAM
 
+* Project external/jemalloc/
+a59bb59 # 2016-12-14 # Park Ju Hyung @ Merge remote-tracking branch 'google/master' into android-6.0
+bf9b018 # 2016-12-12 # Christopher Ferris @ Update to jemalloc 4.4.0.
+
 * Project external/libavc/
 d79ab51 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 a1c987b # 2016-12-12 # Harish Mahendrakar @ Decoder: Fixes in handling errors in Mbaff clips.
 3bd8509 # 2016-12-12 # Harish Mahendrakar @ Decoder: Ignore few dpb errors
+
+* Project external/sqlite/
+8f51c1a # 2016-12-14 # Park Ju Hyung @ Revert "enable secure_delete by default"
+9a36dc8 # 2016-12-14 # Park Ju Hyung @ sqlite: relax sync to improve performance
+b9e7edf # 2016-12-14 # Park Ju Hyung @ sqlite: upgrade to SQLite 3.15.2
+67ee4f8 # 2016-12-14 # Park Ju Hyung @ Android.mk: make it compile with cm-13.0
 
 * Project frameworks/av/
 d4f15c0 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
@@ -44,6 +55,7 @@ f61813c # 2016-12-12 # D. Andrei Măceș @ wl12xx: Common WLAN KM build target f
 d2ae926 # 2016-12-13 # Zdrowy Gosciu @ Version HML 6.3
 
 * Project packages/apps/Settings/
+a3b458f # 2016-12-14 # Zdrowy Gosciu @ Build V13.2
 4bad11d # 2016-12-14 # Zdrowy Gosciu @ Build V13.1
 7386075 # 2016-12-14 # Sultanxda @ SimSettings: Fix getPhoneAccount() == null force close
 
@@ -59,3 +71,4 @@ b3d9d31 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0'
 * Project vendor/cm/
 d0e95e4 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
 ad92890 # 2016-12-12 # Jessica Wagantall @ version: Set version string to 13.0.5 to reflect security update
+

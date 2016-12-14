@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-12-09 @ 12:17:14 (1481285834)
+CHANGES AFTER 2016-12-12 @ 08:57:07 (1481533027)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,98 +7,55 @@ CHANGES AFTER 2016-12-09 @ 12:17:14 (1481285834)
                  |_____|              
 
 * Project OTA/
-f53c460 # 2016-12-11 # Zdrowy Gosciu @ OTA: Enjoy HML 6.1
-b5b4037 # 2016-12-10 # Zdrowy Gosciu @ OTA: Enjoy HML 6.0
-0588a4d # 2016-12-09 # Zdrowy Gosciu @ OTA: cm-13.0-20161209-121338-UNOFFICIAL-temasek-d802-V12.9
+41ecb3b # 2016-12-13 # Zdrowy Gosciu @ OTA: Enjoy HML 6.3
+824aa9a # 2016-12-12 # Zdrowy Gosciu @ OTA: cm-13.0-20161212-085116-UNOFFICIAL-temasek-d802-V13.0
 
 * Project build/
-3b362ff # 2016-12-12 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+2bf1d08 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+84aef03 # 2016-12-12 # Adam Seaton @ Updating Security String to 2016-12-01
 
 * Project device/lge/g2-common/
-6c53c3e # 2016-12-12 # Zdrowy Gosciu @ g2-common: Disable Blur
-9a016d1 # 2016-12-12 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-c91cc86 # 2016-12-11 # Tyler Dunn @ g2-common: Correct interactive tunable
-c6a11cc # 2016-12-11 # Tyler Dunn @ g2-common: Remove all writes to nonexistent nodes
-db6dba0 # 2016-12-11 # Tyler Dunn @ g2-common: Clean up and fix USB init script
-8834674 # 2016-12-12 # Daniel Stuart @ g2-common: init: usb: Sync with V39A
-7287b27 # 2016-12-11 # Tyler Dunn @ g2-common: Specify 4 streams and use lz4 compression for zram
-5e2840e # 2016-12-11 # Jeff Sharkey @ So uh, enabling atime is bad.
-25740a6 # 2016-12-11 # Tyler Dunn @ g2-common: Cleanup cmdline
-b71b53b # 2016-12-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-f4c21cb # 2016-12-10 # Todd Kjos @ Turn on zram for G2
-4f4775e # 2016-12-10 # Zdrowy Gosciu @ g2-common: releasetools: Add HML ;)
-8bb4dde # 2016-12-10 # Zdrowy Gosciu @ g2-common: Remove dependencies
-f711c71 # 2016-12-10 # Zdrowy Gosciu @ g2-common: Add Doze settings into FB overlay
-97812e4 # 2016-12-10 # Zdrowy Gosciu @ g2-common: Setup 400 dpi density
-d346f0d # 2016-12-10 # Zdrowy Gosciu @ g2-common: Set SELinux to permissive
-0b67e76 # 2016-12-10 # Ícaro Hoff @ g2-common: Tweak LED & brightness values
-f72d64e # 2016-12-10 # Zdrowy Gosciu @ g2-common: init: power: ZEN as default I/O scheduler
-145ba73 # 2016-12-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+198df2a # 2016-12-14 # Zdrowy Gosciu @ g2-common: Setup 250 MB ZRAM
 
-* Project external/chromium-webview/
-79af9c9 # 2016-12-12 # Zdrowy Gosciu @ arm: Android System WebView 55.0.2883.91 (288309100)
+* Project external/libavc/
+d79ab51 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+a1c987b # 2016-12-12 # Harish Mahendrakar @ Decoder: Fixes in handling errors in Mbaff clips.
+3bd8509 # 2016-12-12 # Harish Mahendrakar @ Decoder: Ignore few dpb errors
+
+* Project frameworks/av/
+d4f15c0 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+82016b0 # 2016-12-13 # Sam Mortimer @ soundtrigger: fix memory corruption
+fd66f40 # 2016-12-12 # Marco Nelissen @ DO NOT MERGE Fix divide by zero
+4e5f663 # 2016-12-12 # rago @ Fix potential NULL dereference in Visualizer effect
+
+* Project frameworks/ex/
+37b1df0 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+4bfd4ba # 2016-12-12 # Chris Craik @ Handle color bounds correctly in GIF decode.
+
+* Project frameworks/opt/net/wifi/
+4a72414 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+7cbe254 # 2016-12-12 # Ningyuan Wang @ resolve merge conflicts of 849c5c7 to mnc-dev
+d6b4e62 # 2016-12-12 # Ningyuan Wang @ wifinative jni: check array length to prevent stack overflow
+
+* Project hardware/ti/wlan/
+f61813c # 2016-12-12 # D. Andrei Măceș @ wl12xx: Common WLAN KM build target for reuse by devices
 
 * Project kernel/lge/msm8974/
-4e65a70 # 2016-12-12 # Zdrowy Gosciu @ Version HML 6.2
-3838436 # 2016-12-12 # myfluxi @ lowmemorykiller: Account for unevictable pages in vmpressure notifier
-e7e4303 # 2016-12-12 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-ae4a390 # 2016-12-11 # Naseer Ahmed @ msm: display: Enable display debugging through mdp debugfs
-43acec3 # 2016-12-11 # Naseer Ahmed @ msm: display: Validate MDP, MDDI and HDMI debug reg offset
-8bd7609 # 2016-12-11 # Dorimanx @ block: Fix get_task_ioprio() typo
-c947f72 # 2016-12-12 # Alok Chauhan @ msm: msm_bus: Provide valid input pointer argument
-3687f1b # 2016-12-11 # Minchan Kim @ mm: use up free swap space before reaching OOM kill
-68b953d # 2016-12-11 # Vinayak Menon @ mm: swap: fix swapcache usage for fast swap devices
-d53c12f # 2016-12-11 # Vinayak Menon @ mm: swap: don't delay swap free for fast swap devices
-9acf233 # 2016-12-10 # Zdrowy Gosciu @ Version HML 6.1
-a1029e0 # 2016-12-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-087aecc # 2016-12-10 # PsychoGame @ G2: enable zram for G2 variants.
-9a100f5 # 2016-12-10 # PsychoGame @ Revert some changes to zsmalloc.c
-a4213c6 # 2016-12-10 # Mike Snitzer @ UPSTREAM: block: disable entropy contributions for nonrot devices
-8f20dd5 # 2016-12-10 # Sergey Senozhatsky @ UPSTREAM: zram/zcomp: do not zero out zcomp private pages
-cb585a2 # 2016-12-10 # Minchan Kim @ UPSTREAM: zram: pass gfp from zcomp frontend to backend
-31c9a45 # 2016-12-10 # Kyeongdon Kim @ UPSTREAM: zram: try vmalloc() after kmalloc()
-f19c3ce # 2016-12-10 # Sergey Senozhatsky @ UPSTREAM: zram/zcomp: use GFP_NOIO to allocate streams
-ba922d3 # 2016-12-10 # Weijie Yang @ UPSTREAM: zram: avoid kunmap_atomic() of a NULL pointer
-dad4d71 # 2016-12-10 # Tim Murray @ zram: remove bvec_iters from zram.
-5990b06 # 2016-12-10 # Minchan Kim @ Rebase zram and zsmalloc from 3.15.
-f337faa # 2016-12-10 # Zdrowy Gosciu @ Version HML 6.0
-0a445e8 # 2016-12-10 # Zdrowy Gosciu @ config: Enable advanced TCP congestion control algorithms
-186d44a # 2016-12-10 # Zdrowy Gosciu @ config: Disable L1 cache errors SPAM
-c515d6f # 2016-12-10 # Zdrowy Gosciu @ config: Don't optimize for size
-ef33a07 # 2016-12-10 # Zdrowy Gosciu @ setlocalversion: Disable dirty git mess
-9f05b5b # 2016-12-10 # Neal Cardwell @ tcp_yeah: don't set ssthresh below 2
-8fd6871 # 2016-12-10 # Neal Cardwell @ tcp: fix timing issue in CUBIC slope calculation
-2402fcf # 2016-12-10 # Zdrowy Gosciu @ arm: Fast Charge is for G2
-6a5a0dd # 2016-12-10 # Jeremy @ arm: Forced Fast Charge for LG G2 ported by PTMR3
-84c0024 # 2016-12-10 # Zdrowy Gosciu @ MSM Hotplug: Don't run at startup
-a33357a # 2016-12-10 # Zdrowy Gosciu @ input: touchscreen: g2: Force LCD suspend during touch suspend
-a23f8b9 # 2016-12-10 # Dorimanx @ block: zen: Set fifo batch to 16 to reduce overload on eMMC and CPU
-570034f # 2016-12-10 # bbedward @ block: Introduce ZEN I/O scheduler
-b0c8d09 # 2016-12-10 # Ethan @ block: Disable ADD_RANDOM
-3a00058 # 2016-12-10 # ejjohnson1999 @ mmc: core: Disable crc check
-a431c90 # 2016-12-10 # ejjohnson1999 @ dts: Increase pet and bark time
-e00fb42 # 2016-12-10 # myfluxi @ msm: bam_dmux: Reduce debug logs to avoid watchdog bite
-9ac7998 # 2016-12-10 # Pranav Vashi @ audit: Mute userspace and kernel audit logs
-568c1b4 # 2016-12-10 # Dorimanx @ irq: Clean Unbalanced IRQ 61 warning for SPS Modem Data wakeup
-775fd09 # 2016-12-10 # Zdrowy Gosciu @ Kill logspam (SQUASHED)
-a08673d # 2016-12-10 # Zdrowy Gosciu @ bcmdhd: sdmmc: Silence SPAM
-fa8d86a # 2016-12-10 # Steve Kondik @ msm_rmnet: Kill logspam
-c0d0fca # 2016-12-10 # ejjohnson1999 @ misc: Kill some log SPAM
-00eab4b # 2016-12-10 # Zdrowy Gosciu @ config: Clean up
-dbe56b0 # 2016-12-10 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-
-* Project packages/apps/ContactsCommon/
-ab23b38 # 2016-12-12 # inky@build01 @ Automatic translation import
+d2ae926 # 2016-12-13 # Zdrowy Gosciu @ Version HML 6.3
 
 * Project packages/apps/Settings/
-a83aea9 # 2016-12-12 # Zdrowy Gosciu @ Build V13.0
+4bad11d # 2016-12-14 # Zdrowy Gosciu @ Build V13.1
+7386075 # 2016-12-14 # Sultanxda @ SimSettings: Fix getPhoneAccount() == null force close
+
+* Project packages/services/Telephony/
+2e4718c # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+6556551 # 2016-12-12 # Ta-wei Yen @ Unexport OmtpMessageReceiver
+6e5d1fc # 2016-12-12 # Brad Ebinger @ Restrict SipProfiles to profiles directory
+
+* Project system/core/
+b3d9d31 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+420d162 # 2016-12-12 # Tianjie Xu @ Fix out of bound access in libziparchive
 
 * Project vendor/cm/
-77525bb # 2016-12-12 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-dee68b3 # 2016-12-11 # Vishnu Vardhan Reddy Naini @ Add Reliance Jio India IMS volte apn's
-6074aa7 # 2016-12-11 # Vishnu Vardhan Reddy Naini @ Fix Reliance Jio India APNs.
-1d729b4 # 2016-12-09 # Brinly Taylor @ vendor: cm: Add some more BQ maintainers/devices
-
-* Project vendor/lge/
-01c5aec # 2016-12-10 # Zdrowy Gosciu @ vendor: Introduce QCOM common Adreno blobs for MSM8974
-54e4c83 # 2016-12-10 # Zdrowy Gosciu @ vendor: Introduce LG G2 D802 blobs
+d0e95e4 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
+ad92890 # 2016-12-12 # Jessica Wagantall @ version: Set version string to 13.0.5 to reflect security update

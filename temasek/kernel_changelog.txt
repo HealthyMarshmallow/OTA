@@ -1,13 +1,12 @@
-CHANGES AFTER 2016-12-12 @ 08:57:07 (1481533027)
+CHANGES AFTER 2016-12-14 @ 09:59:22 (1481709562)
 
-                        ______ ______
+                        ______ ______ 
            .-----.-----|  __  |    __|
            |-- __|  _  |  __  |__    |
            |_____|___  |______|______|
-                 |_____|
-
-* Project device/lge/g2-common/
-33c24d5 # 2016-12-13 # Zdrowy Gosciu @ g2-common: Setup 256 MB ZRAM
+                 |_____|              
 
 * Project kernel/lge/msm8974/
-d2ae926 # 2016-12-13 # Zdrowy Gosciu @ Version HML 6.3
+b6c0727 # 2016-12-15 # Zdrowy Gosciu @ Version HML 6.4
+b9f9f55 # 2016-12-15 # Zdrowy Gosciu @ cpufreq: Build ZZMove & Barry Allen
+8426ece # 2016-12-15 # Sk Kim @ cpufreq: Introduce Barry Allen

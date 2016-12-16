@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-12-12 @ 08:57:07 (1481533027)
+CHANGES AFTER 2016-12-14 @ 09:59:22 (1481709562)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,25 +7,20 @@ CHANGES AFTER 2016-12-12 @ 08:57:07 (1481533027)
                  |_____|              
 
 * Project OTA/
+bed4590 # 2016-12-14 # Zdrowy Gosciu @ OTA: temasek V13.2 changelog
 d1cbaf5 # 2016-12-14 # Zdrowy Gosciu @ OTA: cm-13.0-20161214-095537-UNOFFICIAL-temasek-d802-V13.1
-41ecb3b # 2016-12-13 # Zdrowy Gosciu @ OTA: Enjoy HML 6.3
-824aa9a # 2016-12-12 # Zdrowy Gosciu @ OTA: cm-13.0-20161212-085116-UNOFFICIAL-temasek-d802-V13.0
 
-* Project build/
-2bf1d08 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-84aef03 # 2016-12-12 # Adam Seaton @ Updating Security String to 2016-12-01
+* Project android/
+572db83 # 2016-12-15 # Zdrowy Gosciu @ default: Update LZ4
+92775e7 # 2016-12-14 # Zdrowy Gosciu @ default: Update jemalloc & sqlite
 
 * Project device/lge/g2-common/
-198df2a # 2016-12-14 # Zdrowy Gosciu @ g2-common: Setup 250 MB ZRAM
+1a2362f # 2016-12-16 # Ícaro Hoff @ g2-common: Adjust HWUI and Dalvik from stock 30F
+6a02767 # 2016-12-16 # Ícaro Hoff @ g2-common: Tune overlays for better UX
 
 * Project external/jemalloc/
 a59bb59 # 2016-12-14 # Park Ju Hyung @ Merge remote-tracking branch 'google/master' into android-6.0
 bf9b018 # 2016-12-12 # Christopher Ferris @ Update to jemalloc 4.4.0.
-
-* Project external/libavc/
-d79ab51 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-a1c987b # 2016-12-12 # Harish Mahendrakar @ Decoder: Fixes in handling errors in Mbaff clips.
-3bd8509 # 2016-12-12 # Harish Mahendrakar @ Decoder: Ignore few dpb errors
 
 * Project external/sqlite/
 8f51c1a # 2016-12-14 # Park Ju Hyung @ Revert "enable secure_delete by default"
@@ -33,42 +28,10 @@ a1c987b # 2016-12-12 # Harish Mahendrakar @ Decoder: Fixes in handling errors in
 b9e7edf # 2016-12-14 # Park Ju Hyung @ sqlite: upgrade to SQLite 3.15.2
 67ee4f8 # 2016-12-14 # Park Ju Hyung @ Android.mk: make it compile with cm-13.0
 
-* Project frameworks/av/
-d4f15c0 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-82016b0 # 2016-12-13 # Sam Mortimer @ soundtrigger: fix memory corruption
-fd66f40 # 2016-12-12 # Marco Nelissen @ DO NOT MERGE Fix divide by zero
-4e5f663 # 2016-12-12 # rago @ Fix potential NULL dereference in Visualizer effect
-
-* Project frameworks/ex/
-37b1df0 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-4bfd4ba # 2016-12-12 # Chris Craik @ Handle color bounds correctly in GIF decode.
-
-* Project frameworks/opt/net/wifi/
-4a72414 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-7cbe254 # 2016-12-12 # Ningyuan Wang @ resolve merge conflicts of 849c5c7 to mnc-dev
-d6b4e62 # 2016-12-12 # Ningyuan Wang @ wifinative jni: check array length to prevent stack overflow
-
-* Project hardware/ti/wlan/
-f61813c # 2016-12-12 # D. Andrei Măceș @ wl12xx: Common WLAN KM build target for reuse by devices
-
 * Project kernel/lge/msm8974/
-d2ae926 # 2016-12-13 # Zdrowy Gosciu @ Version HML 6.3
+b6c0727 # 2016-12-15 # Zdrowy Gosciu @ Version HML 6.4
+b9f9f55 # 2016-12-15 # Zdrowy Gosciu @ cpufreq: Build ZZMove & Barry Allen
+8426ece # 2016-12-15 # Sk Kim @ cpufreq: Introduce Barry Allen
 
 * Project packages/apps/Settings/
 a3b458f # 2016-12-14 # Zdrowy Gosciu @ Build V13.2
-4bad11d # 2016-12-14 # Zdrowy Gosciu @ Build V13.1
-7386075 # 2016-12-14 # Sultanxda @ SimSettings: Fix getPhoneAccount() == null force close
-
-* Project packages/services/Telephony/
-2e4718c # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-6556551 # 2016-12-12 # Ta-wei Yen @ Unexport OmtpMessageReceiver
-6e5d1fc # 2016-12-12 # Brad Ebinger @ Restrict SipProfiles to profiles directory
-
-* Project system/core/
-b3d9d31 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-420d162 # 2016-12-12 # Tianjie Xu @ Fix out of bound access in libziparchive
-
-* Project vendor/cm/
-d0e95e4 # 2016-12-14 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-ad92890 # 2016-12-12 # Jessica Wagantall @ version: Set version string to 13.0.5 to reflect security update
-

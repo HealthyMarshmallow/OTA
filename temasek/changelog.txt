@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-12-16 @ 10:51:53 (1481885513)
+CHANGES AFTER 2016-12-22 @ 09:45:13 (1482399913)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,202 +7,125 @@ CHANGES AFTER 2016-12-16 @ 10:51:53 (1481885513)
                  |_____|              
 
 * Project OTA/
-e6cd1f5 # 2016-12-16 # Zdrowy Gosciu @ OTA: cm-13.0-20161216-104450-UNOFFICIAL-temasek-d802-V13.2
+1ec5274 # 2016-12-22 # Zdrowy Gosciu @ OTA: cm-13.0-20161222-094019-UNOFFICIAL-temasek-d802-V13.3
 
-* Project cts/
-103ce62 # 2016-12-20 # gitbuildkicker @ merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
-fa36387 # 2016-12-20 # Tina Zhou @ Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 6.0_r14" into marshmallow-cts-dev
-45ee6c5 # 2016-12-20 # tinazh @ DO NOT MERGE: Bump CTS and CTS Verifier to 6.0_r14
-4d854d5 # 2016-12-20 # Android Merger @ Merge "Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15" into lollipop-mr1-cts-dev am: 3a305c3279  -s ours" into marshmallow-cts-dev
-92e869a # 2016-12-20 # Android Merger @ Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15 am: c130f518cb  -s ours" into marshmallow-cts-dev
-32a2cd7 # 2016-12-20 # Tina Zhou @ Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15" into lollipop-mr1-cts-dev am: 3a305c3279  -s ours
-4ec2291 # 2016-12-20 # tinazh @ DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15 am: c130f518cb  -s ours
-2baea74 # 2016-12-20 # Android Merger @ Merge "Merge "DO NOT MERGE: Added test_required_features for AppWidgetServiceImpl Test" into lollipop-mr1-cts-dev am: f79104e001  -s ours" into marshmallow-cts-dev
-93a836a # 2016-12-20 # Android Merger @ Merge "DO NOT MERGE: Added test_required_features for AppWidgetServiceImpl Test am: 939f04975d  -s ours" into marshmallow-cts-dev
-b0a685f # 2016-12-20 # Tina Zhou @ Merge "DO NOT MERGE: Added test_required_features for AppWidgetServiceImpl Test" into lollipop-mr1-cts-dev am: f79104e001  -s ours
-bdfebe0 # 2016-12-20 # Takeshi Oishi @ DO NOT MERGE: Added test_required_features for AppWidgetServiceImpl Test am: 939f04975d  -s ours
-cb798b3 # 2016-12-20 # Android Merger @ Merge "Merge "Test: Add testClearFormData to lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev am: d922b399a5" into marshmallow-cts-dev
-d5547f9 # 2016-12-20 # Android Merger @ Merge "Test: Add testClearFormData to lollipop-mr1-cts-dev am: 82ff4d6a86" into marshmallow-cts-dev
-e0d71cc # 2016-12-20 # Tina Zhou @ Merge "Test: Add testClearFormData to lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev am: d922b399a5
-129f356 # 2016-12-20 # Yoland Yan @ Test: Add testClearFormData to lollipop-mr1-cts-dev am: 82ff4d6a86
-028c1b5 # 2016-12-20 # Android Merger @ Merge "Merge "Test: Add testOnReceivedLoginRequest to WebViewClientTest in  lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev am: e4e6c3d725" into marshmallow-cts-dev
-6350685 # 2016-12-20 # Tina Zhou @ Merge "Test: Add testOnReceivedLoginRequest to WebViewClientTest in  lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev am: e4e6c3d725
-e6dbcc6 # 2016-12-20 # Tina Zhou @ Merge "DO NOT MERGE resolve merge conflicts of f5f94cc to marshmallow-cts-dev " into marshmallow-cts-dev
-dfdd2af # 2016-12-20 # Yoland Yan @ DO NOT MERGE resolve merge conflicts of f5f94cc to marshmallow-cts-dev
-82709bb # 2016-12-20 # Tina Zhou @ Merge "Enable wifi before device policy wifi tests start." into marshmallow-cts-dev
-3a305c3 # 2016-12-20 # Tina Zhou @ Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15" into lollipop-mr1-cts-dev
-c130f51 # 2016-12-20 # tinazh @ DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15
-7ed92f7 # 2016-12-20 # Tina Zhou @ Merge "Removed BLE RPA timeout check" into marshmallow-cts-dev
-8f10ed8 # 2016-12-19 # Tina Zhou @ Merge "Fix AlarmIntentTest layout" into marshmallow-cts-dev
-1d5a6eb # 2016-12-19 # Tina Zhou @ Merge "Prompt for mode setting only if setting is available" into marshmallow-cts-dev
-4bd061d # 2016-12-19 # Tina Zhou @ Merge "Description:We use finalview.post in ondraw method,when this message can not be excuted quickly in the message queue, the ondraw() will be called more than once and get some more finalview.post message,  That will lead to DrawWaiter.waitForDrawComplete() invalid in android.widget.cts.ListViewTest test case. Bug:33159262" into marshmallow-cts-dev
-f79104e # 2016-12-19 # Tina Zhou @ Merge "DO NOT MERGE: Added test_required_features for AppWidgetServiceImpl Test" into lollipop-mr1-cts-dev
-d922b39 # 2016-12-19 # Tina Zhou @ Merge "Test: Add testClearFormData to lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev
-e4e6c3d # 2016-12-19 # Tina Zhou @ Merge "Test: Add testOnReceivedLoginRequest to WebViewClientTest in  lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev
+* Project android/
+92b8d66 # 2016-12-29 # Zdrowy Gosciu @ Bye CM
+da814f3 # 2016-12-27 # Zdrowy Gosciu @ default: Update bionic
+
+* Project bionic/
+500baa1 # 2016-12-26 # Daniel Micay @ add fortified implementations of fread/fwrite
+
+* Project build/
+b5616e4 # 2016-12-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'LEOS/cm-13.0' into mm
+22ba620 # 2016-12-27 # Zhao Wei Liew @ build: Rebrand to LineageOS
 
 * Project device/lge/g2-common/
-fbf21f9 # 2016-12-22 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-80a806c # 2016-12-22 # Rashed Abdel-Tawab @ g2-common: Add vsync offsets
-a31deac # 2016-12-18 # Tyler Dunn @ g2-common: Remove unused service and calls
-
-* Project external/jemalloc/
-892df5c # 2016-12-19 # Alex Naidis @ jemalloc: Allow opting in for THP
+cafd732 # 2016-12-29 # Zdrowy Gosciu @ Revert "g2-common: Add vsync offsets"
 
 * Project frameworks/base/
-58d3738 # 2016-12-22 # blinky@build01 @ Automatic translation import
-02e2e9a # 2016-12-22 # clyde@build01 @ Automatic translation import
-1ba4a5e # 2016-12-22 # pinky@build01 @ Automatic translation import
-adf09bf # 2016-12-22 # inky@build01 @ Automatic translation import
-b5759d3 # 2016-12-22 # inky@build01 @ Automatic translation import
+10518c0 # 2016-12-29 # Zhao Wei Liew @ Revert "Update ADB status bar icon"
+1d1843d # 2016-12-29 # inky@build01 @ Automatic translation import
+1a19dc3 # 2016-12-29 # Zhao Wei Liew @ StatusBarIconView: Enable notification icon count by default
+b70c0b9 # 2016-12-29 # Zhao Wei Liew @ SettingsProvider: Remove def_notif_count overlay
+cb2d991 # 2016-12-29 # blinky@build01 @ Automatic translation import
+e1e4ec9 # 2016-12-29 # Omico @ Fix "Error parsing XML: not well-formed"
+1fd8c0d # 2016-12-29 # blinky@build01 @ Automatic translation import
+a19f743 # 2016-12-29 # clyde@build01 @ Automatic translation import
 
 * Project hardware/qcom/fm/
-7dbda9a # 2016-12-21 # blinky@build01 @ Automatic translation import
-75c42fd # 2016-12-20 # clyde@build01 @ Automatic translation import
-628cfc3 # 2016-12-16 # clyde@build01 @ Automatic translation import
+d3b8ccf # 2016-12-24 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/AudioFX/
-5a6949c # 2016-12-21 # blinky@build01 @ Automatic translation import
-06bd4c5 # 2016-12-20 # clyde@build01 @ Automatic translation import
-abb28b4 # 2016-12-16 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/Bluetooth/
-0af7f7e # 2016-12-20 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-2bd0e35 # 2016-12-16 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/BluetoothExt/
-672b8c7 # 2016-12-20 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_BluetoothExt into cm-13.0
+3ff4554 # 2016-12-24 # inky@build01 @ Automatic translation import
 
 * Project packages/apps/Browser/
-77ea1e8 # 2016-12-21 # blinky@build01 @ Automatic translation import
-92689bd # 2016-12-16 # clyde@build01 @ Automatic translation import
+07c6f51 # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/CMFileManager/
-28e7782 # 2016-12-21 # blinky@build01 @ Automatic translation import
-72d449b # 2016-12-16 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/CMWallpapers/
-b03a88c # 2016-12-20 # clyde@build01 @ Automatic translation import
+f2babe2 # 2016-12-29 # Simon Shields @ CMFileManager: Rebrand to LineageOS
+6c6ca5a # 2016-12-24 # inky@build01 @ Automatic translation import
+76e91cf # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/Calendar/
-32422f4 # 2016-12-21 # blinky@build01 @ Automatic translation import
-05182e4 # 2016-12-20 # clyde@build01 @ Automatic translation import
-c8d466f # 2016-12-16 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/DeskClock/
-8a364b7 # 2016-12-20 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
-7ac4a3f # 2016-12-16 # clyde@build01 @ Automatic translation import
+ca0d567 # 2016-12-24 # inky@build01 @ Automatic translation import
+a71664f # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/Eleven/
-8f3f0bb # 2016-12-21 # blinky@build01 @ Automatic translation import
+4ca8e7f # 2016-12-24 # inky@build01 @ Automatic translation import
+cc469b3 # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/Email/
-81a17d9 # 2016-12-21 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/Gallery2/
-bc110b7 # 2016-12-21 # blinky@build01 @ Automatic translation import
+ac643a8 # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/Gello/
-41addbf # 2016-12-21 # blinky@build01 @ Automatic translation import
-83d107a # 2016-12-16 # clyde@build01 @ Automatic translation import
+f8c1365 # 2016-12-24 # blinky@build01 @ Automatic translation import
+6f2bbcd # 2016-12-22 # blinky@build01 @ Automatic translation import
+
+* Project packages/apps/ManagedProvisioning/
+9d760da # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/Messaging/
-d5fc4ce # 2016-12-21 # blinky@build01 @ Automatic translation import
-5c6b3d6 # 2016-12-16 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/PhoneCommon/
-f3a7368 # 2016-12-20 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_PhoneCommon into cm-13.0
-42895b2 # 2016-12-16 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/Profiles/
-c050de1 # 2016-12-21 # blinky@build01 @ Automatic translation import
-76c3a26 # 2016-12-20 # clyde@build01 @ Automatic translation import
-943cbe5 # 2016-12-16 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/Screencast/
-4e191bd # 2016-12-21 # blinky@build01 @ Automatic translation import
-6ab61ba # 2016-12-20 # clyde@build01 @ Automatic translation import
-6f025ad # 2016-12-16 # clyde@build01 @ Automatic translation import
+83b5d3f # 2016-12-24 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/Settings/
-9d549b4 # 2016-12-22 # Zdrowy Gosciu @ Build V13.3
-
-* Project packages/apps/SetupWizard/
-85bca22 # 2016-12-20 # trader418 @ Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
-694b0dd # 2016-12-16 # clyde@build01 @ Automatic translation import
-
-* Project packages/apps/SoundRecorder/
-498a161 # 2016-12-21 # blinky@build01 @ Automatic translation import
-d71aea5 # 2016-12-18 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/Terminal/
-c27ec18 # 2016-12-20 # clyde@build01 @ Automatic translation import
+2a05ba8 # 2016-12-29 # Zdrowy Gosciu @ Build V13.4
+e069e44 # 2016-12-29 # Simon Shields @ Settings: Rebrand to LineageOS
+53b32de # 2016-12-29 # blinky@build01 @ Automatic translation import
+052224a # 2016-12-29 # blinky@build01 @ Automatic translation import
+8784675 # 2016-12-29 # blinky@build01 @ Automatic translation import
+3728eb0 # 2016-12-29 # clyde@build01 @ Automatic translation import
+8e90996 # 2016-12-29 # blinky@build01 @ Automatic translation import
+d9a0813 # 2016-12-29 # clyde@build01 @ Automatic translation import
+52e2bb6 # 2016-12-29 # pinky@build01 @ Automatic translation import
 
 * Project packages/apps/ThemeChooser/
-266d61c # 2016-12-21 # blinky@build01 @ Automatic translation import
-4d5fd9b # 2016-12-18 # blinky@build01 @ Automatic translation import
+870d934 # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/TvSettings/
-8a16085 # 2016-12-21 # blinky@build01 @ Automatic translation import
-95ee086 # 2016-12-18 # blinky@build01 @ Automatic translation import
-a18343f # 2016-12-17 # Abhisek Devkota @ Merge "Automatic translation import" into cm-13.0
-0f06b37 # 2016-12-16 # clyde@build01 @ Automatic translation import
+6552724 # 2016-12-24 # blinky@build01 @ Automatic translation import
+e14203b # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/apps/UnifiedEmail/
-fd9eceb # 2016-12-21 # blinky@build01 @ Automatic translation import
+3e34116 # 2016-12-24 # blinky@build01 @ Automatic translation import
+7a14afb # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/providers/DataUsageProvider/
-638805b # 2016-12-21 # blinky@build01 @ Automatic translation import
-03432df # 2016-12-18 # blinky@build01 @ Automatic translation import
-
-* Project packages/providers/DownloadProvider/
-cc21663 # 2016-12-18 # blinky@build01 @ Automatic translation import
-8299a4c # 2016-12-16 # clyde@build01 @ Automatic translation import
-
-* Project packages/providers/ThemesProvider/
-c349af8 # 2016-12-21 # blinky@build01 @ Automatic translation import
-
-* Project packages/providers/WeatherProvider/
-5be11d6 # 2016-12-21 # blinky@build01 @ Automatic translation import
-8205176 # 2016-12-18 # blinky@build01 @ Automatic translation import
+09bba63 # 2016-12-24 # blinky@build01 @ Automatic translation import
 
 * Project packages/screensavers/PhotoTable/
-bff5ff6 # 2016-12-20 # clyde@build01 @ Automatic translation import
-0d70dda # 2016-12-18 # blinky@build01 @ Automatic translation import
+c2fe354 # 2016-12-22 # blinky@build01 @ Automatic translation import
 
-* Project packages/services/CMAudioService/
-298fd3b # 2016-12-21 # blinky@build01 @ Automatic translation import
-bff4e3f # 2016-12-20 # clyde@build01 @ Automatic translation import
-d5dee81 # 2016-12-18 # blinky@build01 @ Automatic translation import
+* Project packages/wallpapers/Basic/
+0236b04 # 2016-12-22 # blinky@build01 @ Automatic translation import
 
-* Project packages/services/LiveLockScreenService/
-9aa3e11 # 2016-12-21 # blinky@build01 @ Automatic translation import
-f9c8427 # 2016-12-20 # clyde@build01 @ Automatic translation import
-4acf97a # 2016-12-18 # blinky@build01 @ Automatic translation import
+* Project packages/wallpapers/HoloSpiral/
+6f3e1af # 2016-12-22 # blinky@build01 @ Automatic translation import
 
-* Project packages/services/Mms/
-f5c6bbc # 2016-12-20 # clyde@build01 @ Automatic translation import
+* Project packages/wallpapers/LivePicker/
+ee49657 # 2016-12-22 # blinky@build01 @ Automatic translation import
 
-* Project packages/services/ThemeManagerService/
-a8a322c # 2016-12-21 # blinky@build01 @ Automatic translation import
-27aedc6 # 2016-12-20 # clyde@build01 @ Automatic translation import
-0193092 # 2016-12-18 # blinky@build01 @ Automatic translation import
+* Project packages/wallpapers/MagicSmoke/
+ffe94a7 # 2016-12-22 # blinky@build01 @ Automatic translation import
 
-* Project packages/wallpapers/Galaxy4/
-11812a4 # 2016-12-20 # clyde@build01 @ Automatic translation import
+* Project packages/wallpapers/NoiseField/
+789201e # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/wallpapers/PhaseBeam/
-69ab072 # 2016-12-20 # clyde@build01 @ Automatic translation import
+f2c4616 # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project packages/wallpapers/PhotoPhase/
-5fa2695 # 2016-12-21 # blinky@build01 @ Automatic translation import
-4b67f7b # 2016-12-16 # clyde@build01 @ Automatic translation import
+0f076a3 # 2016-12-22 # blinky@build01 @ Automatic translation import
 
 * Project vendor/cm/
-ae14104 # 2016-12-22 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-727abbe # 2016-12-16 # Marco Brohet @ apns: Update hollandsnieuwe's (NL) APN
+ff77787 # 2016-12-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'LEOS/cm-13.0' into mm
+33083a8 # 2016-12-29 # Chau Truong Thinh @ Clean up 3G config for Vietnamese network
+e9bf910 # 2016-12-29 # Zhao Wei Liew @ cm: Rebrand to LineageOS
+7f06bc7 # 2016-12-24 # Zhao Wei Liew @ cm: Remove def_notif_count overlay
+35aa457 # 2016-12-24 # Zhao Wei Liew @ cm: common: Remove Launcher3 makefile entry
 
 * Project vendor/cmsdk/
-d2a512f # 2016-12-22 # Zdrowy Gosciu @ Merge remote-tracking branch 'CM/cm-13.0' into mm
-132cb52 # 2016-12-21 # blinky@build01 @ Automatic translation import
-a9c3f69 # 2016-12-20 # clyde@build01 @ Automatic translation import
-19cd1b9 # 2016-12-16 # clyde@build01 @ Automatic translation import
+3e1f87e # 2016-12-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'LEOS/cm-13.0' into mm
+a00aed7 # 2016-12-29 # Simon Shields @ cmsdk: Rebrand to LineageOS
+e7fb0e1 # 2016-12-24 # blinky@build01 @ Automatic translation import
+c2a0f08 # 2016-12-22 # blinky@build01 @ Automatic translation import

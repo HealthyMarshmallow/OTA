@@ -2,11 +2,11 @@
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d802>
-            <Filename>cm-13.0-20161222-094019-UNOFFICIAL-temasek-d802-V13.3.zip</Filename>
+            <Filename>lineage-13.0-20161229-151658-UNOFFICIAL-temasek-d802-V13.4.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download temasek ROM V13.3">https://www.androidfilehost.com/?fid=457095661767124272</RomUrl>
+                description="Download temasek ROM V13.4">https://www.androidfilehost.com/?fid=457095661767125849</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="ROM changelog"

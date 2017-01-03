@@ -7,6 +7,21 @@ CHANGES AFTER 2016-12-14 @ 09:59:22 (1481709562)
                  |_____|              
 
 * Project kernel/lge/msm8974/
+db3f5a5 # 2017-01-03 # Zdrowy Gosciu @ Version HML 6.5
+25519f1 # 2017-01-03 # ktoonsez @ fs: Async I/O latency
+dc796eb # 2017-01-03 # franciscofranco @ fs: FSync On/Off
+0f5e75e # 2017-01-03 # Zdrowy Gosciu @ devfreq: Don't start Adreno Idler
+35b6e56 # 2017-01-03 # GuneetAtwal @ devfreq: Make Adreno Idler more aggressive
+62d1462 # 2017-01-03 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
+5b28383 # 2017-01-03 # Zdrowy Gosciu @ devfreq: Fix Simple GPU Algorithm build
+57a72e3 # 2017-01-03 # Zdrowy Gosciu @ devfreq: Build Simple GPU
+811c7c5 # 2017-01-03 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
+46b1c46 # 2017-01-03 # Alucard24 @ cpufreq: Introduce nightmare governor
+27cc9d0 # 2017-01-03 # Zdrowy Gosciu @ mmc: Disable CRC check
+fc1eb07 # 2017-01-03 # Zdrowy Gosciu @ sched: Enable ARCH Power
+31bf5df # 2017-01-03 # Paul Keith @ sched: Export arch power to sysfs
+736ae15 # 2017-01-03 # ktoonsez @ sched: Make GENTLE_FAIR_SLEEPERS configurable thru sysfs
+ef084ce # 2017-01-03 # Pavel @ drivers: mmc: sysfs interface to enable / disable CRC
 b6c0727 # 2016-12-15 # Zdrowy Gosciu @ Version HML 6.4
 b9f9f55 # 2016-12-15 # Zdrowy Gosciu @ cpufreq: Build ZZMove & Barry Allen
 8426ece # 2016-12-15 # Sk Kim @ cpufreq: Introduce Barry Allen

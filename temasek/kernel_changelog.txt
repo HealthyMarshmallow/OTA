@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-12-14 @ 09:59:22 (1481709562)
+CHANGES AFTER 2016-12-29 @ 15:26:28 (1483025188)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,9 +7,12 @@ CHANGES AFTER 2016-12-14 @ 09:59:22 (1481709562)
                  |_____|              
 
 * Project device/lge/g2-common/
+6d486ac # 2017-01-07 # Zdrowy Gosciu @ Revert "g2-common: init: power: Disable CPU Boost"
 4987000 # 2017-01-04 # Zdrowy Gosciu @ g2-common: init: power: Disable CPU Boost
 
 * Project kernel/lge/msm8974/
+f9daef0 # 2017-01-07 # Zdrowy Gosciu @ Version HML 6.7
+abb65fb # 2017-01-07 # Zdrowy Gosciu @ Revert "adreno_idler: Enable at startup"
 c28fc01 # 2017-01-04 # Zdrowy Gosciu @ Version HML 6.6
 e8679fc # 2017-01-04 # Zdrowy Gosciu @ adreno_idler: Enable at startup
 ed7d9f4 # 2017-01-04 # Nathan Chancellor @ adreno_idler: Fix a declaration after statement warning
@@ -30,6 +33,3 @@ fc1eb07 # 2017-01-03 # Zdrowy Gosciu @ sched: Enable ARCH Power
 31bf5df # 2017-01-03 # Paul Keith @ sched: Export arch power to sysfs
 736ae15 # 2017-01-03 # ktoonsez @ sched: Make GENTLE_FAIR_SLEEPERS configurable thru sysfs
 ef084ce # 2017-01-03 # Pavel @ drivers: mmc: sysfs interface to enable / disable CRC
-b6c0727 # 2016-12-15 # Zdrowy Gosciu @ Version HML 6.4
-b9f9f55 # 2016-12-15 # Zdrowy Gosciu @ cpufreq: Build ZZMove & Barry Allen
-8426ece # 2016-12-15 # Sk Kim @ cpufreq: Introduce Barry Allen

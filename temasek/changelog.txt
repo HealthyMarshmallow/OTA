@@ -1,4 +1,4 @@
-CHANGES AFTER 2016-12-22 @ 09:45:13 (1482399913)
+CHANGES AFTER 2016-12-29 @ 15:26:28 (1483025188)
 
                         ______ ______ 
            .-----.-----|  __  |    __|
@@ -7,125 +7,105 @@ CHANGES AFTER 2016-12-22 @ 09:45:13 (1482399913)
                  |_____|              
 
 * Project OTA/
-1ec5274 # 2016-12-22 # Zdrowy Gosciu @ OTA: cm-13.0-20161222-094019-UNOFFICIAL-temasek-d802-V13.3
-
-* Project android/
-92b8d66 # 2016-12-29 # Zdrowy Gosciu @ Bye CM
-da814f3 # 2016-12-27 # Zdrowy Gosciu @ default: Update bionic
-
-* Project bionic/
-500baa1 # 2016-12-26 # Daniel Micay @ add fortified implementations of fread/fwrite
+0700d1d # 2017-01-04 # Zdrowy Gosciu @ Enjoy HML 6.6
+d109e3a # 2017-01-03 # Zdrowy Gosciu @ Enjoy HML 6.5
+febd98a # 2016-12-29 # Zdrowy Gosciu @ OTA: lineage-13.0-20161229-151658-UNOFFICIAL-temasek-d802-V13.4
 
 * Project build/
-b5616e4 # 2016-12-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'LEOS/cm-13.0' into mm
-22ba620 # 2016-12-27 # Zhao Wei Liew @ build: Rebrand to LineageOS
+b624792 # 2017-01-07 # Adam Seaton @ Updating Security String to 2017-01-01 on nyc-dev
+71170d6 # 2017-01-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'LEOS/cm-13.0' into mm
+6be9bd7 # 2017-01-05 # Luca Stefani @ Revert "Add PRODUCT_BOOTANIMATION"
+750b028 # 2017-01-04 # Ethan Chen @ qcom_target: Remove unused support for CAF manifests
+a0300d4 # 2017-01-02 # Zhao Wei Liew @ build: Rebrand CM_VERSION to LINEAGE_VERSION
+dde61aa # 2016-12-31 # Brandon McAnsh @ build: dumpvar: Display version as LINEAGE_VERSION
 
 * Project device/lge/g2-common/
-cafd732 # 2016-12-29 # Zdrowy Gosciu @ Revert "g2-common: Add vsync offsets"
+6d486ac # 2017-01-07 # Zdrowy Gosciu @ Revert "g2-common: init: power: Disable CPU Boost"
+4987000 # 2017-01-04 # Zdrowy Gosciu @ g2-common: init: power: Disable CPU Boost
+
+* Project external/chromium-webview/
+3d6e038 # 2017-01-07 # Zdrowy Gosciu @ arm: Android System WebView 56.0.2924.53 beta (292405350)
+
+* Project external/libhevc/
+e0bfa7c # 2017-01-07 # Harish Mahendrakar @ Handle invalid slice_address in slice header
+
+* Project external/libnl/
+72326f4 # 2017-01-07 # Paul Stewart @ libnl: Check data length in nla_reserve / nla_put
+
+* Project external/libopus/
+f3b854d # 2017-01-07 # Felicia Lim @ Ensure that NLSF cannot be negative when computing a min distance between them
+
+* Project external/libvpx/
+862689f # 2017-01-07 # Marco Nelissen @ vp8:fix threading issues
+
+* Project external/tremolo/
+657f193 # 2017-01-07 # Marco Nelissen @ Tremolo: fix ARM assembly code for decode_map type 3 case
+
+* Project frameworks/av/
+d954794 # 2017-01-07 # Sultanxda @ Add January 1, 2017 security patches
 
 * Project frameworks/base/
-10518c0 # 2016-12-29 # Zhao Wei Liew @ Revert "Update ADB status bar icon"
-1d1843d # 2016-12-29 # inky@build01 @ Automatic translation import
-1a19dc3 # 2016-12-29 # Zhao Wei Liew @ StatusBarIconView: Enable notification icon count by default
-b70c0b9 # 2016-12-29 # Zhao Wei Liew @ SettingsProvider: Remove def_notif_count overlay
-cb2d991 # 2016-12-29 # blinky@build01 @ Automatic translation import
-e1e4ec9 # 2016-12-29 # Omico @ Fix "Error parsing XML: not well-formed"
-1fd8c0d # 2016-12-29 # blinky@build01 @ Automatic translation import
-a19f743 # 2016-12-29 # clyde@build01 @ Automatic translation import
+68c6181 # 2017-01-07 # Jeff Sharkey @ Public volumes belong to a single user.
+4388d47 # 2017-01-07 # Joey Rizzoli @ base: Switch to LineageOS ADB icon
+584cc4a # 2017-01-07 # Michael W @ Telephony: Don't crash for too long baseband version
+3359147 # 2017-01-07 # Zhao Wei Liew @ Revert "Add CM PlatLogo (1/2)"
 
-* Project hardware/qcom/fm/
-d3b8ccf # 2016-12-24 # blinky@build01 @ Automatic translation import
+* Project frameworks/ex/
+62bca15 # 2017-01-07 # Chris Craik @ resolve merge conflicts of 3802db4 to mnc-dev
 
-* Project packages/apps/AudioFX/
-3ff4554 # 2016-12-24 # inky@build01 @ Automatic translation import
+* Project frameworks/native/
+d174044 # 2017-01-07 # Fabien Sanglard @ Fix SF security vulnerability: 32660278
 
-* Project packages/apps/Browser/
-07c6f51 # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/CMFileManager/
-f2babe2 # 2016-12-29 # Simon Shields @ CMFileManager: Rebrand to LineageOS
-6c6ca5a # 2016-12-24 # inky@build01 @ Automatic translation import
-76e91cf # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/Calendar/
-ca0d567 # 2016-12-24 # inky@build01 @ Automatic translation import
-a71664f # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/Eleven/
-4ca8e7f # 2016-12-24 # inky@build01 @ Automatic translation import
-cc469b3 # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/Email/
-ac643a8 # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/Gello/
-f8c1365 # 2016-12-24 # blinky@build01 @ Automatic translation import
-6f2bbcd # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/ManagedProvisioning/
-9d760da # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/apps/Messaging/
-83b5d3f # 2016-12-24 # blinky@build01 @ Automatic translation import
+* Project kernel/lge/msm8974/
+f9daef0 # 2017-01-07 # Zdrowy Gosciu @ Version HML 6.7
+abb65fb # 2017-01-07 # Zdrowy Gosciu @ Revert "adreno_idler: Enable at startup"
+c28fc01 # 2017-01-04 # Zdrowy Gosciu @ Version HML 6.6
+e8679fc # 2017-01-04 # Zdrowy Gosciu @ adreno_idler: Enable at startup
+ed7d9f4 # 2017-01-04 # Nathan Chancellor @ adreno_idler: Fix a declaration after statement warning
+c64f0e5 # 2017-01-04 # Joe Maples @ adreno_idler: Add display state awareness
+2b01b03 # 2017-01-04 # franciscofranco @ display: Add a simple API to query the display state
+db3f5a5 # 2017-01-03 # Zdrowy Gosciu @ Version HML 6.5
+25519f1 # 2017-01-03 # ktoonsez @ fs: Async I/O latency
+dc796eb # 2017-01-03 # franciscofranco @ fs: FSync On/Off
+0f5e75e # 2017-01-03 # Zdrowy Gosciu @ devfreq: Don't start Adreno Idler
+35b6e56 # 2017-01-03 # GuneetAtwal @ devfreq: Make Adreno Idler more aggressive
+62d1462 # 2017-01-03 # arter97 @ Introduce Adreno idler for devfreq-based Adreno devices
+5b28383 # 2017-01-03 # Zdrowy Gosciu @ devfreq: Fix Simple GPU Algorithm build
+57a72e3 # 2017-01-03 # Zdrowy Gosciu @ devfreq: Build Simple GPU
+811c7c5 # 2017-01-03 # Paul Reioux @ Simple GPU Algorithm: Initial coding for devfreq based Adreno Drivers
+46b1c46 # 2017-01-03 # Alucard24 @ cpufreq: Introduce nightmare governor
+27cc9d0 # 2017-01-03 # Zdrowy Gosciu @ mmc: Disable CRC check
+fc1eb07 # 2017-01-03 # Zdrowy Gosciu @ sched: Enable ARCH Power
+31bf5df # 2017-01-03 # Paul Keith @ sched: Export arch power to sysfs
+736ae15 # 2017-01-03 # ktoonsez @ sched: Make GENTLE_FAIR_SLEEPERS configurable thru sysfs
+ef084ce # 2017-01-03 # Pavel @ drivers: mmc: sysfs interface to enable / disable CRC
 
 * Project packages/apps/Settings/
-2a05ba8 # 2016-12-29 # Zdrowy Gosciu @ Build V13.4
-e069e44 # 2016-12-29 # Simon Shields @ Settings: Rebrand to LineageOS
-53b32de # 2016-12-29 # blinky@build01 @ Automatic translation import
-052224a # 2016-12-29 # blinky@build01 @ Automatic translation import
-8784675 # 2016-12-29 # blinky@build01 @ Automatic translation import
-3728eb0 # 2016-12-29 # clyde@build01 @ Automatic translation import
-8e90996 # 2016-12-29 # blinky@build01 @ Automatic translation import
-d9a0813 # 2016-12-29 # clyde@build01 @ Automatic translation import
-52e2bb6 # 2016-12-29 # pinky@build01 @ Automatic translation import
+eedec3b # 2017-01-07 # Zdrowy Gosciu @ Build V13.5
+fc1b331 # 2017-01-07 # Marcos Marado @ SimSettings: avoid NPE
 
-* Project packages/apps/ThemeChooser/
-870d934 # 2016-12-22 # blinky@build01 @ Automatic translation import
+* Project packages/apps/Snap/
+f56b588 # 2017-01-07 # Sultanxda @ Snap: Enforce 120ms delay in between shutter clicks
 
-* Project packages/apps/TvSettings/
-6552724 # 2016-12-24 # blinky@build01 @ Automatic translation import
-e14203b # 2016-12-22 # blinky@build01 @ Automatic translation import
+* Project packages/services/Telephony/
+d4cb42b # 2017-01-07 # Tyler Gunn @ Catch SIP exceptions which can crash Phone process on answer.
 
-* Project packages/apps/UnifiedEmail/
-3e34116 # 2016-12-24 # blinky@build01 @ Automatic translation import
-7a14afb # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/providers/DataUsageProvider/
-09bba63 # 2016-12-24 # blinky@build01 @ Automatic translation import
-
-* Project packages/screensavers/PhotoTable/
-c2fe354 # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/Basic/
-0236b04 # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/HoloSpiral/
-6f3e1af # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/LivePicker/
-ee49657 # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/MagicSmoke/
-ffe94a7 # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/NoiseField/
-789201e # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/PhaseBeam/
-f2c4616 # 2016-12-22 # blinky@build01 @ Automatic translation import
-
-* Project packages/wallpapers/PhotoPhase/
-0f076a3 # 2016-12-22 # blinky@build01 @ Automatic translation import
+* Project system/extras/su/
+a17e422 # 2016-12-30 # Zhao Wei Liew @ su: Disable su_daemon service by default
 
 * Project vendor/cm/
-ff77787 # 2016-12-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'LEOS/cm-13.0' into mm
-33083a8 # 2016-12-29 # Chau Truong Thinh @ Clean up 3G config for Vietnamese network
-e9bf910 # 2016-12-29 # Zhao Wei Liew @ cm: Rebrand to LineageOS
-7f06bc7 # 2016-12-24 # Zhao Wei Liew @ cm: Remove def_notif_count overlay
-35aa457 # 2016-12-24 # Zhao Wei Liew @ cm: common: Remove Launcher3 makefile entry
+ed7a7bc # 2017-01-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'LEOS/cm-13.0' into mm
+3521fa5 # 2017-01-04 # Rashed Abdel-Tawab @ bootanim: Use a for loop to make part# folders
+f5897a1 # 2017-01-04 # David Marble @ Fix wrong bootanimation.zip from mkdir .../part{0..2}
+5517e01 # 2017-01-04 # Griffin Millender @ cm: Rework boot animation generation
+b20aa05 # 2017-01-03 # codeworkx @ vendor: add codeworkx as leeco le 2 (s2) maintainer
+68718f9 # 2017-01-02 # Dan Pasanen @ vendor: Add a task for getting prebuilts via http
+a4ae481 # 2017-01-02 # Zhao Wei Liew @ cm: Rebrand CM_VERSION to LINEAGE_VERSION
+7e822d2 # 2016-12-31 # Zhao Wei Liew @ cm: Remove root access prop
+31a6dd5 # 2016-12-31 # Erwan Leboucher @ Revert "contributors: add LG V10"
+7429d14 # 2016-12-31 # Ilya Lebedev @ Contributors: Add maintainer for ARK Benefit A3 (peach)
+c50bcd7 # 2016-12-30 # Zhao Wei Liew @ cm: Switch to LineageOS privacy policy
 
 * Project vendor/cmsdk/
-3e1f87e # 2016-12-29 # Zdrowy Gosciu @ Merge remote-tracking branch 'LEOS/cm-13.0' into mm
-a00aed7 # 2016-12-29 # Simon Shields @ cmsdk: Rebrand to LineageOS
-e7fb0e1 # 2016-12-24 # blinky@build01 @ Automatic translation import
-c2a0f08 # 2016-12-22 # blinky@build01 @ Automatic translation import
+2008044 # 2017-01-07 # Zdrowy Gosciu @ Merge remote-tracking branch 'LEOS/cm-13.0' into mm
+8a975c0 # 2016-12-31 # Zhao Wei Liew @ cmsdk: Deprecate STATS_COLLECTION_REPORTED CMSetting
